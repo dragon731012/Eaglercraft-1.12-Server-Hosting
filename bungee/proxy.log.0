@@ -1,0 +1,2266 @@
+17:37:21 [INFO] Using mbed TLS based native cipher.
+17:37:21 [INFO] Using zlib based native compressor.
+17:37:21 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+17:37:21 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+17:37:21 [INFO] Epoll is working, utilising it!
+17:37:22 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+17:37:22 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+17:37:22 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+17:37:22 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+17:37:22 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+17:37:22 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:37:22 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+17:37:22 [INFO] Attempting to Jenkins download module cmd_alert v1889
+17:37:24 [INFO] Download complete
+17:37:24 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+17:37:24 [INFO] Attempting to Jenkins download module cmd_find v1889
+17:37:24 [INFO] Download complete
+17:37:24 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+17:37:24 [INFO] Attempting to Jenkins download module cmd_list v1889
+17:37:24 [INFO] Download complete
+17:37:24 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+17:37:24 [INFO] Attempting to Jenkins download module cmd_send v1889
+17:37:24 [INFO] Download complete
+17:37:24 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+17:37:24 [INFO] Attempting to Jenkins download module cmd_server v1889
+17:37:24 [INFO] Download complete
+17:37:24 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+17:37:24 [INFO] Attempting to Jenkins download module reconnect_yaml v1889
+17:37:25 [INFO] Download complete
+17:37:25 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:25 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:25 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:25 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:25 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:25 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:25 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+17:37:25 [WARNING] :>  
+17:37:25 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+17:37:25 [WARNING] :>  
+17:37:25 [WARNING] :>  This plugin wasn't tested to be 'working'
+17:37:25 [WARNING] :>  with ANY version of BungeeCord (and forks)
+17:37:25 [WARNING] :>  apart from the versions listed below:
+17:37:25 [WARNING] :>  
+17:37:25 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+17:37:25 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+17:37:25 [WARNING] :>  
+17:37:25 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+17:37:25 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+17:37:25 [WARNING] :>  
+17:37:25 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+17:37:25 [WARNING] :>  
+17:37:25 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+17:37:25 [WARNING] :>  
+17:37:25 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+17:37:25 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+17:37:27 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+17:37:27 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+17:37:28 [WARNING] Forced host server pvp is not defined
+17:37:28 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+17:37:28 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:28 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:28 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:28 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:28 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:28 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:37:28 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+17:37:28 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+17:37:30 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+17:37:30 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+17:37:30 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+17:37:30 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+17:37:30 [INFO] Listening on /127.0.0.1:25577
+17:41:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35546]: Connected via websocket
+17:41:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35546]: Origin header is http://localhost:8081
+17:41:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35546]: Logged in as 'yay'
+17:41:34 [INFO] [yay] -> UpstreamBridge has connected
+17:41:34 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:47:11 [INFO] [yay] -> UpstreamBridge has disconnected
+17:47:11 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:47:40 [INFO] [EaglercraftXBungee] Downloading new certificate: https://eaglercraft.com/backup.cert
+17:47:41 [SEVERE] [EaglercraftXBungee] Failed to download certificate: https://deev.is/eagler/backup.cert
+17:47:41 [SEVERE] [EaglercraftXBungee] Reason: java.io.IOException: Response code was 502
+17:47:41 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.e7d219ca32b33984feb543b8d6ab8b3441e63e5d.cert
+17:50:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36080]: Connected via websocket
+17:50:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36080]: Origin header is http://localhost:8081
+17:50:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36080]: Logged in as 'yay'
+17:50:34 [INFO] [yay] -> UpstreamBridge has connected
+17:50:34 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:50:37 [INFO] [yay] -> UpstreamBridge has disconnected
+17:50:37 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:50:37 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+17:53:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56598]: Connected via websocket
+17:53:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56598]: Origin header is http://localhost:8081
+17:53:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56598]: Logged in as 'yay'
+17:53:19 [INFO] [yay] -> UpstreamBridge has connected
+17:53:19 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:54:52 [INFO] [yay] -> UpstreamBridge has disconnected
+17:54:52 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+18:31:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:32810]: Connected via websocket
+18:31:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:32810]: Origin header is http://localhost:8081
+18:31:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:32810]: Logged in as 'Nine'
+18:31:35 [INFO] [Nine] -> UpstreamBridge has connected
+18:31:35 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+18:31:40 [INFO] [Nine] -> UpstreamBridge has disconnected
+18:31:40 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+18:32:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50626]: Connected via websocket
+18:32:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50626]: Origin header is http://localhost:8081
+18:32:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50626]: Logged in as 'yay'
+18:32:38 [INFO] [yay] -> UpstreamBridge has connected
+18:32:38 [INFO] [yay] <-> ServerConnector [lobby] has connected
+18:32:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33580]: Connected via websocket
+18:32:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33580]: Origin header is http://localhost:8081
+18:32:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33580]: Logged in as 'Nine'
+18:32:43 [INFO] [Nine] -> UpstreamBridge has connected
+18:32:43 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+18:46:17 [INFO] [yay] disconnected with: §fTimed out
+18:46:17 [INFO] [yay] -> UpstreamBridge has disconnected
+18:46:17 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+18:46:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35886]: Connected via websocket
+18:46:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35886]: Origin header is http://localhost:8081
+18:46:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35886]: Logged in as 'yay'
+18:46:43 [INFO] [yay] -> UpstreamBridge has connected
+18:46:43 [INFO] [yay] <-> ServerConnector [lobby] has connected
+18:49:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47418]: Connected via websocket
+18:49:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47418]: Origin header is http://localhost:8081
+18:49:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47418]: Logged in as 'Aidan_cool'
+18:49:35 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+18:49:35 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+18:49:39 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+18:49:39 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+18:49:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47432]: Connected via websocket
+18:49:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47432]: Origin header is http://localhost:8081
+18:49:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47432]: Logged in as 'Aidan_cool'
+18:49:41 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+18:49:41 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+18:51:10 [INFO] [Nine] -> UpstreamBridge has disconnected
+18:51:10 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+18:51:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56128]: Connected via websocket
+18:51:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56128]: Origin header is http://localhost:8081
+18:51:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56128]: Logged in as 'Nine'
+18:51:31 [INFO] [Nine] -> UpstreamBridge has connected
+18:51:31 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+18:52:13 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+18:52:13 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+18:52:18 [INFO] [yay] -> UpstreamBridge has disconnected
+18:52:18 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+18:52:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60026]: Connected via websocket
+18:52:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60026]: Origin header is http://localhost:8081
+18:52:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60026]: Logged in as 'yay'
+18:52:43 [INFO] [yay] -> UpstreamBridge has connected
+18:52:43 [INFO] [yay] <-> ServerConnector [lobby] has connected
+18:53:30 [INFO] [Nine] -> UpstreamBridge has disconnected
+18:53:30 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+18:53:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39734]: Connected via websocket
+18:53:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39734]: Origin header is http://localhost:8081
+18:53:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39734]: Logged in as 'Nine'
+18:53:38 [INFO] [Nine] -> UpstreamBridge has connected
+18:53:38 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+19:09:26 [INFO] [Nine] -> UpstreamBridge has disconnected
+19:09:26 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+19:09:30 [INFO] [yay] -> UpstreamBridge has disconnected
+19:09:30 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+15:31:02 [INFO] Using mbed TLS based native cipher.
+15:31:02 [INFO] Using zlib based native compressor.
+15:31:02 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+15:31:02 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+15:31:02 [INFO] Epoll is working, utilising it!
+15:31:02 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+15:31:02 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+15:31:02 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+15:31:02 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+15:31:02 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+15:31:02 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:31:02 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:02 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:02 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:02 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:02 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:02 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:02 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:31:02 [WARNING] :>  
+15:31:02 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+15:31:02 [WARNING] :>  
+15:31:02 [WARNING] :>  This plugin wasn't tested to be 'working'
+15:31:02 [WARNING] :>  with ANY version of BungeeCord (and forks)
+15:31:02 [WARNING] :>  apart from the versions listed below:
+15:31:02 [WARNING] :>  
+15:31:02 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+15:31:02 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+15:31:02 [WARNING] :>  
+15:31:02 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+15:31:02 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+15:31:02 [WARNING] :>  
+15:31:02 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+15:31:02 [WARNING] :>  
+15:31:02 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+15:31:02 [WARNING] :>  
+15:31:02 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:31:03 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+15:31:06 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+15:31:06 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+15:31:06 [WARNING] Forced host server pvp is not defined
+15:31:06 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+15:31:06 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:06 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:06 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:06 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:06 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:06 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:31:06 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+15:31:06 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+15:31:06 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+15:31:06 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+15:31:06 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+15:31:06 [INFO] Listening on /127.0.0.1:25577
+15:31:06 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.e7d219ca32b33984feb543b8d6ab8b3441e63e5d.cert
+15:31:06 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+15:45:15 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+15:47:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38070]: Connected via websocket
+15:47:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38070]: Origin header is http://localhost:8081
+15:47:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38070]: Logged in as 'yay'
+15:47:23 [INFO] [yay] -> UpstreamBridge has connected
+15:47:23 [INFO] [yay] <-> ServerConnector [lobby] has connected
+15:48:12 [INFO] [yay] -> UpstreamBridge has disconnected
+15:48:12 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+16:45:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55836]: Connected via websocket
+16:45:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55836]: Origin header is http://localhost:8081
+16:45:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55836]: Logged in as 'yay'
+16:45:46 [INFO] [yay] -> UpstreamBridge has connected
+16:45:46 [INFO] [yay] <-> ServerConnector [lobby] has connected
+16:50:54 [INFO] [yay] -> UpstreamBridge has disconnected
+16:50:54 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+16:52:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43380]: Connected via websocket
+16:52:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43380]: Origin header is http://localhost:8081
+16:52:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43380]: Logged in as 'yay'
+16:52:02 [INFO] [yay] -> UpstreamBridge has connected
+16:52:02 [INFO] [yay] <-> ServerConnector [lobby] has connected
+16:53:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59962]: Connected via websocket
+16:53:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59962]: Origin header is http://localhost:8081
+16:53:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59962]: Logged in as 'Nine'
+16:53:31 [INFO] [Nine] -> UpstreamBridge has connected
+16:53:31 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+16:54:12 [INFO] [yay] disconnected with: §f§cProxy lost connection to server.
+16:54:12 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+16:54:12 [INFO] [yay] -> UpstreamBridge has disconnected
+16:54:51 [INFO] [Nine] -> UpstreamBridge has disconnected
+16:54:51 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+16:59:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48662]: Connected via websocket
+16:59:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48662]: Origin header is http://localhost:8081
+16:59:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48662]: Logged in as 'yay'
+16:59:08 [INFO] [yay] -> UpstreamBridge has connected
+16:59:08 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:00:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43506]: Connected via websocket
+17:00:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43506]: Origin header is http://localhost:8081
+17:00:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43506]: Logged in as 'Nine'
+17:00:58 [INFO] [Nine] -> UpstreamBridge has connected
+17:00:58 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+17:06:27 [INFO] [yay] -> UpstreamBridge has disconnected
+17:06:27 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:08:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44616]: Connected via websocket
+17:08:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44616]: Origin header is http://localhost:8081
+17:08:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44616]: Logged in as 'yay'
+17:08:15 [INFO] [yay] -> UpstreamBridge has connected
+17:08:15 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:09:03 [INFO] [yay] -> UpstreamBridge has disconnected
+17:09:03 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:10:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42182]: Connected via websocket
+17:10:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42182]: Origin header is http://localhost:8081
+17:10:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42182]: Logged in as 'yay'
+17:10:30 [INFO] [yay] -> UpstreamBridge has connected
+17:10:30 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:10:38 [INFO] [yay] -> UpstreamBridge has disconnected
+17:10:38 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:11:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35972]: Connected via websocket
+17:11:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35972]: Origin header is http://localhost:8081
+17:11:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35972]: Logged in as 'yay'
+17:11:55 [INFO] [yay] -> UpstreamBridge has connected
+17:11:55 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:12:13 [INFO] [yay] -> UpstreamBridge has disconnected
+17:12:13 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:31:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47798]: Connected via websocket
+17:31:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47798]: Origin header is http://localhost:8081
+17:31:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47798]: Logged in as 'yay'
+17:31:39 [INFO] [yay] -> UpstreamBridge has connected
+17:31:39 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:32:54 [INFO] [yay] -> UpstreamBridge has disconnected
+17:32:54 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:33:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50642]: Connected via websocket
+17:33:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50642]: Origin header is http://localhost:8081
+17:33:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50642]: Logged in as 'yay'
+17:33:47 [INFO] [yay] -> UpstreamBridge has connected
+17:33:47 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:34:53 [INFO] [Nine] -> UpstreamBridge has disconnected
+17:34:53 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+17:34:55 [INFO] [yay] -> UpstreamBridge has disconnected
+17:34:55 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:36:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52152]: Connected via websocket
+17:36:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52152]: Origin header is http://localhost:8081
+17:36:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52152]: Logged in as 'Nine'
+17:36:46 [INFO] [Nine] -> UpstreamBridge has connected
+17:36:46 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+17:37:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59730]: Connected via websocket
+17:37:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59730]: Origin header is http://localhost:8081
+17:37:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59730]: Logged in as 'yay'
+17:37:43 [INFO] [yay] -> UpstreamBridge has connected
+17:37:43 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:41:09 [INFO] [Nine] -> UpstreamBridge has disconnected
+17:41:09 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+17:42:00 [INFO] [yay] -> UpstreamBridge has disconnected
+17:42:00 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:43:42 [WARNING] [EaglercraftXBungee] Deleting stale certificate: $dl.6a314f63448f669bee13950455200751edda2564.cert
+17:43:42 [WARNING] [EaglercraftXBungee] Certificate was deleted: $dl.6a314f63448f669bee13950455200751edda2564.cert
+17:46:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49464]: Connected via websocket
+17:46:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49464]: Origin header is http://localhost:8081
+17:46:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49464]: Logged in as 'yay'
+17:46:50 [INFO] [yay] -> UpstreamBridge has connected
+17:46:50 [INFO] [yay] <-> ServerConnector [lobby] has connected
+18:01:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43980]: Connected via websocket
+18:01:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43980]: Origin header is http://localhost:8081
+18:01:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43980]: Logged in as 'YeeYeeish1794'
+18:01:03 [INFO] [YeeYeeish1794] -> UpstreamBridge has connected
+18:01:03 [INFO] [YeeYeeish1794] <-> ServerConnector [lobby] has connected
+18:38:54 [INFO] [yay] -> UpstreamBridge has disconnected
+18:38:54 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+18:42:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33652]: Connected via websocket
+18:42:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33652]: Origin header is http://localhost:8081
+18:42:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33652]: Logged in as 'yay'
+18:42:13 [INFO] [yay] -> UpstreamBridge has connected
+18:42:13 [INFO] [yay] <-> ServerConnector [lobby] has connected
+19:00:18 [INFO] [yay] -> UpstreamBridge has disconnected
+19:00:18 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+19:00:33 [INFO] [YeeYeeish1794] -> UpstreamBridge has disconnected
+19:00:34 [INFO] [YeeYeeish1794] <-> DownstreamBridge <-> [lobby] has disconnected
+19:00:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47320]: Connected via websocket
+19:00:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47320]: Origin header is http://localhost:8081
+19:00:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47320]: Logged in as 'YeeYeeish1794'
+19:00:35 [INFO] [YeeYeeish1794] -> UpstreamBridge has connected
+19:00:35 [INFO] [YeeYeeish1794] <-> ServerConnector [lobby] has connected
+19:00:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47328]: Connected via websocket
+19:00:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47328]: Origin header is http://localhost:8081
+19:00:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47328]: Logged in as 'yay'
+19:00:40 [INFO] [yay] -> UpstreamBridge has connected
+19:00:40 [INFO] [yay] <-> ServerConnector [lobby] has connected
+19:00:52 [INFO] [yay] -> UpstreamBridge has disconnected
+19:00:52 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+19:01:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35370]: Connected via websocket
+19:01:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35370]: Origin header is http://localhost:8081
+19:01:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35370]: Logged in as 'yay'
+19:01:20 [INFO] [yay] -> UpstreamBridge has connected
+19:01:20 [INFO] [yay] <-> ServerConnector [lobby] has connected
+19:08:40 [INFO] [YeeYeeish1794] -> UpstreamBridge has disconnected
+19:08:40 [INFO] [YeeYeeish1794] <-> DownstreamBridge <-> [lobby] has disconnected
+19:09:56 [INFO] [yay] -> UpstreamBridge has disconnected
+19:09:56 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+19:13:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38046]: Connected via websocket
+19:13:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38046]: Origin header is http://localhost:8081
+19:13:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38046]: Logged in as 'yay'
+19:13:56 [INFO] [yay] -> UpstreamBridge has connected
+19:13:56 [INFO] [yay] <-> ServerConnector [lobby] has connected
+19:15:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58344]: Connected via websocket
+19:15:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58344]: Origin header is http://localhost:8081
+19:15:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58344]: Logged in as 'Nine'
+19:15:11 [INFO] [Nine] -> UpstreamBridge has connected
+19:15:11 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+19:19:15 [INFO] [Nine] -> UpstreamBridge has disconnected
+19:19:15 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+19:19:36 [INFO] [yay] -> UpstreamBridge has disconnected
+19:19:36 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+19:20:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40750]: Connected via websocket
+19:20:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40750]: Origin header is http://localhost:8081
+19:20:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40750]: Logged in as 'Nine'
+19:20:19 [INFO] [Nine] -> UpstreamBridge has connected
+19:20:19 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+19:21:09 [INFO] [Nine] disconnected with: §fServer closed
+19:21:09 [INFO] [Nine] -> UpstreamBridge has disconnected
+19:21:09 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+19:21:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35764]: Connected via websocket
+19:21:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35764]: Origin header is http://localhost:8081
+19:21:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35764]: Logged in as 'Nine'
+19:21:13 [INFO] [Nine] -> UpstreamBridge has connected
+19:21:13 [INFO] [Nine] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+19:21:13 [INFO] [Nine] -> UpstreamBridge has disconnected
+19:25:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46626]: Connected via websocket
+19:25:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46626]: Origin header is http://localhost:8081
+19:25:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46626]: Logged in as 'Nine'
+19:25:40 [INFO] [Nine] -> UpstreamBridge has connected
+19:25:40 [INFO] [Nine] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+19:25:40 [INFO] [Nine] -> UpstreamBridge has disconnected
+19:31:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33598]: Connected via websocket
+19:31:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33598]: Origin header is http://localhost:8081
+19:31:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33598]: Logged in as 'Nine'
+19:31:04 [INFO] [Nine] -> UpstreamBridge has connected
+19:31:04 [INFO] [Nine] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+19:31:04 [INFO] [Nine] -> UpstreamBridge has disconnected
+19:53:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36762]: Connected via websocket
+19:53:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36762]: Origin header is http://localhost:8081
+19:53:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36762]: Logged in as 'Nine'
+19:53:02 [INFO] [Nine] -> UpstreamBridge has connected
+19:53:02 [INFO] [Nine] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+19:53:02 [INFO] [Nine] -> UpstreamBridge has disconnected
+20:00:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55400]: Connected via websocket
+20:00:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55400]: Origin header is http://localhost:8081
+20:00:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55400]: Logged in as 'yay'
+20:00:11 [INFO] [yay] -> UpstreamBridge has connected
+20:00:11 [INFO] [yay] <-> ServerConnector [lobby] has connected
+20:00:26 [INFO] [yay] -> UpstreamBridge has disconnected
+20:00:26 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+20:06:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60890]: Connected via websocket
+20:06:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60890]: Origin header is http://localhost:8081
+20:06:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60890]: Logged in as 'Nine'
+20:06:57 [INFO] [Nine] -> UpstreamBridge has connected
+20:06:57 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+20:11:11 [INFO] [Nine] -> UpstreamBridge has disconnected
+20:11:11 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+20:11:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41728]: Connected via websocket
+20:11:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41728]: Origin header is http://localhost:8081
+20:11:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41728]: Logged in as 'Nine'
+20:11:28 [INFO] [Nine] -> UpstreamBridge has connected
+20:11:28 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+20:13:17 [INFO] [Nine] -> UpstreamBridge has disconnected
+20:13:17 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+20:13:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60192]: Connected via websocket
+20:13:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60192]: Origin header is http://localhost:8081
+20:13:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60192]: Logged in as 'Nine'
+20:13:19 [INFO] [Nine] -> UpstreamBridge has connected
+20:13:19 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+20:26:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41438]: Connected via websocket
+20:26:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41438]: Origin header is http://localhost:8081
+20:26:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41438]: Logged in as 'YeeYeeish1794'
+20:26:54 [INFO] [YeeYeeish1794] -> UpstreamBridge has connected
+20:26:54 [INFO] [YeeYeeish1794] <-> ServerConnector [lobby] has connected
+20:27:14 [INFO] [YeeYeeish1794] -> UpstreamBridge has disconnected
+20:27:14 [INFO] [YeeYeeish1794] <-> DownstreamBridge <-> [lobby] has disconnected
+20:47:57 [INFO] [Nine] -> UpstreamBridge has disconnected
+20:47:57 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+21:28:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50302]: Connected via websocket
+21:28:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50302]: Origin header is http://localhost:8081
+21:28:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50302]: Logged in as 'yay'
+21:28:25 [INFO] [yay] -> UpstreamBridge has connected
+21:28:25 [INFO] [yay] <-> ServerConnector [lobby] has connected
+21:31:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37402]: Connected via websocket
+21:31:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37402]: Origin header is http://localhost:8081
+21:31:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37402]: Logged in as 'Nine'
+21:31:24 [INFO] [Nine] -> UpstreamBridge has connected
+21:31:24 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+21:53:04 [INFO] [Nine] -> UpstreamBridge has disconnected
+21:53:04 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+21:55:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55262]: Connected via websocket
+21:55:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55262]: Origin header is http://localhost:8081
+21:55:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55262]: Logged in as 'Aidan_cool'
+21:55:03 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+21:55:03 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+21:57:44 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+21:57:44 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+21:57:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37690]: Connected via websocket
+21:57:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37690]: Origin header is http://localhost:8081
+21:57:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37690]: Logged in as 'Aidan_cool'
+21:57:49 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+21:57:49 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+21:59:20 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+21:59:20 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+21:59:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48606]: Connected via websocket
+21:59:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48606]: Origin header is http://localhost:8081
+21:59:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48606]: Logged in as 'nine'
+21:59:29 [INFO] [nine] -> UpstreamBridge has connected
+21:59:29 [INFO] [nine] <-> ServerConnector [lobby] has connected
+21:59:32 [INFO] [nine] -> UpstreamBridge has disconnected
+21:59:32 [INFO] [nine] <-> DownstreamBridge <-> [lobby] has disconnected
+21:59:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54460]: Connected via websocket
+21:59:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54460]: Origin header is http://localhost:8081
+21:59:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54460]: Logged in as 'Nine'
+21:59:40 [INFO] [Nine] -> UpstreamBridge has connected
+21:59:40 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+21:59:50 [INFO] [Nine] -> UpstreamBridge has disconnected
+21:59:50 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+21:59:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42976]: Connected via websocket
+21:59:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42976]: Origin header is http://localhost:8081
+21:59:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42976]: Logged in as 'Nine'
+21:59:52 [INFO] [Nine] -> UpstreamBridge has connected
+21:59:52 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+21:59:55 [INFO] [Nine] -> UpstreamBridge has disconnected
+21:59:55 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+22:00:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55238]: Connected via websocket
+22:00:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55238]: Origin header is http://localhost:8081
+22:00:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55238]: Logged in as 'Aidan_cool'
+22:00:11 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+22:00:11 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+22:05:42 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+22:05:42 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+22:30:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42264]: Connected via websocket
+22:30:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42264]: Origin header is http://localhost:8081
+22:30:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42264]: Logged in as 'Nine'
+22:30:36 [INFO] [Nine] -> UpstreamBridge has connected
+22:30:36 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+22:39:00 [INFO] [Nine] disconnected with: §f§cProxy lost connection to server.
+22:39:00 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+22:39:00 [INFO] [Nine] -> UpstreamBridge has disconnected
+22:39:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48830]: Connected via websocket
+22:39:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48830]: Origin header is http://localhost:8081
+22:39:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48830]: Logged in as 'Nine'
+22:39:44 [INFO] [Nine] -> UpstreamBridge has connected
+22:39:44 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+22:49:31 [INFO] [yay] -> UpstreamBridge has disconnected
+22:49:31 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+22:54:33 [INFO] [Nine] disconnected with: §f§cProxy lost connection to server.
+22:54:33 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+22:54:33 [INFO] [Nine] -> UpstreamBridge has disconnected
+22:54:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34776]: Connected via websocket
+22:54:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34776]: Origin header is http://localhost:8081
+22:54:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34776]: Logged in as 'Nine'
+22:54:58 [INFO] [Nine] -> UpstreamBridge has connected
+22:54:58 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+23:39:31 [INFO] [Nine] -> UpstreamBridge has disconnected
+23:39:31 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+23:39:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36006]: Connected via websocket
+23:39:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36006]: Origin header is http://localhost:8081
+23:39:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36006]: Logged in as 'Nine'
+23:39:34 [INFO] [Nine] -> UpstreamBridge has connected
+23:39:34 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+00:01:33 [INFO] [Nine] disconnected with: §f§cProxy lost connection to server.
+00:01:33 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+00:01:33 [INFO] [Nine] -> UpstreamBridge has disconnected
+00:01:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47626]: Connected via websocket
+00:01:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47626]: Origin header is http://localhost:8081
+00:01:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47626]: Logged in as 'Nine'
+00:01:38 [INFO] [Nine] -> UpstreamBridge has connected
+00:01:38 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+00:22:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37170]: Connected via websocket
+00:22:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37170]: Origin header is http://localhost:8081
+00:22:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37170]: Logged in as 'yay'
+00:22:55 [INFO] [yay] -> UpstreamBridge has connected
+00:22:55 [INFO] [yay] <-> ServerConnector [lobby] has connected
+00:26:22 [INFO] [yay] -> UpstreamBridge has disconnected
+00:26:22 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+00:42:02 [INFO] [Nine] -> UpstreamBridge has disconnected
+00:42:02 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+00:42:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50792]: Connected via websocket
+00:42:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50792]: Origin header is http://localhost:8081
+00:42:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50792]: Logged in as 'Nine'
+00:42:23 [INFO] [Nine] -> UpstreamBridge has connected
+00:42:23 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+00:43:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:32772]: Connected via websocket
+00:43:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:32772]: Origin header is http://localhost:8081
+00:43:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:32772]: Logged in as 'yay'
+00:43:40 [INFO] [yay] -> UpstreamBridge has connected
+00:43:40 [INFO] [yay] <-> ServerConnector [lobby] has connected
+00:44:11 [INFO] [Nine] -> UpstreamBridge has disconnected
+00:44:11 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+00:44:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39024]: Connected via websocket
+00:44:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39024]: Origin header is http://localhost:8081
+00:44:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39024]: Logged in as 'Nine'
+00:44:14 [INFO] [Nine] -> UpstreamBridge has connected
+00:44:14 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+00:48:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52278]: Connected via websocket
+00:48:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52278]: Origin header is http://localhost:8081
+00:48:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52278]: Logged in as 'YeeYeeish3682_'
+00:48:38 [INFO] [YeeYeeish3682_] -> UpstreamBridge has connected
+00:48:38 [INFO] [YeeYeeish3682_] <-> ServerConnector [lobby] has connected
+00:59:14 [INFO] [Nine] -> UpstreamBridge has disconnected
+00:59:14 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+01:02:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43428]: Connected via websocket
+01:02:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43428]: Origin header is http://localhost:8081
+01:02:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43428]: Logged in as 'sefi'
+01:02:55 [INFO] [sefi] -> UpstreamBridge has connected
+01:02:55 [INFO] [sefi] <-> ServerConnector [lobby] has connected
+01:10:58 [INFO] [yay] disconnected with: §f§cProxy lost connection to server.
+01:10:58 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:10:58 [INFO] [yay] -> UpstreamBridge has disconnected
+01:11:30 [INFO] [sefi] -> UpstreamBridge has disconnected
+01:11:30 [INFO] [sefi] <-> DownstreamBridge <-> [lobby] has disconnected
+01:11:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43688]: Connected via websocket
+01:11:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43688]: Origin header is http://localhost:8081
+01:11:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43688]: Logged in as 'sefi'
+01:11:33 [INFO] [sefi] -> UpstreamBridge has connected
+01:11:33 [INFO] [sefi] <-> ServerConnector [lobby] has connected
+01:11:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60922]: Connected via websocket
+01:11:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60922]: Origin header is http://localhost:8081
+01:11:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60922]: Logged in as 'yay'
+01:11:44 [INFO] [yay] -> UpstreamBridge has connected
+01:11:44 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:12:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35856]: Connected via websocket
+01:12:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35856]: Origin header is http://localhost:8081
+01:12:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35856]: Logged in as 'Nine'
+01:12:26 [INFO] [Nine] -> UpstreamBridge has connected
+01:12:26 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+01:15:53 [INFO] [yay] disconnected with: §f§cProxy lost connection to server.
+01:15:53 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:15:53 [INFO] [yay] -> UpstreamBridge has disconnected
+01:16:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57454]: Connected via websocket
+01:16:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57454]: Origin header is http://localhost:8081
+01:16:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57454]: Logged in as 'yay'
+01:16:24 [INFO] [yay] -> UpstreamBridge has connected
+01:16:24 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:17:10 [INFO] [yay] disconnected with: §f§cProxy lost connection to server.
+01:17:10 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:17:10 [INFO] [yay] -> UpstreamBridge has disconnected
+01:17:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44702]: Connected via websocket
+01:17:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44702]: Origin header is http://localhost:8081
+01:17:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44702]: Logged in as 'yay'
+01:17:18 [INFO] [yay] -> UpstreamBridge has connected
+01:17:18 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:17:39 [INFO] [yay] -> UpstreamBridge has disconnected
+01:17:39 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:19:26 [INFO] [Nine] -> UpstreamBridge has disconnected
+01:19:26 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+01:19:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37156]: Connected via websocket
+01:19:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37156]: Origin header is http://localhost:8081
+01:19:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37156]: Logged in as 'yay'
+01:19:53 [INFO] [yay] -> UpstreamBridge has connected
+01:19:53 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:20:13 [INFO] [yay] -> UpstreamBridge has disconnected
+01:20:13 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:36:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51286]: Connected via websocket
+01:36:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51286]: Origin header is http://localhost:8081
+01:36:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51286]: Logged in as 'Nine'
+01:36:29 [INFO] [Nine] -> UpstreamBridge has connected
+01:36:29 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+01:38:30 [INFO] [YeeYeeish3682_] -> UpstreamBridge has disconnected
+01:38:30 [INFO] [YeeYeeish3682_] <-> DownstreamBridge <-> [lobby] has disconnected
+01:40:17 [INFO] [sefi] disconnected with: §f§cProxy lost connection to server.
+01:40:17 [INFO] [sefi] <-> DownstreamBridge <-> [lobby] has disconnected
+01:40:17 [INFO] [sefi] -> UpstreamBridge has disconnected
+01:40:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51624]: Connected via websocket
+01:40:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51624]: Origin header is http://localhost:8081
+01:40:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51624]: Logged in as 'sefi'
+01:40:31 [INFO] [sefi] -> UpstreamBridge has connected
+01:40:31 [INFO] [sefi] <-> ServerConnector [lobby] has connected
+01:40:58 [INFO] [sefi] -> UpstreamBridge has disconnected
+01:40:58 [INFO] [sefi] <-> DownstreamBridge <-> [lobby] has disconnected
+01:41:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38140]: Connected via websocket
+01:41:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38140]: Origin header is http://localhost:8081
+01:41:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38140]: Logged in as 'sefi'
+01:41:10 [INFO] [sefi] -> UpstreamBridge has connected
+01:41:10 [INFO] [sefi] <-> ServerConnector [lobby] has connected
+01:42:04 [INFO] [sefi] -> UpstreamBridge has disconnected
+01:42:04 [INFO] [sefi] <-> DownstreamBridge <-> [lobby] has disconnected
+01:42:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57244]: Connected via websocket
+01:42:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57244]: Origin header is http://localhost:8081
+01:42:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57244]: Logged in as 'sefi'
+01:42:15 [INFO] [sefi] -> UpstreamBridge has connected
+01:42:15 [INFO] [sefi] <-> ServerConnector [lobby] has connected
+01:46:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38220]: Connected via websocket
+01:46:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38220]: Origin header is http://localhost:8081
+01:46:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38220]: Logged in as 'yay'
+01:46:13 [INFO] [yay] -> UpstreamBridge has connected
+01:46:13 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:58:06 [INFO] [sefi] -> UpstreamBridge has disconnected
+01:58:06 [INFO] [sefi] <-> DownstreamBridge <-> [lobby] has disconnected
+02:05:11 [INFO] [Nine] disconnected with: §f§cProxy lost connection to server.
+02:05:11 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+02:05:11 [INFO] [Nine] -> UpstreamBridge has disconnected
+02:05:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39344]: Connected via websocket
+02:05:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39344]: Origin header is http://localhost:8081
+02:05:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39344]: Logged in as 'Nine'
+02:05:25 [INFO] [Nine] -> UpstreamBridge has connected
+02:05:25 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+02:31:36 [INFO] [yay] -> UpstreamBridge has disconnected
+02:31:36 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+02:38:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53890]: Connected via websocket
+02:38:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53890]: Origin header is http://localhost:8081
+02:38:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53890]: Logged in as 'yay'
+02:38:55 [INFO] [yay] -> UpstreamBridge has connected
+02:38:55 [INFO] [yay] <-> ServerConnector [lobby] has connected
+02:59:59 [INFO] [yay] -> UpstreamBridge has disconnected
+02:59:59 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+03:33:13 [INFO] Using mbed TLS based native cipher.
+03:33:13 [INFO] Using zlib based native compressor.
+03:33:13 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+03:33:14 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+03:33:14 [INFO] Epoll is working, utilising it!
+03:33:14 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+03:33:14 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+03:33:14 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+03:33:14 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+03:33:14 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+03:33:14 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+03:33:15 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:15 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:15 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:15 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:15 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:15 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:15 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+03:33:15 [WARNING] :>  
+03:33:15 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+03:33:15 [WARNING] :>  
+03:33:15 [WARNING] :>  This plugin wasn't tested to be 'working'
+03:33:15 [WARNING] :>  with ANY version of BungeeCord (and forks)
+03:33:15 [WARNING] :>  apart from the versions listed below:
+03:33:15 [WARNING] :>  
+03:33:15 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+03:33:15 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+03:33:15 [WARNING] :>  
+03:33:15 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+03:33:15 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+03:33:15 [WARNING] :>  
+03:33:15 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+03:33:15 [WARNING] :>  
+03:33:15 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+03:33:15 [WARNING] :>  
+03:33:15 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+03:33:15 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+03:33:16 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+03:33:16 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+03:33:16 [WARNING] Forced host server pvp is not defined
+03:33:16 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+03:33:16 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:16 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:16 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:16 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:16 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:16 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+03:33:16 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+03:33:17 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+03:33:17 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+03:33:17 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+03:33:17 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+03:33:17 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.e7d219ca32b33984feb543b8d6ab8b3441e63e5d.cert
+03:33:17 [INFO] Listening on /127.0.0.1:25577
+03:34:05 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+03:34:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47120]: Connected via websocket
+03:34:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47120]: Origin header is http://localhost:8081
+03:34:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47120]: Logged in as 'Nine'
+03:34:07 [INFO] [Nine] -> UpstreamBridge has connected
+03:34:07 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+04:00:12 [INFO] [Nine] -> UpstreamBridge has disconnected
+04:00:12 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+08:58:45 [INFO] Closing listener [id: 0x25ffd0f3, L:/127.0.0.1:25577]
+08:58:45 [INFO] Closing pending connections
+08:58:45 [INFO] Disconnecting 0 connections
+08:58:45 [INFO] Disabling plugins
+08:58:45 [INFO] [EaglercraftXBungee] Eaglercraft listener closed: /0.0.0.0:8081
+08:58:45 [INFO] [EaglercraftXBungee] Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+08:58:45 [INFO] [EaglercraftXBungee] Stopping skin cache HTTP client...
+08:58:47 [INFO] Closing IO threads
+15:28:38 [INFO] Using mbed TLS based native cipher.
+15:28:38 [INFO] Using zlib based native compressor.
+15:28:38 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+15:28:38 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+15:28:38 [INFO] Epoll is working, utilising it!
+15:28:39 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+15:28:39 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+15:28:39 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+15:28:39 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+15:28:39 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+15:28:39 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:28:39 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:39 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:39 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:39 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:39 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:39 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:39 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:28:39 [WARNING] :>  
+15:28:39 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+15:28:39 [WARNING] :>  
+15:28:39 [WARNING] :>  This plugin wasn't tested to be 'working'
+15:28:39 [WARNING] :>  with ANY version of BungeeCord (and forks)
+15:28:39 [WARNING] :>  apart from the versions listed below:
+15:28:39 [WARNING] :>  
+15:28:39 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+15:28:39 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+15:28:39 [WARNING] :>  
+15:28:39 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+15:28:39 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+15:28:39 [WARNING] :>  
+15:28:39 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+15:28:39 [WARNING] :>  
+15:28:39 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+15:28:39 [WARNING] :>  
+15:28:39 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:28:39 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+15:28:41 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+15:28:41 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+15:28:41 [WARNING] Forced host server pvp is not defined
+15:28:41 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+15:28:41 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:41 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:41 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:41 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:41 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:41 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:28:41 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+15:28:41 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+15:28:41 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+15:28:41 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+15:28:41 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+15:28:41 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.e7d219ca32b33984feb543b8d6ab8b3441e63e5d.cert
+15:28:41 [INFO] Listening on /127.0.0.1:25577
+15:29:21 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+15:29:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38796]: Connected via websocket
+15:29:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38796]: Origin header is http://localhost:8081
+15:29:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38796]: Logged in as 'yay'
+15:29:23 [INFO] [yay] -> UpstreamBridge has connected
+15:29:23 [INFO] [yay] <-> ServerConnector [lobby] has connected
+15:33:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35090]: Connected via websocket
+15:33:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35090]: Origin header is http://localhost:8081
+15:33:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35090]: Logged in as 'Nine'
+15:33:59 [INFO] [Nine] -> UpstreamBridge has connected
+15:33:59 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+15:41:54 [INFO] [Nine] -> UpstreamBridge has disconnected
+15:41:54 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+16:04:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60480]: Connected via websocket
+16:04:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60480]: Origin header is http://localhost:8081
+16:04:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60480]: Logged in as 'Nine'
+16:04:47 [INFO] [Nine] -> UpstreamBridge has connected
+16:04:47 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+16:05:03 [INFO] [Nine] disconnected with: §fFlying is not enabled on this server
+16:05:03 [INFO] [Nine] -> UpstreamBridge has disconnected
+16:05:03 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+16:05:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44342]: Connected via websocket
+16:05:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44342]: Origin header is http://localhost:8081
+16:05:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44342]: Logged in as 'Nine'
+16:05:10 [INFO] [Nine] -> UpstreamBridge has connected
+16:05:10 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+16:18:10 [INFO] [Nine] -> UpstreamBridge has disconnected
+16:18:10 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+16:18:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43794]: Connected via websocket
+16:18:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43794]: Origin header is http://localhost:8081
+16:18:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43794]: Logged in as 'Nine'
+16:18:31 [INFO] [Nine] -> UpstreamBridge has connected
+16:18:31 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+16:22:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35860]: Connected via websocket
+16:22:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35860]: Origin header is http://localhost:8081
+16:22:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35860]: Logged in as 'YeeYeeish1794'
+16:22:45 [INFO] [YeeYeeish1794] -> UpstreamBridge has connected
+16:22:45 [INFO] [YeeYeeish1794] <-> ServerConnector [lobby] has connected
+16:23:30 [INFO] [yay] disconnected with: §f§cProxy lost connection to server.
+16:23:30 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+16:23:30 [INFO] [yay] -> UpstreamBridge has disconnected
+16:23:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42028]: Connected via websocket
+16:23:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42028]: Origin header is http://localhost:8081
+16:23:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42028]: Logged in as 'Aidan_cool'
+16:23:32 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+16:23:32 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+16:26:06 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+16:26:06 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+16:26:57 [INFO] [YeeYeeish1794] -> UpstreamBridge has disconnected
+16:26:57 [INFO] [YeeYeeish1794] <-> DownstreamBridge <-> [lobby] has disconnected
+16:30:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58368]: Connected via websocket
+16:30:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58368]: Origin header is http://localhost:8081
+16:30:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58368]: Logged in as 'yay'
+16:30:33 [INFO] [yay] -> UpstreamBridge has connected
+16:30:33 [INFO] [yay] <-> ServerConnector [lobby] has connected
+16:30:37 [INFO] [yay] -> UpstreamBridge has disconnected
+16:30:37 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+16:31:23 [INFO] [Nine] -> UpstreamBridge has disconnected
+16:31:23 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+16:34:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35392]: Connected via websocket
+16:34:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35392]: Origin header is http://localhost:8081
+16:34:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35392]: Logged in as 'yay'
+16:34:04 [INFO] [yay] -> UpstreamBridge has connected
+16:34:04 [INFO] [yay] <-> ServerConnector [lobby] has connected
+16:39:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50752]: Connected via websocket
+16:39:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50752]: Origin header is http://localhost:8081
+16:39:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50752]: Logged in as 'Nine'
+16:39:30 [INFO] [Nine] -> UpstreamBridge has connected
+16:39:30 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+16:40:04 [INFO] [yay] -> UpstreamBridge has disconnected
+16:40:04 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+16:40:42 [INFO] [Nine] -> UpstreamBridge has disconnected
+16:40:42 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+16:41:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39218]: Connected via websocket
+16:41:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39218]: Origin header is http://localhost:8081
+16:41:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39218]: Logged in as 'Nine'
+16:41:34 [INFO] [Nine] -> UpstreamBridge has connected
+16:41:34 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+16:44:17 [INFO] [Nine] -> UpstreamBridge has disconnected
+16:44:17 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+16:44:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46332]: Connected via websocket
+16:44:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46332]: Origin header is http://localhost:8081
+16:44:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46332]: Logged in as 'Nine'
+16:44:18 [INFO] [Nine] -> UpstreamBridge has connected
+16:44:18 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+16:47:26 [INFO] [Nine] -> UpstreamBridge has disconnected
+16:47:26 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+16:48:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57948]: Connected via websocket
+16:48:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57948]: Origin header is http://localhost:8081
+16:48:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57948]: Logged in as 'Nine'
+16:48:56 [INFO] [Nine] -> UpstreamBridge has connected
+16:48:56 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+16:57:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56792]: Connected via websocket
+16:57:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56792]: Origin header is http://localhost:8081
+16:57:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56792]: Logged in as 'yay'
+16:57:24 [INFO] [yay] -> UpstreamBridge has connected
+16:57:24 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:12:14 [INFO] [Nine] -> UpstreamBridge has disconnected
+17:12:14 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+17:12:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46076]: Connected via websocket
+17:12:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46076]: Origin header is http://localhost:8081
+17:12:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46076]: Logged in as 'Nine'
+17:12:19 [INFO] [Nine] -> UpstreamBridge has connected
+17:12:19 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+17:14:15 [INFO] [yay] -> UpstreamBridge has disconnected
+17:14:15 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:14:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49402]: Connected via websocket
+17:14:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49402]: Origin header is http://localhost:8081
+17:14:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49402]: Logged in as 'yay'
+17:14:47 [INFO] [yay] -> UpstreamBridge has connected
+17:14:47 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:18:06 [INFO] [Nine] -> UpstreamBridge has disconnected
+17:18:06 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+17:21:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60180]: Connected via websocket
+17:21:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60180]: Origin header is http://localhost:8081
+17:21:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60180]: Logged in as 'Nine'
+17:21:48 [INFO] [Nine] -> UpstreamBridge has connected
+17:21:48 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+17:23:08 [INFO] [Nine] -> UpstreamBridge has disconnected
+17:23:08 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+17:31:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55598]: Connected via websocket
+17:31:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55598]: Origin header is http://localhost:8081
+17:31:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55598]: Logged in as 'Nine'
+17:31:40 [INFO] [Nine] -> UpstreamBridge has connected
+17:31:40 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+17:33:36 [INFO] [Nine] -> UpstreamBridge has disconnected
+17:33:36 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+17:35:35 [INFO] [yay] -> UpstreamBridge has disconnected
+17:35:35 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:38:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52542]: Connected via websocket
+17:38:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52542]: Origin header is http://localhost:8081
+17:38:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52542]: Logged in as 'Nine'
+17:38:01 [INFO] [Nine] -> UpstreamBridge has connected
+17:38:01 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+17:38:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60446]: Connected via websocket
+17:38:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60446]: Origin header is http://localhost:8081
+17:38:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60446]: Logged in as 'yay'
+17:38:12 [INFO] [yay] -> UpstreamBridge has connected
+17:38:12 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:42:16 [INFO] [Nine] -> UpstreamBridge has disconnected
+17:42:16 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+17:42:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55048]: Connected via websocket
+17:42:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55048]: Origin header is http://localhost:8081
+17:42:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55048]: Logged in as 'Nine'
+17:42:40 [INFO] [Nine] -> UpstreamBridge has connected
+17:42:40 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+17:43:13 [INFO] [Nine] -> UpstreamBridge has disconnected
+17:43:13 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+17:50:50 [INFO] [yay] -> UpstreamBridge has disconnected
+17:50:50 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+17:51:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56822]: Connected via websocket
+17:51:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56822]: Origin header is http://localhost:8081
+17:51:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56822]: Logged in as 'yay'
+17:51:25 [INFO] [yay] -> UpstreamBridge has connected
+17:51:25 [INFO] [yay] <-> ServerConnector [lobby] has connected
+17:54:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57924]: Connected via websocket
+17:54:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57924]: Origin header is http://localhost:8081
+17:54:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57924]: Logged in as 'Nine'
+17:54:30 [INFO] [Nine] -> UpstreamBridge has connected
+17:54:30 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+17:56:53 [INFO] [Nine] -> UpstreamBridge has disconnected
+17:56:53 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+18:07:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39392]: Connected via websocket
+18:07:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39392]: Origin header is http://localhost:8081
+18:07:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39392]: Logged in as 'YeeYeeish1794'
+18:07:48 [INFO] [YeeYeeish1794] -> UpstreamBridge has connected
+18:07:48 [INFO] [YeeYeeish1794] <-> ServerConnector [lobby] has connected
+18:17:45 [INFO] [YeeYeeish1794] -> UpstreamBridge has disconnected
+18:17:45 [INFO] [YeeYeeish1794] <-> DownstreamBridge <-> [lobby] has disconnected
+18:23:06 [INFO] [yay] -> UpstreamBridge has disconnected
+18:23:06 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+18:31:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39938]: Connected via websocket
+18:31:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39938]: Origin header is http://localhost:8081
+18:31:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39938]: Logged in as 'YeeYeeish1794'
+18:31:04 [INFO] [YeeYeeish1794] -> UpstreamBridge has connected
+18:31:04 [INFO] [YeeYeeish1794] <-> ServerConnector [lobby] has connected
+18:31:21 [INFO] [YeeYeeish1794] -> UpstreamBridge has disconnected
+18:31:21 [INFO] [YeeYeeish1794] <-> DownstreamBridge <-> [lobby] has disconnected
+18:31:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58922]: Connected via websocket
+18:31:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58922]: Origin header is http://localhost:8081
+18:31:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58922]: Logged in as 'nigletmcjr'
+18:31:51 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+18:31:51 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+18:38:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57534]: Connected via websocket
+18:38:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57534]: Origin header is http://localhost:8081
+18:38:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57534]: Logged in as 'Nine'
+18:38:29 [INFO] [Nine] -> UpstreamBridge has connected
+18:38:29 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+18:38:31 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+18:38:31 [INFO] [nigletmcjr] <-> DownstreamBridge <-> [lobby] has disconnected
+18:39:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47762]: Connected via websocket
+18:39:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47762]: Origin header is http://localhost:8081
+18:39:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47762]: Logged in as 'YeeYeeish1794'
+18:39:48 [INFO] [YeeYeeish1794] -> UpstreamBridge has connected
+18:39:48 [INFO] [YeeYeeish1794] <-> ServerConnector [lobby] has connected
+18:41:21 [INFO] [YeeYeeish1794] -> UpstreamBridge has disconnected
+18:41:21 [INFO] [YeeYeeish1794] <-> DownstreamBridge <-> [lobby] has disconnected
+18:41:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35552]: Connected via websocket
+18:41:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35552]: Origin header is http://localhost:8081
+18:41:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35552]: Logged in as 'YeeYeeish1794'
+18:41:33 [INFO] [YeeYeeish1794] -> UpstreamBridge has connected
+18:41:33 [INFO] [YeeYeeish1794] <-> ServerConnector [lobby] has connected
+18:55:58 [INFO] [YeeYeeish1794] -> UpstreamBridge has disconnected
+18:55:58 [INFO] [YeeYeeish1794] <-> DownstreamBridge <-> [lobby] has disconnected
+19:09:59 [INFO] [Nine] -> UpstreamBridge has disconnected
+19:09:59 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+19:14:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37760]: Connected via websocket
+19:14:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37760]: Origin header is http://localhost:8081
+19:14:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37760]: Logged in as 'Nine'
+19:14:41 [INFO] [Nine] -> UpstreamBridge has connected
+19:14:41 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+19:14:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59734]: Connected via websocket
+19:14:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59734]: Origin header is http://localhost:8081
+19:14:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59734]: Logged in as 'yay'
+19:14:54 [INFO] [yay] -> UpstreamBridge has connected
+19:14:54 [INFO] [yay] <-> ServerConnector [lobby] has connected
+19:48:31 [INFO] [Nine] -> UpstreamBridge has disconnected
+19:48:31 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+19:48:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57366]: Connected via websocket
+19:48:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57366]: Origin header is http://localhost:8081
+19:48:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57366]: Logged in as 'Nine'
+19:48:34 [INFO] [Nine] -> UpstreamBridge has connected
+19:48:34 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+20:06:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41102]: Connected via websocket
+20:06:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41102]: Origin header is http://localhost:8081
+20:06:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41102]: Logged in as 'onion'
+20:06:59 [INFO] [onion] -> UpstreamBridge has connected
+20:06:59 [INFO] [onion] <-> ServerConnector [lobby] has connected
+20:20:02 [INFO] [Nine] -> UpstreamBridge has disconnected
+20:20:02 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+20:20:05 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46470]: Connected via websocket
+20:20:05 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46470]: Origin header is http://localhost:8081
+20:20:05 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46470]: Logged in as 'Nine'
+20:20:05 [INFO] [Nine] -> UpstreamBridge has connected
+20:20:05 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+20:20:54 [INFO] [Nine] -> UpstreamBridge has disconnected
+20:20:54 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+20:21:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41264]: Connected via websocket
+20:21:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41264]: Origin header is http://localhost:8081
+20:21:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41264]: Logged in as 'Nine'
+20:21:18 [INFO] [Nine] -> UpstreamBridge has connected
+20:21:18 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+20:22:00 [INFO] [Nine] -> UpstreamBridge has disconnected
+20:22:00 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+20:22:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34586]: Connected via websocket
+20:22:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34586]: Origin header is http://localhost:8081
+20:22:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34586]: Logged in as 'Nine'
+20:22:17 [INFO] [Nine] -> UpstreamBridge has connected
+20:22:17 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+20:23:59 [INFO] [Nine] -> UpstreamBridge has disconnected
+20:23:59 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+20:24:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42396]: Connected via websocket
+20:24:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42396]: Origin header is http://localhost:8081
+20:24:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42396]: Logged in as 'Nine'
+20:24:01 [INFO] [Nine] -> UpstreamBridge has connected
+20:24:01 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+20:39:40 [INFO] [Nine] -> UpstreamBridge has disconnected
+20:39:40 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+20:39:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52696]: Connected via websocket
+20:39:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52696]: Origin header is http://localhost:8081
+20:39:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52696]: Logged in as 'Nine'
+20:39:42 [INFO] [Nine] -> UpstreamBridge has connected
+20:39:42 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+21:13:22 [INFO] [Nine] -> UpstreamBridge has disconnected
+21:13:22 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+21:13:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50230]: Connected via websocket
+21:13:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50230]: Origin header is http://localhost:8081
+21:13:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50230]: Logged in as 'Nine'
+21:13:25 [INFO] [Nine] -> UpstreamBridge has connected
+21:13:25 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+21:32:33 [INFO] [Nine] -> UpstreamBridge has disconnected
+21:32:33 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+21:32:40 [INFO] [onion] -> UpstreamBridge has disconnected
+21:32:40 [INFO] [onion] <-> DownstreamBridge <-> [lobby] has disconnected
+21:32:43 [INFO] [yay] -> UpstreamBridge has disconnected
+21:32:43 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+23:06:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39416]: Connected via websocket
+23:06:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39416]: Origin header is http://localhost:8081
+23:06:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39416]: Logged in as 'YeeYeeish1778'
+23:06:46 [INFO] [YeeYeeish1778] -> UpstreamBridge has connected
+23:06:46 [INFO] [YeeYeeish1778] <-> ServerConnector [lobby] has connected
+23:06:49 [INFO] [YeeYeeish1778] -> UpstreamBridge has disconnected
+23:06:49 [INFO] [YeeYeeish1778] <-> DownstreamBridge <-> [lobby] has disconnected
+23:07:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34652]: Connected via websocket
+23:07:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34652]: Origin header is http://localhost:8081
+23:07:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34652]: Logged in as 'YeeYeeish1792'
+23:07:01 [INFO] [YeeYeeish1792] -> UpstreamBridge has connected
+23:07:01 [INFO] [YeeYeeish1792] <-> ServerConnector [lobby] has connected
+23:07:08 [INFO] [YeeYeeish1792] -> UpstreamBridge has disconnected
+23:07:08 [INFO] [YeeYeeish1792] <-> DownstreamBridge <-> [lobby] has disconnected
+23:07:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59522]: Connected via websocket
+23:07:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59522]: Origin header is http://localhost:8081
+23:07:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59522]: Logged in as 'nigletmcjr'
+23:07:21 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+23:07:21 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+23:13:46 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+23:13:46 [INFO] [nigletmcjr] <-> DownstreamBridge <-> [lobby] has disconnected
+23:14:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46044]: Connected via websocket
+23:14:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46044]: Origin header is http://localhost:8081
+23:14:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46044]: Logged in as 'yay'
+23:14:00 [INFO] [yay] -> UpstreamBridge has connected
+23:14:00 [INFO] [yay] <-> ServerConnector [lobby] has connected
+23:14:20 [INFO] [yay] -> UpstreamBridge has disconnected
+23:14:20 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+23:14:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35490]: Connected via websocket
+23:14:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35490]: Origin header is http://localhost:8081
+23:14:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35490]: Logged in as 'aiden_cool'
+23:14:33 [INFO] [aiden_cool] -> UpstreamBridge has connected
+23:14:33 [INFO] [aiden_cool] <-> ServerConnector [lobby] has connected
+23:14:45 [INFO] [aiden_cool] -> UpstreamBridge has disconnected
+23:14:45 [INFO] [aiden_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+23:14:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43384]: Connected via websocket
+23:14:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43384]: Origin header is http://localhost:8081
+23:14:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43384]: Logged in as 'aidan_cool'
+23:14:59 [INFO] [aidan_cool] -> UpstreamBridge has connected
+23:14:59 [INFO] [aidan_cool] <-> ServerConnector [lobby] has connected
+23:15:02 [INFO] [aidan_cool] -> UpstreamBridge has disconnected
+23:15:02 [INFO] [aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+23:15:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41726]: Connected via websocket
+23:15:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41726]: Origin header is http://localhost:8081
+23:15:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41726]: Logged in as 'nigletmcjr'
+23:15:12 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+23:15:12 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+23:20:33 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+23:20:33 [INFO] [nigletmcjr] <-> DownstreamBridge <-> [lobby] has disconnected
+23:43:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59528]: Connected via websocket
+23:43:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59528]: Origin header is http://localhost:8081
+23:43:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59528]: Logged in as 'Aidan_cool'
+23:43:14 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+23:43:14 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+23:51:58 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+23:51:58 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+23:52:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46106]: Connected via websocket
+23:52:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46106]: Origin header is http://localhost:8081
+23:52:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46106]: Logged in as 'Aidan_cool'
+23:52:02 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+23:52:02 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+23:59:14 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+23:59:14 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+23:59:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35086]: Connected via websocket
+23:59:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35086]: Origin header is http://localhost:8081
+23:59:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35086]: Logged in as 'Aidan_cool'
+23:59:17 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+23:59:17 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+00:19:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48752]: Connected via websocket
+00:19:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48752]: Origin header is http://localhost:8081
+00:19:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48752]: Logged in as 'nigletmcjr'
+00:19:17 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+00:19:17 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+00:19:35 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+00:19:35 [INFO] [nigletmcjr] <-> DownstreamBridge <-> [lobby] has disconnected
+00:19:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40972]: Connected via websocket
+00:19:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40972]: Origin header is http://localhost:8081
+00:19:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40972]: Logged in as 'nigletmcjr'
+00:19:41 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+00:19:41 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+00:27:14 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+00:27:14 [INFO] [nigletmcjr] <-> DownstreamBridge <-> [lobby] has disconnected
+00:27:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60360]: Connected via websocket
+00:27:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60360]: Origin header is http://localhost:8081
+00:27:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60360]: Logged in as 'nigletmcjr'
+00:27:22 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+00:27:22 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+00:27:27 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+00:27:27 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+00:27:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42842]: Connected via websocket
+00:27:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42842]: Origin header is http://localhost:8081
+00:27:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42842]: Logged in as 'Aidan_cool'
+00:27:36 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+00:27:36 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+00:27:38 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+00:27:38 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+00:27:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43974]: Connected via websocket
+00:27:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43974]: Origin header is http://localhost:8081
+00:27:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43974]: Logged in as 'Aidan_cool'
+00:27:42 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+00:27:42 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+00:27:56 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+00:27:56 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+00:27:58 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+00:27:58 [INFO] [nigletmcjr] <-> DownstreamBridge <-> [lobby] has disconnected
+00:28:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48124]: Connected via websocket
+00:28:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48124]: Origin header is http://localhost:8081
+00:28:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48124]: Logged in as 'Aidan_cool'
+00:28:03 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+00:28:03 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+00:28:05 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48130]: Connected via websocket
+00:28:05 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48130]: Origin header is http://localhost:8081
+00:28:05 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48130]: Logged in as 'nigletmcjr'
+00:28:05 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+00:28:05 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+00:28:05 [INFO] [nigletmcjr] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+00:28:05 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+00:28:05 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has disconnected
+00:28:06 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46820]: Connected via websocket
+00:28:06 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46820]: Origin header is http://localhost:8081
+00:28:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46820]: Logged in as 'nigletmcjr'
+00:28:07 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+00:28:07 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+00:28:07 [INFO] [nigletmcjr] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+00:28:07 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+00:28:07 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has disconnected
+00:28:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58116]: Connected via websocket
+00:28:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58116]: Origin header is http://localhost:8081
+00:28:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58116]: Logged in as 'nigletmcjr'
+00:28:34 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+00:28:34 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+00:30:05 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+00:30:05 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+00:30:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36256]: Connected via websocket
+00:30:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36256]: Origin header is http://localhost:8081
+00:30:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36256]: Logged in as 'Aidan_cool'
+00:30:08 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+00:30:08 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+00:33:44 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+00:33:44 [INFO] [nigletmcjr] <-> DownstreamBridge <-> [lobby] has disconnected
+00:33:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60280]: Connected via websocket
+00:33:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60280]: Origin header is http://localhost:8081
+00:33:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60280]: Logged in as 'yay'
+00:33:52 [INFO] [yay] -> UpstreamBridge has connected
+00:33:52 [INFO] [yay] <-> ServerConnector [lobby] has connected
+00:34:39 [INFO] [yay] -> UpstreamBridge has disconnected
+00:34:39 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+00:35:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40132]: Connected via websocket
+00:35:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40132]: Origin header is http://localhost:8081
+00:35:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40132]: Logged in as 'fart'
+00:35:12 [INFO] [fart] -> UpstreamBridge has connected
+00:35:12 [INFO] [fart] <-> ServerConnector [lobby] has connected
+00:39:20 [INFO] [fart] -> UpstreamBridge has disconnected
+00:39:20 [INFO] [fart] <-> DownstreamBridge <-> [lobby] has disconnected
+00:39:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46816]: Connected via websocket
+00:39:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46816]: Origin header is http://localhost:8081
+00:39:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46816]: Logged in as 'fart'
+00:39:35 [INFO] [fart] -> UpstreamBridge has connected
+00:39:35 [INFO] [fart] <-> ServerConnector [lobby] has connected
+00:43:43 [INFO] [fart] -> UpstreamBridge has disconnected
+00:43:43 [INFO] [fart] <-> DownstreamBridge <-> [lobby] has disconnected
+00:43:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42912]: Connected via websocket
+00:43:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42912]: Origin header is http://localhost:8081
+00:43:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42912]: Logged in as 'nigletmcjr'
+00:43:52 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+00:43:52 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+00:46:02 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+00:46:02 [INFO] [nigletmcjr] <-> DownstreamBridge <-> [lobby] has disconnected
+00:46:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39184]: Connected via websocket
+00:46:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39184]: Origin header is http://localhost:8081
+00:46:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39184]: Logged in as 'nigletmcjr'
+00:46:04 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+00:46:04 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+00:46:07 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+00:46:07 [INFO] [nigletmcjr] <-> DownstreamBridge <-> [lobby] has disconnected
+00:46:27 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+00:46:27 [INFO] [Aidan_cool] <-> DownstreamBridge <-> [lobby] has disconnected
+01:06:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37390]: Connected via websocket
+01:06:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37390]: Origin header is http://localhost:8081
+01:06:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37390]: Logged in as 'yay'
+01:06:51 [INFO] [yay] -> UpstreamBridge has connected
+01:06:51 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:09:23 [INFO] [yay] disconnected with: §fTimed out
+01:09:23 [INFO] [yay] -> UpstreamBridge has disconnected
+01:09:23 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:19:37 [INFO] Using mbed TLS based native cipher.
+01:19:37 [INFO] Using zlib based native compressor.
+01:19:37 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+01:19:37 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+01:19:37 [INFO] Epoll is working, utilising it!
+01:19:37 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+01:19:37 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+01:19:37 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+01:19:37 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+01:19:37 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+01:19:37 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+01:19:37 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:37 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:37 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:37 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:37 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:37 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:37 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+01:19:37 [WARNING] :>  
+01:19:37 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+01:19:37 [WARNING] :>  
+01:19:37 [WARNING] :>  This plugin wasn't tested to be 'working'
+01:19:37 [WARNING] :>  with ANY version of BungeeCord (and forks)
+01:19:37 [WARNING] :>  apart from the versions listed below:
+01:19:37 [WARNING] :>  
+01:19:37 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+01:19:37 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+01:19:37 [WARNING] :>  
+01:19:37 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+01:19:37 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+01:19:37 [WARNING] :>  
+01:19:37 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+01:19:37 [WARNING] :>  
+01:19:37 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+01:19:37 [WARNING] :>  
+01:19:37 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+01:19:37 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+01:19:39 [SEVERE] [EaglercraftXBungee] Recieved code 429 while looking up UUID of lax1dude
+01:19:39 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+01:19:39 [WARNING] Forced host server pvp is not defined
+01:19:39 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+01:19:39 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:39 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:39 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:39 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:39 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:39 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:19:39 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+01:19:39 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+01:19:39 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+01:19:39 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+01:19:39 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+01:19:39 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.e7d219ca32b33984feb543b8d6ab8b3441e63e5d.cert
+01:19:39 [INFO] Listening on /127.0.0.1:25577
+01:21:56 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+01:21:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45520]: Connected via websocket
+01:21:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45520]: Origin header is http://localhost:8081
+01:21:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45520]: Logged in as 'yay'
+01:21:58 [INFO] [yay] -> UpstreamBridge has connected
+01:21:58 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:22:11 [INFO] [yay] disconnected with: §fYou have been IP banned.
+01:22:11 [INFO] [yay] -> UpstreamBridge has disconnected
+01:22:11 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:22:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53622]: Connected via websocket
+01:22:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53622]: Origin header is http://localhost:8081
+01:22:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53622]: Logged in as 'big_ol_joe'
+01:22:42 [INFO] [big_ol_joe] -> UpstreamBridge has connected
+01:22:42 [INFO] [big_ol_joe] <-> ServerConnector [lobby] has connected
+01:22:42 [INFO] [big_ol_joe] disconnected with: §f§cKicked whilst connecting to lobby: §fYour IP address is banned from this server!
+Reason: Banned by an operator.
+01:22:42 [INFO] [big_ol_joe] -> UpstreamBridge has disconnected
+01:22:42 [INFO] [big_ol_joe] <-> ServerConnector [lobby] has disconnected
+01:24:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49884]: Connected via websocket
+01:24:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49884]: Origin header is http://localhost:8081
+01:24:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49884]: Logged in as 'big_ol_joe'
+01:24:44 [INFO] [big_ol_joe] -> UpstreamBridge has connected
+01:24:44 [INFO] [big_ol_joe] <-> ServerConnector [lobby] has connected
+01:24:44 [INFO] [big_ol_joe] disconnected with: §f§cKicked whilst connecting to lobby: §fYour IP address is banned from this server!
+Reason: Banned by an operator.
+01:24:44 [INFO] [big_ol_joe] -> UpstreamBridge has disconnected
+01:24:44 [INFO] [big_ol_joe] <-> ServerConnector [lobby] has disconnected
+01:26:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57162]: Connected via websocket
+01:26:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57162]: Origin header is http://localhost:8081
+01:26:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57162]: Logged in as 'big_ol_joe'
+01:26:13 [INFO] [big_ol_joe] -> UpstreamBridge has connected
+01:26:13 [INFO] [big_ol_joe] <-> ServerConnector [lobby] has connected
+01:26:21 [INFO] [big_ol_joe] -> UpstreamBridge has disconnected
+01:26:21 [INFO] [big_ol_joe] <-> DownstreamBridge <-> [lobby] has disconnected
+01:27:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39900]: Connected via websocket
+01:27:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39900]: Origin header is http://localhost:8081
+01:27:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39900]: Logged in as 'Nine'
+01:27:29 [INFO] [Nine] -> UpstreamBridge has connected
+01:27:30 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+01:28:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43726]: Connected via websocket
+01:28:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43726]: Origin header is http://localhost:8081
+01:28:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43726]: Logged in as 'big_ol_joe'
+01:28:30 [INFO] [big_ol_joe] -> UpstreamBridge has connected
+01:28:30 [INFO] [big_ol_joe] <-> ServerConnector [lobby] has connected
+01:30:19 [INFO] [Nine] disconnected with: §fYou have been IP banned.
+01:30:19 [INFO] [Nine] -> UpstreamBridge has disconnected
+01:30:19 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+01:30:19 [INFO] [big_ol_joe] disconnected with: §fYou have been IP banned.
+01:30:19 [INFO] [big_ol_joe] -> UpstreamBridge has disconnected
+01:30:19 [INFO] [big_ol_joe] <-> DownstreamBridge <-> [lobby] has disconnected
+01:30:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57100]: Connected via websocket
+01:30:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57100]: Origin header is http://localhost:8081
+01:30:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57100]: Logged in as 'Nine'
+01:30:24 [INFO] [Nine] -> UpstreamBridge has connected
+01:30:24 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+01:30:24 [INFO] [Nine] disconnected with: §f§cKicked whilst connecting to lobby: §fYour IP address is banned from this server!
+Reason: Banned by an operator.
+01:30:24 [INFO] [Nine] -> UpstreamBridge has disconnected
+01:30:24 [INFO] [Nine] <-> ServerConnector [lobby] has disconnected
+01:31:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57240]: Connected via websocket
+01:31:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57240]: Origin header is http://localhost:8081
+01:31:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57240]: Logged in as 'Bopb'
+01:31:07 [INFO] [Bopb] -> UpstreamBridge has connected
+01:31:07 [INFO] [Bopb] <-> ServerConnector [lobby] has connected
+01:31:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56304]: Connected via websocket
+01:31:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56304]: Origin header is http://localhost:8081
+01:31:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56304]: Logged in as 'big_ol_joe'
+01:31:55 [INFO] [big_ol_joe] -> UpstreamBridge has connected
+01:31:55 [INFO] [big_ol_joe] <-> ServerConnector [lobby] has connected
+01:32:16 [INFO] [big_ol_joe] -> UpstreamBridge has disconnected
+01:32:16 [INFO] [big_ol_joe] <-> DownstreamBridge <-> [lobby] has disconnected
+01:32:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48982]: Connected via websocket
+01:32:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48982]: Origin header is http://localhost:8081
+01:32:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48982]: Logged in as 'yay'
+01:32:23 [INFO] [yay] -> UpstreamBridge has connected
+01:32:23 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:32:24 [INFO] [Bopb] -> UpstreamBridge has disconnected
+01:32:24 [INFO] [Bopb] <-> DownstreamBridge <-> [lobby] has disconnected
+01:32:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60652]: Connected via websocket
+01:32:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60652]: Origin header is http://localhost:8081
+01:32:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60652]: Logged in as 'Nine'
+01:32:56 [INFO] [Nine] -> UpstreamBridge has connected
+01:32:56 [INFO] [Nine] <-> ServerConnector [lobby] has connected
+01:34:37 [INFO] [yay] disconnected with: §f§cProxy lost connection to server.
+01:34:37 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:34:37 [INFO] [yay] -> UpstreamBridge has disconnected
+01:35:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38738]: Connected via websocket
+01:35:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38738]: Origin header is http://localhost:8081
+01:35:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38738]: Logged in as 'yay'
+01:35:25 [INFO] [yay] -> UpstreamBridge has connected
+01:35:25 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:36:34 [INFO] [yay] disconnected with: §f§cProxy lost connection to server.
+01:36:34 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:36:34 [INFO] [yay] -> UpstreamBridge has disconnected
+01:37:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33564]: Connected via websocket
+01:37:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33564]: Origin header is http://localhost:8081
+01:37:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33564]: Logged in as 'yay'
+01:37:20 [INFO] [yay] -> UpstreamBridge has connected
+01:37:20 [INFO] [yay] <-> ServerConnector [lobby] has connected
+01:57:29 [INFO] [yay] disconnected with: §f§cProxy lost connection to server.
+01:57:29 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+01:57:29 [INFO] [yay] -> UpstreamBridge has disconnected
+01:57:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34894]: Connected via websocket
+01:57:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34894]: Origin header is http://localhost:8081
+01:57:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34894]: Logged in as 'yay'
+01:57:45 [INFO] [yay] -> UpstreamBridge has connected
+01:57:45 [INFO] [yay] <-> ServerConnector [lobby] has connected
+02:12:28 [INFO] [yay] disconnected with: §f§cProxy lost connection to server.
+02:12:28 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+02:12:28 [INFO] [yay] -> UpstreamBridge has disconnected
+02:13:28 [INFO] [Nine] -> UpstreamBridge has disconnected
+02:13:28 [INFO] [Nine] <-> DownstreamBridge <-> [lobby] has disconnected
+02:15:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51646]: Connected via websocket
+02:15:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51646]: Origin header is http://localhost:8081
+02:15:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51646]: Logged in as 'yay'
+02:15:54 [INFO] [yay] -> UpstreamBridge has connected
+02:15:54 [INFO] [yay] <-> ServerConnector [lobby] has connected
+02:15:59 [INFO] [yay] -> UpstreamBridge has disconnected
+02:15:59 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+02:16:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54606]: Connected via websocket
+02:16:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54606]: Origin header is http://localhost:8081
+02:16:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54606]: Logged in as 'Nine_89'
+02:16:13 [INFO] [Nine_89] -> UpstreamBridge has connected
+02:16:13 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+02:16:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51554]: Connected via websocket
+02:16:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51554]: Origin header is http://localhost:8081
+02:16:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51554]: Logged in as 'yay'
+02:16:38 [INFO] [yay] -> UpstreamBridge has connected
+02:16:38 [INFO] [yay] <-> ServerConnector [lobby] has connected
+02:16:38 [INFO] [yay] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+02:16:38 [INFO] [yay] -> UpstreamBridge has disconnected
+02:16:38 [INFO] [yay] <-> ServerConnector [lobby] has disconnected
+02:16:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45562]: Connected via websocket
+02:16:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45562]: Origin header is http://localhost:8081
+02:16:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45562]: Logged in as 'yaypixel'
+02:16:51 [INFO] [yaypixel] -> UpstreamBridge has connected
+02:16:51 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+02:24:39 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+02:24:39 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+02:29:44 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+02:29:44 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+02:44:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39574]: Connected via websocket
+02:44:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39574]: Origin header is http://localhost:8081
+02:44:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39574]: Logged in as 'nigletmcjr'
+02:44:04 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+02:44:04 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+02:44:04 [INFO] [nigletmcjr] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+02:44:04 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+02:44:04 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has disconnected
+02:44:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52302]: Connected via websocket
+02:44:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52302]: Origin header is http://localhost:8081
+02:44:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52302]: Logged in as 'nigletmcjr'
+02:44:08 [INFO] [nigletmcjr] -> UpstreamBridge has connected
+02:44:08 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has connected
+02:44:08 [INFO] [nigletmcjr] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+02:44:08 [INFO] [nigletmcjr] -> UpstreamBridge has disconnected
+02:44:08 [INFO] [nigletmcjr] <-> ServerConnector [lobby] has disconnected
+02:56:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43510]: Connected via websocket
+02:56:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43510]: Origin header is http://localhost:8081
+02:56:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43510]: Logged in as 'yaypixel'
+02:56:40 [INFO] [yaypixel] -> UpstreamBridge has connected
+02:56:40 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+03:00:46 [INFO] [yaypixel] disconnected with: §f§cProxy lost connection to server.
+03:00:46 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+03:00:46 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+03:36:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40828]: Connected via websocket
+03:36:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40828]: Origin header is https://localhost:8081
+03:36:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40828]: Logged in as 'yaypixel'
+03:36:24 [INFO] [yaypixel] -> UpstreamBridge has connected
+03:36:24 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+03:41:42 [INFO] [yaypixel] disconnected with: §f§cProxy lost connection to server.
+03:41:42 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+03:41:42 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+03:42:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48376]: Connected via websocket
+03:42:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48376]: Origin header is http://localhost:8081
+03:42:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48376]: Logged in as 'yaypixel'
+03:42:35 [INFO] [yaypixel] -> UpstreamBridge has connected
+03:42:35 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+03:42:48 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+03:42:48 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+03:43:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36488]: Connected via websocket
+03:43:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36488]: Origin header is http://localhost:8081
+03:43:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36488]: Logged in as 'yaypixel'
+03:43:12 [INFO] [yaypixel] -> UpstreamBridge has connected
+03:43:12 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+03:46:23 [INFO] [yaypixel] disconnected with: §fTimed out
+03:46:23 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+03:46:23 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+12:20:25 [INFO] Using mbed TLS based native cipher.
+12:20:25 [INFO] Using zlib based native compressor.
+12:20:25 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+12:20:25 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:20:26 [INFO] Epoll is working, utilising it!
+12:20:26 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:20:26 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:20:26 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:20:26 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:20:26 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:20:26 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:20:26 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:26 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:26 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:26 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:26 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:26 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:26 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:20:26 [WARNING] :>  
+12:20:26 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+12:20:26 [WARNING] :>  
+12:20:26 [WARNING] :>  This plugin wasn't tested to be 'working'
+12:20:26 [WARNING] :>  with ANY version of BungeeCord (and forks)
+12:20:26 [WARNING] :>  apart from the versions listed below:
+12:20:26 [WARNING] :>  
+12:20:26 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+12:20:26 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+12:20:26 [WARNING] :>  
+12:20:26 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+12:20:26 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+12:20:26 [WARNING] :>  
+12:20:26 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+12:20:26 [WARNING] :>  
+12:20:26 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+12:20:26 [WARNING] :>  
+12:20:26 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:20:26 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+12:20:27 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+12:20:27 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+12:20:27 [WARNING] Forced host server pvp is not defined
+12:20:27 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+12:20:27 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:27 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:27 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:27 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:27 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:27 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:20:27 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+12:20:27 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+12:20:27 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+12:20:27 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+12:20:27 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+12:20:27 [INFO] Listening on /127.0.0.1:25577
+12:20:28 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.e7d219ca32b33984feb543b8d6ab8b3441e63e5d.cert
+12:25:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43726]: Connected via websocket
+12:25:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43726]: Origin header is http://localhost:8081
+12:25:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43726]: Logged in as 'Nine_89'
+12:25:12 [INFO] [Nine_89] -> UpstreamBridge has connected
+12:25:12 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+12:27:03 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+12:27:03 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+12:27:04 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+12:33:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41524]: Connected via websocket
+12:33:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41524]: Origin header is http://localhost:8081
+12:33:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41524]: Logged in as 'Nine_89'
+12:33:13 [INFO] [Nine_89] -> UpstreamBridge has connected
+12:33:13 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+12:35:15 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+12:35:15 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+12:36:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60396]: Connected via websocket
+12:36:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60396]: Origin header is http://localhost:8081
+12:36:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60396]: Logged in as 'Nine_89'
+12:36:03 [INFO] [Nine_89] -> UpstreamBridge has connected
+12:36:03 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+12:48:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55370]: Connected via websocket
+12:48:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55370]: Origin header is http://localhost:8081
+12:48:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55370]: Logged in as 'big_ol_joe'
+12:48:13 [INFO] [big_ol_joe] -> UpstreamBridge has connected
+12:48:13 [INFO] [big_ol_joe] <-> ServerConnector [lobby] has connected
+12:48:17 [INFO] [big_ol_joe] -> UpstreamBridge has disconnected
+12:48:17 [INFO] [big_ol_joe] <-> DownstreamBridge <-> [lobby] has disconnected
+12:57:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44476]: Connected via websocket
+12:57:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44476]: Origin header is http://localhost:8081
+12:57:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44476]: Logged in as 'big_ol_joe'
+12:57:32 [INFO] [big_ol_joe] -> UpstreamBridge has connected
+12:57:32 [INFO] [big_ol_joe] <-> ServerConnector [lobby] has connected
+12:57:34 [INFO] [big_ol_joe] -> UpstreamBridge has disconnected
+12:57:34 [INFO] [big_ol_joe] <-> DownstreamBridge <-> [lobby] has disconnected
+12:57:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51140]: Connected via websocket
+12:57:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51140]: Origin header is http://localhost:8081
+12:57:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51140]: Logged in as 'yaypixel'
+12:57:44 [INFO] [yaypixel] -> UpstreamBridge has connected
+12:57:44 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+13:00:53 [INFO] [yaypixel] disconnected with: §fTimed out
+13:00:53 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+13:00:53 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+13:29:42 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+13:29:42 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+13:32:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42290]: Connected via websocket
+13:32:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42290]: Origin header is http://localhost:8081
+13:32:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42290]: Logged in as 'yaypixel'
+13:32:52 [INFO] [yaypixel] -> UpstreamBridge has connected
+13:32:52 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+13:42:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53200]: Connected via websocket
+13:42:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53200]: Origin header is http://localhost:8081
+13:42:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53200]: Logged in as 'onion'
+13:42:33 [INFO] [onion] -> UpstreamBridge has connected
+13:42:33 [INFO] [onion] <-> ServerConnector [lobby] has connected
+13:50:12 [INFO] [onion] -> UpstreamBridge has disconnected
+13:50:12 [INFO] [onion] <-> DownstreamBridge <-> [lobby] has disconnected
+13:50:12 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+13:50:12 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+13:52:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35702]: Connected via websocket
+13:52:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35702]: Origin header is http://localhost:8081
+13:52:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35702]: Logged in as 'yaypixel'
+13:52:34 [INFO] [yaypixel] -> UpstreamBridge has connected
+13:52:34 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+13:56:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56556]: Connected via websocket
+13:56:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56556]: Origin header is http://localhost:8081
+13:56:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56556]: Logged in as 'Nine_89'
+13:56:03 [INFO] [Nine_89] -> UpstreamBridge has connected
+13:56:03 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+13:58:18 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+13:58:18 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+13:58:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48344]: Connected via websocket
+13:58:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48344]: Origin header is http://localhost:8081
+13:58:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48344]: Logged in as 'yaypixel'
+13:58:36 [INFO] [yaypixel] -> UpstreamBridge has connected
+13:58:36 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+13:59:39 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+13:59:39 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+14:04:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36892]: Connected via websocket
+14:04:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36892]: Origin header is http://localhost:8081
+14:04:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36892]: Logged in as 'yaypixel'
+14:04:28 [INFO] [yaypixel] -> UpstreamBridge has connected
+14:04:28 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+14:04:38 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+14:04:38 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+14:11:27 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+14:11:27 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+14:12:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33356]: Connected via websocket
+14:12:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33356]: Origin header is http://localhost:8081
+14:12:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33356]: Logged in as 'yaypixel'
+14:12:32 [INFO] [yaypixel] -> UpstreamBridge has connected
+14:12:32 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+14:14:12 [INFO] [yaypixel] disconnected with: §f§cProxy lost connection to server.
+14:14:12 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+14:14:12 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+14:18:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51678]: Connected via websocket
+14:18:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51678]: Origin header is http://localhost:8081
+14:18:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51678]: Logged in as 'Nine_89'
+14:18:01 [INFO] [Nine_89] -> UpstreamBridge has connected
+14:18:01 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+14:22:17 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+14:22:17 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+14:44:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43966]: Connected via websocket
+14:44:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43966]: Origin header is http://localhost:8081
+14:44:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43966]: Logged in as 'yaypixel'
+14:44:03 [INFO] [yaypixel] -> UpstreamBridge has connected
+14:44:03 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+14:48:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35490]: Connected via websocket
+14:48:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35490]: Origin header is http://localhost:8081
+14:48:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35490]: Logged in as 'Nine_89'
+14:48:10 [INFO] [Nine_89] -> UpstreamBridge has connected
+14:48:10 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+14:55:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34396]: Connected via websocket
+14:55:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34396]: Origin header is http://localhost:8081
+14:55:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34396]: Logged in as 'showercurtain'
+14:55:44 [INFO] [showercurtain] -> UpstreamBridge has connected
+14:55:44 [INFO] [showercurtain] <-> ServerConnector [lobby] has connected
+14:57:30 [INFO] [showercurtain] -> UpstreamBridge has disconnected
+14:57:30 [INFO] [showercurtain] <-> DownstreamBridge <-> [lobby] has disconnected
+14:57:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35218]: Connected via websocket
+14:57:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35218]: Origin header is http://localhost:8081
+14:57:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35218]: Logged in as 'showercurtain'
+14:57:59 [INFO] [showercurtain] -> UpstreamBridge has connected
+14:57:59 [INFO] [showercurtain] <-> ServerConnector [lobby] has connected
+15:16:25 [INFO] [showercurtain] -> UpstreamBridge has disconnected
+15:16:25 [INFO] [showercurtain] <-> DownstreamBridge <-> [lobby] has disconnected
+15:20:45 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+15:20:45 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+15:22:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41928]: Connected via websocket
+15:22:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41928]: Origin header is http://localhost:8081
+15:22:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41928]: Logged in as 'yaypixel'
+15:22:17 [INFO] [yaypixel] -> UpstreamBridge has connected
+15:22:17 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+15:23:55 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+15:23:55 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+15:24:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56452]: Connected via websocket
+15:24:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56452]: Origin header is http://localhost:8081
+15:24:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56452]: Logged in as 'yaypixel'
+15:24:00 [INFO] [yaypixel] -> UpstreamBridge has connected
+15:24:00 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:00:11 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:00:11 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+16:01:10 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:01:10 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+16:03:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44396]: Connected via websocket
+16:03:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44396]: Origin header is http://localhost:8081
+16:03:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44396]: Logged in as 'yaypixel'
+16:03:18 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:03:18 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:03:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44400]: Connected via websocket
+16:03:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44400]: Origin header is http://localhost:8081
+16:03:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44400]: Logged in as 'Nine_89'
+16:03:21 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:03:21 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+16:03:21 [INFO] [Nine_89] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:03:21 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:03:21 [INFO] [Nine_89] <-> ServerConnector [lobby] has disconnected
+16:03:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44406]: Connected via websocket
+16:03:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44406]: Origin header is http://localhost:8081
+16:03:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44406]: Logged in as 'Nine_89'
+16:03:25 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:03:25 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+16:03:25 [INFO] [Nine_89] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:03:25 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:03:25 [INFO] [Nine_89] <-> ServerConnector [lobby] has disconnected
+16:03:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39952]: Connected via websocket
+16:03:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39952]: Origin header is http://localhost:8081
+16:03:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39952]: Logged in as 'Nine_89'
+16:03:46 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:03:46 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+16:14:05 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:14:05 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+16:28:37 [INFO] [Nine_89] disconnected with: §f§cProxy lost connection to server.
+16:28:37 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+16:28:37 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:29:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45630]: Connected via websocket
+16:29:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45630]: Origin header is http://localhost:8081
+16:29:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45630]: Logged in as 'Nine_89'
+16:29:15 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:29:15 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+16:33:51 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:33:51 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+16:34:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37208]: Connected via websocket
+16:34:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37208]: Origin header is http://localhost:8081
+16:34:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37208]: Logged in as 'Nine_89'
+16:34:43 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:34:43 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+16:44:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36500]: Connected via websocket
+16:44:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36500]: Origin header is http://localhost:8081
+16:44:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36500]: Logged in as 'Aidan_cool'
+16:44:18 [INFO] [Aidan_cool] -> UpstreamBridge has connected
+16:44:18 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has connected
+16:44:18 [INFO] [Aidan_cool] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:44:18 [INFO] [Aidan_cool] -> UpstreamBridge has disconnected
+16:44:18 [INFO] [Aidan_cool] <-> ServerConnector [lobby] has disconnected
+16:44:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57474]: Connected via websocket
+16:44:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57474]: Origin header is http://localhost:8081
+16:44:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57474]: Logged in as 'Aidan_cooler'
+16:44:28 [INFO] [Aidan_cooler] -> UpstreamBridge has connected
+16:44:28 [INFO] [Aidan_cooler] <-> ServerConnector [lobby] has connected
+16:54:03 [INFO] [Aidan_cooler] -> UpstreamBridge has disconnected
+16:54:03 [INFO] [Aidan_cooler] <-> DownstreamBridge <-> [lobby] has disconnected
+16:54:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33962]: Connected via websocket
+16:54:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33962]: Origin header is http://localhost:8081
+16:54:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33962]: Logged in as 'PowerBridge2707'
+16:54:13 [INFO] [PowerBridge2707] -> UpstreamBridge has connected
+16:54:13 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has connected
+16:54:13 [INFO] [PowerBridge2707] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:54:13 [INFO] [PowerBridge2707] -> UpstreamBridge has disconnected
+16:54:13 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has disconnected
+16:54:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52374]: Connected via websocket
+16:54:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52374]: Origin header is http://localhost:8081
+16:54:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52374]: Logged in as 'PowerBridge2707'
+16:54:19 [INFO] [PowerBridge2707] -> UpstreamBridge has connected
+16:54:19 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has connected
+16:54:19 [INFO] [PowerBridge2707] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:54:19 [INFO] [PowerBridge2707] -> UpstreamBridge has disconnected
+16:54:19 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has disconnected
+16:54:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46526]: Connected via websocket
+16:54:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46526]: Origin header is http://localhost:8081
+16:54:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46526]: Logged in as 'PowerBridge2707'
+16:54:41 [INFO] [PowerBridge2707] -> UpstreamBridge has connected
+16:54:41 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has connected
+16:54:41 [INFO] [PowerBridge2707] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:54:41 [INFO] [PowerBridge2707] -> UpstreamBridge has disconnected
+16:54:41 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has disconnected
+16:54:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59412]: Connected via websocket
+16:54:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59412]: Origin header is http://localhost:8081
+16:54:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59412]: Logged in as 'PowerBridge2707'
+16:54:56 [INFO] [PowerBridge2707] -> UpstreamBridge has connected
+16:54:56 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has connected
+16:54:56 [INFO] [PowerBridge2707] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:54:56 [INFO] [PowerBridge2707] -> UpstreamBridge has disconnected
+16:54:56 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has disconnected
+16:55:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50148]: Connected via websocket
+16:55:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50148]: Origin header is http://localhost:8081
+16:55:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50148]: Logged in as 'PowerBridge2707'
+16:55:53 [INFO] [PowerBridge2707] -> UpstreamBridge has connected
+16:55:53 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has connected
+16:55:53 [INFO] [PowerBridge2707] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:55:53 [INFO] [PowerBridge2707] -> UpstreamBridge has disconnected
+16:55:53 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has disconnected
+16:56:26 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:56:26 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+16:56:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46210]: Connected via websocket
+16:56:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46210]: Origin header is http://localhost:8081
+16:56:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46210]: Logged in as 'PowerBridge2707'
+16:56:35 [INFO] [PowerBridge2707] -> UpstreamBridge has connected
+16:56:35 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has connected
+16:56:35 [INFO] [PowerBridge2707] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:56:35 [INFO] [PowerBridge2707] -> UpstreamBridge has disconnected
+16:56:35 [INFO] [PowerBridge2707] <-> ServerConnector [lobby] has disconnected
+16:57:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42040]: Connected via websocket
+16:57:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42040]: Origin header is http://localhost:8081
+16:58:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42040]: Logged in as 'PowerbBridge2707'
+16:58:00 [INFO] [PowerbBridge2707] -> UpstreamBridge has connected
+16:58:00 [INFO] [PowerbBridge2707] <-> ServerConnector [lobby] has connected
+16:58:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35096]: Connected via websocket
+16:58:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35096]: Origin header is http://localhost:8081
+16:58:33 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35096]: Logged in as 'yaypixel'
+16:58:33 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:58:33 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:58:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49076]: Connected via websocket
+16:58:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49076]: Origin header is http://localhost:8081
+16:58:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49076]: Logged in as 'Nine_89'
+16:58:39 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:58:39 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+16:58:44 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:58:44 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+17:01:35 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+17:01:35 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+17:03:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38748]: Connected via websocket
+17:03:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38748]: Origin header is http://localhost:8081
+17:03:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38748]: Logged in as 'Nine_89'
+17:03:38 [INFO] [Nine_89] -> UpstreamBridge has connected
+17:03:38 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+17:07:19 [INFO] [PowerbBridge2707] disconnected with: §f§cProxy lost connection to server.
+17:07:19 [INFO] [PowerbBridge2707] <-> DownstreamBridge <-> [lobby] has disconnected
+17:07:19 [INFO] [PowerbBridge2707] -> UpstreamBridge has disconnected
+17:07:37 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56956]: Connected via websocket
+17:07:37 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56956]: Origin header is http://localhost:8081
+17:07:37 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56956]: Logged in as 'PowerbBridge2707'
+17:07:37 [INFO] [PowerbBridge2707] -> UpstreamBridge has connected
+17:07:37 [INFO] [PowerbBridge2707] <-> ServerConnector [lobby] has connected
+17:13:51 [INFO] [PowerbBridge2707] -> UpstreamBridge has disconnected
+17:13:51 [INFO] [PowerbBridge2707] <-> DownstreamBridge <-> [lobby] has disconnected
+17:33:55 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+17:33:55 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+17:37:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39310]: Connected via websocket
+17:37:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39310]: Origin header is http://localhost:8081
+17:37:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39310]: Logged in as 'Nine_89'
+17:37:36 [INFO] [Nine_89] -> UpstreamBridge has connected
+17:37:36 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+17:39:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58344]: Connected via websocket
+17:39:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58344]: Origin header is http://localhost:8081
+17:39:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58344]: Logged in as 'yaypixel'
+17:39:02 [INFO] [yaypixel] -> UpstreamBridge has connected
+17:39:02 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+17:45:47 [INFO] [yaypixel] disconnected with: §fTimed out
+17:45:47 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+17:45:47 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+17:50:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54096]: Connected via websocket
+17:50:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54096]: Origin header is http://localhost:8081
+17:50:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54096]: Logged in as 'yaypixel'
+17:50:01 [INFO] [yaypixel] -> UpstreamBridge has connected
+17:50:01 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+17:53:40 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+17:53:40 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+18:16:17 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+18:16:17 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+18:27:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47806]: Connected via websocket
+18:27:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47806]: Origin header is http://localhost:8081
+18:27:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47806]: Logged in as 'Nine_89'
+18:27:04 [INFO] [Nine_89] -> UpstreamBridge has connected
+18:27:04 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+18:34:02 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+18:34:02 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+18:36:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37054]: Connected via websocket
+18:36:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37054]: Origin header is http://localhost:8081
+18:36:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37054]: Logged in as 'yaypixel'
+18:36:42 [INFO] [yaypixel] -> UpstreamBridge has connected
+18:36:42 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+19:10:19 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+19:10:19 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+20:18:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54104]: Connected via websocket
+20:18:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54104]: Origin header is http://localhost:8081
+20:18:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54104]: Logged in as 'Nine_89'
+20:18:01 [INFO] [Nine_89] -> UpstreamBridge has connected
+20:18:01 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+20:19:40 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+20:19:40 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+21:23:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52618]: Connected via websocket
+21:23:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52618]: Origin header is http://localhost:8081
+21:23:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52618]: Logged in as 'Nine_89'
+21:23:57 [INFO] [Nine_89] -> UpstreamBridge has connected
+21:23:57 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+21:38:45 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+21:38:45 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+21:38:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60142]: Connected via websocket
+21:38:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60142]: Origin header is http://localhost:8081
+21:38:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60142]: Logged in as 'Nine_89'
+21:38:47 [INFO] [Nine_89] -> UpstreamBridge has connected
+21:38:47 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+22:30:52 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+22:30:52 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+12:21:17 [INFO] Using mbed TLS based native cipher.
+12:21:17 [INFO] Using zlib based native compressor.
+12:21:17 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+12:21:17 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:21:17 [INFO] Epoll is working, utilising it!
+12:21:17 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:21:17 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:21:17 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:21:17 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:21:17 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:21:17 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:21:17 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:17 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:17 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:17 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:17 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:17 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:17 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:21:17 [WARNING] :>  
+12:21:17 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+12:21:17 [WARNING] :>  
+12:21:17 [WARNING] :>  This plugin wasn't tested to be 'working'
+12:21:17 [WARNING] :>  with ANY version of BungeeCord (and forks)
+12:21:17 [WARNING] :>  apart from the versions listed below:
+12:21:17 [WARNING] :>  
+12:21:17 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+12:21:17 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+12:21:17 [WARNING] :>  
+12:21:17 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+12:21:17 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+12:21:17 [WARNING] :>  
+12:21:17 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+12:21:17 [WARNING] :>  
+12:21:17 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+12:21:17 [WARNING] :>  
+12:21:17 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:21:17 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+12:21:18 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+12:21:18 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+12:21:18 [WARNING] Forced host server pvp is not defined
+12:21:18 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+12:21:18 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:18 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:18 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:18 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:18 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:18 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:21:18 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+12:21:18 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+12:21:19 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+12:21:19 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+12:21:19 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+12:21:19 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.e7d219ca32b33984feb543b8d6ab8b3441e63e5d.cert
+12:21:19 [INFO] Listening on /127.0.0.1:25577
+12:27:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45548]: Connected via websocket
+12:27:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45548]: Origin header is http://localhost:8081
+12:27:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45548]: Logged in as 'yaypixel'
+12:27:13 [INFO] [yaypixel] -> UpstreamBridge has connected
+12:27:13 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+12:42:29 [INFO] [yaypixel] disconnected with: §fTimed out
+12:42:29 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+12:42:29 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+13:08:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42994]: Connected via websocket
+13:08:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42994]: Origin header is http://localhost:8081
+13:08:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42994]: Logged in as 'yaypixel'
+13:08:13 [INFO] [yaypixel] -> UpstreamBridge has connected
+13:08:13 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+13:32:08 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+13:32:08 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+13:32:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41886]: Connected via websocket
+13:32:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41886]: Origin header is http://localhost:8081
+13:32:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41886]: Logged in as 'yaypixel'
+13:32:10 [INFO] [yaypixel] -> UpstreamBridge has connected
+13:32:10 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+13:50:11 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+13:50:11 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+13:52:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56200]: Connected via websocket
+13:52:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56200]: Origin header is http://localhost:8081
+13:52:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56200]: Logged in as 'yaypixel'
+13:52:44 [INFO] [yaypixel] -> UpstreamBridge has connected
+13:52:44 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+13:55:16 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+13:55:16 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+13:59:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49098]: Connected via websocket
+13:59:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49098]: Origin header is http://localhost:8081
+13:59:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49098]: Logged in as 'yaypixel'
+13:59:42 [INFO] [yaypixel] -> UpstreamBridge has connected
+13:59:42 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+14:06:55 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+14:06:55 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+14:07:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49928]: Connected via websocket
+14:07:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49928]: Origin header is http://localhost:8081
+14:07:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49928]: Logged in as 'yaypixel'
+14:07:22 [INFO] [yaypixel] -> UpstreamBridge has connected
+14:07:22 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+14:14:42 [INFO] [yaypixel] disconnected with: §f§cProxy lost connection to server.
+14:14:42 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+14:14:42 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+14:23:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44498]: Connected via websocket
+14:23:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44498]: Origin header is http://localhost:8081
+14:23:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44498]: Logged in as 'yaypixel'
+14:23:59 [INFO] [yaypixel] -> UpstreamBridge has connected
+14:23:59 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+14:26:42 [INFO] [yaypixel] disconnected with: §f§cProxy lost connection to server.
+14:26:42 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+14:26:42 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+14:32:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38520]: Connected via websocket
+14:32:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38520]: Origin header is http://localhost:8081
+14:32:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38520]: Logged in as 'yaypixel'
+14:32:07 [INFO] [yaypixel] -> UpstreamBridge has connected
+14:32:07 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+14:34:42 [INFO] [yaypixel] disconnected with: §f§cProxy lost connection to server.
+14:34:42 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+14:34:42 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+14:56:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40636]: Connected via websocket
+14:56:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40636]: Origin header is http://localhost:8081
+14:56:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40636]: Logged in as 'yaypixel'
+14:56:43 [INFO] [yaypixel] -> UpstreamBridge has connected
+14:56:43 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+14:59:10 [INFO] [yaypixel] disconnected with: §f§cProxy lost connection to server.
+14:59:10 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+14:59:10 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+15:02:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43702]: Connected via websocket
+15:02:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43702]: Origin header is http://localhost:8081
+15:02:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43702]: Logged in as 'Nine_89'
+15:02:40 [INFO] [Nine_89] -> UpstreamBridge has connected
+15:02:40 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+15:05:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57950]: Connected via websocket
+15:05:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57950]: Origin header is http://localhost:8081
+15:05:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57950]: Logged in as 'yaypixel'
+15:05:02 [INFO] [yaypixel] -> UpstreamBridge has connected
+15:05:02 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+15:19:16 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+15:19:16 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+15:19:17 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+15:20:23 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+15:20:23 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+15:22:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48638]: Connected via websocket
+15:22:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48638]: Origin header is http://localhost:8081
+15:22:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48638]: Logged in as 'Nine_89'
+15:22:29 [INFO] [Nine_89] -> UpstreamBridge has connected
+15:22:29 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+15:23:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55100]: Connected via websocket
+15:23:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55100]: Origin header is http://localhost:8081
+15:23:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55100]: Logged in as 'yaypixel'
+15:23:22 [INFO] [yaypixel] -> UpstreamBridge has connected
+15:23:22 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+15:30:30 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+15:30:30 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+16:00:35 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:00:35 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+16:03:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34730]: Connected via websocket
+16:03:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34730]: Origin header is http://localhost:8081
+16:03:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34730]: Logged in as 'yaypixel'
+16:03:59 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:03:59 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:05:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33578]: Connected via websocket
+16:05:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33578]: Origin header is http://localhost:8081
+16:05:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33578]: Logged in as 'Nine_89'
+16:05:35 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:05:35 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+16:06:23 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:06:23 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+16:08:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42080]: Connected via websocket
+16:08:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42080]: Origin header is http://localhost:8081
+16:08:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42080]: Logged in as 'yaypixel'
+16:08:40 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:08:40 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:08:58 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:08:58 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+16:10:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55378]: Connected via websocket
+16:10:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55378]: Origin header is http://localhost:8081
+16:10:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55378]: Logged in as 'yaypixel'
+16:10:21 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:10:21 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:22:10 [INFO] [yaypixel] disconnected with: §f§cProxy lost connection to server.
+16:22:10 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+16:22:10 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:25:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59908]: Connected via websocket
+16:25:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59908]: Origin header is http://localhost:8081
+16:25:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59908]: Logged in as 'yaypixel'
+16:25:43 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:25:43 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:32:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33084]: Connected via websocket
+16:32:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33084]: Origin header is http://localhost:8081
+16:32:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33084]: Logged in as 'TheWorseGamma'
+16:32:02 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:32:02 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:32:03 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:32:03 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:32:03 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:32:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38768]: Connected via websocket
+16:32:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38768]: Origin header is http://localhost:8081
+16:32:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38768]: Logged in as 'TheWorseGamma'
+16:32:23 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:32:23 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:32:23 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:32:23 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:32:23 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:32:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38784]: Connected via websocket
+16:32:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38784]: Origin header is http://localhost:8081
+16:32:24 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38784]: Logged in as 'TheWorseGamma'
+16:32:24 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:32:24 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:32:25 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:32:25 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:32:25 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:32:27 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38786]: Connected via websocket
+16:32:27 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38786]: Origin header is http://localhost:8081
+16:32:27 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38786]: Logged in as 'TheWorseGamma'
+16:32:27 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:32:27 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:32:27 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:32:27 [WARNING] [TheWorseGamma] <-> ServerConnector [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+16:32:27 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:32:27 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:32:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51962]: Connected via websocket
+16:32:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51962]: Origin header is http://localhost:8081
+16:32:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51962]: Logged in as 'TheWorseGamma'
+16:32:29 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:32:29 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:32:29 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:32:29 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:32:29 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:32:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51980]: Connected via websocket
+16:32:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51980]: Origin header is http://localhost:8081
+16:32:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51980]: Logged in as 'TheWorseGamma'
+16:32:31 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:32:31 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:32:31 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:32:31 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:32:31 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:32:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51984]: Connected via websocket
+16:32:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51984]: Origin header is http://localhost:8081
+16:32:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51984]: Logged in as 'TheWorseGamma'
+16:32:34 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:32:34 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:32:34 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:32:34 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:32:34 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:32:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33580]: Connected via websocket
+16:32:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33580]: Origin header is http://localhost:8081
+16:32:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33580]: Logged in as 'TheWorseGamma'
+16:32:39 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:32:39 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:33:59 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:33:59 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+16:37:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33420]: Connected via websocket
+16:37:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33420]: Origin header is http://localhost:8081
+16:37:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33420]: Logged in as 'Nine_89'
+16:37:38 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:37:38 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+16:50:37 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:50:37 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+16:50:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34224]: Connected via websocket
+16:50:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34224]: Origin header is http://localhost:8081
+16:50:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34224]: Logged in as 'yaypixel'
+16:50:39 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:50:39 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:52:20 [INFO] [Nine_89] disconnected with: §fServer closed
+16:52:20 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:52:20 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+16:52:20 [INFO] [TheWorseGamma] disconnected with: §fServer closed
+16:52:20 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:52:20 [INFO] [TheWorseGamma] <-> DownstreamBridge <-> [lobby] has disconnected
+16:52:20 [INFO] [yaypixel] disconnected with: §fServer closed
+16:52:20 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:52:20 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+16:52:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55916]: Connected via websocket
+16:52:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55916]: Origin header is http://localhost:8081
+16:52:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55916]: Logged in as 'TheWorseGamma'
+16:52:26 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:52:26 [INFO] [TheWorseGamma] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+16:52:26 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:52:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34880]: Connected via websocket
+16:52:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34880]: Origin header is http://localhost:8081
+16:52:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34880]: Logged in as 'Nine_89'
+16:52:38 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:52:38 [INFO] [Nine_89] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+16:52:38 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:52:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52580]: Connected via websocket
+16:52:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52580]: Origin header is http://localhost:8081
+16:52:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52580]: Logged in as 'TheWorseGamma'
+16:52:39 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:52:39 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:52:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52582]: Connected via websocket
+16:52:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52582]: Origin header is http://localhost:8081
+16:52:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52582]: Logged in as 'yaypixel'
+16:52:44 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:52:44 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:52:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51534]: Connected via websocket
+16:52:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51534]: Origin header is http://localhost:8081
+16:52:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51534]: Logged in as 'Nine_89'
+16:52:55 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:52:55 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected
+16:54:54 [INFO] [Nine_89] -> UpstreamBridge has disconnected
+16:54:54 [INFO] [Nine_89] <-> DownstreamBridge <-> [lobby] has disconnected
+16:57:36 [INFO] [TheWorseGamma] disconnected with: §fServer closed
+16:57:36 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:57:36 [INFO] [TheWorseGamma] <-> DownstreamBridge <-> [lobby] has disconnected
+16:57:36 [INFO] [yaypixel] disconnected with: §fServer closed
+16:57:36 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:57:36 [INFO] [yaypixel] <-> DownstreamBridge <-> [lobby] has disconnected
+16:57:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49532]: Connected via websocket
+16:57:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49532]: Origin header is http://localhost:8081
+16:57:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49532]: Logged in as 'TheWorseGamma'
+16:57:46 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:57:46 [INFO] [TheWorseGamma] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+16:57:46 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:57:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44440]: Connected via websocket
+16:57:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44440]: Origin header is http://localhost:8081
+16:57:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44440]: Logged in as 'TheWorseGamma'
+16:57:52 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:57:52 [INFO] [TheWorseGamma] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+16:57:52 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:58:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45824]: Connected via websocket
+16:58:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45824]: Origin header is http://localhost:8081
+16:58:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45824]: Logged in as 'TheWorseGamma'
+16:58:00 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:58:00 [INFO] [TheWorseGamma] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+16:58:00 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:58:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49180]: Connected via websocket
+16:58:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49180]: Origin header is http://localhost:8081
+16:58:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49180]: Logged in as 'TheWorseGamma'
+16:58:11 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:58:11 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:58:14 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:58:14 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:58:14 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:58:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49204]: Connected via websocket
+16:58:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49204]: Origin header is http://localhost:8081
+16:58:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49204]: Logged in as 'TheWorseGamma'
+16:58:17 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:58:17 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:58:17 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fYou are not whitelisted on this server!
+16:58:17 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:58:17 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:58:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38712]: Connected via websocket
+16:58:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38712]: Origin header is http://localhost:8081
+16:58:19 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38712]: Logged in as 'TheWorseGamma'
+16:58:19 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:58:19 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:58:19 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:58:19 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:58:19 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:58:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38716]: Connected via websocket
+16:58:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38716]: Origin header is http://localhost:8081
+16:58:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38716]: Logged in as 'TheWorseGamma'
+16:58:21 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:58:21 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:58:21 [INFO] [TheWorseGamma] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:58:21 [INFO] [TheWorseGamma] -> UpstreamBridge has disconnected
+16:58:21 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has disconnected
+16:58:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40800]: Connected via websocket
+16:58:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40800]: Origin header is http://localhost:8081
+16:58:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40800]: Logged in as 'TheWorseGamma'
+16:58:32 [INFO] [TheWorseGamma] -> UpstreamBridge has connected
+16:58:32 [INFO] [TheWorseGamma] <-> ServerConnector [lobby] has connected
+16:58:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40812]: Connected via websocket
+16:58:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40812]: Origin header is http://localhost:8081
+16:58:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40812]: Logged in as 'yaypixel'
+16:58:36 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:58:36 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:58:36 [INFO] [yaypixel] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+16:58:36 [INFO] [yaypixel] -> UpstreamBridge has disconnected
+16:58:36 [INFO] [yaypixel] <-> ServerConnector [lobby] has disconnected
+16:58:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44122]: Connected via websocket
+16:58:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44122]: Origin header is http://localhost:8081
+16:58:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44122]: Logged in as 'yaypixel'
+16:58:42 [INFO] [yaypixel] -> UpstreamBridge has connected
+16:58:42 [INFO] [yaypixel] <-> ServerConnector [lobby] has connected
+16:59:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38998]: Connected via websocket
+16:59:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38998]: Origin header is http://localhost:8081
+16:59:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38998]: Logged in as 'Nine_89'
+16:59:54 [INFO] [Nine_89] -> UpstreamBridge has connected
+16:59:54 [INFO] [Nine_89] <-> ServerConnector [lobby] has connected

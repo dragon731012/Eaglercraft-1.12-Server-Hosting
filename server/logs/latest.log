@@ -1,0 +1,209 @@
+[16:58:10] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:58:10] [Server thread/INFO]: Loading properties
+[16:58:10] [Server thread/INFO]: Default game type: SURVIVAL
+[16:58:10] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:58:10] [Server thread/INFO]: Debug logging is disabled
+[16:58:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:58:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:58:10] [Server thread/INFO]: Generating keypair
+[16:58:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:58:10] [Server thread/INFO]: Using epoll channel type
+[16:58:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:58:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:58:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:58:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:58:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:58:11] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:58:11] [Server thread/INFO]: Preparing level "world"
+[16:58:11] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:58:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:58:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:58:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:58:11] [Server thread/INFO]: Random Lighting Updates: false
+[16:58:11] [Server thread/INFO]: Structure Info Saving: true
+[16:58:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:58:11] [Server thread/INFO]: Max TNT Explosions: 100
+[16:58:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:58:11] [Server thread/INFO]: Mob Spawn Range: 4
+[16:58:11] [Server thread/INFO]: View Distance: 5
+[16:58:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:58:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:58:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:58:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:58:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:58:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:58:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:58:11] [User Authenticator #1/INFO]: UUID of player TheWorseGamma is 433fda2b-cf90-3e40-b064-ffb3b6da93d1
+[16:58:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:58:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:58:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:58:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:58:11] [Server thread/INFO]: Random Lighting Updates: false
+[16:58:11] [Server thread/INFO]: Structure Info Saving: true
+[16:58:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:58:11] [Server thread/INFO]: Max TNT Explosions: 100
+[16:58:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:58:11] [Server thread/INFO]: Mob Spawn Range: 4
+[16:58:11] [Server thread/INFO]: View Distance: 5
+[16:58:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:58:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:58:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:58:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:58:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:58:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:58:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:58:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:58:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:58:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:58:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:58:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:58:11] [Server thread/INFO]: Random Lighting Updates: false
+[16:58:11] [Server thread/INFO]: Structure Info Saving: true
+[16:58:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:58:11] [Server thread/INFO]: Max TNT Explosions: 100
+[16:58:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:58:11] [Server thread/INFO]: Mob Spawn Range: 4
+[16:58:11] [Server thread/INFO]: View Distance: 5
+[16:58:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:58:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:58:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:58:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:58:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:58:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:58:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:58:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5056244203718271891)
+[16:58:13] [Server thread/INFO]: Preparing spawn area: 8%
+[16:58:13] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5056244203718271891)
+[16:58:14] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5056244203718271891)
+[16:58:14] [Server thread/INFO]: Done (2.983s)! For help, type "help" or "?"
+[16:58:14] [Server thread/INFO]: Timings Reset
+[16:58:14] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2c335c8e[id=433fda2b-cf90-3e40-b064-ffb3b6da93d1,name=TheWorseGamma,properties={},legacy=false] (/0:0:0:0:0:0:0:1%0:36952): You are not whitelisted on this server!
+[16:58:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@2c335c8e[id=433fda2b-cf90-3e40-b064-ffb3b6da93d1,name=TheWorseGamma,properties={},legacy=false] (/0:0:0:0:0:0:0:1%0:36952) lost connection: You are not whitelisted on this server!
+[16:58:17] [User Authenticator #1/INFO]: UUID of player TheWorseGamma is 433fda2b-cf90-3e40-b064-ffb3b6da93d1
+[16:58:17] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5eb4c251[id=433fda2b-cf90-3e40-b064-ffb3b6da93d1,name=TheWorseGamma,properties={},legacy=false] (/0:0:0:0:0:0:0:1%0:36962): You are not whitelisted on this server!
+[16:58:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@5eb4c251[id=433fda2b-cf90-3e40-b064-ffb3b6da93d1,name=TheWorseGamma,properties={},legacy=false] (/0:0:0:0:0:0:0:1%0:36962) lost connection: You are not whitelisted on this server!
+[16:58:31] [Server thread/INFO]: Added TheWorseGamma to the whitelist
+[16:58:32] [User Authenticator #1/INFO]: UUID of player TheWorseGamma is 433fda2b-cf90-3e40-b064-ffb3b6da93d1
+[16:58:33] [Server thread/INFO]: TheWorseGamma[/0:0:0:0:0:0:0:1%0:47804] logged in with entity id 78 at ([world]460.5555069735113, 93.0, -496.4186202234337)
+[16:58:42] [User Authenticator #1/INFO]: UUID of player yaypixel is 3dceb2ba-5847-337a-804a-66f41087cf8c
+[16:58:42] [Server thread/INFO]: yaypixel[/0:0:0:0:0:0:0:1%0:46504] logged in with entity id 194 at ([world]297.61675386141644, 67.0, -234.92983765539256)
+[16:59:54] [User Authenticator #2/INFO]: UUID of player Nine_89 is 53e5d622-e3d8-3d83-afdf-1cc3d04e0a16
+[16:59:54] [Server thread/INFO]: Nine_89[/0:0:0:0:0:0:0:1%0:42216] logged in with entity id 500 at ([world]296.30000001192093, 67.0, -234.30000001192093)
+[17:00:06] [Async Chat Thread - #0/INFO]: <Nine_89> ima eat lunch while grinding trust
+[17:00:13] [Async Chat Thread - #0/INFO]: <yaypixel> alr
+[17:00:35] [Async Chat Thread - #0/INFO]: <Nine_89> why r we on opeacefulk mode]
+[17:00:36] [Async Chat Thread - #0/INFO]: <Nine_89> why r we peaceful mode*
+[17:00:41] [Async Chat Thread - #0/INFO]: <TheWorseGamma> we arent
+[17:00:43] [Async Chat Thread - #0/INFO]: <yaypixel> were no
+[17:00:44] [Async Chat Thread - #0/INFO]: <yaypixel> t
+[17:00:48] [Async Chat Thread - #0/INFO]: <TheWorseGamma> im getting assaulted by zombie
+[17:00:48] [Async Chat Thread - #0/INFO]: <Nine_89> yea we r?
+[17:00:54] [Async Chat Thread - #0/INFO]: <Nine_89> tele me to him ill help
+[17:01:04] [Async Chat Thread - #0/INFO]: <yaypixel> nah
+[17:01:10] [Async Chat Thread - #0/INFO]: <Nine_89> plssss
+[17:01:21] [Async Chat Thread - #0/INFO]: <Nine_89> leemme mine and help noobie
+[17:01:28] [Server thread/INFO]: yaypixel issued server command: /tp Nine_89 TheWorseGamma
+[17:01:28] [Server thread/INFO]: [yaypixel: Teleported Nine_89 to TheWorseGamma]
+[17:01:29] [Async Chat Thread - #0/INFO]: <Nine_89> i have food for him
+[17:01:32] [Async Chat Thread - #0/INFO]: <yaypixel> there we go
+[17:01:37] [Async Chat Thread - #0/INFO]: <TheWorseGamma> Im pro
+[17:01:42] [Server thread/INFO]: Nine_89 has made the advancement [Not Today, Thank You]
+[17:03:22] [Async Chat Thread - #1/INFO]: <Nine_89> wherred bro go
+[17:03:30] [Async Chat Thread - #1/INFO]: <yaypixel> he really fast
+[17:03:33] [Async Chat Thread - #1/INFO]: <TheWorseGamma> village
+[17:03:52] [Server thread/INFO]: TheWorseGamma has made the advancement [Suit Up]
+[17:04:22] [Async Chat Thread - #1/INFO]: <Nine_89> i was gonna feed bro but he dipped
+[17:04:30] [Async Chat Thread - #1/INFO]: <TheWorseGamma> i take ur potato
+[17:04:33] [Server thread/INFO]: yaypixel issued server command: /tp Nine_89 yaypixel
+[17:04:33] [Server thread/INFO]: [yaypixel: Teleported Nine_89 to yaypixel]
+[17:04:37] [Async Chat Thread - #1/INFO]: <Nine_89> dude
+[17:04:40] [Async Chat Thread - #1/INFO]: <yaypixel> sorry
+[17:04:43] [Async Chat Thread - #1/INFO]: <Nine_89> i was gonna get sheeo
+[17:04:48] [Async Chat Thread - #1/INFO]: <Nine_89> come on
+[17:04:51] [Async Chat Thread - #1/INFO]: <yaypixel> follow me for sheep
+[17:04:58] [Async Chat Thread - #1/INFO]: <Nine_89> whyd u tele me
+[17:05:01] [Async Chat Thread - #1/INFO]: <Nine_89> and what were u doing
+[17:05:08] [Async Chat Thread - #1/INFO]: <Nine_89> stop using all my lapiz!!!!
+[17:05:08] [Async Chat Thread - #1/INFO]: <yaypixel> enchanting
+[17:05:19] [Async Chat Thread - #1/INFO]: <Nine_89> where r
+[17:05:27] [Async Chat Thread - #1/INFO]: <yaypixel> wha
+[17:05:31] [Async Chat Thread - #1/INFO]: <Nine_89> look
+[17:05:39] [Async Chat Thread - #1/INFO]: <yaypixel> at what
+[17:05:46] [Async Chat Thread - #1/INFO]: <Nine_89> idk
+[17:05:50] [Async Chat Thread - #1/INFO]: <Nine_89> show me leather sheeo
+[17:06:28] [Async Chat Thread - #1/INFO]: <yaypixel> get boat
+[17:06:35] [Async Chat Thread - #1/INFO]: <Nine_89> why
+[17:06:40] [Async Chat Thread - #1/INFO]: <yaypixel> villiager trading soon
+[17:06:45] [Async Chat Thread - #1/INFO]: <yaypixel> free emralds
+[17:06:45] [Async Chat Thread - #1/INFO]: <Nine_89> we have villager ones right here
+[17:06:58] [Async Chat Thread - #1/INFO]: <yaypixel> get free books
+[17:07:24] [Async Chat Thread - #1/INFO]: <Nine_89> bro wher eu going i have boat for us
+[17:07:48] [Async Chat Thread - #1/INFO]: <yaypixel> follow
+[17:09:35] [Async Chat Thread - #2/INFO]: <yaypixel> lots of sheep here
+[17:09:35] [Async Chat Thread - #2/INFO]: <Nine_89> what abt leather
+[17:09:48] [Async Chat Thread - #2/INFO]: <yaypixel> shear
+[17:09:52] [Async Chat Thread - #2/INFO]: <yaypixel> dont murder
+[17:09:53] [Async Chat Thread - #2/INFO]: <Nine_89> uhhh
+[17:10:04] [Async Chat Thread - #2/INFO]: <Nine_89> alr im done
+[17:10:25] [Async Chat Thread - #2/INFO]: <yaypixel> where are you
+[17:10:37] [Async Chat Thread - #2/INFO]: <Nine_89> over here going after chickens
+[17:10:42] [Async Chat Thread - #2/INFO]: <yaypixel> ok
+[17:11:53] [Async Chat Thread - #3/INFO]: <Nine_89> where r u
+[17:12:00] [Async Chat Thread - #3/INFO]: <yaypixel> near boats
+[17:13:03] [Async Chat Thread - #4/INFO]: <Nine_89> lets go somewhere to fish
+[17:13:15] [Async Chat Thread - #4/INFO]: <yaypixel> dont you want to see cows
+[17:13:18] [Async Chat Thread - #4/INFO]: <Nine_89> yes
+[17:13:56] [Async Chat Thread - #4/INFO]: <yaypixel> round here
+[17:13:58] [Async Chat Thread - #4/INFO]: <Nine_89> yeds ty
+[17:14:45] [Async Chat Thread - #4/INFO]: <Nine_89> lets rob
+[17:14:49] [Async Chat Thread - #4/INFO]: <yaypixel> yea
+[17:15:09] [Async Chat Thread - #4/INFO]: <yaypixel> more cows down the river
+[17:15:43] [Async Chat Thread - #4/INFO]: <Nine_89> how i trade
+[17:15:49] [Async Chat Thread - #4/INFO]: <yaypixel> right click
+[17:16:34] [Async Chat Thread - #4/INFO]: <Nine_89> this palce is already looted
+[17:16:36] [Async Chat Thread - #4/INFO]: <Nine_89> lets go
+[17:16:44] [Async Chat Thread - #4/INFO]: <yaypixel> ok
+[17:17:57] [Async Chat Thread - #5/INFO]: <Nine_89> this it
+[17:18:00] [Async Chat Thread - #5/INFO]: <yaypixel> ye
+[17:18:03] [Async Chat Thread - #5/INFO]: <yaypixel> around here
+[17:18:07] [Async Chat Thread - #5/INFO]: <Nine_89> fidhing time
+[17:18:25] [Async Chat Thread - #5/INFO]: <Nine_89> no fish here
+[17:18:35] [Async Chat Thread - #5/INFO]: <yaypixel> keep fishing
+[17:18:41] [Async Chat Thread - #5/INFO]: <Nine_89> why
+[17:18:44] [Async Chat Thread - #5/INFO]: <Nine_89> where r u
+[17:18:55] [Async Chat Thread - #5/INFO]: <yaypixel> over the hill
+[17:19:27] [Async Chat Thread - #5/INFO]: <Nine_89> im on the hill, dont see u...
+[17:19:51] [Async Chat Thread - #5/INFO]: <yaypixel> ima go looks for cows then we meetup by the boats
+[17:21:08] [Async Chat Thread - #6/INFO]: <Nine_89> lots of pigs
+[17:21:19] [Async Chat Thread - #6/INFO]: <Nine_89> no leather
+[17:21:30] [Async Chat Thread - #6/INFO]: <yaypixel> ye i saw cows earlier
+[17:21:59] [Async Chat Thread - #6/INFO]: <Nine_89> i got sugar cane

@@ -1,0 +1,114 @@
+[10:01:19] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[10:01:19] [Server thread/INFO]: Loading properties
+[10:01:19] [Server thread/INFO]: Default game type: SURVIVAL
+[10:01:19] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[10:01:19] [Server thread/INFO]: Debug logging is disabled
+[10:01:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:01:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:01:19] [Server thread/INFO]: Generating keypair
+[10:01:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:01:19] [Server thread/INFO]: Using epoll channel type
+[10:01:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:01:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:01:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:01:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:01:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:01:19] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[10:01:19] [Server thread/INFO]: Preparing level "world"
+[10:01:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:01:19] [Server thread/INFO]: Mob Spawn Range: 4
+[10:01:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:01:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:01:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:01:19] [Server thread/INFO]: Random Lighting Updates: false
+[10:01:19] [Server thread/INFO]: Structure Info Saving: true
+[10:01:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:01:19] [Server thread/INFO]: Max TNT Explosions: 100
+[10:01:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:01:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:01:19] [Server thread/INFO]: View Distance: 5
+[10:01:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:01:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:01:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:01:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:01:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:01:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:01:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:01:19] [Server thread/INFO]: Mob Spawn Range: 4
+[10:01:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:01:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:01:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:01:19] [Server thread/INFO]: Random Lighting Updates: false
+[10:01:19] [Server thread/INFO]: Structure Info Saving: true
+[10:01:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:01:19] [Server thread/INFO]: Max TNT Explosions: 100
+[10:01:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:01:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:01:19] [Server thread/INFO]: View Distance: 5
+[10:01:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:01:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:01:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:01:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:01:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:01:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:01:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:01:19] [Server thread/INFO]: Mob Spawn Range: 4
+[10:01:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:01:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:01:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:01:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:01:19] [Server thread/INFO]: Random Lighting Updates: false
+[10:01:19] [Server thread/INFO]: Structure Info Saving: true
+[10:01:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:01:19] [Server thread/INFO]: Max TNT Explosions: 100
+[10:01:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:01:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:01:19] [Server thread/INFO]: View Distance: 5
+[10:01:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:01:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:01:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:01:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:01:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:01:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:01:20] [Server thread/INFO]: Preparing start region for level 0 (Seed: 484382114837827246)
+[10:01:20] [Server thread/INFO]: Preparing start region for level 1 (Seed: 484382114837827246)
+[10:01:21] [Server thread/INFO]: Preparing start region for level 2 (Seed: 484382114837827246)
+[10:01:21] [Server thread/INFO]: Done (1.625s)! For help, type "help" or "?"
+[10:01:21] [Server thread/INFO]: Timings Reset
+[10:05:55] [User Authenticator #1/INFO]: UUID of player harshika_25 is 091750b9-7402-3cf1-98a4-94231117342e
+[10:05:55] [Server thread/INFO]: harshika_25[/0:0:0:0:0:0:0:1%0:56396] logged in with entity id 27 at ([world]-50.71923957906959, 72.0, 115.24472029147032)
+[10:06:27] [Async Chat Thread - #0/INFO]: <harshika_25> hello
+[10:06:39] [Async Chat Thread - #0/INFO]: <harshika_25> game mien hai kyaaa
+[10:08:34] [Server thread/INFO]: harshika_25 hit the ground too hard
+[10:17:21] [Server thread/INFO]: harshika_25 lost connection: Disconnected
+[10:17:21] [Server thread/INFO]: harshika_25 left the game
+[10:19:19] [Server thread/INFO]: Unknown command. Type "/help" for help.

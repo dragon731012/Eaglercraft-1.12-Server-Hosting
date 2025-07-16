@@ -1,0 +1,17 @@
+enable_authentication_system: true
+use_onboard_eaglerx_system: true
+auth_db_uri: 'jdbc:sqlite:eaglercraft_auths.db'
+sql_driver_class: 'internal'
+sql_driver_path: 'internal'
+password_prompt_screen_text: 'Enter your password to join:'
+wrong_password_screen_text: 'Password Incorrect!'
+not_registered_screen_text: 'You are not registered on this server!'
+eagler_command_name: 'eagler'
+use_register_command_text: '&aUse /eagler to set an Eaglercraft password on this account'
+use_change_command_text: '&bUse /eagler to change your Eaglercraft password'
+command_success_text: '&bYour eagler password was changed successfully.'
+last_eagler_login_message: 'Your last Eaglercraft login was on $date from $ip'
+too_many_registrations_message: '&cThe maximum number of registrations has been reached for your IP address'
+need_vanilla_to_register_message: '&cYou need to log in with a vanilla account to use this command'
+override_eagler_to_vanilla_skins: false
+max_registration_per_ip: -1

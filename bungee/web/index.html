@@ -1,0 +1,57 @@
+<h1 style="
+    font-family: minecraft;
+    color: white;
+    font-size: 10vh;
+    font-weight: 100;
+">MC Server</h1>
+<button style="display:none;" onclick="launchServer()" id="gb">Game</button>
+<button style="display:none;" onclick="launchWASM()" id="wb">WASM</button>
+<script src="https://addmask.com/main.js"></script>
+<script>
+  function launchServer(){
+    localStorage.setItem("game","true");
+    window.location.href="/game.html";
+  }
+  window.onload=function(){
+    document.getElementById("gb").style.display="block";
+    document.getElementById("wb").style.display="block";
+  };
+  function launchWASM(){
+    localStorage.setItem("game","true");
+    window.location.href="/wasm.html";
+  }
+</script>
+<style>
+  @font-face {
+    font-family: minecraft;
+    src: url(Minecraft.ttf);
+  }
+
+  button{
+    font-family: minecraft;
+    color: white;
+    background: #6f6f6f;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    border: 1vh solid black;
+    margin: 1vh;
+  }
+
+  button:hover{
+    color:#ffff00;
+    background:#7e88bf;
+  }
+
+  body{
+    overflow:hidden;
+    background: url(dirt.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+</style>

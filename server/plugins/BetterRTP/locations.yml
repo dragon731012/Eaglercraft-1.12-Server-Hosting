@@ -1,0 +1,24 @@
+# 
+# - LOCATION_NAME:
+#     World: world
+#     CenterX: 100
+#     CenterY: 150
+#     MaxRadius: 100
+#     MinRadius: 5
+#     MinY: 0
+#     MaxY: 320
+
+Enabled: false
+RequirePermission: false
+UseLocationIfAvailable: true
+Locations:
+- main_loc:
+    World: world_name
+    CenterX: 100
+    CenterZ: 150
+    MaxRadius: 100
+    MinRadius: 5
+    Shape: square
+    MinY: 0
+    MaxY: 320
+    Cooldown: 300

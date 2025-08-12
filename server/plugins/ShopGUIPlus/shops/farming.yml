@@ -1,0 +1,158 @@
+farming:
+  name: "&5&lFarming (page %page%)"
+  size: 54
+  fillItem:
+    material: STAINED_GLASS_PANE
+    damage: 15
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: SEEDS
+        quantity: 16
+      buyPrice: 20
+      sellPrice: 2
+      slot: 10
+    2:
+      type: item
+      item:
+        material: PUMPKIN_SEEDS
+        quantity: 16
+      buyPrice: 50
+      sellPrice: 5
+      slot: 11
+    3:
+      type: item
+      item:
+        material: MELON_SEEDS
+        quantity: 16
+      buyPrice: 50
+      sellPrice: 5
+      slot: 12
+    4:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 3
+      buyPrice: 50
+      sellPrice: 5
+      slot: 13
+    5:
+      type: item
+      item:
+        material: NETHER_STALK
+        quantity: 16
+      buyPrice: 50
+      sellPrice: 5
+      slot: 14
+    6:
+      type: item
+      item:
+        material: SUGAR_CANE
+        quantity: 16
+      buyPrice: 50
+      sellPrice: 5
+      slot: 15
+    7:
+      type: item
+      item:
+        material: WHEAT
+        quantity: 16
+      buyPrice: 50
+      sellPrice: 5
+      slot: 16
+    8:
+      type: item
+      item:
+        material: PUMPKIN
+        quantity: 16
+      buyPrice: 50
+      sellPrice: 5
+      slot: 19
+    9:
+      type: item
+      item:
+        material: MELON
+        quantity: 16
+      buyPrice: 50
+      sellPrice: 5
+      slot: 20
+    10:
+      type: item
+      item:
+        material: CACTUS
+        quantity: 16
+      buyPrice: 20
+      sellPrice: 2
+      slot: 21
+    11:
+      type: item
+      item:
+        material: SAPLING
+        quantity: 16
+      buyPrice: 20
+      sellPrice: 2
+      slot: 22
+    12:
+      type: item
+      item:
+        material: SAPLING
+        quantity: 16
+        damage: 1
+      buyPrice: 20
+      sellPrice: 2
+      slot: 23
+    13:
+      type: item
+      item:
+        material: SAPLING
+        quantity: 16
+        damage: 2
+      buyPrice: 20
+      sellPrice: 2
+      slot: 24
+    14:
+      type: item
+      item:
+        material: SAPLING
+        quantity: 16
+        damage: 3
+      buyPrice: 20
+      sellPrice: 2
+      slot: 25
+    15:
+      type: item
+      item:
+        material: SAPLING
+        quantity: 16
+        damage: 4
+      buyPrice: 20
+      sellPrice: 2
+      slot: 29
+    16:
+      type: item
+      item:
+        material: SAPLING
+        quantity: 16
+        damage: 5
+      buyPrice: 50
+      sellPrice: 5
+      slot: 30
+    17:
+      type: item
+      item:
+        material: BROWN_MUSHROOM
+        quantity: 8
+      buyPrice: 50
+      sellPrice: 5
+      slot: 31
+    18:
+      type: item
+      item:
+        material: RED_MUSHROOM
+        quantity: 8
+      buyPrice: 50
+      sellPrice: 5
+      slot: 32

@@ -1,0 +1,34 @@
+General:
+  PluginTag: '&8[&2CommandNPC&8] &6'
+  ErrorTag: '&0[&cError&0] &c'
+CmdNPC:
+  Cooldown: You cannot do this yet!
+  NoMoney: You do not have enough money for this!
+  Executed: Command Executed.
+Commands:
+  NoPermission: You do not have permission for this!
+  WrongArgs: Wrong Args. Use /commandnpc reload
+  MustBeNumeric: The argument '%arg' must be numeric!
+  AlreadyExists: A %type with that name already exists!
+  DoesNotExist: A %type with that name doesn't exist!
+  List:
+    Header: 'Available %type:'
+    Line: ' &8 -&a %name'
+    InfoHeader: 'Information for NPC ''%id'':'
+    InfoLineHeader: '  &7%name: &6%value'
+    InfoLinePrefix: '  &8- '
+    InfoLine: '&2%name: &b%value'
+  SetTo:
+    Header: 'You have set the following variables:'
+    Line: '  &8- &6%variable to&8: &b%value'
+    Nothing: '  &8- &4Nothing''s changed...'
+  CmdNPC:
+    Reload: You have successfully reloaded the commandnpc configuration file!
+  Citizens:
+    Add: You have successfully added the command to the NPC!
+    Reset: You have successfully reset the commands for this NPC!
+    Removed: You have successfully removed the command!
+    NumBetween: You must enter a number between %num1 and %num2!
+    ValueFlagT: For value flag 't', you must use 'left', 'right', or 'both'!
+    NoCmdInput: You didn't input a command!
+    NoCommands: There are no set commands at the moment for this NPC!

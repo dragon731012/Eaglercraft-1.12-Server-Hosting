@@ -1,0 +1,45 @@
+ConfVer: 1
+
+Blocks: ENDER_STONE
+
+# Укажите флаги по умолчанию, которые будут установлены при создании новой защищенной области..
+Flags:
+  - use deny
+  - greeting §aВы вторглись на территорию игрока §6%player%
+  - farewell §aВы покинули территорию игрока §6%player%
+
+# Список всех флагов, которые могут быть установлены владельцами региона. Разделите их запятыми, без пробелов.
+Allowed Flags: use,greeting,farewell,mob-spawning
+
+# Переключить поддержку UUID для защищенных регионов.
+UUID: true
+
+# Отключение плагина в определенных мирах.
+Worlds Denied:
+    - exampleworld1
+    - exampleworld2
+
+#Конфигурация защищенного региона, определенная для каждого типа блока
+Region:
+  #Тип блока по умолчанию
+  ENDER_STONE:
+    X Radius: 20
+    # Установите Y в 0, если вы хотите, чтобы он защищал от неба до коренной породы.
+    Y Radius: 0
+    Z Radius: 20
+    # Скрыть блок сразу при размещении?
+    Auto Hide: false
+    # Вернут ли вам блок, когда вы его сломаете?
+    No Drop: false
+    # Запрещено двигать блок привата поршнем
+    Block Piston: true
+    # Приоритет по умолчанию
+    Priority: 0
+  #STONE-1:   
+    #X Radius: 10
+    #Y Radius: 10
+    #Z Radius: 10
+    #Auto Hide: false
+    #No Drop: false
+    #Block Piston: true
+    #Priority: 1

@@ -1,0 +1,128 @@
+tools:
+  name: "&8&lTools (page %page%)"
+  size: 54
+  fillItem:
+    material: STAINED_GLASS_PANE
+    damage: 15
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: GOLD_PICKAXE
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 10
+      slot: 10
+    2:
+      type: item
+      item:
+        material: IRON_PICKAXE
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 20
+      slot: 11
+    3:
+      type: item
+      item:
+        material: DIAMOND_PICKAXE
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: 200
+      slot: 12
+    4:
+      type: item
+      item:
+        material: GOLD_AXE
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 10
+      slot: 13
+    5:
+      type: item
+      item:
+        material: IRON_AXE
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 20
+      slot: 14
+    6:
+      type: item
+      item:
+        material: DIAMOND_AXE
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: 200
+      slot: 15
+    7:
+      type: item
+      item:
+        material: GOLD_SPADE
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 5
+      slot: 16
+    8:
+      type: item
+      item:
+        material: IRON_SPADE
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 10
+      slot: 19
+    9:
+      type: item
+      item:
+        material: DIAMOND_SPADE
+        quantity: 1
+      buyPrice: 750
+      sellPrice: 150
+      slot: 20
+    10:
+      type: item
+      item:
+        material: GOLD_HOE
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 10
+      slot: 21
+    11:
+      type: item
+      item:
+        material: IRON_HOE
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 20
+      slot: 22
+    12:
+      type: item
+      item:
+        material: DIAMOND_HOE
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: 200
+      slot: 23
+    13:
+      type: item
+      item:
+        material: FLINT_AND_STEEL
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 10
+      slot: 24
+    14:
+      type: item
+      item:
+        material: SHEARS
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 20
+      slot: 25
+    15:
+      type: item
+      item:
+        material: FISHING_ROD
+        quantity: 1
+      buyPrice: 150
+      sellPrice: 30
+      slot: 31

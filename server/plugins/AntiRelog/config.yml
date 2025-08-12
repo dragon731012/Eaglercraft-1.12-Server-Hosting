@@ -1,0 +1,105 @@
+config-version: '1.7'
+
+messages:
+  #Для того, чтобы отключить сообщение, оставьте его пустым
+  pvp-started: '&bВы начали &e&lPVP&b!'
+  pvp-started-title: '&bAntiRelog'
+  pvp-started-subtitle: Вы вошли в режим &ePVP&a!
+  pvp-stopped: '&e&lPVP &bокончено'
+  pvp-stopped-title: '&bAntiRelog'
+  pvp-stopped-subtitle: Вы вышли из режима &ePVP&a!
+  pvp-stopped-actionbar: '&e&lPVP &aокончено, Вы снова можете использовать команды и
+    выходить из игры!'
+  in-pvp-bossbar: '&r&lРежим &c&lPVP &r&l- &a&l%time% &r&l%formated-sec%.'
+  in-pvp-actionbar: '&r&lРежим &c&lPVP&r&l, не выходите из игры &a&l%time% &r&l%formated-sec%.'
+  pvp-leaved: '&aИгрок &c&l%player% &aпокинул игру во время &b&lПВП&a и был наказан.'
+  commands-disabled: '&b&lВы не можете использовать команды в &e&lPvP&b&l. &b&lПодождите
+    &a&l%time% &b&l%formated-sec%.'
+  item-cooldown: '&b&lВы сможете использовать этот предмет через &a&l%time% &b&l%formated-sec%.'
+  item-disabled-in-pvp: '&b&lВы не можете использовать этот предмет в &e&lPVP &b&lрежиме'
+  totem-cooldown: '&b&lТотем небыл использован, т.к был недавно использован. Тотем будет
+    доступен через &a&l%time% &b&l%formated-sec%.'
+  totem-disabled-in-pvp: '&b&lТотем небыл использован, т.к он отключен в &e&lPVP &b&lрежиме'
+  #Данное сообщение будет появляться только тогда, когда настроена функция 'commands-on-powerups-disable'
+  pvp-started-with-powerups: '&c&lВы начали пвп с включеным GM/FLY/и тд и за это получили
+    негативный эффект'
+#Кулдавн для обычных золотых яблок во время пвп.
+golden-apple-cooldown: 30
+#Кулдавн для зачарованых золотых яблок во время пвп.
+#Значение 0 отключает кулдаун; -1 отключает использование во время пвп
+enchanted-golden-apple-cooldown: 60
+#Кулдавн для жемчугов края во время пвп.
+#Значение 0 отключает кулдаун; -1 отключает использование во время пвп
+ender-pearl-cooldown: 15
+#Кулдавн для корусов во время пвп.
+#https://minecraft-ru.gamepedia.com/Плод_коруса
+#Значение 0 отключает кулдаун; -1 отключает использование во время пвп
+chorus-cooldown: 7
+#Кулдавн для фейверков во время пвп. (чтобы не убегали на элитрах)
+#Значение 0 отключает кулдаун; -1 отключает использование во время пвп
+firework-cooldown: 60
+#Кулдавн для тотемов бесмертия во время пвп.
+#Значение 0 отключает кулдаун; -1 отключает использование во время пвп
+totem-cooldown: 60
+#Длительность пвп
+pvp-time: 12
+#Отключить ли возможность писать команды в пвп?
+disable-commands-in-pvp: true
+#Команды которые можно писать во время пвп
+#Команды писать без '/' (кол-во '/' - 1)
+#Плагин будет пытаться сам определить алисы для команд (msg,tell,m), но для некоторых команд возможно придется самому прописать алиасы
+#commands-whitelist:
+#- command
+#- command2
+#- /expand
+commands-whitelist: []
+#Отменять ли взаимодействие с энтити, во время пвп
+cancel-interact-with-entities: false
+#Убивать ли игрока если он вышел во время пвп?
+kill-on-leave: true
+#Убивать ли игрока если его кикнули во время пвп?
+kill-on-kick: true
+#Выполнять ли команды, если игрока кикнули во время пвп?
+run-commands-on-kick: true
+#Какой текст должен быть впричине кика, чтобы его убило/выполнились команды. Если пусто, то будет убивать/выполняться команды всегда
+kick-messages:
+- спам
+- реклама
+- анти-чит
+#Какие команды запускать от консоли при выходе игрока во время пвп?
+#commands-on-leave:
+#- command1
+#- command2 %player%
+commands-on-leave: []
+#Отключать ли у игрока который ударил FLY, GM, GOD, VANISH?
+disable-powerups: true
+#Какие команды выполнять, если были отключены усиления у игрока
+#Данную настройку можно использовать например для того, чтобы наложить на игрока отрицательный эффект, если он начал пвп в ГМ/ФЛАЕ/и тд
+#commands-on-powerups-disable: 
+#- command1 %player%
+#- effect give %player% weakness 10
+commands-on-powerups-disable: []
+#Отключать ли возможность телепортироваться во время пвп?
+disable-teleports-in-pvp: true
+#Игнорировать ли PVP deny во время пвп между игроками?
+ignore-worldguard: true
+#Включать ли игроку, который не участвует в пвп и удрарил другого игрока в pvp, pvp режим
+#Если два игрока дерутся на територии где PVP deny и их ударить, то у того кто ударил так-же включится PVP режим
+join-pvp-in-worldguard: false
+#В каких регионах не будет работать плагин
+#ignored-worldguard-regions:
+#- duels1
+#- region2
+ignored-worldguard-regions: []
+#Отключать ли активный ПВП режим когда игрок заходит в игнорируемый регион?
+disable-pvp-in-ignored-region: false
+#Скрывать ли сообщения о заходе игроков?
+hide-join-message: false
+#Скрывать ли сообщения о выходе игроков?
+hide-leave-message: false
+#Скрывать ли сообщение о смерти игроков?
+hide-death-message: false
+#Миры в котором плагин не работает
+disabledWorlds:
+- world1
+- world2

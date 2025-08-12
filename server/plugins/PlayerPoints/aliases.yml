@@ -1,0 +1,34 @@
+broadcast:
+  - broadcast
+convert:
+  - convert
+export:
+  - export
+giveall:
+  - giveall
+give:
+  - give
+help:
+  - help
+import:
+  - import
+importlegacy:
+  - importlegacy
+lead:
+  - lead
+look:
+  - look
+me:
+  - me
+pay:
+  - pay
+reload:
+  - reload
+reset:
+  - reset
+set:
+  - set
+take:
+  - take
+version:
+  - version

@@ -1,0 +1,61 @@
+# PlaceholderAPI
+# Version: 2.11.2
+# Created by: extended_clip
+# Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
+# Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
+# Expansions: https://api.extendedclip.com/all/
+# Wiki: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki
+# Discord: https://helpch.at/discord
+# No placeholders are provided with this plugin by default.
+# Download placeholders: /papi ecloud
+check_updates: true
+cloud_enabled: true
+cloud_sorting: name
+cloud_allow_unverified_expansions: false
+boolean:
+  'true': 'yes'
+  'false': 'no'
+date_format: MM/dd/yy HH:mm:ss
+debug: false
+expansions:
+  vault:
+    formatting:
+      thousands: k
+      millions: M
+      billions: B
+      trillions: T
+      quadrillions: Q
+  player:
+    ping_value:
+      high: 100
+      medium: 50
+    direction:
+      north: N
+      south: S
+      north_west: NW
+      north_east: NE
+      east: E
+      south_east: SE
+      west: W
+      south_west: SW
+    ping_color:
+      medium: '&e'
+      high: '&c'
+      low: '&a'
+  bungee:
+    check_interval: 30
+  server:
+    server_name: A Minecraft Server
+    time:
+      locale: en
+      zone: Etc/UTC
+      suffix:
+        week: w
+        day: d
+        hour: h
+        minute: m
+        second: s
+    tps_color:
+      high: '&a'
+      medium: '&e'
+      low: '&c'

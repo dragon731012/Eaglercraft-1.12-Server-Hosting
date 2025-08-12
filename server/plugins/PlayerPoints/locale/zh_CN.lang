@@ -1,0 +1,115 @@
+# zh_CN translation by ahdg
+# 插件信息前缀
+prefix: '&7[<g:#E8A230:#ECD32D>PlayerPoints&7] '
+
+# 货币名称
+currency-singular: 个点劵
+currency-plural: 多个点劵
+currency-separator: ','
+
+# 杂项
+no-permission: '&c您没有权限那么做!'
+no-console: '&c只有玩家才能执行该命令。'
+invalid-amount: '&c数值必须为正数。'
+unknown-player: '&c找不到玩家: &b%player%'
+unknown-command: '&c未知命令: &b%input%'
+votifier-voted: '&e感谢您在 %service% 上为我们投票! &b%amount% &e已经被添加到您的账户。'
+
+# 基础命令信息
+base-command-color: '&e'
+base-command-help: '&e使用 &b/points help &e来获取命令信息。'
+
+# 帮助命令
+command-help-description: '&8 - &d/points help &7- 显示帮助菜单... 就是您现在看着的这个'
+command-help-title: '&e可用命令:'
+
+# 给予命令
+command-give-description: '&8 - &d/points give &7- 给一名玩家点劵'
+command-give-usage: '&c用法: &e/points give <玩家> <数值>'
+command-give-success: '&b%player% &a被给予了 &b%amount% &e%currency%。'
+command-give-received: '&e您被给予了 &b%amount% &e%currency%。'
+
+# 给予全体命令
+command-giveall-description: '&8 - &d/points giveall &7- 给予所有在线玩家点劵'
+command-giveall-usage: '&c用法: &e/points giveall <数值> [*]'
+command-giveall-success: '&a已成功给予 &b%amount% &a%currency% 给所有在线玩家。'
+
+# 拿去命令
+command-take-description: '&8 - &d/points take &7- 从玩家那取走点劵'
+command-take-usage: '&c用法: &e/points take <玩家> <数值>'
+command-take-success: '&a成功从玩家 &b%player% 那拿走 &b%amount% &a%currency% 。'
+command-take-lacking-funds: '&b%player% &c没有足够的点劵 %currency% 来被拿走, 所以账户余额已设为 0。'
+
+# 查看命令
+command-look-description: '&8 - &d/points look &7- 查看一名玩家的点卷数'
+command-look-usage: '&c用法: &e/points look <玩家>'
+command-look-success: '&b%player% &e有 &b%amount% &e%currency%。'
+
+# 转账命令
+command-pay-description: '&8 - &d/points pay &7- 给一名玩家转账'
+command-pay-usage: '&c用法: &e/points pay <玩家> <数值>'
+command-pay-sent: '&a您向玩家 &b%player% 转账了 %amount% &a%currency%。'
+command-pay-received: '&e您收到了来自玩家 &b%player% &e的 &b%amount% &e%currency% 。'
+command-pay-lacking-funds: '&c您没有多于 %currency% 的点劵来那么做。'
+
+# 设置命令
+command-set-description: '&8 - &d/points set &7- 设置一名玩家的点劵'
+command-set-usage: '&c用法: &e/points set <玩家> <数值>'
+command-set-success: '&a已设置玩家 &b%player% &a的 %currency% 至 &b%amount%&a。'
+
+# 重置命令
+command-reset-description: '&8 - &d/points reset &7- 重置一名玩家的点劵'
+command-reset-usage: '&c用法: &e/points reset <玩家>'
+command-reset-success: '&a已重置 &b%player% &a的 %currency% 。'
+
+# 自查命令
+command-me-description: '&8 - &d/points me &7- 查看您的点劵'
+command-me-usage: '&c用法: &d/points me'
+command-me-success: '&e您有 &b%amount% &e%currency%。'
+
+# 排行
+command-lead-description: '&8 - &d/points lead &7- 查看排行榜'
+command-lead-usage: '&c用法: &e/points lead [next|prev|#]'
+command-lead-title: '&e排行榜 &7(页 #%page%/%pages%)'
+command-lead-entry: '&b%position%). &e%player% &7- &6%amount% %currency%'
+
+# 广播命令
+command-broadcast-description: '&8 - &d/points broadcast &7- 广播一名玩家的点劵'
+command-broadcast-usage: '&c用法: &e/points broadcast <玩家>'
+command-broadcast-message: '&b%player% &e有 &b%amount% &e%currency%。'
+
+# 重载命令
+command-reload-description: '&8 - &d/points reload &7- 重载插件'
+command-reload-usage: '&c用法: &e/points reload'
+command-reload-success: '&a配置和语言文件已被重新加载。'
+
+# 导出命令
+command-export-description: '&8 - &d/points export &7- 导出数据至 storage.yml'
+command-export-usage: '&c用法: &e/points export'
+command-export-success: '&a已保存的数据已被导出 storage.yml.'
+command-export-warning: '&c注意: 一个 storage.yml 文件已经存在。如果您想覆盖文件，请使用 &b/points export confirm&c。'
+
+# 导入命令
+command-import-description: '&8 - &d/points import &7- 从 storage.yml 导入数据'
+command-import-usage: '&c用法: &e/points import'
+command-import-success: '&a已保存的数据已从 storage.yml 导入。'
+command-import-no-backup: '&c无法导入, storage.yml 不存在。您可以使用 &b/points export &c生成一个并使用其来切换数据的存储形式。'
+command-import-warning: '&c注意: 这个操作会删除现有的所有数据并覆盖成 storage.yml 所包含的数据结构。&c目前活跃的数据类型为 &b&o&l%type%&c。&c如果您知道您要做什么, 请使用 &b/points import confirm&c 来确认操作。'
+
+# 迁移命令
+command-convert-description: '&8 - &d/points convert &7- 从另一个插件迁移数据'
+command-convert-usage: '&c用法: &e/points convert <插件名称>'
+command-convert-invalid: '&b%plugin% &c不是一个可转换的插件名。'
+command-convert-success: '&a来自 &b%plugin% &a的货币数据已被迁移。'
+command-convert-failure: '&c尝试迁移数据时发生了错误。请检查您的控制台并将您所看到的报告给 PlayerPoint 作者。'
+command-convert-warning: '&c注意: 这个操作会删除所有现存的数据并使用来自插件 &b%plugin%&c 的数据结构。 &c如果您知道您在做什么，请使用 &b/points convert %plugin% confirm&c 来确认操作。'
+
+# Import Legacy Command
+command-importlegacy-description: '&8 - &d/points importlegacy &7- 导入一个遗留的表格'
+command-importlegacy-usage: '&c用法: &e/points importlegacy <table>'
+command-importlegacy-success: '&a成功地从&b%table%&a导入遗留数据。'
+command-importlegacy-failure: '&c从&b%table%&c导入遗留数据失败。该表是否存在？'
+command-importlegacy-only-mysql: '&c这个命令只有在你启用了MySQL后才可用。'
+
+# Version Command
+command-version-description: '&8 - &d/points version &7- 显示版本信息 PlayerPoints'

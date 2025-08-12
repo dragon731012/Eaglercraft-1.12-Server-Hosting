@@ -1,0 +1,10 @@
+success: '&aУспех'
+menu-required: '&cВам необходимо указать меню'
+menu-not-found: '&cТакое меню не существует'
+player-not-found: '&cИгрок не найден. Возможно, он не в сети или не присоединился
+  к вашему серверу'
+player-only: '&cДля этого вам нужно быть игроком'
+no-permission: '&cУ вас нет разрешения на это'
+invalid-number: '&cОшибка преобразования! {input} — недопустимое число'
+have-met-requirement-placeholder: Да
+prefix: '&fМеню'

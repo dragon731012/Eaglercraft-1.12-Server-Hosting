@@ -1,0 +1,19 @@
+# MySQL.Use: true=Use MySQL, false=use SQLite
+# MySQL.IP: The ip of the mysql server
+# MySQL.Port: The port of the MySQL server
+# MySQL.Database: The name of the dataabse
+# MySQL.User: The user of the database
+# MySQL.Password: The password of the user
+# Settings.Debug: Should debug logging be enabled?
+# Settings.Reset: After how many days should the daycounter be reseted?
+
+MySQL:
+  Use: false
+  IP: 127.0.0.1
+  Port: 3306
+  Database: minecraft
+  User: root
+  Password: password
+Settings:
+  Debug: false
+  Reset: 7

@@ -1,0 +1,115 @@
+# en_US translation by Esophose
+# Plugin Message Prefix
+prefix: '&7[<g:#E8A230:#ECD32D>PlayerPoints&7] '
+
+# Currency
+currency-singular: Point
+currency-plural: Points
+currency-separator: ','
+
+# Misc
+no-permission: '&cYou don''t have permission for that!'
+no-console: '&cOnly players may execute this command.'
+invalid-amount: '&cAmount must be a positive whole number.'
+unknown-player: '&cPlayer could not be found: &b%player%'
+unknown-command: '&cUnknown command: &b%input%'
+votifier-voted: '&eThanks for voting on %service%! &b%amount% &ehas been added to your balance.'
+
+# Base Command Message
+base-command-color: '&e'
+base-command-help: '&eUse &b/points help &efor command information.'
+
+# Help Command
+command-help-description: '&8 - &d/points help &7- Displays the help menu... You have arrived'
+command-help-title: '&eAvailable Commands:'
+
+# Give Command
+command-give-description: '&8 - &d/points give &7- Give a player points'
+command-give-usage: '&cUsage: &e/points give <player> <amount>'
+command-give-success: '&b%player% &awas given &b%amount% &e%currency%.'
+command-give-received: '&eYou have received &b%amount% &e%currency%.'
+
+# Give All Command
+command-giveall-description: '&8 - &d/points giveall &7- Gives all online players points'
+command-giveall-usage: '&cUsage: &e/points giveall <amount> [*]'
+command-giveall-success: '&aGave &b%amount% &a%currency% to all online players.'
+
+# Take Command
+command-take-description: '&8 - &d/points take &7- Take points from a player'
+command-take-usage: '&cUsage: &e/points take <player> <amount>'
+command-take-success: '&aTook &b%amount% &a%currency% from &b%player%&a.'
+command-take-lacking-funds: '&b%player% &cdoes not have enough %currency% for that, so their balance was set to 0.'
+
+# Look Command
+command-look-description: '&8 - &d/points look &7- View a player''s points'
+command-look-usage: '&cUsage: &e/points look <player>'
+command-look-success: '&b%player% &ehas &b%amount% &e%currency%.'
+
+# Pay Command
+command-pay-description: '&8 - &d/points pay &7- Pay a player'
+command-pay-usage: '&cUsage: &e/points pay <player> <amount>'
+command-pay-sent: '&aYou paid &b%player% %amount% &a%currency%.'
+command-pay-received: '&eYou were paid &b%amount% &e%currency% by &b%player%&e.'
+command-pay-lacking-funds: '&cYou do not have enough %currency% for that.'
+
+# Set Command
+command-set-description: '&8 - &d/points set &7- Set a player''s points'
+command-set-usage: '&cUsage: &e/points set <player> <amount>'
+command-set-success: '&aSet the %currency% of &b%player% &ato &b%amount%&a.'
+
+# Reset Command
+command-reset-description: '&8 - &d/points reset &7- Reset a player''s points'
+command-reset-usage: '&cUsage: &e/points reset <player>'
+command-reset-success: '&aReset the %currency% for &b%player%&a.'
+
+# Me Command
+command-me-description: '&8 - &d/points me &7- View your points'
+command-me-usage: '&cUsage: &d/points me'
+command-me-success: '&eYou have &b%amount% &e%currency%.'
+
+# Lead Command
+command-lead-description: '&8 - &d/points lead &7- View the leaderboard'
+command-lead-usage: '&cUsage: &e/points lead [next|prev|#]'
+command-lead-title: '&eLeaderboard &7(Page #%page%/%pages%)'
+command-lead-entry: '&b%position%). &e%player% &7- &6%amount% %currency%'
+
+# Broadcast Command
+command-broadcast-description: '&8 - &d/points broadcast &7- Broadcast a player''s points'
+command-broadcast-usage: '&cUsage: &e/points broadcast <player>'
+command-broadcast-message: '&b%player% &ehas &b%amount% &e%currency%.'
+
+# Reload Command
+command-reload-description: '&8 - &d/points reload &7- Reloads the plugin'
+command-reload-usage: '&cUsage: &e/points reload'
+command-reload-success: '&aConfiguration and locale files were reloaded.'
+
+# Export Command
+command-export-description: '&8 - &d/points export &7- Exports the data to storage.yml'
+command-export-usage: '&cUsage: &e/points export'
+command-export-success: '&aSave data has been exported to storage.yml.'
+command-export-warning: '&cNotice: A storage.yml file already exists. If you would like to overwrite it, use &b/points export confirm&c.'
+
+# Import Command
+command-import-description: '&8 - &d/points import &7- Imports the data from storage.yml'
+command-import-usage: '&cUsage: &e/points import'
+command-import-success: '&aSave data has been imported from storage.yml.'
+command-import-no-backup: '&cUnable to import, storage.yml does not exist. You can generate one with &b/points export &cand use it to transfer data between database types.'
+command-import-warning: '&cNotice: This operation will delete all data from the active database and replace it with the contents of storage.yml. &cThe currently active database type is &b&o&l%type%&c. &cIf you are absolutely sure about this, use &b/points import confirm&c.'
+
+# Convert Command
+command-convert-description: '&8 - &d/points convert &7- Loads currency data from another plugin'
+command-convert-usage: '&cUsage: &e/points convert <plugin>'
+command-convert-invalid: '&b%plugin% &cis not a convertible currency plugin name.'
+command-convert-success: '&aCurrency data from &b%plugin% &ahas been converted.'
+command-convert-failure: '&cAn error occurred while attempting to convert the data. Please check your console and report any errors to the PlayerPoints plugin author.'
+command-convert-warning: '&cNotice: This operation will delete all data from the active database and replace it with the data from &b%plugin%&c. &cIf you are absolutely sure about this, use &b/points convert %plugin% confirm&c.'
+
+# Import Legacy Command
+command-importlegacy-description: '&8 - &d/points importlegacy &7- Import a legacy table'
+command-importlegacy-usage: '&cUsage: &e/points importlegacy <table>'
+command-importlegacy-success: '&aSuccessfully imported legacy data from &b%table%&a.'
+command-importlegacy-failure: '&cFailed to import legacy data from &b%table%&c. Does the table exist?'
+command-importlegacy-only-mysql: '&cThis command is only available when you have MySQL enabled.'
+
+# Version Command
+command-version-description: '&8 - &d/points version &7- Display the version info for PlayerPoints'

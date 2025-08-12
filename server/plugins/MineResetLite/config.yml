@@ -1,0 +1,22 @@
+# MineResetLite Configuration File
+# If you have multiple worlds, and wish for only the worlds in which your mine resides to receive
+# reset notifications, and automatic reset warnings, set this to true.
+broadcast-in-world-only: false
+# If you only want players nearby the mines to receive reset notifications,
+# and automatic reset warnings, set this to true. Note: Currently only broadcasts to players in the mine
+broadcast-nearby-only: false
+# When true, this config option enables update alerts. I do not send any extra information along when 
+# checking, and query a static file hosted on Dropbox. 
+check-for-updates: true
+# MineResetLite supports multiple languages. Indicate the language to be used here.
+# Languages available at the time this config was generated: Danish (thanks Beijiru), Spanish (thanks enetocs), Portuguese (thanks FelipeMarques14), Italian (thanks JoLong)
+# Use the following values for these languages: English: 'en', Danish: 'da', Spanish: 'es', Portuguese: 'pt', Italian: 'it', French: 'fr', Dutch: 'nl', Polish: 'pl'
+# A fully up-to-date list of languages is available at http://dev.bukkit.org/server-mods/mineresetlite/pages/internationalization/
+locale: en
+# This option defines the delay (in ticks : 20 ticks = 1 sec) between the issue of reset command
+# and the actual execution of the reset action.  If you have large explosions in the mine, you might need to 
+# increase this value to make sore the explosion action completes before the reset process commences.
+reset-delay: 20
+# This option specifies the visual effect played when a player mines a lucky block.
+lucky_block_effect: MOBSPAWNER_FLAMES# This option specifies the sound effect played when a player mines a lucky block.
+lucky_block_sound: AMBIENCE_THUNDER

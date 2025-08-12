@@ -1,0 +1,120 @@
+# BetterRTP plugin by SuperRonanCraft! (Join my Public Server mc.RonanCraft.net) #
+# Need help? go to https://ronancraft.net/discord! #
+
+Language-File: ru.yml
+Settings:
+  Respect:
+    WorldGuard: false
+    GriefPrevention: false
+    Towny: false
+    RedProtect: false
+    FactionsUUID: false
+    Lands: false
+    Residence: false
+    KingdomsX: false
+    hClaims: false
+    GriefDefender: false
+    UltimateClaims: false
+  Debugger: false
+  PreloadRadius: 5
+  MaxAttempts: 32
+  RtpOnFirstJoin:
+    Enabled: false
+    World: world
+    SetAsRespawn: false
+  Cooldown:
+    Enabled: true
+    LockAfter: 0
+    Time: 600
+    PerWorld: false
+  Delay:
+    Enabled: true
+    Time: 5
+    CancelOnMove: true
+  Queue:
+    Enabled: true
+  DisableUpdater: false
+Default:
+  UseWorldBorder: false
+  Biomes: []
+  MaxRadius: 1000
+  MinRadius: 10
+  CenterX: 0
+  CenterZ: 0
+  Shape: square
+  MaxY: 320
+  MinY: 0
+BlacklistedBlocks:
+- stationary_water
+- stationary_lava
+- water
+- flowing_water
+- lava
+- flowing_lava
+- cactus
+- leaves
+- leaves_2
+- air
+- void_air
+- bedrock
+- oak_leaves
+- jungle_leaves
+- kelp
+DisabledWorlds:
+- prison
+- creative
+CustomWorlds:
+- custom_world_1:
+    UseWorldBorder: false
+    MaxRadius: 1000
+    MinRadius: 100
+    CenterX: 0
+    CenterZ: 0
+    Price: 50
+    Shape: square
+    MaxY: 320
+    MinY: 0
+    Cooldown: 60
+- other_custom_world:
+    MaxRadius: 10000
+    MinRadius: 150
+    CenterX: 123
+    CenterZ: -123
+    Price: 0
+    Biomes:
+    - desert
+    - forest
+    Shape: circle
+Overrides:
+- master_world: world
+- creative_world: world
+WorldType:
+- world: NORMAL
+- world_nether: NETHER
+- world_the_end: NORMAL
+PermissionGroup:
+  Enabled: false
+  Groups:
+  - vip:
+    - Build_World:
+        Priority: 0
+        MaxRadius: 10000
+        MinRadius: 1000
+        Price: 100
+        Cooldown: 500
+    - Survival_World:
+        Priority: 10
+        UseWorldBorder: false
+        MaxRadius: 5000
+        MinRadius: 1000
+        CenterX: 10
+        CenterZ: 10
+        Price: 10
+        MaxY: 320
+        MinY: 0
+  - vip2:
+    - Build_World:
+        MaxRadius: 25000
+        MinRadius: 10000
+        Price: 15
+        Cooldown: 1500

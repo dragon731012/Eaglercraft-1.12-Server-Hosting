@@ -1,0 +1,105 @@
+################################################################################################
+#								                                                               #
+#						             Copyright Kizeko_                                         #
+#									  GreatKits 2.9.0                                          #
+#                                                                                              #
+################################################################################################
+
+#This plugin supports PlaceholderAPI
+#https://www.spigotmc.org/resources/placeholderapi.6245/
+#This is not obliged to have it
+
+#Settings
+settings:
+  #Set this to true if you want the /kit to be a GUI
+  enable-gui-kit-displaying: false
+  #True if you want to be able to preview a kit by right clicking the item (option above needs to be enable)
+  enable-gui-kit-previewing: false
+  #Kits will still be displayed in the /kit GUI even though you don't have the permission
+  kit-display-without-perm: true
+  #Enable or disable the help-item (you have to enable both options above if you want to enable this one)
+  enable-help-item: false
+
+
+#Here you can change the lang
+lang:
+  #This is the message you receive when the player doesn't have access to any kit
+  no-access: "&eThere are no kit available for you"
+
+  #Here you can change the message of /kit help.
+  list-help:
+    - "&7-------------------------------------"
+    - "&e/kit &8- &7Shows your kits"
+    - "&e/kit &6<name>"
+    - "&e/kit list &8- &7Shows all kits"
+    - "&e/kit preview &6<name> &8- &7Preview a kit"
+    - "&7-------------------------------------"
+
+  #This is the message you get when the player types /kit preview
+  preview-usage-error: "&cUsage : /kit preview <name>"
+
+  #Message received when there is 0 kit created on the server
+  no-kit-server: "&cThere is no kit on this server"
+
+  #When the player doesn't have the permission
+  no-permission: "&cYou don't have permission to do that"
+
+  #When a player is trying to receive a 'OneTimeUse' kit that he already received
+  already-got-one-time-use-kit: "&cYou already received this kit"
+
+  #The kit doesn't exist, he hasn't been created
+  kit-doesnt-exist: "&cThis kit doesn't exist"
+
+  #When the player receives a kit
+  received-kit: "&aYou successfully received the kit&e :kitname:"
+
+  #Cooldown message
+  cooldown-message: "&cYou will be able to receive this kit in&e :cooldown:"
+
+#Permission section
+permission:
+  #If true --> the player must have greatkits.list permission to get the list of all the kits | If false --> No permission required to get the list of all the kits
+  kit-list: false
+  #If true --> the player must have greatkits.preview permission to preview a kit | If false --> No permission required to preview a kit
+  kit-preview: false
+
+
+GUItems:
+  HelpItem:
+    ==: org.bukkit.inventory.ItemStack
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cHelp
+      lore:
+        - '§9Left click to get the kit'
+        - '§7Right click to preview the kit'
+  NextButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cNext
+  PreviousButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cPrevious
+  ExitButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cExit
+  SelectButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cSelect

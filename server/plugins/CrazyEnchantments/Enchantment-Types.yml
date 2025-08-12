@@ -1,0 +1,94 @@
+Info-GUI-Settings:
+  Inventory:
+    Name: '&1&lИнформация о чарах'
+    Size: 18
+  Back-Item:
+    Right:
+      Item: 'NETHER_STAR'
+      Name: '&7&l<<&b&lBack'
+      Lore: [ ]
+    Left:
+      Item: 'NETHER_STAR'
+      Name: '&b&lBack&7&l>>'
+      Lore: [ ]
+Types:
+  Hoe:
+    Display-Item:
+      Item: 'GOLD_HOE'
+      Slot: 3
+      Name: '&e&lЧары на Мотыгу'
+      Lore:
+    Enchantable-Items:
+      - 'WOOD_HOE'
+      - 'STONE_HOE'
+      - 'IRON_HOE'
+      - 'GOLD_HOE'
+      - 'DIAMOND_HOE'
+  Pickaxe:
+    Display-Item:
+      Item: 'GOLD_PICKAXE'
+      Slot: 7
+      Name: '&e&lЧары на Кирку'
+      Lore:
+    Enchantable-Items:
+      - 'WOOD_PICKAXE'
+      - 'STONE_PICKAXE'
+      - 'IRON_PICKAXE'
+      - 'GOLD_PICKAXE'
+      - 'DIAMOND_PICKAXE'
+      - 'DIAMOND_TOOL'
+  Damaged-Items:
+    Display-Item:
+      Item: 'ANVIL:2'
+      Slot: 14
+      Name: '&e&lПочинка'
+      Lore:
+    Enchantable-Items:
+      - 'WOOD_PICKAXE'
+      - 'STONE_PICKAXE'
+      - 'IRON_PICKAXE'
+      - 'GOLD_PICKAXE'
+      - 'DIAMOND_PICKAXE'
+      - 'WOOD_AXE'
+      - 'STONE_AXE'
+      - 'IRON_AXE'
+      - 'GOLD_AXE'
+      - 'DIAMOND_AXE'
+      - 'WOOD_SPADE'
+      - 'STONE_SPADE'
+      - 'IRON_SPADE'
+      - 'GOLD_SPADE'
+      - 'DIAMOND_SPADE'
+      - 'WOOD_HOE'
+      - 'STONE_HOE'
+      - 'IRON_HOE'
+      - 'GOLD_HOE'
+      - 'DIAMOND_HOE'
+      - 'SHEARS'
+      - 'LEATHER_HELMET'
+      - 'CHAINMAIL_HELMET'
+      - 'GOLD_HELMET'
+      - 'IRON_HELMET'
+      - 'DIAMOND_HELMET'
+      - 'LEATHER_CHESTPLATE'
+      - 'CHAINMAIL_CHESTPLATE'
+      - 'GOLD_CHESTPLATE'
+      - 'IRON_CHESTPLATE'
+      - 'DIAMOND_CHESTPLATE'
+      - 'LEATHER_LEGGINGS'
+      - 'CHAINMAIL_LEGGINGS'
+      - 'GOLD_LEGGINGS'
+      - 'IRON_LEGGINGS'
+      - 'DIAMOND_LEGGINGS'
+      - 'LEATHER_BOOTS'
+      - 'CHAINMAIL_BOOTS'
+      - 'GOLD_BOOTS'
+      - 'IRON_BOOTS'
+      - 'DIAMOND_BOOTS'
+      - 'WOOD_SWORD'
+      - 'STONE_SWORD'
+      - 'IRON_SWORD'
+      - 'GOLD_SWORD'
+      - 'DIAMOND_SWORD'
+      - 'BOW'
+      - 'FISHING_ROD'

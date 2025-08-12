@@ -1,0 +1,121 @@
+GOLDEN_APPLE:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLDEN_APPLE
+  damage: 1
+GOLD_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_BLOCK
+GOLDEN_APPLE1:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLDEN_APPLE
+EXP_BOTTLE:
+  ==: org.bukkit.inventory.ItemStack
+  type: EXP_BOTTLE
+  amount: 6
+GOLD_NUGGET:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_NUGGET
+DIAMOND:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND
+ELYTRA:
+  ==: org.bukkit.inventory.ItemStack
+  type: ELYTRA
+BLAZE_POWDER:
+  ==: org.bukkit.inventory.ItemStack
+  type: BLAZE_POWDER
+SKULL_ITEM:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 1
+FEATHER:
+  ==: org.bukkit.inventory.ItemStack
+  type: FEATHER
+DIAMOND_CHESTPLATE:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_CHESTPLATE
+TOTEM:
+  ==: org.bukkit.inventory.ItemStack
+  type: TOTEM
+RAW_FISH:
+  ==: org.bukkit.inventory.ItemStack
+  type: RAW_FISH
+  damage: 3
+DIAMOND_PICKAXE:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 3
+EMERALD:
+  ==: org.bukkit.inventory.ItemStack
+  type: EMERALD
+STICK:
+  ==: org.bukkit.inventory.ItemStack
+  type: STICK
+DIAMOND_HOE:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 3
+DIAMOND_SWORD:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DAMAGE_ALL: 3
+DIAMOND_CHESTPLATE1:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 3
+DIAMOND_LEGGINGS:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 3
+DIAMOND_BOOTS:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 3
+DIAMOND_HELMET:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 3
+DIAMOND_AXE:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 3
+DIAMOND_SPADE:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_SPADE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 3

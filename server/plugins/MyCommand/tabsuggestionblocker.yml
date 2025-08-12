@@ -1,0 +1,31 @@
+#-----------------------------------------------------------------------------------------------------------#
+#							MyCommand Anti TAB feature (last update v5.7.0)									#
+#  					Hide commands from being listed in the chat prompt as suggestion						#
+#  				Enable TAB_SUGGESTION_BLOCKER_LISTENER in config.yml to use this feature					#
+#-----------------------------------------------------------------------------------------------------------#
+
+#Choose if display only the commands in the list (WHITELIST) or remove desidered commands from it (BLACKLIST)
+MODE: WHITELIST
+
+#Admins can use the permission "mycommand.antitab.admin" and be exempt from the filter.
+
+#Custom groups permissions is mycommand.antitab.<group_name> . default is applied to all. Current example list is WHITELIST mode.
+COMMAND_LIST:
+  default:
+  - /home
+  - /help
+  - /rules
+  - /spawn
+  - /buy
+  - /money
+  vips:
+  - /fly
+  - /warp
+  moderator:
+  - /kick
+  - /mute
+  - /tempmute
+  - /ban
+
+#If you're using the BLACKLIST mode, you can easily remove all commands who contains : (colon) characters.
+REMOVE_COLONS_IF_BLACKLIST_MODE: true

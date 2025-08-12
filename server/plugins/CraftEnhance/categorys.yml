@@ -1,0 +1,14 @@
+Categorys:
+  default:
+    category:
+      category_item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WORKBENCH
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aCategory:§3 [display_name]
+          lore:
+          - §fLeftclick to open
+          - §fRightclick to edit Category
+      name: default

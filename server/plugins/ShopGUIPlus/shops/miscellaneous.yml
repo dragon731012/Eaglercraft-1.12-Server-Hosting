@@ -1,0 +1,87 @@
+miscellaneous:
+  name: "&3&lMiscellaneous (page %page%)"
+  size: 45
+  fillItem:
+    material: STAINED_GLASS_PANE
+    damage: 15
+    name: " "
+  buttons:
+    goBack:
+      slot: 40
+    previousPage:
+      slot: 39
+    nextPage:
+      slot: 41
+  items:
+    1:
+      type: item
+      item:
+        material: BUCKET
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 10
+      slot: 10
+    2:
+      type: item
+      item:
+        material: WATER_BUCKET
+        quantity: 1
+      buyPrice: 200
+      sellPrice: 20
+      slot: 11
+    3:
+      type: item
+      item:
+        material: LAVA_BUCKET
+        quantity: 1
+      buyPrice: 200
+      sellPrice: 20
+      slot: 12
+    4:
+      type: item
+      item:
+        material: CAULDRON_ITEM
+        quantity: 1
+      buyPrice: 300
+      sellPrice: 30
+      slot: 13
+    5:
+      type: item
+      item:
+        material: BREWING_STAND_ITEM
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: -1
+      slot: 14
+    6:
+      type: item
+      item:
+        material: BED
+        quantity: 1
+      buyPrice: 80
+      sellPrice: 15
+      slot: 15
+    7:
+      type: item
+      item:
+        material: NAME_TAG
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 10
+      slot: 16
+    8:
+      type: item
+      item:
+        material: LEASH
+        quantity: 1
+      buyPrice: 20
+      sellPrice: 2
+      slot: 21
+    9:
+      type: item
+      item:
+        material: SADDLE
+        quantity: 1
+      buyPrice: 200
+      sellPrice: 50
+      slot: 22

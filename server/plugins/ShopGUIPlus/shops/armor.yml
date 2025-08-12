@@ -1,0 +1,199 @@
+armor:
+  name: "&4&lArmor (page %page%)"
+  fillItem:
+    material: STAINED_GLASS_PANE
+    damage: 15
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: LEATHER_HELMET
+        quantity: 1
+      buyPrice: 40
+      sellPrice: 8
+      slot: 10
+    2:
+      type: item
+      item:
+        material: GOLD_HELMET
+        quantity: 1
+      buyPrice: 160
+      sellPrice: 32
+      slot: 11
+    3:
+      type: item
+      item:
+        material: IRON_HELMET
+        quantity: 1
+      buyPrice: 480
+      sellPrice: 96
+      slot: 12
+    4:
+      type: item
+      item:
+        material: DIAMOND_HELMET
+        quantity: 1
+      buyPrice: 800
+      sellPrice: 160
+      slot: 13
+    5:
+      type: item
+      item:
+        material: LEATHER_CHESTPLATE
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 10
+      slot: 19
+    6:
+      type: item
+      item:
+        material: GOLD_CHESTPLATE
+        quantity: 1
+      buyPrice: 200
+      sellPrice: 40
+      slot: 20
+    7:
+      type: item
+      item:
+        material: IRON_CHESTPLATE
+        quantity: 1
+      buyPrice: 600
+      sellPrice: 120
+      slot: 21
+    8:
+      type: item
+      item:
+        material: DIAMOND_CHESTPLATE
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: 200
+      slot: 22
+    9:
+      type: item
+      item:
+        material: LEATHER_LEGGINGS
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 10
+      slot: 28
+    10:
+      type: item
+      item:
+        material: GOLD_LEGGINGS
+        quantity: 1
+      buyPrice: 200
+      sellPrice: 40
+      slot: 29
+    11:
+      type: item
+      item:
+        material: IRON_LEGGINGS
+        quantity: 1
+      buyPrice: 600
+      sellPrice: 120
+      slot: 30
+    12:
+      type: item
+      item:
+        material: DIAMOND_LEGGINGS
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: 200
+      slot: 31
+    13:
+      type: item
+      item:
+        material: LEATHER_BOOTS
+        quantity: 1
+      buyPrice: 30
+      sellPrice: 6
+      slot: 37
+    14:
+      type: item
+      item:
+        material: GOLD_BOOTS
+        quantity: 1
+      buyPrice: 120
+      sellPrice: 24
+      slot: 38
+    15:
+      type: item
+      item:
+        material: IRON_BOOTS
+        quantity: 1
+      buyPrice: 360
+      sellPrice: 72
+      slot: 39
+    16:
+      type: item
+      item:
+        material: DIAMOND_BOOTS
+        quantity: 1
+      buyPrice: 600
+      sellPrice: 120
+      slot: 40
+    17:
+      type: item
+      item:
+        material: WOOD_SWORD
+        quantity: 1
+      buyPrice: 20
+      sellPrice: 4
+      slot: 15
+    18:
+      type: item
+      item:
+        material: GOLD_SWORD
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 10
+      slot: 24
+    19:
+      type: item
+      item:
+        material: IRON_SWORD
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 20
+      slot: 33
+    20:
+      type: item
+      item:
+        material: DIAMOND_SWORD
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: 200
+      slot: 42
+    21:
+      type: item
+      item:
+        material: BOW
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 20
+      slot: 16
+    22:
+      type: item
+      item:
+        material: ARROW
+        quantity: 10
+      buyPrice: 50
+      sellPrice: 10
+      slot: 25
+    23:
+      type: item
+      item:
+        material: SNOW_BALL
+        quantity: 16
+      buyPrice: 30
+      sellPrice: 5
+      slot: 34
+    24:
+      type: item
+      item:
+        material: FIREBALL
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 5
+      slot: 43

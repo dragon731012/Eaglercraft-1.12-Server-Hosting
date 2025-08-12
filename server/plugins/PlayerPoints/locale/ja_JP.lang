@@ -1,0 +1,115 @@
+# ja_JP translation by Mori01231
+# プラグイン Prefix
+prefix: '&7[<g:#E8A230:#ECD32D>PlayerPoints&7] '
+
+# 通貨
+currency-singular: ポイント
+currency-plural: ポイント
+currency-separator: ','
+
+# その他
+no-permission: '&c権限不足です！'
+no-console: '&cこのコマンドはコンソールでは実行できません。プレイヤーが実行してください。'
+invalid-amount: '&c値は正の整数で指定してください。'
+unknown-player: '&c&b%player% という名前のプレイヤーは見つかりませんでした。'
+unknown-command: '&c無効なコマンド: &b%input%'
+votifier-voted: '&e%service% での投票ありがとうございます。 &b%amount% &eポイントがアカウントに追加されました。'
+
+# 基礎コマンドメッセージ
+base-command-color: '&e'
+base-command-help: '&eプラグインの使い方に関しては &b/points help &e で解説されています。'
+
+# ヘルプコマンド
+command-help-description: '&8 - &d/points help &7- ヘルプメニューを表示、、、ヘルプメニューへようこそ！'
+command-help-title: '&e使用可能なコマンド:'
+
+# Give コマンド
+command-give-description: '&8 - &d/points give &7- プレイヤーにポイントを付与する。'
+command-give-usage: '&c構文: &e/points give <player> <amount>'
+command-give-success: '&b%player% &aに &b%amount% &e%currency% &a付与しました。'
+command-give-received: '&eあなたは &b%amount% &e%currency% &e受け取りました。'
+
+# Give All コマンド
+command-giveall-description: '&8 - &d/points giveall &7- 鯖内の全プレイヤーにポイントを付与する。'
+command-giveall-usage: '&c構文: &e/points giveall <amount> [*]'
+command-giveall-success: '&a現在ログインしている全プレイヤーに &b%amount% &a%currency% 付与しました。'
+
+# Take コマンド
+command-take-description: '&8 - &d/points take &7- プレイヤーからポイントを剥奪する。'
+command-take-usage: '&c構文: &e/points take <player> <amount>'
+command-take-success: '&b%player%&a から &b%amount% &a%currency% 剥奪しました。'
+command-take-lacking-funds: '&b%player% &cの所持%currency%が足りないため、所持%currency%が0に設定されました。'
+
+# Look Command
+command-look-description: '&8 - &d/points look &7- プレイヤーの所持ポイントを確認する。'
+command-look-usage: '&c構文: &e/points look <player>'
+command-look-success: '&b%player% &eは &b%amount% &e%currency% 所持しています。'
+
+# Pay Command
+command-pay-description: '&8 - &d/points pay &7- プレイヤーにポイントを支払う。'
+command-pay-usage: '&c構文: &e/points pay <player> <amount>'
+command-pay-sent: '&aあなたは &b%player% に %amount% &a%currency% 支払いました。'
+command-pay-received: '&eあなたは &b%player% から &b%amount% &e%currency% 受け取りました。'
+command-pay-lacking-funds: '&c%currency% 不足です。'
+
+# Set Command
+command-set-description: '&8 - &d/points set &7- プレイヤーのポイントを新たな値に設定する。'
+command-set-usage: '&c構文: &e/points set <player> <amount>'
+command-set-success: '&b%player% &aの &e%currency% &aを &b%amount% &aに設定しました。'
+
+# Reset Command
+command-reset-description: '&8 - &d/points reset &7- プレイヤーのポイントをリセットする。'
+command-reset-usage: '&c構文: &e/points reset <player>'
+command-reset-success: '&b%player% &aの %currency% &aをリセットしました。'
+
+# Me Command
+command-me-description: '&8 - &d/points me &7- 自分の所持ポイントを確認する。'
+command-me-usage: '&c構文: &d/points me'
+command-me-success: '&eあなたは &b%amount% &e%currency% 所持しています。'
+
+# Lead Command
+command-lead-description: '&8 - &d/points lead &7- ポイントランキングを確認する。'
+command-lead-usage: '&c構文: &e/points lead [next|prev|#]'
+command-lead-title: '&eランキング &7(ページ #%page%/%pages%)'
+command-lead-entry: '&b%position%). &e%player% &7- &6%amount% %currency%'
+
+# Broadcast Command
+command-broadcast-description: '&8 - &d/points broadcast &7- プレイヤーの所持ポイントを公表する。'
+command-broadcast-usage: '&c構文: &e/points broadcast <player>'
+command-broadcast-message: '&b%player% &eは &b%amount% &e%currency% 所持しています。'
+
+# Reload Command
+command-reload-description: '&8 - &d/points reload &7- プラグインをリロードする。'
+command-reload-usage: '&c構文: &e/points reload'
+command-reload-success: '&a設定ファイルと言語ファイルをリロードしました。'
+
+# Export Command
+command-export-description: '&8 - &d/points export &7- storage.ymlにデータを書き出す。'
+command-export-usage: '&c構文: &e/points export'
+command-export-success: '&aデータがstorage.ymlに書き出されました。'
+command-export-warning: '&c注意: すでにstorage.ymlファイルが存在しています。上書きする場合は &b/points export confirm &cコマンドを実行してください。'
+
+# Import Command
+command-import-description: '&8 - &d/points import &7- storage.ymlからデータを読み込む。'
+command-import-usage: '&c構文: &e/points import'
+command-import-success: '&aデータがstorage.ymlから読み込まれました。'
+command-import-no-backup: '&cstorage.ymlが存在しないため、読み込みが失敗しました。&b/points export &cで新たにstorage.ymlを生成し、データ形式の変換に使用できます。'
+command-import-warning: '&c注意：この処理は現在使用中のデータベースのデータを削除し、storage.ymlの中身で置き換えます。&c現在使用中のデータベース形式は &b&o&l%type%&cです。 &cデータのバックアップを取ったうえで本当にこの処理を実行したい場合のみ &b/points import confirm &cコマンドを使用してください。'
+
+# Convert Command
+command-convert-description: '&8 - &d/points convert &7- ほかのプラグインから通貨のデータを読み込む。'
+command-convert-usage: '&c構文: &e/points convert <plugin>'
+command-convert-invalid: '&b%plugin% &cからの通貨の読み込みははサポートされていません。'
+command-convert-success: '&b%plugin% &aから通貨データが読み込まれました。'
+command-convert-failure: '&cデータの読み込み中にエラーが発生しました。コンソールでエラーを確認し、PlayerPointsの作者に報告してください。'
+command-convert-warning: '&c注意：この処理は現在使用中のデータベースのデータを削除し、&b%plugin%&cの中身で置き換えます。 &cデータのバックアップを取ったうえで本当にこの処理を実行したい場合のみ &b/points convert %plugin% confirm&cコマンドを使用してください。'
+
+# Import Legacy Command
+command-importlegacy-description: '&8 - &d/points importlegacy &7- レガシーテーブルをインポートします'
+command-importlegacy-usage: '&c構文: &e/points importlegacy <table>'
+command-importlegacy-success: '&b%table%&aからレガシーのデータを首尾よくインポートしました。'
+command-importlegacy-failure: '&b%table%&aからレガシーのデータのインポートに失敗しました。そのテーブルはありますか？'
+command-importlegacy-only-mysql: '&cMySQLはエネブルたらこのコマンドは使用可能。'
+
+# Version Command
+command-version-description: '&8 - &d/points version &7- バージョン情報の表示 PlayerPoints'

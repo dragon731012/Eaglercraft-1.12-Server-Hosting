@@ -1,0 +1,92 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&e&lВарпи-Сервера'
+  rows: 5
+  command: warps
+  auto-refresh: 1
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+default-icon:
+  type: animated
+  child:
+    frame1:
+      id:
+        - RED_STAINED_GLASS_PANE
+        - STAINED_GLASS_PANE:1
+    
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+# Note that the nodes is case-insensitive (except some sub-nodes)
+# You can use lowercase or uppercase whatever you want
+skull:
+  position-x: 5
+  position-y: 3
+  COMMAND: warp auto-mine
+  LORE: ""
+  name: "&eАвто-Шахта"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/8ff3ed1343229f8bc9e1961adeb5b0b0d19db926403978d9502dee578d764355
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"
+skulll:
+  position-x: 4
+  position-y: 3
+  COMMAND: warp auto-mine-end
+  LORE: ""
+  name: "&6Авто Шахта Энд"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/5ef539b165125cfa46b06ffb9659e7cf89084bbd3ede1b314edc8f443343d61c
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"
+skullll:
+  position-x: 3
+  position-y: 3
+  COMMAND: warp case
+  LORE: ""
+  name: "&aКейсы"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/6f568dd80820657554f9b45db031d22cd9b7d161c1982773b1b35854c9939824
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1" 
+skullll/:
+  position-x: 6
+  position-y: 3
+  COMMAND: warp pvp-arena
+  LORE: ""
+  name: "&cПВП-Арена"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/6248ffa1541f2d748d177cc267e40648ce97fd693bc7e3ad74f91feb212d6621
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"  
+skullldl/:
+  position-x: 7
+  position-y: 3
+  COMMAND: warp enchantment
+  LORE: ""
+  name: "&bСтол Зачарования"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/57ae93ef5205dab4ef53ff44f5ede734ff2209f2fbb792176ac70261e1373f4b
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"    

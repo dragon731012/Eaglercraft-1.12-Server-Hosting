@@ -1,0 +1,152 @@
+dyes:
+  name: "&2&lDyes (page %page%)"
+  size: 54
+  fillItem:
+    material: STAINED_GLASS_PANE
+    damage: 15
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 0
+      buyPrice: 50
+      sellPrice: 5
+      slot: 10
+    2:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 1
+      buyPrice: 100
+      sellPrice: 20
+      slot: 11
+    3:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 2
+      buyPrice: 100
+      sellPrice: 20
+      slot: 12
+    4:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 3
+      buyPrice: 50
+      sellPrice: 5
+      slot: 13
+    5:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 4
+      buyPrice: 20
+      sellPrice: 4
+      slot: 14
+    6:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 5
+      buyPrice: 100
+      sellPrice: 20
+      slot: 15
+    7:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 6
+      buyPrice: 100
+      sellPrice: 20
+      slot: 16
+    8:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 7
+      buyPrice: 100
+      sellPrice: 20
+      slot: 19
+    9:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 8
+      buyPrice: 100
+      sellPrice: 20
+      slot: 20
+    10:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 9
+      buyPrice: 100
+      sellPrice: 20
+      slot: 21
+    11:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 10
+      buyPrice: 100
+      sellPrice: 20
+      slot: 22
+    12:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 11
+      buyPrice: 100
+      sellPrice: 20
+      slot: 23
+    13:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 12
+      buyPrice: 100
+      sellPrice: 20
+      slot: 24
+    14:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 13
+      buyPrice: 100
+      sellPrice: 20
+      slot: 25
+    15:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 14
+      buyPrice: 100
+      sellPrice: 20
+      slot: 30
+    16:
+      type: item
+      item:
+        material: INK_SACK
+        quantity: 16
+        damage: 15
+      buyPrice: 100
+      sellPrice: 20
+      slot: 31

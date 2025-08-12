@@ -1,0 +1,43 @@
+# http://dev.bukkit.org/bukkit-plugins/enchantedfurnace/
+# 
+# autosave is the interval in minutes between saves of furnaces.yml
+# If set to 0, file will be saved whenever a potential change is detected.
+# A value of around 5 minutes is recommended for servers with a larger file.
+# 
+# fortune_list_mode controls the fortune black/whitelist functionality.
+# In blacklist mode, the materials specified cannot be affected by fortune.
+# In whitelist mode, only the materials specified can be affected by fortune.
+# 
+# To disable fortune entirely, set fortune_list_mode: whitelist and fortune_list: []
+# You should also remove LOOT_BONUS_BLOCKS from furnace_enchantments.
+# 
+# disabled_furnace_enchantments controls which enchantments can be gotten from an enchanting table.
+# Enchantments obtained prior to changes will still be present and functional.
+# 
+# furnace_enchantability controls how easily enchantable furnaces are. Defaults to stone equivalent.
+# leather/wood: 15, stone: 5, iron armor: 9, iron tools: 14, chain: 12, gold armor: 25, gold tools: 22, diamond: 10
+# See http://minecraft.gamepedia.com/Enchantment_mechanics#Step_One_-_Applying_modifiers_to_the_enchantment_level
+# Setting this value to 0 will NOT make furnaces unenchantable. To disable enchanting entirely, remove the permission
+# "enchantedfurnace.enchant.table" or add all enchantments to disabled_furnace_enchantments.
+# 
+# enchantment_incompatibilities affects which enchantments cannot be recieved when certain others are present.
+# On vanilla tools, silk touch and fortune are incompatible.
+# This doesn't make too much sense for furnaces given the differences
+# in function, but it's enabled by default to match vanilla.
+# You do not need to add the reversed mapping of an incompatibility.
+# 
+# disabled_worlds restores vanilla functionality to the worlds listed.
+# Furnaces placed in these worlds will not be remembered and existing saved furnaces will not be loaded.
+# 
+
+autosave: 5
+fortune_list_mode: blacklist
+fortune_list:
+- SPONGE
+- SMOOTH_BRICK
+disabled_furnace_enchantments: []
+furnace_enchantability: 5
+enchantment_incompatibilities:
+ SILK_TOUCH: LOOT_BONUS_BLOCKS
+disabled_worlds:
+- creativeworld

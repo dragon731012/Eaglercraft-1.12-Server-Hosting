@@ -1,0 +1,115 @@
+# pt_PT translation by AtlasGamerZ
+# Mensagem de prefixo do plugin
+prefix: '&7[<g:#E8A230:#ECD32D>PlayerPoints&7] '
+
+# Moeda
+currency-singular: Ponto
+currency-plural: Pontos
+currency-separator: ','
+
+# Misc
+no-permission: '&cTu não tens permissão para isso!'
+no-console: '&cApenas jogadores podem executar este comando.'
+invalid-amount: '&cQuantidade deve ser um numero inteiro positivo.'
+unknown-player: '&cJogador não pode ser encontrado: &b%player%'
+unknown-command: '&cComando desconhecido: &b%input%'
+votifier-voted: '&eObrigado por votar em %service%! &b%amount% &eforam adicionados ao seu saldo.'
+
+# Mensagem de comandos base
+base-command-color: '&e'
+base-command-help: '&eUse &b/points help &epara obter informação sobre o comando.'
+
+# Comando de Ajuda
+command-help-description: '&8 - &d/points help &7- Mostra um menu de ajuda... Tu chegaste'
+command-help-title: '&eComandos disponíveis:'
+
+# Comando de Give
+command-give-description: '&8 - &d/points give &7- Dá pontos a um jogador'
+command-give-usage: '&cUso: &e/points give <jogador> <quantidade>'
+command-give-success: '&aDeste &b%amount% &e%currency% &aa &b%player%.'
+command-give-received: '&eTu recebeste &b%amount% &e%currency%.'
+
+# Comando de Give All
+command-giveall-description: '&8 - &d/points giveall &7- Dá pontos a todos os jogadores online'
+command-giveall-usage: '&cUso: &e/points giveall <quantidade> [*]'
+command-giveall-success: '&aDeste &b%amount% &a%currency% a todos os jogadores online.'
+
+# Command de Take
+command-take-description: '&8 - &d/points take &7- Tira pontos de um jogador'
+command-take-usage: '&cUso: &e/points take <jogador> <quantidade>'
+command-take-success: '&aTiraste &b%amount% &a%currency% de &b%player%&a.'
+command-take-lacking-funds: '&b%player% &cnão possui %currency% suficientes para isso, então o saldo foi definido como 0.'
+
+# Comando de Look
+command-look-description: '&8 - &d/points look &7- Vê os pontos de um jogador'
+command-look-usage: '&cUso: &e/points look <jogador>'
+command-look-success: '&b%player% &etem &b%amount% &e%currency%.'
+
+# Comando de Pay
+command-pay-description: '&8 - &d/points pay &7- Paga a um jogador'
+command-pay-usage: '&cUso: &e/points pay <jogador> <quantidade>'
+command-pay-sent: '&aTu pagaste a &b%player% %amount% &a%currency%.'
+command-pay-received: '&b%player%&e te pagou &b%amount% &e%currency%.'
+command-pay-lacking-funds: '&cTu não tens %currency% suficientes para isso.'
+
+# Comando de Set
+command-set-description: '&8 - &d/points set &7- Define os pontos de um jogador'
+command-set-usage: '&cUso: &e/points set <jogador> <quantidade>'
+command-set-success: '&a%currency% de &b%player% &aforam definidos para &b%amount%&a.'
+
+# Comando de Reset
+command-reset-description: '&8 - &d/points reset &7- Redefine os pontos de um jogador'
+command-reset-usage: '&cUso: &e/points reset <jogador>'
+command-reset-success: '&a%currency% de &b%player% &aforam redefinidos.'
+
+# Comando de Me
+command-me-description: '&8 - &d/points me &7- Ver os teus pontos'
+command-me-usage: '&cUso: &d/points me'
+command-me-success: '&eTu tens &b%amount% &e%currency%.'
+
+# Comando de Lead
+command-lead-description: '&8 - &d/points lead &7- Veja o ranking'
+command-lead-usage: '&cUso: &e/points lead [next|prev|#]'
+command-lead-title: '&eLeaderboard &7(Página #%page%/%pages%)'
+command-lead-entry: '&b%position%). &e%player% &7- &6%amount% %currency%'
+
+# Comando de Broadcast
+command-broadcast-description: '&8 - &d/points broadcast &7- Difunde a quantidade de pontos de um jogador'
+command-broadcast-usage: '&cUso: &e/points broadcast <jogador>'
+command-broadcast-message: '&b%player% &etem &b%amount% &e%currency%.'
+
+# Comando de Reload
+command-reload-description: '&8 - &d/points reload &7- Recarrega o plugin'
+command-reload-usage: '&cUso: &e/points reload'
+command-reload-success: '&aArquivos de configuração e linguagem foram recarregados.'
+
+# Comando de Export
+command-export-description: '&8 - &d/points export &7- Exporta os dados para storage.yml'
+command-export-usage: '&cUso: &e/points export'
+command-export-success: '&aDados foram exportados para storage.yml.'
+command-export-warning: '&cAviso: Um arquivo storage.yml já existe. Se gostarias de o sobrescrever, utiliza &b/points export confirm&c.'
+
+# Comando de Import
+command-import-description: '&8 - &d/points import &7- Importa os dados de storage.yml'
+command-import-usage: '&cUso: &e/points import'
+command-import-success: '&aDados foram importados de storage.yml.'
+command-import-no-backup: '&cNão é possível importar, storage.yml não existe. Tu podes gerar um com &b/points export &ce usá-lo para transferir dados entre tipos de bases de dados.'
+command-import-warning: '&cAviso: Esta operação vai apagar todos os dados da base de dados ativa e substitui-los pelo conteudo de storage.yml. &cO tipo de base de dados ativa é &b&o&l%type%&c. &cSe tu tens a certeza absoluta sobre isto, utiliza &b/points import confirm&c.'
+
+# Comando de Convert
+command-convert-description: '&8 - &d/points convert &7- Carrega os dados da moeda de outro plugin'
+command-convert-usage: '&cUso: &e/points convert <plugin>'
+command-convert-invalid: '&b%plugin% &cnão é o nome de um plugin de moeda convertível.'
+command-convert-success: '&aDados da moeda de &b%plugin% &aforam convertidos com sucesso.'
+command-convert-failure: '&cOcorreu um erro enquanto se tentava converter os dados. Por favor verifica na tua consola e informa quaisquer erros ao autor do plugin PlayerPoints.'
+command-convert-warning: '&cAviso: Esta operação vai apagar todos os dados da base de dados ativa e substitui-los pelos dados de &b%plugin%&c. &cSe tu tens a certeza absoluta sobre isto, utiliza &b/points convert %plugin% confirm&c.'
+
+# Comando de Import Legacy
+command-importlegacy-description: '&8 - &d/points importlegacy &7- Importa uma tabela antiga'
+command-importlegacy-usage: '&cUso: &e/points importlegacy <tabela>'
+command-importlegacy-success: '&aDados antigos importados com sucesso de &b%table%&a.'
+command-importlegacy-failure: '&cFalha para importar dados de &b%table%&c. A tabela existe?'
+command-importlegacy-only-mysql: '&cEste comando apenas se encontra disponível quando o MySQL está ativado.'
+
+# Version Command
+command-version-description: '&8 - &d/points version &7- Exibe informações sobre a versão de PlayerPoints'

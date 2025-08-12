@@ -1,0 +1,13 @@
+Items:
+  '1':
+    Price: 300
+    Seller: Stas_345YT
+    Time-Till-Expire: 1755060212607
+    Full-Time: 1755751412607
+    StoreID: 243827
+    Biddable: false
+    TopBidder: None
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+OutOfTime/Cancelled: {}

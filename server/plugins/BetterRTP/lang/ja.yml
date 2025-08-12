@@ -1,0 +1,56 @@
+# Translation author: OasisAkari (GitHub)
+Messages:
+  Prefix: '&7[&6BetterRTP&7] '
+  Success:
+    Paid: '&aあなたは&c$%price%&aで&7x=%x% y=%y% z=%z% に&f%attempts%&7回の試行でTPされました！'
+    Bypass: '&aあなたは&7x=%x% y=%y% z=%z% に&f%attempts%&7回の試行でTPされました！'
+    Loading: '&a安全位置已定位！&7加载区块中……'
+    Teleport: '&a传送中……&f直到我们找到安全的位置之前请等一下！'
+  Failed:
+    Price: '&c資金が不十分のためRTPできませんでした！ &7RTPには最低$%price%&7が必要です！'
+    NotSafe: '&c%attempts%回の試行で安全な場所が見つかりませんでした！ &7あなたははRTPされませんでした！'
+    Hunger: '&7你太饿了，&c传送之前先吃点东西再说！'
+  Other:
+    Success: '&a%player%が&7x=%x% y=%y% z=%z% に&f%attempts%&7回の試行でテレポートしました！'
+    NotSafe: '&c%attempts%回の試行で安全な場所が見つかりませんでした！ &7%player%はRTPされませんでした！'
+    Biome: '&c看上去&7%biome%&c群系不存在，&7试试使用Tab表查找！'
+  Reload: '&eコンフィグは正常にリロードされました！'
+  NoPermission:
+    Basic: '&cごめんなさい！ &7このコマンドを使う権限がありません！'
+    World: '&cごめんなさい！ &7ワールド%world%ではrtpが許可されていません！'
+  DisabledWorld: '&cワールド%world%は無効です！ &7RTPできませんでした！'
+  Cooldown: '&cごめんなさい！ &7あなたは&c%time%&7秒間RTPできません！'
+  Locked: '&cSorry! &7You''ve used up all your RTP''s!'
+  Invalid: '&c無効な引数。 ''/%command% help''を試してください。'
+  NotOnline: '&cプレイヤー&7%player%&cはオンラインではありません！'
+  Delay: '&f%time%&a秒でテレポートします！ 動かないで！'
+  Moved: '&cあなたは移動しました！ &7RTPはキャンセルされました！'
+  NotExist: '&cワールド&7%world%&cが存在しないようです。'
+  Already: '&cおっと！ &7あなたはすでにRTPしているように見えます。'
+  Sign: '&7命令标记已被创建！&7命令为''&f/rtp %command%&7'''
+  Edit:
+    Error: '&c错误，&7提供的参数无效！'
+    Set: '&b成功，&7%type%设置为%value%。'
+    Remove: '&c已移除，&7你移除了自定义世界%world%。'
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| 帮助菜单 &e&m-----'
+  Main: ' &7- &e/%command% &7- あなたをランダムテレポートする！'
+  Biome: ' &7- &e/%command% biome <biome1, biome2...> &7- Randomly teleport withing
+    these biomes'
+  Edit: ' &7- &e/%command% edit <默认/世界> [参数...] &7- 修改插件设置。'
+  Help: ' &7- &e/%command% help &7- ヘルプを見る'
+  Info: ' &7- &e/%command% info [world/particles/shapes/potion_effects] &7- 查看有关插件参数的特定信息。'
+  Player: ' &7- &e/%command% player <player> [world] &7- 他のプレイヤーをランダムテレポート'
+  Reload: ' &7- &e/%command% reload &7- プラグインをリロード'
+  Settings: ' &7- &e/%command% settings &7- 打开GUI设置。'
+  Test: ' &7- &e/%command% test &7- 测试传送后的插件效果。'
+  Version: ' &7- &e/%command% version &7- 显示目前使用的插件版本。'
+  World: ' &7- &e/%command% world <world> &7- 他のワールドにランダムテレポート'
+Usage:
+  Player: '&c使い方&7: /%command% player <プレイヤー> [ワールド]'
+  World: '&c使い方&7: /%command% world <ワールド>'
+  Biome: '&cUsage&7: /%command% biome <biome1, biome2...>'
+  Edit:
+    Base: '&c用法&7：/%command% edit <default/世界> [参数...]'
+    Default: '&c用法&7：/%command% edit default <max/min/useworldborder/center> <值>'
+    World: '&c用法&7：/%command% edit world <world> <max/min/useworldborder/center> <值>'

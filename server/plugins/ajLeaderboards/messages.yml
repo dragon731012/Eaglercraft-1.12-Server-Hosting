@@ -1,0 +1,83 @@
+signs:
+    top:
+        default:
+        - '&7&m       &r #{POSITION} &7&m       '
+        - '&6{NAME}'
+        - '&e{VALUE} {VALUENAME}'
+        - '&7&m                   '
+no-player-skin:
+    default: Superman00800
+formatted:
+    k: k
+    m: m
+    t: t
+    b: b
+    q: q
+    qi: qi
+    sx: sx
+    sp: sp
+    o: o
+    n: n
+    d: d
+    ud: ud
+time:
+    w: 'w '
+    d: 'd '
+    h: 'h '
+    m: 'm '
+    s: s
+noperm: You don't have permission to do this!
+commands:
+    reload:
+        success: '&aConfigs reloaded!'
+        fail: '&cAn error occurred while reloading one of your configs. Check the
+            console for more info.'
+    export:
+        fileexists: '&cThe file &f{FILE}&c already exists!'
+        starting: '&7Fetching all players from the database. This might take a bit.'
+        fail: '&cAn error occurred while exporting. Check the console for more info.'
+        progress: '&eProgress: &f{DONE}&7/&f{TOTAL}&7 boards fetched'
+        success: '&aThe cache has been exported to the file &f{FILE}&a!'
+    viewer:
+        success: |4
+
+            &aThe cache has been uploaded and is viewable at&f <hover:show_text:'<yellow>Click to go to&f {URL}'><click:open_url:'{URL}'><white><underlined>{URL}</click></hover>
+        uploading: '&7Uploading..'
+    import:
+        nofile: '&cThe file &f{FILE}&c doesnt exist!'
+        starting: '&7Loading all cached stats from &f{FILE}'
+        fail: '&cAn error occurred while importing. Check the console for more info.'
+        insertprogress: '&eProgress: &f{DONE}&7/&f{TOTAL}&7 boards imported'
+        success: '&aThe cache has been imported from the file &f{FILE}&a!'
+no-data:
+    lb:
+        name: '---'
+        value: '---'
+    extra: '---'
+    rel:
+        position: '{POSITION}'
+        name: '---'
+        value: '---'
+loading:
+    text: Loading
+    short: -?-
+    position: ..
+    size: '...'
+updater:
+    slow-feedback: '&7Checking for update and downloading...'
+    disabled: '&cThe updater is disabled! &7Please enable it in the config to download
+        updates.'
+    success: '&aUpdate downloaded! &7Restart the server to apply the update.'
+    warnings:
+        could-not-delete-old-jar: '&aUpdate downloaded&e but the old jar could not
+            be deleted. &7Please delete the old jar before restarting the server.'
+    errors:
+        no-update-available: '&aYou are already up to date!'
+        while-checking: '&eAn error occurred while checking for an update. &7See the
+            console for more info.'
+        already-downloaded: '&aYou have already downloaded an update! &7Restart the
+            server to apply it.'
+        while-downloading: '&eAn error occurred while downloading an update. &7See
+            the console for more info.'
+        unknown: '&eAn unknown error occurred: {ERROR}'
+        uncaught: '&cAn error occurred while executing this command. &7See the console.'

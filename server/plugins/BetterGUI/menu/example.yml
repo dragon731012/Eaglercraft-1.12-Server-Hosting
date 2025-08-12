@@ -1,0 +1,104 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&e&lМеню-Сервера'
+  rows: 5
+  command: menu
+  auto-refresh: 1
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+default-icon:
+  type: animated
+  child:
+    frame1:
+      id:
+        - RED_STAINED_GLASS_PANE
+        - STAINED_GLASS_PANE:1
+    
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+# Note that the nodes is case-insensitive (except some sub-nodes)
+# You can use lowercase or uppercase whatever you want
+skull:
+  position-x: 2
+  position-y: 3
+  COMMAND: shop
+  LORE: ""
+  name: "&e&lМагазин-Сервера"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/a3db6a1c3c9246919b6c7dc2b82720981a6369f125526d18373d0acc576ddbd2
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"
+skulll:
+  position-x: 2
+  position-y: 4
+  COMMAND: ah
+  LORE: ""
+  name: "&6&lАукцион-Сервера"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/bd895b29e9bda456164e13b4d45c77b64df83688a35965ecb2e62176d2493b34
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"
+skullll:
+  position-x: 2
+  position-y: 2
+  COMMAND: rewards grab
+  LORE: ""
+  name: "&a&lЕжедневная награда"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/8eea7fbfe4d7eddcf07119f92233d33a74094af3cd93b8dbf216d89a456f9a3d
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1" 
+skullll/:
+  position-x: 8
+  position-y: 2
+  COMMAND: /rtp
+  LORE: ""
+  name: "&a&lРандомная-Телепортация"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/f5892fb757766e328d89a2ef8592a924881bd07f23bda4cbbdcff79a8dbf9815
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"  
+skullldl/:
+  position-x: 8
+  position-y: 3
+  COMMAND: ceh viewer category default
+  LORE: ""
+  name: "&с&lКрафты-Сервера"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/493d112dce744cc9f797996f12ce3a2d822dca9d09c9e9ede6c6b13208099c1
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"    
+skullldl//:
+  position-x: 8
+  position-y: 4
+  COMMAND: warps
+  LORE: ""
+  name: "&b&lВарпи-серверы"
+  id:
+    - player_head
+    - skull_item:3
+  skull: http://textures.minecraft.net/texture/5789c47e6e4e6bd5f9116a2d9eb9a7fd9b11b560f9922429f0bec49068977987
+  #skull: "HSGamer"
+  #skull: "7acc67dc-8b84-4f8d-b7ad-ec81e758f5a1"      

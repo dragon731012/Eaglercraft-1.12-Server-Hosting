@@ -1,0 +1,464 @@
+#-------------------------------------------------------------------------------------------------------------------#
+#							  MyCommand Commands config file (last update v5.7.2)									#
+#																													#
+#  Plugin Documentation : https://dev.bukkit.org/projects/mycommand/pages/getstarted    							#
+#  Spigot https://www.spigotmc.org/resources/mycommand.22272/  Bukkit : https://dev.bukkit.org/projects/mycommand/	#
+#																													#
+#	How to make a command :	(See an example command below)															#
+#		First, decide your command name placing it in the first row (no duplicates!)  "mycommand:"					#
+#		Now set the "command:" field. This will trigger the command. Don't forget the '/' before your command.		#
+#		Now choose your command type from a predefined list and put it after the "type" field						#
+#	COMMAND TYPE LIST :																								#
+#		TEXT , BROADCAST_TEXT, RAW_TEXT , BROADCAST_RAW_TEXT, ALIAS , RUN_COMMAND , RUN_CONSOLE , RUN_COMMAND_TASK  #
+#       RUN_COMMAND_RANDOM , RUN_CONSOLE_RANDOM , RUN_AS_OPERATOR , ADD_PERMISSION , ADD_COST , WARMUP , COOLDOWN   #
+#       WARMUP_AND_COOLDOWN , BLOCK_PATTERN ,  BAR_API_TEXT , BAR_API_BROADCAST_TEXT , CALL_URL , EXP_BAR			#
+#       ICON_MENU , MERCHANT , SCOREBOARD , BUNGEE_TP , TITLE, BROADCAST_TITLE , ACTION_BAR , BROADCAST_ACTION_BAR	#
+#		HOLOGRAPHIC_TEXT , BROADCAST_HOLOGRAPHIC_TEXT , LIVE_CHAT , BOOK , RAW_BOOK, ANVIL_GUI , SIGN_MENU 			#
+#																													#
+#	If your command is "TEXT" type, you can put multiple line of text below this parameter							#
+#	You can do the same thing with the "RUN_COMMAND" type, but instead of text, puts commands in this list			#
+#	For delayed command(s) add $delay$ before the command in runcmd Example : - $delay$/list						#
+#	Set delay time with delaytimer: 5 (5 = seconds) | 																#
+#   If you are using the Vault plugin, you can put the "cost: 123.0" with this line. 								#
+#	You can customize your permission node by placing "permission-node:" field in a command							#
+#	Change the permission error message with "permission-error:" or create a command without permission required	#
+#   with "permission-required: false". Custom error-message for invalid args, use "error-message:"					#
+#   You can use itemcost : 'ID:AMOUNT' for set a cost with items. 													#
+#   Register REAL commands putting "register: true" below the command. Those are recognized from other plugins.    	#
+#   With register commands you can use the "tab_completer: - Hi - Hello!"											#
+#   For Scripts and more features, find more on the bukkitdev page													#
+#-------------------------------------------------------------------------------------------------------------------#
+gamemode_alias:
+  command: /gm
+  type: ALIAS
+  alias: /gamemode
+  permission-required: true
+simple_dice:
+  command: /mycmd-dice
+  type: TEXT
+  text:
+  - '&0[&6Dice&0] &eYou got &6$rnd6 !'
+  permission-required: true
+  permission-node: mycommand.cmd.dice
+  permission-error: "&a$player! , &2You can't use this command!"
+tab_completer:
+  command: /greets 
+  type: RUN_COMMAND
+  runcmd:
+  - '$broadcasttext$&0[&e$player&0]&r $multiargs'
+  required_args: 1
+  register: true
+  tab_completer:
+  - Hi
+  - Hello!
+  - Well Met!
+  command_description: "Greets people with a Broadcast"
+shortcut:
+  command: /l
+  type: RUN_COMMAND
+  runcmd:
+  - '/list'
+  cost: 0
+mycmd_colors:
+  command: /mycmd-colors
+  type: TEXT
+  text:
+  - "&11 &22 &33 &44 &55 &66 &77 &88 &99 &00 &aa &bb &cc &dd &ee &ff"
+  - "&nn&r &mm&r &ll&r &oo&r $random_color :D"
+  permission-required: false
+shortcut_with_arguments:
+  command: /t
+  type: RUN_COMMAND
+  runcmd:
+  - '/time $arg1 $arg2'
+  cost: 0
+  error-message: '&cType &e/t set day'
+  require_all_arguments: true
+delay_example:
+  command: /mycmd-countdown
+  type: RUN_COMMAND
+  runcmd:
+  - '$delay$$broadcasttext$&0[&eCountdown&0] $random_color3..'
+  - '$delay$$broadcasttext$&0[&eCountdown&0] $random_color2..'
+  - '$delay$$broadcasttext$&0[&eCountdown&0] $random_color1..'
+  - '$delay$$broadcasttext$&0[&eCountdown&0] &eGO!!'
+  cost: 0
+  delaytimer: 1
+  delaytimer_format: SECONDS
+broadcast_example:
+  command: /mycmd-broadcast
+  type: BROADCAST_TEXT
+  text:
+  - '&0[&e$player&0]&r $multiargs'
+  required_args: 1
+run_by_console:
+  command: /mycmd-runconsole
+  type: RUN_CONSOLE
+  runcmd:
+  - /say This message is getting performed by the console.
+  cost: 0
+warmups_cooldowns_info:
+  command: /warmupsandcooldowns
+  type: TEXT
+  text:
+  - 'Put your command over /warmupsandcooldowns'
+  - 'And change type : from text to WARMUP for Warmups and COOLDOWN for Cooldowns'
+  - 'adjust the warmup and cooldowns time with delaytimer'
+  delaytimer: 5
+add_permission:
+  command: /command-to-override
+  type: ADD_PERMISSION
+  text:
+  - '$6Add an extra permission to another existing command'
+  permission-node: permission.name
+  cost: 0
+some_placeholders:
+  command: /mycmd-playerinfo
+  type: TEXT
+  text:
+  - '&2Player name : &a$player'
+  - '&2World : &a$world'
+  - '&2Health : &a$health &2Food : &a$food'
+  - '&2Exp : &a$exp &2Level : &a$level'
+  - '&2Gamemode : &a$gamemode'
+  - '&2LastDamage : &a$lastdamage'
+mycmd_list_command:
+  command: /mycmd-online
+  type: TEXT
+  text:
+  - '&2There are &a$online &2players online.'
+  - '&a $ponline'
+clear_chat:
+  command: /clearchat
+  type: BROADCAST_TEXT
+  text:
+  - '%Repeat%100% '
+  - '&0[&eMyCommand&0]&b Chat cleared :D'
+shortcut_with_multiargs:
+  command: /mycmd-shortcut
+  type: RUN_COMMAND
+  runcmd:
+  - '/say $multiargs'
+random_example:
+  command: /rockpaperscissors
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/me Rock!'
+  - '/me Paper!'
+  - '/me Scissors!'
+iconmenu_page1:
+  command: /iconmenu
+  type: ICON_MENU
+  text:
+  - 'POSITION:ITEM_NAME:ITEMDATA:COMMAND/MESSAGE:TITLE:DESCRIPTION;MULTILINES'
+  - 'ITEM_NAME can also be ITEM_NAME;ENCHANTMENT_NAME;LEVEL'
+  iconmenu_title: '&cMyCommand &4ItemMenu'
+  iconmenu_size: 27
+  iconmenu_commands:
+  - 0:GOLDEN_APPLE:0:/help:&2Help:&aOpen the help menu
+  - 1:COMPASS;DAMAGE_ALL;1:0:/mycmd:Menu:MyCommand menu
+  - 9:EMERALD:0:/list:Player List:&bShow online players
+  - 10:LEGACY_WATCH:0:/time set 0:Day:Turn day
+  - 11:PLAYER_HEAD%$player:0:/command:Title:Description
+  - 26:LEGACY_WOOL:11:%openiconmenu%/iconmenu2:Next Page:&cChange IconMenu Page;&a--------->
+  cost: 0
+  delaytimer: 5
+iconmenu_page2:
+  command: /iconmenu2
+  type: ICON_MENU
+  iconmenu_title: 'Page 2'
+  iconmenu_size: 9
+  iconmenu_commands:
+  - '0:LEGACY_GOLDEN_APPLE:0:Do something:Hello!:=)'
+  - '8:LEGACY_WOOL:13:%openiconmenu%/iconmenu:Return Back:&cChange IconMenu Page;&a<---------'
+  cost: 0
+  delaytimer: 5
+help_page_0:
+  command: /mycmd-help
+  type: TEXT
+  text:
+  - '&a ---- &6MyCommand Help &eMain Page &a----'
+  - '&e This is the Main page of the help '
+  - '&e Type &6/mycmd-help 2 &efor see the second page'
+help_page_1:
+  command: /mycmd-help 2
+  type: TEXT
+  text:
+  - '&a ---- &6MyCommand Help &ePage two &a----'
+  - '&e And this is the page two of the help'
+itemcost_example:
+  command: /itemcostexample
+  type: TEXT
+  text:
+  - '$random_colorYou have spent 5 Cobblestone for see this message.'
+  itemcost: 'COBBLESTONE:5'
+ 
+# COMMAND TYPE : SCOREBOARD
+# The Scoreboard will get removed after DelayTimer(sec). If 0 don't remove
+# Use $marquee$ as a prefix of the scoreboard name to scroll the text.
+# Use scoreboard_refresh_ticks, to determinate how frequent the plugin have to update the scoreboard.  
+
+scoreboard_example:
+  command: /sbexample
+  type: SCOREBOARD
+  scoreboard_name: "$marquee$&1M&2y&3C&4o&5m&6m&7a&8n&9d &aS&bc&co&dr&ee&fb&0o&1a&2r&3d &6Example "
+  scoreboard_text:
+  - "4;&c&lCoordinates:"
+  - "3;&6X:&e $locX &6Y:&e $locY &6Z:&e $locZ "
+  - "2;&c&lPlayer Info:"
+  - "1;&6Health: &e$health"
+  - "0;&6Food: &e$food"
+  scoreboard_refresh_ticks: 5
+  delaytimer: 10
+  
+# Teleport to another server inside the same network using the following command type (BungeeCord required)
+bungeecord_example:
+  command: /gotohub
+  type: BUNGEE_TP
+  server_name: hub
+  
+# Limit the command execution to only certain worlds :
+allowed_worlds_example:
+  command: /onlynether
+  type: TEXT
+  text:
+  - "&cYea,The Nether!"
+  allowed_worlds:
+  - world_nether
+per_world_commands:
+  command: /perworldcommand
+  type: RUN_COMMAND
+  runcmd:
+  - "$world=%world%/me This command will be performed only if you are in the world"
+  - "$world=%world_nether%/me And this only if you are in the nether"
+  permission-required: false
+  
+# Let run the same command to all the players in the server
+executefor_example:
+  command: /executeforall
+  type: RUN_CONSOLE
+  executefor: ONLINE_PLAYERS
+  runcmd:
+  - "/tp $player 0 64 0"
+  permission-required: true
+  
+# Examples using %PlayerOptions% feature
+ouch:
+  command: /ouch
+  type: RUN_COMMAND
+  runcmd:
+  - '%PlayerOptions%damage: 1'
+  - '$text$&c<3'
+  permission-required: true
+heal_me:
+  command: /mycmd-heal
+  type: RUN_COMMAND
+  runcmd:
+  - '%PlayerOptions%setHealth: 20'
+  - '%PlayerOptions%setFoodLevel: 20'
+  - '%PlayerOptions%sendMessage: &aHealed!'
+  permission-required: true
+  
+# WorldGuard support
+world_guard_example:
+  command: /checkregion
+  type: TEXT
+  text:
+  - 'You are in $wgregionname region!'
+  allowed_wg_regions:
+  - 'region_name_here'
+  
+# Cooldown for custom commands.
+custom_cmd_cooldown:
+  command: /cooldown-example
+  type: TEXT
+  text:
+  - '&aBla bla bla, type the command again for see the cooldown effect.'
+  cooldown: 5
+custom_cmd_warmup:
+  command: /warmup-example
+  type: TEXT
+  text:
+  - '&aYou have waited 5 second for see this command performed'
+  warmup: 5
+  
+# Retrieve data from the web
+call_url:
+  command: /call-url
+  type: CALL_URL
+  url: 'http://localhost/yourscript.php?variable=$arg1&player=$player'
+  get_output : true
+  show_output_ingame : true
+  save_output_as : httpResponse
+  
+# Script example
+script_example_420:
+  command: /example420
+  type: RUN_COMMAND
+  runcmd:
+  - $Script$%if%$arg1==password
+  - $text$&eRight!
+  - $Script$%if%$arg1==420
+  - $text$&aBLAZE IT
+  - $Script$%else%
+  - $text$Password not correct
+  
+# BossBar example
+bar_text:
+  command: /bar_example
+  type: BAR_API_TEXT
+  text:
+  - '&aHello $random_color$player'
+  bar_seconds: 5
+  bar_percentage: 8
+  bar_style: SEGMENTED_20
+  bar_flag: DARKEN_SKY
+  bar_color: PINK
+  
+# Clickable and hoverable text.
+rawmessage_example:
+  command: /raw-example
+  type: RAW_TEXT
+  text:
+  - '&aHello &b$player! &aHover your mouse over me!; &dMAGIC'
+  - '&0[&d*&0]&e Click me; &eClick Here for suggest the command &d/mycmd;/mycmd'
+  - '$RUN_COMMAND$&0[&e*&0]&c Set the time to day; &eClick for Execute;/time set day'
+  - '$OPEN_URL$&0[&e*&0]$random_color Open Google.com; &eClick for open;http://www.google.com'
+  
+# A mix of the feature above
+lottery_example:
+  command: /lottery_example
+  type: RUN_COMMAND
+  runcmd:
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$text$&6Welcome to &eMyCommand &6Lottery!'
+  - '$delay$'
+  - '$text$&b+------------------------------------'
+  - '$text$&b| &2Prize of today :'
+  - '$text$&b| &aCOBBLESTONE, BREAD, APPLE, GOLD_INGOT or DIAMOND! '
+  - '$text$&b+------------------------------------'
+  - '$text$&ePlease wait for the results!'
+  - '$delay$$delay$$delay$'
+  - '$delay$$text$&0[$random_colorLottery&0] &65...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &64...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &63...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &62...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &61...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$'
+  - '%PlayerOptions%playSound: ENTITY_EXPERIENCE_ORB_PICKUP:1.0F:1'
+  - '$Script$%PlayerData%lotteryprize=$GetRandomStringFromList%COBBLESTONE;DIAMOND;LEGACY_GOLD_INGOT;BREAD;APPLE%'
+  - '$Script$%PlayerData%amount_lotteryprize=$randomnumber%3%'
+  - '$delay$'
+  - '$text$&b+------------------------------------'
+  - '$text$&b| &6Congratulation! You won : &e $PlayerData%amount_lotteryprize% $PlayerData%lotteryprize%! ' 
+  - '$text$&b+------------------------------------'
+  - '%PlayerOptions%addItem: $PlayerData%lotteryprize%:$PlayerData%amount_lotteryprize%'
+  delaytimer: 1
+dailybonus:
+  command: /dailybonus
+  type: RUN_COMMAND
+  runcmd:
+  - "$Script$%if%$todaydate!=$PlayerData%DailyBonus%"
+  - "$text$&0[&6Daily&eBonus&0]&b Hello $player! Here, your daily reward!"
+  - "$text$&0[&6Daily&eBonus&0]&b Received &a1 DIAMOND!"
+  - "%PlayerOptions%addItem: DIAMOND:1"
+  - "$Script$%PlayerData%DailyBonus=$todaydate"
+  - "$text$&0[&6Daily&eBonus&0]&b Come back tomorrow!"
+  - "$Script$%else%"
+  - "$text$&0[&6Daily&eBonus&0]&b That's enough for today! Come back tomorrow!"
+  permission-required: false
+
+broadcast_message_with_perm:
+  command: /brmsgwithperm
+  type: BROADCAST_TEXT
+  text:
+  - "Only the player with the correct permission can see this message"
+  broadcast_message_permission_node: permission.for.see.this.message
+
+dynamiciconmenu:
+  command: /dynamiciconmenu
+  type: ICON_MENU
+  iconmenu_size: 36
+  iconmenu_mode: DYNAMIC
+  permission-required: false
+  iconmenu_commands:
+  - "0:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "1:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "2:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "3:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "4:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "5:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "6:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "7:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "8:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "9:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "11:CLOCK:0:%stayopen%:&aServer time - $random_color$time:&bToday Date - &6 $todaydate"
+  - "13:BEACON:0:/mycmd:&6MyCommand:&eLaunch MyCommand"
+  - "15:ENDER_PEARL<next>ENDER_EYE<next>AIR:0:%stayopen%:???<next>!!!<next>AIR: "
+  - "17:YELLOW_WOOL<next>LIME_WOOL:4:/command_example: : "
+  - "18:LIME_WOOL<next>YELLOW_WOOL:5:/command_example: : "
+  - "19:BOOK<next>2,BOOK<next>3,BOOK:0:%stayopen%:$random_colorPage 1<next>$random_colorPage 2<next>$random_colorPage 3:1<next>2<next>3"
+  - "22:1,IRON_CHESTPLATE<next>GOLDEN_CHESTPLATE;PROTECTION_ENVIRONMENTAL;1<next>DIAMOND_CHESTPLATE;PROTECTION_EXPLOSIONS;3:0:/command_example::Description;Line 2..."
+  - "25:BARRIER:0:%close%:Close this menu:&cClick here;&cto close"
+  - "26:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "27:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "28:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "29:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "30:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "31:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "32:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "33:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "34:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "35:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  delaytimer: 2
+holographic_example:
+  command: /holoexample
+  type: HOLOGRAPHIC_TEXT
+  text:
+  - "&eHello $player, how are you?"
+  - "$random_coloryeah, i'm fineeeee thanks!"
+  - "&dCurrent time &5$time"
+  delaytimer: 3
+merchant_example:
+  command: /mymerchant
+  type: MERCHANT
+  merchant_title: '&3Hello &b$player'
+  merchant_items:
+  - STONE_SWORD:1:0:DAMAGE_ALL;1;FIRE_ASPECT;1:&3Old Sword:&bA very old sword<cost>GOLD_INGOT:20<max_uses>2
+  - STONE_SWORD:1<cost>EMERALD:5<max_uses>4
+  - IRON_BLOCK:1<cost>EMERALD:1<cost>GOLD_INGOT:1
+  - GOLD_BLOCK:1<cost>IRON_INGOT:10
+  - EMERALD_BLOCK:1<cost>GOLD_INGOT:50
+  - DIAMOND_BLOCK:1<cost>GOLD_INGOT:50<cost>EMERALD:50
+  - LEVER:1
+  - COBBLESTONE:1
+my_custom_logger:
+ command: /mylog
+ type: RUN_COMMAND
+ runcmd:
+  - "$text$&aThis log file is getting saved in &2/MyCommand/logs/filename.log"
+  - "$log$[$player] $multiargs"
+ log_filename: filename.log
+multi_type_example:
+ command: /multitype_ex
+ type:
+ - TEXT
+ - RUN_COMMAND
+ text:
+ - This is the text part
+ runcmd:
+ - /say And here the commands.
+anvil_gui:
+ command: /anvil_gui
+ type: ANVIL_GUI
+ anvil_title: '&eMyCommand &6ANVIL'
+ anvil_slot_text: write here
+ anvil_commands:
+ - $text$ $player, you typed $output
+ - /broadcast $output
+ - '%openiconmenu%/iconmenu $output'

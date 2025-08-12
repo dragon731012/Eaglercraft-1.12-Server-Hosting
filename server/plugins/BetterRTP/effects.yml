@@ -1,0 +1,45 @@
+Sounds:
+  Enabled: true
+  ProtocolLibSound: false
+  Delay: entity_tnt_primed
+  Success: entity_generic_explode
+Titles:
+  Enabled: true
+  NoDelay:
+    Title: '&6Teleporting...'
+    Subtitle: '&8please wait'
+    SendMessage: true
+  Teleport:
+    Title: '&6Teleported!'
+    Subtitle: '&fx=%x% y=%y% z=%z% in %attempts% attempts'
+    SendMessage: true
+  Delay:
+    Title: ''
+    Subtitle: '&fTeleporting in %time% seconds...'
+    SendMessage: true
+  Cancelled:
+    Title: '&eYou moved...'
+    Subtitle: '&cRtp was cancelled!'
+    SendMessage: true
+  Loading:
+    Title: ''
+    Subtitle: '&7loading chunks... please wait'
+    SendMessage: true
+  Failed:
+    Title: ''
+    Subtitle: '&cFailed! No safe spots located'
+    SendMessage: true
+Particles:
+  Enabled: true
+  Type:
+  - EXPLOSION_NORMAL
+  - CRIT
+  Shape: EXPLODE
+Invincible:
+  Enabled: true
+  Seconds: 5
+Potions:
+  Enabled: true
+  Types:
+  - Blindness:60:1
+  - Invisibility:60:1

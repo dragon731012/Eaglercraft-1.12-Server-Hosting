@@ -1,0 +1,103 @@
+# __________ __                           __________       __        __
+# \______   \  | _____  ___ __  __________\______   \____ |__| _____/  |_  ______
+#  |     ___/  | \__  \<   |  |/ __ \_  __ \     ___/  _ \|  |/    \   __\/  ___/
+#  |    |   |  |__/ __ \\___  \  ___/|  | \/    |  (  <_> )  |   |  \  |  \___ \
+#  |____|   |____(____  / ____|\___  >__|  |____|   \____/|__|___|  /__| /____  >
+#                     \/\/         \/                             \/          \/
+
+# The locale to use in the /locale folder
+# Default: en_US
+locale: en_US
+
+# Should register with Vault as a currency manager?
+# Default: false
+vault: false
+
+# The priority level to use for the Vault hook
+# Higher priorities will allow PlayerPoints to load before other economy plugins
+# Valid values: [Lowest, Low, Normal, High, Highest]
+# Default: Low
+vault-priority: Low
+
+# How many players should be displayed per page on the leaderboard?
+# Default: 10
+leaderboard-per-page: 10
+
+# How many seconds to hold a player's points in cache before being released
+# Default: 30
+cache-duration: 30
+
+# Votifier hook settings
+vote:
+
+  # If the votifier hook should be enabled
+  # Default: false
+  enabled: false
+
+  # How many points should be awarded per vote
+  # Default: 100
+  amount: 100
+
+  # Should points only be awarded when the player who voted is online?
+  # Default: false
+  online: false
+
+# Which command should we redirect to when using '/points' with no subcommand specified?
+# You can use a value here such as 'me' to show the output of '/points me'
+# If you have any aliases defined, do not use them here
+# If left as blank, the default behavior of showing '/points version' with bypassed permissions will be used
+# Default: 
+base-command-redirect: ''
+
+# Are you upgrading from a much older version of PlayerPoints?
+# If you have done anything special with the database settings previously, you may need this
+# WARNING: This setting may be removed in the future. Try to get your database updated to use the new format!
+legacy-database-mode:
+
+  # Should we use legacy database mode?
+  # Default: false
+  enabled: false
+
+  # The name of the legacy database table
+  # Default: playerpoints
+  table-name: playerpoints
+
+# Settings for if you want to use MySQL for data management
+mysql-settings:
+
+  # Enable MySQL
+  # If false, SQLite will be used instead
+  # Default: false
+  enabled: false
+
+  # MySQL Database Hostname
+  # Default: 
+  hostname: ''
+
+  # MySQL Database Port
+  # Default: 3306
+  port: 3306
+
+  # MySQL Database Name
+  # Default: 
+  database-name: ''
+
+  # MySQL Database User Name
+  # Default: 
+  user-name: ''
+
+  # MySQL Database User Password
+  # Default: 
+  user-password: ''
+
+  # If the database connection should use SSL
+  # You should enable this if your database supports SSL
+  # Default: false
+  use-ssl: false
+
+  # The number of connections to make to the database
+  # Default: 3
+  connection-pool-size: 3
+
+# That's everything! You reached the end of the configuration.
+# Enjoy the plugin!

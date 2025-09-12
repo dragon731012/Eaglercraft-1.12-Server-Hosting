@@ -1,0 +1,21 @@
+{
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2025-09-05 16:36:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2025-09-05 16:37:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2025-09-05 16:37:10 +0000",
+      "plains": "2025-09-05 16:34:01 +0000"
+    },
+    "done": false
+  }
+}

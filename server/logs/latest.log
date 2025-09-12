@@ -1,0 +1,228 @@
+[16:32:51] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:32:51] [Server thread/INFO]: Loading properties
+[16:32:51] [Server thread/INFO]: Default game type: SURVIVAL
+[16:32:51] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:32:51] [Server thread/INFO]: Debug logging is disabled
+[16:32:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:32:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:32:51] [Server thread/INFO]: Generating keypair
+[16:32:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:32:51] [Server thread/INFO]: Using epoll channel type
+[16:32:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:32:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:32:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:32:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:32:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:32:51] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:32:51] [Server thread/INFO]: Preparing level "world"
+[16:32:52] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:32:52] [Server thread/INFO]: Mob Spawn Range: 4
+[16:32:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:32:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:32:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:32:52] [Server thread/INFO]: Random Lighting Updates: false
+[16:32:52] [Server thread/INFO]: Structure Info Saving: true
+[16:32:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:32:52] [Server thread/INFO]: Max TNT Explosions: 100
+[16:32:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:32:52] [Server thread/INFO]: View Distance: 5
+[16:32:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:32:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:32:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:32:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:32:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:32:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:32:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:32:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:32:52] [Server thread/INFO]: Mob Spawn Range: 4
+[16:32:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:32:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:32:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:32:52] [Server thread/INFO]: Random Lighting Updates: false
+[16:32:52] [Server thread/INFO]: Structure Info Saving: true
+[16:32:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:32:52] [Server thread/INFO]: Max TNT Explosions: 100
+[16:32:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:32:52] [Server thread/INFO]: View Distance: 5
+[16:32:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:32:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:32:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:32:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:32:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:32:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:32:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:32:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:32:52] [Server thread/INFO]: Mob Spawn Range: 4
+[16:32:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:32:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:32:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:32:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:32:52] [Server thread/INFO]: Random Lighting Updates: false
+[16:32:52] [Server thread/INFO]: Structure Info Saving: true
+[16:32:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:32:52] [Server thread/INFO]: Max TNT Explosions: 100
+[16:32:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:32:52] [Server thread/INFO]: View Distance: 5
+[16:32:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:32:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:32:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:32:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:32:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:32:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:32:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:32:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4676521864276776692)
+[16:32:53] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4676521864276776692)
+[16:32:53] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4676521864276776692)
+[16:32:53] [Server thread/INFO]: Done (1.267s)! For help, type "help" or "?"
+[16:32:53] [Server thread/INFO]: Timings Reset
+[16:33:14] [User Authenticator #1/INFO]: UUID of player SenorStupid is 1c380cdb-646e-3ead-b46f-e7aca7ac88d4
+[16:33:15] [Server thread/INFO]: SenorStupid[/0:0:0:0:0:0:0:1%0:60144] logged in with entity id 39 at ([world]1006.5541812111096, 64.0, 1347.5636001578503)
+[16:33:37] [Server thread/INFO]: SenorStupid issued server command: /give @p experience_bottle 32
+[16:33:37] [Server thread/INFO]: [SenorStupid: Given [Bottle o' Enchanting] * 32 to SenorStupid]
+[16:34:26] [Server thread/INFO]: SenorStupid issued server command: /give @p book
+[16:34:26] [Server thread/INFO]: [SenorStupid: Given [Book] * 1 to SenorStupid]
+[16:34:46] [Server thread/INFO]: SenorStupid issued server command: /give @p book 64
+[16:34:46] [Server thread/INFO]: [SenorStupid: Given [Book] * 64 to SenorStupid]
+[16:36:17] [Server thread/INFO]: SenorStupid issued server command: /et
+[16:37:55] [Server thread/INFO]: SenorStupid issued server command: /give @p ender_pearl
+[16:37:55] [Server thread/INFO]: [SenorStupid: Given [Ender Pearl] * 1 to SenorStupid]
+[16:40:39] [User Authenticator #2/INFO]: UUID of player PMaster00f is 155bc76b-e65e-3539-9de3-15bc44c49d46
+[16:40:39] [Server thread/INFO]: PMaster00f[/0:0:0:0:0:0:0:1%0:60062] logged in with entity id 750 at ([world]132.69999998807907, 70.0, 27.899745850311994)
+[16:40:45] [Async Chat Thread - #0/INFO]: <SenorStupid> yooooo
+[16:40:47] [Async Chat Thread - #0/INFO]: <PMaster00f> wsg gng
+[16:40:49] [Async Chat Thread - #0/INFO]: <SenorStupid> sry had to lock in
+[16:41:08] [Async Chat Thread - #0/INFO]: <PMaster00f> i come to portal
+[16:41:14] [Async Chat Thread - #0/INFO]: <SenorStupid> u got ball
+[16:41:20] [Async Chat Thread - #0/INFO]: <PMaster00f> yes
+[16:41:24] [Async Chat Thread - #0/INFO]: <SenorStupid> i got oe two
+[16:41:28] [Async Chat Thread - #0/INFO]: <SenorStupid> we can make it
+[16:41:41] [Async Chat Thread - #0/INFO]: <PMaster00f> do i need to get powder
+[16:41:48] [Async Chat Thread - #0/INFO]: <SenorStupid> at base we have
+[16:41:55] [Async Chat Thread - #0/INFO]: <PMaster00f> k
+[16:41:59] [Async Chat Thread - #0/INFO]: <PMaster00f> ill bring
+[16:42:02] [Async Chat Thread - #0/INFO]: <SenorStupid> ty
+[16:42:55] [Async Chat Thread - #0/INFO]: <SenorStupid> 1017 1346
+[16:49:56] [User Authenticator #3/INFO]: UUID of player Nando is 0d500fdd-1e8e-301c-8763-a95691d3d079
+[16:49:57] [Server thread/INFO]: Nando[/0:0:0:0:0:0:0:1%0:41246] logged in with entity id 2243 at ([world]-7.516132891120765, 63.0, -20.047486902224016)
+[16:50:12] [Async Chat Thread - #1/INFO]: <SenorStupid> sup
+[16:50:17] [Async Chat Thread - #1/INFO]: <Nando> sup
+[16:50:30] [Async Chat Thread - #1/INFO]: <Nando> what were the coordinates to the house again?
+[16:50:34] [Server thread/INFO]: Nando issued server command: /nvm
+[16:50:38] [Async Chat Thread - #1/INFO]: <Nando> nevermind
+[16:50:49] [Async Chat Thread - #1/INFO]: <SenorStupid> like 100 100 or smth
+[16:50:52] [Server thread/INFO]: Nando has made the advancement [Monster Hunter]
+[16:50:52] [Async Chat Thread - #1/INFO]: <SenorStupid> oh k
+[16:51:30] [Async Chat Thread - #1/INFO]: <Nando> where did the enchanting table go?
+[16:51:41] [Async Chat Thread - #1/INFO]: <SenorStupid> at the end portla
+[16:51:52] [Async Chat Thread - #1/INFO]: <SenorStupid> 1015 1364
+[16:52:46] [Async Chat Thread - #1/INFO]: <PMaster00f> at portal
+[16:52:59] [Async Chat Thread - #1/INFO]: <PMaster00f> wya hudson
+[16:53:12] [Async Chat Thread - #1/INFO]: <SenorStupid> end portal
+[16:54:16] [Async Chat Thread - #2/INFO]: <SenorStupid> peral
+[16:54:18] [Async Chat Thread - #2/INFO]: <SenorStupid> make eye
+[16:54:19] [Async Chat Thread - #2/INFO]: <PMaster00f> oh i found a random eye of ender while walkhere lmao
+[16:54:23] [Async Chat Thread - #2/INFO]: <SenorStupid> wha
+[16:54:31] [Async Chat Thread - #2/INFO]: <SenorStupid> o lol must have lost it
+[16:54:43] [Async Chat Thread - #2/INFO]: <SenorStupid> we go but no end fight yet
+[16:54:44] [Async Chat Thread - #2/INFO]: <PMaster00f> can i have my stuff
+[16:54:51] [Async Chat Thread - #2/INFO]: <SenorStupid> in sec
+[16:54:57] [Async Chat Thread - #2/INFO]: <SenorStupid> hold on
+[16:55:00] [Async Chat Thread - #2/INFO]: <SenorStupid> notes
+[16:55:03] [Server thread/INFO]: Nando has made the advancement [A Terrible Fortress]
+[16:55:15] [Async Chat Thread - #2/INFO]: <PMaster00f> i need food
+[16:55:32] [Async Chat Thread - #2/INFO]: <SenorStupid> k
+[16:56:00] [Server thread/INFO]: SenorStupid has made the advancement [The End?]
+[16:56:01] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[16:56:01] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[16:56:04] [Async Chat Thread - #2/INFO]: <SenorStupid> w
+[16:56:08] [Async Chat Thread - #2/INFO]: <PMaster00f> i needmy stuff gang
+[16:56:09] [Server thread/INFO]: PMaster00f has made the advancement [The End?]
+[16:56:26] [Server thread/INFO]: SenorStupid issued server command: /give Pmaster00f diamond_chestplate
+[16:56:26] [Server thread/INFO]: [SenorStupid: Given [Diamond Chestplate] * 1 to PMaster00f]
+[16:56:28] [Async Chat Thread - #2/INFO]: <Nando> im an idiot, I went to the nether
+[16:56:33] [Async Chat Thread - #2/INFO]: <PMaster00f> want me to test if we loss stuff in end
+[16:56:49] [Server thread/INFO]: PMaster00f was slain by Enderman
+[16:56:56] [Async Chat Thread - #2/INFO]: <SenorStupid> it work?
+[16:57:05] [Async Chat Thread - #2/INFO]: <PMaster00f> you loss stuff if you die to enderman in the end
+[16:57:10] [Async Chat Thread - #2/INFO]: <SenorStupid> bru
+[16:57:17] [Server thread/INFO]: SenorStupid issued server command: /tp Pmaster00f @p
+[16:57:17] [Server thread/INFO]: [SenorStupid: Teleported PMaster00f to SenorStupid]
+[16:57:23] [Server thread/INFO]: SenorStupid issued server command: /give Pmaster00f diamond 18
+[16:57:23] [Server thread/INFO]: [SenorStupid: Given [Diamond] * 18 to PMaster00f]
+[16:57:28] [Async Chat Thread - #2/INFO]: <SenorStupid> what u need
+[16:57:33] [Async Chat Thread - #2/INFO]: <PMaster00f> full armor
+[16:57:37] [Async Chat Thread - #2/INFO]: <SenorStupid> i gave diamon
+[16:57:42] [Async Chat Thread - #2/INFO]: <SenorStupid> how mnay more u need
+[16:57:44] [Async Chat Thread - #2/INFO]: <PMaster00f> sticks
+[16:57:48] [Async Chat Thread - #2/INFO]: <PMaster00f> and wood
+[16:58:00] [Server thread/INFO]: SenorStupid issued server command: /give pmaster00f oak_plank 64
+[16:58:00] [Server thread/INFO]: [SenorStupid: There is no such item with name minecraft:oak_plank]
+[16:58:14] [Server thread/INFO]: SenorStupid issued server command: /give Pmaster00f oak_planks 64
+[16:58:14] [Server thread/INFO]: [SenorStupid: There is no such item with name minecraft:oak_planks]
+[16:58:17] [Async Chat Thread - #2/INFO]: <SenorStupid> bur
+[16:58:22] [Async Chat Thread - #2/INFO]: <SenorStupid> what is wood name
+[16:58:29] [Async Chat Thread - #2/INFO]: <PMaster00f> oak
+[16:58:39] [Server thread/INFO]: SenorStupid issued server command: /give @p oak
+[16:58:39] [Server thread/INFO]: [SenorStupid: There is no such item with name minecraft:oak]
+[16:58:45] [Async Chat Thread - #2/INFO]: <SenorStupid> nonot wokr
+[16:58:49] [Async Chat Thread - #2/INFO]: <PMaster00f> dunno
+[16:58:54] [Server thread/INFO]: SenorStupid issued server command: /give @p oak_logs 64
+[16:58:54] [Server thread/INFO]: [SenorStupid: There is no such item with name minecraft:oak_logs]
+[16:59:08] [Server thread/INFO]: SenorStupid issued server command: /give @p birch_log
+[16:59:08] [Server thread/INFO]: [SenorStupid: There is no such item with name minecraft:birch_log]
+[16:59:18] [Server thread/INFO]: SenorStupid issued server command: /give @p birch_logs 64
+[16:59:18] [Server thread/INFO]: [SenorStupid: There is no such item with name minecraft:birch_logs]
+[16:59:22] [Async Chat Thread - #2/INFO]: <SenorStupid> i cant bru
+[16:59:29] [Async Chat Thread - #2/INFO]: <PMaster00f> nooo
+[16:59:31] [Server thread/INFO]: SenorStupid issued server command: /give @p sticks 64
+[16:59:31] [Server thread/INFO]: [SenorStupid: There is no such item with name minecraft:sticks]
+[16:59:40] [Async Chat Thread - #2/INFO]: <PMaster00f> sticks
+[16:59:43] [Async Chat Thread - #2/INFO]: <PMaster00f> wwwww
+[16:59:44] [Server thread/INFO]: SenorStupid lost connection: Disconnected
+[16:59:44] [Server thread/INFO]: SenorStupid left the game
+[16:59:47] [Server thread/INFO]: PMaster00f fell out of the world
+[17:00:06] [User Authenticator #4/INFO]: UUID of player SenorStupid is 1c380cdb-646e-3ead-b46f-e7aca7ac88d4
+[17:00:06] [Server thread/INFO]: SenorStupid[/0:0:0:0:0:0:0:1%0:48066] logged in with entity id 4205 at ([world_the_end]135.71493201101694, 78.70560748406038, 44.68375070162886)
+[17:00:07] [Server thread/INFO]: SenorStupid lost connection: Disconnected
+[17:00:07] [Server thread/INFO]: SenorStupid left the game
+[17:00:28] [User Authenticator #4/INFO]: UUID of player SenorStupid is 1c380cdb-646e-3ead-b46f-e7aca7ac88d4
+[17:00:28] [Server thread/INFO]: SenorStupid[/0:0:0:0:0:0:0:1%0:46092] logged in with entity id 4262 at ([world_the_end]135.71014725665756, 63.424897324290875, 44.7148074461833)
+[17:00:33] [Server thread/INFO]: SenorStupid fell out of the world
+[17:00:34] [Async Chat Thread - #2/INFO]: <PMaster00f> LMAFOOO
+[17:00:41] [Async Chat Thread - #2/INFO]: <SenorStupid> kys
+[17:00:46] [Async Chat Thread - #2/INFO]: <PMaster00f> not at u
+[17:00:54] [Async Chat Thread - #2/INFO]: <SenorStupid> fucking ender dragon
+[17:00:58] [Async Chat Thread - #2/INFO]: <PMaster00f> dragon came out of no where
+[17:01:11] [Async Chat Thread - #2/INFO]: <PMaster00f> welp no that we are here
+[17:01:13] [Server thread/INFO]: SenorStupid issued server command: /give @p diamond 64
+[17:01:13] [Server thread/INFO]: [SenorStupid: Given [Diamond] * 64 to SenorStupid]
+[17:01:27] [Async Chat Thread - #2/INFO]: <PMaster00f> might as well stack back up on shit

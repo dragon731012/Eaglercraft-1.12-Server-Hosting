@@ -1,0 +1,16 @@
+ice_servers_no_passwd:
+- 'stun:stun.l.google.com:19302'
+- 'stun:stun1.l.google.com:19302'
+- 'stun:stun2.l.google.com:19302'
+- 'stun:stun3.l.google.com:19302'
+- 'stun:stun4.l.google.com:19302'
+ice_servers_passwd:
+- url: 'turn:openrelay.metered.ca:80'
+  username: 'openrelayproject'
+  password: 'openrelayproject'
+- url: 'turn:openrelay.metered.ca:443'
+  username: 'openrelayproject'
+  password: 'openrelayproject'
+- url: 'turn:openrelay.metered.ca:443?transport=tcp'
+  username: 'openrelayproject'
+  password: 'openrelayproject'

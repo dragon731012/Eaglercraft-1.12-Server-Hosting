@@ -1,0 +1,27 @@
+# Configuration for the random teleport command.
+# Use the /settpr command in-game to set random teleport locations.
+
+default-location: '{world}'
+excluded-biomes:
+- cold_ocean
+- deep_cold_ocean
+- deep_frozen_ocean
+- deep_lukewarm_ocean
+- deep_ocean
+- deep_warm_ocean
+- frozen_ocean
+- frozen_river
+- lukewarm_ocean
+- ocean
+- river
+- warm_ocean
+locations:
+  world:
+    center:
+      world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+      world-name: world
+      x: 0.0
+      y: 67.0
+      z: 0.0
+      yaw: 0.0
+      pitch: 0.0

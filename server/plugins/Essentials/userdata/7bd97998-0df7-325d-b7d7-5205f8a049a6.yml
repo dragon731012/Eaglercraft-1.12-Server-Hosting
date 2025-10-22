@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761096515439
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761096524883
+  login: 1761096244813
+money: '20008.5'
+last-account-name: silver_admin
+lastlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 213.50617073859908
+  y: 65.30122118366592
+  z: -209.90113285895652
+  yaw: -11.100871086120605
+  pitch: 25.50005531311035
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 509.174947404744
+  y: 68.0
+  z: 203.50609637485456
+  yaw: -97.9713363647461
+  pitch: 13.934097290039062

@@ -1,0 +1,86 @@
+##########################
+#         SetHome        #
+##########################
+# Author: Beeted_
+# Version: 1.7.4
+
+# For support: https://discord.gg/ncTMjcNWPx
+# If you liked the plugin, I would greatly appreciate a review on the Spigot page :)
+
+# Customize the menu.
+menu:
+  open-command: /home
+  gui-title: "&9&lHome Menu &8⌂"
+  info-title: "&8❮❮❮ &7Set Home &8| &7Go Home &8❯❯❯"
+  set-home-item:
+    display-name: "&7➤ &3&lSet Home"
+    lore:
+      - "&7With this item you can"
+      - "&7set your home and save it"
+      - "&7with a name."
+      - ""
+      - "&a(Left-Click to set home)"
+  your-homes-item:
+    display-name: "&7➤ &e&lYour homes"
+    lore:
+      - "&7With this object you can"
+      - "&7open the menu of your homes"
+      - "&7and manage all your homes."
+      - ""
+      - "&a(Left-Click to open menu)"
+
+homes-menu:
+  gui-title: "&9&lYour Homes Menu &8⌂"
+  go-back-item: "&cGo Back"
+  close-item: "&4Close"
+  home-item:
+    display-name: "&7&lHOME &8» &b%home%"
+    #You can use %home% and %world% on lore.
+    lore:
+      - "&c(Right-Click to delete)"
+      - "&a(Left-Click to teleport)"
+  no-homes-item:
+    display-name: "&cYou don't have homes"
+    lore:
+      - "&7Create a home with /home"
+
+confirmation-menu:
+  gui-title: "&cConfirm Deletion"
+  confirm-item:
+    display-name: "&aConfirm"
+  cancel-item:
+    display-name: "&cCancel"
+
+# Customize the messages.
+messages:
+  home-established: "&aYour home has been established!"
+  not-established-home: "&cYou don't have an established home."
+  teleported: "&aYou have traveled home: &7%home%"
+  home-not-found: "&4Error: Home coordinates not found."
+  home-removed: "&cYour home &b%home% &chas been removed."
+  home-limit-reached: "&cYou have reached the maximum number of homes allowed (%limit%)."
+  home-exists: "&4A home with that name already exists. Please choose a different name."
+  enter-home-name: "&eEnter the name for your home in the chat. Type &7cancel &eif you want to cancel."
+  home-cancelled: "&cYou have canceled the creation of the home."
+  no-permissions: "&4You don't have permissions."
+  no-reload-permissions: "&cYou don't have permission to reload the plugin!"
+  plugin-reloaded: "&aPlugin reloaded successfully!"
+  teleport-cooldown: "&aYou are being teleported in &7%seconds% &aseconds. Don't move."
+  teleport-in-progress: "&cYou already have a teleport in progress. Wait to make a new one."
+  teleport-cancelled: "&cYour teleport has been canceled because you have moved."
+  world-not-found: "&cThe world to travel to has not been found."
+
+# You should only set a single title to true.
+# They can only be activated if the cooldown is greater than 0
+titles:
+  cooldown-title:
+    enable: true
+    teleport-title: "&aTeleporting..."
+    teleport-subtitle: "&eTeleporting in %seconds% seconds..."
+  static-title:
+    enable: false
+    teleport-title: "&aTeleporting..."
+    teleport-subtitle: "&eTeleporting in %seconds% seconds..."
+
+teleport-cooldown: 5
+cancel-on-move: true

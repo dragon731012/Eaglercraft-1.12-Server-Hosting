@@ -1,0 +1,780 @@
+[01:23:42] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[01:23:42] [Server thread/INFO]: Loading properties
+[01:23:42] [Server thread/INFO]: Default game type: SURVIVAL
+[01:23:42] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[01:23:43] [Server thread/INFO]: Debug logging is disabled
+[01:23:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:23:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:23:43] [Server thread/INFO]: Generating keypair
+[01:23:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:23:43] [Server thread/INFO]: Using epoll channel type
+[01:23:43] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[01:23:44] [Server thread/INFO]: [random_teleport] Loading random_teleport v2.2
+[01:23:44] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.4.2
+[01:23:44] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[01:23:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:23:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:23:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:23:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:23:45] [Server thread/INFO]: [EaglerXServer] Loading EaglercraftXServer v1.0.7
+[01:23:45] [Server thread/INFO]: [EaglerXServer] (Platform: Bukkit)
+[01:23:45] [Server thread/WARN]: [EaglerXServer] Note: Its highly recommended to install EaglerXServer on BungeeCord or Velocity instead, you will have a much better experience
+[01:23:45] [Server thread/WARN]: [EaglerXServer] Note: If you are not using Spigot (or a derivative like Paper) or a version above 1.12.2, things probably won't work right
+[01:23:46] [Server thread/INFO]: [EaglerXServer] Server Name: "EaglercraftXServer"
+[01:23:46] [Server thread/ERROR]: [EaglerXServer] Could not load server icon: server-icon.png
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(ImageIO.java:1308) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.ServerIconLoader.loadServerIcon(ServerIconLoader.java:112) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.ServerIconLoader$1.loadServerIcon(ServerIconLoader.java:51) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.EaglerListener.<init>(EaglerListener.java:90) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.EaglerXServer.loadNonProxying(EaglerXServer.java:376) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.EaglerXServer.load(EaglerXServer.java:341) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.bukkit.PlatformPluginBukkit.onLoad(PlatformPluginBukkit.java:232) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:323) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[01:23:46] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.9.8
+[01:23:46] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
+[01:23:46] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.4.2
+[01:23:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:23:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:23:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:23:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:23:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:23:46] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:23:46] [Server thread/INFO]: Preparing level "world"
+[01:23:46] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:23:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Mob Spawn Range: 4
+[01:23:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[01:23:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:23:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:23:46] [Server thread/INFO]: Random Lighting Updates: false
+[01:23:46] [Server thread/INFO]: Structure Info Saving: true
+[01:23:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[01:23:46] [Server thread/INFO]: Max TNT Explosions: 100
+[01:23:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:23:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:23:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:23:46] [Server thread/INFO]: View Distance: 5
+[01:23:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:23:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:23:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:23:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:23:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:23:46] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:23:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:23:46] [Server thread/INFO]: Mob Spawn Range: 4
+[01:23:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[01:23:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:23:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:23:46] [Server thread/INFO]: Random Lighting Updates: false
+[01:23:46] [Server thread/INFO]: Structure Info Saving: true
+[01:23:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[01:23:46] [Server thread/INFO]: Max TNT Explosions: 100
+[01:23:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:23:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:23:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:23:46] [Server thread/INFO]: View Distance: 5
+[01:23:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:23:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:23:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:23:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:23:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:23:46] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3007318648184114703)
+[01:23:47] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3007318648184114703)
+[01:23:47] [Server thread/INFO]: [random_teleport] Enabling random_teleport v2.2
+[01:23:47] [Server thread/INFO]: [random_teleport] start
+[01:23:47] [Server thread/INFO]: [random_teleport] all biomes have been successfully uploaded and saved
+[01:23:47] [Server thread/INFO]: [random_teleport] The offset has been set: 0 0
+[01:23:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[01:23:47] [Server thread/INFO]: [EaglerXServer] Enabling EaglercraftXServer v1.0.7
+[01:23:47] [Netty Epoll Server IO #0/INFO]: [EaglerXServer] Listener "default" injected into channel [id: 0x9cbfbc4c, L:/[0:0:0:0:0:0:0:0%0]:25565] successfully (Generic Netty method)
+[01:23:47] [Server thread/INFO]: [EaglerXServer] Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[01:23:47] [Server thread/INFO]: [EaglerXServer] Connected to skin cache database successfully!
+[01:23:47] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.8
+[01:23:47] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v1_12_R1 (1.12.2).
+[01:23:48] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_12_R1! Trying to find NMS support
+[01:23:48] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[01:23:48] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[01:23:48] [Server thread/INFO]: [DecentHolograms] NBT-API loaded successfully.
+[01:23:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[01:23:48] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:23:48] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[01:23:48] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[01:23:48] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[01:23:48] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[01:23:48] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[01:23:48] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[01:23:48] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[01:23:48] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[01:23:48] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[01:23:48] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[01:23:48] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[01:23:48] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[01:23:48] [Server thread/INFO]: [Essentials] Using locale en_US
+[01:23:49] [Netty Epoll Server IO #1/INFO]: [EaglerXServer] You are running the latest version of EaglerXServer
+[01:23:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:23:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:23:49] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[01:23:49] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[01:23:49] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[01:23:49] [Server thread/INFO]: Done (3.354s)! For help, type "help" or "?"
+[01:23:49] [Server thread/INFO]: Timings Reset
+[01:23:49] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[01:23:49] [Craft Scheduler Thread - 4/INFO]: [Essentials] Fetching version information...
+[01:23:49] [Craft Scheduler Thread - 1/INFO]: [EaglerXServer] Reloaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/server/plugins/EaglercraftXServer/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[01:23:49] [Craft Scheduler Thread - 1/WARN]: [EaglerXServer] Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[01:23:49] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[01:23:49] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.16).
+[01:23:49] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[01:23:49] [Craft Scheduler Thread - 5/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:23:49] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.4.2
+[01:24:04] [User Authenticator #1/INFO]: UUID of player silver_admin is 7bd97998-0df7-325d-b7d7-5205f8a049a6
+[01:24:04] [Server thread/INFO]: silver_admin[/[0:0:0:0:0:0:0:1%0]:47922] logged in with entity id 8 at ([world]118.82598533161527, 75.24583298148531, -227.50603711994563)
+[01:27:59] [User Authenticator #2/INFO]: UUID of player HaangusAdmin23 is 624b9d8e-6162-3266-a48b-654752fa7f9b
+[01:27:59] [Server thread/INFO]: HaangusAdmin23[/[0:0:0:0:0:0:0:1%0]:46938] logged in with entity id 138 at ([world]218.6027101756644, 75.49901743191789, 370.9299652732174)
+[01:27:59] [Server thread/INFO]: [Essentials] Set god mode to false for {0} because they had it enabled without permission.
+[01:28:05] [Server thread/INFO]: HaangusAdmin23 issued server command: /op
+[01:28:23] [Server thread/INFO]: HaangusAdmin23 issued server command: /gamemode cre
+[01:28:23] [Server thread/INFO]: [Essentials] HaangusAdmin23 was denied access to command.
+[01:28:32] [Server thread/INFO]: silver_admin issued server command: /op HaangusAdmin23
+[01:28:32] [Server thread/INFO]: [silver_admin: Opped HaangusAdmin23]
+[01:28:35] [Server thread/INFO]: silver_admin issued server command: /tp HaangusAdmin23
+[01:28:44] [Server thread/INFO]: silver_admin lost connection: Disconnected
+[01:28:44] [Server thread/INFO]: silver_admin left the game
+[01:29:25] [User Authenticator #3/INFO]: UUID of player nivinpro9 is 4df1ec90-be0f-38db-8323-8a7809fc8069
+[01:29:25] [Server thread/INFO]: nivinpro9[/[0:0:0:0:0:0:0:1%0]:57212] logged in with entity id 724 at ([world]0.5, 68.0, 4.5)
+[01:29:30] [Async Chat Thread - #0/INFO]: <HaangusAdmin23> pys
+[01:29:35] [Server thread/INFO]: nivinpro9 issued server command: /login nivinpro9 nivinpro9
+[01:29:40] [Server thread/INFO]: nivinpro9 issued server command: /login nivinpro9 nivinpro9
+[01:29:47] [Server thread/INFO]: nivinpro9 issued server command: /register nivinpro9 nivinpro9
+[01:30:01] [User Authenticator #3/INFO]: UUID of player silverstone is b3478c10-c92d-363f-82d9-34d333ca4261
+[01:30:01] [Server thread/INFO]: silverstone[/[0:0:0:0:0:0:0:1%0]:36090] logged in with entity id 968 at ([world]2.896959173008882, 67.0, 7.6634123552035565)
+[01:30:31] [Server thread/INFO]: silverstone lost connection: Disconnected
+[01:30:31] [Server thread/INFO]: silverstone left the game
+[01:32:14] [User Authenticator #4/INFO]: UUID of player silverstone is b3478c10-c92d-363f-82d9-34d333ca4261
+[01:32:14] [Server thread/INFO]: silverstone[/[0:0:0:0:0:0:0:1%0]:49822] logged in with entity id 1089 at ([world]0.4397669634921857, 67.0, 1.6061235457971634)
+[01:32:38] [Server thread/INFO]: silverstone lost connection: Disconnected
+[01:32:38] [Server thread/INFO]: silverstone left the game
+[01:33:27] [Server thread/INFO]: nivinpro9 lost connection: Timed out
+[01:33:27] [Server thread/INFO]: nivinpro9 left the game
+[01:34:24] [User Authenticator #5/INFO]: UUID of player silverstone is b3478c10-c92d-363f-82d9-34d333ca4261
+[01:34:25] [Server thread/INFO]: silverstone[/[0:0:0:0:0:0:0:1%0]:34402] logged in with entity id 1382 at ([world]56.15109324001243, 63.0, -65.18412063408577)
+[01:34:31] [Server thread/INFO]: silverstone issued server command: /tpa HaangusAdmin23
+[01:34:34] [Async Chat Thread - #1/INFO]: <silverstone> tpa
+[01:34:45] [Server thread/INFO]: silverstone issued server command: /msg HaangusAdmin23 go on your main account
+[01:35:01] [Server thread/INFO]: silverstone issued server command: /msg HaangusAdmin23 go on your main account
+[01:35:02] [Server thread/INFO]: silverstone issued server command: /msg HaangusAdmin23 go on your main account
+[01:35:02] [Server thread/INFO]: silverstone issued server command: /msg HaangusAdmin23 go on your main account
+[01:35:02] [Server thread/INFO]: HaangusAdmin23 issued server command: /tpaccept
+[01:35:03] [Server thread/INFO]: silverstone issued server command: /msg HaangusAdmin23 go on your main account
+[01:35:07] [Async Chat Thread - #1/INFO]: <HaangusAdmin23> ok
+[01:35:15] [Server thread/INFO]: HaangusAdmin23 lost connection: Disconnected
+[01:35:15] [Server thread/INFO]: HaangusAdmin23 left the game
+[01:35:18] [Server thread/INFO]: silverstone issued server command: /rtp
+[01:35:20] [Server thread/INFO]: silverstone issued server command: /rtp
+[01:35:36] [User Authenticator #6/INFO]: UUID of player HaangusPaangus23 is 55790d1f-7d98-3377-929e-a194b55a37d7
+[01:35:37] [Server thread/INFO]: HaangusPaangus23[/[0:0:0:0:0:0:0:1%0]:50980] logged in with entity id 1594 at ([world]-17.36507354704073, 63.0, 25.504697121232258)
+[01:35:43] [Async Chat Thread - #1/INFO]: <HaangusPaangus23> tp
+[01:35:44] [Async Chat Thread - #1/INFO]: <HaangusPaangus23> me
+[01:35:54] [Server thread/INFO]: silverstone issued server command: /tpa HaangusPaangus23
+[01:36:00] [Async Chat Thread - #1/INFO]: <silverstone> accept
+[01:36:00] [Server thread/INFO]: HaangusPaangus23 issued server command: /tpaccept
+[01:36:06] [Async Chat Thread - #1/INFO]: <HaangusPaangus23> team
+[01:36:08] [Async Chat Thread - #1/INFO]: <silverstone> give me one stone
+[01:36:09] [Async Chat Thread - #1/INFO]: <HaangusPaangus23> for now
+[01:36:11] [Async Chat Thread - #1/INFO]: <silverstone> ok
+[01:36:13] [Async Chat Thread - #1/INFO]: <silverstone> for now
+[01:36:14] [Async Chat Thread - #1/INFO]: <HaangusPaangus23> dont got non
+[01:36:19] [Server thread/INFO]: silverstone issued server command: /rtp
+[01:36:22] [Async Chat Thread - #1/INFO]: <silverstone> tp to me
+[01:36:27] [Server thread/INFO]: HaangusPaangus23 issued server command: /tpa silverstone
+[01:36:33] [Server thread/INFO]: silverstone issued server command: /tpaaccept
+[01:36:35] [Server thread/INFO]: silverstone issued server command: /tpaccept
+[01:40:44] [Server thread/INFO]: silverstone issued server command: /back
+[01:40:46] [Server thread/INFO]: silverstone issued server command: /back
+[01:40:53] [Server thread/INFO]: HaangusPaangus23 fell from a high place
+[01:41:01] [Server thread/INFO]: HaangusPaangus23 issued server command: /back
+[01:41:02] [Server thread/INFO]: silverstone issued server command: /sethome
+[01:41:20] [Server thread/INFO]: silverstone issued server command: /delhome home
+[01:41:23] [Server thread/INFO]: HaangusPaangus23 issued server command: /tpa silverstone
+[01:41:31] [Server thread/INFO]: silverstone issued server command: /sethome base
+[01:41:37] [Server thread/INFO]: silverstone issued server command: /tpaccept
+[01:41:56] [Async Chat Thread - #2/INFO]: <silverstone> grind for iron
+[01:42:19] [Async Chat Thread - #2/INFO]: <silverstone> and coal
+[01:43:01] [Async Chat Thread - #2/INFO]: <silverstone> bad boy
+[01:43:05] [Async Chat Thread - #2/INFO]: <silverstone> STOP
+[01:43:10] [Async Chat Thread - #2/INFO]: <silverstone> BAD BOY
+[01:43:50] [Server thread/INFO]: HaangusPaangus23 was slain by silverstone
+[01:43:54] [Server thread/INFO]: HaangusPaangus23 issued server command: /back
+[01:44:24] [Async Chat Thread - #3/INFO]: <silverstone> you get iron and i will get coal ok?
+[01:44:29] [Async Chat Thread - #3/INFO]: <HaangusPaangus23> bet
+[01:44:46] [Async Chat Thread - #3/INFO]: <silverstone> here
+[01:45:33] [User Authenticator #7/INFO]: UUID of player nivinpro9 is 4df1ec90-be0f-38db-8323-8a7809fc8069
+[01:45:33] [Server thread/INFO]: nivinpro9[/[0:0:0:0:0:0:0:1%0]:42110] logged in with entity id 2628 at ([world]15.476943507047695, 67.0, -22.96736439688226)
+[01:45:40] [Server thread/INFO]: nivinpro9 issued server command: /help
+[01:45:49] [Async Chat Thread - #4/INFO]: <HaangusPaangus23> get gold
+[01:45:53] [Async Chat Thread - #4/INFO]: <HaangusPaangus23> for piggies
+[01:46:01] [Async Chat Thread - #4/INFO]: <silverstone> ok...
+[01:46:16] [Server thread/INFO]: nivinpro9 issued server command: /tp silverstone
+[01:46:16] [Server thread/INFO]: [Essentials] nivinpro9 was denied access to command.
+[01:46:27] [Server thread/INFO]: nivinpro9 issued server command: /tpa silvestone
+[01:46:33] [Server thread/INFO]: nivinpro9 issued server command: /tpa silverstone
+[01:46:35] [Server thread/INFO]: silverstone issued server command: /tpaccept
+[01:46:41] [Server thread/INFO]: nivinpro9 was slain by silverstone
+[01:46:48] [Server thread/INFO]: nivinpro9 issued server command: /tp silverstone
+[01:46:48] [Server thread/INFO]: [Essentials] nivinpro9 was denied access to command.
+[01:46:53] [Server thread/INFO]: nivinpro9 issued server command: /back
+[01:48:00] [Server thread/INFO]: silverstone lost connection: Disconnected
+[01:48:00] [Server thread/INFO]: silverstone left the game
+[01:48:19] [Server thread/INFO]: HaangusPaangus23 issued server command: /tpa nivinpro9
+[01:48:22] [Server thread/INFO]: nivinpro9 drowned
+[01:48:32] [Server thread/INFO]: HaangusPaangus23 issued server command: /back
+[01:48:35] [Server thread/INFO]: HaangusPaangus23 issued server command: /back
+[01:48:38] [Server thread/INFO]: HaangusPaangus23 issued server command: /back
+[01:48:41] [Server thread/INFO]: HaangusPaangus23 issued server command: /back
+[01:48:45] [Server thread/INFO]: HaangusPaangus23 tried to swim in lava
+[01:48:50] [Server thread/INFO]: HaangusPaangus23 issued server command: /back
+[01:49:18] [Server thread/INFO]: nivinpro9 lost connection: Timed out
+[01:49:18] [Server thread/INFO]: nivinpro9 left the game
+[01:49:18] [Server thread/INFO]: HaangusPaangus23 issued server command: /tpa HaangusPaangus23
+[01:49:30] [Server thread/INFO]: HaangusPaangus23 issued server command: /tpa
+[01:49:33] [User Authenticator #8/INFO]: UUID of player nivinpro9 is 4df1ec90-be0f-38db-8323-8a7809fc8069
+[01:49:33] [Server thread/INFO]: nivinpro9[/[0:0:0:0:0:0:0:1%0]:33424] logged in with entity id 3786 at ([world]-6321.638199189649, 61.0, -578.8847816286695)
+[01:50:11] [Server thread/INFO]: nivinpro9 issued server command: /tpa HaangusPaangus23
+[01:50:27] [Server thread/INFO]: nivinpro9 issued server command: /msg HaangusPaangus23 bro
+[01:50:33] [Server thread/INFO]: nivinpro9 issued server command: /msg HaangusPaangus23 bro
+[01:50:34] [Server thread/INFO]: nivinpro9 issued server command: /msg HaangusPaangus23 bro
+[01:50:35] [Server thread/INFO]: nivinpro9 issued server command: /msg HaangusPaangus23 bro
+[01:50:35] [Server thread/INFO]: nivinpro9 issued server command: /msg HaangusPaangus23 bro
+[01:50:43] [Server thread/INFO]: nivinpro9 issued server command: /tpa HaangusPaangus23
+[01:51:28] [Async Chat Thread - #5/INFO]: <HaangusPaangus23> yes
+[01:51:32] [Server thread/INFO]: HaangusPaangus23 issued server command: /tpaccept
+[01:51:57] [Server thread/INFO]: nivinpro9 was slain by HaangusPaangus23
+[01:52:56] [Server thread/INFO]: HaangusPaangus23 was shot by Skeleton
+[01:52:59] [Server thread/INFO]: HaangusPaangus23 issued server command: /back
+[01:53:05] [Server thread/INFO]: nivinpro9 lost connection: Timed out
+[01:53:05] [Server thread/INFO]: nivinpro9 left the game
+[01:53:08] [User Authenticator #9/INFO]: UUID of player nivinpro9 is 4df1ec90-be0f-38db-8323-8a7809fc8069
+[01:53:08] [Server thread/INFO]: nivinpro9[/[0:0:0:0:0:0:0:1%0]:60162] logged in with entity id 4225 at ([world]-6277.699999988079, 14.0, -492.30000001192093)
+[01:53:27] [Server thread/INFO]: HaangusPaangus23 burned to death
+[01:53:31] [Server thread/INFO]: HaangusPaangus23 issued server command: /back
+[01:53:34] [Server thread/INFO]: nivinpro9 lost connection: Disconnected
+[01:53:34] [Server thread/INFO]: nivinpro9 left the game
+[01:55:00] [Server thread/INFO]: HaangusPaangus23 lost connection: Disconnected
+[01:55:00] [Server thread/INFO]: HaangusPaangus23 left the game
+[01:55:02] [User Authenticator #10/INFO]: UUID of player nivinpro9 is 4df1ec90-be0f-38db-8323-8a7809fc8069
+[01:55:02] [Server thread/INFO]: nivinpro9[/[0:0:0:0:0:0:0:1%0]:56330] logged in with entity id 4424 at ([world]0.5, 68.0, 4.5)
+[01:55:11] [Server thread/INFO]: nivinpro9 issued server command: /tpa nivinpro9
+[01:55:15] [Server thread/INFO]: nivinpro9 issued server command: /tpa
+[01:55:18] [Server thread/INFO]: nivinpro9 lost connection: Disconnected
+[01:55:18] [Server thread/INFO]: nivinpro9 left the game
+[01:55:47] [User Authenticator #10/INFO]: UUID of player silverstone is b3478c10-c92d-363f-82d9-34d333ca4261
+[01:55:47] [Server thread/INFO]: silverstone[/[0:0:0:0:0:0:0:1%0]:36502] logged in with entity id 4469 at ([world]-6306.495528482444, 62.0, -604.3523796846338)
+[01:56:15] [Server thread/INFO]: silverstone lost connection: Disconnected
+[01:56:15] [Server thread/INFO]: silverstone left the game
+[01:59:39] [User Authenticator #11/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[01:59:39] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:46048] logged in with entity id 4585 at ([world]-31.272410997729388, 75.25115308358373, -16.834677921222514)
+[02:00:13] [Server thread/INFO]: Everythin issued server command: /
+[02:00:19] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:00:19] [Server thread/INFO]: [Essentials] Everythin sold golden_apple for $19,200 (64 items at $300 each).
+[02:00:40] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:00:40] [Server thread/INFO]: [Essentials] Everythin sold diamond_block for $3,456,000 (576 items at $6,000 each).
+[02:00:57] [Server thread/INFO]: Everythin issued server command: /give Everythin diamondblock 10000
+[02:00:59] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:00:59] [Server thread/INFO]: [Essentials] Everythin sold diamond_block for $14,208,000 (2,368 items at $6,000 each).
+[02:01:00] [Server thread/INFO]: Everythin issued server command: /give Everythin diamondblock 10000
+[02:01:01] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:01:01] [Server thread/INFO]: [Essentials] Everythin sold diamond_block for $14,208,000 (2,368 items at $6,000 each).
+[02:01:04] [Server thread/INFO]: Everythin issued server command: /give Everythin diamondblock 10000
+[02:01:05] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:01:05] [Server thread/INFO]: [Essentials] Everythin sold diamond_block for $14,208,000 (2,368 items at $6,000 each).
+[02:01:06] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:01:08] [Server thread/INFO]: Everythin issued server command: /give Everythin diamondblock 10000
+[02:01:09] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:01:09] [Server thread/INFO]: [Essentials] Everythin sold diamond_block for $14,208,000 (2,368 items at $6,000 each).
+[02:01:10] [Server thread/INFO]: Everythin issued server command: /give Everythin diamondblock 10000
+[02:01:11] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:01:11] [Server thread/INFO]: [Essentials] Everythin sold diamond_block for $14,208,000 (2,368 items at $6,000 each).
+[02:01:11] [Server thread/INFO]: Everythin issued server command: /give Everythin diamondblock 10000
+[02:01:12] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:01:12] [Server thread/INFO]: [Essentials] Everythin sold diamond_block for $14,208,000 (2,368 items at $6,000 each).
+[02:01:13] [Server thread/INFO]: Everythin issued server command: /give Everythin diamondblock 10000
+[02:01:14] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:01:14] [Server thread/INFO]: [Essentials] Everythin sold diamond_block for $14,208,000 (2,368 items at $6,000 each).
+[02:01:15] [Server thread/INFO]: Everythin issued server command: /give Everythin diamondblock 10000
+[02:01:17] [Server thread/INFO]: Everythin issued server command: /sell all
+[02:01:17] [Server thread/INFO]: [Essentials] Everythin sold diamond_block for $14,208,000 (2,368 items at $6,000 each).
+[02:01:20] [Server thread/INFO]: Everythin issued server command: /balance
+[02:01:32] [Server thread/INFO]: Everythin issued server command: /money Everythin 1000000000
+[02:01:38] [Server thread/INFO]: Everythin issued server command: /money Everythin
+[02:02:35] [Server thread/INFO]: Everythin lost connection: Disconnected
+[02:02:35] [Server thread/INFO]: Everythin left the game
+[02:03:00] [User Authenticator #12/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[02:03:00] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:51052] logged in with entity id 4660 at ([world]0.5874972966061524, 76.4821968388152, 5.945747360748143)
+[02:03:14] [Server thread/INFO]: Everythin issued server command: /give Everythin diamondsword
+[02:03:20] [Async Chat Thread - #6/INFO]: <Everythin> ee
+[02:03:33] [Server thread/INFO]: Everythin issued server command: /enchant unbreaking 3
+[02:03:38] [Server thread/INFO]: Everythin issued server command: /enchant sweepingedge
+[02:03:46] [Server thread/INFO]: Everythin issued server command: /enchant fireaspect
+[02:03:55] [Server thread/INFO]: Everythin issued server command: /enchant sharpness 5
+[02:04:02] [Server thread/INFO]: Everythin issued server command: /enchant sweepingedge 3
+[02:04:17] [Server thread/INFO]: Everythin issued server command: /enchant mending
+[02:04:23] [Server thread/INFO]: Everythin issued server command: /enchant fireaspect 3
+[02:04:26] [Server thread/INFO]: Everythin issued server command: /enchant fireaspect 2
+[02:04:30] [Server thread/INFO]: Everythin issued server command: /enchant sharpness 7
+[02:05:07] [Server thread/INFO]: Everythin issued server command: /hat
+[02:06:02] [User Authenticator #13/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[02:06:03] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:58514] logged in with entity id 4719 at ([world]275.4084708155963, 63.0, 3.639984962871058)
+[02:06:10] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[02:06:13] [Async Chat Thread - #7/INFO]: <Everythin> yo
+[02:06:26] [Async Chat Thread - #7/INFO]: <Everythin> do /warp spawn
+[02:06:29] [Server thread/INFO]: Everythin issued server command: /warp spawn
+[02:06:51] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64 Everythin
+[02:06:55] [Async Chat Thread - #7/INFO]: <Everythin> yo
+[02:07:08] [Server thread/INFO]: CloudedCar64 issued server command: /warp spawn
+[02:07:25] [Server thread/INFO]: CloudedCar64 was burnt to a crisp whilst fighting Everythin
+[02:07:29] [Async Chat Thread - #7/INFO]: <Everythin> is it good?
+[02:07:37] [Async Chat Thread - #7/INFO]: <Everythin> how much dmg does it do
+[02:08:11] [Async Chat Thread - #7/INFO]: <Everythin> wait
+[02:08:16] [Async Chat Thread - #7/INFO]: <Everythin> give it back
+[02:08:20] [Async Chat Thread - #7/INFO]: <Everythin> i can dupe it
+[02:08:30] [Async Chat Thread - #7/INFO]: <Everythin> give back the sword
+[02:08:45] [Async Chat Thread - #7/INFO]: <Everythin> e
+[02:09:33] [Async Chat Thread - #7/INFO]: <Everythin> put one in ur ender chest
+[02:09:49] [Async Chat Thread - #7/INFO]: <CloudedCar64> i cant
+[02:09:55] [Async Chat Thread - #7/INFO]: <Everythin> oh yea
+[02:10:15] [Server thread/INFO]: Everythin issued server command: /
+[02:10:35] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64 Everythin
+[02:10:45] [Server thread/INFO]: Everythin lost connection: Disconnected
+[02:10:45] [Server thread/INFO]: Everythin left the game
+[02:10:51] [Server thread/INFO]: CloudedCar64 lost connection: Disconnected
+[02:10:51] [Server thread/INFO]: CloudedCar64 left the game
+[02:13:37] [User Authenticator #14/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[02:13:38] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:51486] logged in with entity id 4934 at ([world]122.96496046112676, 64.0, -223.68367502470036)
+[02:13:45] [User Authenticator #14/INFO]: UUID of player Technoblade is 708f83cd-b150-33d6-b7af-ab56190a239c
+[02:13:45] [Server thread/INFO]: Technoblade[/[0:0:0:0:0:0:0:1%0]:54888] logged in with entity id 4958 at ([world]-4403.699999988079, 37.0, 4770.074999988079)
+[02:13:49] [User Authenticator #14/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[02:13:50] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:54896] logged in with entity id 5048 at ([world]120.64977063248094, 64.0, -226.0740302085964)
+[02:13:55] [Server thread/INFO]: Everythin issued server command: /tp Technoblade Everythin
+[02:13:57] [Async Chat Thread - #8/INFO]: <Everythin> yo
+[02:14:07] [Async Chat Thread - #8/INFO]: <Everythin> put in ender chest
+[02:14:08] [Server thread/INFO]: Technoblade lost connection: Disconnected
+[02:14:08] [Server thread/INFO]: Technoblade left the game
+[02:14:18] [Server thread/INFO]: Everythin issued server command: /warp spawn
+[02:14:30] [Server thread/INFO]: Everythin lost connection: Disconnected
+[02:14:30] [Server thread/INFO]: Everythin left the game
+[02:14:38] [Server thread/INFO]: CloudedCar64 was blown up by Creeper
+[02:14:45] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[02:14:56] [Server thread/INFO]: CloudedCar64 has made the advancement [Monster Hunter]
+[02:16:10] [Server thread/INFO]: CloudedCar64 was blown up by Creeper
+[02:16:16] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[02:18:47] [User Authenticator #15/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[02:18:47] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:53568] logged in with entity id 5575 at ([world]-0.7315945094030403, 67.0, 8.782302782926186)
+[02:18:52] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[02:19:05] [Server thread/INFO]: Everythin issued server command: /vanish
+[02:20:01] [Async Chat Thread - #9/INFO]: <Everythin> why u want sand?
+[02:20:10] [Async Chat Thread - #9/INFO]: <CloudedCar64> sandcastle
+[02:20:52] [Async Chat Thread - #9/INFO]: <Everythin> :D
+[02:20:56] [Async Chat Thread - #9/INFO]: <Everythin> tjere u go
+[02:20:57] [Async Chat Thread - #9/INFO]: <Everythin> :D
+[02:21:16] [Server thread/INFO]: Everythin issued server command: /enchant efficiency 5
+[02:21:22] [Server thread/INFO]: Everythin issued server command: /enchant unbreaking 3
+[02:21:28] [Async Chat Thread - #9/INFO]: <Everythin> wait
+[02:21:35] [Async Chat Thread - #9/INFO]: <Everythin> i have good shovel
+[02:21:44] [Async Chat Thread - #9/INFO]: <Everythin> its indise house
+[02:21:49] [Async Chat Thread - #9/INFO]: <Everythin> go in the gouse
+[02:21:51] [Async Chat Thread - #9/INFO]: <Everythin> :D
+[02:21:58] [Async Chat Thread - #9/INFO]: <Everythin> do u like it
+[02:22:01] [Async Chat Thread - #9/INFO]: <CloudedCar64> yes
+[02:22:13] [Server thread/INFO]: Everythin issued server command: /give CloudedCar64 sand 64
+[02:22:16] [Server thread/INFO]: Everythin issued server command: /give CloudedCar64 sand 64
+[02:22:17] [Server thread/INFO]: Everythin issued server command: /give CloudedCar64 sand 64
+[02:22:18] [Server thread/INFO]: Everythin issued server command: /give CloudedCar64 sand 64
+[02:22:23] [Server thread/INFO]: Everythin issued server command: /inform
+[02:22:25] [Server thread/INFO]: Everythin issued server command: /invsee
+[02:22:28] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[02:22:52] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[02:23:24] [User Authenticator #16/INFO]: UUID of player Technoblade is 708f83cd-b150-33d6-b7af-ab56190a239c
+[02:23:25] [Server thread/INFO]: Technoblade[/[0:0:0:0:0:0:0:1%0]:42204] logged in with entity id 6210 at ([world]122.32144323925318, 64.0, -223.4331207582541)
+[02:23:28] [Async Chat Thread - #10/INFO]: <Everythin> yo
+[02:23:33] [Server thread/INFO]: CloudedCar64 lost connection: Disconnected
+[02:23:33] [Server thread/INFO]: CloudedCar64 left the game
+[02:23:36] [Server thread/INFO]: Everythin issued server command: /tp Technoblade
+[02:23:39] [Async Chat Thread - #10/INFO]: <Everythin> wait
+[02:24:21] [Server thread/INFO]: Everythin issued server command: /vanish
+[02:24:31] [Async Chat Thread - #10/INFO]: <Everythin> :D
+[02:24:34] [Async Chat Thread - #10/INFO]: <Everythin> dont tell anyone
+[02:24:38] [Async Chat Thread - #10/INFO]: <Everythin> ok?
+[02:24:45] [Server thread/INFO]: Everythin issued server command: /invsee
+[02:24:47] [Server thread/INFO]: Everythin issued server command: /invsee Technoblade
+[02:25:43] [Server thread/INFO]: Everythin issued server command: /tp Technoblade Everythin
+[02:25:56] [Server thread/INFO]: Everythin issued server command: /heal Technoblade
+[02:26:01] [Server thread/INFO]: Everythin issued server command: /invsee
+[02:26:03] [Server thread/INFO]: Everythin issued server command: /invsee Technoblade
+[02:26:46] [Server thread/INFO]: Everythin issued server command: /tp Technoblade Everythin
+[02:26:51] [Server thread/INFO]: Everythin issued server command: /gms
+[02:26:53] [Server thread/INFO]: Everythin issued server command: /gms
+[02:26:55] [Server thread/INFO]: Everythin issued server command: /gmsp
+[02:27:00] [Server thread/INFO]: Everythin issued server command: /gmc
+[02:27:02] [Server thread/INFO]: Everythin issued server command: /gmsp
+[02:27:21] [Server thread/INFO]: Everythin issued server command: /tp Technoblade
+[02:27:30] [Server thread/INFO]: Everythin issued server command: /gmc
+[02:27:35] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:27:36] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:27:37] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:27:39] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:27:49] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:27:56] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:27:58] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:27:58] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:27:59] [User Authenticator #17/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[02:27:59] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:28:00] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:37876] logged in with entity id 6526 at ([world]141.42714812003499, 68.0, -284.77698372611)
+[02:28:00] [Server thread/INFO]: Technoblade lost connection: Disconnected
+[02:28:00] [Server thread/INFO]: Technoblade left the game
+[02:28:00] [Server thread/INFO]: Everythin issued server command: /fireball
+[02:28:25] [Server thread/INFO]: Everythin issued server command: /nuke
+[02:28:29] [Server thread/INFO]: CloudedCar64 blew up
+[02:28:33] [User Authenticator #17/INFO]: UUID of player Technoblade is 708f83cd-b150-33d6-b7af-ab56190a239c
+[02:28:33] [Server thread/INFO]: Technoblade[/[0:0:0:0:0:0:0:1%0]:34092] logged in with entity id 6684 at ([world]183.74406280990374, 3.0, -226.67791756453707)
+[02:28:45] [Server thread/INFO]: Everythin issued server command: /nuke
+[02:28:49] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[02:28:51] [Server thread/INFO]: Technoblade fell from a high place
+[02:28:53] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[02:29:11] [Server thread/INFO]: Technoblade issued server command: /back
+[02:29:15] [Server thread/INFO]: Everythin issued server command: /invsee
+[02:29:17] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[02:29:36] [Server thread/INFO]: Technoblade lost connection: Disconnected
+[02:29:36] [Server thread/INFO]: Technoblade left the game
+[02:29:42] [User Authenticator #18/INFO]: UUID of player Technoblade is 708f83cd-b150-33d6-b7af-ab56190a239c
+[02:29:42] [Server thread/INFO]: Technoblade[/[0:0:0:0:0:0:0:1%0]:52546] logged in with entity id 7013 at ([world]208.25046899775475, 4.0, -238.4704878494556)
+[02:29:45] [Server thread/INFO]: Everythin issued server command: /invsee Technoblade
+[02:29:55] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[02:31:47] [Server thread/INFO]: Technoblade issued server command: /rtp
+[02:32:05] [Server thread/INFO]: Technoblade lost connection: Disconnected
+[02:32:05] [Server thread/INFO]: Technoblade left the game
+[02:32:06] [Server thread/INFO]: Everythin lost connection: Disconnected
+[02:32:06] [Server thread/INFO]: Everythin left the game
+[02:32:09] [Server thread/INFO]: CloudedCar64 issued server command: /can i have some bow and arrow
+[02:33:14] [Async Chat Thread - #11/INFO]: <CloudedCar64> can i have a bow and arrows
+[02:34:04] [User Authenticator #19/INFO]: UUID of player Technoblade is 708f83cd-b150-33d6-b7af-ab56190a239c
+[02:34:04] [Server thread/INFO]: Technoblade[/[0:0:0:0:0:0:0:1%0]:37368] logged in with entity id 7370 at ([world]5109.564969005581, 76.0, 9710.090482737452)
+[02:34:26] [User Authenticator #19/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[02:34:26] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:47530] logged in with entity id 7513 at ([world]139.64386241430876, 69.0, -284.69999998807907)
+[02:34:36] [Server thread/INFO]: Everythin issued server command: /invsee
+[02:34:38] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[02:34:52] [Server thread/INFO]: Technoblade issued server command: /rtp
+[02:35:02] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[02:35:07] [Server thread/INFO]: Everythin issued server command: /
+[02:35:33] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[02:36:27] [Server thread/INFO]: Everythin issued server command: /tp Technoblade Everythin
+[02:36:38] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[02:37:00] [Server thread/INFO]: Everythin issued server command: /tp Everythin
+[02:37:03] [Server thread/INFO]: Everythin issued server command: /tp Technoblade
+[02:37:38] [Server thread/INFO]: Technoblade lost connection: Disconnected
+[02:37:38] [Server thread/INFO]: Technoblade left the game
+[02:37:48] [User Authenticator #20/INFO]: UUID of player Technoblade is 708f83cd-b150-33d6-b7af-ab56190a239c
+[02:37:48] [Server thread/INFO]: Technoblade[/[0:0:0:0:0:0:0:1%0]:56700] logged in with entity id 7871 at ([world]147.4507252947032, 66.0, -300.0178579554662)
+[02:37:50] [Server thread/INFO]: Everythin issued server command: /invsee Technoblade
+[02:37:51] [Server thread/INFO]: Technoblade has made the advancement [Cover Me With Diamonds]
+[02:39:05] [Server thread/INFO]: Everythin lost connection: Disconnected
+[02:39:05] [Server thread/INFO]: Everythin left the game
+[02:39:07] [Server thread/INFO]: Technoblade lost connection: Disconnected
+[02:39:07] [Server thread/INFO]: Technoblade left the game
+[02:39:17] [Server thread/INFO]: CloudedCar64 blew up
+[02:39:21] [Server thread/INFO]: CloudedCar64 lost connection: Disconnected
+[02:39:21] [Server thread/INFO]: CloudedCar64 left the game
+[02:43:53] [User Authenticator #21/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[02:43:53] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:54334] logged in with entity id 7997 at ([world]230.57878752154454, 79.5, -328.40874670604614)
+[02:44:05] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[02:44:40] [Server thread/INFO]: CloudedCar64 fell from a high place
+[02:44:49] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[02:45:36] [User Authenticator #22/INFO]: UUID of player Technoblade is 708f83cd-b150-33d6-b7af-ab56190a239c
+[02:45:36] [Server thread/INFO]: Technoblade[/[0:0:0:0:0:0:0:1%0]:55210] logged in with entity id 8076 at ([world]143.3927726755974, 68.0, -288.2009300776408)
+[02:45:54] [Server thread/INFO]: CloudedCar64 blew up
+[02:46:05] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[02:46:20] [Server thread/INFO]: Technoblade lost connection: Disconnected
+[02:46:20] [Server thread/INFO]: Technoblade left the game
+[02:48:18] [Server thread/INFO]: CloudedCar64 was slain by Husk
+[02:48:26] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[02:49:27] [Async Chat Thread - #12/INFO]: <CloudedCar64> enzo
+[02:55:45] [Server thread/INFO]: CloudedCar64 was pricked to death
+[02:55:54] [Server thread/INFO]: CloudedCar64 issued server command: /back'
+[02:55:57] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[02:56:01] [User Authenticator #23/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[02:56:01] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:39678] logged in with entity id 8403 at ([world]144.40932286039413, 68.23796322029146, -280.62956703229395)
+[02:56:25] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[02:56:27] [Async Chat Thread - #13/INFO]: <CloudedCar64> thanks
+[02:56:53] [Async Chat Thread - #13/INFO]: <CloudedCar64> my games about to cash
+[02:57:00] [Async Chat Thread - #13/INFO]: <Everythin> ...
+[02:57:24] [Async Chat Thread - #13/INFO]: <Everythin> just restart the tab
+[02:57:32] [Async Chat Thread - #13/INFO]: <CloudedCar64> ok sys
+[02:57:40] [Server thread/INFO]: CloudedCar64 lost connection: Disconnected
+[02:57:40] [Server thread/INFO]: CloudedCar64 left the game
+[02:59:26] [User Authenticator #24/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[02:59:27] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:59614] logged in with entity id 8485 at ([world]142.498197724927, 64.0, -287.94244112520914)
+[02:59:41] [Server thread/INFO]: CloudedCar64 lost connection: Disconnected
+[02:59:41] [Server thread/INFO]: CloudedCar64 left the game
+[02:59:48] [User Authenticator #24/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[02:59:49] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:50870] logged in with entity id 8517 at ([world]143.4944186424611, 64.0, -289.03704320579726)
+[02:59:52] [Async Chat Thread - #14/INFO]: <Everythin> ...
+[03:00:23] [Server thread/INFO]: Everythin issued server command: /echest CloudedCar64
+[03:00:30] [Async Chat Thread - #14/INFO]: <CloudedCar64> can i have pic
+[03:00:41] [Async Chat Thread - #14/INFO]: <Everythin> what type
+[03:00:45] [Async Chat Thread - #14/INFO]: <Everythin> and what enchants
+[03:00:53] [Async Chat Thread - #14/INFO]: <CloudedCar64> any also i want a cat
+[03:01:11] [Async Chat Thread - #14/INFO]: <Everythin> there are no cats
+[03:01:17] [Server thread/INFO]: Everythin issued server command: /enchant unbreaking 3
+[03:01:20] [Async Chat Thread - #14/INFO]: <CloudedCar64> wolf then
+[03:01:22] [Server thread/INFO]: Everythin issued server command: /enchant efficiency 5
+[03:01:26] [Server thread/INFO]: Everythin issued server command: /enchant mending 3
+[03:01:28] [Server thread/INFO]: Everythin issued server command: /enchant mending 1
+[03:01:48] [Server thread/INFO]: Everythin issued server command: /enchant silktouch
+[03:01:53] [Server thread/INFO]: Everythin issued server command: /enchant fortune 3
+[03:02:16] [Server thread/INFO]: Everythin issued server command: /enchant unbreaking 3
+[03:02:20] [Server thread/INFO]: Everythin issued server command: /enchant efficiency 5
+[03:02:23] [Server thread/INFO]: Everythin issued server command: /enchant mending
+[03:02:26] [Server thread/INFO]: Everythin issued server command: /enchant
+[03:02:28] [Server thread/INFO]: CloudedCar64 fell from a high place
+[03:02:35] [Server thread/INFO]: Everythin issued server command: /enchant
+[03:02:37] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[03:02:43] [Server thread/INFO]: Everythin issued server command: /enchant fortune 3
+[03:02:48] [Server thread/INFO]: Everythin issued server command: /enchant silktouch
+[03:03:23] [Async Chat Thread - #15/INFO]: <Everythin> fortune or silk touch
+[03:03:35] [Async Chat Thread - #15/INFO]: <CloudedCar64> fortune
+[03:03:37] [Async Chat Thread - #15/INFO]: <Everythin> ok
+[03:03:46] [Server thread/INFO]: Everythin issued server command: /echest CloudedCar64
+[03:03:53] [Async Chat Thread - #15/INFO]: <Everythin> done
+[03:04:02] [Server thread/INFO]: Everythin issued server command: /echangems CloudedCar64
+[03:04:05] [Server thread/INFO]: Everythin issued server command: /echangems CloudedCar64
+[03:04:12] [Async Chat Thread - #15/INFO]: <Everythin> i did it
+[03:04:39] [Async Chat Thread - #15/INFO]: <CloudedCar64> where is it?
+[03:04:47] [Async Chat Thread - #15/INFO]: <Everythin> do /echest CloudedCar64
+[03:04:58] [Server thread/INFO]: CloudedCar64 issued server command: /echest cloudedcar64
+[03:04:58] [Server thread/INFO]: [Essentials] CloudedCar64 was denied access to command.
+[03:05:10] [Server thread/INFO]: CloudedCar64 issued server command: /echest CloudedCar64
+[03:05:10] [Server thread/INFO]: [Essentials] CloudedCar64 was denied access to command.
+[03:05:18] [Async Chat Thread - #15/INFO]: <CloudedCar64> i dont have access
+[03:05:22] [Async Chat Thread - #15/INFO]: <Everythin> oh
+[03:05:36] [Server thread/INFO]: CloudedCar64 has made the advancement [Stone Age]
+[03:05:41] [Async Chat Thread - #15/INFO]: <Everythin> dont tell anyone
+[03:05:52] [Server thread/INFO]: Everythin issued server command: /gmsp
+[03:05:58] [Async Chat Thread - #15/INFO]: <Everythin> go forward
+[03:06:04] [Async Chat Thread - #15/INFO]: <Everythin> up
+[03:06:10] [Async Chat Thread - #15/INFO]: <Everythin> :D
+[03:06:12] [Server thread/INFO]: Everythin issued server command: /gmc
+[03:06:30] [Server thread/INFO]: Everythin lost connection: Disconnected
+[03:06:30] [Server thread/INFO]: Everythin left the game
+[03:06:34] [User Authenticator #25/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[03:06:34] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:48902] logged in with entity id 8833 at ([world]153.84724397539577, 36.986273536649236, -249.25014104120572)
+[03:06:41] [Server thread/INFO]: CloudedCar64 lost connection: Disconnected
+[03:06:41] [Server thread/INFO]: CloudedCar64 left the game
+[03:06:50] [User Authenticator #25/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[03:06:51] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:60698] logged in with entity id 8841 at ([world]128.5739003497039, 32.0, -299.22584599375875)
+[03:06:52] [Server thread/INFO]: Everythin issued server command: /god
+[03:06:57] [Server thread/INFO]: Everythin issued server command: /godmode CloudedCar64
+[03:07:02] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[03:07:07] [Async Chat Thread - #15/INFO]: <Everythin> hello
+[03:07:20] [Server thread/INFO]: CloudedCar64 issued server command: /vanish
+[03:07:20] [Server thread/INFO]: [Essentials] CloudedCar64 was denied access to command.
+[03:07:20] [Server thread/INFO]: Everythin issued server command: /godmode CloudedCar64
+[03:07:27] [Async Chat Thread - #15/INFO]: <CloudedCar64> what?
+[03:07:29] [Server thread/INFO]: Everythin issued server command: /gms
+[03:07:32] [Async Chat Thread - #15/INFO]: <Everythin> hi
+[03:07:32] [Async Chat Thread - #15/INFO]: <CloudedCar64> god mode?
+[03:07:34] [Async Chat Thread - #15/INFO]: <Everythin> echest
+[03:07:39] [Server thread/INFO]: Everythin issued server command: /echest
+[03:07:45] [Server thread/INFO]: Everythin issued server command: /gmc
+[03:07:46] [Server thread/INFO]: Everythin issued server command: /echest
+[03:07:50] [Server thread/INFO]: Everythin issued server command: /gms
+[03:08:02] [Async Chat Thread - #15/INFO]: <Everythin> do u need help
+[03:08:07] [Async Chat Thread - #15/INFO]: <Everythin> im in surivval
+[03:08:08] [Server thread/INFO]: Everythin issued server command: /god
+[03:08:10] [Async Chat Thread - #15/INFO]: <CloudedCar64> ok
+[03:08:14] [Server thread/INFO]: Everythin issued server command: /heal
+[03:08:22] [Server thread/INFO]: Everythin issued server command: /heal CloudedCar64
+[03:08:47] [Server thread/INFO]: Everythin issued server command: /effect CloudedCar64 minecraft:haste 100000 1
+[03:08:47] [Server thread/INFO]: [Everythin: Given Haste (ID 3) * 1 to CloudedCar64 for 100000 seconds]
+[03:08:50] [Async Chat Thread - #15/INFO]: <Everythin> :D
+[03:08:52] [Async Chat Thread - #15/INFO]: <CloudedCar64> ima put on xray
+[03:08:57] [Server thread/INFO]: Everythin issued server command: /effect Everythin minecraft:haste 100000 1
+[03:08:57] [Server thread/INFO]: [Everythin: Given Haste (ID 3) * 1 to Everythin for 100000 seconds]
+[03:09:03] [Async Chat Thread - #15/INFO]: <Everythin> :D
+[03:09:04] [Async Chat Thread - #15/INFO]: <Everythin> ok
+[03:09:26] [Async Chat Thread - #15/INFO]: <Everythin> diamonds
+[03:09:42] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64 Everythin
+[03:09:45] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64 Everythin
+[03:09:50] [Async Chat Thread - #15/INFO]: <Everythin> diamonds
+[03:10:17] [Server thread/INFO]: Everythin issued server command: /fireball
+[03:10:21] [Server thread/INFO]: Everythin issued server command: /fireskull
+[03:10:24] [Server thread/INFO]: Everythin issued server command: /fireskull
+[03:10:26] [Server thread/INFO]: Everythin issued server command: /fireskull
+[03:11:12] [Server thread/INFO]: CloudedCar64 tried to swim in lava
+[03:11:15] [Async Chat Thread - #16/INFO]: <Everythin> ...
+[03:11:20] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[03:11:30] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[03:11:30] [Server thread/INFO]: CloudedCar64 issued server command: /back
+[03:11:39] [Server thread/INFO]: Everythin issued server command: /gmc
+[03:12:02] [Async Chat Thread - #16/INFO]: <CloudedCar64> can you pls give god mode
+[03:12:06] [Async Chat Thread - #16/INFO]: <Everythin> ....
+[03:12:11] [Server thread/INFO]: Everythin issued server command: /
+[03:12:25] [Server thread/INFO]: Everythin issued server command: /godmode CloudedCar64
+[03:12:32] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[03:12:40] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[03:12:40] [Async Chat Thread - #16/INFO]: <CloudedCar64> how do i use it
+[03:12:47] [Async Chat Thread - #16/INFO]: <Everythin> u just dont die
+[03:12:54] [Async Chat Thread - #16/INFO]: <Everythin> ur immortal
+[03:13:08] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[03:13:25] [Async Chat Thread - #16/INFO]: <CloudedCar64> lets go work on the sandcastle defences
+[03:13:29] [Async Chat Thread - #16/INFO]: <Everythin> ok
+[03:13:32] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[03:14:01] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64
+[03:14:14] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64 Everythin
+[03:14:19] [Server thread/INFO]: Everythin issued server command: /tp CloudedCar64 Everythin
+[03:14:23] [Async Chat Thread - #16/INFO]: <Everythin> do /sethome
+[03:14:35] [Server thread/INFO]: CloudedCar64 issued server command: /sethome
+[03:14:41] [Async Chat Thread - #16/INFO]: <Everythin> do /sethome
+[03:14:46] [Async Chat Thread - #16/INFO]: <CloudedCar64> i did
+[03:14:50] [Async Chat Thread - #16/INFO]: <Everythin> k
+[03:16:11] [Server thread/INFO]: CloudedCar64 lost connection: Disconnected
+[03:16:11] [Server thread/INFO]: CloudedCar64 left the game
+[03:16:15] [Server thread/INFO]: Everythin lost connection: Disconnected
+[03:16:15] [Server thread/INFO]: Everythin left the game
+[03:21:34] [User Authenticator #26/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[03:21:35] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:39668] logged in with entity id 11720 at ([world]142.19332711154857, 64.0, -287.04569793595505)
+[03:26:58] [User Authenticator #27/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[03:26:59] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:54200] logged in with entity id 11811 at ([world]142.82213314320438, 64.0, -286.82293902137013)
+[03:26:59] [Server thread/INFO]: [Essentials] Set god mode to false for {0} because they had it enabled without permission.
+[03:27:16] [Async Chat Thread - #17/INFO]: <Everythin> yo
+[03:27:33] [Async Chat Thread - #17/INFO]: <Everythin> why is there bedrock
+[03:27:37] [Server thread/INFO]: Everythin issued server command: /invsee
+[03:27:38] [Async Chat Thread - #17/INFO]: <CloudedCar64> isk
+[03:27:39] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[03:27:41] [Async Chat Thread - #17/INFO]: <CloudedCar64> idk
+[03:28:50] [Async Chat Thread - #18/INFO]: <Everythin> do u want me to break it
+[03:29:03] [Server thread/INFO]: Everythin issued server command: /invsee CloudedCar64
+[03:30:20] [Server thread/INFO]: Everythin lost connection: Disconnected
+[03:30:20] [Server thread/INFO]: Everythin left the game
+[03:31:26] [Server thread/INFO]: CloudedCar64 lost connection: Timed out
+[03:31:26] [Server thread/INFO]: CloudedCar64 left the game
+[03:32:39] [User Authenticator #28/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[03:32:39] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:40022] logged in with entity id 11989 at ([world]148.5, 64.0, -286.5)
+[03:33:12] [Server thread/INFO]: Everythin issued server command: /alts
+[03:33:17] [Server thread/INFO]: Everythin issued server command: /alts Everythin
+[03:33:41] [Server thread/INFO]: Everythin issued server command: /ac
+[03:35:12] [Server thread/INFO]: Everythin lost connection: Timed out
+[03:35:12] [Server thread/INFO]: Everythin left the game
+[03:36:27] [User Authenticator #29/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[03:36:27] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:39216] logged in with entity id 12079 at ([world]161.80873874487614, 78.0, -314.456554474239)
+[03:36:49] [Server thread/INFO]: Everythin issued server command: /warps
+[03:36:55] [Server thread/INFO]: Everythin issued server command: /wb
+[03:37:01] [Server thread/INFO]: Everythin issued server command: /srike
+[03:37:05] [Server thread/INFO]: Everythin issued server command: /strike
+[03:37:07] [Server thread/INFO]: Everythin issued server command: /strike
+[03:37:10] [Server thread/INFO]: Everythin issued server command: /strike
+[03:37:15] [Server thread/INFO]: Everythin issued server command: /strike
+[03:37:20] [Server thread/INFO]: Everythin issued server command: /who
+[03:37:28] [Server thread/INFO]: Everythin issued server command: /worth
+[03:37:34] [Server thread/INFO]: Everythin issued server command: /wspeed
+[03:37:43] [Server thread/INFO]: Everythin issued server command: /wspeed fly 2 Everythin
+[03:37:56] [Server thread/INFO]: Everythin lost connection: Disconnected
+[03:37:56] [Server thread/INFO]: Everythin left the game
+[03:44:44] [User Authenticator #30/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[03:44:45] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:43060] logged in with entity id 12196 at ([world]146.4228582221793, 64.5625, -285.30000001192093)
+[03:46:00] [Server thread/INFO]: CloudedCar64 lost connection: Disconnected
+[03:46:00] [Server thread/INFO]: CloudedCar64 left the game
+[03:50:40] [User Authenticator #31/INFO]: UUID of player Technoblade is 708f83cd-b150-33d6-b7af-ab56190a239c
+[03:50:40] [Server thread/INFO]: Technoblade[/[0:0:0:0:0:0:0:1%0]:45660] logged in with entity id 12258 at ([world]144.6526029461073, 64.0, -287.582721663926)
+[03:50:43] [Server thread/INFO]: Technoblade has made the advancement [Sweet dreams]
+[03:52:02] [Server thread/INFO]: Technoblade lost connection: Disconnected
+[03:52:02] [Server thread/INFO]: Technoblade left the game
+[03:52:08] [User Authenticator #32/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[03:52:08] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:36680] logged in with entity id 12355 at ([world]144.24309524423253, 64.0, -287.03019529539057)
+[03:53:18] [Server thread/INFO]: Everythin issued server command: /help 3
+[03:53:25] [Server thread/INFO]: Everythin issued server command: /potion
+[03:54:18] [Server thread/INFO]: Everythin issued server command: /potion effect:healthboost power:1000000 duration:100000
+[03:54:26] [Server thread/INFO]: Everythin issued server command: /potion effect:healthboost power:1000000 duration:100000
+[03:54:41] [Server thread/INFO]: Everythin issued server command: /gms
+[03:54:50] [Server thread/INFO]: Everythin issued server command: /potion effect:healthboost power:10000000000000 duration:100000
+[03:54:56] [Server thread/INFO]: Everythin issued server command: /potion effect:healthboost power:1000000000000 duration:100000
+[03:54:58] [Server thread/INFO]: Everythin issued server command: /potion effect:healthboost power:100000000000 duration:100000
+[03:55:00] [Server thread/INFO]: Everythin issued server command: /potion effect:healthboost power:10000000000 duration:100000
+[03:55:05] [Server thread/INFO]: Everythin issued server command: /gmc
+[03:55:09] [Server thread/INFO]: Everythin issued server command: /gmc
+[03:55:11] [Server thread/INFO]: Everythin issued server command: /potion effect:healthboost power:10000000000 duration:100000
+[03:55:15] [Server thread/INFO]: Everythin issued server command: /potion effect:healthboost power:1000000000 duration:100000
+[03:55:24] [Server thread/INFO]: Everythin issued server command: /gms
+[03:55:26] [Server thread/INFO]: Everythin issued server command: /gmc
+[03:55:30] [Server thread/INFO]: Everythin issued server command: /gms
+[03:55:36] [Server thread/INFO]: Everythin issued server command: /gmc
+[03:56:28] [Server thread/INFO]: Everythin issued server command: /potion effect:wither power:1 duration:1000000
+[03:56:55] [Server thread/INFO]: Everythin issued server command: /potion effect:regeneration amplifier:2 duration:100000000
+[03:57:11] [Server thread/INFO]: Everythin issued server command: /gms
+[03:57:46] [Server thread/INFO]: Everythin issued server command: /effect clear
+[03:58:10] [Server thread/INFO]: Everythin issued server command: /give Everythin milkbucket
+[03:58:18] [Server thread/INFO]: Everythin issued server command: /gmc
+[03:58:41] [Server thread/INFO]: Everythin issued server command: /
+[03:59:22] [Server thread/INFO]: Everythin issued server command: /potion effect:strength amplifier:1000000 duration:1000000
+[03:59:49] [Server thread/INFO]: Everythin issued server command: /potion effect:slowness amplifier:1000000000 duration:10000000
+[04:00:59] [Server thread/INFO]: Everythin issued server command: /potion effect:strength amplifier:1000000 duration:1000000
+[04:01:03] [Server thread/INFO]: Everythin issued server command: /potion effect:slowness amplifier:1000000000 duration:10000000
+[04:01:10] [Server thread/INFO]: Everythin issued server command: /potion effect:regeneration amplifier:2 duration:100000000
+[04:01:15] [Server thread/INFO]: Everythin issued server command: /potion effect:wither power:1 duration:1000000
+[04:01:21] [Server thread/INFO]: Everythin issued server command: /potion effect:healthboost power:1000000000 duration:100000
+[04:02:00] [Server thread/INFO]: Everythin issued server command: /potion effect:regeneration amplifier:100 duration:1000
+[04:02:17] [Server thread/INFO]: Everythin issued server command: /gmc
+[04:02:18] [Server thread/INFO]: Everythin issued server command: /gms
+[04:02:38] [Server thread/INFO]: Everythin issued server command: /gamemode creative
+[04:03:05] [Server thread/INFO]: Everythin issued server command: /potion effect:blindness amplifier:10 duration:1000000
+[04:03:40] [Server thread/INFO]: Everythin issued server command: /give Everythin milkbucket
+[04:04:01] [Server thread/INFO]: Everythin lost connection: Disconnected
+[04:04:01] [Server thread/INFO]: Everythin left the game
+[04:07:21] [User Authenticator #33/INFO]: UUID of player Everythin is 4a747aaf-1328-3834-8005-05e68591485c
+[04:07:21] [Server thread/INFO]: Everythin[/[0:0:0:0:0:0:0:1%0]:40134] logged in with entity id 12592 at ([world]142.0799530850221, 70.80472185116196, -300.25705483913737)
+[04:08:13] [Server thread/INFO]: Everythin issued server command: /spawn
+[04:08:15] [Server thread/INFO]: Everythin issued server command: /warp
+[04:08:18] [Server thread/INFO]: Everythin issued server command: /warpspawn
+[04:08:22] [Server thread/INFO]: Everythin issued server command: /warp spawn
+[04:09:41] [Server thread/INFO]: Everythin issued server command: /gmsp
+[04:10:06] [Server thread/INFO]: Everythin issued server command: /gmc
+[04:10:29] [Server thread/INFO]: Everythin issued server command: /
+[04:10:32] [Server thread/INFO]: Everythin lost connection: Disconnected
+[04:10:32] [Server thread/INFO]: Everythin left the game
+[05:10:46] [User Authenticator #34/INFO]: UUID of player CloudedCar64 is 6e7e7d2f-061d-37a3-a9e7-8808767ea078
+[05:10:46] [Server thread/INFO]: CloudedCar64[/[0:0:0:0:0:0:0:1%0]:45952] logged in with entity id 12767 at ([world]145.26448421619256, 65.0, -302.09439914572533)
+[05:12:19] [Server thread/INFO]: CloudedCar64 lost connection: Disconnected
+[05:12:19] [Server thread/INFO]: CloudedCar64 left the game

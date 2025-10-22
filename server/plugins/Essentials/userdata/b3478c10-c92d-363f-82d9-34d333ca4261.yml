@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761097246858
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761098175637
+  login: 1761098147867
+money: '0'
+last-account-name: silverstone
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: -6240.543439662118
+  y: 57.0
+  z: -617.8748192777966
+  yaw: -301.4989929199219
+  pitch: 14.999994277954102
+lastlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: -1996.300000011921
+  y: 61.16704053333626
+  z: 7458.303662531173
+  yaw: 257.6999206542969
+  pitch: 33.000022888183594
+homes:
+  home:
+    world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+    world-name: world
+    x: -6187.7338042808615
+    y: 63.0
+    z: -688.3632622170699
+    yaw: 0.3012312352657318
+    pitch: 64.49996185302734

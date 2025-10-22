@@ -1,0 +1,63 @@
+dual_stack: true
+forward_ip: false
+forward_ip_header: 'X-Real-IP'
+forward_secret: false
+forward_secret_header: 'X-Eagler-Secret'
+forward_secret_file: 'eagler_forwarding.secret'
+spoof_player_address_forwarded: true
+tls_config:
+  enable_tls: false
+  require_tls: true
+  tls_managed_by_external_plugin: false
+  tls_public_chain_file: 'fullchain.pem'
+  tls_private_key_file: 'privatekey.pem'
+  tls_private_key_password: ''
+  tls_auto_refresh_cert: true
+redirect_legacy_clients_to: ''
+server_icon: 'server-icon.png'
+server_motd:
+- '&9 This is a school Smp!'
+allow_motd: true
+allow_query: true
+show_motd_player_list: true
+allow_cookie_revoke_query: true
+request_motd_cache:
+  cache_ttl: 7200
+  online_server_list_animation: false
+  online_server_list_results: true
+  online_server_list_trending: true
+  online_server_list_portfolios: true
+ratelimit:
+  ip:
+    enable: true
+    period: 90
+    limit: 60
+    limit_lockout: 80
+    lockout_duration: 1200
+  login:
+    enable: true
+    period: 50
+    limit: 5
+    limit_lockout: 10
+    lockout_duration: 300
+  motd:
+    enable: true
+    period: 30
+    limit: 5
+    limit_lockout: 15
+    lockout_duration: 300
+  query:
+    enable: true
+    period: 30
+    limit: 15
+    limit_lockout: 25
+    lockout_duration: 800
+  http:
+    enable: true
+    period: 30
+    limit: 10
+    limit_lockout: 20
+    lockout_duration: 300
+  disable_ratelimit:
+  - '127.0.0.0/8'
+  - '::1/128'

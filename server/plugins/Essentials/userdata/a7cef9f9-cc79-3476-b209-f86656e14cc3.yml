@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761052417359
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761052838638
+  login: 1761052582163
+money: '-10000'
+last-account-name: aPandaAdmin
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 0.2952082942725347
+  y: 67.0
+  z: 1.8666647082918069
+  yaw: 31.18756103515625
+  pitch: 14.815020561218262
+lastlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 5.938190152841937
+  y: 67.7531999805212
+  z: -10.07423178728082
+  yaw: 34.21554183959961
+  pitch: 0.4955453872680664

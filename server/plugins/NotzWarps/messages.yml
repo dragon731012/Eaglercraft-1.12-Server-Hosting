@@ -1,0 +1,28 @@
+prefix: '&6[&fNotzWarps&6]&f'
+
+# Placeholders: Use {default} as the default placeholder, explanation:
+# For warps: get the warp display.
+# For players: get the nickname of the OTHER player.
+# OBS: for the player executing the commands is {player_name} or {player_displayname}
+
+messages:
+  warpTp: '&eYou have been teleported to &f&lWarp &l{default}&e.'
+  playerTp1: "&eYou have been teleported to player &a{default}&e."
+  playerTp2: "&eThe player &a{default} &ewas teleported to you."
+  permWarp: "&cYou don't have permission to enter this warp.!"
+  onHold: "&eThere is already a warp teleport request in progress.."
+  teleporting: "&eYou will be teleported in 3 seconds."
+  acceptTpa: "&aYou have accepted the TPA request from &f{default}&a."
+  refuseTpa1: "&eYou refused the tpa request of &f{default}&e."
+  refuseTpa2: "&cYour tpa request for &f{default} &cwas refused"
+  alreadySent: "&eYou have already sent a tpa request to this player."
+  requestTpa: "&eA TPA request was sent to player &f{default}&e."
+  cancelTpa: "&cYour TPA has been canceled."
+  cancelTp: "&cYour teleport has been canceled."
+  noRequest1: "&cThere is no tpa request."
+  noRequest2: "&cThere is no tpa request from the player &f{default}&c."
+  selfTpa: "&cYou can't send tpa to yourself."
+  playerOffline: "&cThe player &f{default} &cdoes not exist or is offline."
+  warpNotFound: "&cThere is no warp named &f{default}&c."
+  warpNotFound2: "&cThis warp was not found."
+  removeWarp: "&eThe warp &f{default} &ehas been successfully removed."

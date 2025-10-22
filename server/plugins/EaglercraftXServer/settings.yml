@@ -1,0 +1,80 @@
+server_name: 'EaglercraftXServer'
+server_uuid: '70ce5eda-2b5d-4a21-a21e-2f41b01601ed'
+eagler_login_timeout: 10000
+http_max_initial_line_length: 4096
+http_max_header_size: 16384
+http_max_chunk_size: 16384
+http_max_content_length: 65536
+http_websocket_compression_level: 6
+http_websocket_fragment_size: 65536
+http_websocket_max_frame_length: 2097151
+http_websocket_ping_intervention: false
+tls_certificate_refresh_rate: 60
+enable_is_eagler_player_property: true
+eagler_players_vanilla_skin: ''
+enable_authentication_events: false
+enable_backend_rpc_api: false
+use_modernized_channel_names: false
+eagler_players_view_distance: -1
+protocol_v4_defrag_send_delay: 10
+protocol_v4_defrag_max_packets: 64
+brand_lookup_ratelimit: 240
+webview_download_ratelimit: 8
+webview_message_ratelimit: 120
+debug_log_new_channels: false
+debug_log_real_ip_headers: false
+debug_log_origin_headers: false
+debug_log_client_brands: false
+protocols:
+  min_minecraft_protocol: 3
+  max_minecraft_protocol: 340
+  max_minecraft_protocol_v5: -1
+  eaglerxrewind_allowed: true
+  protocol_legacy_allowed: true
+  protocol_v3_allowed: true
+  protocol_v4_allowed: true
+  protocol_v5_allowed: true
+skin_service:
+  download_vanilla_skins_to_clients: true
+  valid_skin_download_urls:
+  - 'textures.minecraft.net'
+  skin_lookup_ratelimit: 240
+  cape_lookup_ratelimit: 180
+  skin_cache_db_uri: 'jdbc:sqlite:eagler_skins_cache.db'
+  skin_cache_db_driver_class: 'internal'
+  skin_cache_db_driver_path: 'internal'
+  skin_cache_db_sqlite_compatible: true
+  skin_cache_thread_count: -1
+  skin_cache_compression_level: 6
+  skin_cache_memory_keep_objects_seconds: 900
+  skin_cache_memory_max_objects: 4096
+  skin_cache_disk_keep_objects_days: 45
+  skin_cache_disk_max_objects: 32768
+  skin_cache_antagonists_ratelimit: 15
+  enable_fnaw_skin_models_global: true
+  enable_fnaw_skin_models_worlds: [
+    ]
+  enable_skinsrestorer_apply_hook: true
+voice_service:
+  enable_voice_service: false
+  enable_voice_all_worlds: true
+  enable_voice_on_worlds: [
+    ]
+  separate_world_voice_channels: false
+  voice_connect_ratelimit: 20
+  voice_request_ratelimit: 120
+  voice_ice_ratelimit: 600
+update_service:
+  enable_update_system: true
+  discard_login_packet_certs: false
+  cert_packet_data_rate_limit: 524288
+  enable_eagcert_folder: true
+  download_latest_certs: true
+  download_certs_from:
+  - 'https://eaglercraft.com/backup.cert'
+  - 'https://deev.is/eagler/backup.cert'
+  check_for_update_every: 28800
+update_checker:
+  enable_update_checker: true
+  check_for_update_every: 86400
+  print_chat_messages: true

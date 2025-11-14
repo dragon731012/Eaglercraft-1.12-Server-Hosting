@@ -1,0 +1,1533 @@
+21:28:08 [INFO] Using mbed TLS based native cipher.
+21:28:08 [INFO] Using zlib based native compressor.
+21:28:08 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+21:28:09 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+21:28:09 [INFO] Epoll is working, utilising it!
+21:28:09 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+21:28:09 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+21:28:09 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+21:28:09 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+21:28:09 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+21:28:09 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:28:09 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+21:28:09 [INFO] Attempting to Jenkins download module cmd_alert v1889
+21:28:11 [INFO] Download complete
+21:28:11 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+21:28:11 [INFO] Attempting to Jenkins download module cmd_find v1889
+21:28:11 [INFO] Download complete
+21:28:11 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+21:28:11 [INFO] Attempting to Jenkins download module cmd_list v1889
+21:28:11 [INFO] Download complete
+21:28:11 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+21:28:11 [INFO] Attempting to Jenkins download module cmd_send v1889
+21:28:11 [INFO] Download complete
+21:28:11 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+21:28:11 [INFO] Attempting to Jenkins download module cmd_server v1889
+21:28:11 [INFO] Download complete
+21:28:11 [INFO] Attempting to update plugin from ModuleVersion(build=511, git=dca72c2) to ModuleVersion(build=1889, git=7340f1a)
+21:28:11 [INFO] Attempting to Jenkins download module reconnect_yaml v1889
+21:28:11 [INFO] Download complete
+21:28:11 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:11 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:11 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:12 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:12 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:12 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:12 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+21:28:12 [WARNING] :>  
+21:28:12 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+21:28:12 [WARNING] :>  
+21:28:12 [WARNING] :>  This plugin wasn't tested to be 'working'
+21:28:12 [WARNING] :>  with ANY version of BungeeCord (and forks)
+21:28:12 [WARNING] :>  apart from the versions listed below:
+21:28:12 [WARNING] :>  
+21:28:12 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+21:28:12 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+21:28:12 [WARNING] :>  
+21:28:12 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+21:28:12 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+21:28:12 [WARNING] :>  
+21:28:12 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+21:28:12 [WARNING] :>  
+21:28:12 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+21:28:12 [WARNING] :>  
+21:28:12 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+21:28:12 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+21:28:13 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+21:28:13 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+21:28:13 [WARNING] Forced host server pvp is not defined
+21:28:13 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+21:28:13 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:13 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:13 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:13 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:13 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:13 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:28:13 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+21:28:13 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+21:28:13 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+21:28:13 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+21:28:13 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+21:28:13 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+21:28:13 [INFO] Listening on /127.0.0.1:25577
+21:29:11 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+21:29:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38956]: Connected via websocket
+21:29:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38956]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:29:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38956]: Logged in as 'TheCleaver'
+21:29:13 [INFO] [TheCleaver] -> UpstreamBridge has connected
+21:29:13 [INFO] [TheCleaver] <-> ServerConnector [lobby] has connected
+21:29:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55618]: Connected via websocket
+21:29:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55618]: Origin header is http://localhost:8081
+21:29:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55618]: Logged in as 'Pumpkin_Head1234'
+21:29:25 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:29:25 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:30:56 [INFO] [TheCleaver] -> UpstreamBridge has disconnected
+21:30:56 [INFO] [TheCleaver] <-> DownstreamBridge <-> [lobby] has disconnected
+21:31:13 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:31:13 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+21:31:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34974]: Connected via websocket
+21:31:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34974]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:31:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34974]: Logged in as 'TheCleaver'
+21:31:20 [INFO] [TheCleaver] -> UpstreamBridge has connected
+21:31:20 [INFO] [TheCleaver] <-> ServerConnector [lobby] has connected
+21:31:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34990]: Connected via websocket
+21:31:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34990]: Origin header is http://localhost:8081
+21:31:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34990]: Logged in as 'Pumpkin_Head1234'
+21:31:22 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:31:22 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:31:23 [INFO] [Pumpkin_Head1234] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+21:31:23 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:31:23 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has disconnected
+21:31:37 [INFO] [TheCleaver] -> UpstreamBridge has disconnected
+21:31:37 [INFO] [TheCleaver] <-> DownstreamBridge <-> [lobby] has disconnected
+21:31:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34424]: Connected via websocket
+21:31:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34424]: Origin header is http://localhost:8081
+21:31:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34424]: Logged in as 'Pumpkin_Head1234'
+21:31:50 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:31:50 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:31:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34444]: Connected via websocket
+21:31:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34444]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:31:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34444]: Logged in as 'ERROR_606'
+21:31:57 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:31:57 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:32:02 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:32:02 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:32:26 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:32:26 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+21:32:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49422]: Connected via websocket
+21:32:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49422]: Origin header is http://localhost:8081
+21:32:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49422]: Logged in as 'Pumpkin_Head1234'
+21:32:44 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:32:44 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:34:53 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:34:53 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+21:35:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53926]: Connected via websocket
+21:35:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53926]: Origin header is http://localhost:8081
+21:35:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53926]: Logged in as 'Pumpkin_Head1234'
+21:35:07 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:35:07 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:35:44 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:35:44 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+21:35:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57044]: Connected via websocket
+21:35:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57044]: Origin header is http://localhost:8081
+21:35:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57044]: Logged in as 'Pumpkin_Head1234'
+21:35:51 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:35:51 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:36:27 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:36:27 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+21:36:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50912]: Connected via websocket
+21:36:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50912]: Origin header is http://localhost:8081
+21:36:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50912]: Logged in as 'Pumpkin_Head1234'
+21:36:49 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:36:49 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:37:10 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:37:10 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+21:37:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39266]: Connected via websocket
+21:37:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39266]: Origin header is http://localhost:8081
+21:37:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39266]: Logged in as 'Pumpkin_Head1234'
+21:37:30 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:37:30 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:40:38 [INFO] [EaglercraftXBungee] Downloading new certificate: https://eaglercraft.com/backup.cert
+21:40:38 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+21:44:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55928]: Connected via websocket
+21:44:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55928]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:44:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55928]: Logged in as 'ERROR_606'
+21:44:10 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:44:10 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:44:13 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:44:13 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:44:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55940]: Connected via websocket
+21:44:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55940]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:44:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55940]: Logged in as 'ERROR_606'
+21:44:15 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:44:15 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:45:01 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:45:01 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:45:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54958]: Connected via websocket
+21:45:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54958]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:45:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54958]: Logged in as 'ERROR_606'
+21:45:02 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:45:02 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+22:01:05 [INFO] [ERROR_606] disconnected with: §f§cProxy lost connection to server.
+22:01:05 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+22:01:05 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+22:05:10 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+22:05:10 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+00:11:28 [INFO] Using mbed TLS based native cipher.
+00:11:28 [INFO] Using zlib based native compressor.
+00:11:28 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+00:11:28 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:11:28 [INFO] Epoll is working, utilising it!
+00:11:28 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:11:28 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:11:28 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:11:28 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:11:28 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:11:28 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:11:29 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:29 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:29 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:29 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:29 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:29 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:29 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:11:29 [WARNING] :>  
+00:11:29 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:11:29 [WARNING] :>  
+00:11:29 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:11:29 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:11:29 [WARNING] :>  apart from the versions listed below:
+00:11:29 [WARNING] :>  
+00:11:29 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+00:11:29 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+00:11:29 [WARNING] :>  
+00:11:29 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+00:11:29 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+00:11:29 [WARNING] :>  
+00:11:29 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:11:29 [WARNING] :>  
+00:11:29 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:11:29 [WARNING] :>  
+00:11:29 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:11:29 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+00:11:30 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+00:11:30 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+00:11:30 [WARNING] Forced host server pvp is not defined
+00:11:30 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+00:11:30 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:30 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:30 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:30 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:30 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:30 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:11:30 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+00:11:30 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+00:11:30 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+00:11:30 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+00:11:30 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+00:11:30 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+00:11:30 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+00:11:30 [INFO] Listening on /127.0.0.1:25577
+13:00:06 [INFO] Using mbed TLS based native cipher.
+13:00:06 [INFO] Using zlib based native compressor.
+13:00:06 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+13:00:06 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+13:00:06 [INFO] Epoll is working, utilising it!
+13:00:06 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+13:00:06 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+13:00:06 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+13:00:06 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+13:00:06 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+13:00:06 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:00:06 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:06 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:06 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:06 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:06 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:06 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:06 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+13:00:06 [WARNING] :>  
+13:00:06 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+13:00:06 [WARNING] :>  
+13:00:06 [WARNING] :>  This plugin wasn't tested to be 'working'
+13:00:06 [WARNING] :>  with ANY version of BungeeCord (and forks)
+13:00:06 [WARNING] :>  apart from the versions listed below:
+13:00:06 [WARNING] :>  
+13:00:06 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+13:00:06 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+13:00:06 [WARNING] :>  
+13:00:06 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+13:00:06 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+13:00:06 [WARNING] :>  
+13:00:06 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+13:00:06 [WARNING] :>  
+13:00:06 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+13:00:06 [WARNING] :>  
+13:00:06 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+13:00:06 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+13:00:07 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+13:00:07 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+13:00:07 [WARNING] Forced host server pvp is not defined
+13:00:07 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+13:00:07 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:07 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:07 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:07 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:07 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:07 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:00:07 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+13:00:07 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+13:00:07 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+13:00:07 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+13:00:07 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+13:00:07 [INFO] Listening on /127.0.0.1:25577
+13:00:08 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+13:00:08 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+13:04:57 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+13:04:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40792]: Connected via websocket
+13:04:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40792]: Origin header is http://localhost:8081
+13:04:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40792]: Logged in as 'Pumpkin_Head1234'
+13:04:59 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+13:04:59 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+13:12:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37796]: Connected via websocket
+13:12:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37796]: Origin header is http://localhost:8081
+13:12:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37796]: Logged in as 'smg4'
+13:12:00 [INFO] [smg4] -> UpstreamBridge has connected
+13:12:00 [INFO] [smg4] <-> ServerConnector [lobby] has connected
+13:12:55 [INFO] [Pumpkin_Head1234] disconnected with: §f§cProxy lost connection to server.
+13:12:55 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+13:12:55 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+13:13:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37490]: Connected via websocket
+13:13:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37490]: Origin header is http://localhost:8081
+13:13:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37490]: Logged in as 'One_Throne3'
+13:13:32 [INFO] [One_Throne3] -> UpstreamBridge has connected
+13:13:32 [INFO] [One_Throne3] <-> ServerConnector [lobby] has connected
+13:13:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45236]: Connected via websocket
+13:13:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45236]: Origin header is http://localhost:8081
+13:13:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45236]: Logged in as 'Pumpkin_Head1234'
+13:13:53 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+13:13:53 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+13:19:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58178]: Connected via websocket
+13:19:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58178]: Origin header is http://localhost:8081
+13:19:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58178]: Logged in as 'ruff_ruff'
+13:19:11 [INFO] [ruff_ruff] -> UpstreamBridge has connected
+13:19:11 [INFO] [ruff_ruff] <-> ServerConnector [lobby] has connected
+13:19:26 [INFO] [One_Throne3] -> UpstreamBridge has disconnected
+13:19:26 [INFO] [One_Throne3] <-> DownstreamBridge <-> [lobby] has disconnected
+13:19:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53944]: Connected via websocket
+13:19:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53944]: Origin header is http://localhost:8081
+13:19:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53944]: Logged in as 'One_Throne3'
+13:19:32 [INFO] [One_Throne3] -> UpstreamBridge has connected
+13:19:32 [INFO] [One_Throne3] <-> ServerConnector [lobby] has connected
+13:20:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59986]: Connected via websocket
+13:20:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59986]: Origin header is http://localhost:8081
+13:20:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59986]: Logged in as 'Pixel_Ninja'
+13:20:26 [INFO] [Pixel_Ninja] -> UpstreamBridge has connected
+13:20:26 [INFO] [Pixel_Ninja] <-> ServerConnector [lobby] has connected
+13:20:48 [INFO] [smg4] -> UpstreamBridge has disconnected
+13:20:48 [INFO] [smg4] <-> DownstreamBridge <-> [lobby] has disconnected
+13:21:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53026]: Connected via websocket
+13:21:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53026]: Origin header is http://localhost:8081
+13:21:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53026]: Logged in as 'smg4'
+13:21:34 [INFO] [smg4] -> UpstreamBridge has connected
+13:21:34 [INFO] [smg4] <-> ServerConnector [lobby] has connected
+13:21:56 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+13:21:56 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+13:22:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56354]: Connected via websocket
+13:22:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56354]: Origin header is http://localhost:8081
+13:22:35 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56354]: Logged in as 'Pumpkin_Head123'
+13:22:35 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+13:22:35 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+13:22:42 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+13:22:42 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+13:22:45 [INFO] [One_Throne3] -> UpstreamBridge has disconnected
+13:22:45 [INFO] [One_Throne3] <-> DownstreamBridge <-> [lobby] has disconnected
+13:22:50 [INFO] [Pixel_Ninja] -> UpstreamBridge has disconnected
+13:22:50 [INFO] [Pixel_Ninja] <-> DownstreamBridge <-> [lobby] has disconnected
+13:22:53 [INFO] [smg4] -> UpstreamBridge has disconnected
+13:22:53 [INFO] [smg4] <-> DownstreamBridge <-> [lobby] has disconnected
+13:23:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58362]: Connected via websocket
+13:23:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58362]: Origin header is http://localhost:8081
+13:23:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58362]: Logged in as 'One_Throne3'
+13:23:34 [INFO] [One_Throne3] -> UpstreamBridge has connected
+13:23:34 [INFO] [One_Throne3] <-> ServerConnector [lobby] has connected
+13:24:06 [INFO] [One_Throne3] -> UpstreamBridge has disconnected
+13:24:06 [INFO] [One_Throne3] <-> DownstreamBridge <-> [lobby] has disconnected
+13:24:06 [INFO] [ruff_ruff] -> UpstreamBridge has disconnected
+13:24:06 [INFO] [ruff_ruff] <-> DownstreamBridge <-> [lobby] has disconnected
+13:26:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44508]: Connected via websocket
+13:26:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44508]: Origin header is http://localhost:8081
+13:26:02 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44508]: Logged in as 'One_Throne3'
+13:26:02 [INFO] [One_Throne3] -> UpstreamBridge has connected
+13:26:02 [INFO] [One_Throne3] <-> ServerConnector [lobby] has connected
+13:26:13 [INFO] [One_Throne3] -> UpstreamBridge has disconnected
+13:26:13 [INFO] [One_Throne3] <-> DownstreamBridge <-> [lobby] has disconnected
+13:27:06 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59120]: Connected via websocket
+13:27:06 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59120]: Origin header is http://localhost:8081
+13:27:06 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59120]: Logged in as 'One_Throne3'
+13:27:06 [INFO] [One_Throne3] -> UpstreamBridge has connected
+13:27:06 [INFO] [One_Throne3] <-> ServerConnector [lobby] has connected
+13:28:10 [INFO] [One_Throne3] -> UpstreamBridge has disconnected
+13:28:10 [INFO] [One_Throne3] <-> DownstreamBridge <-> [lobby] has disconnected
+17:09:46 [INFO] Using mbed TLS based native cipher.
+17:09:46 [INFO] Using zlib based native compressor.
+17:09:46 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+17:09:46 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+17:09:46 [INFO] Epoll is working, utilising it!
+17:09:46 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+17:09:46 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+17:09:46 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+17:09:46 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+17:09:46 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+17:09:46 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:09:47 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:47 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:47 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:47 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:47 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:47 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:47 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+17:09:47 [WARNING] :>  
+17:09:47 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+17:09:47 [WARNING] :>  
+17:09:47 [WARNING] :>  This plugin wasn't tested to be 'working'
+17:09:47 [WARNING] :>  with ANY version of BungeeCord (and forks)
+17:09:47 [WARNING] :>  apart from the versions listed below:
+17:09:47 [WARNING] :>  
+17:09:47 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+17:09:47 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+17:09:47 [WARNING] :>  
+17:09:47 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+17:09:47 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+17:09:47 [WARNING] :>  
+17:09:47 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+17:09:47 [WARNING] :>  
+17:09:47 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+17:09:47 [WARNING] :>  
+17:09:47 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+17:09:47 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+17:09:49 [SEVERE] [EaglercraftXBungee] Recieved code 503 while looking up UUID of lax1dude
+17:09:49 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+17:09:49 [WARNING] Forced host server pvp is not defined
+17:09:49 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+17:09:49 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:49 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:49 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:49 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:49 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:49 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:49 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+17:09:50 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+17:09:50 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+17:09:50 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+17:09:50 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+17:09:50 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+17:09:50 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+17:09:50 [INFO] Listening on /127.0.0.1:25577
+17:20:40 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+17:20:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34818]: Connected via websocket
+17:20:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34818]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:20:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34818]: Logged in as 'BookMaster64'
+17:20:43 [INFO] [BookMaster64] -> UpstreamBridge has connected
+17:20:43 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+17:20:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37890]: Connected via websocket
+17:20:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37890]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:20:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37890]: Logged in as '____'
+17:20:57 [INFO] [____] -> UpstreamBridge has connected
+17:20:57 [INFO] [____] <-> ServerConnector [lobby] has connected
+17:21:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53266]: Connected via websocket
+17:21:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53266]: Origin header is http://localhost:8081
+17:21:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53266]: Logged in as 'Pumpkin_Head123'
+17:21:32 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+17:21:32 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+17:21:46 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+17:21:46 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+17:21:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44894]: Connected via websocket
+17:21:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44894]: Origin header is http://localhost:8081
+17:21:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44894]: Logged in as 'Pumpkin_Head1234'
+17:21:57 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+17:21:57 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+17:23:26 [INFO] [BookMaster64] -> UpstreamBridge has disconnected
+17:23:26 [INFO] [BookMaster64] <-> DownstreamBridge <-> [lobby] has disconnected
+17:23:28 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+17:23:28 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+17:24:26 [INFO] [____] -> UpstreamBridge has disconnected
+17:24:26 [INFO] [____] <-> DownstreamBridge <-> [lobby] has disconnected
+17:32:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58404]: Connected via websocket
+17:32:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58404]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:32:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58404]: Logged in as 'ERROR_606'
+17:32:58 [INFO] [ERROR_606] -> UpstreamBridge has connected
+17:32:58 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+17:33:27 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+17:33:27 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+17:33:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40512]: Connected via websocket
+17:33:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40512]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:33:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40512]: Logged in as 'TheCleaver'
+17:33:34 [INFO] [TheCleaver] -> UpstreamBridge has connected
+17:33:34 [INFO] [TheCleaver] <-> ServerConnector [lobby] has connected
+17:33:37 [INFO] [TheCleaver] -> UpstreamBridge has disconnected
+17:33:37 [INFO] [TheCleaver] <-> DownstreamBridge <-> [lobby] has disconnected
+17:33:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35350]: Connected via websocket
+17:33:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35350]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:33:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35350]: Logged in as 'ERROR_606'
+17:33:44 [INFO] [ERROR_606] -> UpstreamBridge has connected
+17:33:44 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+17:33:46 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+17:33:46 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+17:33:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48540]: Connected via websocket
+17:33:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48540]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:33:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48540]: Logged in as 'PumpkinHead1234'
+17:33:56 [INFO] [PumpkinHead1234] -> UpstreamBridge has connected
+17:33:56 [INFO] [PumpkinHead1234] <-> ServerConnector [lobby] has connected
+17:34:03 [INFO] [PumpkinHead1234] -> UpstreamBridge has disconnected
+17:34:03 [INFO] [PumpkinHead1234] <-> DownstreamBridge <-> [lobby] has disconnected
+17:34:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60440]: Connected via websocket
+17:34:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60440]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:34:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60440]: Logged in as 'Pumpkinhead1234'
+17:34:16 [INFO] [Pumpkinhead1234] -> UpstreamBridge has connected
+17:34:16 [INFO] [Pumpkinhead1234] <-> ServerConnector [lobby] has connected
+17:34:28 [INFO] [Pumpkinhead1234] -> UpstreamBridge has disconnected
+17:34:28 [INFO] [Pumpkinhead1234] <-> DownstreamBridge <-> [lobby] has disconnected
+17:34:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36920]: Connected via websocket
+17:34:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36920]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:34:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36920]: Logged in as 'PumpkinHead12'
+17:34:54 [INFO] [PumpkinHead12] -> UpstreamBridge has connected
+17:34:54 [INFO] [PumpkinHead12] <-> ServerConnector [lobby] has connected
+17:34:56 [INFO] [PumpkinHead12] -> UpstreamBridge has disconnected
+17:34:56 [INFO] [PumpkinHead12] <-> DownstreamBridge <-> [lobby] has disconnected
+17:35:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60738]: Connected via websocket
+17:35:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60738]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:35:01 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60738]: Logged in as 'PumpkinHead123'
+17:35:01 [INFO] [PumpkinHead123] -> UpstreamBridge has connected
+17:35:01 [INFO] [PumpkinHead123] <-> ServerConnector [lobby] has connected
+17:35:04 [INFO] [PumpkinHead123] -> UpstreamBridge has disconnected
+17:35:04 [INFO] [PumpkinHead123] <-> DownstreamBridge <-> [lobby] has disconnected
+17:35:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48912]: Connected via websocket
+17:35:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48912]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:35:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48912]: Logged in as 'PumpkinHead1234'
+17:35:17 [INFO] [PumpkinHead1234] -> UpstreamBridge has connected
+17:35:17 [INFO] [PumpkinHead1234] <-> ServerConnector [lobby] has connected
+17:35:25 [INFO] [PumpkinHead1234] -> UpstreamBridge has disconnected
+17:35:25 [INFO] [PumpkinHead1234] <-> DownstreamBridge <-> [lobby] has disconnected
+17:35:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38510]: Connected via websocket
+17:35:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38510]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:35:32 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38510]: Logged in as 'timmy'
+17:35:32 [INFO] [timmy] -> UpstreamBridge has connected
+17:35:32 [INFO] [timmy] <-> ServerConnector [lobby] has connected
+17:36:09 [INFO] [timmy] -> UpstreamBridge has disconnected
+17:36:09 [INFO] [timmy] <-> DownstreamBridge <-> [lobby] has disconnected
+17:36:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53998]: Connected via websocket
+17:36:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53998]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+17:36:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:53998]: Logged in as 'timmy'
+17:36:11 [INFO] [timmy] -> UpstreamBridge has connected
+17:36:11 [INFO] [timmy] <-> ServerConnector [lobby] has connected
+17:37:58 [INFO] [timmy] -> UpstreamBridge has disconnected
+17:37:58 [INFO] [timmy] <-> DownstreamBridge <-> [lobby] has disconnected
+18:35:34 [INFO] Using mbed TLS based native cipher.
+18:35:34 [INFO] Using zlib based native compressor.
+18:35:34 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+18:35:34 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+18:35:34 [INFO] Epoll is working, utilising it!
+18:35:34 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+18:35:34 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+18:35:34 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+18:35:34 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+18:35:34 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+18:35:34 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+18:35:35 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:35 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:35 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:35 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:35 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:35 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:35 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+18:35:35 [WARNING] :>  
+18:35:35 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+18:35:35 [WARNING] :>  
+18:35:35 [WARNING] :>  This plugin wasn't tested to be 'working'
+18:35:35 [WARNING] :>  with ANY version of BungeeCord (and forks)
+18:35:35 [WARNING] :>  apart from the versions listed below:
+18:35:35 [WARNING] :>  
+18:35:35 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+18:35:35 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+18:35:35 [WARNING] :>  
+18:35:35 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+18:35:35 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+18:35:35 [WARNING] :>  
+18:35:35 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+18:35:35 [WARNING] :>  
+18:35:35 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+18:35:35 [WARNING] :>  
+18:35:35 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+18:35:35 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+18:35:37 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+18:35:37 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+18:35:37 [WARNING] Forced host server pvp is not defined
+18:35:37 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+18:35:37 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:37 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:37 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:37 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:37 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:37 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:35:37 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+18:35:37 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+18:35:37 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+18:35:37 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+18:35:37 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+18:35:37 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+18:35:37 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+18:35:37 [INFO] Listening on /127.0.0.1:25577
+18:36:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48658]: Connected via websocket
+18:36:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48658]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+18:36:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48658]: Logged in as 'BookMaster64'
+18:36:07 [INFO] [BookMaster64] -> UpstreamBridge has connected
+18:36:07 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+18:36:20 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+18:36:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34714]: Connected via websocket
+18:36:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34714]: Origin header is http://localhost:8081
+18:36:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34714]: Logged in as 'Pumpkin_Head1234'
+18:36:23 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+18:36:23 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+18:37:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44876]: Connected via websocket
+18:37:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44876]: Origin header is http://localhost:8081
+18:37:44 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44876]: Logged in as 'Pumpkin_Head123'
+18:37:44 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+18:37:44 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+18:45:57 [INFO] [BookMaster64] -> UpstreamBridge has disconnected
+18:45:57 [INFO] [BookMaster64] <-> DownstreamBridge <-> [lobby] has disconnected
+18:47:00 [INFO] [Pumpkin_Head1234] disconnected with: §f§cProxy lost connection to server.
+18:47:00 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+18:47:00 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+18:47:57 [INFO] [Pumpkin_Head123] disconnected with: §f§cProxy lost connection to server.
+18:47:57 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+18:47:57 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+18:51:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50778]: Connected via websocket
+18:51:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50778]: Origin header is http://localhost:8081
+18:51:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50778]: Logged in as 'Pumpkin_Head1234'
+18:51:50 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+18:51:50 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+18:52:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49884]: Connected via websocket
+18:52:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49884]: Origin header is http://localhost:8081
+18:52:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49884]: Logged in as 'Pumpkin_Head123'
+18:52:04 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+18:52:04 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+18:53:56 [INFO] [Pumpkin_Head1234] disconnected with: §fTimed out
+18:53:56 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+18:53:56 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+19:01:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50534]: Connected via websocket
+19:01:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50534]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:01:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50534]: Logged in as 'BookMaster64'
+19:01:04 [INFO] [BookMaster64] -> UpstreamBridge has connected
+19:01:04 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+19:01:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54558]: Connected via websocket
+19:01:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54558]: Origin header is http://localhost:8081
+19:01:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54558]: Logged in as 'Pumpkin_Head1234'
+19:01:55 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+19:01:55 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+19:06:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40552]: Connected via websocket
+19:06:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40552]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:06:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40552]: Logged in as 'ERROR_606'
+19:06:39 [INFO] [ERROR_606] -> UpstreamBridge has connected
+19:06:39 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+19:13:51 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+19:13:51 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+19:13:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43808]: Connected via websocket
+19:13:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43808]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:13:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43808]: Logged in as 'ERROR_606'
+19:13:52 [INFO] [ERROR_606] -> UpstreamBridge has connected
+19:13:52 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+19:18:39 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:18:39 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+19:18:44 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+19:18:44 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+19:19:05 [INFO] [BookMaster64] -> UpstreamBridge has disconnected
+19:19:05 [INFO] [BookMaster64] <-> DownstreamBridge <-> [lobby] has disconnected
+19:23:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52106]: Connected via websocket
+19:23:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52106]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:23:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52106]: Logged in as 'BookMaster64'
+19:23:40 [INFO] [BookMaster64] -> UpstreamBridge has connected
+19:23:40 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+19:24:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54574]: Connected via websocket
+19:24:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54574]: Origin header is http://localhost:8081
+19:24:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54574]: Logged in as 'Pumpkin_Head1234'
+19:24:15 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+19:24:15 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+19:24:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52420]: Connected via websocket
+19:24:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52420]: Origin header is http://localhost:8081
+19:24:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52420]: Logged in as 'Pumpkin_Head123'
+19:24:23 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+19:24:23 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:27:29 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+19:27:29 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+19:27:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57938]: Connected via websocket
+19:27:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57938]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:27:31 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57938]: Logged in as 'ERROR_606'
+19:27:31 [INFO] [ERROR_606] -> UpstreamBridge has connected
+19:27:31 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+19:29:19 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:29:19 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+19:29:21 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+19:29:21 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+19:29:26 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+19:29:26 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+19:29:39 [INFO] [BookMaster64] -> UpstreamBridge has disconnected
+19:29:39 [INFO] [BookMaster64] <-> DownstreamBridge <-> [lobby] has disconnected
+19:30:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57450]: Connected via websocket
+19:30:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57450]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:30:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57450]: Logged in as 'ERROR_606'
+19:30:00 [INFO] [ERROR_606] -> UpstreamBridge has connected
+19:30:00 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+19:31:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42648]: Connected via websocket
+19:31:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42648]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:31:13 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:42648]: Logged in as 'Pumpkin_Head123'
+19:31:13 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+19:31:13 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:31:23 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:31:23 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+19:31:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44002]: Connected via websocket
+19:31:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44002]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:31:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44002]: Logged in as 'Pumpkin_Head1234'
+19:31:30 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+19:31:30 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+19:32:36 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+19:32:36 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+19:32:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55846]: Connected via websocket
+19:32:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55846]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:32:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55846]: Logged in as 'TheCleaver'
+19:32:45 [INFO] [TheCleaver] -> UpstreamBridge has connected
+19:32:45 [INFO] [TheCleaver] <-> ServerConnector [lobby] has connected
+19:32:48 [INFO] [TheCleaver] -> UpstreamBridge has disconnected
+19:32:48 [INFO] [TheCleaver] <-> DownstreamBridge <-> [lobby] has disconnected
+19:34:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52066]: Connected via websocket
+19:34:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52066]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:34:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52066]: Logged in as 'Pumpkin_Head1234'
+19:34:48 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+19:34:48 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+19:35:22 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+19:35:22 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+19:35:35 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+19:35:35 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+19:35:37 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51498]: Connected via websocket
+19:35:37 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51498]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:35:37 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51498]: Logged in as 'ERROR_606'
+19:35:37 [INFO] [ERROR_606] -> UpstreamBridge has connected
+19:35:37 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+19:35:54 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+19:35:54 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+19:36:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37580]: Connected via websocket
+19:36:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37580]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:36:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37580]: Logged in as 'Pumpkin_Head1234'
+19:36:12 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+19:36:12 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+19:36:15 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+19:36:15 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+19:43:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33268]: Connected via websocket
+19:43:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33268]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:43:58 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33268]: Logged in as 'BookMaster64'
+19:43:58 [INFO] [BookMaster64] -> UpstreamBridge has connected
+19:43:58 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+19:44:02 [INFO] [BookMaster64] -> UpstreamBridge has disconnected
+19:44:02 [INFO] [BookMaster64] <-> DownstreamBridge <-> [lobby] has disconnected
+19:44:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47392]: Connected via websocket
+19:44:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47392]: Origin header is http://localhost:8081
+19:44:59 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47392]: Logged in as 'Pumpkin_Head123'
+19:44:59 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+19:44:59 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:52:05 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:52:05 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+19:52:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44312]: Connected via websocket
+19:52:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44312]: Origin header is http://localhost:8081
+19:52:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44312]: Logged in as 'Pumpkin_Head1234'
+19:52:09 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+19:52:09 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+19:52:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36814]: Connected via websocket
+19:52:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36814]: Origin header is http://localhost:8081
+19:52:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:36814]: Logged in as 'Pumpkin_Head123'
+19:52:17 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+19:52:17 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:55:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46618]: Connected via websocket
+19:55:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46618]: Origin header is http://localhost:8081
+19:55:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46618]: Logged in as 'Timmy'
+19:55:28 [INFO] [Timmy] -> UpstreamBridge has connected
+19:55:28 [INFO] [Timmy] <-> ServerConnector [lobby] has connected
+19:57:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44428]: Connected via websocket
+19:57:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44428]: Origin header is http://localhost:8081
+19:57:27 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44428]: Logged in as 'BookMaster64'
+19:57:27 [INFO] [BookMaster64] -> UpstreamBridge has connected
+19:57:27 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+20:05:29 [INFO] [Pumpkin_Head123] disconnected with: §f§cProxy lost connection to server.
+20:05:29 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+20:05:29 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+20:12:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40560]: Connected via websocket
+20:12:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40560]: Origin header is http://localhost:8081
+20:12:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40560]: Logged in as 'Pumpkin_Head123'
+20:12:38 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+20:12:38 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+20:19:14 [INFO] [Timmy] -> UpstreamBridge has disconnected
+20:19:14 [INFO] [Timmy] <-> DownstreamBridge <-> [lobby] has disconnected
+20:30:05 [INFO] [Pumpkin_Head123] disconnected with: §f§cProxy lost connection to server.
+20:30:05 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+20:30:05 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+20:30:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45156]: Connected via websocket
+20:30:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45156]: Origin header is http://localhost:8081
+20:30:23 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45156]: Logged in as 'Pumpkin_Head123'
+20:30:23 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+20:30:23 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+20:31:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46942]: Connected via websocket
+20:31:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46942]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+20:31:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46942]: Logged in as 'ERROR_606'
+20:31:20 [INFO] [ERROR_606] -> UpstreamBridge has connected
+20:31:20 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+20:32:32 [WARNING] [EaglercraftXBungee] Deleting stale certificate: $dl.6a314f63448f669bee13950455200751edda2564.cert
+20:32:32 [WARNING] [EaglercraftXBungee] Certificate was deleted: $dl.6a314f63448f669bee13950455200751edda2564.cert
+20:36:04 [INFO] [Pumpkin_Head1234] disconnected with: §fTimed out
+20:36:04 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+20:36:04 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+20:37:56 [INFO] [Pumpkin_Head123] disconnected with: §f§cProxy lost connection to server.
+20:37:56 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+20:37:56 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+20:38:37 [INFO] [BookMaster64] -> UpstreamBridge has disconnected
+20:38:37 [INFO] [BookMaster64] <-> DownstreamBridge <-> [lobby] has disconnected
+20:38:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51984]: Connected via websocket
+20:38:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51984]: Origin header is http://localhost:8081
+20:38:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51984]: Logged in as 'BookMaster64'
+20:38:39 [INFO] [BookMaster64] -> UpstreamBridge has connected
+20:38:39 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+20:40:14 [INFO] [BookMaster64] -> UpstreamBridge has disconnected
+20:40:14 [INFO] [BookMaster64] <-> DownstreamBridge <-> [lobby] has disconnected
+20:44:34 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+20:44:34 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+20:44:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58382]: Connected via websocket
+20:44:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58382]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+20:44:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58382]: Logged in as 'ERROR_606'
+20:44:40 [INFO] [ERROR_606] -> UpstreamBridge has connected
+20:44:40 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+20:44:43 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+20:44:43 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+20:48:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43516]: Connected via websocket
+20:48:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43516]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+20:48:04 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43516]: Logged in as 'ERROR_606'
+20:48:04 [INFO] [ERROR_606] -> UpstreamBridge has connected
+20:48:04 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+20:48:57 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+20:48:57 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+20:50:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40582]: Connected via websocket
+20:50:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40582]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+20:50:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40582]: Logged in as 'ERROR_606'
+20:50:56 [INFO] [ERROR_606] -> UpstreamBridge has connected
+20:50:56 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+20:53:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34870]: Connected via websocket
+20:53:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34870]: Origin header is http://localhost:8081
+20:53:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34870]: Logged in as 'Pumpkin_Head123'
+20:53:48 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+20:53:48 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+20:55:42 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+20:55:42 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+20:56:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41330]: Connected via websocket
+20:56:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41330]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+20:56:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41330]: Logged in as 'ERROR_606'
+20:56:26 [INFO] [ERROR_606] -> UpstreamBridge has connected
+20:56:26 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+20:59:33 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+20:59:33 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:00:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49248]: Connected via websocket
+21:00:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49248]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:00:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49248]: Logged in as 'ERROR_606'
+21:00:43 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:00:43 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:04:22 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+21:04:22 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+21:07:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49008]: Connected via websocket
+21:07:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49008]: Origin header is http://localhost:8081
+21:07:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49008]: Logged in as 'Pumpkin_Head123'
+21:07:16 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+21:07:16 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+21:13:20 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+21:13:20 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+21:13:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37266]: Connected via websocket
+21:13:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37266]: Origin header is http://localhost:8081
+21:13:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37266]: Logged in as 'Pumpkin_Head123'
+21:13:22 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+21:13:22 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+21:13:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58798]: Connected via websocket
+21:13:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58798]: Origin header is http://localhost:8081
+21:13:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58798]: Logged in as 'Timmy'
+21:13:34 [INFO] [Timmy] -> UpstreamBridge has connected
+21:13:34 [INFO] [Timmy] <-> ServerConnector [lobby] has connected
+21:18:24 [INFO] [ERROR_606] disconnected with: §f§cProxy lost connection to server.
+21:18:24 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:18:24 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:18:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38192]: Connected via websocket
+21:18:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38192]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:18:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:38192]: Logged in as 'ERROR_606'
+21:18:50 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:18:50 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:20:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41152]: Connected via websocket
+21:20:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41152]: Origin header is http://localhost:8081
+21:20:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41152]: Logged in as 'Pumpkin_Head1234'
+21:20:10 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:20:10 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:20:37 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:20:37 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+21:23:46 [INFO] [Timmy] -> UpstreamBridge has disconnected
+21:23:46 [INFO] [Timmy] <-> DownstreamBridge <-> [lobby] has disconnected
+21:23:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58904]: Connected via websocket
+21:23:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58904]: Origin header is http://localhost:8081
+21:23:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58904]: Logged in as 'Pumpkin_Head1234'
+21:23:52 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:23:52 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:24:29 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:24:29 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+21:24:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44762]: Connected via websocket
+21:24:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44762]: Origin header is http://localhost:8081
+21:24:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:44762]: Logged in as 'Pumpkin_Head1234'
+21:24:39 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:24:39 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:24:59 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+21:24:59 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+21:27:19 [INFO] [ERROR_606] disconnected with: §f§cProxy lost connection to server.
+21:27:19 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:27:19 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:28:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52536]: Connected via websocket
+21:28:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52536]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:28:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52536]: Logged in as 'ERROR_606'
+21:28:39 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:28:39 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:30:01 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:30:01 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:31:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34426]: Connected via websocket
+21:31:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34426]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:31:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34426]: Logged in as 'ERROR_606'
+21:31:09 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:31:09 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:33:41 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:33:41 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:35:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33310]: Connected via websocket
+21:35:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33310]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:35:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33310]: Logged in as 'ERROR_606'
+21:35:53 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:35:53 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:36:37 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:36:37 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:36:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54228]: Connected via websocket
+21:36:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54228]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:36:43 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54228]: Logged in as 'ERROR_606'
+21:36:43 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:36:43 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:39:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58012]: Connected via websocket
+21:39:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58012]: Origin header is http://localhost:8081
+21:39:16 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58012]: Logged in as 'Timmy'
+21:39:16 [INFO] [Timmy] -> UpstreamBridge has connected
+21:39:16 [INFO] [Timmy] <-> ServerConnector [lobby] has connected
+21:40:32 [INFO] [Timmy] -> UpstreamBridge has disconnected
+21:40:32 [INFO] [Timmy] <-> DownstreamBridge <-> [lobby] has disconnected
+21:40:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56330]: Connected via websocket
+21:40:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56330]: Origin header is http://localhost:8081
+21:40:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:56330]: Logged in as 'Pumpkin_Head1234'
+21:40:57 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+21:40:57 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+21:50:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55374]: Connected via websocket
+21:50:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55374]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:50:18 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:55374]: Logged in as 'TheCleaver'
+21:50:18 [INFO] [TheCleaver] -> UpstreamBridge has connected
+21:50:18 [INFO] [TheCleaver] <-> ServerConnector [lobby] has connected
+21:50:23 [INFO] [TheCleaver] -> UpstreamBridge has disconnected
+21:50:23 [INFO] [TheCleaver] <-> DownstreamBridge <-> [lobby] has disconnected
+21:55:29 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:55:29 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+22:13:25 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+22:13:25 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+22:13:28 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+22:13:28 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+10:22:45 [INFO] Using mbed TLS based native cipher.
+10:22:45 [INFO] Using zlib based native compressor.
+10:22:45 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+10:22:45 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+10:22:45 [INFO] Epoll is working, utilising it!
+10:22:45 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+10:22:45 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+10:22:45 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+10:22:45 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+10:22:45 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+10:22:45 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+10:22:45 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:45 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:45 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:45 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:45 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:45 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:45 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+10:22:45 [WARNING] :>  
+10:22:45 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+10:22:45 [WARNING] :>  
+10:22:45 [WARNING] :>  This plugin wasn't tested to be 'working'
+10:22:45 [WARNING] :>  with ANY version of BungeeCord (and forks)
+10:22:45 [WARNING] :>  apart from the versions listed below:
+10:22:45 [WARNING] :>  
+10:22:45 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+10:22:45 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+10:22:45 [WARNING] :>  
+10:22:45 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+10:22:45 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+10:22:45 [WARNING] :>  
+10:22:45 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+10:22:45 [WARNING] :>  
+10:22:45 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+10:22:45 [WARNING] :>  
+10:22:45 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+10:22:45 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+10:22:46 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+10:22:46 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+10:22:46 [WARNING] Forced host server pvp is not defined
+10:22:46 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+10:22:46 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:46 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:46 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:46 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:46 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:46 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+10:22:46 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+10:22:46 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+10:22:47 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+10:22:47 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+10:22:47 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+10:22:47 [INFO] Listening on /127.0.0.1:25577
+10:22:47 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+10:23:23 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+10:23:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35488]: Connected via websocket
+10:23:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35488]: Origin header is http://localhost:8081
+10:23:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35488]: Logged in as 'Pumpkin_Head123'
+10:23:25 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+10:23:25 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+10:40:26 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+10:40:26 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+10:43:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35066]: Connected via websocket
+10:43:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35066]: Origin header is http://localhost:8081
+10:43:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35066]: Logged in as 'Pumpkin_Head123'
+10:43:47 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+10:43:47 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+10:54:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48786]: Connected via websocket
+10:54:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48786]: Origin header is http://localhost:8081
+10:54:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48786]: Logged in as 'Pumpkin_Head1234'
+10:54:29 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+10:54:29 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+11:06:40 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+11:06:40 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+11:06:42 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+11:06:42 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+11:08:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34070]: Connected via websocket
+11:08:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34070]: Origin header is http://localhost:8081
+11:08:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:34070]: Logged in as 'Pumpkin_Head123'
+11:08:46 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+11:08:46 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+11:12:36 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+11:12:36 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+11:13:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45384]: Connected via websocket
+11:13:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45384]: Origin header is http://localhost:8081
+11:13:42 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45384]: Logged in as 'Pumpkin_Head123'
+11:13:42 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+11:13:42 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+11:17:43 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+11:17:43 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+11:19:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41872]: Connected via websocket
+11:19:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41872]: Origin header is http://localhost:8081
+11:19:14 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41872]: Logged in as 'Pumpkin_Head123'
+11:19:14 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+11:19:14 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+11:19:45 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+11:19:45 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+11:21:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46856]: Connected via websocket
+11:21:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46856]: Origin header is http://localhost:8081
+11:21:22 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46856]: Logged in as 'Pumpkin_Head123'
+11:21:22 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+11:21:22 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+11:25:08 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+11:25:08 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+11:34:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40386]: Connected via websocket
+11:34:51 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40386]: Origin header is http://localhost:8081
+11:34:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40386]: Logged in as 'Pumpkin_Head123'
+11:34:52 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+11:34:52 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+11:35:26 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+11:35:26 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+11:39:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49708]: Connected via websocket
+11:39:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49708]: Origin header is http://localhost:8081
+11:39:20 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49708]: Logged in as 'Pumpkin_Head123'
+11:39:20 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+11:39:20 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+11:47:12 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+11:47:12 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+12:23:54 [INFO] Using mbed TLS based native cipher.
+12:23:55 [INFO] Using zlib based native compressor.
+12:23:55 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+12:23:55 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:23:55 [INFO] Epoll is working, utilising it!
+12:23:55 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:23:55 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:23:55 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:23:55 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:23:55 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:23:55 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:23:55 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:55 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:55 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:55 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:55 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:55 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:55 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:23:55 [WARNING] :>  
+12:23:55 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+12:23:55 [WARNING] :>  
+12:23:55 [WARNING] :>  This plugin wasn't tested to be 'working'
+12:23:55 [WARNING] :>  with ANY version of BungeeCord (and forks)
+12:23:55 [WARNING] :>  apart from the versions listed below:
+12:23:55 [WARNING] :>  
+12:23:55 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+12:23:55 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+12:23:55 [WARNING] :>  
+12:23:55 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+12:23:55 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+12:23:55 [WARNING] :>  
+12:23:55 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+12:23:55 [WARNING] :>  
+12:23:55 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+12:23:55 [WARNING] :>  
+12:23:55 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:23:55 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+12:23:56 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+12:23:56 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+12:23:56 [WARNING] Forced host server pvp is not defined
+12:23:56 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+12:23:56 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:56 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:56 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:56 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:56 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:56 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:23:57 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+12:23:57 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+12:23:57 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+12:23:57 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+12:23:57 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+12:23:57 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+12:23:57 [INFO] Listening on /127.0.0.1:25577
+12:24:34 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+12:24:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47452]: Connected via websocket
+12:24:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47452]: Origin header is http://localhost:8081
+12:24:36 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47452]: Logged in as 'Pumpkin_Head123'
+12:24:36 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+12:24:36 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+12:25:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60412]: Connected via websocket
+12:25:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60412]: Origin header is http://localhost:8081
+12:25:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:60412]: Logged in as 'Timmy'
+12:25:47 [INFO] [Timmy] -> UpstreamBridge has connected
+12:25:47 [INFO] [Timmy] <-> ServerConnector [lobby] has connected
+12:26:43 [INFO] [Timmy] -> UpstreamBridge has disconnected
+12:26:43 [INFO] [Timmy] <-> DownstreamBridge <-> [lobby] has disconnected
+12:31:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54336]: Connected via websocket
+12:31:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54336]: Origin header is http://localhost:8081
+12:31:52 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:54336]: Logged in as 'Pumpkin_Head1234'
+12:31:52 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+12:31:52 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+12:35:31 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+12:35:31 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+12:35:32 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+12:35:32 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+12:46:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41218]: Connected via websocket
+12:46:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41218]: Origin header is http://localhost:8081
+12:46:41 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:41218]: Logged in as 'Pumpkin_Head123'
+12:46:41 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+12:46:41 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+12:50:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59994]: Connected via websocket
+12:50:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59994]: Origin header is http://localhost:8081
+12:50:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59994]: Logged in as 'ThatOneGolem26'
+12:50:00 [INFO] [ThatOneGolem26] -> UpstreamBridge has connected
+12:50:00 [INFO] [ThatOneGolem26] <-> ServerConnector [lobby] has connected
+12:58:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49742]: Connected via websocket
+12:58:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49742]: Origin header is http://localhost:8081
+12:58:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:49742]: Logged in as 'Pumpkin_Head1234'
+12:58:30 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+12:58:30 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+13:02:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52412]: Connected via websocket
+13:02:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52412]: Origin header is http://localhost:8081
+13:02:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52412]: Logged in as '____'
+13:02:25 [INFO] [____] -> UpstreamBridge has connected
+13:02:25 [INFO] [____] <-> ServerConnector [lobby] has connected
+13:06:03 [INFO] [____] -> UpstreamBridge has disconnected
+13:06:03 [INFO] [____] <-> DownstreamBridge <-> [lobby] has disconnected
+13:07:05 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51982]: Connected via websocket
+13:07:05 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51982]: Origin header is http://localhost:8081
+13:07:05 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51982]: Logged in as '____'
+13:07:05 [INFO] [____] -> UpstreamBridge has connected
+13:07:05 [INFO] [____] <-> ServerConnector [lobby] has connected
+13:15:17 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+13:15:17 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+13:15:19 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+13:15:19 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+13:15:22 [INFO] [ThatOneGolem26] -> UpstreamBridge has disconnected
+13:15:22 [INFO] [ThatOneGolem26] <-> DownstreamBridge <-> [lobby] has disconnected
+13:15:25 [INFO] [____] -> UpstreamBridge has disconnected
+13:15:25 [INFO] [____] <-> DownstreamBridge <-> [lobby] has disconnected
+13:16:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39272]: Connected via websocket
+13:16:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39272]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+13:16:53 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:39272]: Logged in as 'WARBRINGER'
+13:16:53 [INFO] [WARBRINGER] -> UpstreamBridge has connected
+13:16:53 [INFO] [WARBRINGER] <-> ServerConnector [lobby] has connected
+13:17:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46578]: Connected via websocket
+13:17:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46578]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+13:17:11 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46578]: Logged in as 'ERROR_606'
+13:17:11 [INFO] [ERROR_606] -> UpstreamBridge has connected
+13:17:11 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+13:19:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40950]: Connected via websocket
+13:19:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40950]: Origin header is http://localhost:8081
+13:19:21 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40950]: Logged in as 'Pumpkin_Head1234'
+13:19:21 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has connected
+13:19:21 [INFO] [Pumpkin_Head1234] <-> ServerConnector [lobby] has connected
+13:19:27 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43662]: Connected via websocket
+13:19:27 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43662]: Origin header is http://localhost:8081
+13:19:27 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43662]: Logged in as 'Pumpkin_Head123'
+13:19:27 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+13:19:27 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+13:19:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52628]: Connected via websocket
+13:19:49 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52628]: Origin header is http://localhost:8081
+13:19:50 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52628]: Logged in as '____'
+13:19:50 [INFO] [____] -> UpstreamBridge has connected
+13:19:50 [INFO] [____] <-> ServerConnector [lobby] has connected
+13:21:33 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+13:21:33 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+13:21:38 [INFO] [WARBRINGER] -> UpstreamBridge has disconnected
+13:21:38 [INFO] [WARBRINGER] <-> DownstreamBridge <-> [lobby] has disconnected
+13:23:02 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+13:23:02 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+13:23:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47218]: Connected via websocket
+13:23:45 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47218]: Origin header is http://localhost:8081
+13:23:46 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:47218]: Logged in as 'Pumpkin_Head123'
+13:23:46 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+13:23:46 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+13:24:03 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+13:24:03 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+13:24:04 [INFO] [Pumpkin_Head1234] -> UpstreamBridge has disconnected
+13:24:04 [INFO] [Pumpkin_Head1234] <-> DownstreamBridge <-> [lobby] has disconnected
+13:24:05 [INFO] [____] -> UpstreamBridge has disconnected
+13:24:05 [INFO] [____] <-> DownstreamBridge <-> [lobby] has disconnected
+15:39:20 [INFO] Using mbed TLS based native cipher.
+15:39:20 [INFO] Using zlib based native compressor.
+15:39:20 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+15:39:20 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+15:39:20 [INFO] Epoll is working, utilising it!
+15:39:20 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+15:39:20 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+15:39:20 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+15:39:20 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+15:39:20 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+15:39:20 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:39:20 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:20 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:20 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:20 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:20 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:20 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:20 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:39:20 [WARNING] :>  
+15:39:20 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+15:39:20 [WARNING] :>  
+15:39:20 [WARNING] :>  This plugin wasn't tested to be 'working'
+15:39:20 [WARNING] :>  with ANY version of BungeeCord (and forks)
+15:39:20 [WARNING] :>  apart from the versions listed below:
+15:39:20 [WARNING] :>  
+15:39:20 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+15:39:20 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+15:39:20 [WARNING] :>  
+15:39:20 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+15:39:20 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+15:39:20 [WARNING] :>  
+15:39:20 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+15:39:20 [WARNING] :>  
+15:39:20 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+15:39:20 [WARNING] :>  
+15:39:20 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:39:20 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+15:39:22 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+15:39:22 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+15:39:22 [WARNING] Forced host server pvp is not defined
+15:39:22 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+15:39:22 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:22 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:22 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:22 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:22 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:22 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:39:22 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+15:39:22 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+15:39:22 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+15:39:22 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+15:39:22 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+15:39:22 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+15:39:22 [INFO] Listening on /127.0.0.1:25577
+15:40:02 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+15:40:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33312]: Connected via websocket
+15:40:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33312]: Origin header is http://localhost:8081
+15:40:03 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33312]: Logged in as 'Pumpkin_Head123'
+15:40:03 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+15:40:04 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+15:59:39 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+15:59:39 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+18:52:05 [INFO] Using mbed TLS based native cipher.
+18:52:05 [INFO] Using zlib based native compressor.
+18:52:05 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+18:52:05 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+18:52:05 [INFO] Epoll is working, utilising it!
+18:52:05 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+18:52:05 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+18:52:05 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+18:52:05 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+18:52:05 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+18:52:05 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+18:52:06 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:06 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:06 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:06 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:06 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:06 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:06 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+18:52:06 [WARNING] :>  
+18:52:06 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+18:52:06 [WARNING] :>  
+18:52:06 [WARNING] :>  This plugin wasn't tested to be 'working'
+18:52:06 [WARNING] :>  with ANY version of BungeeCord (and forks)
+18:52:06 [WARNING] :>  apart from the versions listed below:
+18:52:06 [WARNING] :>  
+18:52:06 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+18:52:06 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+18:52:06 [WARNING] :>  
+18:52:06 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+18:52:06 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+18:52:06 [WARNING] :>  
+18:52:06 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+18:52:06 [WARNING] :>  
+18:52:06 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+18:52:06 [WARNING] :>  
+18:52:06 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+18:52:06 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+18:52:07 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+18:52:07 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+18:52:07 [WARNING] Forced host server pvp is not defined
+18:52:07 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+18:52:07 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:07 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:07 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:07 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:07 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:07 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+18:52:07 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+18:52:07 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+18:52:07 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+18:52:07 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+18:52:07 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+18:52:07 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+18:52:07 [INFO] Listening on /127.0.0.1:25577
+18:52:40 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/Eaglercraft-1.12-Server-Hosting/bungee/IMG_1027.png
+18:52:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52774]: Connected via websocket
+18:52:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52774]: Origin header is http://localhost:8081
+18:52:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:52774]: Logged in as 'Pumpkin_Head123'
+18:52:47 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+18:52:47 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:10:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37946]: Connected via websocket
+19:10:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37946]: Origin header is http://localhost:8081
+19:10:07 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37946]: Logged in as 'BookMaster64'
+19:10:07 [INFO] [BookMaster64] -> UpstreamBridge has connected
+19:10:07 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+19:11:32 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:11:32 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+19:12:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46096]: Connected via websocket
+19:12:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46096]: Origin header is http://localhost:8081
+19:12:10 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46096]: Logged in as 'Pumpkin_Head123'
+19:12:10 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+19:12:10 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:19:08 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:19:08 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+19:19:11 [INFO] [BookMaster64] -> UpstreamBridge has disconnected
+19:19:11 [INFO] [BookMaster64] <-> DownstreamBridge <-> [lobby] has disconnected
+19:23:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45076]: Connected via websocket
+19:23:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45076]: Origin header is http://localhost:8081
+19:23:54 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45076]: Logged in as 'BookMaster64'
+19:23:54 [INFO] [BookMaster64] -> UpstreamBridge has connected
+19:23:54 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+19:23:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45088]: Connected via websocket
+19:23:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45088]: Origin header is http://localhost:8081
+19:23:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45088]: Logged in as 'Pumpkin_Head123'
+19:23:57 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+19:23:57 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:23:57 [INFO] [Pumpkin_Head123] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+19:23:57 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:23:57 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has disconnected
+19:24:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45090]: Connected via websocket
+19:24:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45090]: Origin header is http://localhost:8081
+19:24:00 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:45090]: Logged in as 'Pumpkin_Head123'
+19:24:00 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+19:24:00 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:24:00 [INFO] [Pumpkin_Head123] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+19:24:00 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:24:00 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has disconnected
+19:24:06 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43826]: Connected via websocket
+19:24:06 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43826]: Origin header is http://localhost:8081
+19:24:06 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43826]: Logged in as 'Pumpkin_Head123'
+19:24:06 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+19:24:06 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:29:31 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:29:31 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+19:29:43 [INFO] [BookMaster64] -> UpstreamBridge has disconnected
+19:29:43 [INFO] [BookMaster64] <-> DownstreamBridge <-> [lobby] has disconnected
+19:38:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59462]: Connected via websocket
+19:38:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59462]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:38:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59462]: Logged in as 'ERROR_606'
+19:38:12 [INFO] [ERROR_606] -> UpstreamBridge has connected
+19:38:12 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+19:39:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50796]: Connected via websocket
+19:39:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50796]: Origin header is http://localhost:8081
+19:39:08 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:50796]: Logged in as 'Pumpkin_Head123'
+19:39:08 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+19:39:08 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+19:39:20 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+19:39:20 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+19:46:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51242]: Connected via websocket
+19:46:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51242]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:46:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51242]: Logged in as 'TheCleaver'
+19:46:47 [INFO] [TheCleaver] -> UpstreamBridge has connected
+19:46:47 [INFO] [TheCleaver] <-> ServerConnector [lobby] has connected
+19:46:50 [INFO] [TheCleaver] -> UpstreamBridge has disconnected
+19:46:50 [INFO] [TheCleaver] <-> DownstreamBridge <-> [lobby] has disconnected
+19:46:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48166]: Connected via websocket
+19:46:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48166]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+19:46:57 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:48166]: Logged in as 'ERROR_606'
+19:46:57 [INFO] [ERROR_606] -> UpstreamBridge has connected
+19:46:57 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+19:56:39 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+19:56:39 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+19:56:52 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+19:56:52 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+20:05:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57566]: Connected via websocket
+20:05:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57566]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+20:05:56 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57566]: Logged in as 'ERROR_606'
+20:05:56 [INFO] [ERROR_606] -> UpstreamBridge has connected
+20:05:56 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+20:05:58 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+20:05:58 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+20:07:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43286]: Connected via websocket
+20:07:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43286]: Origin header is http://localhost:8081
+20:07:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43286]: Logged in as 'Pumpkin_Head123'
+20:07:28 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+20:07:28 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+20:28:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46280]: Connected via websocket
+20:28:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46280]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+20:28:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:46280]: Logged in as 'ERROR_606'
+20:28:47 [INFO] [ERROR_606] -> UpstreamBridge has connected
+20:28:47 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+20:29:44 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+20:29:44 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+20:32:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43182]: Connected via websocket
+20:32:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43182]: Origin header is http://localhost:8081
+20:32:12 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43182]: Logged in as 'BookMaster64'
+20:32:12 [INFO] [BookMaster64] -> UpstreamBridge has connected
+20:32:12 [INFO] [BookMaster64] <-> ServerConnector [lobby] has connected
+20:32:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58684]: Connected via websocket
+20:32:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58684]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+20:32:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58684]: Logged in as 'ERROR_606'
+20:32:17 [INFO] [ERROR_606] -> UpstreamBridge has connected
+20:32:17 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+20:38:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37388]: Connected via websocket
+20:38:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37388]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+20:38:09 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:37388]: Logged in as 'WARBRINGER'
+20:38:09 [INFO] [WARBRINGER] -> UpstreamBridge has connected
+20:38:09 [INFO] [WARBRINGER] <-> ServerConnector [lobby] has connected
+20:50:29 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+20:50:29 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+20:51:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59912]: Connected via websocket
+20:51:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59912]: Origin header is http://localhost:8081
+20:51:29 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59912]: Logged in as 'Pumpkin_Head123'
+20:51:29 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+20:51:29 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+20:51:31 [INFO] [WARBRINGER] -> UpstreamBridge has disconnected
+20:51:31 [INFO] [WARBRINGER] <-> DownstreamBridge <-> [lobby] has disconnected
+21:04:54 [INFO] [Pumpkin_Head123] disconnected with: §f§cProxy lost connection to server.
+21:04:54 [INFO] [Pumpkin_Head123] <-> DownstreamBridge <-> [lobby] has disconnected
+21:04:54 [INFO] [Pumpkin_Head123] -> UpstreamBridge has disconnected
+21:05:04 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:05:04 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:05:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43754]: Connected via websocket
+21:05:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43754]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:05:17 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:43754]: Logged in as 'WARBRINGER'
+21:05:17 [INFO] [WARBRINGER] -> UpstreamBridge has connected
+21:05:17 [INFO] [WARBRINGER] <-> ServerConnector [lobby] has connected
+21:05:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40752]: Connected via websocket
+21:05:39 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40752]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:05:40 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:40752]: Logged in as 'ERROR_606'
+21:05:40 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:05:40 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:06:05 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:06:05 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:06:05 [INFO] [WARBRINGER] -> UpstreamBridge has disconnected
+21:06:05 [INFO] [WARBRINGER] <-> DownstreamBridge <-> [lobby] has disconnected
+21:06:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33634]: Connected via websocket
+21:06:25 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33634]: Origin header is http://localhost:8081
+21:06:26 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33634]: Logged in as 'Pumpkin_Head123'
+21:06:26 [INFO] [Pumpkin_Head123] -> UpstreamBridge has connected
+21:06:26 [INFO] [Pumpkin_Head123] <-> ServerConnector [lobby] has connected
+21:06:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33644]: Connected via websocket
+21:06:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33644]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:06:28 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33644]: Logged in as 'ERROR_606'
+21:06:28 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:06:28 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:06:28 [INFO] [ERROR_606] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+21:06:28 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:06:28 [INFO] [ERROR_606] <-> ServerConnector [lobby] has disconnected
+21:06:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33654]: Connected via websocket
+21:06:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33654]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:06:30 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:33654]: Logged in as 'ERROR_606'
+21:06:30 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:06:30 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:06:30 [INFO] [ERROR_606] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+21:06:30 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:06:30 [INFO] [ERROR_606] <-> ServerConnector [lobby] has disconnected
+21:06:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35528]: Connected via websocket
+21:06:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35528]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:06:34 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35528]: Logged in as 'ERROR_606'
+21:06:34 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:06:34 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:06:34 [INFO] [ERROR_606] disconnected with: §f§cKicked whilst connecting to lobby: §fConnection throttled! Please wait before reconnecting.
+21:06:34 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:06:34 [INFO] [ERROR_606] <-> ServerConnector [lobby] has disconnected
+21:06:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35534]: Connected via websocket
+21:06:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35534]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:06:38 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:35534]: Logged in as 'ERROR_606'
+21:06:38 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:06:38 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:06:45 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:06:45 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:06:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51802]: Connected via websocket
+21:06:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51802]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:06:47 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:51802]: Logged in as 'ERROR_606'
+21:06:47 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:06:47 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:06:53 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:06:53 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:06:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59042]: Connected via websocket
+21:06:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59042]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:06:55 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:59042]: Logged in as 'ERROR_606'
+21:06:55 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:06:55 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:07:06 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:07:06 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:07:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57284]: Connected via websocket
+21:07:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57284]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:07:15 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:57284]: Logged in as 'ERROR_606'
+21:07:15 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:07:15 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected
+21:13:35 [INFO] [ERROR_606] -> UpstreamBridge has disconnected
+21:13:35 [INFO] [ERROR_606] <-> DownstreamBridge <-> [lobby] has disconnected
+21:19:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58928]: Connected via websocket
+21:19:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58928]: Origin header is https://ubiquitous-space-happiness-v46jjxq9w693x6-8081.app.github.dev
+21:19:48 [INFO] [EaglercraftXBungee] [/0:0:0:0:0:0:0:1:58928]: Logged in as 'ERROR_606'
+21:19:48 [INFO] [ERROR_606] -> UpstreamBridge has connected
+21:19:48 [INFO] [ERROR_606] <-> ServerConnector [lobby] has connected

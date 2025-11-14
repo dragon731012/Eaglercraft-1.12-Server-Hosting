@@ -1,0 +1,386 @@
+[18:51:59] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[18:51:59] [Server thread/INFO]: Loading properties
+[18:51:59] [Server thread/INFO]: Default game type: SURVIVAL
+[18:52:00] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[18:52:00] [Server thread/INFO]: Debug logging is disabled
+[18:52:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:52:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:52:00] [Server thread/INFO]: Generating keypair
+[18:52:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:52:00] [Server thread/INFO]: Using epoll channel type
+[18:52:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:52:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:52:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:52:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:52:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:52:01] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:52:01] [Server thread/INFO]: Preparing level "world"
+[18:52:01] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:52:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:52:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:52:01] [Server thread/INFO]: Mob Spawn Range: 4
+[18:52:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:52:01] [Server thread/INFO]: Random Lighting Updates: false
+[18:52:01] [Server thread/INFO]: Structure Info Saving: true
+[18:52:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[18:52:01] [Server thread/INFO]: Max TNT Explosions: 100
+[18:52:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:52:01] [Server thread/INFO]: View Distance: 5
+[18:52:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:52:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:52:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:52:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:52:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:52:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:52:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:52:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:52:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:52:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:52:01] [Server thread/INFO]: Mob Spawn Range: 4
+[18:52:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:52:01] [Server thread/INFO]: Random Lighting Updates: false
+[18:52:01] [Server thread/INFO]: Structure Info Saving: true
+[18:52:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[18:52:01] [Server thread/INFO]: Max TNT Explosions: 100
+[18:52:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:52:01] [Server thread/INFO]: View Distance: 5
+[18:52:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:52:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:52:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:52:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:52:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:52:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:52:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:52:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:52:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:52:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:52:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:52:01] [Server thread/INFO]: Mob Spawn Range: 4
+[18:52:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:52:01] [Server thread/INFO]: Random Lighting Updates: false
+[18:52:01] [Server thread/INFO]: Structure Info Saving: true
+[18:52:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[18:52:01] [Server thread/INFO]: Max TNT Explosions: 100
+[18:52:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:52:01] [Server thread/INFO]: View Distance: 5
+[18:52:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:52:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:52:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:52:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:52:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:52:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:52:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:52:02] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3575538289746968650)
+[18:52:03] [Server thread/INFO]: Preparing spawn area: 4%
+[18:52:04] [Server thread/INFO]: Preparing spawn area: 16%
+[18:52:04] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3575538289746968650)
+[18:52:04] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3575538289746968650)
+[18:52:05] [Server thread/INFO]: Done (4.130s)! For help, type "help" or "?"
+[18:52:05] [Server thread/INFO]: Timings Reset
+[18:52:47] [User Authenticator #1/INFO]: UUID of player Pumpkin_Head123 is 957e9ae0-558b-3b34-8ace-c22b605c5cb0
+[18:52:48] [Server thread/INFO]: Pumpkin_Head123[/0:0:0:0:0:0:0:1%0:42138] logged in with entity id 40 at ([world]532.293278320292, 6.0, 49.681322745820694)
+[19:10:07] [User Authenticator #2/INFO]: UUID of player BookMaster64 is 6213f2f7-f64b-381d-aabe-771c364d946f
+[19:10:08] [Server thread/INFO]: BookMaster64[/0:0:0:0:0:0:0:1%0:58046] logged in with entity id 1345 at ([world]234.62529213356555, 34.0, 260.32574487393526)
+[19:10:27] [Server thread/INFO]: BookMaster64 tried to swim in lava
+[19:10:39] [Server thread/INFO]: Teleported BookMaster64 to Pumpkin_Head123
+[19:11:32] [Server thread/INFO]: Pumpkin_Head123 lost connection: Disconnected
+[19:11:32] [Server thread/INFO]: Pumpkin_Head123 left the game
+[19:12:10] [User Authenticator #3/INFO]: UUID of player Pumpkin_Head123 is 957e9ae0-558b-3b34-8ace-c22b605c5cb0
+[19:12:10] [Server thread/INFO]: Pumpkin_Head123[/0:0:0:0:0:0:0:1%0:35510] logged in with entity id 2059 at ([world]671.6682856946717, 6.0, -89.81579367969644)
+[19:13:46] [Async Chat Thread - #0/INFO]: <Pumpkin_Head123> you back yet?
+[19:13:50] [Async Chat Thread - #0/INFO]: <BookMaster64> no
+[19:14:05] [Async Chat Thread - #0/INFO]: <BookMaster64> im trying to get out of the undergriund to get to the origininal base
+[19:14:24] [Async Chat Thread - #0/INFO]: <Pumpkin_Head123> im heading back also my inventory is full
+[19:15:43] [Async Chat Thread - #1/INFO]: <BookMaster64> ok
+[19:16:46] [Server thread/INFO]: BookMaster64 has made the advancement [Ice Bucket Challenge]
+[19:16:46] [Server thread/INFO]: BookMaster64 has made the advancement [Diamonds!]
+[19:16:50] [Async Chat Thread - #2/INFO]: <Pumpkin_Head123> village at 724 -490
+[19:18:33] [Async Chat Thread - #3/INFO]: <BookMaster64> this will be my chest
+[19:18:39] [Async Chat Thread - #3/INFO]: <BookMaster64> this single one over ehter
+[19:18:41] [Async Chat Thread - #3/INFO]: <BookMaster64> here
+[19:19:08] [Server thread/INFO]: Pumpkin_Head123 lost connection: Disconnected
+[19:19:08] [Server thread/INFO]: Pumpkin_Head123 left the game
+[19:19:11] [Server thread/INFO]: BookMaster64 lost connection: Disconnected
+[19:19:11] [Server thread/INFO]: BookMaster64 left the game
+[19:23:54] [User Authenticator #4/INFO]: UUID of player BookMaster64 is 6213f2f7-f64b-381d-aabe-771c364d946f
+[19:23:54] [Server thread/INFO]: BookMaster64[/0:0:0:0:0:0:0:1%0:42480] logged in with entity id 3019 at ([world]270.4671125509339, 6.0, 302.5168780477388)
+[19:24:06] [User Authenticator #4/INFO]: UUID of player Pumpkin_Head123 is 957e9ae0-558b-3b34-8ace-c22b605c5cb0
+[19:24:06] [Server thread/INFO]: Pumpkin_Head123[/0:0:0:0:0:0:0:1%0:55880] logged in with entity id 3048 at ([world]297.66909150639196, 6.0, 274.13517453300017)
+[19:24:12] [Async Chat Thread - #4/INFO]: <BookMaster64> hi
+[19:24:46] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> hello im going back to mining
+[19:24:56] [Async Chat Thread - #4/INFO]: <BookMaster64> so your a miner?
+[19:25:09] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> yes
+[19:25:25] [Async Chat Thread - #4/INFO]: <BookMaster64> your on bus 27 right? lane 5
+[19:25:31] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> yes
+[19:25:32] [Async Chat Thread - #4/INFO]: <BookMaster64> im on 87 lane 6
+[19:25:41] [Async Chat Thread - #4/INFO]: <BookMaster64> you on passenger or driver's side?
+[19:25:46] [Async Chat Thread - #4/INFO]: <BookMaster64> im on drivers side
+[19:25:55] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> drivers in the first seat
+[19:25:58] [Async Chat Thread - #4/INFO]: <BookMaster64> ok
+[19:26:11] [Async Chat Thread - #4/INFO]: <BookMaster64> im 3 windows from the front
+[19:26:20] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> i can only see the bus drivers seat
+[19:26:35] [Async Chat Thread - #4/INFO]: <BookMaster64> alsoo where did my 30cooked beef go
+[19:26:37] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> all the other windows are tinted but i saw your window
+[19:26:44] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> idk
+[19:26:49] [Async Chat Thread - #4/INFO]: <BookMaster64> ok
+[19:26:54] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> maybe simon also took it
+[19:27:01] [Async Chat Thread - #4/INFO]: <BookMaster64> ima get some food from the surface
+[19:27:06] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> ok
+[19:27:17] [Async Chat Thread - #4/INFO]: <BookMaster64> and wooooood
+[19:27:55] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> breaking blocvks is so delayed
+[19:28:04] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> blocks swy
+[19:28:08] [Async Chat Thread - #4/INFO]: <BookMaster64> yeah i juts tried eating
+[19:28:18] [Async Chat Thread - #4/INFO]: <BookMaster64> and i had to eat twice
+[19:28:26] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> yeah
+[19:28:27] [Async Chat Thread - #4/INFO]: <BookMaster64> for one rotton flesh bc i have no food
+[19:28:52] [Async Chat Thread - #4/INFO]: <BookMaster64> can i pur down some torches in the room?
+[19:29:07] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> yes but also check your brightness in game
+[19:29:14] [Async Chat Thread - #4/INFO]: <BookMaster64> ok why?
+[19:29:17] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> it might be moody
+[19:29:28] [Async Chat Thread - #4/INFO]: <Pumpkin_Head123> which makes everything look dark
+[19:29:28] [Async Chat Thread - #4/INFO]: <BookMaster64> ok
+[19:29:31] [Server thread/INFO]: Pumpkin_Head123 lost connection: Disconnected
+[19:29:31] [Server thread/INFO]: Pumpkin_Head123 left the game
+[19:29:43] [Server thread/INFO]: BookMaster64 lost connection: Disconnected
+[19:29:43] [Server thread/INFO]: BookMaster64 left the game
+[19:38:12] [User Authenticator #5/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[19:38:12] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:53368] logged in with entity id 3643 at ([world]601.3382482319232, 70.0, 240.6932853146755)
+[19:38:15] [Async Chat Thread - #5/INFO]: <ERROR_606> hi
+[19:39:08] [User Authenticator #5/INFO]: UUID of player Pumpkin_Head123 is 957e9ae0-558b-3b34-8ace-c22b605c5cb0
+[19:39:08] [Server thread/INFO]: Pumpkin_Head123[/0:0:0:0:0:0:0:1%0:43656] logged in with entity id 3807 at ([world]693.1324633256145, 6.0, -111.16578832569597)
+[19:39:19] [Async Chat Thread - #6/INFO]: <ERROR_606> hi i gtg
+[19:39:20] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[19:39:20] [Server thread/INFO]: ERROR_606 left the game
+[19:46:47] [User Authenticator #6/INFO]: UUID of player TheCleaver is 8bfb0b3d-a936-3eeb-98b2-4bdccb1e23ea
+[19:46:47] [Server thread/INFO]: TheCleaver[/0:0:0:0:0:0:0:1%0:46168] logged in with entity id 3909 at ([world]240.30000001192093, 26.0, 250.81322332799508)
+[19:46:50] [Server thread/INFO]: TheCleaver lost connection: Disconnected
+[19:46:50] [Server thread/INFO]: TheCleaver left the game
+[19:46:57] [User Authenticator #6/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[19:46:57] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:50918] logged in with entity id 4000 at ([world]384.0585259251069, 71.0, 225.26945039814916)
+[19:47:01] [Async Chat Thread - #7/INFO]: <ERROR_606> back
+[19:48:13] [Server thread/INFO]: ERROR_606 has made the advancement [Not Today, Thank You]
+[19:50:54] [Async Chat Thread - #8/INFO]: <ERROR_606> you there?
+[19:53:40] [Async Chat Thread - #9/INFO]: <ERROR_606> are you still in the crater?
+[19:56:14] [Async Chat Thread - #10/INFO]: <Pumpkin_Head123> well well well look who it is
+[19:56:21] [Async Chat Thread - #10/INFO]: <ERROR_606> and now i have to go
+[19:56:25] [Async Chat Thread - #10/INFO]: <ERROR_606> where were you?
+[19:56:32] [Async Chat Thread - #10/INFO]: <Pumpkin_Head123> homework
+[19:56:35] [Async Chat Thread - #10/INFO]: <ERROR_606> i will be home in like half an hour
+[19:56:39] [Server thread/INFO]: Pumpkin_Head123 lost connection: Disconnected
+[19:56:39] [Server thread/INFO]: Pumpkin_Head123 left the game
+[19:56:52] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[19:56:52] [Server thread/INFO]: ERROR_606 left the game
+[20:05:56] [User Authenticator #7/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[20:05:56] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:37722] logged in with entity id 5259 at ([world]248.69267156464767, 38.19249761437478, 258.9634806706928)
+[20:05:58] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[20:05:58] [Server thread/INFO]: ERROR_606 left the game
+[20:07:28] [User Authenticator #8/INFO]: UUID of player Pumpkin_Head123 is 957e9ae0-558b-3b34-8ace-c22b605c5cb0
+[20:07:28] [Server thread/INFO]: Pumpkin_Head123[/0:0:0:0:0:0:0:1%0:52474] logged in with entity id 5289 at ([world]693.1324633256145, 6.0, -111.16578832569597)
+[20:12:38] [Server thread/INFO]: Given [Torch] * 64 to Pumpkin_Head123
+[20:28:47] [User Authenticator #9/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[20:28:47] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:54144] logged in with entity id 7202 at ([world]248.69267156464767, 35.0, 258.9634806706928)
+[20:29:44] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[20:29:44] [Server thread/INFO]: ERROR_606 left the game
+[20:32:12] [User Authenticator #10/INFO]: UUID of player BookMaster64 is 6213f2f7-f64b-381d-aabe-771c364d946f
+[20:32:12] [Server thread/INFO]: BookMaster64[/0:0:0:0:0:0:0:1%0:47610] logged in with entity id 7450 at ([world]270.29653066659415, 6.0, 304.30000001192093)
+[20:32:17] [User Authenticator #10/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[20:32:17] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:52946] logged in with entity id 7512 at ([world]211.8113941202875, 62.0, 240.21291137592902)
+[20:32:17] [Async Chat Thread - #11/INFO]: <Pumpkin_Head123> hi ethan
+[20:32:22] [Async Chat Thread - #11/INFO]: <BookMaster64> hi niko
+[20:32:27] [Async Chat Thread - #11/INFO]: <Pumpkin_Head123> olivers on
+[20:32:34] [Async Chat Thread - #11/INFO]: <BookMaster64> i see
+[20:32:49] [Async Chat Thread - #11/INFO]: <ERROR_606> how many diamonds you guys have?
+[20:32:52] [Async Chat Thread - #11/INFO]: <BookMaster64> do tnt kills add to the counter?
+[20:32:55] [Async Chat Thread - #11/INFO]: <Pumpkin_Head123> so do /msg for important stuff
+[20:33:01] [Async Chat Thread - #11/INFO]: <BookMaster64> ok
+[20:33:06] [Async Chat Thread - #11/INFO]: <Pumpkin_Head123> but no
+[20:33:32] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 hes in the craater
+[20:33:35] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 the traps arent set in the staricase/ they arent armed
+[20:33:43] [Async Chat Thread - #11/INFO]: <BookMaster64> msg Pumpkin_Head123 ok
+[20:33:49] [Async Chat Thread - #11/INFO]: <ERROR_606> lol
+[20:33:50] [Async Chat Thread - #11/INFO]: <Pumpkin_Head123> do /msg
+[20:34:05] [Server thread/INFO]: BookMaster64 issued server command: /msg i forgot the /
+[20:34:05] [Server thread/INFO]: [BookMaster64: Player 'i' cannot be found]
+[20:34:08] [Async Chat Thread - #11/INFO]: <ERROR_606> start tpying after using /, not t
+[20:34:22] [Async Chat Thread - #11/INFO]: <BookMaster64> i forget bc i usually dont use msg
+[20:34:32] [Async Chat Thread - #11/INFO]: <Pumpkin_Head123> its fine
+[20:34:54] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 are you still digging to the villlage?
+[20:35:06] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 yes
+[20:35:12] [Server thread/INFO]: BookMaster64 issued server command: /msg ok
+[20:35:16] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 ok
+[20:35:21] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 im almost there
+[20:35:47] [Server thread/INFO]: BookMaster64 issued server command: /msg is pvp on?
+[20:35:47] [Server thread/INFO]: [BookMaster64: Player 'is' cannot be found]
+[20:35:54] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 is pvpv on?
+[20:36:02] [Async Chat Thread - #12/INFO]: <Pumpkin_Head123> imm checking my email be back on in a sec
+[20:37:18] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 i have diamond pick sword and axe
+[20:37:37] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 im on the surface getting food and wood
+[20:37:53] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 and any other materials that we need that i can find
+[20:38:01] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 we have enough diamonds to get enchants pls get sugar cane
+[20:38:09] [User Authenticator #11/INFO]: UUID of player WARBRINGER is f073927b-4583-3e03-95c8-8043f39c9194
+[20:38:09] [Server thread/INFO]: WARBRINGER[/0:0:0:0:0:0:0:1%0:40842] logged in with entity id 8836 at ([world]268.7188987965625, 32.0, 226.92199396535324)
+[20:38:11] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 ok
+[20:38:13] [Async Chat Thread - #13/INFO]: <ERROR_606> hi
+[20:38:21] [Server thread/INFO]: ERROR_606 issued server command: /msg team
+[20:38:29] [Server thread/INFO]: ERROR_606 issued server command: /tell team hi
+[20:38:29] [Server thread/INFO]: [ERROR_606: Player 'team' cannot be found]
+[20:38:36] [Server thread/INFO]: ERROR_606 issued server command: /msg team hi
+[20:38:36] [Server thread/INFO]: [ERROR_606: Player 'team' cannot be found]
+[20:39:06] [Async Chat Thread - #13/INFO]: <Pumpkin_Head123> ima be off for a few mins
+[20:39:23] [Async Chat Thread - #13/INFO]: <WARBRINGER> chat i have to go walk my dog i will be back in a few
+[20:39:27] [Server thread/INFO]: WARBRINGER has made the advancement [Stone Age]
+[20:39:32] [Async Chat Thread - #13/INFO]: <ERROR_606> why did you get on then
+[20:39:44] [Async Chat Thread - #13/INFO]: <WARBRINGER> to tell you that
+[20:39:51] [Async Chat Thread - #13/INFO]: <ERROR_606> lol
+[20:40:11] [Async Chat Thread - #13/INFO]: <ERROR_606> solomon i have some iron armor for you
+[20:40:23] [Server thread/INFO]: ERROR_606 issued server command: /tm
+[20:40:25] [Async Chat Thread - #13/INFO]: <WARBRINGER> ok
+[20:40:37] [Async Chat Thread - #13/INFO]: <ERROR_606> where do you want to meet?
+[20:41:36] [Async Chat Thread - #13/INFO]: <WARBRINGER> ima email yo
+[20:43:58] [Server thread/INFO]: ERROR_606 issued server command: /msg WARBRINGER where are you?
+[20:44:10] [Async Chat Thread - #14/INFO]: <WARBRINGER> i emailed you
+[20:45:37] [Async Chat Thread - #15/INFO]: <ERROR_606> hi
+[20:45:44] [Async Chat Thread - #15/INFO]: <WARBRINGER> can i have a pik
+[20:45:54] [Server thread/INFO]: WARBRINGER has made the advancement [Suit Up]
+[20:46:06] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 can you bring ladder down the path i need it
+[20:46:21] [Async Chat Thread - #15/INFO]: <WARBRINGER> pik?
+[20:46:23] [Async Chat Thread - #15/INFO]: <ERROR_606> sure
+[20:46:28] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 yeah but its gonna take a minute
+[20:46:33] [Async Chat Thread - #15/INFO]: <ERROR_606> iron
+[20:46:34] [Server thread/INFO]: WARBRINGER has made the advancement [Acquire Hardware]
+[20:46:44] [Async Chat Thread - #15/INFO]: <ERROR_606> imma set up an enchanting table
+[20:47:13] [Server thread/INFO]: WARBRINGER has made the advancement [Isn't It Iron Pick]
+[20:47:28] [Async Chat Thread - #15/INFO]: <BookMaster64> i might have my 2nd death soon
+[20:47:48] [Async Chat Thread - #15/INFO]: <WARBRINGER> why
+[20:47:50] [Async Chat Thread - #15/INFO]: <ERROR_606> im setting up a e table here
+[20:48:03] [Async Chat Thread - #15/INFO]: <BookMaster64> reasons
+[20:48:20] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 i might die from the mobs
+[20:48:55] [Async Chat Thread - #15/INFO]: <ERROR_606> can i have some wood
+[20:48:58] [Server thread/INFO]: Set the time to 1000
+[20:49:11] [Async Chat Thread - #15/INFO]: <ERROR_606> thanks
+[20:49:38] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 operation landfall has been completed
+[20:49:56] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 i would like an explanation pls to what that is
+[20:50:12] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 i made it to village
+[20:50:18] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 ok
+[20:50:27] [Async Chat Thread - #16/INFO]: <Pumpkin_Head123> imma quit ill be back on real quick
+[20:50:29] [Server thread/INFO]: Pumpkin_Head123 lost connection: Disconnected
+[20:50:29] [Server thread/INFO]: Pumpkin_Head123 left the game
+[20:50:35] [Async Chat Thread - #16/INFO]: <WARBRINGER> same here
+[20:50:43] [Async Chat Thread - #16/INFO]: <ERROR_606> okay
+[20:51:29] [User Authenticator #12/INFO]: UUID of player Pumpkin_Head123 is 957e9ae0-558b-3b34-8ace-c22b605c5cb0
+[20:51:29] [Server thread/INFO]: Pumpkin_Head123[/0:0:0:0:0:0:0:1%0:52264] logged in with entity id 10998 at ([world]722.9857286806107, 70.0, -491.0230008614534)
+[20:51:31] [Server thread/INFO]: WARBRINGER lost connection: Disconnected
+[20:51:31] [Server thread/INFO]: WARBRINGER left the game
+[20:51:35] [Async Chat Thread - #16/INFO]: <Pumpkin_Head123> and im back!!!
+[20:52:29] [Async Chat Thread - #16/INFO]: <ERROR_606> give me your pick solomon imma enchant it
+[20:56:00] [Async Chat Thread - #17/INFO]: <ERROR_606> you there solomon?
+[21:00:35] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 i still havent found any sugar cane
+[21:01:01] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 its fine i got some can you get ladder?
+[21:01:30] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 yeah
+[21:01:55] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 i got 5 diamonds
+[21:02:15] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 does bonemeal work on sugar cane in this version?
+[21:04:27] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 i fouynd a tunnel in the mountain starting near the crater and i didnt mine it did you mine any other tunnels at the surface?
+[21:04:54] [Server thread/INFO]: Pumpkin_Head123 lost connection: Timed out
+[21:04:54] [Server thread/INFO]: Pumpkin_Head123 left the game
+[21:05:04] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[21:05:04] [Server thread/INFO]: ERROR_606 left the game
+[21:05:17] [User Authenticator #13/INFO]: UUID of player WARBRINGER is f073927b-4583-3e03-95c8-8043f39c9194
+[21:05:17] [Server thread/INFO]: WARBRINGER[/0:0:0:0:0:0:0:1%0:58736] logged in with entity id 13702 at ([world]238.17629328168118, 30.0, 218.55400313244954)
+[21:05:40] [User Authenticator #13/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[21:05:40] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:42852] logged in with entity id 13783 at ([world]257.4832736454873, 62.0, 183.07614214485554)
+[21:06:05] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[21:06:05] [Server thread/INFO]: ERROR_606 left the game
+[21:06:05] [Server thread/INFO]: WARBRINGER lost connection: Disconnected
+[21:06:05] [Server thread/INFO]: WARBRINGER left the game
+[21:06:26] [User Authenticator #13/INFO]: UUID of player Pumpkin_Head123 is 957e9ae0-558b-3b34-8ace-c22b605c5cb0
+[21:06:26] [Server thread/INFO]: Pumpkin_Head123[/0:0:0:0:0:0:0:1%0:59974] logged in with entity id 13966 at ([world]724.4883327454244, 40.0, -492.35047392941755)
+[21:06:38] [User Authenticator #13/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[21:06:38] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:54234] logged in with entity id 14109 at ([world]221.7717427152184, 66.0, 168.6367818222007)
+[21:06:40] [Async Chat Thread - #18/INFO]: <Pumpkin_Head123> swy i had to get off for a minuete
+[21:06:45] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[21:06:45] [Server thread/INFO]: ERROR_606 left the game
+[21:06:47] [User Authenticator #13/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[21:06:47] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:33014] logged in with entity id 14135 at ([world]220.8127305720095, 66.0, 166.46422840073646)
+[21:06:53] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[21:06:53] [Server thread/INFO]: ERROR_606 left the game
+[21:06:56] [User Authenticator #13/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[21:06:56] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:57646] logged in with entity id 14159 at ([world]225.5974385423498, 65.0, 168.69999998807907)
+[21:07:06] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[21:07:06] [Server thread/INFO]: ERROR_606 left the game
+[21:07:15] [User Authenticator #13/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[21:07:15] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:56498] logged in with entity id 14187 at ([world]251.3856029581647, 62.0, 173.24002007047915)
+[21:07:28] [Async Chat Thread - #18/INFO]: <ERROR_606> this game does not want to work correctly
+[21:07:34] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 im back at the staircase
+[21:07:58] [Server thread/INFO]: ERROR_606 has made the advancement [Ice Bucket Challenge]
+[21:08:06] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 ok im heading that way
+[21:08:28] [Async Chat Thread - #19/INFO]: <ERROR_606> im making a nether portal near crater, all who want to join are welcome, i will not attack unless you provoke me
+[21:08:43] [Async Chat Thread - #19/INFO]: <Pumpkin_Head123> LIE DETECTED!
+[21:08:53] [Async Chat Thread - #19/INFO]: <ERROR_606> 204 65 164 if you want to come
+[21:09:04] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 i have 2 leather
+[21:09:15] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 and 6 bonemeal for the sugar cane
+[21:09:52] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 now 12 bonemeal
+[21:10:12] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 do you have a water bucket?
+[21:10:23] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 yes
+[21:10:29] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 ok
+[21:10:39] [Async Chat Thread - #20/INFO]: <ERROR_606> is anyone coming to the nether with me?
+[21:12:14] [Async Chat Thread - #21/INFO]: <ERROR_606> where are you guys?
+[21:12:40] [Async Chat Thread - #21/INFO]: <ERROR_606> has anyone found a village?
+[21:12:48] [Async Chat Thread - #21/INFO]: <Pumpkin_Head123> no
+[21:13:08] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 did you go right or left?
+[21:13:35] [Server thread/INFO]: ERROR_606 lost connection: Disconnected
+[21:13:35] [Server thread/INFO]: ERROR_606 left the game
+[21:15:20] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 this is where we need ladder the water hole is the way out
+[21:16:08] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 how much laddeer?
+[21:16:19] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 alot ill block off water
+[21:16:45] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 i have 27\
+[21:16:55] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 do i need more? i can make more
+[21:17:10] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 make all you can
+[21:17:20] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 ok
+[21:17:21] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 we need alot
+[21:17:58] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 i made a stack and 11
+[21:18:04] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 its done
+[21:18:16] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 so i have 75 ladders
+[21:18:27] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 can i have ladder?
+[21:18:29] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 and no wood
+[21:18:36] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 all of the ladders?
+[21:18:49] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 yes ill place them
+[21:18:51] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 ok
+[21:19:04] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 thanks
+[21:19:30] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 can you back up?
+[21:19:34] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 yeah
+[21:19:48] [User Authenticator #14/INFO]: UUID of player ERROR_606 is 0e6b04bb-dd7f-3562-a6e4-f1c372aeabfd
+[21:19:48] [Server thread/INFO]: ERROR_606[/0:0:0:0:0:0:0:1%0:46640] logged in with entity id 15953 at ([world]185.5093400429955, 67.0, 211.86918821221383)
+[21:19:52] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 imaa mine some iron i see
+[21:20:46] [Server thread/INFO]: BookMaster64 issued server command: /msg Pumpkin_Head123 do you have any sticks? also are there trees at the village?
+[21:21:38] [Async Chat Thread - #22/INFO]: <ERROR_606> solomon where are you, do /msg ERROR_606
+[21:21:45] [Async Chat Thread - #22/INFO]: <ERROR_606> wait hes not on
+[21:24:10] [Server thread/INFO]: Pumpkin_Head123 issued server command: /msg BookMaster64 water will come out we are below the well

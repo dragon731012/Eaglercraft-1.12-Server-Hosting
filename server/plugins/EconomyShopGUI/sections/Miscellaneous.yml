@@ -1,0 +1,14 @@
+enable: true
+slot: 25
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: SADDLE
+  displayname: '&c&lMiscellaneous'
+  name: '&c&lMiscellaneous'

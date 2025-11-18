@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1763198842705
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1763198883415
+  login: 1763198830401
+money: '0'
+last-account-name: YeerYeeler2041
+lastlocation:
+  world: c17dd25b-15f5-43b2-b08f-2944daf6a8be
+  world-name: world
+  x: 0.0
+  y: 68.0
+  z: 0.0
+  yaw: 114.30001068115234
+  pitch: 29.550003051757812
+logoutlocation:
+  world: 76bc4d0e-3810-401a-af9b-49bd3d2ccb0b
+  world-name: OneBlock
+  x: 99.87099286506124
+  y: 66.0
+  z: 1.6253217809612175
+  yaw: -88.50000762939453
+  pitch: 44.39999771118164

@@ -1,0 +1,14 @@
+enable: true
+slot: 22
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: GUNPOWDER
+  displayname: '&7&lMobs'
+  name: '&7&lMobs'

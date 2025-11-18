@@ -1,0 +1,71 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: CYAN_DYE
+        buy: 0.61
+        sell: 0.16
+      '2':
+        material: GRAY_DYE
+        buy: 3.62
+        sell: 0.91
+      '3':
+        material: GREEN_DYE
+        buy: 0.11
+        sell: 0.03
+      '4':
+        material: LIGHT_BLUE_DYE
+        buy: 1.05
+        sell: 0.27
+      '5':
+        material: LIGHT_GRAY_DYE
+        buy: 1.05
+        sell: 0.27
+      '6':
+        material: LIME_DYE
+        buy: 6.3
+        sell: 1.58
+      '7':
+        material: MAGENTA_DYE
+        buy: 1.05
+        sell: 0.27
+      '8':
+        material: ORANGE_DYE
+        buy: 1.05
+        sell: 0.27
+      '9':
+        material: PINK_DYE
+        buy: 1.05
+        sell: 0.27
+      '10':
+        material: PURPLE_DYE
+        buy: 1.11
+        sell: 0.28
+      '11':
+        material: RED_DYE
+        buy: 1.05
+        sell: 0.27
+      '12':
+        material: YELLOW_DYE
+        buy: 0.7
+        sell: 0.18
+      '13':
+        material: AZURE_BLUET
+        buy: 1
+        sell: 0.25
+      '14':
+        material: BLUE_ORCHID
+        buy: 1
+        sell: 0.25
+      '15':
+        material: RED_TULIP
+        buy: 1
+        sell: 0.25
+      '16':
+        material: SUNFLOWER
+        buy: 1
+        sell: 0.25
+      '17':
+        material: INK_SAC
+        buy: 5
+        sell: 1.25

@@ -1,0 +1,49 @@
+# See https://pikamug.gitbook.io/quests/setup/configuration
+accept-timeout: 20
+allow-command-questing: true
+allow-command-quests-with-npcs: false
+allow-pranks: true
+clickable-prompts: true
+condition-interval: 10
+confirm-abandon: true
+confirm-accept: true
+console-logging: 2
+disable-command-feedback: false
+generate-files-on-join: true
+give-journal-item: false
+ignore-locked-quests: false
+kill-delay: 600
+language: en-US
+language-override-client: false
+max-quests: 0
+npc-effects:
+  enabled: true
+  new-quest: note
+  redo-quest: heart
+prevent-exploit: true
+show-completed-objectives: true
+show-requirements: true
+show-titles: true
+storage-data:
+  address: localhost:3306
+  database: minecraft
+  username: root
+  password: ''
+  table_prefix: quests_
+  pool-settings:
+    max-pool-size: 10
+    min-idle: 10
+    max-lifetime: 1800000
+    keepalive-time: 0
+    connection-timeout: 5000
+    properties:
+      useUnicode: true
+      characterEncoding: utf8
+storage-method:
+  player-data: yaml
+strict-player-movement: 0
+top-limit: 150
+trial-save: false
+translate-names: true
+translate-subcommands: false
+update-check: true

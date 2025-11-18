@@ -1,0 +1,29 @@
+# rewards.yml - Rewards for reaching levels
+# Commands are executed as console (with OP privileges)
+# Available placeholders:
+# %nick% - player's nickname
+# %lvl_number% - reached level number
+# %lvl_name% - reached level name
+
+### Rewards for all levels (executed every time ANY level is achieved)
+all:
+  - |
+    tellraw %nick% " &2Congratulations %nick%! You have reached a new level %lvl_number%! "
+  - |
+    tellraw %nick% " %lvl_name% "
+#  - "eco give %nick% 100"
+
+### Rewards for specific levels (executed only when reaching the specified level)
+levels:
+  5:
+#    - "give %nick% diamond 1"
+#    - |
+#      tellraw %nick% "You received a diamond for reaching level 5!"
+  10:
+#    - "give %nick% diamond 5"
+#    - |
+#      tellraw %nick% "Congratulations on reaching level 10! Here are 5 diamonds!"
+  20:
+#   - "give %nick% netherite_ingot 1"
+#    - |
+#     tellraw %nick% "A netherite ingot is yours for reaching level 20!"

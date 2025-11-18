@@ -1,0 +1,542 @@
+#   The general configuration for the jobs plugin mostly includes how often the plugin
+#   saves user data (when the user is in the game), the storage method, whether
+#   to broadcast a message to the server when a user goes up a skill level.
+#   It also allows admins to set the maximum number of jobs a player can have at
+#   any one time.
+
+# Default language.
+# Example: en, ru
+# File in locale folder with same name should exist. Example: messages_ru.yml
+locale-language: en
+storage:
+  # storage method, can be MySQL or sqlite
+  method: sqlite
+# Requires Mysql.
+mysql:
+  username: root
+  password: ''
+  hostname: localhost:3306
+  database: minecraft
+  table-prefix: jobs_
+  verify-server-certificate: false
+  use-ssl: false
+  auto-reconnect: true
+# How often in minutes you want it to save. This must be a non-zero number
+save-period: 10
+# Should player data be saved on disconnect?
+# Player data is always periodically auto-saved and autosaved during a clean shutdown.
+# Only enable this if you have a multi-server setup, or have a really good reason for enabling this.
+# Turning this on will decrease database performance.
+save-on-disconnect: false
+# Tool used when selecting bounds for restricted area.
+selectionTool: golden_hoe
+# Enable if you are using one data base for multiple servers across bungee network
+# This will force to load players data every time he is logging in to have most up to date data instead of having preloaded data
+# This will enable automatically save-on-disconnect feature
+MultiServerCompatability: false
+Optimizations:
+  # When set to true staff will be informed about new Jobs plugin version
+  # You need to have jobs.versioncheck permission node
+  NewVersion: true
+  DecimalPlaces:
+    # Decimal places to be shown
+    Money: 2
+    Exp: 2
+    Points: 2
+  DBCleaning:
+    Jobs:
+      # Warning!!! before enabling this feature, please make data base backup, just in case there will be some issues with data base cleaning
+      # When set to true, jobs data base will be cleaned on each startup to avoid having not used jobs
+      # keep in mind that this will only clean actual jobs, but not recorded players
+      Use: false
+      # Any one who has jobs level equal or less then set, hies job will be removed from data base
+      Level: 1
+    Users:
+      # Warning!!! before enabling this feature, please make data base backup, just in case there will be some issues with data base cleaning
+      # When set to true, data base will be cleaned on each startup from user data to avoid having old player data
+      Use: false
+      # Any one who not played for defined amount of days, will be removed from data base
+      Days: 60
+  AutoJobJoin:
+    # Use or not auto join jobs feature
+    # If you are not using auto join feature, keep it disabled
+    Use: false
+    # Delay in seconds to perform auto join job if used after player joins server
+    # If you using offline server, try to keep it slightly more than your login plugin gives time to enter password
+    # For player to auto join job add permission node jobs.autojoin.[jobname]
+    # Op players are ignored
+    Delay: 15
+  # When set to true players who gets negative experience can delevel job up to level 1
+  # ATTENTION! Set it to true only if you certain that commands performed on level up will not cause issues if player start level and delevel in a row.
+  AllowDelevel: false
+  DisabledWorlds:
+    # By setting this to true, Jobs plugin will be disabled in given worlds
+    # Only commands can be performed from disabled worlds with jobs.disabledworld.commands permission node
+    Use: false
+    # If true, will changes the list behavior, so if a world is added to list
+    # the payments will only works in the given worlds.
+    UseAsWhiteList: false
+    List:
+    - world
+  Explore:
+    # By setting this to true when there is max amount of players explored a chunk then it will be marked as fully explored and exact players who explored it will not be saved to save some memory
+    Compact: true
+Logging:
+  # With this set to true all players jobs actions will be logged to database for easy to see statistics
+  # This is still in development and in future it will expand
+  Use: false
+broadcast:
+  on-skill-up:
+    # Do all players get a message when someone goes up a skill level?
+    use: false
+  on-level-up:
+    # Do all players get a message when someone goes up a level?
+    use: false
+    # For what levels you want to broadcast message? Keep it at 0 if you want for all of them
+    levels:
+    - 0
+DailyQuests:
+  # Defines time in 24hour format when we want to give out new daily quests
+  # Any daily quests given before reset will be invalid and new ones will be given out
+  ResetTime:
+    Hour: 4
+    Minute: 0
+  # Defines amount of skips player can do on a quest
+  # This allows player to abandon current quest and get new one
+  Skips: 1
+  # The cost of the quest skip (money).
+  # Default 0, disabling cost of skipping quest.
+  SkipQuestCost: 0.0
+# Enables the schedule manager to boost the server.
+ScheduleManager:
+  Use: true
+# Fire players if their work time has expired at a job.
+# Setting time to 0, will not works.
+# For this to work, the player needs to get a new job for the timer to start.
+# Counting in hours
+JobExpirationTime: 0
+# Maximum number of jobs a player can join.
+# Use 0 for no maximum
+# Keep in mind that jobs.max.[amount] will bypass this setting
+max-jobs: 3
+# Disabling the payment if the user reached the maximum level of a job.
+disable-payment-if-max-level-reached: false
+# Hide jobs from player if they lack the permission to join the job
+hide-jobs-without-permission: false
+# Hide jobs info from player if they lack the permission to join the job
+hide-jobsinfo-without-permission: false
+# Option to allow payment to be made when killing mobs from a spawner.
+# Use jobs.nearspawner.[amount] to define multiplayer. Example jobs.nearspawner.-0.5 will pay half of payment, jobs.nearspawner.-1 will not pay at all
+enable-pay-near-spawner: true
+# Option to allow payment to be made in creative mode. This ignoring when a group has 'jobs.paycreative' permission.
+enable-pay-creative: false
+# Option to allow payment to be made for exploring when player flies
+enable-pay-for-exploring-when-flying: false
+# Option to allow payment to be made for exploring when player gliding.
+enable-pay-for-exploring-when-gliding: false
+# Disables the payment when the player riding on an entity.
+disablePaymentIfRiding: false
+# Adds the Jobs xp received to the player's Minecraft XP bar
+add-xp-player: false
+# Do the jobs boost ignore the boosted items usage in off hand?
+enable-boosted-items-in-offhand: true
+# Do you want to prevent crop resizing payment when placing more cactus?
+# This option is only related to: sugar_cane, cactus, kelp, bamboo
+prevent-crop-resize-payment: false
+# Allows to pay for stacked entities for each one. Requires StackMob or WildStacker.
+pay-for-stacked-entities: false
+# Allows, when losing maximum durability of item then it does not pay the player until it is repaired.
+# E.g. the player wants to enchant a item with enchanting table and the item has durability loss then not paying.
+allow-pay-for-durability-loss:
+  # Do not disable this if you don't know what mean this option.
+  Use: true
+  # What items (tools) are whitelisted the player get paid, when this item has durability loss?
+  # Enchantments are supported, usage:
+  # itemName=ENCHANTMENT_NAME-level
+  WhiteListedItems:
+  - wooden_pickaxe=DURABILITY-1
+  - fishing_rod
+# Modifys chat to add chat titles. If you're using a chat manager, you may add the tag {jobs} to your chat format and disable this.
+modify-chat:
+  use: false
+  prefix: '&c['
+  suffix: '&c]&r '
+  separator: ' '
+# Do you want to use custom item/block/mob/enchant/color names?
+# With this set to true names like Stone:1 will be translated to Granite
+# Name list is in TranslatableWords.yml file
+UseCustomNames: true
+# Changes how often, in seconds, players are paid out. Default is 5 seconds.
+# Setting this too low may cause tick lag. Increase this to improve economy performance (at the cost of delays in payment)
+economy-batch-delay: 5
+# Enable async economy calls.
+# Disable this if you have issues with payments or your plugin is not thread safe.
+economy-async: true
+Economy:
+  # By disabling one of these, players no longer will get particular payment.
+  # Useful for removing particular payment method without editing whole jobConfig file
+  PaymentMethods:
+    Money: true
+    Points: true
+    Exp: true
+  # Can be used to change payment amounts for all jobs and all actions if you want to readjust them
+  # Amounts are in percentage, above 0 will increase payments
+  # Amount belove 0 will decrease payments
+  # If action pays negative amount, then value above 0 will increase that negative value
+  # So if placing diamond ore takes 10 bucks from you, then by setting 50 for money income, you will be charged 15 bucks for placing it
+  # If you are getting paid 10 for placing wood, then same value of 50 for money income, will result in you getting 15 bucks
+  # This only effects base income value
+  GeneralMulti:
+    MONEY: 0.0
+    EXP: 0.0
+    POINTS: 0.0
+  # When set to true income which is belove 0 will get bonus applied to it
+  # In example, if you would loose 5 bucks for placing diamond block, with 100% payment bonus, that penalty disappears
+  # When this left at false penalty for action will remain unchanged
+  ApplyToNegativeIncome: false
+  MinimumOveralPayment:
+    # Determines minimum payment. In example if player uses McMMO treefeller and earns only 20%, but at same time he gets 25% penalty from dynamic payment. He can 'get' negative amount of money
+    # This will limit it to particular percentage
+    # Works only when original payment is above 0
+    use: true
+    limit: 0.1
+  MinimumOveralPoints:
+    # Determines minimum payment. In example if player uses McMMO treefeller and earns only 20%, but at same time he gets 25% penalty from dynamic payment. He can 'get' negative amount of money
+    # This will limit it to particular percentage
+    # Works only when original payment is above 0
+    use: true
+    limit: 0.1
+  DynamicPayment:
+    # Do you want to use dynamic payment dependent on how many players already working for jobs?
+    # This can help automatically lift up payments for not so popular jobs and lower for most popular ones
+    use: false
+    # totalworkers: The total number of players on the server who have jobs
+    # totaljobs: The number of jobs that are enabled
+    # jobstotalplayers: The number of people in that particular job
+    # Exponential equation: totalworkers / totaljobs / jobstotalplayers - 1
+    # Linear equation: ((totalworkers / totaljobs) - jobstotalplayers)/10.0
+    equation: totalworkers / totaljobs / jobstotalplayers - 1
+    MaxPenalty: 50.0
+    MaxBonus: 300.0
+  MaxPayment:
+    curve:
+      # Enabling this feature will mean players will still earn once they reach cap but will loose a percentage the higher over cap they go. Controlled by a factor. math is ```100/((1/factor*percentOver^2)+1)```
+      use: false
+      factor: 10
+  # Server economy account
+  # With this enabled, players will get money from defined user (server account)
+  # If this account don't have enough money to pay for players for, player will get message
+  UseServerAccount: false
+  # Username should be with Correct capitalization
+  AccountName: Server
+  Taxes:
+    # Do you want to use taxes feature for jobs payment?
+    # You can bypass taxes with permission jobs.tax.bypass
+    use: false
+    # Username should be with Correct capitalization, it can be same as setup in server account before
+    AccountName: Server
+    # Amount in percentage. You can grant money and points permissions (jobs.tax.money.amount, jobs.tax.points.amount) for taxes.
+    Amount: 15.0
+    # Do you want to transfer taxes to server account?
+    TransferToServerAccount: true
+    # With this true, taxes will be taken from players payment and he will get less money than its shown in jobs info
+    # When its false player will get full payment and server account will get taxes amount to hes account
+    TakeFromPlayersPayment: false
+  Limit:
+    # Money gain limit
+    # With this enabled, players will be limited how much they can make in defined time
+    # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
+    Money:
+      Use: false
+      # Do you want to stop money gain when exp limit reached?
+      StopWithExp: false
+      # Do you want to stop money gain when point limit reached?
+      StopWithPoint: false
+      # Equation to calculate max limit. Option to use total level to include players total amount levels of current jobs
+      # You can always use simple number to set money limit
+      # Default equation is: 500+500*(totallevel/100), this will add 1% from 500 for each level player have
+      # So player with 2 jobs with level 15 and 22 will have 685 limit
+      MoneyLimit: 500+500*(totallevel/100)
+      # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
+      TimeLimit: 3600
+      # Delay between announcements about reached money limit
+      # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
+      AnnouncementDelay: 30
+    # Point gain limit
+    # With this enabled, players will be limited how much they can make in defined time
+    Point:
+      Use: false
+      # Do you want to stop Point gain when exp limit reached?
+      StopWithExp: false
+      # Do you want to stop Point gain when money limit reached?
+      StopWithMoney: false
+      # Equation to calculate max limit. Option to use total level to include players total amount levels of current jobs
+      # You can always use simple number to set limit
+      # Default equation is: 500+500*(totallevel/100), this will add 1% from 500 for each level player have
+      # So player with 2 jobs with level 15 and 22 will have 685 limit
+      Limit: 500+500*(totallevel/100)
+      # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
+      TimeLimit: 3600
+      # Delay between announcements about reached limit
+      # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
+      AnnouncementDelay: 30
+    # Exp gain limit
+    # With this enabled, players will be limited how much they can get in defined time
+    # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
+    Exp:
+      Use: false
+      # Do you want to stop exp gain when money limit reached?
+      StopWithMoney: false
+      # Do you want to stop exp gain when point limit reached?
+      StopWithPoint: false
+      # Equation to calculate max money limit. Option to use total level to include players total amount of current jobs
+      # You can always use simple number to set exp limit
+      # Default equation is: 5000+5000*(totallevel/100), this will add 1% from 5000 for each level player have
+      # So player with 2 jobs with level 15 and 22 will have 6850 limit
+      Limit: 5000+5000*(totallevel/100)
+      # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
+      TimeLimit: 3600
+      # Delay between announcements about reached Exp limit
+      # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
+      AnnouncementDelay: 30
+  Repair:
+    # Do you want to give money for only renaming items in anvil?
+    # Players will get full pay as they would for remaining two items when they only rename one
+    # This is not a big issue, but if you want to disable it, you can
+    PayForRenaming: true
+  Enchant:
+    # Do you want to give money for enchanting items in anvil?
+    PayForEnchantingOnAnvil: false
+  Crafting:
+    # With this true, player will get money for all crafted items instead of each crafting action (like with old payment mechanic)
+    # By default its false, as you can make ALOT of money if prices kept from old payment mechanics
+    PayForEachCraft: false
+    # true - if players tries to combine (repair) 2 same items, like armor or weapon do they get income for it?
+    PayForCombiningItems: true
+  VTrade:
+    # With this true, player will get money for all trade items instead of each trade action
+    payForEachTradeItem: false
+  MilkingCow:
+    # With this true, when timer is still going, cow milking event will be canceled
+    # With this false, player will get bucket of milk, but still no payment
+    CancelMilking: false
+    # How ofter player can milk cows in seconds. Keep in mind that by default player can milk cow indefinitely and as often as he wants
+    # Set to 0 if you want to disable timer
+    Timer: 30
+ExploitProtections:
+  Furnaces:
+    # When enabled, players interacted furnaces will be saved into a file and will be reassigned after restart to keep giving out money
+    # Players will no longer need to click on furnace to get paid from it after server restart
+    Reassign: true
+    # Defines max available furnaces each player can have to get paid from
+    # This can be overridden with jobs.maxfurnaces.[amount] permission node
+    MaxDefaultAvailable: 20
+  BrewingStands:
+    # When enabled, players interacted brewing stands will be saved into file and will be reassigned after restart to keep giving out money
+    # Players will no longer need to click on brewing stand to get paid from it after server restart
+    Reassign: true
+    # Defines max available brewing stands each player can have to get paid from
+    # Set to 0 if you want to disable this limitation
+    # This can be overridden with jobs.maxbrewingstands.[amount] permission node
+    MaxDefaultAvailable: 20
+  General:
+    # Enable blocks protection, like ore, from exploiting by placing and destroying same block again and again.
+    # Modify restrictedBlocks.yml for blocks you want to protect
+    PlaceAndBreakProtection: true
+    # For how long in days to keep block protection data in data base
+    # This will clean block data which ones have -1 as cooldown value
+    # Data base cleanup will be performed on each server startup
+    # This cant be more then 14 days
+    KeepDataFor: 14
+    # All blocks will be protected X sec after player places it on ground.
+    GlobalBlockTimer:
+      use: true
+      timer: 3
+    # Enable silk touch protection.
+    # With this enabled players wont get paid for broken blocks from restrictedblocks list with silk touch tool.
+    SilkTouchProtection: false
+    MonsterDamage:
+      # This section controls how much damage player should do to monster for player to get paid
+      # This prevents from killing monsters in one hit when they suffer in example fall damage
+      Use: false
+      Percentage: 60
+  # McMMO abilities
+  McMMO:
+    # Players will get part of money from cutting trees with treefeller ability enabled.
+    # 0.2 means 20% of original price
+    TreeFellerMultiplier: 0.2
+    # Players will get part of money from braking blocks with gigaDrill ability enabled.
+    # 0.2 means 20% of original price
+    gigaDrillMultiplier: 0.2
+    # Players will get part of money from braking blocks with super breaker ability enabled.
+    # 0.2 means 20% of original price
+    superBreakerMultiplier: 0.2
+  # MythicMobs plugin support
+  # Disable if you having issues with it or using old version
+  MythicMobs:
+    enabled: true
+  Spawner:
+    # Prevent slime splitting when they are from spawner
+    # Protects agains exploiting as new splited slimes is treated as naturally spawned and not from spawner
+    PreventSlimeSplit: true
+    # Prevent magmacube splitting when they are from spawner
+    PreventMagmaCubeSplit: true
+  Smelt:
+    # Prevent payments when hoppers moving items into furnace
+    # Player will not get paid, but items will be smelted
+    PreventHopperFillUps: true
+  Brew:
+    PreventBrewingStandFillUps: true
+# Breeder finder.
+# If you are not using breeding payment, you can disable this to save little resources. Really little.
+use-breeder-finder: true
+# Old job save
+# Players can leave job and return later with some level loss during that
+# You can fix players level if his job level is at max level
+old-job:
+  level-loss-percentage: 30
+  fix-at-max-level: true
+  # Percentage to loose when leaving job at max level
+  # Only works when fix-at-max-level is set to false
+  level-loss-from-max-level: 30
+ActionBars:
+  Messages:
+    # When this set to true player will see action bar messages by default
+    EnabledByDefault: true
+BossBar:
+  # Enables BossBar feature
+  # Works only from 1.9 mc version
+  Enabled: true
+  Messages:
+    # When this set to true player will see Bossbar messages by default
+    EnabledByDefault: true
+  # If enabled boss bar will update after each action
+  # If disabled, BossBar will update only on each payment. This can save some server resources
+  ShowOnEachAction: false
+  # Defines in how many parts bossbar will be split visually
+  # Valid options: 1, 6, 10, 12, 20
+  SegmentCount: 1
+  # How long in sec to show BossBar for player
+  # If you have disabled ShowOnEachAction, then keep this number higher than payment interval for better experience
+  Timer: 6
+# You can enable/disable message shown for players in action bar
+ShowActionBars:
+  OnTitleChange: true
+  OnLevelChange: true
+  OnEmptyServerAccount: true
+# Chat messages
+# You can enable/disable message shown for players in chat
+ShowChatMessage:
+  OnTitleChange: true
+  OnLevelChange: true
+  OnEmptyServerAccount: true
+# Send title and chat message when a player reached the maximum level in a job.
+SendTitleMessageWhenMaxLevelReached: false
+# Sounds
+# Extra sounds on some events
+# All sounds can be found in https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+Sounds:
+  LevelUp:
+    use: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1
+    pitch: 3
+  TitleChange:
+    use: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1
+    pitch: 3
+# Extra firework shooting in some events
+Fireworks:
+  LevelUp:
+    use: false
+    # Makes the firework to randomize, such as random colors, type, power and so on.
+    # These are under settings will not be work, when this enabled.
+    Random: true
+    flicker: true
+    trail: true
+    # Firework types
+    # All types can be found in https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/FireworkEffect.Type.html
+    type: STAR
+    colors:
+    - 230,0,0
+    - 0,90,0
+    - 0,0,104
+    power: 1
+    # Fire shooting time in ticks.
+    # Example: 20 tick = 1 second
+    ShootTime: 20
+# You can disable this to save SMALL amount of server resources
+Signs:
+  Enable: true
+  Colors:
+    ColorizeJobName: true
+  # This is update for same job signs, to avoid huge lag if you have bunch of same type signs. Keep it from 1 to as many sec you want
+  InfoUpdateInterval: 5
+Scoreboard:
+  # This will enable to show top list in scoreboard instead of chat
+  ShowToplist: true
+  # For how long to show scoreboard
+  interval: 10
+JobsBrowse:
+  # Do you want to show total amount of workers for job in jobs browse window?
+  ShowTotalWorkers: true
+  # Do you want to show penalty and bonus in jobs browse window? Only works if this feature is enabled
+  ShowPenaltyBonus: true
+  # Defines if you want to use new /jobs browse look or old one
+  UseNewLook: true
+  # Defines amount of jobs to be shown in one page for /jobs browse
+  AmountToShow: 5
+JobsGUI:
+  # Do you want to show GUI when performing /jobs browse command?
+  OpenOnBrowse: true
+  # Do you want to show chat information when performing /jobs browse command?
+  ShowChatBrowse: true
+  # With true left mouse button will join job and right will show more info.
+  # With false left mouse button will show more info, right will join job or inversely.
+  # Don't forget to adjust locale file!
+  SwitcheButtons: false
+  # Allows players to join a specified job via GUI.
+  DisableJoiningJobThroughGui: false
+  # Do you want to show the action names in GUI?
+  ShowActionNames: true
+  # Defines size in rows of GUI
+  Rows: 5
+  # Defines back button slot in GUI
+  BackButtonSlot: 37
+  # Defines next button slot in GUI
+  NextButtonSlot: 45
+  # Defines start position in gui from which job icons will be shown
+  StartPosition: 11
+  # Defines by how many jobs we need to group up
+  GroupAmount: 7
+  # Defines by how many slots we need to skip after group
+  SkipAmount: 2
+  BackButton:
+    Material: JACK_O_LANTERN
+  NextButton:
+    Material: ARROW
+  Filler:
+    Material: GREEN_STAINED_GLASS_PANE
+Commands:
+  # Do you want to filter the hidden player names from tab-complete?
+  FilterHiddenPlayersInTabComplete: false
+  PageRow:
+    JobsTop:
+      # Defines amount of players to be shown in one page for /jobs top & /jobs gtop
+      AmountToShow: 15
+    Placeholders:
+      # Defines amount of placeholders to be shown in one page for /jobs placeholders
+      AmountToShow: 10
+  JobsLeave:
+    # Defines how job leave works.
+    # If this is true, then the user must have another permission to leave the job. jobs.command.leave.jobName
+    UsePerPermissionLeave: false
+    # Allows to confirm the /jobs leave and leaveall commands, to confirm the leave.
+    EnableConfirmation: false
+    # Specify the confirm expiry time.
+    # Time in seconds.
+    ConfirmExpiryTime: 10
+  JobsInfo:
+    # Open up the jobs browse action list, when your performed /jobs info command?
+    open-browse: false

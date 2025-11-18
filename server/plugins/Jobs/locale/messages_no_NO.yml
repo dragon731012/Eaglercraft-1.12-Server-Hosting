@@ -1,0 +1,714 @@
+---
+economy:
+  error:
+    nomoney: '&cBeklager, ikke mer penger igjen i nasjonalbanken!'
+limitedItem:
+  error:
+    levelup: '&cDu må levle opp i [jobname] for å bruke dette itemet!'
+general:
+  info:
+    toplineseparator: '&7*********************** &6%playername% &7***********************'
+    separator: '&7*******************************************************'
+    time:
+      days: '&e%days% &6dager '
+      hours: '&e%hours% &6timer '
+      mins: '&e%mins% &6minutter '
+      secs: '&e%secs% &6sekunder '
+    invalidPage: '&cUgyldig side'
+    'true': '&2Aktivert'
+    'false': '&cDeaktivert'
+    blocks:
+      furnace: Smelteovn
+      smoker: Røykovn
+      blastfurnace: Masovn
+      brewingstand: Bryggeapparat
+  admin:
+    error: '&cDet var en feil i kommandoen. Prøv igjen.'
+    success: '&eKommandoen din er utført.'
+  error:
+    noHelpPage: '&cDet er ingen hjelpeside med dette nummeret!'
+    notNumber: '&eVennligst bruk tall!'
+    job: '&cJobben du har valgt, eksisterer ikke, eller så er du ikke med på dette'
+    noCommand: '&cDet er ingen kommando med det navnet!'
+    permission: '&cDu har ikke tilgang til å gjøre dette!'
+    noinfo: '&cIngen informasjon er funnet!'
+    noinfoByPlayer: '&cIngen informasjon funnet ved brukernavnet [%playername%]!'
+    ingame: '&cDu kan bare bruke denne kommandoen i spillet!'
+    fromconsole: '&cDu kan bare bruke denne kommandoen fra konsoll!'
+    worldisdisabled: '&cDu kan ikke bruke denne kommandoen i denne verdenen!'
+    newRegistration: '&eRegistrert nytt eierskap for [block] &7[current]&e/&f[max]'
+    noRegistration: '&cDu har nådd maks antall [block]!'
+command:
+  help:
+    output:
+      info: Skriv /jobs [cmd] ? for mer informasjon om en kommando.
+      cmdUsage: '&2Bruk: &7[command]'
+      label: Jobs
+      cmdInfoFormat: '[command] &f- &2[description]'
+      cmdFormat: '&7/[command] &f[arguments]'
+      helpPageDescription: '&2* [description]'
+      title: '&e-------&e ======= &6Jobs &e======= &e-------'
+      page: '&e-----&e ====== Side &6[1] &eav &6[2] &e====== &e-----'
+      fliperSimbols: '&e----------'
+      prevPage: '&2----<< &6Forrige '
+      prevPageOff: '&7----<< Forrige '
+      nextPage: '&6 Neste &2>>----'
+      nextPageOff: '&7 Neste >>----'
+      pageCount: '&2[current]/[total]'
+      pageCountHover: '&e[totalEntries] innganger'
+      prevPageGui: '&6Forrige side '
+      nextPageGui: '&6Neste side'
+  moneyboost:
+    help:
+      info: Øker pengegevinsten for alle spillere
+      args: '[jobname]/all/reset [time]/[rate]'
+    output:
+      allreset: Pengeøkning er slått av
+      jobsboostreset: Pengeøkning er slått av for %jobname%
+      nothingtoreset: Ikke noe å resette
+      boostalladded: Pengeboost på %boost% er lagt til for alle jobber!
+      boostadded: Pengeboost på &e%boost% &aer lagt til for &e%jobname%!
+      infostats: '&c-----> &aPengesats x%boost% aktivert&c <-------'
+  pointboost:
+    help:
+      info: Øker poengboost for alle spillere
+      args: '[jobname]/all/reset [time]/[rate]'
+    output:
+      allreset: Alle pengegevinster er skrudd av
+      jobsboostreset: Poengboost har blitt slått av for %jobname%
+      nothingtoreset: Ikke noe å resette
+      boostalladded: Poengboost med %boost% lagt til for alle jobber!
+      boostadded: Poengboost med &e%boost% &alagt til for &e%jobname%!
+      infostats: '&c -----> &aPoengesats x%boost% aktivert &c <-------'
+  expboost:
+    help:
+      info: XP-boost for alle spillere
+      args: '[jobname]/all/reset [time]/[rate]'
+    output:
+      allreset: Skudd av all XP-boost
+      jobsboostreset: XP-boost har blitt deaktivert for %jobname%
+      nothingtoreset: Ikke noe å resette
+      boostalladded: XP-boost på %boost% er lagt til for alle jobber!
+      boostadded: XP-boost på &e%boost% &alagt til for &e%jobname%!
+      infostats: '&c-----> &aXP-rate x%boost% aktivert&c <-------'
+  schedule:
+    help:
+      info: Enables the given scheduler
+      args: enable [scheduleName] [untilTime]
+    output:
+      noScheduleFound: '&cSchedule with this name not found.'
+      alreadyEnabled: '&cThis schedule already enabled.'
+      enabled: '&eSchedule have been enabled from&a %from%&e until&a %until%'
+  itembonus:
+    help:
+      info: Sjekk gjenstandsbonus
+      args: ''
+    output:
+      list: '&e[jobname]: %money% %points% %exp%'
+      notAplyingList: '&7[jobname]: %money% %points% %exp%'
+      hover: '&7%itemtype%'
+      hoverLevelLimits: "&7Fra nivå: %from% \n&7Til nivå: %until%"
+  edititembonus:
+    help:
+      info: Rediger gjenstandsboost-bonus
+      args: list/add/remove [jobname] [itemBoostName]
+  bonus:
+    help:
+      info: Vis jobb-bonuser
+      args: '[jobname]'
+    output:
+      topline: '&7**************** &2[money] &6[points] &e[exp] &7****************'
+      permission: ' &ePerm bonus: &2%money% &6%points% &e%exp%'
+      item: ' &eGjenstandsbonus: &2%money% &6%points% &e%exp%'
+      global: ' &eGlobal bonus: &2%money% &6%points% &e%exp%'
+      dynamic: ' &eDynamisk bonus: &2%money% &6%points% &e%exp%'
+      nearspawner: ' &eSpawner bonus: &2%money% &6%points% &e%exp%'
+      petpay: ' &ePetPay bonus: &2%money% &6%points% &e%exp%'
+      area: ' &eOmrådebonus: &2%money% &6%points% &e%exp%'
+      mcmmo: ' &eMcMMO bonus: &2%money% &6%points% &e%exp%'
+      final: ' &eEndelig bonus: &2%money% &6%points% &e%exp%'
+      finalExplanation: ' &eDoes not include Petpay and Near spawner bonus/penalty'
+  convert:
+    help:
+      info: Konverterer databasesystemet fra ett system til et annet. Hvis du for øyeblikket kjører SQLite, vil dette konvertere det til MySQL og omvendt.
+      args: ''
+  limit:
+    help:
+      info: Viser betalingsgrense for jobber
+      args: '[playername]'
+    output:
+      moneytime: '&eTid igjen til pengegrensen tilbakestilles: &2%time%'
+      moneyLimit: '&ePengegrense: &2%current%&e/&2%total%'
+      exptime: '&eTid igjen til XP-grensen tilbakestilles: &2%time%'
+      expLimit: '&eXP-grense: &2%current%&e/&2%total%'
+      pointstime: '&eTid igjen til poenggrensen tilbakestilles: &2%time%'
+      pointsLimit: '&ePoenggrense: &2%current%&e/&2%total%'
+      reachedmoneylimit: '&4Du har nådd pengegrensen på gitt tid!'
+      reachedmoneylimit2: '&eDu kan sjekke pengegrensen din med kommandoen &2/jobs limit'
+      reachedmoneylimit3: '&ePenger opptjent er nå redusert eksponentielt... Men du tjener fortsatt litt!'
+      reachedexplimit: '&4Du har nådd XP-grensen på gitt tid!'
+      reachedexplimit2: '&eDu kan sjekke grensen din med kommandoen &2/jobs limit'
+      reachedpointslimit: '&4Du har nådd XP-grensen i gitt tid!'
+      reachedpointslimit2: '&eDu kan sjekke grensen din med kommandoen &2/jobs limit'
+      notenabled: '&ePengegrense er deaktivert'
+  resetlimit:
+    help:
+      info: Tilbakestiller en spillers betalingsgrenser
+      args: '[playername]'
+    output:
+      reseted: '&eBetalingsgrenser er tilbakestilt for: &2%playername%'
+  resetquest:
+    help:
+      info: Resetter en spillers oppdrag
+      args: '[playername] [jobname]'
+    output:
+      reseted: '&eOppdrag har blitt resatt for: &2%playername%'
+      noQuests: '&eKunne ikke finne noen oppdrag'
+  points:
+    help:
+      info: Viser hvor mange poeng en spiller har.
+      args: '[playername]'
+    currentpoints: ' &eNåværende poengsum: &6%currentpoints%'
+    totalpoints: ' &eTotalt antall innsamlede poeng til nå: &6%totalpoints%'
+  editpoints:
+    help:
+      info: Rediger en spillers poeng.
+      args: set/add/take [playername] [amount]
+    output:
+      set: '&eSpiller (&6%playername%&e) sine poeng ble satt til &6%amount%'
+      add: '&eSpiller (&6%playername%&e) fikk &6%amount% &eekstra poeng. Nå har spilleren &6%total%'
+      take: '&eSpiller (&6%playername%&e) mistet &6%amount% &epoeng. Når har spilleren &6%total%'
+  editjobs:
+    help:
+      info: Rediger nåværende jobber.
+      args: ''
+      list:
+        job: '&eJobber:'
+        jobs: '  -> [&e%jobname%&r]'
+        actions: '    -> [&e%actionname%&r]'
+        material: '      -> [&e%materialname%&r]      '
+        materialRemove: '&c[X]'
+        materialAdd: '      -> &e[&2+&e]'
+        money: '        -> &ePenger: &6%amount%'
+        exp: '        -> &eXP: &6%amount%'
+        points: '        -> &ePoeng: &6%amount%'
+      modify:
+        newValue: '&eAngi et nytt beløp'
+        enter: '&eAngi et nytt navn eller klikk '
+        hand: '&6HÅND '
+        handHover: '&6Trykk for å hente informasjon fra gjenstanden i hånden din'
+        or: '&eeller '
+        look: '&6SER PÅ'
+        lookHover: '&6Trykk for å hente informasjon fra blokken du ser på'
+  editquests:
+    help:
+      info: Endre nåværende oppdrag.
+      args: ''
+      list:
+        quest: '&eOppdrag:'
+        jobs: '  -> [&e%jobname%&r]'
+        quests: '  -> [&e%questname%&r]'
+        actions: '    -> [&e%actionname%&r]'
+        objectives: '      -> [&e%objectivename%&r]'
+        objectiveRemove: '&c[X]'
+        objectiveAdd: '      -> &e[&2+&e]'
+      modify:
+        newValue: '&eAngi et nytt beløp'
+        enter: '&eAngi et navn eller klikk '
+        hand: '&6HÅND '
+        handHover: '&6Trykk for å hente informasjon fra gjenstanden i hånden din'
+        or: '&eeller '
+        look: '&6SER PÅ'
+        lookHover: '&6Trykk for å hente informasjon fra blokken du ser på'
+  blockinfo:
+    help:
+      info: Viser informasjon om blokken du ser på.
+      args: ''
+    output:
+      name: ' &eBlokknavn: &e%blockname%'
+      id: ' &eBlokk-ID: &6%blockid%'
+      data: ' &eBlokkdata: &6%blockdata%'
+      usage: ' &eBruk: &6%first% &eeller &6%second%'
+  iteminfo:
+    help:
+      info: Viser informasjon for gjenstanden du holder.
+      args: ''
+    output:
+      name: ' &eGjenstandsnavn: &6%itemname%'
+      id: ' &eGjenstands-ID: &6%itemid%'
+      data: ' &Gjenstandsdata: &6%itemdata%'
+      usage: ' &eBruk: &6%first% &eeller &6%second%'
+  placeholders:
+    help:
+      info: List opp alle placeholdere
+      args: (parse) (placeholder)
+    output:
+      list: '&e[place]. &7[placeholder]'
+      outputResult: ' &eresultat: &7[result]'
+      parse: '&6[placeholder] &7av [source] &6resultat &8|&f[result]&8|'
+  entitylist:
+    help:
+      info: Viser alle mulige enteties som kan bli brukt med pluginen.
+      args: ''
+  stats:
+    help:
+      info: Viser hvilket level du er i i de jobbene du er en del av.
+      args: '[playername]'
+    error:
+      nojob: Vennligst start i en jobb først.
+    output:
+      message: 'Level %joblevel% for %jobname%: %jobxp%/%jobmaxxp% xp'
+      max-level: '     &cMax level   -   %jobname%'
+    bossBarOutput: 'Level %joblevel% %jobname%: %jobxp%/%jobmaxxp% XP%gain%'
+    bossBarGain: ' &7(&f%gain%&7)'
+  shop:
+    help:
+      info: Åpner butikk med spesielle jobber.
+      args: ''
+    info:
+      title: '&e------- &8Jobb butikk &e-------'
+      currentPoints: '&eDu har: &6%currentpoints%'
+      price: '&ePris: &6%price%'
+      reqJobs: '&eObligatoriske jobber:'
+      reqJobsList: '  &6%jobsname%&e: &e%level% level'
+      reqTotalLevel: '&6Påkrevd totalnivå: &e%totalLevel%'
+      reqJobsColor: '&c'
+      reqJobsLevelColor: '&4'
+      reqTotalLevelColor: '&4'
+      cantOpen: '&cKan ikke åpne denne siden'
+      NoPermForItem: '&cDu har ikke påkrevde tillatelser til denne gjenstanden!'
+      NoPermToBuy: '&cDu har ikke tilgang til å kjøpe denne gjenstanden'
+      NoJobReqForitem: '&cDu har ikke den nødvendige jobben (&6%jobname%&e) med påkrevd (&6%joblevel%&e) nivå'
+      NoPoints: '&cDu har ikke nok poeng'
+      NoTotalLevel: '&cTotalt jobblevel er for lavt (%totalLevel%)'
+      Paid: '&eDu betalte &6%amount% &efor denne gjenstanden'
+  archive:
+    help:
+      info: Viser alle jobber lagret i arkivet av brukeren.
+      args: '[playername]'
+    error:
+      nojob: Det er ingen jobber lagret.
+  give:
+    help:
+      info: Gir gjenstanden navn etter jobb- og gjenstands-kategorinavn. Spillernavnet er valgfritt
+      args: '[playername] [jobname] [items/limiteditems] [jobitemname]'
+    output:
+      notonline: '&4En spiller med det brukernavnet er ikke pålogget!'
+      noitem: '&4 Finner ingen gjenstander med det navnet!'
+  info:
+    help:
+      title: '&2*** &eJobber&2 ***'
+      info: Vis hvor mye hver jobb får betalt og for hva.
+      penalty: '&eDenne jobben har en straff på &c[penalty]% &efordi det er for mange spillere som jobber med det samme.'
+      bonus: '&eDenne jobben har en bonus på &2[bonus]% &efordi det er for få spillere som jobber med det samme.'
+      args: '[jobname] [action]'
+      actions: '&eGyldige handlinger er: &f%actions%'
+      max: ' -&emaks nivå:&f '
+      newMax: ' &eMaks nivå: &f[max]'
+      material: '&7%material%'
+      levelRange: ' &a(&e%levelFrom% &a- &e%levelUntil% &alevler)'
+      levelFrom: ' &a(fra &e%levelFrom% &alevel)'
+      levelUntil: ' &a(til &e%levelUntil% &alevel)'
+      money: ' &2%money%$'
+      points: ' &6%points%pts'
+      exp: ' &e%exp%xp'
+    gui:
+      pickjob: '&eVelg jobben din!'
+      jobinfo: '&e[jobname] info!'
+      actions: '&eGyldige handlinger er:'
+      leftClick: '&eVenstreklikk for mer info'
+      middleClick: '&eMidtklikk for å forlate jobben'
+      rightClick: '&eHøyreklikk for å bli med i jobben'
+      leftSlots: '&eLedige slotter:&f '
+      working: '&2&nVirker allerede'
+      cantJoin: '&cDu kan ikke bli med i den valgte jobben.'
+      max: '&eMaksnivå:&f '
+      back: '&e<<< Tilbake'
+      next: '&eNeste >>>'
+    output:
+      break:
+        info: '&eØdelegg'
+        none: '%jobname% gir ikke penger for å ødelegge blokker.'
+      tntbreak:
+        info: '&eTNTØdeleggelse'
+        none: '%jobname% gir ikke penger for å ødelegge blokker med TNT.'
+      place:
+        info: '&ePlassere'
+        none: '%jobname% gir ikke penger for å plassere blokker.'
+      striplogs:
+        info: '&eStripe tømmerstokker'
+        none: '%jobname% gir ikke penger for å stripe tømmerstokker.'
+      kill:
+        info: '&eDrap'
+        none: '%jobname% gir ikke penger for å drepe monstre.'
+      mmkill:
+        info: '&eMMKill'
+        none: '%jobname% gir ikke penger for å drepe mystiske monstre.'
+      fish:
+        info: '&eFisk'
+        none: '%jobname% gir ikke penger for fisking.'
+      craft:
+        info: '&eCraft'
+        none: '%jobname% gir ikke penger for crafting.'
+      smelt:
+        info: '&eSmelting'
+        none: '%jobname% gir ikke penger for smelting.'
+      brew:
+        info: '&eBryggeri'
+        none: '%jobname% gir ikke penger for bryggeri.'
+      eat:
+        info: '&eSpise'
+        none: '%jobname% gir ikke penger for å spise mat.'
+      dye:
+        info: '&eFarge'
+        none: '%jobname% gir ikke penger for å farge.'
+      enchant:
+        info: '&eFortrylle'
+        none: '%jobname% gir ikke penger for å fortrylle gjenstander.'
+      vtrade:
+        info: '&eVillager handel'
+        none: '%jobname% gir ikke penger for å handle med en villager.'
+      repair:
+        info: '&eReparere'
+        none: '%jobname% gir ikke penger for å reparere gjenstander.'
+      breed:
+        info: '&eAvl'
+        none: '%jobname% gir ikke penger for avling.'
+      tame:
+        info: '&eTemme'
+        none: '%jobname% gir ikke penger for å temme.'
+      milk:
+        info: '&eMelke'
+        none: '%jobname% gir ikke penger for å melke kuer.'
+      shear:
+        info: '&eKlippe'
+        none: '%jobname% gir ikke penger for å klippe en sau.'
+      explore:
+        info: '&eUtforske'
+        none: '%jobname% gir ikke penger for å utforske.'
+      custom-kill:
+        info: '&eTilpasset drap'
+        none: '%jobname% gir ikke penger for å tilfeldig spiller-drap.'
+      collect:
+        info: '&eInnsamling'
+        none: '%jobname% gir ikke penger for å samle inn blokker.'
+      bake:
+        info: '&eBake'
+        none: '%jobname% gir ikke penger for å lage mat.'
+  playerinfo:
+    help:
+      info: Show how much each job is getting paid and for what on another player.
+      args: '[playername] [jobname] [action]'
+  join:
+    help:
+      info: Bli med i den valgte jobben.
+      args: '[jobname]'
+    error:
+      alreadyin: Du er allerede med i jobben %jobname%.
+      fullslots: Du kan ikke bli med i jobben %jobname%, det er ingen ledige plasser.
+      maxjobs: Du er allerede med i for mange jobber.
+      rejoin: '&cKunne ikke bli med i jobben igjen. Vent [time]'
+    rejoin: '&eKlikk for å bli med i jobben igjen: '
+    success: Du har blitt med i jobben %jobname%.
+    confirm: '&2Klikk for å bekrefte at du blir ønsker å bli med i jobben &7[jobname].'
+  leave:
+    help:
+      info: Forlat den valgte jobben.
+      args: '[oldplayerjob]'
+    success: Du har forlatt %jobname%-jobben.
+    confirmationNeed: '&cEr du sikker på at du vil forlate &e[jobname]&c-jobben? Skriv kommandoen igjen innen &6 [time] sekund(er) &cfor å bekrefte!'
+  leaveall:
+    help:
+      info: Forlat alle jobbene du har.
+    error:
+      nojobs: Du har ingen jobber du kan forlate!
+    success: Du har forlatt alle jobbene dine.
+    confirmationNeed: '&cEr du sikker på at du vil forlate alle jobbene du har? Skriv kommandoen igjen innen &6 [time] sekund(er) &cfor å bekrefte!'
+  explored:
+    help:
+      info: Sjekk hvem som har besøkt denne chunken
+    error:
+      noexplore: Ingen har besøkt denne chunken
+    fullExplore: '&aDenne chunken er fullstendig utforsket'
+    list: '&e%place%. %playername%'
+  browse:
+    help:
+      info: Liste over jobber som er tilgjengelige for deg.
+    error:
+      nojobs: Det er ingen jobber du kan bli med i.
+    output:
+      header: 'Du kan bli med i følgende jobber:'
+      footer: For mer informasjon, skriv /jobs info [JobName]
+      totalWorkers: ' &7Arbeidere: &e[amount]'
+      penalty: ' &4Penalty: &c[amount]%'
+      bonus: ' &2Tillegg: &a[amount]%'
+      newHeader: '&2========== [amount] Tilgjengelige jobber ========='
+      description: '[description]'
+      list: '    &8[place]. &7[jobname]'
+      console:
+        newHeader: '&2========== [amount] Tilgjengelige jobber ========='
+        description: '[description]'
+        totalWorkers: ' &7Arbeidere: &e[amount]'
+        penalty: ' &4Penalty: &c[amount]%'
+        bonus: ' &2Tillegg: &a[amount]%'
+        list: ' &6[jobname]'
+        newMax: ' &eMaksnivå: &f[max]'
+      click: '&bKlikk på jobben for å få mer informasjon om den!'
+      detailed: '&bKlikk for å se mer detaljert liste over handlinger'
+      jobHeader: '&2========== [jobname] ========='
+      chooseJob: '&7&n&oVelg denne jobben'
+      chooseJobHover: '&7Klikk her for å få denne jobben'
+  clearownership:
+    help:
+      info: Fjern blokk-eierskap
+      args: '[playername]'
+    output:
+      cleared: '&2Fjernet &7[furnaces] &2smelteovner, &7[brewing], &2bryggeapparat, &7[smoker]&2 røykovner og &7[blast]&2 masovner.'
+  skipquest:
+    help:
+      info: Hopp over definert oppdrag og få en ny
+      args: '[jobname] [questname] (playerName)'
+    output:
+      questSkipForCost: '&2Du hoppet over oppdraget og betalte:&e %amount%$'
+  quests:
+    help:
+      info: Liste over tilgjengelige oppdrag
+      args: '[playername]'
+    error:
+      noquests: '&cDet finnes ingen oppdrag'
+    toplineseparator: '&7*********************** &6[playerName] &2(&f[questsDone]&2) &7***********************'
+    status:
+      changed: '&2Oppdrag-status er endret til&r %status%'
+      started: '&aStartet'
+      stopped: '&cStoppet'
+    output:
+      completed: '&2      !Gjennomført!&r      '
+      questLine: '[progress] &7[questName] &f[done]&7/&8[required]'
+      skip: '&7Klikk for å hoppe over denne oppgaven'
+      skips: '&7Hvor mange ganger du kan hoppe over igjen: &f[skips]'
+      hover: "&f[jobName] \n[desc] \n&7Nytt oppdrag igjen: [time]"
+  fire:
+    help:
+      info: Fjern spilleren fra jobben.
+      args: '[playername] [jobname]'
+    error:
+      nojob: Spilleren har ikke %jobname%-jobben.
+    output:
+      target: Du har blitt fjernet fra %jobname%-jobben.
+  fireall:
+    help:
+      info: Spark spilleren fra alle dens jobber.
+      args: '[playername]/all'
+    error:
+      nojobs: Spilleren har ikke noen jobber som spilleren kan bli sparket fra!
+    output:
+      target: Du har blitt sparket fra alle jobbene dine.
+  employ:
+    help:
+      info: Ansett spilleren til jobben.
+      args: '[playername] [jobname]'
+    error:
+      alreadyin: Spilleren er allerede med i jobben %jobname%.
+      fullslots: Du kan ikke bli med i %jobname%-jobben, det er ingen ledige stillinger.
+    output:
+      target: Du har blitt ansatt som %jobname%.
+  top:
+    help:
+      info: Viser toppspillere i jobben.
+      args: '[jobname]'
+    error:
+      nojob: Kunne ikke finne noen jobb med det jobbnavnet.
+    output:
+      topline: '&aTopp&e %amount% &aspillere i &e%jobname%&a-jobben'
+      list: '&e%number%&a. &e%playername% &alevel &e%level% &awith&e %exp% &aXP'
+      prev: '&e<<<<< Forrige side &2|'
+      next: '&2|&e Neste side >>>>'
+      show: '&2Viser fra &e[from] &2til &e[until] &2toppliste'
+  gtop:
+    help:
+      info: Viser toppspillere fra globalt jobbnivå.
+      args: ''
+    error:
+      nojob: Kunne ikke finne noen informasjon.
+    output:
+      topline: '&aTopp&e %amount% &aspillere fra globalt toppnivå'
+      list: '&e%number%&a. &e%playername% &alevel &e%level% &awith&e %exp% &aXP'
+      prev: '&e<<<<< Forrige side &2|'
+      next: '&2|&e Neste side >>>>'
+      show: '&2Viser fra &e[from] &2til &e[until] &2global toppliste'
+  area:
+    help:
+      info: Endre begrensede områder.
+      args: add/remove/info/list
+      addUsage: '&eBruk: &6/Jobs area add [areaName/wg:worldGuardAreaName] [bonus]'
+      removeUsage: '&eBruk: &6/Jobs area remove [areaName]'
+    output:
+      addedNew: '&eLagt til et nytt begrenset område med &6%bonus% &ebonus'
+      removed: '&eFjernet det begrensede området med navn &6%name%'
+      list: '&e%number%&a. &e%areaname% &e%worldname% (&a%x1%:%y1%:%z1%/&e%x2%:%y2%:%z2%) &6%bonus%'
+      wgList: '&e%number%&a. WorldGuard: &e%areaname% &6%bonus%'
+      noAreas: '&eDet er ingen begrensede lagrede områder'
+      noAreasByLoc: '&eDet er ingen begrensede områder på dette stedet'
+      areaList: '&eBegrensede områder rundt din lokasjon: &6%list%'
+      selected1: '&eValgt første punkt: &6%x%:%y%:%z%'
+      selected2: '&eValgt andre punkt: &6%x%:%y%:%z%'
+      select: '&eVelg to punkter med markeringsverktøyet (%tool%)'
+      exist: '&eDet eksisterer allerede et begrenset område med dette navnet'
+      dontExist: '&eDet eksisterer ikke et begrenset område med dette navnet'
+      wgDontExist: '&eWorldGuard-område med dette område, eksisterer ikke'
+  log:
+    help:
+      info: Vis statistikk.
+      args: '[playername]'
+    output:
+      topline: '&7************************* &6%playername% &7*************************'
+      ls: '&7* &6%number%. &3%action%: &6%item% &eqty: %qty% %money%%exp%%points%'
+      money: '&6penger: %amount% '
+      exp: '&eXP: %amount% '
+      points: '&6poeng: %amount%'
+      totalIncomes: '    &6Penger totalt:&2 %money%&6, XP totalt:&2 %exp%&6, Poeng totalt:&2 %points%'
+      bottomline: '&7***********************************************************'
+      prev: '&e<<<<< Forrige side &2|'
+      next: '&2|&e Neste side >>>>'
+      nodata: '&eIngen data funnet'
+  glog:
+    help:
+      info: Viser global statistikk.
+      args: ''
+    output:
+      topline: '&7*********************** &6Global statistikk &7***********************'
+      ls: '&7* &6%number%. &3%action%: &6%item% &eqty: %qty% %money%%exp%%points%'
+      money: '&6penger: %amount% '
+      exp: '&eXP: %amount% '
+      points: '&epoeng: %amount%'
+      totalIncomes: '    &6Penger totalt:&2 %money%&6, XP totalt:&2 %exp%&6, Poeng totalt:&2 %points%'
+      bottomline: '&7**************************************************************'
+      nodata: '&cIngen data funnet'
+  transfer:
+    help:
+      info: Overfør en spillers jobb fra en gammel jobb til en ny jobb.
+      args: '[playername] [oldjob] [newjob]'
+    output:
+      target: Du har blitt overført fra %oldjobname% til %newjobname%.
+  promote:
+    help:
+      info: Promoter spilleren med X-nivåer i en jobb.
+      args: '[playername] [jobname] [levels]'
+    output:
+      target: Nivået ditt i %jobname%-jobben har økt med %levelsgained%.
+  exp:
+    help:
+      info: Endre spiller-XP for jobb.
+      args: '[playername] [jobname] set/add/take [amount]'
+    error:
+      nojob: '&cDenne spilleren må først bli med i en jobb.'
+    output:
+      target: '.&eXP-en din ble endret for %jobname% &eså nå er du i &6%level%lvl &emed %exp%eXP.'
+  level:
+    help:
+      info: Endre en spillers nivå i en jobb.
+      args: '[playername] [jobname] set/add/take [amount]'
+    error:
+      nojob: '&cDenne spilleren må først bli med i en jobb.'
+    output:
+      target: '&eNivået ditt ble endret for %jobname% &eså nå er du i &6%level%lvl &emed &6%exp%exp.'
+  demote:
+    help:
+      info: Degrader spilleren med X-nivåer i en jobb.
+      args: '[playername] [jobname] [levels]'
+    output:
+      target: Du har blitt degradert %levelslost% nivåer i %jobname%-jobben.
+  grantxp:
+    help:
+      info: Gir spilleren X-antall exp i en jobb.
+      args: '[playername] [jobname] [xp]'
+    output:
+      target: Du har fått %xpgained% exp i %jobname%.
+  removexp:
+    help:
+      info: Fjern X-antall exp fra en spiller i en jobb.
+      args: '[playername] [jobname] [xp]'
+    output:
+      target: Du har mistet %xplost% exp i %jobname%.
+  signupdate:
+    help:
+      info: Oppdaterer et skilt manuelt med skiltets navn
+      args: '[jobname]'
+  bp:
+    help:
+      info: Viser blokkbeskyttelse rundt deg i radius på 10 blokker
+      args: ''
+    output:
+      found: '&eFant&6%amount% &ebeskyttede blokker rundt deg'
+      notFound: '&eIngen beskyttede blokker rundt deg'
+  reload:
+    help:
+      info: Last inn konfigurasjoner igjen.
+  toggle:
+    help:
+      info: Toggles payment output on action bar or bossbar.
+      args: actionbar/bossbar
+    output:
+      turnedoff: '&4Denne funksjonen er deaktivert!'
+      paid:
+        main: '&aDu fikk:'
+        money: '&e[amount] penger'
+        exp: '&7[exp] XP'
+        points: '&6[points] poeng'
+      'on': '&aTilstand: &aAKTIVERT'
+      'off': '&aTilstand: &4DEAKTIVERT'
+message:
+  skillup:
+    broadcast: '%playername% har blitt promotert til %titlename% %jobname%.'
+    nobroadcast: Gratulerer, du har blitt promotert til %titlename% i %jobname%.
+  max-level-reached:
+    title: '&2Max level reached'
+    subtitle: '&2in %jobname%!'
+    chat: '&cYou have reached the maximum level in %jobname%!'
+  levelup:
+    broadcast: '%playername% er nå nivå %joblevel% i %jobname%.'
+    nobroadcast: Du er nå %joblevel% i %jobname%.
+  leveldown:
+    message: '&eDu mistet&e %lostLevel%&c in&e %jobname%&c-jobben! Nivå: &6 %joblevel%&c.'
+  cowtimer: '&eDu må vente &6%time% &esek for å få betalt for denne jobben.'
+  blocktimer: '&eDu må vente &3[time] &esek til for å få betalt for dette!'
+  taxes: '&3[amount] &eserverskatt ble overført til denne kontoen'
+  boostStarted: '&eJobb boost-tid er startet!'
+  boostStoped: '&eJobb boost-tid er avsluttet!'
+  crafting:
+    fullinventory: '&cInventorien din er full!'
+signs:
+  List: '&0[number].&8[player]&7:&4[level]'
+  questList: '&0[number].&8[player]&7:&4[quests]'
+  SpecialList:
+    p1: '&b** &8Først &b**'
+    p2: '&b** &8Andre &b**'
+    p3: '&b** &8Tredje &b**'
+    p4: '&b** &8Fjerde &b**'
+    p5: '&b** &8Femte &b**'
+    p6: '&b** &8Sjette &b**'
+    p7: '&b** &8Syvende &b**'
+    p8: '&b** &8Åtte &b**'
+    p9: '&b** &8Niende &b**'
+    p10: '&b** &8Tiende &b**'
+    name: '&9[player]'
+    level: '&8[level] nivå'
+    quests: '&8[quests] oppdrag'
+    bottom: '&b************'
+  cantcreate: '&4Du kan ikke opprette dette skiltet!'
+  cantdestroy: '&4Du kan ikke ødelegge dette skiltet!'
+  topline: '&0[Jobs]'
+  secondline:
+    join: '&0Bli med'
+    leave: '&0Forlat'
+    toggle: '&0Veksle'
+    top: '&oTopp'
+    browse: '&0Bla'
+    stats: '&0Statistikk'
+    limit: '&0Grense'
+    info: '&0Info'
+    archive: '&0Arkiv'
+scoreboard:
+  topline: '&2Topp &e%jobname%'
+  gtopline: '&2Global toppliste'
+  line: '&2%number%. &e%playername% (&6%level%&e)'

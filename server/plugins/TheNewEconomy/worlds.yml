@@ -1,0 +1,35 @@
+# The New Economy v0.1.0.0
+# Author: creatorfromhell
+# License: http://creativecommons.org/licenses/by-nc-nd/4.0/
+# If you would like to contribute to the plugin
+# you can do so via Github at https://github.com/TheNewEconomy/TNE-Bukkit
+# To donate to the continued development of TNE with perks, https://patreon.com/creatorfromhell
+# To view a commented version of this file, visit https://github.com/TheNewEconomy/TNE-Bukkit/blob/master/TNE/src/net/tnemc/resources/worlds.yml.
+#All configurations that can be made world-specific
+#To use, please check the Example world below
+Worlds:
+
+    #An example of what world-specific configurations are available
+    #Please note that you do NOT have to include all the following configurations as all
+    #world-specific configurations are optional
+    #Note: World name is case sensitive
+    Example:
+
+        #Whether or not to completely disable economy features for this world
+        DisableEconomy: true
+
+        #All configurations relating to World ChangeFees
+        ChangeFee:
+
+           #The currency for which the ChangeFee is of.
+           Currency: "ExampleCurrency"
+
+           #How much it costs to enter this world if ChangeFee is enabled in the main configuration
+           Amount: 10.0
+
+        #Configurations related to information sharing between worlds
+        Share:
+
+          #If you want other worlds to share balances with this world.
+          Balances:
+          - "worldname"

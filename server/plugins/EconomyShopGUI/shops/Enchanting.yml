@@ -1,0 +1,183 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: ENCHANTED_BOOK
+        buy: 160
+        sell: 40
+        enchantments:
+        - WATER_WORKER:1
+      '2':
+        material: ENCHANTED_BOOK
+        buy: 1944.81
+        sell: 486.21
+        enchantments:
+        - DAMAGE_ARTHROPODS:5
+      '3':
+        material: ENCHANTED_BOOK
+        buy: 200
+        sell: 50
+        enchantments:
+        - BINDING_CURSE:1
+      '4':
+        material: ENCHANTED_BOOK
+        buy: 1481.76
+        sell: 370.44
+        enchantments:
+        - PROTECTION_EXPLOSIONS:4
+      '5':
+        material: ENCHANTED_BOOK
+        buy: 705.6
+        sell: 176.4
+        enchantments:
+        - DEPTH_STRIDER:3
+      '6':
+        material: ENCHANTED_BOOK
+        buy: 972.41
+        sell: 243.11
+        enchantments:
+        - DIG_SPEED:5
+      '7':
+        material: ENCHANTED_BOOK
+        buy: 926.1
+        sell: 231.53
+        enchantments:
+        - PROTECTION_FALL:4
+      '8':
+        material: ENCHANTED_BOOK
+        buy: 336
+        sell: 84
+        enchantments:
+        - FIRE_ASPECT:2
+      '9':
+        material: ENCHANTED_BOOK
+        buy: 926.1
+        sell: 231.53
+        enchantments:
+        - PROTECTION_FIRE:4
+      '10':
+        material: ENCHANTED_BOOK
+        buy: 160
+        sell: 40
+        enchantments:
+        - ARROW_FIRE:1
+      '11':
+        material: ENCHANTED_BOOK
+        buy: 705.6
+        sell: 176.4
+        enchantments:
+        - LOOT_BONUS_BLOCKS:3
+      '12':
+        material: ENCHANTED_BOOK
+        buy: 336
+        sell: 84
+        enchantments:
+        - FROST_WALKER:2
+      '13':
+        material: ENCHANTED_BOOK
+        buy: 200
+        sell: 50
+        enchantments:
+        - ARROW_INFINITE:1
+      '14':
+        material: ENCHANTED_BOOK
+        buy: 210
+        sell: 52.5
+        enchantments:
+        - KNOCKBACK:2
+      '15':
+        material: ENCHANTED_BOOK
+        buy: 705.6
+        sell: 176.4
+        enchantments:
+        - LOOT_BONUS_MOBS:3
+      '16':
+        material: ENCHANTED_BOOK
+        buy: 705.6
+        sell: 176.4
+        enchantments:
+        - LUCK:3
+      '17':
+        material: ENCHANTED_BOOK
+        buy: 705.6
+        sell: 176.4
+        enchantments:
+        - LURE:3
+      '18':
+        material: ENCHANTED_BOOK
+        buy: 160
+        sell: 40
+        enchantments:
+        - MENDING:1
+      '19':
+        material: ENCHANTED_BOOK
+        buy: 972.41
+        sell: 243.11
+        enchantments:
+        - ARROW_DAMAGE:5
+      '20':
+        material: ENCHANTED_BOOK
+        buy: 926.1
+        sell: 231.53
+        enchantments:
+        - PROTECTION_PROJECTILE:4
+      '21':
+        material: ENCHANTED_BOOK
+        buy: 463.05
+        sell: 115.77
+        enchantments:
+        - PROTECTION_ENVIRONMENTAL:4
+      '22':
+        material: ENCHANTED_BOOK
+        buy: 336
+        sell: 84
+        enchantments:
+        - ARROW_KNOCKBACK:2
+      '23':
+        material: ENCHANTED_BOOK
+        buy: 705.6
+        sell: 176.4
+        enchantments:
+        - OXYGEN:3
+      '24':
+        material: ENCHANTED_BOOK
+        buy: 972.41
+        sell: 243.11
+        enchantments:
+        - DAMAGE_ALL:5
+      '25':
+        material: ENCHANTED_BOOK
+        buy: 200
+        sell: 50
+        enchantments:
+        - SILK_TOUCH:1
+      '26':
+        material: ENCHANTED_BOOK
+        buy: 1944.81
+        sell: 486.21
+        enchantments:
+        - DAMAGE_UNDEAD:5
+      '27':
+        material: ENCHANTED_BOOK
+        buy: 705.6
+        sell: 176.4
+        enchantments:
+        - SWEEPING_EDGE:3
+      '28':
+        material: ENCHANTED_BOOK
+        buy: 882
+        sell: 220.5
+        enchantments:
+        - THORNS:3
+      '29':
+        material: ENCHANTED_BOOK
+        buy: 441
+        sell: 110.25
+        enchantments:
+        - DURABILITY:3
+      '30':
+        material: ENCHANTED_BOOK
+        buy: 200
+        sell: 50
+        enchantments:
+        - VANISHING_CURSE:1

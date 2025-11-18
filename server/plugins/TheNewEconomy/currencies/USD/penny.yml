@@ -1,0 +1,73 @@
+
+#Configurations relating to basic information about this currency tier.
+Info:
+
+  #This tier's type(major, or minor)
+  Type: "Minor"
+
+  #The singular name of this tier.
+  Single: "Penny"
+
+  #The plural name of this tier.
+  Plural: "Pennies"
+
+#Various options for this currency tier.
+Options:
+
+  #The weight of the tier. E.X. 20USD would equal 20
+  Weight: 1
+
+  #The material used for this item.
+  Material: "PAPER"
+
+  #The damage value used for this item. Defaults to 0.
+  #Optional.
+  Damage: 0
+
+  #The custom name this item must have in order to be considered currency.
+  #Optional.
+  Name: "Penny"
+
+  #The lore string this item must have  in order to be considered currency.
+  #Optional.
+  Lore: "Server Currency"
+
+  #The custom model data value used for this item. Defaults to 0.
+  #Optional.
+  ModelData: 0
+
+  #All configurations relating to enchantment identification for currency tiers
+  #The format is - enchantment name
+  #Optional.
+  Enchantments:
+  - "example_enchant"
+
+  #All configurations relating to item flags identification for currency tiers
+  #The format is - item flag
+  #Optional.
+  Flags:
+  - "example_flag"
+
+  #Configurations relating to crafting this currency tier.
+  Crafting:
+
+    #If custom crafting recipes for this tier are enabled.
+    Enabled: false
+
+    #Whether or not this recipe is shapeless.
+    Shapeless: false
+
+    #The amount of the currency to return for this crafting recipe.
+    Amount: 1
+
+    #The materials that represent the characters used in the recipe option.
+    #Format: Character:Material Name
+    #Format For Currencies(only works on 1.13+ and if Shapeless is false): Character:CURRENCY:World Name:Currency Name:Tier Name
+    Materials:
+    - "X:IRON_NUGGET"
+    - "Y:PAPER"
+
+    #List of this recipe's representing characters.
+    #maximum of three rows, where a space is an empty slot for shaped recipes.
+    Recipe:
+    - "XYX"

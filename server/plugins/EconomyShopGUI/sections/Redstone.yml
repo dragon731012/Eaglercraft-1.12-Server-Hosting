@@ -1,0 +1,16 @@
+enable: true
+slot: 33
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: REDSTONE
+  lore:
+  - '&4&lFor all redstone geeks!'
+  displayname: '&c&lRedstone'
+  name: '&c&lRedstone'

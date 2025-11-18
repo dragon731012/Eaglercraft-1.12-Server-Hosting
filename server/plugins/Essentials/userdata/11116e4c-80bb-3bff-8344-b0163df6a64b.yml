@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1763030107425
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1763199353982
+  login: 1763198569158
+money: '0'
+last-account-name: Etuate
+lastlocation:
+  world: c17dd25b-15f5-43b2-b08f-2944daf6a8be
+  world-name: world
+  x: -746.4777011459562
+  y: 67.0
+  z: 139.84492015218945
+  yaw: -126.6011734008789
+  pitch: 25.049972534179688
+logoutlocation:
+  world: 76bc4d0e-3810-401a-af9b-49bd3d2ccb0b
+  world-name: OneBlock
+  x: -0.19692510258970233
+  y: 65.9375
+  z: 0.6417212356936803
+  yaw: 158.99920654296875
+  pitch: 19.50004005432129
+homes:
+  home:
+    world: c17dd25b-15f5-43b2-b08f-2944daf6a8be
+    world-name: world
+    x: -745.1326611148187
+    y: 67.875
+    z: 138.04121975202563
+    yaw: 8.548828125
+    pitch: 36.899967193603516

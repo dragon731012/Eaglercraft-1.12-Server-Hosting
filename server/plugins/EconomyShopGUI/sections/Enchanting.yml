@@ -1,0 +1,16 @@
+enable: true
+slot: 23
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: ENCHANTED_BOOK
+  lore:
+  - '&5&lGear up with enchantments!'
+  displayname: '&d&lEnchanting'
+  name: '&d&lEnchanting'

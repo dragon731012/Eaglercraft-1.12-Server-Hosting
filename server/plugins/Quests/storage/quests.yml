@@ -1,0 +1,93 @@
+# For non-English characters, this file MUST stay encoded in UTF-8
+quests:
+  default1:
+    name: 'Iron Miner'
+    ask-message: '<yellow>Mine <pink>2<yellow> blocks of <pink>Iron Ore<yellow>.'
+    finish-message: '<yellow>Well done. Here is your reward.'
+    redo-delay: 1800
+    requirements:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: STONE_PICKAXE
+      remove-items:
+        - false
+      fail-requirement-message: '<red>You must have a <pink>Stone Pickaxe<red> first.'
+    stages:
+      ordered:
+        1:
+          break-block-names:
+            - IRON_ORE
+          break-block-amounts:
+            - 2
+          break-block-durability:
+            - 0
+    rewards:
+      money: 1000
+      quest-points: 1
+  default2:
+    name: 'Mob Hunter'
+    ask-message: '<yellow>Kill an assortment of Mobs.'
+    finish-message: '<yellow>Excellent. Here is a <pink>Diamond Sword<yellow>.'
+    stages:
+      ordered:
+        1:
+          death-event: DeathFail
+          mobs-to-kill:
+            - Pig
+          mob-amounts:
+            - 3
+          finish-event: NiceFinish
+        2:
+          death-event: DeathFail
+          mobs-to-kill:
+            - Zombie
+          mob-amounts:
+            - 2
+          finish-event: NiceFinish
+        3:
+          death-event: DeathFail
+          mobs-to-kill:
+            - Skeleton
+          mob-amounts:
+            - 1
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+      exp: 100
+      quest-points: 1
+  default3:
+    name: 'Catch Fish'
+    ask-message: '<yellow>Catch some fish!'
+    finish-message: '<yellow>Good job. Here is some <green>experience<yellow>.'
+    stages:
+      ordered:
+        1:
+          start-event: GiveRod
+          death-event: DeathFail
+          fish-to-catch: 5
+    rewards:
+      exp: 250
+  default4:
+    name: 'Timed Quest'
+    ask-message: '<yellow>Dig up <pink>10<yellow> blocks of <pink>Dirt<yellow> before time runs out!'
+    finish-message: '<yellow>You did it in time! Have an <pink>Iron Shovel<yellow> and some <green>experience<yellow>.'
+    requirements:
+      quest-points: 1
+      fail-requirement-message: '<red>Complete <pink>Iron Miner<red> or <pink>Mob Hunter<red> first.'
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - DIRT
+          break-block-amounts:
+          - 10
+          break-block-durability:
+          - 0
+          start-event: TimerStart
+          disconnect-event: CancelTimer
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+      exp: 150

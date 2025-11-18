@@ -1,0 +1,152 @@
+
+#Configurations relating to basic information about this currency.
+Info:
+
+  #The server this currency belongs to, for data saving purposes.
+  Server: "Main Server"
+
+  #The identifier of this currency used for various commands.
+  Identifier: "USD"
+
+  #The singular form of this currency's major denomination.
+  Major_Single: "Dollar"
+
+  #The plural form of this currency's major denomination.
+  Major_Plural: "Dollars"
+
+  #The singular form of this currency's minor denomination.
+  Minor_Single: "Dollar"
+
+  #The plural form of this currency's minor denomination.
+  Minor_Plural: "Dollars"
+
+  #The SI Prefixes used when <shorten> is used for the currency's format.
+  #TNE's default prefixes are based off of the Internation Bureau of Weights and Measures official list.
+  #http://www.unitarium.com/si-prefixes along with a few addition shorts for above Nonillion.
+  #The order in which the characters are:
+  #Thousand - k
+  #Million - M
+  #Billion - G
+  #Trillion - T
+  #Quadrillion - P
+  #Quintillion - E
+  #Sextillion - Z
+  #Septillion - Y
+  #Octillion - X
+  #Nonillion - W
+  #Decillion - V
+  #Undecillion - U
+  #Nondecillion - N
+  #Nonvigintillion - ₮
+  Prefixes: "kMGTPEZYXWVUN₮"
+
+  #The character to use as the symbol for this currency.
+  Symbol: "$"
+
+#Various options for currencies.
+Options:
+
+  #Whether or not this currency is the default currency for the world.
+  Default: true
+
+  #The worlds this currency belongs to, if Global is set to false.
+  Worlds:
+  - "world"
+
+  #Whether or not this currency is a global currency.
+  Global: true
+
+  #Whether or not this currency is enabled.
+  Disabled: false
+
+  #The format to use when outputting this currency into chat.
+  #The variables you're able to use here.
+  #<symbol> - The currency's symbol
+  #<decimal> - The currency's decimal.
+  #<major> - A combination of the currency's major amount and name
+  #<minor> - A combination of the currency's minor amount and name
+  #<major.name> - The currency's major name.
+  #<minor.name> - The currency's minor name.
+  #<major.amount> - The currency's major amount.
+  #<minor.amount> - The currency's minor amount.
+  #<short.amount> - The currency's shortened amount.
+  #<shorten> - Added to make the outputted value shortened
+  # If shortened, it will ignore the value of Format.
+  #It's also possible to include all colour variables from messages.yml
+  #Example: <major> and <minor>
+  Format: "<symbol><major.amount><decimal><minor.amount>"
+
+  #The maximum balance possible for this currency.
+  # Maximum possible value: 900000000000000000000000000000000000000000000
+  MaxBalance: 900000000000000000000000000000000000000000000
+
+  #The initial balance for accounts.
+  #Will be used if no world-specific configurations are found if multiworld is enabled
+  Balance: 200.0
+
+  #The character to use as the decimal place holder.
+  Decimal: "."
+
+  #The amount of digits to display after the decimal character.
+  #The maximum amount of places is 4
+  DecimalPlaces: 2
+
+  #The currency type to use for this currency.
+  #Valid Types: virtual, item, experience
+  Type: "virtual"
+
+  #Would you like your item currency balances to also check the player's ender chest?
+  EnderChest: true
+
+  #Whether or not the major value should be separated every three numeric places.
+  Major_Separate: true
+
+  #The separator to use for numeric separation.
+  Major_Separator: ","
+
+  #This is used to determine how many of minor it takes to make one major
+  Minor_Weight: 100
+
+#All configurations relating to currency notes.
+Note:
+
+  #Whether or not this currency is able to be noted using the note command
+  Notable: false
+
+  #The fee to note this currency.
+  Fee: 0.00
+
+  #The minimum amount required to create a note for this currency.
+  Minimum: 0.00
+
+  #Configurations relating to the note item.
+  Item:
+
+    #The material to use.
+    Material: "PAPER"
+
+    #The custom model data value used for this item. Defaults to 0.
+    #Optional.
+    ModelData: 0
+
+    #The base64 texture to use if the material is PLAYER_HEAD
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA0NzE5YjNiOTdkMTk1YTIwNTcxOGI2ZWUyMWY1Yzk1Y2FmYTE2N2U3YWJjYTg4YTIxMDNkNTJiMzdkNzIyIn19fQ=="
+
+    #All configurations relating to enchantment identification for the note item
+    #The format is - enchantment name
+    #Optional.
+    Enchantments:
+    - "example_enchant"
+
+    #All configurations relating to item flags identification for the note item
+    #The format is - item flag
+    #Optional.
+    Flags:
+    - "example_flag"
+
+#All configurations relating to conversion to other currencies.
+Conversion:
+
+  #The conversion power of this currency to other currencies.
+  #This is based on a decimal conversion system where 1.0 is 100% i.e. the "normal" rate
+  Rate: 1.0

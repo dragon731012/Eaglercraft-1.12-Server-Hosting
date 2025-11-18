@@ -1,0 +1,107 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: ANVIL
+        buy: 713.32
+        sell: 178.33
+      '2':
+        material: CARROT_ON_A_STICK
+        buy: 7.08
+        sell: 1.77
+      '3':
+        material: COBWEB
+        buy: 40
+        sell: 10
+      '4':
+        material: ELYTRA
+        buy: 2415.2
+        sell: -1
+      '5':
+        material: ENDER_CHEST
+        buy: 273.12
+        sell: 68.28
+      '6':
+        material: ENDER_EYE
+        buy: 10.11
+        sell: 2.53
+      '7':
+        material: EXPERIENCE_BOTTLE
+        buy: 107.94
+        sell: -1
+      '8':
+        material: GLOWSTONE_DUST
+        buy: 7
+        sell: 1.75
+      '9':
+        material: LAVA_BUCKET
+        buy: 69.62
+        sell: 17.41
+      '10':
+        material: LEAD
+        buy: 17.33
+        sell: 4.34
+      '11':
+        material: LILY_PAD
+        buy: 28
+        sell: 7
+      '12':
+        material: MAP
+        buy: 99.29
+        sell: 24.83
+      '13':
+        material: NAME_TAG
+        buy: 100
+        sell: 25
+      '14':
+        material: NETHER_STAR
+        buy: 400
+        sell: 100
+      '15':
+        material: RED_BED
+        buy: 96.09
+        sell: 24.03
+      '16':
+        material: SADDLE
+        buy: 60
+        sell: 15
+      '17':
+        material: SHULKER_SHELL
+        buy: 7
+        sell: 1.75
+      '18':
+        material: SLIME_BALL
+        buy: 5
+        sell: 1.25
+      '19':
+        material: SNOW
+        buy: 6.62
+        sell: 1.66
+      '20':
+        material: SNOWBALL
+        buy: 3
+        sell: 0.75
+      '21':
+        material: SPONGE
+        buy: 525
+        sell: 131.25
+      '22':
+        material: TOTEM_OF_UNDYING
+        buy: 100
+        sell: 25
+      '23':
+        material: WATER_BUCKET
+        buy: 69.57
+        sell: 17.4
+      '24':
+        material: WRITABLE_BOOK
+        buy: 48.95
+        sell: 12.24
+      '25':
+        material: BEACON
+        buy: 551.52
+        sell: 137.88
+      '26':
+        material: END_ROD
+        buy: 2.14
+        sell: 0.54

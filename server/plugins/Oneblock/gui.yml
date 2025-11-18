@@ -1,0 +1,13 @@
+# GUI
+baseGUI: "&a[OneBlock GUI] &f- &lMain"
+
+acceptGUI: "&fYou are invited to the island."
+acceptGUIignore: "&4Ignore"
+acceptGUIjoin: "&aJoin %s's Island" 
+# %s - player name
+
+topGUI: "&f[OneBlock GUI] &f- &lTop"
+    
+visitGUI: "&f[OneBlock GUI] &f- &lVisit"
+    
+idresetGUI: "&4[your island's data will be lost]"

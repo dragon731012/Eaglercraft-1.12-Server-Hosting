@@ -1,0 +1,39 @@
+# Attention! If category name has _ in it, that means its legacy item which was converted from jobConfig.yml file
+# Keep this format until you will be sure that all legacy items have been converted throw usage, which is automatic process when player uses items with boost in them
+
+# Name which will be used to identify this particular item boost
+# This is EXAMPLE boost and will be ignored
+exampleBoost:
+  # Item Id which can be any material name as of 1.13 update
+  # This is only used when performing command like /jobs give, but boost itself is not dependent on item type
+  # You can use ingame command /jobs edititemboost to give particular boost to any item you are holding
+  id: Golden_shovel
+  # (Optional) Item custom name
+  # Custom colors like &2 &5 can be used
+  name: '&2Custom item name'
+  # (Optional) Item custom lore
+  # Same as name, supports color codes
+  lore:
+  - '&2Some random'
+  - '&5Lore with some'
+  - '&7Colors'
+  # (Optional) Item custom enchants
+  # All enchantment names can be found https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+  enchants:
+  - FIRE_ASPECT=1
+  - DAMAGE_ALL=1
+  # [Required] Money boost: 1.1 is equals 10% more income when 0.9 is equals 10% less from base income
+  moneyBoost: 1.0
+  expBoost: 1.0
+  pointsBoost: 1.0
+  # [Required] Jobs which should receive this boost
+  # Can be specific jobs or use 'all' to give this boost for every job
+  jobs:
+  - Miner
+  - Woodcutter
+  - all
+  # (Optional) Defines level of job from which this boost should be applied
+  # Keep in mind that if boost have multiple jobs, then level will be checked by job which is requesting boost value
+  levelFrom: 0
+  # (Optional) Defines level of job until which this boost should be applied
+  levelUntil: 50

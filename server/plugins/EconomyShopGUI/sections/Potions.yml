@@ -1,0 +1,15 @@
+enable: true
+slot: 41
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  potion-glow: true
+  material: POTION
+  displayname: '&d&lPotions + Tipped Arrows'
+  name: '&d&lPotions + Tipped Arrows'

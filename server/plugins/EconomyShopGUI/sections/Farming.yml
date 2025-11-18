@@ -1,0 +1,14 @@
+enable: true
+slot: 21
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: WHEAT
+  displayname: '&a&lFarming'
+  name: '&a&lFarming'

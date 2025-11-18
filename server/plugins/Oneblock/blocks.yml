@@ -1,0 +1,219 @@
+# Configuration of levels.
+# Blocks and mobs can be duplicated (Increases the chance of occurrence)
+# by MrMarL & Adarsh A
+
+MaxLevel: 'Level: MAX'
+'0':
+### Level name:
+- 'Level: 0 - Grass starter'
+### [optional] Custom color of the progress bar:
+- GREEN
+### [optional] Custom style of the progress bar:
+- SEGMENTED_20
+### [optional] Custom level size:
+- 16
+### List of blocks:
+- GRASS_BLOCK
+### List of mobs:
+- CREEPER
+'1':
+- 'Level: 1 - Podzol & melon'
+- PODZOL
+- GRASS_BLOCK
+- MELON_BLOCK
+- ZOMBIE
+- SPIDER
+'2':
+- 'Level: 2 - Forest'
+- BIRCH_LOG
+- OAK_LOG
+- OAK_LEAVES
+- SHEEP
+- COW
+- PIG
+- CHICKEN
+'3':
+- 'Level: 3 - Little cave'
+- STONE
+- COBBLESTONE
+- COAL_ORE
+- GRAVEL
+- SKELETON
+'4':
+- 'Level: 4 - Deposits of rocky rocks'
+- GRANITE
+- DIORITE
+- ANDESITE
+'5':
+- 'Level: 5 - Little desert'
+- SAND
+- SANDSTONE
+- CACTUS
+'6':
+- 'Level: 6 - Ore deposit'
+- IRON_ORE
+- COARSE_DIRT
+- COPPER_ORE
+- DEEPSLATE_COPPER_ORE
+'7':
+- 'Level: 7 - The first chest'
+- small_chest
+- MOSSY_COBBLESTONE
+- WHITE_TERRACOTTA
+- ORANGE_TERRACOTTA
+- YELLOW_TERRACOTTA
+- HORSE
+- MULE
+- DONKEY
+'8':
+- 'Level: 8 - Deep forest'
+- SPRUCE_LOG
+- DARK_OAK_LOG
+- SPRUCE_LEAVES
+'9':
+- 'Level: 9 - Mine'
+- STONE
+- COAL_ORE
+- GOLD_ORE
+- LAPIS_ORE
+'10':
+- 'Level: 10 - Snow?'
+- IRON_ORE
+- INFESTED_STONE
+- SNOW_BLOCK
+- PACKED_ICE
+'11':
+- 'Level: 11 - Red desert?'
+- CLAY
+- medium_chest
+- WHITE_CONCRETE
+- RED_SAND
+- RED_SANDSTONE
+- VILLAGER
+'12':
+- 'Level: 12 - Acacia & mushrooms'
+- ACACIA_LOG
+- ACACIA_LEAVES
+- MUSHROOM_STEM
+- BROWN_MUSHROOM_BLOCK
+- RED_MUSHROOM_BLOCK
+- PUMPKIN
+- MUSHROOM_COW
+'13':
+- 'Level: 13 - Sea'
+- PRISMARINE_BRICKS
+- DARK_PRISMARINE
+- SEA_LANTERN
+- GUARDIAN
+- ELDER_GUARDIAN
+'14':
+- 'Level: 14 - Am I rich?'
+- DIAMOND_ORE
+- EMERALD_ORE
+- CHISELED_SANDSTONE
+'15':
+- 'Level: 15 - Mangrove swamp'
+- MANGROVE_LEAVES
+- Mangrove_Log
+- Mangrove_Planks
+- Muddy_Mangrove_Roots
+- Stripped_Mangrove_Log
+- Bee_Nest
+- Mud
+- Clay
+'16':
+- 'Level: 16 - Obs...'
+- CUT_SANDSTONE
+- CARVED_PUMPKIN
+- OBSIDIAN
+'17':
+- 'Level: 17 - Hell!?'
+- NETHERRACK
+- GLOWSTONE
+- SOUL_SAND
+- PILLAGER
+- ZOMBIFIED_PIGLIN
+'18':
+- 'Level: 18 - Deep Dark'
+- Sculk
+- Sculk_Sensor
+- Sculk_Catalyst
+- Sculk_Shrieker
+- WITHER_SKELETON
+- BLAZE
+- ZOGLIN
+- STRIDER
+'19':
+- 'Level: 19 - Infernal terracotta?'
+- CHISELED_STONE_BRICKS
+- NETHER_BRICKS
+- GREEN_TERRACOTTA
+- PINK_TERRACOTTA
+- NETHER_QUARTZ_ORE
+- BLACK_TERRACOTTA
+- PIGLIN
+- HOGLIN
+'20':
+- 'Level: 20 - Is that quartz?'
+- NETHER_BRICKS
+- NETHERRACK
+- NETHER_QUARTZ_ORE
+'21':
+- 'Level: 21 - Never mine...'
+- PRISMARINE
+- CRIMSON_NYLIUM
+- WARPED_NYLIUM
+- AMETHYST_BLOCK
+- DIAMOND_BLOCK
+'22':
+- 'Level: 22 - Never...'
+- NETHERRACK
+- high_chest
+- CRIMSON_STEM
+'23':
+- 'Level: 23 - Ne...'
+- WARPED_STEM
+- high_chest
+- OXIDIZED_COPPER
+- NETHER_GOLD_ORE
+'24':
+- 'Level: 24 - Ancient City'
+- Deepslate
+- Cobbled_Deepslate
+- Polished_Deepslate
+- Deepslate_Bricks
+- Deepslate_Tiles
+- Chiseled_Deepslate
+- Deepslate_Bricks
+- Slabs
+- Gray_Wool
+- Sculk_Sensor
+- Redstone_Lamp
+- Soul_Sand
+- Furnace
+- Lectern
+- Block_of_Redstone
+- Target
+'25':
+- 'Level: 25'
+- CRIMSON_HYPHAE
+- WARPED_HYPHAE
+- CRACKED_NETHER_BRICKS
+'26':
+- 'Level: 26 - Deep crying'
+- SHROOMLIGHT
+- CRYING_OBSIDIAN
+- BLACKSTONE
+- DEEPSLATE_BRICKS
+- CRACKED_DEEPSLATE_BRICKS
+'27':
+- 'Level: 27'
+- NETHERITE_BLOCK
+- ANCIENT_DEBRIS
+- POLISHED_BLACKSTONE
+'28':
+- 'Level: 28 - The end?'
+- END_STONE
+- CUT_SANDSTONE
+- CARVED_PUMPKIN
+- OBSIDIAN

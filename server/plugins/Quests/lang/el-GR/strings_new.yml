@@ -1,0 +1,6 @@
+---
+questMaxAllowed: "Μπορείς να έχεις ενεργές μόνο <number> αποστολές."
+questAlreadyOn: "Εχεις επιλέξει ήδη αυτή την αποστολή!"
+questTooEarly: "Δεν μπορεις να επιλέξεις την <quest> για ακομα <time>."
+questAlreadyCompleted: "Εχεις ήδη τελειώσει την <quest>."
+questInvalidLocation: "Δεν μπορεις να παρεις την <quest> σε αυτη την τοποθεσία."

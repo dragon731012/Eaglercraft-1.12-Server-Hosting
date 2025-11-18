@@ -1,0 +1,408 @@
+[08:58:13] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[08:58:13] [Server thread/INFO]: Loading properties
+[08:58:13] [Server thread/INFO]: Default game type: SURVIVAL
+[08:58:13] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[08:58:13] [Server thread/INFO]: Debug logging is disabled
+[08:58:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:58:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:58:13] [Server thread/INFO]: Generating keypair
+[08:58:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:58:13] [Server thread/INFO]: Using epoll channel type
+[08:58:13] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[08:58:14] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.17
+[08:58:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[08:58:14] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[08:58:14] [Server thread/INFO]: [Oneblock] Loading Oneblock v1.4.3c
+[08:58:14] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.11.3
+[08:58:14] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+[08:58:14] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.4.0
+[08:58:15] [Server thread/INFO]: [TheNewEconomy] Loading TheNewEconomy v0.1.1.9
+[08:58:16] [Server thread/INFO]: [TheNewEconomy] Loading The New Economy with Java Version: 11.0.16
+[08:58:16] [Server thread/INFO]: [TheNewEconomy] Hooked into Vault
+[08:58:16] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
+[08:58:16] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.15.1
+[08:58:16] [Server thread/INFO]: [Jobs] Loading Jobs v4.16.3
+[08:58:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:58:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[08:58:16] [Server thread/INFO]:         __    
+[08:58:16] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[08:58:16] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[08:58:16] [Server thread/INFO]: 
+[08:58:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[08:58:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[08:58:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[08:58:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1343ms)
+[08:58:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[08:58:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[08:58:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[08:58:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[08:58:17] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[08:58:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.4.0
+[08:58:17] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[08:58:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:58:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:58:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:58:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:58:17] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:58:17] [Server thread/INFO]: Preparing level "world"
+[08:58:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:58:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:58:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:58:17] [Server thread/INFO]: Random Lighting Updates: false
+[08:58:17] [Server thread/INFO]: Structure Info Saving: true
+[08:58:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:58:17] [Server thread/INFO]: Max TNT Explosions: 100
+[08:58:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:58:17] [Server thread/INFO]: Mob Spawn Range: 4
+[08:58:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:58:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:58:17] [Server thread/INFO]: View Distance: 5
+[08:58:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:58:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:58:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:58:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:58:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:58:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:58:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:58:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:58:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:58:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:58:18] [Server thread/INFO]: Random Lighting Updates: false
+[08:58:18] [Server thread/INFO]: Structure Info Saving: true
+[08:58:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:58:18] [Server thread/INFO]: Max TNT Explosions: 100
+[08:58:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:58:18] [Server thread/INFO]: Mob Spawn Range: 4
+[08:58:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:58:18] [Server thread/INFO]: View Distance: 5
+[08:58:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:58:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:58:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:58:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:58:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:58:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:58:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:58:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:58:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:58:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:58:18] [Server thread/INFO]: Random Lighting Updates: false
+[08:58:18] [Server thread/INFO]: Structure Info Saving: true
+[08:58:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:58:18] [Server thread/INFO]: Max TNT Explosions: 100
+[08:58:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:58:18] [Server thread/INFO]: Mob Spawn Range: 4
+[08:58:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:58:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:58:18] [Server thread/INFO]: View Distance: 5
+[08:58:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:58:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:58:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:58:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:58:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:58:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:58:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:58:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7873487455685989650)
+[08:58:19] [Server thread/INFO]: Preparing start region for level 1 (Seed: -7873487455685989650)
+[08:58:19] [Server thread/INFO]: Preparing start region for level 2 (Seed: -7873487455685989650)
+[08:58:19] [Server thread/INFO]: [Oneblock] Enabling Oneblock v1.4.3c
+[08:58:19] [Server thread/INFO]: [Oneblock] 
+█▀█ ░░░░ ░░░ █▀▄ ░░░ ░░░ ░░░ ░░░
+█░█ █▄░█ █▀▀ █▄▀ █░░ █▀█ █▀▀ █▄▀
+█▄█ █░▀█ ██▄ █▄▀ █▄▄ █▄█ █▄▄ █░█
+
+by MrMarL
+[08:58:19] [Server thread/INFO]: [Oneblock] legacy
+[08:58:19] [Server thread/INFO]: [Oneblock] Loaded 2 general rewards and 0 level-specific reward sets
+[08:58:19] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.11.3
+[08:58:19] [Server thread/INFO]: [VeinMiner] Registering events
+[08:58:19] [Server thread/INFO]: [VeinMiner] Registering commands
+[08:58:19] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[08:58:19] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
+[08:58:19] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[08:58:19] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
+[08:58:19] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
+[08:58:20] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[08:58:20] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[08:58:20] [Server thread/INFO]: [TheNewEconomy] Enabling TheNewEconomy v0.1.1.9
+[08:58:21] [Server thread/INFO]: Loading Configurations.
+[08:58:21] [Server thread/INFO]: Initializing Configurations.
+[08:58:21] [Server thread/INFO]: Initialized config.yml
+[08:58:21] [Server thread/INFO]: Initialized commands.yml
+[08:58:21] [Server thread/INFO]: Initialized messages.yml
+[08:58:21] [Server thread/INFO]: Initialized players.yml
+[08:58:21] [Server thread/INFO]: Initialized worlds.yml
+[08:58:22] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[08:58:22] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[08:58:22] [Server thread/INFO]: Updating tables, please hold.
+[08:58:22] [Server thread/INFO]: Finished updating tables.
+[08:58:22] [Server thread/INFO]: [TheNewEconomy] Finished loading data!
+[08:58:22] [Server thread/INFO]: [TheNewEconomy] Finished loading data!
+[08:58:22] [Server thread/INFO]: [TheNewEconomy] The New Economy has been enabled!
+[08:58:22] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[08:58:22] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[08:58:22] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[08:58:22] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[08:58:22] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[08:58:22] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[08:58:22] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[08:58:22] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[08:58:22] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[08:58:22] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[08:58:22] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[08:58:22] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[08:58:22] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[08:58:23] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[08:58:23] [Server thread/INFO]: [Essentials] Using locale en
+[08:58:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[08:58:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[08:58:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[08:58:24] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[08:58:24] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.15.1
+[08:58:24] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[08:58:24] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[08:58:24] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[08:58:24] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[08:58:24] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using TheNewEconomy as economy provider
+[08:58:24] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[08:58:25] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
+[08:58:25] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[08:58:25] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[08:58:25] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[08:58:25] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: This item material is not supported in this minecraft version.
+[08:58:25] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Item path in config.yml: spawner-break-tools.3
+[08:58:25] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[08:58:25] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[08:58:25] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 1022ms to complete
+[08:58:25] [Server thread/INFO]: [Jobs] Enabling Jobs v4.16.3
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 8 titles!
+[08:58:28] [Server thread/INFO]: [Jobs] Your defined (REPEATER) protected block id/name is not correct!
+[08:58:28] [Server thread/INFO]: [Jobs] Your defined (COMPARATOR) protected block id/name is not correct!
+[08:58:28] [Server thread/INFO]: [Jobs] Your defined (WHEAT) protected block id/name is not correct!
+[08:58:28] [Server thread/INFO]: [Jobs] Your defined (SUGAR_CANE) protected block id/name is not correct!
+[08:58:28] [Server thread/INFO]: [Jobs] Your defined (NETHER_WART) protected block id/name is not correct!
+[08:58:28] [Server thread/INFO]: [Jobs] Your defined (MELON) protected block id/name is not correct!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 69 protected blocks timers!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1111 custom item names!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 51 custom entity names!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 2 custom MythicMobs names!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 30 custom enchant names!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 4 shop items!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Woodcutter
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Miner
+[08:58:28] [Server thread/WARN]: [Jobs] Job Miner is using REDSTONE_ORE instead of GLOWING_REDSTONE_ORE.
+[08:58:28] [Server thread/WARN]: [Jobs] Automatically changing block to GLOWING_REDSTONE_ORE. Please update your configuration.
+[08:58:28] [Server thread/WARN]: [Jobs] In vanilla minecraft, REDSTONE_ORE changes to GLOWING_REDSTONE_ORE when interacted with.
+[08:58:28] [Server thread/WARN]: [Jobs] In the future, Jobs using REDSTONE_ORE instead of GLOWING_REDSTONE_ORE may fail to work correctly.
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Builder
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Digger
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Farmer
+[08:58:28] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: WHEAT (wheat)! Material must be a block! Use "/jobs blockinfo" on a target block
+[08:58:28] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: CARROTS (carrots)! Material must be a block! Use "/jobs blockinfo" on a target block
+[08:58:28] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: SUGAR_CANE (sugar_cane)! Material must be a block! Use "/jobs blockinfo" on a target block
+[08:58:28] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Break type property: NETHER_WART (nether_wart)! Material must be a block! Use "/jobs blockinfo" on a target block
+[08:58:28] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Place type property: WHEAT (wheat)! Material must be a block! Use "/jobs blockinfo" on a target block
+[08:58:28] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Place type property: CARROTS (carrots)! Material must be a block! Use "/jobs blockinfo" on a target block
+[08:58:28] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Place type property: SUGAR_CANE (sugar_cane)! Material must be a block! Use "/jobs blockinfo" on a target block
+[08:58:28] [Server thread/WARN]: [Jobs] Job Farmer has an invalid Breed type property: Turtle!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Hunter
+[08:58:28] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: PHANTOM!
+[08:58:28] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: DROWNED!
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Explorer
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Crafter
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Fisherman
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Weaponsmith
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Brewer
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 1 quests for Enchanter
+[08:58:28] [Server thread/INFO]: [Jobs] Loaded 12 jobs!
+[08:58:28] [Server thread/INFO]: [Jobs] Explorer job manager registered!
+[08:58:29] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
+[08:58:29] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
+[08:58:29] [Server thread/INFO]: [Jobs] Preloaded 2 players data in 0.01
+[08:58:29] [Server thread/INFO]: [Jobs] Loaded 43 block protection entries. 3ms
+[08:58:29] [Server thread/INFO]: [Jobs] Loading explorer data
+[08:58:29] [Server thread/INFO]: [Jobs] Loaded explorer data (85)
+[08:58:29] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
+[08:58:29] [Server thread/INFO]: Done (11.757s)! For help, type "help" or "?"
+[08:58:29] [Server thread/INFO]: Timings Reset
+[08:58:29] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[08:58:29] [Craft Scheduler Thread - 4/INFO]: [Essentials] Fetching version information...
+[08:58:29] [Server thread/INFO]: [Jobs] Successfully linked with Vault.
+[08:58:29] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[08:58:29] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[08:58:30] [Craft Scheduler Thread - 1/INFO]: Initialized items.yml
+[08:58:51] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[08:59:00] [Server thread/INFO]: CONSOLE: Starting creation of world 'OneBlock'...
+[08:59:00] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'OneBlock' - Env: NORMAL - Type: NORMAL & generator: OneBlock
+[08:59:00] [Server thread/INFO]: -------- World Settings For [OneBlock] --------
+[08:59:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:59:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:59:00] [Server thread/INFO]: Random Lighting Updates: false
+[08:59:00] [Server thread/INFO]: Structure Info Saving: true
+[08:59:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:59:00] [Server thread/INFO]: Max TNT Explosions: 100
+[08:59:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:59:00] [Server thread/INFO]: Mob Spawn Range: 4
+[08:59:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:59:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:59:00] [Server thread/INFO]: View Distance: 5
+[08:59:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:59:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:59:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:59:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:59:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:59:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:59:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:59:00] [Server thread/INFO]: Preparing start region for level 3 (Seed: 2075541247003183024)
+[08:59:00] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[08:59:00] [Server thread/WARN]: [Multiverse-Core] Original Location: X: -409 Y: 64 Z: 1,271 P: 0 Y: 0 
+[08:59:01] [Server thread/ERROR]: [Multiverse-Core] Safe spawn NOT found!!!
+[08:59:01] [Server thread/INFO]: CONSOLE: Complete!
+[08:59:55] [Server thread/INFO]: --- Set World Spawn ---
+[08:59:55] [Server thread/INFO]: Sets the spawn for the current world.
+[08:59:55] [Server thread/INFO]: /mv setspawn
+[08:59:55] [Server thread/INFO]: Permission: multiverse.core.spawn.set
+[08:59:55] [Server thread/INFO]: Aliases: mv set spawn, mv setspawn, mvset spawn, mvsetspawn, mvss
+[08:59:55] [Server thread/INFO]: Examples:
+[08:59:55] [Server thread/INFO]: /mv set spawn
+[09:00:53] [Server thread/INFO]: --- Set World Spawn ---
+[09:00:53] [Server thread/INFO]: Sets the spawn for the current world.
+[09:00:53] [Server thread/INFO]: /mv setspawn
+[09:00:53] [Server thread/INFO]: Permission: multiverse.core.spawn.set
+[09:00:53] [Server thread/INFO]: Aliases: mv set spawn, mv setspawn, mvset spawn, mvsetspawn, mvss
+[09:00:53] [Server thread/INFO]: Examples:
+[09:00:53] [Server thread/INFO]: /mv set spawn
+[09:01:03] [Server thread/INFO]: --- Set World Spawn ---
+[09:01:03] [Server thread/INFO]: Sets the spawn for the current world.
+[09:01:03] [Server thread/INFO]: /mv setspawn
+[09:01:03] [Server thread/INFO]: Permission: multiverse.core.spawn.set
+[09:01:03] [Server thread/INFO]: Aliases: mv set spawn, mv setspawn, mvset spawn, mvsetspawn, mvss
+[09:01:03] [Server thread/INFO]: Examples:
+[09:01:03] [Server thread/INFO]: /mv set spawn
+[09:04:52] [Server thread/INFO]: CONSOLE: Loaded world 'OneBlock'!
+[09:05:09] [User Authenticator #1/INFO]: UUID of player Etuate is 11116e4c-80bb-3bff-8344-b0163df6a64b
+[09:05:09] [Server thread/INFO]: Etuate[/0:0:0:0:0:0:0:1%0:51372] logged in with entity id 55 at ([world]-787.6999999880791, 72.0, 51.30000001192093)
+[09:05:34] [Server thread/INFO]: Etuate issued server command: /v
+[09:05:36] [Server thread/INFO]: Etuate issued server command: /v
+[09:05:40] [Server thread/INFO]: Etuate issued server command: /mvtp OneBlock 0 65 0
+[09:05:47] [Server thread/INFO]: Etuate issued server command: /mv list
+[09:05:59] [Server thread/INFO]: Etuate issued server command: /mv tp Etuate OneBlock
+[09:06:07] [Server thread/INFO]: Etuate issued server command: /mvconfirm
+[09:06:10] [Server thread/INFO]: Etuate issued server command: /fly
+[09:07:09] [Server thread/INFO]: Etuate issued server command: /mv setspawn OneBlock
+[09:07:14] [Server thread/INFO]: Etuate issued server command: /mv setspawn
+[09:07:14] [Server thread/WARN]: [Multiverse-Core] Somebody tried to set the spawn location for 'OneBlock' to an unsafe value! Adjusting...
+[09:07:14] [Server thread/WARN]: [Multiverse-Core] Old Location: X: -409 Y: 64 Z: 1,271 P: 0 Y: 0 
+[09:07:14] [Server thread/WARN]: [Multiverse-Core] New (unsafe) Location: X: -409 Y: 97.27 Z: 1,271 P: 40.8 Y: 44.7 
+[09:07:14] [Server thread/WARN]: [Multiverse-Core] Couldn't fix the location. I have to abort the spawn location-change :/
+[09:07:30] [Server thread/INFO]: Etuate issued server command: /ob set
+[09:07:37] [Server thread/INFO]: Etuate issued server command: /mv setspawn
+[09:09:18] [Server thread/INFO]: Etuate lost connection: Timed out
+[09:09:18] [Server thread/INFO]: Etuate left the game
+[09:09:32] [User Authenticator #2/INFO]: UUID of player Etuate is 11116e4c-80bb-3bff-8344-b0163df6a64b
+[09:09:32] [Server thread/INFO]: Etuate[/0:0:0:0:0:0:0:1%0:39190] logged in with entity id 173 at ([OneBlock]-408.42083221519266, 98.0, 1271.2319511473163)
+[09:09:34] [Server thread/INFO]: Etuate issued server command: /fly
+[09:09:42] [Server thread/INFO]: Etuate issued server command: /ob se
+[09:09:44] [Server thread/INFO]: Etuate issued server command: /ob set
+[09:09:52] [Server thread/INFO]: Etuate issued server command: /mv set spawn
+[09:10:39] [Server thread/INFO]: Etuate issued server command: /speed 10
+[09:11:03] [Server thread/INFO]: Etuate issued server command: /speed 1
+[09:11:23] [Server thread/INFO]: Etuate issued server command: /ob set
+[09:14:14] [Server thread/INFO]: Etuate lost connection: Timed out
+[09:14:14] [Server thread/INFO]: Etuate left the game
+[09:18:18] [User Authenticator #3/INFO]: UUID of player Etuate is 11116e4c-80bb-3bff-8344-b0163df6a64b
+[09:18:18] [Server thread/INFO]: Etuate[/0:0:0:0:0:0:0:1%0:55702] logged in with entity id 176 at ([OneBlock]0.7051170900000376, 66.0, 0.28233033327884616)
+[09:18:23] [Server thread/INFO]: Etuate issued server command: /fly
+[09:18:45] [Server thread/INFO]: Etuate issued server command: /ob set
+[09:20:52] [Server thread/INFO]: Etuate lost connection: Timed out
+[09:20:52] [Server thread/INFO]: Etuate left the game
+[09:22:49] [User Authenticator #4/INFO]: UUID of player Etuate is 11116e4c-80bb-3bff-8344-b0163df6a64b
+[09:22:49] [Server thread/INFO]: Etuate[/0:0:0:0:0:0:0:1%0:45780] logged in with entity id 184 at ([OneBlock]0.4510453861242576, 66.0, 0.49149684115004877)
+[09:22:52] [Server thread/INFO]: Etuate issued server command: /ob tp
+[09:22:57] [Server thread/INFO]: Etuate issued server command: /
+[09:23:04] [Server thread/INFO]: Etuate issued server command: /ob tp
+[09:23:06] [Server thread/INFO]: Etuate issued server command: /fly
+[09:23:07] [Server thread/INFO]: Etuate fell out of the world
+[09:23:16] [Server thread/INFO]: Etuate issued server command: /flty
+[09:23:24] [Server thread/INFO]: Etuate issued server command: /speed 10
+[09:23:43] [Server thread/INFO]: Etuate issued server command: /ob tp
+[09:23:46] [Server thread/INFO]: Etuate issued server command: /ob tp
+[09:23:49] [Server thread/INFO]: Etuate issued server command: /ob tp
+[09:24:17] [Server thread/INFO]: Etuate issued server command: /ob create
+[09:24:30] [Server thread/INFO]: Etuate issued server command: /ob tp
+[09:24:34] [Server thread/INFO]: Etuate issued server command: /ob
+[09:25:14] [Server thread/INFO]: Etuate issued server command: /set spawn
+[09:25:18] [Server thread/INFO]: Etuate issued server command: /mv set spawn
+[09:25:38] [Server thread/INFO]: Etuate issued server command: /shop
+[09:27:10] [User Authenticator #5/INFO]: UUID of player YeerYeeler2041 is e92ea7b0-a422-3865-8df4-a078135d4682
+[09:27:10] [Server thread/INFO]: YeerYeeler2041[/0:0:0:0:0:0:0:1%0:58718] logged in with entity id 292 at ([world]10.5, 71.0, 3.5)
+[09:27:15] [Server thread/INFO]: YeerYeeler2041 issued server command: /tp Etuate'
+[09:27:15] [Server thread/INFO]: [Essentials] YeerYeeler2041 was denied access to command.
+[09:27:17] [Server thread/INFO]: YeerYeeler2041 issued server command: /tpa etuate
+[09:27:22] [Server thread/INFO]: Etuate issued server command: /tpaccept
+[09:27:34] [Server thread/INFO]: YeerYeeler2041 issued server command: /ob create
+[09:27:35] [Server thread/INFO]: YeerYeeler2041 issued server command: /ob
+[09:27:48] [Server thread/INFO]: YeerYeeler2041 issued server command: /ob
+[09:27:48] [Server thread/INFO]: YeerYeeler2041 fell from a high place
+[09:27:56] [Server thread/INFO]: YeerYeeler2041 issued server command: /ob
+[09:28:03] [Server thread/INFO]: YeerYeeler2041 lost connection: Disconnected
+[09:28:03] [Server thread/INFO]: YeerYeeler2041 left the game
+[09:29:46] [Server thread/INFO]: Etuate fell out of the world
+[09:30:49] [Server thread/INFO]: Etuate issued server command: /give etuate woodenpickaxe
+[09:33:07] [Server thread/INFO]: Etuate fell out of the world
+[09:33:19] [Server thread/INFO]: Etuate issued server command: /give etuate stonepickaxe 1
+[09:33:29] [Server thread/INFO]: Etuate issued server command: /give etuate stoneshovel 1
+[09:33:44] [Server thread/INFO]: Etuate issued server command: /give etuate stoneaxe 1
+[09:33:50] [Server thread/INFO]: Etuate issued server command: /give etuate stonesword 1
+[09:35:53] [Server thread/INFO]: Etuate lost connection: Disconnected
+[09:35:53] [Server thread/INFO]: Etuate left the game

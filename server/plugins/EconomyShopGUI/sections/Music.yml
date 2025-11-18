@@ -1,0 +1,14 @@
+enable: true
+slot: 15
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: MUSIC_DISC_STRAD
+  displayname: '&6&lMusic'
+  name: '&6&lMusic'

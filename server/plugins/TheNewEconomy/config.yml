@@ -1,0 +1,323 @@
+# The New Economy v0.1.1.1
+# Author: creatorfromhell
+# License: http://creativecommons.org/licenses/by-nc-nd/4.0/
+# If you would like to contribute to the plugin
+# you can do so via Github at https://github.com/TheNewEconomy/TNE-Bukkit
+# To donate to the continued development of TNE with perks, https://patreon.com/creatorfromhell
+# To view a commented version of this file, visit https://github.com/TheNewEconomy/TNE-Bukkit/blob/master/TNE/src/net/tnemc/resources/config.yml.
+Core:
+
+    #Whether or not to enable UUID support(results may vary if turned off).
+    UUID: true
+
+    #Whether or not players should have different balances, banks, etc in different worlds
+    Multiworld: false
+
+    #The name of the world to use if multiworld is set to false. Setting to TNE_SYSTEM will let TNE decide the default world.
+    DefaultWorld: "TNE_SYSTEM"
+
+    #Whether or not to load TNE in debug mode.
+    Debug: false
+
+    #All configurations relating to the server in general.
+    Server:
+
+        #The material to use to activate the TNE Action Menu.
+        MenuMaterial: "GOLD_INGOT"
+
+        #Whether or not mob drops that are a currency item should be disabled.
+        MobDrop: true
+
+        #Whether or not to consolidate item-based currencies automatically.
+        Consolidate: false
+
+        #Whether or not experience gains should be disabled. This will help for servers that use Experience as currency.
+        ExperienceGain: false
+
+        #Whether or not players are able to use currency in villager trades.
+        CurrencyTrading: true
+
+        #The name of this server for data-related purposes. Max length is 100 characters.
+        Name: "Main Server"
+
+        #All configurations relating to the server's economy account.
+        Account:
+
+            #Whether or not the server account has been enabled.
+            Enabled: true
+
+            #The name of the server account. Max length is 100 characters.
+            Name: "Server_Account"
+
+            #The starting balance for the server account.
+            Balance: 500
+
+        #Configurations relating to third-party support.
+        ThirdParty:
+
+            #Whether or not bstats should be enabled.
+            Stats: true
+
+            #The prefix used by the Towny plugin to denote town UUIDs
+            Town: "town-"
+
+            #The prefix used by the Towny plugin to denote nation UUIDs
+            Nation: "nation-"
+
+            #The prefix used by the Factions plugin to denote faction UUIDs
+            Faction: "faction-"
+
+            #Whether or not mcmmo skill rewards that are a currency item should be disabled.
+            McMMORewards: true
+
+    #All configurations relating to TNE commands
+    Commands:
+
+        #The command trigger(s) used to identify what is and isn't a command.
+        #To use multiple triggers, separate with comma, i.e. /,!.
+        Triggers: "/"
+
+        #Configurations relating to the money top command.
+        Top:
+
+          #A list of values to use to exclude certain users from baltop if the username contains these values.
+          Exclusions:
+          - "town-%"
+          - "nation-%"
+          - "faction-%"
+          - "towny-%"
+
+        #Extra configurations regarding the pay command
+        Pay:
+
+          #Can players use /pay on offline players?
+          Offline: true
+
+          #How close to another player someone must be, in blocks, in order to use /pay on them. Set to 0 to disable.
+          Radius: 0
+
+    #All configurations relating to update checking
+    Update:
+
+        #Whether or not TNE should check if the server is using the latest build
+        Check: true
+
+        #Whether or not admins(anyone with perm. node tne.admin) should be notified on login if TNE is outdated.
+        Notify: true
+
+    #All configurations relating to the transaction system.
+    Transactions:
+
+        #The time format to use when displaying transaction history data.
+        Format: "Md y"
+
+        #The timezone to use for transactions.
+        Timezone: "US/Eastern"
+
+    #All configurations relating to the data auto saver
+    AutoSaver:
+
+        #Whether or not the auto saver is enabled(will auto save player data)
+        Enabled: true
+
+        #The interval at which the auto saver will save data(in seconds)
+        Interval: 600
+
+    #All configurations relating to currency.
+    Currency:
+
+        #Configurations relating to basic information about currencies.
+        Info:
+
+            #Whether or not you wish to use advanced currencies, which utilize the currency.yml configuration file.
+            Advanced: false
+
+            #Whether or not to format the balances in /bal.
+            FormatMoney: true
+
+            #Whether or not to format the balances in /baltop.
+            FormatTop: true
+
+        #Configurations relating to basic currency configurations.
+        #This is only used if Currency.Info.Advanced is set to false.
+        Basic:
+           Identifier: "Dollar"
+
+           #The singular form of this currency's major denomination.
+           Major_Single: "Dollar"
+
+           #The plural form of this currency's major denomination.
+           Major_Plural: "Dollars"
+
+           #The singular form of this currency's minor denomination.
+           Minor_Single: "Cent"
+
+           #The plural form of this currency's minor denomination.
+           Minor_Plural: "Cents"
+
+           #The SI Prefixes used when <shorten> is used for the currency's format.
+           #TNE's default prefixes are based off of the Internation Bureau of Weights and Measures official list.
+           #http://www.unitarium.com/si-prefixes along with a few addition shorts for above Nonillion.
+           #The order in which the characters are:
+           #Thousand - k
+           #Million - M
+           #Billion - G
+           #Trillion - T
+           #Quadrillion - P
+           #Quintillion - E
+           #Sextillion - Z
+           #Septillion - Y
+           #Octillion - X
+           #Nonillion - W
+           #Decillion - V
+           #Undecillion - U
+           #Nondecillion - N
+           #Nonvigintillion - ₮
+           Prefixes: "kMGTPEZYXWVUN₮"
+
+           #The character to use as the symbol for this currency.
+           Symbol: "$"
+
+           #The currency type to use for this currency.
+           #Valid Types: virtual, item, experience
+           Type: "virtual"
+
+           #Configurations relating to item currencies for the basic currency.
+           #Format: Material: Value(using a period "." as the decimal)
+           Items:
+
+             GOLD_BLOCK: 9
+             GOLD_INGOT: 1
+
+           #Configurations relating to virtual currency tiers for the basic currency.
+           #Format: Name: Value(using a period "." as the decimal)
+           Virtual:
+
+             Dollar: 1
+             Cent: 0.01
+
+           #Various options for the basic currency configurations.
+           Options:
+
+             #The format to use when outputting this currency into chat.
+             #The variables you're able to use here.
+             #<symbol> - The currency's symbol
+             #<decimal> - The currency's decimal.
+             #<major> - A combination of the currency's major amount and name
+             #<minor> - A combination of the currency's minor amount and name
+             #<major.name> - The currency's major name.
+             #<minor.name> - The currency's minor name.
+             #<major.amount> - The currency's major amount.
+             #<minor.amount> - The currency's minor amount.
+             #<short.amount> - The currency's shortened amount.
+             #<shorten> - Added to make the outputted value shortened
+             # If shortened, it will ignore the value of Format.
+             #It's also possible to include all colour variables from messages.yml
+             #Example: <major> and <minor>
+             Format: "<symbol><major.amount><decimal><minor.amount>"
+
+             #The maximum balance possible for this currency.
+             # Maximum possible value: 900000000000000000000000000000000000000000000
+             MaxBalance: 900000000000000000000000000000000000000000000
+
+             #The initial balance for accounts.
+             #Will be used if no world-specific configurations are found if multiworld is enabled
+             Balance: 200.0
+
+             #The character to use as the decimal place holder.
+             Decimal: "."
+
+             #Would you like your item currency balances to also check the player's ender chest?
+             EnderChest: true
+
+             #Whether or not the major value should be separated every three numeric places.
+             Major_Separate: true
+
+             #The separator to use for numeric separation.
+             Major_Separator: ","
+
+             #This is used to determine how many of minor it takes to make one major
+             Minor_Weight: 100
+
+           #All configurations relating to currency notes.
+           Note:
+
+             #Whether or not this currency is able to be noted using the note command
+             Notable: false
+
+             #The fee to note this currency.
+             Fee: 0.00
+
+             #The minimum amount required to create a note for this currency.
+             Minimum: 0.00
+
+             #Configurations relating to the note item.
+             Item:
+
+               #The material to use.
+               Material: "PAPER"
+
+               #The custom model data value used for this item. Defaults to 0.
+               #Optional.
+               ModelData: 0
+
+               #The base64 texture to use if the material is PLAYER_HEAD
+               Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA0NzE5YjNiOTdkMTk1YTIwNTcxOGI2ZWUyMWY1Yzk1Y2FmYTE2N2U3YWJjYTg4YTIxMDNkNTJiMzdkNzIyIn19fQ=="
+
+               #All configurations relating to enchantment identification for the note item
+               #The format is - enchantment name
+               #Optional.
+               Enchantments:
+               - "example_enchant"
+
+               #All configurations relating to item flags identification for the note item
+               #The format is - item flag
+               #Optional.
+               Flags:
+               - "example_flag"
+
+    #All configurations relating to worlds
+    World:
+
+       #Whether or not changing worlds costs money
+       EnableChangeFee: false
+
+       #How much it costs to change worlds if ChangeFee is enabled
+       ChangeFee: 5.0
+
+
+    #All configurations relating to the database
+    Database:
+
+        #The database type to use. Current options: MySQL, H2.
+        Type: "h2"
+
+        #The prefix to use for TheNewEconomy MySQL and H2 Tables
+        Prefix: "TNE"
+
+        #Whether or not to backup your database automatically before converting to newer versions of TNE
+        Backup: true
+
+        #The file to which all the data will be saved if using a file-based database
+        File: "Economy"
+
+        #All configurations relating to the MySQL Database
+        MySQL:
+
+            #The MySQL host
+            Host: "localhost"
+
+            #Whether or not to use SSL.
+            SSL: false
+
+            #The MySQL port
+            Port: 3306
+
+            #The MySQL database
+            DB: "TheNewEconomy"
+
+            #Your MySQL user's name
+            User: "user"
+
+            #Your MySQL user's password
+            Password: "password"

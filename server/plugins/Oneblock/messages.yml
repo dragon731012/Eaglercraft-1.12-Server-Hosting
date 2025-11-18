@@ -1,0 +1,70 @@
+# Messages
+help: |
+    &a OneBlock Plugin Help
+    &7 /ob j &f- join a new one or your own island.
+    &7 /ob invite 'playername' &f- an invitation to the island.
+    &7 /ob accept &f- to accept an invitation.
+    &7 /ob IDreset &f- deletes the player's data.
+
+help_adm: |
+    &a OneBlock Plugin Help
+    &7 /ob set &f- sets the location of the first island.
+    &7 /ob j &f- join a new one or your own island.
+    &7 /ob protection &f- does not allow players to leave their island.
+    &7 /ob invite 'playername' &f- an invitation to the island.
+    &7 /ob accept &f- to accept an invitation.
+    &7 /ob islands true &f- islands for new players.
+    &7 /ob islands set_my_by_def &f- sets your island as default for new players.
+    &7 /ob IDreset &f- deletes the player's data.
+
+invite_usage: |
+    &cUsage: /ob invite <username>
+
+invite_yourself: |
+    &eYou can't invite yourself.
+
+invite_no_island: |
+    &ePlease create a island before you do this.
+# %d - number of seats
+invite_team: |
+    &eMaximum number of seats on the island: %d
+# %s - player name
+invited: |
+    &aYou were invited by player %s.
+    &c/ob accept to accept).
+# %s - player name
+invited_succes: |
+    &aSuccesfully invited %s.
+
+kicked: |
+    &e has been kicked off your island!
+
+kick_usage: |
+    &cUsage: /ob kick <username>
+
+kick_yourself: |
+    &eYou can't kick yourself.
+
+accept_succes: |
+    &aSuccesfully accepted the invitation.
+
+accept_none: |
+    &c[There is no Pending invitations for you.]
+
+idreset: |
+    &aNow your data has been reset. You can create a new island /ob join.
+
+protection: |
+    &eare you trying to go &coutside the island?
+
+leave_not_set: |
+    &eSorry, but the position was not set.
+
+not_allow_visit: |
+    &eThe player did not allow visits.
+
+allowed_visit: |
+    &aYou have allowed other players to visit your island!
+
+forbidden_visit: |
+    &eYou have Forbidden other players from visiting your island!

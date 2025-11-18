@@ -1,0 +1,55 @@
+#OneBlock Plugin Configuration file
+#by MrMarL & Adarsh A
+
+#Specify the World Name.
+world: OneBlock
+#The Cordinates where the postion of your First OneBlock is set.
+x: 0.0
+y: 65.0
+z: 0.0
+#This is the place where a player gets tp-ed when they execute /ob leave
+leaveworld: world
+#Specify the Lobby World
+xleave: 0.0
+yleave: 0.0
+zleave: 0.0
+yawleave: 0.0
+#Should we enable the Progress Bar?
+progress_bar: true
+#What shoud progress bar show?
+progress_bar_text: level
+#ProgressBar Color
+progress_bar_color: GREEN
+#ProgressBar Style
+progress_bar_style: SOLID
+#Shoud we Create Islands for New Players? (set false to spawn only oneblock)
+island_for_new_players: true
+#Should the player get tp-ed to the island again after the death in game?
+rebirth_on_the_island: true
+#Level Multiplier 
+#Default value: 5
+level_multiplier: 5
+#Should we Prevent other players going from their island to others islands?
+protection: false
+#Create a WorldGuard region for each island? (only premium)
+worldguard: true
+#This is the block-distance between one Island to other.
+#Default value 100. If you increase this then More chunks will be generated.
+#Which causes more storage to be occupied
+set: 100
+#Use the island creation mode in a circle?
+circlemode: true
+#Toss drop(item) up above the block?
+droptossup: true
+#Apply physics to blocks? //for example: falling gravel
+physics: false
+#Limits the number of people on the island. (0 - unlimited)
+max_players_team: 0
+#Keep player inventory after id reset?
+saveplayerinventory: false
+useemptyislands: true
+autojoin: false
+particle: true
+allow_nether: true
+gui: true
+wgflags: []

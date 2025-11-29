@@ -1,0 +1,172 @@
+[08:25:36] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[08:25:36] [Server thread/INFO]: Loading properties
+[08:25:36] [Server thread/INFO]: Default game type: SURVIVAL
+[08:25:37] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[08:25:37] [Server thread/INFO]: Debug logging is disabled
+[08:25:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:25:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:25:37] [Server thread/INFO]: Generating keypair
+[08:25:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:25:37] [Server thread/INFO]: Using epoll channel type
+[08:25:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:25:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:25:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:25:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:25:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:25:37] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:25:37] [Server thread/INFO]: Preparing level "world"
+[08:25:37] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:25:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:25:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:25:37] [Server thread/INFO]: Mob Spawn Range: 4
+[08:25:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:25:37] [Server thread/INFO]: Random Lighting Updates: false
+[08:25:37] [Server thread/INFO]: Structure Info Saving: true
+[08:25:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:25:37] [Server thread/INFO]: Max TNT Explosions: 100
+[08:25:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:25:37] [Server thread/INFO]: View Distance: 5
+[08:25:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:25:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:25:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:25:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:25:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:25:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:25:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:25:37] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:25:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:25:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:25:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:25:37] [Server thread/INFO]: Mob Spawn Range: 4
+[08:25:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:25:37] [Server thread/INFO]: Random Lighting Updates: false
+[08:25:37] [Server thread/INFO]: Structure Info Saving: true
+[08:25:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:25:37] [Server thread/INFO]: Max TNT Explosions: 100
+[08:25:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:25:37] [Server thread/INFO]: View Distance: 5
+[08:25:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:25:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:25:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:25:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:25:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:25:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:25:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:25:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:25:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:25:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:25:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:25:38] [Server thread/INFO]: Mob Spawn Range: 4
+[08:25:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:25:38] [Server thread/INFO]: Random Lighting Updates: false
+[08:25:38] [Server thread/INFO]: Structure Info Saving: true
+[08:25:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[08:25:38] [Server thread/INFO]: Max TNT Explosions: 100
+[08:25:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:25:38] [Server thread/INFO]: View Distance: 5
+[08:25:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:25:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:25:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:25:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:25:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:25:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:25:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:25:38] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8970448717131091301)
+[08:25:39] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8970448717131091301)
+[08:25:39] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8970448717131091301)
+[08:25:39] [Server thread/INFO]: Done (1.832s)! For help, type "help" or "?"
+[08:25:39] [Server thread/INFO]: Timings Reset
+[08:30:48] [User Authenticator #1/INFO]: UUID of player Plead12 is 3a23c69d-9679-3463-8bed-888c164d253b
+[08:30:48] [Server thread/INFO]: Plead12[/0:0:0:0:0:0:0:1%0:57040] logged in with entity id 63 at ([world]-21.5, 83.0, 163.5)
+[08:31:08] [Server thread/INFO]: Plead12 lost connection: Disconnected
+[08:31:08] [Server thread/INFO]: Plead12 left the game
+[08:34:04] [User Authenticator #2/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[08:34:04] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:54090] logged in with entity id 168 at ([world]-31.5, 83.0, 158.5)
+[08:41:32] [Server thread/INFO]: TwoTime hit the ground too hard
+[08:41:41] [Server thread/INFO]: TwoTime lost connection: Disconnected
+[08:41:41] [Server thread/INFO]: TwoTime left the game
+[08:45:49] [User Authenticator #3/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[08:45:49] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:54018] logged in with entity id 538 at ([world]-15.5050179034321, 81.0, 156.83870358252616)
+[08:45:53] [Server thread/INFO]: TwoTime lost connection: Disconnected
+[08:45:53] [Server thread/INFO]: TwoTime left the game
+[08:46:02] [User Authenticator #3/INFO]: UUID of player nopalopbacirah is c31bfbbd-70ac-3ad6-97be-069adc25bf9c
+[08:46:02] [Server thread/INFO]: nopalopbacirah[/0:0:0:0:0:0:0:1%0:36148] logged in with entity id 547 at ([world]-31.5, 83.0, 158.5)
+[08:47:01] [User Authenticator #3/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[08:47:01] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:43964] logged in with entity id 624 at ([world]-15.418843539070739, 81.0, 155.71172931307734)
+[08:47:57] [Server thread/INFO]: nopalopbacirah lost connection: Disconnected
+[08:47:57] [Server thread/INFO]: nopalopbacirah left the game
+[08:48:05] [Server thread/INFO]: TwoTime lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[08:48:05] [Server thread/INFO]: TwoTime left the game
+[08:50:07] [User Authenticator #4/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[08:50:07] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:54402] logged in with entity id 793 at ([world]-34.92218302800263, 77.0, 125.24099109102339)
+[08:50:59] [Server thread/INFO]: TwoTime lost connection: Disconnected
+[08:50:59] [Server thread/INFO]: TwoTime left the game
+[08:52:18] [User Authenticator #5/INFO]: UUID of player nopalopbacirah is c31bfbbd-70ac-3ad6-97be-069adc25bf9c
+[08:52:18] [Server thread/INFO]: nopalopbacirah[/0:0:0:0:0:0:0:1%0:43658] logged in with entity id 820 at ([world]-14.013256298089527, 82.0, 166.32061098502456)
+[08:53:13] [User Authenticator #5/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[08:53:13] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:39376] logged in with entity id 847 at ([world]-11.992928342493153, 70.0, 104.97489942292462)
+[08:54:28] [Server thread/INFO]: TwoTime has made the advancement [Stone Age]
+[08:55:12] [Server thread/INFO]: nopalopbacirah lost connection: Disconnected
+[08:55:12] [Server thread/INFO]: nopalopbacirah left the game
+[08:55:15] [Server thread/INFO]: TwoTime lost connection: Disconnected
+[08:55:15] [Server thread/INFO]: TwoTime left the game
+[08:55:20] [User Authenticator #6/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[08:55:20] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:37194] logged in with entity id 1184 at ([world]7.696451461979482, 71.0, 91.14212671147295)
+[08:55:26] [Server thread/INFO]: TwoTime lost connection: Disconnected
+[08:55:26] [Server thread/INFO]: TwoTime left the game
+[08:55:30] [User Authenticator #6/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[08:55:30] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:50624] logged in with entity id 1185 at ([world]8.637184088341748, 71.0, 94.36943237424825)
+[08:55:31] [Server thread/INFO]: TwoTime lost connection: Disconnected
+[08:55:31] [Server thread/INFO]: TwoTime left the game
+[08:55:36] [User Authenticator #6/INFO]: UUID of player nopalopbacirah is c31bfbbd-70ac-3ad6-97be-069adc25bf9c
+[08:55:36] [Server thread/INFO]: nopalopbacirah[/0:0:0:0:0:0:0:1%0:50632] logged in with entity id 1186 at ([world]-102.30000001192093, 62.109418342837465, 330.4565324974873)
+[08:57:54] [Server thread/INFO]: nopalopbacirah lost connection: Disconnected
+[08:57:54] [Server thread/INFO]: nopalopbacirah left the game
+[10:07:08] [User Authenticator #7/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[10:07:08] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:55626] logged in with entity id 1412 at ([world]8.637184088341748, 71.0, 94.36943237424825)
+[10:10:48] [Server thread/INFO]: TwoTime was slain by Zombie
+[10:12:40] [Server thread/INFO]: TwoTime lost connection: Disconnected
+[10:12:40] [Server thread/INFO]: TwoTime left the game
+[10:14:16] [User Authenticator #8/INFO]: UUID of player BABI is b00c8ba0-a626-37a6-a86f-e3b76a165335
+[10:14:16] [Server thread/INFO]: BABI[/0:0:0:0:0:0:0:1%0:34826] logged in with entity id 2123 at ([world]-23.5, 85.0, 173.5)
+[10:15:50] [User Authenticator #9/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[10:15:51] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:32976] logged in with entity id 2192 at ([world]-8.699999988079071, 74.0, 165.68595494538553)
+[10:16:28] [Server thread/INFO]: BABI has made the advancement [Stone Age]
+[10:17:08] [Server thread/INFO]: TwoTime has made the advancement [Monster Hunter]
+[10:18:36] [Server thread/INFO]: BABI lost connection: Disconnected
+[10:18:36] [Server thread/INFO]: BABI left the game
+[10:18:41] [Server thread/INFO]: TwoTime lost connection: Disconnected
+[10:18:41] [Server thread/INFO]: TwoTime left the game
+[10:43:56] [User Authenticator #10/INFO]: UUID of player TwoTime is 0489c6ec-a325-3a76-bc64-1c7ec6c0acf6
+[10:43:56] [Server thread/INFO]: TwoTime[/0:0:0:0:0:0:0:1%0:33738] logged in with entity id 2352 at ([world]-67.72855385916655, 99.0, 195.51814972499892)
+[10:45:08] [Server thread/INFO]: TwoTime fell from a high place
+[10:58:13] [Server thread/INFO]: TwoTime lost connection: Disconnected
+[10:58:13] [Server thread/INFO]: TwoTime left the game

@@ -1,0 +1,367 @@
+[12-06 03:01:36]: [INFO] Created column 'regdate' and set the current timestamp, 1764990096830, to all 0 rows
+[12-06 03:01:36]: [INFO] SQLite Setup finished
+[12-06 03:01:36]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-06 03:01:37]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12-06 03:01:37]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[12-06 03:01:37]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-06 03:01:37]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-06 03:01:37]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-06 03:01:37]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12-06 03:01:37]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[12-06 03:03:34]: [FINE] lando registered 0:0:0:0:0:0:0:1%0
+[12-06 03:03:34]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-06 03:04:55]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-06 03:22:23]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[12-06 03:23:56]: [INFO] SQLite Setup finished
+[12-06 03:23:56]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-06 03:23:56]: [INFO] Hooked successfully into Essentials
+[12-06 03:23:56]: [INFO] Essentials spawn file not found: '/workspaces/Eaglercraft-1.12-Server-Hosting/server/plugins/Essentials/spawn.yml'
+[12-06 03:23:56]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12-06 03:23:56]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[12-06 03:23:56]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-06 03:23:56]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-06 03:23:56]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-06 03:23:56]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12-06 03:23:56]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[12-06 03:24:28]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-06 03:50:43]: [INFO] lando logged out
+[12-06 03:50:54]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-06 03:51:26]: [INFO] lando changed his password
+[12-06 03:53:36]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-06 03:55:48]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[12-08 15:14:08]: [INFO] SQLite Setup finished
+[12-08 15:14:08]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-08 15:14:08]: [INFO] Hooked successfully into Essentials
+[12-08 15:14:08]: [INFO] Essentials spawn file not found: '/workspaces/Eaglercraft-1.12-Server-Hosting/server/plugins/Essentials/spawn.yml'
+[12-08 15:14:08]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12-08 15:14:08]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[12-08 15:14:09]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-08 15:14:09]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-08 15:14:09]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-08 15:14:09]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12-08 15:14:09]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[12-08 15:35:01]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[12-08 15:35:42]: [INFO] SQLite Setup finished
+[12-08 15:35:42]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-08 15:35:42]: [INFO] Hooked successfully into Essentials
+[12-08 15:35:42]: [INFO] Essentials spawn file not found: '/workspaces/Eaglercraft-1.12-Server-Hosting/server/plugins/Essentials/spawn.yml'
+[12-08 15:35:42]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12-08 15:35:42]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[12-08 15:35:42]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-08 15:35:42]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-08 15:35:42]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-08 15:35:42]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12-08 15:35:42]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[12-08 15:55:30]: [FINE] cheezjiz registered 0:0:0:0:0:0:0:1%0
+[12-08 15:55:30]: [FINE] The user cheezjiz has 2 accounts:
+[12-08 15:55:30]: [FINE] §7lando, §acheezjiz§7.
+[12-08 15:55:30]: [FINE] cheezjiz logged in 0:0:0:0:0:0:0:1%0
+[12-08 15:57:03]: [FINE] The user lando has 2 accounts:
+[12-08 15:57:03]: [FINE] §7§alando§7, §acheezjiz§7.
+[12-08 15:57:03]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 15:57:30]: [FINE] Cody_Meep registered 0:0:0:0:0:0:0:1%0
+[12-08 15:57:30]: [FINE] The user Cody_Meep has 3 accounts:
+[12-08 15:57:30]: [FINE] §7§alando§7, §acheezjiz§7, §aCody_Meep§7.
+[12-08 15:57:30]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 15:58:31]: [FINE] Cody_Meep used the wrong password
+[12-08 15:58:38]: [FINE] ABE registered 0:0:0:0:0:0:0:1%0
+[12-08 15:58:38]: [FINE] The user ABE has 4 accounts:
+[12-08 15:58:38]: [FINE] §7§alando§7, §acheezjiz§7, §aCody_Meep§7, §aABE§7.
+[12-08 15:58:38]: [FINE] ABE logged in 0:0:0:0:0:0:0:1%0
+[12-08 15:58:49]: [FINE] Cody_Meep used the wrong password
+[12-08 15:59:20]: [FINE] The user Cody_Meep has 4 accounts:
+[12-08 15:59:20]: [FINE] §7§alando§7, §acheezjiz§7, §aCody_Meep§7, §aABE§7.
+[12-08 15:59:20]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 16:01:23]: [FINE] My_Thick_Smurf registered 0:0:0:0:0:0:0:1%0
+[12-08 16:01:23]: [FINE] The user My_Thick_Smurf has 5 accounts:
+[12-08 16:01:23]: [FINE] §7§alando§7, §acheezjiz§7, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7.
+[12-08 16:01:23]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 16:03:33]: [FINE] Tgundy108 registered 0:0:0:0:0:0:0:1%0
+[12-08 16:03:33]: [FINE] The user Tgundy108 has 6 accounts:
+[12-08 16:03:33]: [FINE] §7§alando§7, §acheezjiz§7, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7, §aTgundy108§7.
+[12-08 16:03:33]: [FINE] Tgundy108 logged in 0:0:0:0:0:0:0:1%0
+[12-08 16:03:52]: [FINE] lil_STEVE registered 0:0:0:0:0:0:0:1%0
+[12-08 16:03:52]: [FINE] The user lil_STEVE has 7 accounts:
+[12-08 16:03:52]: [FINE] §7§alando§7, §acheezjiz§7, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7, §aTgundy108§7, §alil_STEVE§7.
+[12-08 16:03:52]: [FINE] lil_STEVE logged in 0:0:0:0:0:0:0:1%0
+[12-08 16:05:23]: [FINE] Ecaj registered 0:0:0:0:0:0:0:1%0
+[12-08 16:05:23]: [FINE] The user Ecaj has 8 accounts:
+[12-08 16:05:23]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7, §aTgundy108§7, §alil_STEVE§7, §aEcaj§7.
+[12-08 16:05:23]: [FINE] Ecaj logged in 0:0:0:0:0:0:0:1%0
+[12-08 16:05:52]: [FINE] The user Tgundy108 has 8 accounts:
+[12-08 16:05:52]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7, §aTgundy108§7, §alil_STEVE§7, §aEcaj§7.
+[12-08 16:05:52]: [FINE] Tgundy108 logged in 0:0:0:0:0:0:0:1%0
+[12-08 16:48:35]: [FINE] I_LVE_FRSHMAN registered 0:0:0:0:0:0:0:1%0
+[12-08 16:48:35]: [FINE] The user I_LVE_FRSHMAN has 9 accounts:
+[12-08 16:48:35]: [FINE] §7lando, cheezjiz, cody_meep, abe, §aMy_Thick_Smurf§7, tgundy108, lil_steve, ecaj, §aI_LVE_FRSHMAN§7.
+[12-08 16:48:35]: [FINE] I_LVE_FRSHMAN logged in 0:0:0:0:0:0:0:1%0
+[12-08 16:48:49]: [FINE] The user My_Thick_Smurf has 9 accounts:
+[12-08 16:48:49]: [FINE] §7lando, cheezjiz, cody_meep, abe, §aMy_Thick_Smurf§7, tgundy108, lil_steve, ecaj, §aI_LVE_FRSHMAN§7.
+[12-08 16:48:49]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 16:51:52]: [FINE] The user My_Thick_Smurf has 9 accounts:
+[12-08 16:51:52]: [FINE] §7lando, cheezjiz, cody_meep, abe, §aMy_Thick_Smurf§7, tgundy108, lil_steve, ecaj, §aI_LVE_FRSHMAN§7.
+[12-08 16:51:52]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 16:59:55]: [FINE] The user Cody_Meep has 9 accounts:
+[12-08 16:59:55]: [FINE] §7lando, cheezjiz, §aCody_Meep§7, abe, §aMy_Thick_Smurf§7, tgundy108, lil_steve, ecaj, §aI_LVE_FRSHMAN§7.
+[12-08 16:59:55]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:02:29]: [FINE] The user lando has 9 accounts:
+[12-08 17:02:29]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, abe, §aMy_Thick_Smurf§7, tgundy108, lil_steve, ecaj, i_lve_frshman.
+[12-08 17:02:29]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:04:57]: [FINE] The user My_Thick_Smurf has 9 accounts:
+[12-08 17:04:57]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, abe, §aMy_Thick_Smurf§7, tgundy108, lil_steve, ecaj, i_lve_frshman.
+[12-08 17:04:57]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:05:13]: [FINE] The user Cody_Meep has 9 accounts:
+[12-08 17:05:13]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, abe, §aMy_Thick_Smurf§7, tgundy108, lil_steve, ecaj, i_lve_frshman.
+[12-08 17:05:13]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:05:34]: [FINE] Mc__ registered 0:0:0:0:0:0:0:1%0
+[12-08 17:05:34]: [FINE] The user Mc__ has 10 accounts:
+[12-08 17:05:34]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, abe, §aMy_Thick_Smurf§7, tgundy108, §alil_STEVE§7, ecaj, i_lve_frshman, §aMc__§7.
+[12-08 17:05:34]: [FINE] Mc__ logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:06:00]: [FINE] The user lil_STEVE has 10 accounts:
+[12-08 17:06:00]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, abe, §aMy_Thick_Smurf§7, tgundy108, §alil_STEVE§7, ecaj, i_lve_frshman, §aMc__§7.
+[12-08 17:06:00]: [FINE] lil_STEVE logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:06:20]: [FINE] The user ABE has 10 accounts:
+[12-08 17:06:20]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7, tgundy108, §alil_STEVE§7, ecaj, i_lve_frshman, §aMc__§7.
+[12-08 17:06:20]: [FINE] ABE logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:07:03]: [FINE] The user lando has 10 accounts:
+[12-08 17:07:03]: [FINE] §7§alando§7, cheezjiz, cody_meep, §aABE§7, §aMy_Thick_Smurf§7, tgundy108, §alil_STEVE§7, ecaj, i_lve_frshman, §aMc__§7.
+[12-08 17:07:03]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:07:34]: [FINE] The user Cody_Meep has 10 accounts:
+[12-08 17:07:34]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7, tgundy108, §alil_STEVE§7, ecaj, i_lve_frshman, §aMc__§7.
+[12-08 17:07:34]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:09:55]: [FINE] GilbertFarnswort registered 0:0:0:0:0:0:0:1%0
+[12-08 17:09:55]: [FINE] The user GilbertFarnswort has 11 accounts:
+[12-08 17:09:55]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7, tgundy108, §alil_STEVE§7, ecaj, i_lve_frshman, §aMc__§7, §aGilbertFarnswort§7.
+[12-08 17:09:55]: [FINE] GilbertFarnswort logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:11:27]: [FINE] The user lando has 11 accounts:
+[12-08 17:11:27]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7, tgundy108, §alil_STEVE§7, ecaj, i_lve_frshman, §aMc__§7, §aGilbertFarnswort§7.
+[12-08 17:11:27]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:11:51]: [FINE] Master0ogway registered 0:0:0:0:0:0:0:1%0
+[12-08 17:11:51]: [FINE] The user Master0ogway has 12 accounts:
+[12-08 17:11:51]: [FINE] §7§alando§7, cheezjiz, §aCody_Meep§7, §aABE§7, §aMy_Thick_Smurf§7, tgundy108, §alil_STEVE§7, ecaj, i_lve_frshman, §aMc__§7, §aGilbertFarnswort§7, §aMaster0ogway§7.
+[12-08 17:11:51]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:12:04]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[12-08 17:14:33]: [INFO] SQLite Setup finished
+[12-08 17:14:34]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-08 17:14:34]: [INFO] Hooked successfully into Essentials
+[12-08 17:14:34]: [INFO] Essentials spawn file not found: '/workspaces/Eaglercraft-1.12-Server-Hosting/server/plugins/Essentials/spawn.yml'
+[12-08 17:14:34]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12-08 17:14:34]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[12-08 17:14:34]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-08 17:14:34]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-08 17:14:34]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-08 17:14:34]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12-08 17:14:34]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[12-08 17:15:00]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:15:05]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:15:09]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:15:23]: [FINE] Ecaj logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:15:30]: [FINE] Mc__ logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:15:33]: [FINE] GilbertFarnswort logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:15:44]: [FINE] ABE logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:16:23]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:22:38]: [FINE] Tgundy108 logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:29:51]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:30:02]: [FINE] Mc__ logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:30:08]: [FINE] I_LVE_FRSHMAN used the wrong password
+[12-08 17:30:29]: [FINE] ABE logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:30:33]: [FINE] I_LVE_FRSHMAN logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:30:41]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:31:11]: [FINE] Tgundy108 logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:31:11]: [FINE] khayos registered 0:0:0:0:0:0:0:1%0
+[12-08 17:31:11]: [FINE] khayos logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:32:53]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:33:07]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:36:11]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:36:24]: [FINE] I_LVE_FRSHMAN logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:36:37]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:39:04]: [FINE] Notch registered 0:0:0:0:0:0:0:1%0
+[12-08 17:39:04]: [FINE] Notch logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:39:30]: [FINE] Mc__ logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:40:23]: [FINE] ABE logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:41:46]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:42:07]: [FINE] Zeus registered 0:0:0:0:0:0:0:1%0
+[12-08 17:42:07]: [FINE] Zeus logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:45:26]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 17:51:47]: [FINE] Zeus logged in 0:0:0:0:0:0:0:1%0
+[12-08 18:01:41]: [FINE] Zeus logged in 0:0:0:0:0:0:0:1%0
+[12-08 18:18:32]: [FINE] I_LVE_FRSHMAN used the wrong password
+[12-08 18:18:53]: [FINE] I_LVE_FRSHMAN logged in 0:0:0:0:0:0:0:1%0
+[12-08 18:23:36]: [FINE] Zeus logged in 0:0:0:0:0:0:0:1%0
+[12-08 18:34:24]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 19:02:21]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 19:06:34]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 19:18:57]: [FINE] lil_STEVE logged in 0:0:0:0:0:0:0:1%0
+[12-08 19:50:17]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 19:50:29]: [FINE] Taggert registered 0:0:0:0:0:0:0:1%0
+[12-08 19:50:29]: [FINE] Taggert logged in 0:0:0:0:0:0:0:1%0
+[12-08 19:50:41]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 19:59:40]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 19:59:43]: [FINE] I_LVE_FRSHMAN logged in 0:0:0:0:0:0:0:1%0
+[12-08 20:01:24]: [FINE] Mc__ logged in 0:0:0:0:0:0:0:1%0
+[12-08 20:02:20]: [FINE] khayos used the wrong password
+[12-08 20:02:53]: [FINE] khayos used the wrong password
+[12-08 20:03:27]: [FINE] khayos used the wrong password
+[12-08 20:04:37]: [FINE] khayos used the wrong password
+[12-08 20:04:52]: [FINE] khayos used the wrong password
+[12-08 20:05:18]: [FINE] khayos used the wrong password
+[12-08 20:05:50]: [FINE] khayos used the wrong password
+[12-08 20:06:22]: [FINE] khayos used the wrong password
+[12-08 20:06:48]: [FINE] khayos used the wrong password
+[12-08 20:08:07]: [FINE] khayos used the wrong password
+[12-08 20:08:18]: [FINE] khayos used the wrong password
+[12-08 20:09:30]: [FINE] khayos used the wrong password
+[12-08 20:10:00]: [FINE] Ecaj logged in 0:0:0:0:0:0:0:1%0
+[12-08 20:10:26]: [FINE] khayos used the wrong password
+[12-08 20:16:30]: [INFO] SQLite Setup finished
+[12-08 20:16:30]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-08 20:16:30]: [INFO] Hooked successfully into Essentials
+[12-08 20:16:30]: [INFO] Essentials spawn file not found: '/workspaces/Eaglercraft-1.12-Server-Hosting/server/plugins/Essentials/spawn.yml'
+[12-08 20:16:30]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12-08 20:16:30]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[12-08 20:16:30]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12-08 20:16:30]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12-08 20:16:30]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12-08 20:16:30]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12-08 20:16:30]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[12-08 20:29:26]: [FINE] GilbertFarnswort logged in 0:0:0:0:0:0:0:1%0
+[12-08 20:55:59]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 20:57:10]: [FINE] Mc__ logged in 0:0:0:0:0:0:0:1%0
+[12-08 20:58:14]: [FINE] Coopy registered 0:0:0:0:0:0:0:1%0
+[12-08 20:58:14]: [FINE] Coopy logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:04:12]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:08:04]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:15:13]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:26:08]: [FINE] cheezjiz logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:27:19]: [FINE] Zeus logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:27:35]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:29:30]: [FINE] penis registered 0:0:0:0:0:0:0:1%0
+[12-08 21:29:30]: [FINE] penis logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:29:31]: [FINE] cheezjiz logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:30:40]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:35:02]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:45:14]: [FINE] penis logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:46:21]: [FINE] lando used the wrong password
+[12-08 21:46:45]: [FINE] lando used the wrong password
+[12-08 21:47:01]: [FINE] lando used the wrong password
+[12-08 21:47:07]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 21:47:29]: [INFO] lando changed his password
+[12-08 21:48:41]: [FINE] cheezjiz logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:01:27]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:03:01]: [FINE] Taggert logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:03:19]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:04:26]: [FINE] Mc__ logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:04:43]: [FINE] Ecaj logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:05:39]: [FINE] ABE logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:05:42]: [FINE] I_LVE_FRSHMAN logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:06:08]: [FINE] Master0ogway logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:12:00]: [FINE] cheezjiz logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:12:04]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:12:19]: [FINE] ABE logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:16:13]: [FINE] penis logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:17:35]: [FINE] Coopy logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:19:31]: [FINE] lando logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:19:55]: [FINE] Taggert logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:20:33]: [FINE] ABE logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:20:47]: [FINE] Zeus logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:24:28]: [FINE] penis logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:29:33]: [FINE] Ecaj logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:31:07]: [FINE] I_LVE_FRSHMAN logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:31:21]: [FINE] Tgundy108 logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:35:49]: [FINE] penis logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:36:40]: [FINE] Cody_Meep logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:46:34]: [FINE] Ecaj logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:50:26]: [FINE] Zeus logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:52:47]: [FINE] penis logged in 0:0:0:0:0:0:0:1%0
+[12-08 22:56:14]: [FINE] My_Thick_Smurf logged in 0:0:0:0:0:0:0:1%0
+[12-08 23:39:43]: [FINE] Mc__ logged in 0:0:0:0:0:0:0:1%0

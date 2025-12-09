@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765215861857
+  login: 1765215851359
+money: '0'
+last-account-name: Hayden
+logoutlocation:
+  world: f6fc8542-5be9-4504-ab1e-2b9b207d1873
+  world-name: world
+  x: 30.999309764905608
+  y: 62.0
+  z: 195.2740960558259
+  yaw: 212.70126342773438
+  pitch: 16.650001525878906

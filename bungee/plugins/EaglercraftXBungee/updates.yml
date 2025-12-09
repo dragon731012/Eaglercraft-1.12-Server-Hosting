@@ -1,0 +1,9 @@
+block_all_client_updates: false
+discard_login_packet_certs: false
+cert_packet_data_rate_limit: 524288
+enable_eagcert_folder: true
+download_latest_certs: true
+download_certs_from:
+- 'https://eaglercraft.com/backup.cert'
+- 'https://deev.is/eagler/backup.cert'
+check_for_update_every: 900

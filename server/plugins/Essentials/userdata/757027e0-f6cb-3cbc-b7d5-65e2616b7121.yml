@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765233874796
+  login: 1765233063856
+money: '0'
+last-account-name: Tgundy108
+logoutlocation:
+  world: f6fc8542-5be9-4504-ab1e-2b9b207d1873
+  world-name: world
+  x: 131.86006931480267
+  y: 59.0
+  z: -27.537508258538693
+  yaw: 186.211181640625
+  pitch: 5.699703693389893

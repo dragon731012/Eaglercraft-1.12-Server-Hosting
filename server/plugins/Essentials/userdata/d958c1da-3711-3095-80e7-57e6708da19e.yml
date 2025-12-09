@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765227788095
+  login: 1765227775628
+money: '0'
+last-account-name: lil_STEVE
+logoutlocation:
+  world: f6fc8542-5be9-4504-ab1e-2b9b207d1873
+  world-name: world
+  x: -18.41968932981292
+  y: 77.0
+  z: 327.82155169619284
+  yaw: -336.7500915527344
+  pitch: 2.100008726119995

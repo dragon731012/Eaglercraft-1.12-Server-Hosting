@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765234818956
+  login: 1765233053652
+money: '0'
+last-account-name: I_LVE_FRSHMAN
+logoutlocation:
+  world: f6fc8542-5be9-4504-ab1e-2b9b207d1873
+  world-name: world
+  x: -150.04211000644318
+  y: 12.0
+  z: 59.430816901694364
+  yaw: 65.623291015625
+  pitch: -21.75002098083496

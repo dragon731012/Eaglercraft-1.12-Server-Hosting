@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765233521378
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765234729584
+  login: 1765234210290
+money: '0'
+last-account-name: Zeus
+lastlocation:
+  world: f6fc8542-5be9-4504-ab1e-2b9b207d1873
+  world-name: world
+  x: 9.051644833225243
+  y: 74.50655349141759
+  z: 185.15759387045537
+  yaw: 246.15240478515625
+  pitch: 24.749988555908203
+logoutlocation:
+  world: f6fc8542-5be9-4504-ab1e-2b9b207d1873
+  world-name: world
+  x: -10.458630067258163
+  y: 65.0
+  z: 197.1193126366654
+  yaw: -261.3011474609375
+  pitch: 36.89998245239258

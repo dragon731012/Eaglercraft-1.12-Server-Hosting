@@ -1,0 +1,34 @@
+[
+  {
+    "uuid": "a527e108-5fc6-3d13-b37a-3961c1bf2e37",
+    "name": "Joe",
+    "created": "2025-12-01 22:22:56 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "3b809405-7f2c-39df-86f5-559416d2f633",
+    "name": "mommymelissa",
+    "created": "2025-12-01 21:50:57 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "79d71f52-fcee-3ebe-bb70-8149ca66e596",
+    "name": "LeftTest",
+    "created": "2025-12-01 22:21:08 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "5b0a221c-c143-3ede-b862-58856ae81461",
+    "name": "YeeVool5320",
+    "created": "2025-12-03 17:23:36 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

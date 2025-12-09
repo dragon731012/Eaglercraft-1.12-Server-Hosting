@@ -1,0 +1,3 @@
+Welcome {PLAYER}
+
+This server uses AuthMeReloaded protection!

@@ -1,0 +1,7 @@
+# This file stores custom item aliases.
+# Note: You cannot alias an item to another entry in this file.
+
+aliases:
+  bluepaint: blue_dye
+  snad: sand
+  breakfast: cooked_porkchop

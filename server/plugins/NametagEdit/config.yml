@@ -1,0 +1,68 @@
+# ---------------------------------------------------------
+# NametagEdit by sgtcaze and Cory
+# ---------------------------------------------------------
+# Development Builds: https://ci.nametagedit.com
+# Source Code: http://www.github.com/sgtcaze/NametagEdit
+# ---------------------------------------------------------
+# 
+# These settings allow you to customize the behavior of the
+# tab list.
+Tablist:
+  # If Enabled, NametagEdit will format the Tab menu
+  Enabled: true
+  # !! EXPERIMENTAL !!
+  # This feature will use the PlayerListName to set your
+  # nametag. It will allow you to bypass the 16 character limit
+  # for prefix/suffix. Be warned: This does not work on earlier versions
+  # of Minecraft. Please report issues to our GitHub, and we'll try to help.
+  LongTags: true
+# 
+# If enabled, this plugin will send small data MCStats.org.
+MetricsEnabled: true
+# 
+# If enabled, players with NametagEdit nametags will not be able to push each other (1.9+)
+DisablePush: false
+# 
+# Do you have strange, unexplained lag emanating from NametagEdit? Likely it's a few plugins
+# manipulating the primary scoreboard, and not clearing the resources. This setting will
+# clear empty teams on a timer. You can also clear it with /nte teams clear. This setting
+# will be in seconds. e.g. every 300 seconds clear empty teams (5 minutes). Set this to < 1
+# to disable this feature.
+ClearEmptyTeamsInterval: -1
+# 
+# If enabled, NametagEdit will turn your console into spam
+# heaven. Useful for reporting issues!
+Debug: false
+# 
+# Some servers have different permissions per world, and therefore different potential nametags
+# per world. If you want to refresh a player's nametag when they change worlds, set
+# this option to true.
+RefreshTagOnWorldChange: false
+# 
+# If enabled, NametagEdit will refresh nametags on an interval. Note: this does NOT do any
+# reloading. This will not pickup changes made from the file or database. Instead, it will
+# take any changes made by commands and/or placeholder changes. Set this to < 1 to disable
+# this feature. This feature is in seconds. NOTE: We do not recommend this.
+RefreshInterval: 0
+# 
+# If enabled, NametagEdit will use database support
+MySQL:
+  Enabled: false
+  Hostname: localhost
+  Port: 3306
+  Username: myUsername
+  Password: myPassword
+  Database: myDatabase
+  # WARNING: If you do not know what this is for, do not change it!
+  # This allows users to customize their schema to their liking.
+  GroupsTable: nte_groups
+  PlayersTable: nte_players
+  ConfigTable: nte_config
+  # Minimum connection pool size
+  # WARNING: If you have no idea what this is for, do not change.
+  # To see the optimal connections for your setup, please visit:
+  # https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
+  # And review the pool size configuration (Tn x (Cm - 1) + 1)
+  MinimumPoolSize: 10
+  Chat:
+    UseNametagInChat: true

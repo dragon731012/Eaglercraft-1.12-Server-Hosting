@@ -1,0 +1,36 @@
+Players:
+  b5ccebaa-0623-4370-af73-0ec985dfa3b0:
+    Name: sgtcazeyt
+    Prefix: '&b'
+    Suffix: '&c'
+    SortPriority: -1
+  3716427e-76ac-4df4-a50a-706618a70f0c:
+    Name: Cory
+    Prefix: '&b'
+    Suffix: '&c'
+    SortPriority: 3
+  6818c4ce-df40-4083-a82f-ff38010b7977:
+    Name: Lorenzo0111
+    Prefix: '&b'
+    Suffix: '&c'
+    SortPriority: 3
+  88a10822-c3e4-47e8-8f53-1069858fedc4:
+    Name: Aurelien30000
+    Prefix: '&b'
+    Suffix: '&c'
+    SortPriority: 3
+  cdbc968e-838d-3963-98c1-e89f1f37ceae:
+    Name: Numai_Player12
+    Prefix: '&4&l[&c&lModerator&4&l]'
+    Suffix: ''
+    SortPriority: -1
+  016c8d2b-0942-34a4-8e00-9e184b596d4d:
+    Name: Player_Akito2018
+    Prefix: '&4&l[&c&lOP&4&l]'
+    Suffix: ''
+    SortPriority: -1
+  7c509a41-e8ae-3de8-8bf7-f1047fbb891c:
+    Name: KS1220ISland
+    Prefix: '&4&l[&c&lOwner&4&l] &f'
+    Suffix: ''
+    SortPriority: -1

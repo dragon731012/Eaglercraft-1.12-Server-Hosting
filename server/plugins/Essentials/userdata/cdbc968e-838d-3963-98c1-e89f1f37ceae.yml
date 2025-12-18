@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765957602371
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765959344059
+  login: 1765959224066
+money: '0'
+lastlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -130.69999998807907
+  y: 15.200000047683721
+  z: 319.69999998807907
+  yaw: 37.5030517578125
+  pitch: -63.15007781982422
+last-account-name: Numai_Player12
+logoutlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -621.1835404622288
+  y: 82.0
+  z: 385.4053282306543
+  yaw: -56.84946060180664
+  pitch: 20.849863052368164
+nickname: §1§lNumai§9§l_Player§b§l12

@@ -1,0 +1,69 @@
+[14:58:51] [main/INFO]: Using mbed TLS based native cipher.
+[14:58:51] [main/INFO]: Using zlib based native compressor.
+[14:58:51] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:dca72c2:511
+[14:58:51] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[14:58:51] [main/INFO]: Epoll is working, utilising it!
+[14:58:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[14:58:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[14:58:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[14:58:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[14:58:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[14:58:51] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[14:58:51] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:51] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:51] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:58:51] [main/WARN]: :>  
+[14:58:51] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[14:58:51] [main/WARN]: :>  
+[14:58:51] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[14:58:51] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[14:58:51] [main/WARN]: :>  apart from the versions listed below:
+[14:58:51] [main/WARN]: :>  
+[14:58:51] [main/WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:8a88ce4:1849
+[14:58:51] [main/WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+[14:58:51] [main/WARN]: :>  
+[14:58:51] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[14:58:51] [main/WARN]: :>  
+[14:58:51] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[14:58:51] [main/WARN]: :>  
+[14:58:51] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:58:51] [main/INFO]: Loaded plugin Protocol340 version v0.01 by lax1dude
+[14:58:51] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:51] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:51] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:51] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:51] [main/WARN]: Forced host server pvp is not defined
+[14:58:51] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:51] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:51] [main/ERROR] [Protocol340]: Online mode is set to false! Authentication system has been disabled
+[14:58:51] [Netty Boss IO Thread #0/INFO] [Protocol340]: Eaglercraft is listening on: /0.0.0.0:8081
+[14:58:51] [main/INFO] [Protocol340]: Downloading from maven: https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.45.0.0/sqlite-jdbc-3.45.0.0.jar
+[14:58:52] [EaglerXBungee: Network Tick Tasks/INFO] [Protocol340]: Downloading new certificate: https://eaglercraft.com/backup.cert
+[14:58:52] [main/INFO] [Protocol340]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[14:58:52] [main/INFO] [Protocol340]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[14:58:52] [main/INFO]: Enabled plugin Protocol340 version v0.01 by lax1dude
+[14:58:52] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:52] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:52] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:52] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[14:58:52] [Netty Boss IO Thread #1/INFO]: Listening on /127.0.0.1:25577
+[14:58:52] [EaglerXBungee: Network Tick Tasks/INFO] [Protocol340]: Loaded certificate: /home/lyosha/IdeaProjects/EagsTestServer-main/bungee/plugins/Protocol340/eagcert/$dl.7d457c7c2039ae105d2fdca1b565ffddacf88e08.cert
+[14:59:38] [Netty Worker IO Thread #0/WARN] [Protocol340]: Server icon is not a file: /home/lyosha/IdeaProjects/EagsTestServer-main/bungee/server-icon.png
+[14:59:39] [Netty Worker IO Thread #1/INFO] [Protocol340]: [/127.0.0.1:32940]: Connected via websocket
+[14:59:39] [Netty Worker IO Thread #1/INFO] [Protocol340]: [/127.0.0.1:32940]: No origin header is present!
+[14:59:39] [Netty Worker IO Thread #1/INFO] [Protocol340]: [/127.0.0.1:32940]: Logged in as 'Catfoolyou'
+[14:59:39] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:32940|Catfoolyou] -> UpstreamBridge has connected
+[14:59:39] [Netty Worker IO Thread #1/INFO]: [Catfoolyou|/127.0.0.1:32940] <-> ServerConnector [lobby] has connected
+[14:59:40] [Netty Worker IO Thread #1/WARN]: [/127.0.0.1:32940|Catfoolyou] -> UpstreamBridge - could not decode packet! java.lang.IndexOutOfBoundsException: readerIndex(1) + length(8) exceeds writerIndex(2): PooledUnsafeDirectByteBuf(ridx: 1, widx: 2, cap: 2)
+[14:59:40] [Netty Worker IO Thread #1/INFO]: [Catfoolyou] disconnected with: DecoderException : java.lang.IndexOutOfBoundsException: readerIndex(1) + length(8) exceeds writerIndex(2): PooledUnsafeDirectByteBuf(ridx: 1, widx: 2, cap: 2) @ io.netty.handler.codec.MessageToMessageDecoder:98
+[14:59:40] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:32940|Catfoolyou] -> UpstreamBridge has disconnected
+[14:59:40] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:32940|Catfoolyou] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:03:25] [Netty Worker IO Thread #7/INFO] [Protocol340]: [/127.0.0.1:54266]: Connected via websocket
+[15:03:25] [Netty Worker IO Thread #7/INFO] [Protocol340]: [/127.0.0.1:54266]: No origin header is present!
+[15:03:25] [Netty Worker IO Thread #7/INFO] [Protocol340]: [/127.0.0.1:54266]: Logged in as 'Catfoolyou'
+[15:03:25] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:54266|Catfoolyou] -> UpstreamBridge has connected
+[15:03:25] [Netty Worker IO Thread #7/INFO]: [Catfoolyou|/127.0.0.1:54266] <-> ServerConnector [lobby] has connected
+[15:03:25] [Netty Worker IO Thread #7/WARN]: [/127.0.0.1:54266|Catfoolyou] -> UpstreamBridge - could not decode packet! java.lang.IndexOutOfBoundsException: readerIndex(1) + length(8) exceeds writerIndex(2): PooledUnsafeDirectByteBuf(ridx: 1, widx: 2, cap: 2)
+[15:03:25] [Netty Worker IO Thread #7/INFO]: [Catfoolyou] disconnected with: DecoderException : java.lang.IndexOutOfBoundsException: readerIndex(1) + length(8) exceeds writerIndex(2): PooledUnsafeDirectByteBuf(ridx: 1, widx: 2, cap: 2) @ io.netty.handler.codec.MessageToMessageDecoder:98
+[15:03:25] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:54266|Catfoolyou] -> UpstreamBridge has disconnected
+[15:03:25] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:54266|Catfoolyou] <-> DownstreamBridge <-> [lobby] has disconnected

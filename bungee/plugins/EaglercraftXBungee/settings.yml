@@ -1,0 +1,21 @@
+server_name: 'EaglercraftXBungee Server'
+server_uuid: fc4d2b55-fa34-4869-b7b1-0acb1f42cb91
+websocket_connection_timeout: 15000
+websocket_handshake_timeout: 5000
+http_websocket_compression_level: 6
+download_vanilla_skins_to_clients: true
+valid_skin_download_urls:
+ - 'textures.minecraft.net'
+uuid_lookup_ratelimit_player: 50
+uuid_lookup_ratelimit_global: 175
+skin_download_ratelimit_player: 1000
+skin_download_ratelimit_global: 30000
+skin_cache_db_uri: 'jdbc:sqlite:eaglercraft_skins_cache.db'
+skin_cache_keep_objects_days: 45
+skin_cache_keep_profiles_days: 7
+skin_cache_max_objects: 32768
+skin_cache_max_profiles: 32768
+skin_cache_antagonists_ratelimit: 15
+sql_driver_class: 'internal'
+sql_driver_path: 'internal'
+eagler_players_vanilla_skin: 'lax1dude'

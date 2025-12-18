@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765974338762
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766032949570
+  login: 1766033419373
+  kits:
+    dtools: 1765959945253
+money: '38400.00'
+last-account-name: KS1220ISland
+logoutlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -111.67052293524486
+  y: 64.0
+  z: 253.300000011921
+  yaw: -0.886474609375
+  pitch: 65.5499038696289
+nickname: §0§m§lKS§8§m§l12§7§m§l2§f§m§l0I§7§m§lS§8§m§lla§0§m§lnd
+lastlocation:
+  world: d1a3e1e7-0e7c-4ac8-8547-3fa4ab4c32fd
+  world-name: world
+  x: -162.99436933596795
+  y: 75.74386265131047
+  z: 302.2843831200581
+  yaw: -139.6499786376953
+  pitch: 22.050107955932617

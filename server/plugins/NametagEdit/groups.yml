@@ -1,0 +1,16 @@
+Groups:
+  Admin:
+    Permission: nte.admin
+    Prefix: '&c'
+    Suffix: '&f'
+    SortPriority: 1
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&2'
+    Suffix: '&f'
+    SortPriority: 2
+  Owner:
+    Permission: '*'
+    Prefix: '&4&l[&c&lOwner&4&l]'
+    Suffix: ''
+    SortPriority: -1

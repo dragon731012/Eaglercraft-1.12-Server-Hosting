@@ -1,0 +1,397 @@
+[04:40:10] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[04:40:10] [Server thread/INFO]: Loading properties
+[04:40:10] [Server thread/INFO]: Default game type: CREATIVE
+[04:40:10] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[04:40:10] [Server thread/INFO]: Debug logging is disabled
+[04:40:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:40:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:40:10] [Server thread/INFO]: Generating keypair
+[04:40:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:40:10] [Server thread/INFO]: Using epoll channel type
+[04:40:10] [Server thread/ERROR]: Could not load 'plugins/Plex-Velocity-1.6.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[04:40:10] [Server thread/ERROR]: Could not load 'plugins/Plex-1.6-all.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[04:40:10] [Server thread/ERROR]: Could not load 'plugins/Plex-1.6.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[04:40:10] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[04:40:11] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.21
+[04:40:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:40:11] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[04:40:11] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags v1.8.2-Release
+[04:40:11] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.5.23
+[04:40:11] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[04:40:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.22.0-dev+48-b0ef568
+[04:40:11] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.22.0-dev+48-b0ef568
+[04:40:11] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.22.0-dev+48-b0ef568
+[04:40:11] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
+[04:40:11] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[04:40:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:40:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.21
+[04:40:12] [Server thread/INFO]:         __    
+[04:40:12] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.21
+[04:40:12] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[04:40:12] [Server thread/INFO]: 
+[04:40:12] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:40:12] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:40:13] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:40:13] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1717ms)
+[04:40:13] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[04:40:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[04:40:13] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[04:40:13] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[04:40:13] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[04:40:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:40:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:40:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:40:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:40:13] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[04:40:13] [Server thread/INFO]: Preparing level "world"
+[04:40:13] [Server thread/INFO]: -------- World Settings For [world] --------
+[04:40:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:40:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:40:13] [Server thread/INFO]: Random Lighting Updates: false
+[04:40:13] [Server thread/INFO]: Structure Info Saving: true
+[04:40:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[04:40:13] [Server thread/INFO]: Max TNT Explosions: 100
+[04:40:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:40:13] [Server thread/INFO]: Mob Spawn Range: 4
+[04:40:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:40:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[04:40:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:40:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:40:13] [Server thread/INFO]: View Distance: 5
+[04:40:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:40:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:40:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:40:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:40:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:40:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[04:40:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:40:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:40:14] [Server thread/INFO]: Random Lighting Updates: false
+[04:40:14] [Server thread/INFO]: Structure Info Saving: true
+[04:40:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[04:40:14] [Server thread/INFO]: Max TNT Explosions: 100
+[04:40:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:40:14] [Server thread/INFO]: Mob Spawn Range: 4
+[04:40:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[04:40:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:40:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:40:14] [Server thread/INFO]: View Distance: 5
+[04:40:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:40:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:40:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:40:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:40:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:40:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[04:40:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:40:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:40:14] [Server thread/INFO]: Random Lighting Updates: false
+[04:40:14] [Server thread/INFO]: Structure Info Saving: true
+[04:40:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[04:40:14] [Server thread/INFO]: Max TNT Explosions: 100
+[04:40:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:40:14] [Server thread/INFO]: Mob Spawn Range: 4
+[04:40:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[04:40:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[04:40:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[04:40:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[04:40:14] [Server thread/INFO]: View Distance: 5
+[04:40:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[04:40:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:40:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[04:40:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[04:40:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[04:40:14] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7660066102376563894)
+[04:40:15] [Server thread/INFO]: Preparing spawn area: 10%
+[04:40:15] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7660066102376563894)
+[04:40:16] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7660066102376563894)
+[04:40:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[04:40:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[04:40:16] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[04:40:16] [Server thread/INFO]: [DeluxeTags] Enabling DeluxeTags v1.8.2-Release
+[04:40:16] [Server thread/INFO]: [DeluxeTags] Using standard hex colors format: #aaFF00
+[04:40:16] [Server thread/INFO]: [DeluxeTags] 1 tag loaded
+[04:40:16] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags messages.yml
+[04:40:16] [Server thread/INFO]: [DeluxeTags] PAPI Chat enabled. This means your chat plugin will use placeholders to fetch the tags!
+[04:40:16] [Server thread/INFO]: [DeluxeTags] ----------------------------
+[04:40:16] [Server thread/INFO]: [DeluxeTags]      DeluxeTags Updater
+[04:40:16] [Server thread/INFO]: [DeluxeTags]  
+[04:40:16] [Server thread/INFO]: [DeluxeTags] You are running 1.8.2-Release
+[04:40:16] [Server thread/INFO]: [DeluxeTags] The latest version
+[04:40:16] [Server thread/INFO]: [DeluxeTags] of DeluxeTags!
+[04:40:16] [Server thread/INFO]: [DeluxeTags]  
+[04:40:16] [Server thread/INFO]: [DeluxeTags] ----------------------------
+[04:40:16] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
+[04:40:16] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_12_R1
+[04:40:16] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
+[04:40:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+48-b0ef568
+[04:40:17] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[04:40:17] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[04:40:17] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[04:40:17] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[04:40:17] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[04:40:17] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[04:40:17] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[04:40:17] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[04:40:17] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[04:40:17] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[04:40:17] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[04:40:17] [Server thread/INFO]: [Essentials] Using locale en
+[04:40:18] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:40:18] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:40:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[04:40:18] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[04:40:18] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+48-b0ef568
+[04:40:18] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[04:40:18] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+48-b0ef568
+[04:40:18] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[04:40:18] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[04:40:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[04:40:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[04:40:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[04:40:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[04:40:18] [Server thread/INFO]: [WorldGuard] Loading region data...
+[04:40:19] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[04:40:19] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[04:40:19] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[04:40:19] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[04:40:19] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04:40:19] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[04:40:20] [Server thread/INFO]: Done (6.793s)! For help, type "help" or "?"
+[04:40:20] [Server thread/INFO]: Timings Reset
+[04:40:20] [Craft Scheduler Thread - 4/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[04:40:20] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[04:40:20] [Craft Scheduler Thread - 4/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[04:40:20] [Craft Scheduler Thread - 4/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[04:40:20] [Craft Scheduler Thread - 4/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[04:40:20] [Craft Scheduler Thread - 2/INFO]: [Essentials] Fetching version information...
+[04:40:20] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[04:40:20] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[04:40:21] [Server thread/INFO]: Usage: /op <player>
+[04:40:25] [Server thread/INFO]: Usage: /op <player>
+[04:40:57] [User Authenticator #1/INFO]: UUID of player KS1220ISland is 7c509a41-e8ae-3de8-8bf7-f1047fbb891c
+[04:40:57] [Server thread/INFO]: KS1220ISland[/0:0:0:0:0:0:0:1%0:44224] logged in with entity id 75 at ([world]-124.65166212845855, 71.0, 265.14039077561864)
+[04:40:58] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 28.449207ms. Summary: Getting prefix for KS1220ISland
+[04:41:04] [Craft Scheduler Thread - 10/INFO]: [AuthMe] The user KS1220ISland has 3 accounts:
+[04:41:04] [Craft Scheduler Thread - 10/INFO]: [AuthMe] KS1220ISland, numai_player12, player_akito2018.
+[04:41:04] [Craft Scheduler Thread - 10/INFO]: [AuthMe] KS1220ISland logged in 0:0:0:0:0:0:0:1%0
+[04:41:07] [Server thread/INFO]: KS1220ISland issued server command: /plugins
+[04:41:14] [Server thread/INFO]: KS1220ISland issued server command: /plex
+[04:41:54] [Server thread/INFO]: KS1220ISland issued server command: /nte player KS1220ISland prefix &4&l[&c&lOwner&4&l] &f
+[04:42:11] [Server thread/INFO]: [@: Title command successfully executed]
+[04:42:24] [Server thread/INFO]: KS1220ISland issued server command: /rg flag spawn use allow
+[04:42:26] [Server thread/INFO]: [@: Title command successfully executed]
+[04:42:29] [Server thread/INFO]: KS1220ISland lost connection: Disconnected
+[04:42:29] [Server thread/INFO]: KS1220ISland left the game
+[04:42:42] [User Authenticator #2/INFO]: UUID of player KS1220ISland_ALT is ce6c22aa-8dac-3df1-866d-e7db36485742
+[04:42:42] [Server thread/INFO]: KS1220ISland_ALT[/0:0:0:0:0:0:0:1%0:55942] logged in with entity id 157 at ([world]-105.72346634730998, 86.49274541244277, 193.2850144218404)
+[04:42:48] [Timer-3/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[04:42:53] [Server thread/INFO]: [AuthMe] KS1220ISland_ALT registered 0:0:0:0:0:0:0:1%0
+[04:42:53] [Craft Scheduler Thread - 15/INFO]: [AuthMe] The user KS1220ISland_ALT has 4 accounts:
+[04:42:53] [Craft Scheduler Thread - 15/INFO]: [AuthMe] ks1220island, numai_player12, player_akito2018, KS1220ISland_ALT.
+[04:42:53] [Craft Scheduler Thread - 15/INFO]: [AuthMe] KS1220ISland_ALT logged in 0:0:0:0:0:0:0:1%0
+[04:43:02] [Server thread/INFO]: KS1220ISland_ALT issued server command: /spawn
+[04:43:02] [Server thread/INFO]: [Essentials] KS1220ISland_ALT was denied access to command.
+[04:43:09] [Server thread/INFO]: KS1220ISland_ALT issued server command: /kill
+[04:43:09] [Server thread/INFO]: [Essentials] KS1220ISland_ALT was denied access to command.
+[04:44:05] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:07] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:08] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:20] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:20] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:21] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:21] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:22] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:23] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:23] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:24] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:25] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:26] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:28] [Server thread/INFO]: [@: Title command successfully executed]
+[04:44:33] [Server thread/INFO]: [@: Title command successfully executed]
+[04:45:13] [Async Chat Thread - #0/INFO]: [Defalt]KS1220ISland_ALT> t
+[04:45:19] [Server thread/INFO]: KS1220ISland_ALT issued server command: /nick
+[04:45:19] [Server thread/INFO]: [Essentials] KS1220ISland_ALT was denied access to command.
+[04:45:28] [Server thread/INFO]: KS1220ISland_ALT issued server command: /home
+[04:45:28] [Server thread/INFO]: [Essentials] KS1220ISland_ALT was denied access to command.
+[04:45:34] [Server thread/INFO]: KS1220ISland_ALT issued server command: /list
+[04:45:34] [Server thread/INFO]: [Essentials] KS1220ISland_ALT was denied access to command.
+[04:45:40] [Server thread/INFO]: KS1220ISland_ALT lost connection: Disconnected
+[04:45:40] [Server thread/INFO]: KS1220ISland_ALT left the game
+[04:47:51] [User Authenticator #3/INFO]: UUID of player KS1220ISland_ALT is ce6c22aa-8dac-3df1-866d-e7db36485742
+[04:47:51] [Server thread/INFO]: KS1220ISland_ALT[/0:0:0:0:0:0:0:1%0:41156] logged in with entity id 614 at ([world]-105.30000001192093, 67.20000004768372, 259.69999998807907)
+[04:47:56] [Craft Scheduler Thread - 23/INFO]: [AuthMe] The user KS1220ISland_ALT has 4 accounts:
+[04:47:56] [Craft Scheduler Thread - 23/INFO]: [AuthMe] ks1220island, numai_player12, player_akito2018, KS1220ISland_ALT.
+[04:47:56] [Craft Scheduler Thread - 23/INFO]: [AuthMe] KS1220ISland_ALT logged in 0:0:0:0:0:0:0:1%0
+[04:47:58] [Async Chat Thread - #1/INFO]: [Defalt]KS1220ISland_ALT> &4a
+[04:48:12] [Server thread/INFO]: KS1220ISland_ALT issued server command: /nte
+[04:48:20] [Server thread/INFO]: KS1220ISland_ALT lost connection: Disconnected
+[04:48:20] [Server thread/INFO]: KS1220ISland_ALT left the game
+[04:50:19] [User Authenticator #4/INFO]: UUID of player KS1220ISland is 7c509a41-e8ae-3de8-8bf7-f1047fbb891c
+[04:50:19] [Server thread/INFO]: KS1220ISland[/0:0:0:0:0:0:0:1%0:41360] logged in with entity id 634 at ([world]-111.67052293524486, 64.0, 253.300000011921)
+[04:50:24] [Craft Scheduler Thread - 28/INFO]: [AuthMe] The user KS1220ISland has 4 accounts:
+[04:50:24] [Craft Scheduler Thread - 28/INFO]: [AuthMe] KS1220ISland, numai_player12, player_akito2018, ks1220island_alt.
+[04:50:24] [Craft Scheduler Thread - 28/INFO]: [AuthMe] KS1220ISland logged in 0:0:0:0:0:0:0:1%0
+[04:50:32] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set minecraft.command.op false
+[04:50:32] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:50:32] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.op false
+[04:50:49] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set minecraft.command.deop false
+[04:50:49] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:50:49] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.deop false
+[04:50:56] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set minecraft.command.kill false
+[04:50:56] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:50:56] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command.kill false
+[04:51:03] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.ban false/lp group default permission set essentials.tempban false/lp group default permission set essentials.ipban false/lp group default permission set essentials.unban false/lp group default permission set ess
+[04:51:03] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:51:03] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.ban true server=false/lp server=default server=set server=ess server=essentials.ipban server=essentials.tempban server=permission server=group server=essentials.unban world=group
+[04:51:53] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.ban false
+[04:51:53] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:51:53] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.ban false
+[04:52:09] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.tempban false
+[04:52:09] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:52:09] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.tempban false
+[04:52:17] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.ipban false
+[04:52:17] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:52:17] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.ipban false
+[04:52:35] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.unban false
+[04:52:35] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:52:35] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.unban false
+[04:52:48] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.kick false
+[04:52:48] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:52:48] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.kick false
+[04:52:50] [Server thread/INFO]: KS1220ISland issued server command: /jail
+[04:53:09] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.mute false
+[04:53:09] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:53:09] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.mute false
+[04:53:14] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.jail false
+[04:53:14] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:53:14] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.jail false
+[04:53:27] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.tp false
+[04:53:27] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:53:27] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.tp false
+[04:53:48] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set luckperms.* false
+[04:53:48] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:53:48] [luckperms-command-executor/INFO]: [LP] LOG > permission set luckperms.* false
+[04:53:59] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.spawn true/lp group default permission set essentials.home true/lp group default permission set essentials.sethome true/lp group default permission set essentials.delhome true
+[04:53:59] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:53:59] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.spawn true server=default server=set server=essentials.home server=essentials.sethome server=true server=permission server=essentials.delhome server=true/lp server=group world=group
+[04:54:15] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.home true
+[04:54:15] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:54:15] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.home true
+[04:54:47] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.delhome true
+[04:54:47] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:54:47] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.delhome true
+[04:54:58] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.sethome true
+[04:54:58] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:54:58] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome true
+[04:55:09] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.nick true
+[04:55:09] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:55:09] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.nick true
+[04:55:14] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.nick.color true
+[04:55:14] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:55:14] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.nick.color true
+[04:55:34] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.tpa true
+[04:55:34] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:55:34] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.tpa true
+[04:55:52] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.tpaccept true
+[04:55:52] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:55:52] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.tpaccept true
+[04:56:01] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.tpdeny true
+[04:56:01] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:56:01] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.tpdeny true
+[04:56:12] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.chat.color true
+[04:56:12] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:56:12] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.chat.color true
+[04:56:21] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.chat.format true
+[04:56:21] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:56:21] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.chat.format true
+[04:56:35] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.msg true
+[04:56:35] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:56:35] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.msg true
+[04:56:42] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.reply true
+[04:56:42] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:56:42] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.reply true
+[04:56:51] [Server thread/INFO]: KS1220ISland issued server command: /lp group default permission set essentials.warp true
+[04:56:51] [luckperms-command-executor/INFO]: [LP] LOG > (KS1220ISland) [G] (default)
+[04:56:51] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.warp true
+[04:58:53] [Server thread/INFO]: KS1220ISland issued server command: /ne

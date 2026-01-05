@@ -1,0 +1,184 @@
+[19:44:44] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[19:44:44] [Server thread/INFO]: Loading properties
+[19:44:44] [Server thread/INFO]: Default game type: SURVIVAL
+[19:44:44] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[19:44:44] [Server thread/INFO]: Debug logging is disabled
+[19:44:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:44:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:44:44] [Server thread/INFO]: Generating keypair
+[19:44:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:44:45] [Server thread/INFO]: Using epoll channel type
+[19:44:45] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:44:45] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.22
+[19:44:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:44:45] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:44:45] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.2.4
+[19:44:45] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
+[19:44:45] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[19:44:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:44:45] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[19:44:46] [Server thread/INFO]:         __    
+[19:44:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[19:44:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:44:46] [Server thread/INFO]: 
+[19:44:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:44:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:44:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:44:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1665ms)
+[19:44:47] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:44:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:44:47] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:44:47] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:44:47] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[19:44:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:44:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:44:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:44:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:44:47] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:44:47] [Server thread/INFO]: Preparing level "world"
+[19:44:47] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:44:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:44:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[19:44:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:44:47] [Server thread/INFO]: Mob Spawn Range: 4
+[19:44:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:44:47] [Server thread/INFO]: Random Lighting Updates: false
+[19:44:47] [Server thread/INFO]: Structure Info Saving: true
+[19:44:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[19:44:47] [Server thread/INFO]: Max TNT Explosions: 100
+[19:44:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:44:47] [Server thread/INFO]: View Distance: 5
+[19:44:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:44:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:44:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:44:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:44:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:44:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:44:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:44:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:44:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[19:44:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:44:48] [Server thread/INFO]: Mob Spawn Range: 4
+[19:44:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:44:48] [Server thread/INFO]: Random Lighting Updates: false
+[19:44:48] [Server thread/INFO]: Structure Info Saving: true
+[19:44:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[19:44:48] [Server thread/INFO]: Max TNT Explosions: 100
+[19:44:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:44:48] [Server thread/INFO]: View Distance: 5
+[19:44:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:44:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:44:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:44:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:44:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:44:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:44:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:44:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:44:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:44:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[19:44:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:44:48] [Server thread/INFO]: Mob Spawn Range: 4
+[19:44:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:44:48] [Server thread/INFO]: Random Lighting Updates: false
+[19:44:48] [Server thread/INFO]: Structure Info Saving: true
+[19:44:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[19:44:48] [Server thread/INFO]: Max TNT Explosions: 100
+[19:44:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:44:48] [Server thread/INFO]: View Distance: 5
+[19:44:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:44:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:44:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:44:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:44:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:44:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:44:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:44:48] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5223615602369702146)
+[19:44:49] [Server thread/INFO]: Preparing spawn area: 16%
+[19:44:49] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1906524920744886390)
+[19:44:50] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1906524920744886390)
+[19:44:50] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.2.4
+[19:44:50] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[19:44:50] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[19:44:50] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_12_R1
+[19:44:50] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[19:44:50] [Server thread/INFO]: [AuctionHouse] Loaded 1 listing
+[19:44:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[19:44:50] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:44:50] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[19:44:51] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[19:44:51] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[19:44:51] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[19:44:51] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[19:44:51] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[19:44:51] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[19:44:51] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[19:44:51] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[19:44:51] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[19:44:51] [Server thread/INFO]: [Essentials] Using locale en
+[19:44:51] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:44:51] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:44:51] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[19:44:51] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[19:44:51] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[19:44:52] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[19:44:52] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[19:44:52] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[19:44:52] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/minecraft-server1/server/plugins/Essentials/spawn.yml'
+[19:44:52] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[19:44:52] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[19:44:53] [Server thread/INFO]: Done (5.439s)! For help, type "help" or "?"
+[19:44:53] [Server thread/INFO]: Timings Reset
+[19:44:53] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
+[19:44:53] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
+[19:44:53] [Craft Scheduler Thread - 2/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[19:44:53] [Craft Scheduler Thread - 2/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[19:44:53] [Craft Scheduler Thread - 2/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[19:44:53] [Craft Scheduler Thread - 0/INFO]: [Essentials] Fetching version information...
+[19:44:53] [Craft Scheduler Thread - 2/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[19:44:53] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[19:44:53] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[19:44:53] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[19:46:57] [Server thread/INFO]: [Server] hi

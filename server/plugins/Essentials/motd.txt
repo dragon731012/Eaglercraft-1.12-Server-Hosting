@@ -1,0 +1,6 @@
+&6Welcome, {PLAYER}&6!
+&6Type &c/help&6 for a list of commands.
+&6/sell hand amount&6&r to sell a diamond for $100
+&6/ah&6&r to get to auction house
+&6/ah sell price&6&r to list the item in your hand
+world border set from -250 to 250

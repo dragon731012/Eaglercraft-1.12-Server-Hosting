@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "daebc46b-4c7d-342f-ba57-b07fc7084e29",
+    "name": "testbot"
+  },
+  {
+    "uuid": "2772779e-8381-3e3b-9aeb-04007298eaac",
+    "name": "lando"
+  },
+  {
+    "uuid": "40491c9b-f056-3cf5-b3ef-3155c39a4695",
+    "name": "zeus"
+  }
+]

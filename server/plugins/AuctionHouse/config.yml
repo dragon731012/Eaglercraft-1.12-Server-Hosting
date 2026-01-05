@@ -1,0 +1,112 @@
+# 
+# AuctionHouse
+locale: en_us
+decimal_format: '#,##0.00'
+strict: false
+economy: vault
+chatHook: true
+updateTicks: 20
+auction:
+  listingPrice: 0.0
+  listingRate: 0.0
+  listingCooldown: 0d0h0m0s
+  listingDuration: 7d0h0m
+  expiredDuration: 14d0h0m
+  unclaimedDuration: 90d0h0m
+  cleanupDuration: 0d24h0m
+  soldDuration: 365d0h0m
+  unclaimedCheckDuration: 0d0h5m
+  unclaimedCheckOnWorldChange: true
+  preventCreative: false
+  preventSpectator: true
+  preventFilledContainers: false
+  minSellPrice: 0.0
+  maxSellPrice: 100000.0
+  salesTax: 0.0
+  maxSalesTax: 100000.0
+  allowDamagedItems: true
+  defaultMaxListings: 5
+  sortOrder: oldest
+  discord_channel: auctionhouse
+  multiworld: false
+  groupWorlds: false
+  replaceUUIDs: false
+  replacePlayerNames: false
+  dropAtFeet: false
+  showSeconds: true
+  spawnerInfo: true
+  integerPrice: false
+  showRepairCost: true
+announce:
+  chat:
+    listings: true
+    purchases: true
+  action_bar:
+    listings: false
+    purchases: false
+  discord:
+    listings: false
+    purchases: false
+restricted_items:
+  '0':
+    item: BEDROCK
+  '1':
+    item: BARRIER
+  '2':
+    item: COMMAND
+  example:
+    name: \u00a7cVorpal Sword
+    item: DIAMOND_SWORD
+    lore:
+    - Special Item
+    - Does not list in AuctionHouse
+    enchantments:
+    - ench: DAMAGE_ALL
+      level: 10
+    - ench: DURABILITY
+      level: 3
+    - ench: LOOT_BONUS_MOBS
+      level: 3
+    - ench: FIRE_ASPECT
+      level: 2
+    unbreakable: true
+  mcmmo:
+    lore:
+    - mcMMO Ability Tool
+sounds:
+  click: ui.button.click
+  fail: entity.villager.no
+  drop: entity.player.burp
+  sold: block.note.pling
+buttons:
+  exit: IRON_DOOR
+  back: IRON_DOOR
+  previous: PAPER
+  sort_listings: DOUBLE_PLANT
+  next: PAPER
+  info: BOOK
+  howto: EMERALD
+  return_all: FLOWER_POT
+  player_listings: DIAMOND
+  expired_listings: POISONOUS_POTATO
+  sold_items: GOLD_INGOT
+  clear: BARRIER
+  confirm: STAINED_GLASS_PANE:5
+  cancel: STAINED_GLASS_PANE:14
+triggers:
+  sign: '[AuctionHouse]'
+  block_name: Auction House
+  entity_name: Auction House
+commands:
+  exit: msg %player% Exiting AuctionHouse
+log:
+  listed: true
+  sold: true
+  cancelled: true
+  returned: true
+  dropped: true
+  purged: true
+anticheat:
+  spam_check: true
+disabled-worlds: []
+configVersion: 33

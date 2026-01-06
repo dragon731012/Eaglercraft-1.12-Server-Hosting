@@ -1,10 +1,6 @@
 cp gamefiles/wasm.html web/wasm.html
 cp gamefiles/game.html web/game.html
 cd "web/"
-echo "What would you like your server name to be?"
-read NAME
-sed -i "s|\${SERVERNAME}|$NAME|g" game.html
-sed -i "s|\${SERVERNAME}|$NAME|g" wasm.html
 npm install --global surge 
 echo "Would you like to use a custom domain? Y/N (slightly more complicated)"
 read C
@@ -30,10 +26,3 @@ else
     read SUBDOMAIN
     DOMAIN="http://$SUBDOMAIN.surge.sh"
 fi
-echo "What is your server address? (with port)"
-read ADDRESS
-sed -i "s|\${SERVERADDRESS}|ws://$ADDRESS|g" game.html
-sed -i "s|\${SERVERADDRESS}|ws://$ADDRESS|g" wasm.html
-surge . $DOMAIN
-rm game.html
-rm wasm.html

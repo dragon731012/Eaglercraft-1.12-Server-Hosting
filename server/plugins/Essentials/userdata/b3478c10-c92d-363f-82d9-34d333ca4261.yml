@@ -1,0 +1,49 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1764803110802
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1764803521745
+  login: 1764803373983
+  kits:
+    tools: 1761965294264
+money: '0'
+last-account-name: silverstone
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: -6189.052472788927
+  y: 63.0
+  z: -687.9904166647478
+  yaw: 170.84075927734375
+  pitch: 28.549972534179688
+lastlocation:
+  world: dffa2be3-56f2-4582-925d-1bae6862f23f
+  world-name: world_nether
+  x: 3258238.4406254697
+  y: 41.0
+  z: -602989.8893906453
+  yaw: 127.76112365722656
+  pitch: 80.35265350341797
+homes:
+  home:
+    world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+    world-name: world
+    x: -6186.142346751043
+    y: 63.0
+    z: -688.1908609433309
+    yaw: 307.51129150390625
+    pitch: 53.214420318603516

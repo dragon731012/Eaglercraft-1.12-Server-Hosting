@@ -1,0 +1,589 @@
+#  ___       ___  __  ___  __        ___
+# |__  |    |__  /  `  |  /  \ |\ | |__
+# |    |___ |___ \__,  |  \__/ | \| |___
+#  __             __   ___
+# |__) |  | |    /__` |__
+# |    \__/ |___ .__/ |___   /\
+#                           /  \
+# __/\___  ____/\_____  ___/    \______
+#        \/           \/
+#
+# https://flectone.net/pulse/docs/message/
+enable: true
+# https://flectone.net/pulse/docs/message/afk/
+afk:
+  enable: true
+  range: "SERVER"
+  delay: 3000
+  ignore:
+  - "afk"
+  destination:
+    type: "CHAT"
+  ticker:
+    enable: true
+    period: 20
+  sound:
+    enable: false
+# https://flectone.net/pulse/docs/message/anvil/
+anvil:
+  enable: false
+# https://flectone.net/pulse/docs/message/auto/
+auto:
+  enable: false
+  types:
+    announcement:
+      random: true
+      destination:
+        type: "CHAT"
+      ticker:
+        enable: true
+        period: 9000
+      sound:
+        enable: false
+# https://flectone.net/pulse/docs/message/book/
+book:
+  enable: false
+# https://flectone.net/pulse/docs/message/bossbar/
+bossbar:
+  enable: true
+  announce:
+    key:
+      destination:
+        type: "TITLE"
+        subtext: ""
+        times:
+          stay: 60
+          fade_in: 20
+          fade_out: 20
+      sound:
+        enable: false
+# https://flectone.net/pulse/docs/message/brand/
+brand:
+  enable: true
+  random: true
+  destination:
+    type: "BRAND"
+  ticker:
+    enable: true
+    period: 100
+# https://flectone.net/pulse/docs/message/bubble/
+bubble:
+  enable: true
+  max_count: 3
+  max_length: 30
+  elevation: 0.4
+  distance: 30.0
+  read_speed: 90.0
+  handicap_chars: 10.0
+  word_break_hint: "‑"
+  interaction:
+    enable: true
+    height: 0.4
+  modern:
+    enable: true
+    has_shadow: false
+    see_through: true
+    animation_time: 5
+    scale: 1.0
+    background: "#00000040"
+    billboard: "CENTER"
+# https://flectone.net/pulse/docs/message/chat/
+chat:
+  enable: true
+  mode: "BUKKIT"
+  priority: "NORMAL"
+  types:
+    local:
+      enable: true
+      cancel: true
+      range: 100
+      priority: 0
+      trigger: ""
+      null_receiver:
+        enable: true
+        destination:
+          type: "ACTION_BAR"
+          times:
+            stay: 20
+      destination:
+        type: "CHAT"
+      cooldown:
+        enable: false
+      sound:
+        enable: false
+    global:
+      enable: true
+      cancel: false
+      range: "PROXY"
+      priority: 5
+      trigger: "!"
+      null_receiver:
+        enable: true
+        destination:
+          type: "ACTION_BAR"
+          times:
+            stay: 20
+      destination:
+        type: "CHAT"
+      cooldown:
+        enable: false
+      sound:
+        enable: false
+# https://flectone.net/pulse/docs/message/format/
+format:
+  enable: true
+  convert_legacy_color: true
+  adventure_tags:
+  - "HOVER"
+  - "CLICK"
+  - "COLOR"
+  - "KEYBIND"
+  - "TRANSLATABLE"
+  - "TRANSLATABLE_FALLBACK"
+  - "INSERTION"
+  - "FONT"
+  - "DECORATION"
+  - "GRADIENT"
+  - "RAINBOW"
+  - "RESET"
+  - "NEWLINE"
+  - "TRANSITION"
+  - "SELECTOR"
+  - "SCORE"
+  - "NBT"
+  - "PRIDE"
+  - "SHADOW_COLOR"
+  # https://flectone.net/pulse/docs/message/format/fcolor/
+  fcolor:
+    enable: true
+    default_colors:
+      1: "<gradient:#A6D8FF:#8CC8FF>"
+      2: "<gradient:#6BB6FF:#4DA6FF>"
+      3: "#A9A9A9"
+      4: "#FFFAFA"
+  # https://flectone.net/pulse/docs/message/format/fixation/
+  fixation:
+    enable: false
+    end_dot: false
+    first_letter_uppercase: false
+    non_dot_symbols:
+    - ";"
+    - ":"
+    - "'"
+    - "\""
+    - ","
+    - "?"
+    - "!"
+    - "."
+  # https://flectone.net/pulse/docs/message/format/mention/
+  mention:
+    enable: true
+    trigger: "@"
+    everyone_tag: "here"
+    destination:
+      type: "TOAST"
+      icon: "minecraft:bell"
+      style: "TASK"
+    sound:
+      enable: true
+      volume: 0.1
+      pitch: 0.1
+      category: "BLOCK"
+      name: "minecraft:entity.experience_orb.pickup"
+  # https://flectone.net/pulse/docs/message/format/moderation/
+  moderation:
+    enable: true
+    # https://flectone.net/pulse/docs/message/format/moderation/caps/
+    caps:
+      enable: false
+      trigger: 0.7
+    # https://flectone.net/pulse/docs/message/format/moderation/delete/
+    delete:
+      enable: false
+      history_length: 100
+    # https://flectone.net/pulse/docs/message/format/moderation/newbie/
+    newbie:
+      enable: false
+      mode: "PLAYED_TIME"
+      timeout: 3600
+    # https://flectone.net/pulse/docs/message/format/moderation/flood/
+    flood:
+      enable: false
+      trim_to_single: false
+      max_repeated_symbols: 10
+      max_repeated_words: 2
+    # https://flectone.net/pulse/docs/message/format/moderation/swear/
+    swear:
+      enable: false
+      ignore:
+      - "тебя"
+      - "тебе"
+      trigger:
+      - "((у|[нз]а|(хитро|не)?вз?[ыьъ]|с[ьъ]|(и|ра)[зс]ъ?|(о[тб]|под)[ьъ]?|(.\\B)+?[оаеи])?-?([её]б(?!о[рй])|и[пб][ае][тц]).*?|(н[иеа]|([дп]|верт)о|ра[зс]|з?а|с(ме)?|о(т|дно)?|апч)?-?ху([яйиеёю]|ли(?!ган)).*?|(в[зы]|(три|два|четыре)жды|(н|сук)а)?-?бл(я(?!(х|ш[кн]|мб)[ауеыио]).*?|[еэ][дт]ь?)|(ра[сз]|[зн]а|[со]|вы?|п(ере|р[оие]|од)|и[зс]ъ?|[ао]т)?п[иеё]зд.*?|(за)?п[ие]д[аое]?р([оа]м|(ас)?(ну.*?|и(ли)?[нщктл]ь?)?|(о(ч[еи])?|ас)?к(ой)|юг)[ауеы]?|манд([ауеыи](л(и[сзщ])?[ауеиы])?|ой|[ао]вошь?(е?к[ауе])?|юк(ов|[ауи])?)|муд([яаио].*?|е?н([ьюия]|ей))|мля([тд]ь)?|лять|([нз]а|по|пи)х|м[ао]л[ао]фь([яию]|[еёо]й))(?=[\\s,.:;\"']|$)"
+      - "(([уyu]|[нзnz3][аa]|(хитро|не)?[вvwb][зz3]?[ыьъi]|[сsc][ьъ']|(и|[рpr][аa4])[зсzs]ъ?|([оo0][тбtb6]|[пp][оo0][дd9])[ьъ']?|(.\\B)+?[оаеиeo])?-?([еёe][бb6](?!о[рй])|и[пб][ае][тц]).*?|([нn][иеаaie]|([дпdp]|[вv][еe3][рpr][тt])[оo0]|[рpr][аa][зсzc3]|[з3z]?[аa]|с(ме)?|[оo0]([тt]|дно)?|апч)?-?[хxh][уuy]([яйиеёюuie]|ли(?!ган)).*?|([вvw][зы3z]|(три|два|четыре)жды|(н|[сc][уuy][кk])[аa])?-?[бb6][лl]([яy](?!(х|ш[кн]|мб)[ауеыио]).*?|[еэe][дтdt][ь']?)|([рp][аa][сзc3z]|[знzn][аa]|[соsc]|[вv][ыi]?|[пp]([еe][рpr][еe]|[рrp][оиioеe]|[оo0][дd])|и[зс]ъ?|[аоao][тt])?[пpn][иеёieu][зz3][дd9].*?|([зz3][аa])?[пp][иеieu][дd][аоеaoe]?[рrp](ну.*?|[оаoa][мm]|([аa][сcs])?([иiu]([лl][иiu])?[нщктлtlsn]ь?)?|([оo](ч[еиei])?|[аa][сcs])?[кk]([оo]й)?|[юu][гg])[ауеыauyei]?|[мm][аa][нnh][дd]([ауеыayueiи]([лl]([иi][сзc3щ])?[ауеыauyei])?|[оo][йi]|[аоao][вvwb][оo](ш|sh)[ь']?([e]?[кk][ауеayue])?|юк(ов|[ауи])?)|[мm][уuy][дd6]([яyаиоaiuo0].*?|[еe]?[нhn]([ьюия'uiya]|ей))|мля([тд]ь)?|лять|([нз]а|по|пи)х|м[ао]л[ао]фь([яию]|[её]й))(?=[\\s,.:;\"']|$)"
+  # https://flectone.net/pulse/docs/message/format/names/
+  names:
+    enable: true
+    should_check_invisibility: false
+  # https://flectone.net/pulse/docs/message/format/object/
+  object:
+    enable: true
+    player_head: true
+    sprite: true
+    need_extra_space: true
+  question_answer:
+    enable: false
+    questions:
+      server:
+        range: "PLAYER"
+        destination:
+          type: "CHAT"
+        cooldown:
+          enable: false
+        sound:
+          enable: false
+        target: "(?i)\\b(what\\s+is\\s+this\\s+server|what\\'?s\\s+this\\s+server|what\\s+server\\s+is\\s+this)\\b"
+      flectone:
+        range: "PLAYER"
+        destination:
+          type: "CHAT"
+        cooldown:
+          enable: false
+        sound:
+          enable: false
+        target: "(?i)\\b(flectone|flectonepulse|flecton)\\b"
+  # https://flectone.net/pulse/docs/message/format/replacement/
+  replacement:
+    enable: true
+    triggers:
+      smile: "(?<!\\\\)(?<!\\S):-?\\)(?!\\S)"
+      big_smile: "(?<!\\\\)(?<!\\S):-?D(?!\\S)"
+      sad: "(?<!\\\\)(?<!\\S):-?\\((?!\\S)"
+      ok_hand: "(?<!\\\\)(?<!\\S)(?i):ok:(?!\\S)"
+      thumbs_up: "(?<!\\\\)(?<!\\S):\\+1:(?!\\S)"
+      thumbs_down: "(?<!\\\\)(?<!\\S):-1:(?!\\S)"
+      cool_smile: "(?<!\\\\)(?<!\\S)(?i):cool:(?!\\S)"
+      cool_glasses: "(?<!\\\\)(?<!\\S)B-?\\)(?!\\S)"
+      clown: "(?<!\\\\)(?<!\\S)(?i):clown:(?!\\S)"
+      heart: "(?<!\\\\)(?<!\\S)<3(?!\\S)"
+      laughing: "(?<!\\\\)(?<!\\S)(?i)xd(?!\\S)"
+      confused: "(?<!\\\\)(?<!\\S)%-?\\)(?!\\S)"
+      happy: "(?<!\\\\)(?<!\\S)=D(?!\\S)"
+      angry: "(?<!\\\\)(?<!\\S)>:-?\\((?!\\S)"
+      ascii_idk: "(?<!\\\\)(?<!\\S)(?i):idk:(?!\\S)"
+      ascii_angry: "(?<!\\\\)(?<!\\S)(?i):angry:(?!\\S)"
+      ascii_happy: "(?<!\\\\)(?<!\\S)(?i):happy:(?!\\S)"
+      ping: "(?<!\\\\)(?<!\\S)%ping%(?!\\S)"
+      tps: "(?<!\\\\)(?<!\\S)%tps%(?!\\S)"
+      online: "(?<!\\\\)(?<!\\S)%online%(?!\\S)"
+      coords: "(?<!\\\\)(?<!\\S)%coords%(?!\\S)"
+      stats: "(?<!\\\\)(?<!\\S)%stats%(?!\\S)"
+      skin: "(?<!\\\\)(?<!\\S)%skin%(?!\\S)"
+      item: "(?<!\\\\)(?<!\\S)%item%(?!\\S)"
+      image: "(?<!\\\\{2,})(?<=\\s|^)((?:https?|HTTPS?)://(?:[a-zA-Z0-9-]{1,63}\\.)*(?:imgur\\.com|discordapp\\.net|cdn\\.discordapp\\.com)/[\\w\\-./?=&%]*\\.(?:jpg|jpeg|png|gif|webp|bmp))(?!\\S)"
+      url: "(?<!\\\\{2,})(?<=\\s|^)((?:https?|ftp|HTTPS?)://(?:[\\p{L}a-zA-Z0-9-]{1,63}\\.)+[\\p{L}a-zA-Z]{2,6}(?::\\d{1,5})?(?:/[\\w\\-./?=&%]*)?)(?!\\S)"
+      spoiler: "(?<!\\S)\\|\\|([^\\|\\|\\n]+)\\|\\|(?!\\S)"
+      bold: "(?<!\\S)\\*\\*([^\\*\\*\\n]+)\\*\\*(?!\\S)"
+      italic: "(?<!\\S)\\*([^\\*\\n]+)\\*(?!\\S)"
+      underline: "(?<!\\S)__([^__\\n]+)__(?!\\S)"
+      obfuscated: "(?<!\\S)\\?\\?([^\\?\\?\\n]+)\\?\\?(?!\\S)"
+      strikethrough: "(?<!\\S)~~([^~~\\n]+)~~(?!\\S)"
+  # https://flectone.net/pulse/docs/message/format/scoreboard/
+  scoreboard:
+    enable: true
+    name_visible: false
+    color: "<white>"
+    prefix: "<vault_prefix><stream_prefix>"
+    suffix: "<afk_suffix><vault_suffix>"
+    ticker:
+      enable: false
+  # https://flectone.net/pulse/docs/message/format/translate/
+  translate:
+    enable: true
+  # https://flectone.net/pulse/docs/message/format/world/
+  world:
+    enable: true
+    mode: "TYPE"
+    ticker:
+      enable: false
+    values:
+      normal: "<color:#98FB98>"
+      world: "<color:#98FB98>"
+      overworld: "<color:#98FB98>"
+      custom: "<color:#98FB98>"
+      nether: "<color:#F08080>"
+      the_nether: "<color:#F08080>"
+      world_nether: "<color:#F08080>"
+      the_end: "<color:#9370DB>"
+      world_the_end: "<color:#9370DB>"
+# https://flectone.net/pulse/docs/message/greeting/
+greeting:
+  enable: false
+  destination:
+    type: "CHAT"
+  sound:
+    enable: false
+# https://flectone.net/pulse/docs/message/join/
+join:
+  enable: true
+  first: true
+  range: "SERVER"
+  destination:
+    type: "CHAT"
+  sound:
+    enable: false
+# https://flectone.net/pulse/docs/message/objective/
+objective:
+  enable: true
+  # https://flectone.net/pulse/docs/message/objective/belowname/
+  belowname:
+    enable: false
+    mode: "PING"
+    ticker:
+      enable: true
+      period: 100
+  # https://flectone.net/pulse/docs/message/objective/tabname/
+  tabname:
+    enable: false
+    mode: "PING"
+    ticker:
+      enable: true
+      period: 100
+# https://flectone.net/pulse/docs/message/quit/
+quit:
+  enable: true
+  range: "SERVER"
+  destination:
+    type: "CHAT"
+  sound:
+    enable: false
+# https://flectone.net/pulse/docs/message/rightclick/
+rightclick:
+  enable: true
+  should_check_sneaking: false
+  hide_name_when_invisible: true
+  range: "PLAYER"
+  destination:
+    type: "ACTION_BAR"
+    times:
+      stay: 60
+  cooldown:
+    enable: false
+  sound:
+    enable: false
+# https://flectone.net/pulse/docs/message/sidebar/
+sidebar:
+  enable: false
+  random: true
+  ticker:
+    enable: true
+    period: 100
+# https://flectone.net/pulse/docs/message/sign/
+sign:
+  enable: false
+# https://flectone.net/pulse/docs/message/status/
+status:
+  enable: true
+  # https://flectone.net/pulse/docs/message/status/icon/
+  icon:
+    enable: false
+    random: true
+    values:
+    - "server-icon-1.png"
+    - "server-icon-2.png"
+  # https://flectone.net/pulse/docs/message/status/motd/
+  motd:
+    enable: true
+    random: true
+  # https://flectone.net/pulse/docs/message/status/players/
+  players:
+    enable: false
+    control: true
+    max: 69
+    online: -69
+  # https://flectone.net/pulse/docs/message/status/version/
+  version:
+    enable: false
+    protocol: -1
+# https://flectone.net/pulse/docs/message/tab/
+tab:
+  enable: true
+  # https://flectone.net/pulse/docs/message/tab/header/
+  header:
+    enable: true
+    random: true
+    destination:
+      type: "TAB_HEADER"
+    ticker:
+      enable: true
+      period: 100
+  # https://flectone.net/pulse/docs/message/tab/footer/
+  footer:
+    enable: true
+    random: true
+    destination:
+      type: "TAB_FOOTER"
+    ticker:
+      enable: true
+      period: 100
+  # https://flectone.net/pulse/docs/message/tab/playerlistname/
+  playerlistname:
+    enable: true
+    proxy_mode: true
+    ticker:
+      enable: true
+      period: 100
+# https://flectone.net/pulse/docs/message/update/
+update:
+  enable: true
+  destination:
+    type: "CHAT"
+  sound:
+    enable: false
+# https://flectone.net/pulse/docs/message/vanilla/
+vanilla:
+  enable: true
+  types:
+  - destination:
+      type: "ACTION_BAR"
+      times:
+        stay: 20
+    translation_keys:
+    - "block.minecraft.bed.no_sleep"
+    - "block.minecraft.bed.not_safe"
+    - "block.minecraft.bed.obstructed"
+    - "block.minecraft.bed.occupied"
+    - "block.minecraft.bed.too_far_away"
+    - "tile.bed.noSleep"
+    - "tile.bed.notSafe"
+    - "tile.bed.notValid"
+    - "tile.bed.occupied"
+    - "block.minecraft.spawn.not_valid"
+    - "block.minecraft.bed.not_valid"
+    - "item.minecraft.debug_stick.empty"
+    - "item.minecraft.debug_stick.select"
+    - "item.minecraft.debug_stick.update"
+  - name: "SLEEP"
+    destination:
+      type: "ACTION_BAR"
+      times:
+        stay: 20
+    translation_keys:
+    - "sleep.not_possible"
+    - "sleep.players_sleeping"
+    - "sleep.skipping_night"
+  - name: "ADVANCEMENT"
+    multi_message: true
+    range: "SERVER"
+    translation_keys:
+    - "chat.type.advancement.challenge"
+    - "chat.type.advancement.goal"
+    - "chat.type.advancement.task"
+    - "chat.type.achievement"
+    - "chat.type.achievement.taken"
+  - name: "DEATH"
+    multi_message: true
+    range: "SERVER"
+    translation_keys:
+    - "death.attack.anvil"
+    - "death.attack.anvil.player"
+    - "death.attack.arrow"
+    - "death.attack.arrow.item"
+    - "death.attack.badRespawnPoint.message"
+    - "death.attack.cactus"
+    - "death.attack.cactus.player"
+    - "death.attack.cramming"
+    - "death.attack.cramming.player"
+    - "death.attack.dragonBreath"
+    - "death.attack.dragonBreath.player"
+    - "death.attack.drown"
+    - "death.attack.drown.player"
+    - "death.attack.dryout"
+    - "death.attack.dryout.player"
+    - "death.attack.even_more_magic"
+    - "death.attack.explosion"
+    - "death.attack.explosion.player"
+    - "death.attack.explosion.item"
+    - "death.attack.explosion.player.item"
+    - "death.attack.fall"
+    - "death.attack.fall.player"
+    - "death.attack.fallingBlock"
+    - "death.attack.fallingBlock.player"
+    - "death.attack.fallingStalactite"
+    - "death.attack.fallingStalactite.player"
+    - "death.attack.fireball"
+    - "death.attack.fireball.item"
+    - "death.attack.fireworks"
+    - "death.attack.fireworks.item"
+    - "death.attack.fireworks.player"
+    - "death.attack.flyIntoWall"
+    - "death.attack.flyIntoWall.player"
+    - "death.attack.freeze"
+    - "death.attack.freeze.player"
+    - "death.attack.generic"
+    - "death.attack.generic.player"
+    - "death.attack.genericKill"
+    - "death.attack.genericKill.player"
+    - "death.attack.hotFloor"
+    - "death.attack.hotFloor.player"
+    - "death.attack.inFire"
+    - "death.attack.inFire.player"
+    - "death.attack.inWall"
+    - "death.attack.inWall.player"
+    - "death.attack.indirectMagic"
+    - "death.attack.indirectMagic.item"
+    - "death.attack.lava"
+    - "death.attack.lava.player"
+    - "death.attack.lightningBolt"
+    - "death.attack.lightningBolt.player"
+    - "death.attack.mace_smash"
+    - "death.attack.mace_smash.item"
+    - "death.attack.magic"
+    - "death.attack.magic.player"
+    - "death.attack.mob"
+    - "death.attack.mob.item"
+    - "death.attack.onFire"
+    - "death.attack.onFire.item"
+    - "death.attack.onFire.player"
+    - "death.attack.outOfWorld"
+    - "death.attack.outOfWorld.player"
+    - "death.attack.outsideBorder"
+    - "death.attack.outsideBorder.player"
+    - "death.attack.player"
+    - "death.attack.player.item"
+    - "death.attack.spear"
+    - "death.attack.spear.item"
+    - "death.attack.sonic_boom"
+    - "death.attack.sonic_boom.item"
+    - "death.attack.sonic_boom.player"
+    - "death.attack.stalagmite"
+    - "death.attack.stalagmite.player"
+    - "death.attack.starve"
+    - "death.attack.starve.player"
+    - "death.attack.sting"
+    - "death.attack.sting.item"
+    - "death.attack.sting.player"
+    - "death.attack.sweetBerryBush"
+    - "death.attack.sweetBerryBush.player"
+    - "death.attack.thorns"
+    - "death.attack.thorns.item"
+    - "death.attack.thrown"
+    - "death.attack.thrown.item"
+    - "death.attack.trident"
+    - "death.attack.trident.item"
+    - "death.attack.wither"
+    - "death.attack.wither.player"
+    - "death.attack.witherSkull"
+    - "death.attack.witherSkull.item"
+    - "death.fell.accident.generic"
+    - "death.fell.accident.ladder"
+    - "death.fell.accident.other_climbable"
+    - "death.fell.accident.scaffolding"
+    - "death.fell.accident.twisting_vines"
+    - "death.fell.accident.vines"
+    - "death.fell.accident.weeping_vines"
+    - "death.fell.assist"
+    - "death.fell.assist.item"
+    - "death.fell.finish"
+    - "death.fell.finish.item"
+    - "death.fell.killer"

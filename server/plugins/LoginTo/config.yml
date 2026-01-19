@@ -1,0 +1,179 @@
+ConfigVersion: '1.4' # Version of this configuration, do not change this
+          
+
+kick-rules:
+  
+  # When a player change password kick him from the server?
+  kick_on_password_change: true
+
+  # Should LoginTo kick a player if he didn't write the correct password on /login <password> ?
+  kick_on_wrong_password: true
+  tries: 3
+
+  # Should LoginTo kick a player if he stays too long in the authentication process?
+  kick_on_too_many_second_passed: true
+  seconds_before_kick: 20
+
+world:
+
+  # Chose where the user get's teleported when he join, this feature is disabled by default
+  enabled_world_location_teleport: true
+  
+  # In what dimension will the player be teleported, vanilla world type:
+  # - world = The OverWorld
+  # - world_nether = The Nether
+  # - world_the_end = The End
+  world: 'OverWorld'
+  
+  # Coords where the player get's teleported (for this feature you need 'enabled_world_location_teleport' on true)
+  x: 0
+  y: 68
+  z: 0
+
+
+password-security:
+
+  # If a player need to register, it's password need's to have certain characters
+  required_character: false
+
+  # If required_character is true here you need to put the required characters
+  characters_needed: ''
+
+
+permissions:
+
+  # If this setting is on true, LoginTo will require to be an operator (op), if you want to use LuckPerms or any other permission plugin turn this on false
+  op_required_delacc: true
+
+  # Permission: if you want to use permission go to https://modrinth.com/plugin/loginto and read the description to find everything 
+  # Make sure that 'op_required_delacc' is set to false to use permission
+  permission: false
+
+  # Block commands when the player is authenticating
+  block_all_commands_when_player_is_authenticating: true
+
+
+player-effects:
+  
+  # When a user join he will be immune by any damage, then when he sing up this protection will be removed
+  godmode: true
+
+  # When a player need's to sing up/sing in give the blindness effect?
+  blindness: true
+
+
+proxy-integration:
+  # !!!WARNING!!!
+  # This feature got removed due to a bug, but this might return
+
+  # Change server when someone login in the server
+  # To use it just put on true the features and write your server name
+
+  #go_to_server: false
+
+  #server_name: ''
+
+
+discord-webhook:
+  # Send a webhook in a discord server, you need to put your webhook's url
+
+  # When a player sing up
+  register_webhook: ''
+
+  # When a player sing in
+  login_webhook: ''
+  
+  # When an admin delete a user account
+  delacc_webhook: ''
+
+  # When someone changes their password
+  changepassword_webhook: ''
+
+
+utility:
+  # This setting will enable the update checker of LoginTo, when a new version will be uploaded you will recive a message in the console when starting the server
+  update-checker: true
+
+
+support:
+  # If you want to support me please leave this on, otherways no problem, thank you anyways
+  # This setting will remove the 'Service offered by LoginTo on Modrinth' watermark
+  loginto-watermark: true
+
+
+data:
+  # How do you want to save the player's login information? (this setting will need a server reboot)
+  # json -> the classic way LoginTo uses to save player data
+  # sqlite -> use SQLite to save player data; faster than JSON and more secure
+  # mysql -> use MySQL to save player data; a classic networked database
+  # postgre -> use PostgreSQL to save player data; faster with large amounts of data
+  # h2 -> use H2 database, a fast java database that is veri similar to sqlite
+  data-saving-type: "json"
+
+
+database:
+  # If you are saving the datas with the option "json" do not touch this part, istead if you are using sqlite/h2 just compile the name param
+  # If you are having problems please report those to my github project -> https://github.com/Yager400/LoginTo/issues
+
+  # The ip address of your database, if you are hosting it on the same machine as your server type "localhost" or "127.0.0.1"
+  host: ""
+
+  # The port of your database, the default MySQL port is "3306" while the default PostgreSQL port is "5432"
+  port: 0
+
+  # The name of your database, to create this go to your dbms and type this "create database <your_db_name>;" and run (if the database doesn't exist LoginTo will try to create it but probably it wont work)
+  name: ""
+
+  # The username to access your database
+  user: ""
+
+  # The password to access your database
+  password: ""
+
+
+premium:
+  # Modern premium feature
+  # WARNING: In this version (2.4) this feature is still in beta, it works but remind this
+  # Also the feature is disabled because not everyone has a proxy
+
+  # What you will need for this to work?
+  # A velocity/bungeecord proxy
+  # The proxy needs to be in offline-mode
+  # The server needs to be in offline-mode (for the proxy)
+  # Your server needs to be eable to send request to mojang.com for the authentication (if you have a firewall consider this)
+
+  # Should LoginTo let players AutoLogin into their account and let them use the /premium and /cracked command
+  premium: false
+
+  database:
+    # This will be the host of the proxy, so the host of the H2 database for sharing data
+    # The name for this database is saved on the proxy and will be 'LoginTo_Sharing'
+    #
+    # If you are in the same network as the proxy use a firewall on the bukkit server and the database
+    # If bukkit is not on the same machine as velocity, create a new user on the database and set a firewall that allows only the bukkit server ip address
+    
+    # The ip address of your database, if you are hosting it on the same machine as your server type "localhost" or "127.0.0.1"
+    host: ""
+
+    # The port of your database, if this is 0, the default will be 9092
+    port: 0
+
+    # The user for your database (the H2 default user is 'sa')
+    user: "sa"
+
+    # The password for your database (the H2 default password is empty)
+    password: ""
+
+
+logging:
+  # This feature is for logging all the players that joins in the server
+  logging: true
+
+  # The time format for showing the current date
+  # Do not use the space " " for the time, you can do this "hh-mm-ss dd-MM-yyyy", but not "hh mm ss dd MM yyyy", if you want, tell your staff to use only /getlogs <user> without the day
+  # You can change the time (ss:mm:hh) and not using the space, but if you use the /getlogs command with the time selector, the date must remain "dd/MM/yyyy"
+  date-format: "HH:mm:ss dd/MM/yyyy"
+
+  
+
+    

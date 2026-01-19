@@ -1,0 +1,984 @@
+#  ___       ___  __  ___  __        ___
+# |__  |    |__  /  `  |  /  \ |\ | |__
+# |    |___ |___ \__,  |  \__/ | \| |___
+#  __             __   ___
+# |__) |  | |    /__` |__
+# |    \__/ |___ .__/ |___   /\
+#                           /  \
+# __/\___  ____/\_____  ___/    \______
+#        \/           \/
+#
+# https://flectone.net/en/pulse/docs/message/
+cooldown: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Too fast, you'll be able to use it in <time>"
+time:
+  format: "dd'd' HH'h' mm'm' ss.SSS's'"
+  permanent: "PERMANENT"
+  zero: "0s"
+# https://flectone.net/en/pulse/docs/command/
+command:
+  exception:
+    execution: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>An error occurred while executing the command <br><color:#ff7171><sprite_or:⁉:gui:icon/chat_modified><exception>"
+    parse_unknown: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Unknown argument error while parsing <br><input>"
+    parse_boolean: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>A boolean argument was expected, but you entered <br><input>"
+    parse_number: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>A number argument was expected, but you entered <br><input>"
+    parse_string: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>A string argument was expected, but you entered <br><input>"
+    permission: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You don't have permission to use this command"
+    syntax: "<hover:show_text:\"<fcolor:2>Use <br><fcolor:1>/<correct_syntax>\"><click:suggest_command:\"/<command> \"><fcolor:2>┌<br>│ Usage →<br>│ <fcolor:1>/<correct_syntax><br><fcolor:2>└"
+  prompt:
+    message: "message"
+    hard: "hard"
+    accept: "accept"
+    turn: "turn on"
+    type: "type"
+    reason: "reason"
+    category: "category"
+    id: "id"
+    time: "time"
+    repeat_time: "repeat time"
+    multiple_vote: "multiple vote"
+    player: "player"
+    number: "number"
+    color: "color"
+    language: "language"
+    url: "url"
+    move: "move"
+    value: "value"
+  # https://flectone.net/en/pulse/docs/command/anon/
+  anon:
+    format: "<fcolor:1>👻 <fcolor:2>Anon <fcolor:1><message>"
+  # https://flectone.net/en/pulse/docs/command/ball/
+  ball:
+    format: "<color:#9370DB>❓ <display_name> asked: <message><reset> <color:#9370DB><br>🔮 Ball answered: <u><answer></u>"
+    answers:
+    - "Undeniably"
+    - "No doubt about it"
+    - "Definitely yes"
+    - "That's the base"
+    - "You can be sure of it"
+    - "Most likely"
+    - "Good prospects"
+    - "Yes"
+    - "It's not clear yet, try again"
+    - "Ask later"
+    - "It's better not to tell"
+    - "Can't predict now"
+    - "Concentrate and ask again"
+    - "Don't even think about it"
+    - "No."
+    - "The prospects are not good"
+    - "Very doubtful"
+  # https://flectone.net/en/pulse/docs/command/ban/
+  ban:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    null_time: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Incorrect time"
+    lower_weight_group: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You cannot ban a player with equal or higher permissions"
+    reasons:
+      default: "You have been banned from this server"
+    server: "<color:#ff7171>🔒 <fcolor:2><moderator> <fcolor:1>has banned <fcolor:2><player> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Remaining time: <time_left><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+    person: "<color:#ff7171>🔒 BAN 🔒<fcolor:1><br><br>Date: <date><br><br>Time: <time><br><br>Remaining time: <time_left><br><br>Moderator: <moderator><br><br>Reason: <reason>"
+    connection_attempt: "<color:#ff7171>🔒 Banned <fcolor:2><player> <fcolor:1>tried to log in <hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Remaining time: <time_left><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+  # https://flectone.net/en/pulse/docs/command/banlist/
+  banlist:
+    empty: "<color:#98FB98>☺ No bans found"
+    null_page: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This page doesn't exist"
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    global:
+      header: "<fcolor:2>▋ Bans: <count> <br>"
+      line: "<hover:show_text:\"<fcolor:1>Click to unban <display_name>\"><click:run_command:\"<command>\"><color:#ff7171>☒ <display_name></click></hover> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+      footer: "<br><fcolor:2>▋ <fcolor:2><click:run_command:\"<command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_command:\"<command> <next_page>\">→"
+    player:
+      header: "<fcolor:2>▋ All bans: <count> <br>"
+      line: "<hover:show_text:\"<fcolor:1>Click to unban <display_name>\"><click:run_command:\"<command>\"><color:#ff7171>☒ <display_name></click></hover> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+      footer: "<br><fcolor:2>▋ <click:run_command:\"<command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_command:\"<command> <next_page>\">→"
+  # https://flectone.net/en/pulse/docs/command/broadcast/
+  broadcast:
+    format: "<br><color:#ffd500>│ 🕫 Message for everyone <br>│<br>│ Author <display_name> <br>│<br>│ <fcolor:1><message> <br>"
+  # https://flectone.net/en/pulse/docs/command/chatcolor/
+  chatcolor:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    null_type: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Incorrect type entered"
+    null_color: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Incorrect colors entered"
+    format: "<br><color:#98FB98>│ Your colors: <br><color:#98FB98>│ <fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><color:#98FB98>│ <fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world! <br>"
+  # https://flectone.net/en/pulse/docs/command/chatsetting/
+  chatsetting:
+    no_permission: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>No permission to change this setting"
+    disabled_self: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This feature is disabled via /chatsetting"
+    disabled_other: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>He disabled this feature via /chatsetting"
+    inventory: "Chat Settings"
+    checkbox:
+      enabled_color: "<color:#98FB98>"
+      enabled_hover: "<color:#98FB98>Display enabled"
+      disabled_color: "<color:#ff7171>"
+      disabled_hover: "<color:#ff7171>Display disabled"
+      types:
+        AFK: "<status_color>Afk"
+        ADVANCEMENT: "<status_color>Advancement"
+        CHAT: "<status_color>Chat messages"
+        COMMAND_ANON: "<status_color>Command /anon"
+        COMMAND_BALL: "<status_color>Command /ball"
+        COMMAND_BROADCAST: "<status_color>Command /broadcast"
+        COMMAND_COIN: "<status_color>Command /coin"
+        COMMAND_DICE: "<status_color>Command /dice"
+        COMMAND_DO: "<status_color>Command /do"
+        COMMAND_MAIL: "<status_color>Command /mail"
+        COMMAND_ME: "<status_color>Command /me"
+        COMMAND_POLL: "<status_color>Command /poll"
+        COMMAND_ROCKPAPERSCISSORS: "<status_color>Command /rockpaperscissors"
+        COMMAND_STREAM: "<status_color>Command /stream"
+        COMMAND_TELL: "<status_color>Command /tell"
+        COMMAND_TICTACTOE: "<status_color>Command /tictactoe"
+        COMMAND_TRY: "<status_color>Command /try"
+        DEATH: "<status_color>Death"
+        FROM_DISCORD_TO_MINECRAFT: "<status_color>Messages from Discord"
+        FROM_TELEGRAM_TO_MINECRAFT: "<status_color>Messages from Telegram"
+        FROM_TWITCH_TO_MINECRAFT: "<status_color>Messages from Twitch"
+        JOIN: "<status_color>Join"
+        QUIT: "<status_color>Quit"
+        SLEEP: "<status_color>Sleep"
+    menu:
+      chat:
+        item: "<fcolor:2>Chat type <br><fcolor:1>Chat for viewing and sending messages <br><br><fcolor:1>Your chat is <fcolor:2><chat>"
+        inventory: "Chats"
+        types:
+          default: "<fcolor:2>Default chat<br><fcolor:1>You can see <fcolor:2>all <fcolor:1>chats and write to any chat"
+          local: "<fcolor:2>Local chat<br><fcolor:1>You can write to <fcolor:2>any <fcolor:1>chats"
+          global: "<fcolor:2>Global chat<br><fcolor:1>You can only write to <fcolor:2>global <fcolor:1>chat"
+      see:
+        item: "<fcolor:2>Colors \"see\" <br><fcolor:1>Colors for /chatcolor see <br><br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world! <br><br><u><color:#ff7171>Only you see it in all messages"
+        inventory: "Colors"
+        types:
+          default: "<gradient:#70C7EF:#37B1F2>Default colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          white: "<gradient:#D4E4FF:#B8D2FF>White colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          light_gray: "<gradient:#B5B9BD:#9DA2A6>Light gray colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          gray: "<gradient:#4A5054:#3A3F42>Gray colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          black: "<gradient:#17191A:#0D0E0F>Black colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          brown: "<gradient:#7A5A40:#634A34>Brown colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          red: "<gradient:#D63E3E:#C12B2B>Red colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          orange: "<gradient:#FF8C00:#E67E00>Orange colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          yellow: "<gradient:#FFE83D:#FFD900>Yellow colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          lime: "<gradient:#8EE53F:#7ACC29>Lime colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          green: "<gradient:#4BB54B:#3AA33A>Green colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          cyan: "<gradient:#3ECFDF:#2AB7C9>Cyan colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          light_blue: "<gradient:#6BB6FF:#4DA6FF>Light blue colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          blue: "<gradient:#3A75FF:#1F5AFF>Blue colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          purple: "<gradient:#A368C7:#8A4DBF>Purple colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          magenta: "<gradient:#FF5CD9:#FF3DCF>Magenta colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          pink: "<gradient:#FF80B7:#FF66A6>Pink colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+      out:
+        item: "<fcolor:2>Colors \"out\" <br><fcolor:1>Colors for /chatcolor out <br><br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world! <br><br><u><color:#ff7171>Everyone sees it in your messages"
+        inventory: "Colors"
+        types:
+          default: "<gradient:#70C7EF:#37B1F2>Default colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          white: "<gradient:#D4E4FF:#B8D2FF>White colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          light_gray: "<gradient:#B5B9BD:#9DA2A6>Light gray colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          gray: "<gradient:#4A5054:#3A3F42>Gray colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          black: "<gradient:#17191A:#0D0E0F>Black colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          brown: "<gradient:#7A5A40:#634A34>Brown colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          red: "<gradient:#D63E3E:#C12B2B>Red colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          orange: "<gradient:#FF8C00:#E67E00>Orange colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          yellow: "<gradient:#FFE83D:#FFD900>Yellow colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          lime: "<gradient:#8EE53F:#7ACC29>Lime colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          green: "<gradient:#4BB54B:#3AA33A>Green colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          cyan: "<gradient:#3ECFDF:#2AB7C9>Cyan colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          light_blue: "<gradient:#6BB6FF:#4DA6FF>Light blue colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          blue: "<gradient:#3A75FF:#1F5AFF>Blue colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          purple: "<gradient:#A368C7:#8A4DBF>Purple colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          magenta: "<gradient:#FF5CD9:#FF3DCF>Magenta colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+          pink: "<gradient:#FF80B7:#FF66A6>Pink colors<br><fcolor:1>(local) <fcolor:2><player><fcolor:3>: hello world! <br><fcolor:1>(global) <fcolor:2><player><fcolor:4>: hello world!"
+  # https://flectone.net/en/pulse/docs/command/clearchat/
+  clearchat:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    format: "<fcolor:1>💬 Chat is cleared"
+  # https://flectone.net/en/pulse/docs/command/clearmail/
+  clearmail:
+    null_mail: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This mail does not exist"
+    format: "<fcolor:2>✉ [REMOVED] Mail #<id> for <target> » <fcolor:1><message>"
+  # https://flectone.net/en/pulse/docs/command/coin/
+  coin:
+    head: "heads"
+    tail: "tails"
+    format: "<fcolor:1>✎ <display_name> player got <result>"
+    format_draw: "<fcolor:1>✎ <display_name> player got edge :)"
+  # https://flectone.net/en/pulse/docs/command/deletemessage/
+  deletemessage:
+    null_message: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This message does not exist"
+    format: "<color:#98FB98>☒ Successfully deleted message"
+  # https://flectone.net/en/pulse/docs/command/dice/
+  dice:
+    symbols:
+      1: "⚀"
+      2: "⚁"
+      3: "⚂"
+      4: "⚃"
+      5: "⚄"
+      6: "⚅"
+    format: "<fcolor:1>✎ <display_name> roll <message><reset> <fcolor:1>(<sum>)"
+  # https://flectone.net/en/pulse/docs/command/do/
+  do:
+    format: "<fcolor:1>✎ <message><reset> <fcolor:1>(<i><display_name></i>)"
+  # https://flectone.net/en/pulse/docs/command/emit/
+  emit:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    format: "<fcolor:4><message>"
+  # https://flectone.net/en/pulse/docs/command/flectonepulse/
+  flectonepulse:
+    null_host_editor: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>The host parameter cannot be empty and must be configured in <u>config.yml"
+    null_port_editor: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Port <port> is unavailable, configure an alternative port in <u>config.yml</u>"
+    format_false: "<color:#ff7171>★ An has error occurred while reloading <br>Error: <message>"
+    format_true: "<fcolor:2>★ <u>FlectonePulse</u> successfully reloaded! (<i><time></i>)"
+    format_web_starting: "<fcolor:2>★ Web server starting, please wait..."
+    format_editor: "<fcolor:2>★ Link for web editing <u><fcolor:2><click:open_url:\"<url>\"><hover:show_text:\"<fcolor:2><url>\"><url>"
+  # https://flectone.net/en/pulse/docs/command/geolocate/
+  geolocate:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    null_or_error: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Problem receiving information, try again"
+    format: "<fcolor:1>Geolocation for <display_name><br>Country: <fcolor:2><country><br><fcolor:1>Region: <fcolor:2><region_name><br><fcolor:1>City: <fcolor:2><city><br><fcolor:1>Timezone: <fcolor:2><timezone><br><fcolor:1>Mobile connection: <fcolor:2><mobile><br><fcolor:1>VPN: <fcolor:2><proxy><br><fcolor:1>Hosting: <fcolor:2><hosting><br><fcolor:1>IP: <fcolor:2><query>"
+  # https://flectone.net/en/pulse/docs/command/helper/
+  helper:
+    null_helper: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>There are no people who can help you"
+    global: "<fcolor:2>👤 <display_name> needs help ⏩ <fcolor:1><message>"
+    player: "<fcolor:2>👤 Request sent, awaiting reply"
+  # https://flectone.net/en/pulse/docs/command/ignore/
+  ignore:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    myself: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You can't ignore yourself"
+    he: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You can't write to him because he ignore you"
+    you: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You can't write to him because you ignore him"
+    format_true: "<color:#ff7171>☹ You ignore <display_name>"
+    format_false: "<color:#98FB98>☺ You unignore <display_name>"
+  # https://flectone.net/en/pulse/docs/command/ignorelist/
+  ignorelist:
+    empty: "<color:#98FB98>☺ You don't ignore anyone"
+    null_page: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This page doesn't exist"
+    header: "<fcolor:2>▋ Ignores: <count><br>"
+    line: "<hover:show_text:\"<fcolor:1>Click to unignore <display_name>\"><click:run_command:\"<command>\"><color:#ff7171>☒ <display_name></click></hover> <fcolor:1>Date: <date>"
+    footer: "<br>▋ <fcolor:2><click:run_command:\"<command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_command:\"<command> <next_page>\">→"
+  # https://flectone.net/en/pulse/docs/command/kick/
+  kick:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    reasons:
+      default: "Kicked by an operator"
+    server: "<color:#ff7171>🔒 <fcolor:2><moderator> <fcolor:1>kicked <fcolor:2><player> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+    person: "<color:#ff7171>🔒 KICK 🔒 <fcolor:1><br><br>ID: <id><br><br>Date: <date><br><br>Moderator: <moderator><br><br>Reason: <reason>"
+  # https://flectone.net/en/pulse/docs/command/mail/
+  mail:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    online_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player is online"
+    sender: "<fcolor:2>✉ Mail #<id> for <target> » <fcolor:1><message>"
+    receiver: "<fcolor:2>✉ Mail from <display_name> » <fcolor:1><message>"
+  # https://flectone.net/en/pulse/docs/command/maintenance/
+  maintenance:
+    server_description: "<color:#ff7171>The server is under maintenance"
+    server_version: "Maintenance"
+    kick: "<color:#ff7171>★ The server is under maintenance"
+    format_true: "<fcolor:1>★ You have <fcolor:2>enabled <fcolor:1>maintenance on the server"
+    format_false: "<fcolor:1>★ You have <fcolor:2>disabled <fcolor:1>maintenance on the server"
+  # https://flectone.net/en/pulse/docs/command/me/
+  me:
+    format: "<fcolor:1>✎ <display_name> <fcolor:1><message>"
+  # https://flectone.net/en/pulse/docs/command/mute/
+  mute:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    null_time: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Incorrect time"
+    lower_weight_group: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You cannot mute a player with equal or higher permissions"
+    suffix: " <color:#ff7171>🔒</color>"
+    reasons:
+      default: "You have been muted on this server"
+    server: "<color:#ff7171>🔒 <fcolor:2><moderator> <fcolor:1>has muted <fcolor:2><player> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Remaining time: <time_left><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+    person: "<color:#ff7171>🔒 You are muted, <time_left> left"
+  # https://flectone.net/en/pulse/docs/command/mutelist/
+  mutelist:
+    empty: "<color:#98FB98>☺ No mutes found"
+    null_page: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This page doesn't exist"
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    global:
+      header: "<fcolor:2>▋ Mutes: <count> <br>"
+      line: "<hover:show_text:\"<fcolor:1>Click to unmute <display_name>\"><click:run_localization.command:\"<localization.command>\"><color:#ff7171>☒ <display_name></click></hover> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Moderator: <moderator><br>Reason: <reason>\">[MORE]</hover>"
+      footer: "<br><fcolor:2>▋ <fcolor:2><click:run_localization.command:\"<localization.command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_localization.command:\"<localization.command> <next_page>\">→"
+    player:
+      header: "<fcolor:2>▋ All mutes: <count> <br>"
+      line: "<hover:show_text:\"<fcolor:1>Click to unmute <display_name>\"><click:run_command:\"<command>\"><color:#ff7171>☒ <display_name></click></hover> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Moderator: <moderator><br>Reason: <reason>\">[MORE]</hover>"
+      footer: "<br><fcolor:2>▋ <click:run_command:\"<command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_command:\"<command> <next_page>\">→"
+  # https://flectone.net/en/pulse/docs/command/online/
+  online:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    format_current: "<fcolor:1>⌛ <display_name> currently on server"
+    format_first: "<fcolor:1>⌛ <display_name> was first on server <time> ago"
+    format_last: "<fcolor:1>⌛ <display_name> <fcolor:1>was last on server <time> ago"
+    format_total: "<fcolor:1>⌛ <display_name> <fcolor:1>has spent a total of <time> on server"
+  # https://flectone.net/en/pulse/docs/command/ping/
+  ping:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    format: "<fcolor:1>🖧 <display_name>'s ping is <replacement:ping>"
+  # https://flectone.net/en/pulse/docs/command/poll/
+  poll:
+    null_poll: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Poll not found"
+    expired: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>The poll has ended"
+    already: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You have already voted in this poll"
+    vote_true: "<color:#4eff52>👍 You voted for option <answer_id> in poll #<id>. There are <count> of you"
+    vote_false: "<color:#ff4e4e>🖓 You rejected option <answer_id> in poll #<id>. There are <count> without you"
+    format: "<br><color:#fce303>│ <status> <br>│ <message><reset> <color:#fce303><br>├─────────────<br><answers>"
+    answer_template: "<color:#fce303>│ <count> → <color:#4eff52><hover:show_text:\"<color:#4eff52>Vote for <bold><answer>\"><click:run_command:\"/pollvote <id> <number>\"><answer> [👍]<br>"
+    status:
+      start: "New poll #<b><id></b> has been created"
+      run: "Poll #<b><id></b> is in progress"
+      end: "Poll #<b><id></b> has ended"
+    modern:
+      header: "Poll"
+      input_name: "Name"
+      input_initial: ""
+      multiple_name: "Allow multiple answers"
+      end_time_name: "Duration (min)"
+      repeat_time_name: "Interval (min)"
+      new_answer_button_name: "Add answer"
+      remove_answer_button_name: "Remove answer"
+      input_answer_name: "Answer <number>"
+      input_answers_initial: ""
+      create_button_name: "Create poll"
+  # https://flectone.net/en/pulse/docs/command/reply/
+  reply:
+    null_receiver: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>No one to answer"
+  # https://flectone.net/en/pulse/docs/command/rockpaperscissors/
+  rockpaperscissors:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    null_game: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This game does not exist"
+    wrong_move: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This move is not possible"
+    already: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You've already made your move"
+    myself: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You can't play with yourself"
+    sender: "<fcolor:1>Now goes <target>"
+    receiver: "<fcolor:2>✂ <display_name> <fcolor:1>suggested a game of rock-paper-scissors"
+    format_move: "<fcolor:2>✂ <fcolor:1>Choose your move <fcolor:2><click:run_command:\"/rps <target> rock <uuid>\">[🪨 rock]</click> <click:run_command:\"/rps <target> scissors <uuid>\">[✂ scissors]</click> <click:run_command:\"/rps <target> paper <uuid>\">[🧻 paper]</click>"
+    format_win: "<color:#98FB98>✂ Winning <display_name>! <b><sender_move></b> on <b><receiver_move></b>"
+    format_draw: "<color:#98FB98>✂ It's a draw! You both chose <b><move>"
+    strategies:
+      paper: "paper"
+      rock: "rock"
+      scissors: "scissors"
+  # https://flectone.net/en/pulse/docs/command/sprite/
+  sprite:
+    null_atlas: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This atlas does not exist"
+    null_page: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This page does not exist"
+    download_error: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Failed to download atlas, it may not exist, please try again later"
+    atlas_downloading: "<fcolor:2>★ <fcolor:1>Atlas <fcolor:2><atlas> <fcolor:1>is downloading, wait..."
+    header: "<fcolor:2>▋ <fcolor:1>Sprites from atlas <fcolor:2><atlas><fcolor:1>, total <fcolor:2><count> <br>"
+    line_element: "<white><hover:show_text:\"<fcolor:1>Copy <fcolor:2><sprite>\"><click:copy_to_clipboard:'<sprite:<atlas>:<sprite>>'><sprite:<atlas>:<sprite>> "
+    footer: "<br><fcolor:2>▋ <click:run_command:\"<command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_command:\"<command> <next_page>\">→"
+  # https://flectone.net/en/pulse/docs/command/spy/
+  spy:
+    format_true: "<fcolor:1>[👁] You <color:#98FB98>turned on <fcolor:1>spy mode"
+    format_false: "<fcolor:1>[👁] You <color:#F08080>turned off <fcolor:1>spy mode"
+    format_log: "<fcolor:1>[👁] <display_name> <color:#98FB98><action> <fcolor:1>→ <fcolor:2><message>"
+  # https://flectone.net/en/pulse/docs/command/stream/
+  stream:
+    already: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You are already streaming"
+    not: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You don't stream"
+    prefix_true: "<color:#ff4e4e>⏻</color:#ff4e4e> "
+    prefix_false: ""
+    url_template: "<color:#ff4e4e>│ <fcolor:2><click:open_url:\"<url>\"><hover:show_text:\"<fcolor:2><url>\"><url></hover></click>"
+    format_start: "<br><color:#ff4e4e>│ 🔔 <fcolor:1>Announcement <br><color:#ff4e4e>│<br><color:#ff4e4e>│ <fcolor:1><display_name> started streaming<br><color:#ff4e4e>│<br><urls><br>"
+    format_end: "<fcolor:2>★ Thanks for streaming on our server!"
+  # https://flectone.net/en/pulse/docs/command/symbol/
+  symbol:
+    null_category: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This category does not exist"
+    null_page: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This page does not exist"
+    header: "<fcolor:2>▋ <fcolor:1>Symbols from category <fcolor:2><category><fcolor:1>, total <fcolor:2><count> <br>"
+    line_element: "<fcolor:1><hover:show_text:\"<fcolor:1>Copy <fcolor:2><symbol>\"><click:copy_to_clipboard:'<symbol>'><symbol> "
+    footer: "<br><fcolor:2>▋ <click:run_command:\"<command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_command:\"<command> <next_page>\">→"
+  # https://flectone.net/en/pulse/docs/command/tell/
+  tell:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    sender: "<fcolor:2>✉ <display_name> → <target> » <fcolor:1><message>"
+    receiver: "<fcolor:2>✉ <display_name> → <target> » <fcolor:1><message>"
+    myself: "<fcolor:2>✉ [Note] <fcolor:1><message>"
+  # https://flectone.net/en/pulse/docs/command/tictactoe/
+  tictactoe:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    myself: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You can't play with yourself"
+    wrong_game: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This game does not exist"
+    wrong_move: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This step is not possible"
+    wrong_by_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This game ended because player quit"
+    symbol:
+      blank: "<fcolor:1><hover:show_text:\"<fcolor:1>Move <move>\"><click:run_command:\"/tictactoemove %d <move>\">☐</click></hover>"
+      first: "<fcolor:2>☑"
+      first_remove: "<color:#ff7171>☑</color:#ff7171>"
+      first_win: "<color:#98FB98>☑</color:#98FB98>"
+      second: "<fcolor:2>☒"
+      second_remove: "<color:#ff7171>☒</color:#ff7171>"
+      second_win: "<color:#98FB98>☒</color:#98FB98>"
+    field: "<fcolor:1><br>|[#][#][#]<fcolor:1>| <title> <current_move> <br><fcolor:1>|[#][#][#]<fcolor:1>| <br>|[#][#][#]<fcolor:1>| <last_move><br>"
+    current_move: "<fcolor:2>☐ → <symbol>"
+    last_move: "<fcolor:2>Last move (<move>)"
+    format_move: "<fcolor:2><target>'s move"
+    format_win: "<color:#98FB98><target> won this game</color:#98FB98>"
+    format_draw: "<color:#98FB98>The game ended in a draw 👬</color:#98FB98>"
+    sender: "<fcolor:1>☐ An offer to play was sent to <target>"
+    receiver: "<click:run_command:\"/tictactoemove %d create\"><fcolor:1>☐ Received an invite to play tic-tac-toe with <display_name>, accept? [+]"
+  # https://flectone.net/en/pulse/docs/command/toponline/
+  toponline:
+    null_page: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This page doesn't exist"
+    header: "<fcolor:2>▋ Players: <count> <br>"
+    line: "<fcolor:2><time_player> <fcolor:1>played for <fcolor:2><time>"
+    footer: "<br><fcolor:2>▋ <click:run_command:\"<command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_command:\"<command> <next_page>\">→"
+  # https://flectone.net/en/pulse/docs/command/translateto/
+  translateto:
+    null_or_error: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Error, you may have specified an unsupported language"
+    format: "<fcolor:1>📖 Translation to [<language>] → <fcolor:2><message>"
+  # https://flectone.net/en/pulse/docs/command/try/
+  try:
+    format_true: "<color:#98FB98>☺ <display_name> <message><reset> <color:#98FB98><percent>%"
+    format_false: "<color:#F08080>☹ <display_name> <message><reset> <color:#F08080><percent>%"
+  # https://flectone.net/en/pulse/docs/command/unban/
+  unban:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    not_banned: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player is not banned"
+    lower_weight_group: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You cannot unban a player with equal or higher permissions"
+    format: "<color:#98FB98>🔓 <fcolor:2><moderator> <color:#98FB98>unbanned the player <fcolor:2><player>"
+  # https://flectone.net/en/pulse/docs/command/unmute/
+  unmute:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    not_muted: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player is not muted"
+    lower_weight_group: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You cannot unmute a player with equal or higher permissions"
+    format: "<color:#98FB98>🔓 <fcolor:2><moderator> <color:#98FB98>unmutted the player <fcolor:2><player>"
+  # https://flectone.net/en/pulse/docs/command/unwarn/
+  unwarn:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    not_warned: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player is not warned"
+    lower_weight_group: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You cannot unwarn a player with equal or higher permissions"
+    format: "<color:#98FB98>🔓 <fcolor:2><moderator> <color:#98FB98>unwarned the player <fcolor:2><player>"
+  # https://flectone.net/en/pulse/docs/command/warn/
+  warn:
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    null_time: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Incorrect time"
+    lower_weight_group: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>You cannot warn a player with equal or higher permissions"
+    reasons:
+      default: "You have been warned on this server"
+    server: "<color:#ff7171>🔒 <fcolor:2><moderator> <fcolor:1>gave a warning to <fcolor:2><player> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Remaining time: <time_left><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+    person: "<color:#ff7171>🔒 You are warned a <time>"
+  # https://flectone.net/en/pulse/docs/command/warnlist/
+  warnlist:
+    empty: "<color:#98FB98>☺ No warns found"
+    null_page: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This page doesn't exist"
+    null_player: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>This player does not exist"
+    global:
+      header: "<fcolor:2>▋ Warns: <count> <br>"
+      line: "<hover:show_text:\"<fcolor:1>Click to unwarn <display_name>\"><click:run_command:\"<command>\"><color:#ff7171>☒ <display_name></click></hover> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+      footer: "<br><fcolor:2>▋ <click:run_command:\"<command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_command:\"<command> <next_page>\">→"
+    player:
+      header: "<fcolor:2>▋ All warns: <count> <br>"
+      line: "<hover:show_text:\"<fcolor:1>Click to unwarn <display_name>\"><click:run_command:\"<command>\"><color:#ff7171>☒ <display_name></click></hover> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+      footer: "<br><fcolor:2>▋ <click:run_command:\"<command> <prev_page>\">←</click> <fcolor:1>Page: <current_page>/<last_page> <fcolor:2><click:run_command:\"<command> <next_page>\">→"
+# https://flectone.net/en/pulse/docs/integration/
+integration:
+  # https://flectone.net/en/pulse/docs/integration/discord/
+  discord:
+    null_player: "This player does not exist"
+    format_reply: "<fcolor:4><hover:show_text:'<fcolor:4><reply_message>'>[Reply to @<reply_user>]</hover> "
+    custom_command:
+      ping:
+        content: "<player>'s ping is <replacement:ping>"
+    info_channel:
+      id: "TPS <replacement:tps>"
+    message_channel:
+      FROM_DISCORD_TO_MINECRAFT:
+        content: "<fcolor:2><global_name> <fcolor:1>» <fcolor:4><reply><message>"
+      CHAT_GLOBAL:
+        content: "<final_message>"
+  # https://flectone.net/en/pulse/docs/integration/telegram/
+  telegram:
+    null_player: "This player does not exist"
+    format_reply: "<fcolor:4><hover:show_text:'<fcolor:4><reply_message>'>[Reply to @<reply_user>]</hover> "
+    custom_command:
+      id: "Channel id: <id>"
+      ping: "<player>'s ping is <replacement:ping>"
+    info_channel:
+      id: "TPS <replacement:tps>"
+    message_channel:
+      FROM_TELEGRAM_TO_MINECRAFT: "<fcolor:2><user_name> <fcolor:1>» <fcolor:4><reply><message>"
+      CHAT_GLOBAL: "<final_message>"
+  # https://flectone.net/en/pulse/docs/integration/twitch/
+  twitch:
+    null_player: "This player does not exist"
+    format_reply: "<fcolor:4><hover:show_text:'<fcolor:4><reply_message>'>[Reply to @<reply_user>]</hover> "
+    custom_command:
+      ping: "<player>'s ping is <replacement:ping>"
+    message_channel:
+      FROM_TWITCH_TO_MINECRAFT: "<fcolor:2><name> <fcolor:1>» <fcolor:4><reply><message>"
+      CHAT_GLOBAL: "<final_message>"
+# https://flectone.net/en/pulse/docs/message/
+message:
+  # https://flectone.net/en/pulse/docs/message/afk/
+  afk:
+    suffix: " <color:#FFFF00>⌚</color>"
+    format_true:
+      global: "<gradient:#ffd500:#FFFF00>⌚ <player> is now afk"
+      local: "<gradient:#ffd500:#FFFF00>⌚ Now you're afk"
+    format_false:
+      global: "<gradient:#ffd500:#FFFF00>⌚ <player> isn't afk now"
+      local: "<gradient:#ffd500:#FFFF00>⌚ Now you're not afk"
+  # https://flectone.net/en/pulse/docs/message/auto/
+  auto:
+    types:
+      announcement:
+      - "<br><fcolor:1>◇ This server uses <click:open_url:\"https://flectone.net/pulse/\"><hover:show_text:\"<fcolor:2>https://flectone.net/pulse/\"><fcolor:2>FlectonePulse</hover></click> :)<br>"
+      - "<br><fcolor:1>      ❝ Join our discord ❠ <br><fcolor:2>   <u><click:open_url:\"https://discord.flectone.net\"><hover:show_text:\"<fcolor:2>https://discord.flectone.net\">https://discord.flectone.net</hover></click></u><br>"
+      - "<br><fcolor:1>⚡ Support <fcolor:2>FlectonePulse <fcolor:1>on Boosty <br><fcolor:1>⚡ <u><click:open_url:\"https://boosty.to/thefaser/\"><hover:show_text:\"<fcolor:2>https://boosty.to/thefaser/\">https://boosty.to/thefaser/</hover></click></u><br>"
+      - "<br><fcolor:1>      ✉ Join our telegram ✉ <br><fcolor:2>    <u><click:open_url:\"https://t.me/flectone\"><hover:show_text:\"<fcolor:2>https://t.me/flectone\">https://t.me/flectone</hover></click></u><br>"
+  # https://flectone.net/en/pulse/docs/message/bossbar/
+  bossbar:
+    announce:
+      key: "message"
+    types:
+      entity.minecraft.ender_dragon: "<sprite:item/endermite_spawn_egg><gradient:#ff6bff:#dda0dd>Ender Dragon"
+      entity.minecraft.wither: "<sprite:gui:mob_effect/wither><gradient:#7b68ee:#9370db>Wither"
+      event.minecraft.raid: "<sprite:gui:mob_effect/raid_omen><gradient:#ff6b6b:#ff4444>Raid"
+      event.minecraft.raid.defeat: "<sprite:gui:hud/heart/poisoned_full><gradient:#ff6b6b:#ff4444>Defeat"
+      event.minecraft.raid.defeat.full: "<sprite:gui:hud/heart/poisoned_full><gradient:#ff6b6b:#ff4444>Raid - Defeat"
+      event.minecraft.raid.raiders_remaining: " - Raiders Remaining: <raiders>"
+      event.minecraft.raid.victory: "<sprite:gui:hud/heart/full><gradient:#32cd32:#228b22>Victory"
+      event.minecraft.raid.victory.full: "<sprite:gui:hud/heart/full><gradient:#32cd32:#228b22>Raid - Victory"
+  # https://flectone.net/en/pulse/docs/message/brand/
+  brand:
+    values:
+    - "<white>Minecraft"
+    - "<aqua>Minecraft"
+  # https://flectone.net/en/pulse/docs/message/bubble/
+  bubble:
+    format: "<fcolor:3><message>"
+  # https://flectone.net/en/pulse/docs/message/chat/
+  chat:
+    null_chat: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Chat is disabled on this server"
+    null_receiver: "<color:#ff7171><sprite_or:⁉:gui:icon/chat_modified>Nobody heard you"
+    types:
+      global: "<delete><display_name> <world_prefix>»<fcolor:4> <message><reset><translate>"
+      local: "<delete><display_name><fcolor:3>: <message><reset><translate>"
+  # https://flectone.net/en/pulse/docs/message/format/
+  format:
+    # https://flectone.net/en/pulse/docs/message/format/object/
+    object:
+      default_symbol: "☐"
+    # https://flectone.net/en/pulse/docs/message/format/replacement/
+    replacement:
+      spoiler_symbol: "█"
+      values:
+        smile: "<click:suggest_command:\":)\"><hover:show_text:\":)\">☺</hover></click>"
+        big_smile: "<click:suggest_command:\":D\"><hover:show_text:\":D\">☻</hover></click>"
+        sad: "<click:suggest_command:\":(\"><hover:show_text:\":(\">☹</hover></click>"
+        ok_hand: "<click:suggest_command:\":ok:\"><hover:show_text:\":ok:\">🖒</hover></click>"
+        thumbs_up: "<click:suggest_command:\":+1:\"><hover:show_text:\":+1:\">🖒</hover></click>"
+        thumbs_down: "<click:suggest_command:\":-1:\"><hover:show_text:\":-1:\">🖓</hover></click>"
+        cool_smile: "<click:suggest_command:\":cool:\"><hover:show_text:\":cool:\">😎</hover></click>"
+        cool_glasses: "<click:suggest_command:\"B)\"><hover:show_text:\"B)\">😎</hover></click>"
+        clown: "<click:suggest_command:\":clown:\"><hover:show_text:\":clown:\">🤡</hover></click>"
+        heart: "<click:suggest_command:\"<3\"><hover:show_text:\"<3\">❤</hover></click>"
+        laughing: "<click:suggest_command:\"XD\"><hover:show_text:\"XD\">😆</hover></click>"
+        confused: "<click:suggest_command:\"%)\"><hover:show_text:\"%)\">😵</hover></click>"
+        happy: "<click:suggest_command:\"=D\"><hover:show_text:\"=D\">😃</hover></click>"
+        angry: "<click:suggest_command:\">:(\"><hover:show_text:\">:(\">😡</hover></click>"
+        ascii_idk: "<click:suggest_command:\":idk:\"><hover:show_text:\":idk:\">¯\\_(ツ)_/¯</hover></click>"
+        ascii_angry: "<click:suggest_command:\":angry:\"><hover:show_text:\":angry:\">(╯°□°)╯︵ ┻━┻</hover></click>"
+        ascii_happy: "<click:suggest_command:\":happy:\"><hover:show_text:\":happy:\">＼(＾O＾)／</hover></click>"
+        ping: "<fcolor:2><value>"
+        tps: "<fcolor:2><value>"
+        online: "<fcolor:2><value>"
+        coords: "<fcolor:2><x> <y> <z>"
+        stats: "<color:#ff7171><hp>♥</color> <color:#3de0d8><armor>🛡 <color:#e33059><attack>🗡 <color:#4eff52><exp>⏺ <color:#f0a01f><food>🍖"
+        skin: "<click:open_url:\"<message_1>\"><hover:show_text:\"<fcolor:2><pixels>\"><fcolor:2><u>👨 Skin</u></hover></click>"
+        item: "<fcolor:2>[<message_1>]"
+        url: "<click:open_url:\"<message_1>\"><hover:show_text:\"<fcolor:2>Open url <br><u><message_1>\"><fcolor:2><u>🗗 Url</u></hover></click>"
+        image: "<click:open_url:\"<message_1>\"><hover:show_text:\"<fcolor:2><pixels>\"><fcolor:2><u>🖃 Image</u></hover></click>"
+        spoiler: "<hover:show_text:\"<fcolor:2><message_1>\"><fcolor:2><symbols></hover>"
+        bold: "<b><message_1></b>"
+        italic: "<i><message_1></i>"
+        underline: "<u><message_1></u>"
+        obfuscated: "<obf><message_1></obf>"
+        strikethrough: "<st><message_1></st>"
+    # https://flectone.net/en/pulse/docs/message/format/mention/
+    mention:
+      person: "<fcolor:2>You were mentioned!"
+      format: "<fcolor:2>@<target>"
+    # https://flectone.net/en/pulse/docs/message/format/moderation/
+    moderation:
+      # https://flectone.net/en/pulse/docs/message/format/moderation/delete/
+      delete:
+        placeholder: "<color:#ff7171><hover:show_text:\"<color:#ff7171>Click to delete message\"><click:run_command:\"/deletemessage <uuid>\">[x] "
+        format: "<fcolor:3><i>Message deleted</i>"
+      # https://flectone.net/en/pulse/docs/message/format/moderation/newbie/
+      newbie:
+        reason: "You're still too new"
+      # https://flectone.net/en/pulse/docs/message/format/moderation/swear/
+      swear:
+        symbol: "❤"
+    # https://flectone.net/en/pulse/docs/message/format/names/
+    names:
+      constant: ""
+      display: "<click:suggest_command:\"/msg <player> \"><hover:show_text:\"<fcolor:2>Write to <white><player_head></white><player>\"><white><player_head></white><vault_prefix><stream_prefix><fcolor:2><player><afk_suffix><vault_suffix></hover></click>"
+      entity: "<fcolor:2><hover:show_text:\"<fcolor:2><name> <br><fcolor:1>Type <fcolor:2><lang:'<type>'> <br><fcolor:1>ID <fcolor:2><uuid>\"><sprite:gui:icon/accessibility><name></hover>"
+      unknown: "<fcolor:2><name>"
+      invisible: "<fcolor:2>👻 Invisible"
+    question_answer:
+      questions:
+        server: "<fcolor:2>[Answer] @<player><fcolor:1>, this is a vanilla server in minecraft!"
+        flectone: "<fcolor:2>[Answer] @<player><fcolor:1>, this is a brand and projects created by TheFaser"
+    # https://flectone.net/en/pulse/docs/message/format/translate/
+    translate:
+      action: " <click:run_command:\"/translateto <language> <language> <message>\"><hover:show_text:\"<fcolor:2>Translate message\"><fcolor:1><sprite_or:⇄:gui:icon/language>"
+  # https://flectone.net/en/pulse/docs/message/greeting/
+  greeting:
+    format: "<br>[#][#][#][#][#][#][#][#]<br>[#][#][#][#][#][#][#][#]<br>[#][#][#][#][#][#][#][#]<br>[#][#][#][#][#][#][#][#]<br>[#][#][#][#][#][#][#][#]  <fcolor:1>Hello,<br>[#][#][#][#][#][#][#][#]  <player><br>[#][#][#][#][#][#][#][#]<br>[#][#][#][#][#][#][#][#]<br>"
+  # https://flectone.net/en/pulse/docs/message/join/
+  join:
+    format: "<color:#4eff52>→ <display_name>"
+    format_first_time: "<color:#4eff52>→ <display_name> <fcolor:1>welcome!"
+  # https://flectone.net/en/pulse/docs/message/objective/
+  objective:
+    # https://flectone.net/en/pulse/docs/message/objective/belowname/
+    belowname:
+      format: "<fcolor:1>ms"
+  # https://flectone.net/en/pulse/docs/message/quit/
+  quit:
+    format: "<color:#ff4e4e>← <display_name>"
+  # https://flectone.net/en/pulse/docs/message/rightclick/
+  rightclick:
+    format: "<fcolor:1>◁ <display_name> ▷"
+  # https://flectone.net/en/pulse/docs/message/sidebar/
+  sidebar:
+    values:
+    - - " "
+      - "<fcolor:1>Ping <replacement:ping>"
+      - " "
+      - "<fcolor:1>FlectonePulse"
+    - - " "
+      - "<fcolor:2>TPS <replacement:tps>"
+      - " "
+      - "<fcolor:2>FlectonePulse"
+  # https://flectone.net/en/pulse/docs/message/status/
+  status:
+    # https://flectone.net/en/pulse/docs/message/status/motd/
+    motd:
+      values:
+      - "<fcolor:1>Welcome to our server!"
+      - "<fcolor:1>Join us and enjoy a unique game experience!"
+      - "<fcolor:1>We have a friendly community - be polite and respect each other!"
+      - "<fcolor:1>Enjoy the game! If you have any questions, feel free to contact the administration"
+    # https://flectone.net/en/pulse/docs/message/status/players/
+    players:
+      samples:
+      - name: "<players>"
+      full: "<color:#ff7171>The server is full"
+    # https://flectone.net/en/pulse/docs/message/status/version/
+    version:
+      name: "Minecraft server"
+  # https://flectone.net/en/pulse/docs/message/tab/
+  tab:
+    # https://flectone.net/en/pulse/docs/message/tab/header/
+    header:
+      lists:
+      - - " "
+        - "<fcolor:1>❤"
+        - " "
+      - - " "
+        - "<fcolor:1>👾"
+        - " "
+    # https://flectone.net/en/pulse/docs/message/tab/footer/
+    footer:
+      lists:
+      - - " "
+        - "<fcolor:1>Hello <fcolor:2><player><fcolor:1>!"
+        - " "
+      - - " "
+        - "<fcolor:1>TPS <replacement:tps>, Online <replacement:online>"
+        - " "
+    # https://flectone.net/en/pulse/docs/message/tab/playerlistname/
+    playerlistname:
+      format: "<!shadow><white><player_head></white></!shadow><world_prefix>▋ <reset><vault_prefix><stream_prefix><fcolor:2><player><afk_suffix><mute_suffix><vault_suffix>"
+  # https://flectone.net/en/pulse/docs/message/update/
+  update:
+    format_player: "<fcolor:1><fcolor:2>(FlectonePulse)<fcolor:1> Your version <fcolor:2><current_version><fcolor:1> is outdated! Update to <fcolor:2><latest_version><fcolor:1> at <replacement:url:https://modrinth.com/plugin/flectonepulse>, to get new opportunities!"
+    format_console: "<fcolor:1>Your version <fcolor:2><current_version><fcolor:1> is outdated! Update to <fcolor:2><latest_version><fcolor:1> at <click:open_url:https://modrinth.com/plugin/flectonepulse>https://modrinth.com/plugin/flectonepulse"
+  # https://flectone.net/en/pulse/docs/message/vanilla/
+  vanilla:
+    format_player: "<display_name>"
+    format_entity: "<display_name>"
+    types:
+      advMode.notEnabled: "<fcolor:1>🤖 Command blocks are not enabled on this server"
+      advMode.setCommand.success: "<fcolor:1>🤖 Command set: <fcolor:2><argument:0>"
+      block.minecraft.bed.no_sleep: "<fcolor:1>🛌 You can sleep only at night or during thunderstorms"
+      block.minecraft.bed.not_safe: "<fcolor:1>🛌 You may not rest now; there are monsters nearby"
+      block.minecraft.bed.obstructed: "<fcolor:1>🛌 This bed is obstructed"
+      block.minecraft.bed.occupied: "<fcolor:1>🛌 This bed is occupied"
+      block.minecraft.bed.too_far_away: "<fcolor:1>🛌 You may not rest now; the bed is too far away"
+      tile.bed.noSleep: "<fcolor:1>🛌 You can sleep only at night or during thunderstorms"
+      tile.bed.notSafe: "<fcolor:1>🛌 You may not rest now; there are monsters nearby"
+      tile.bed.notValid: "<fcolor:1>🛌 This bed is obstructed"
+      tile.bed.occupied: "<fcolor:1>🛌 This bed is occupied"
+      block.minecraft.spawn.not_valid: "<fcolor:1>🛌 You have no home bed or charged respawn anchor, or it was obstructed"
+      block.minecraft.bed.not_valid: "<fcolor:1>🛌 You have no home bed or it was obstructed"
+      block.minecraft.set_spawn: "<fcolor:1>🛌 Respawn point set"
+      chat.type.advancement.challenge: "<fcolor:1>🌠 <argument:0> has made the advancement <argument:1>"
+      chat.type.advancement.goal: "<fcolor:1>🌠 <argument:0> has reached the goal <argument:1>"
+      chat.type.advancement.task: "<fcolor:1>🌠 <argument:0> has completed the challenge <argument:1>"
+      chat.type.achievement: "<fcolor:1>🌠 <argument:0> has completed the challenge <argument:1>"
+      chat.type.achievement.taken: "<fcolor:1>🌠 <argument:0> has lost the achievement '<argument:1>'"
+      sleep.not_possible: "<fcolor:1>🛌 No amount of rest can pass this night"
+      sleep.players_sleeping: "<fcolor:1>🛌 <fcolor:2><argument:0><fcolor:1>/<fcolor:2><argument:1><fcolor:1> players sleeping"
+      sleep.skipping_night: "<fcolor:1>🛌 Sleeping through this night"
+      item.minecraft.debug_stick.empty: "<fcolor:1>🔧 <fcolor:2><argument:0> <fcolor:1>has no properties"
+      item.minecraft.debug_stick.select: "<fcolor:1>🔧 selected \"<fcolor:2><argument:0><fcolor:1>\" (<fcolor:2><argument:1><fcolor:1>)"
+      item.minecraft.debug_stick.update: "<fcolor:1>🔧 \"<fcolor:2><argument:0><fcolor:1>\" to <fcolor:2><argument:1>"
+      commands.clear.success.multiple: "<fcolor:1>🌊 Removed <fcolor:2><argument:0> <fcolor:1>item(s) from <fcolor:2><argument:1> <fcolor:1>players"
+      commands.clear.success.single: "<fcolor:1>🌊 Removed <fcolor:2><argument:0> <fcolor:1>item(s) from player <argument:1>"
+      commands.clear.success: "<fcolor:1>🌊 Removed <fcolor:2><argument:1> <fcolor:1>item(s) from player <argument:0>"
+      commands.advancement.grant.criterion.to.many.success: "<fcolor:1>🌠 Granted criterion '<fcolor:2><argument:0><fcolor:1>' of advancement <argument:1> to <fcolor:2><argument:2> <fcolor:1>players"
+      commands.advancement.revoke.criterion.to.many.success: "<fcolor:1>🌠 Revoked criterion '<fcolor:2><argument:0><fcolor:1>' of advancement <argument:1> from <fcolor:2><argument:2> <fcolor:1>players"
+      commands.advancement.grant.criterion.to.one.success: "<fcolor:1>🌠 Granted criterion '<fcolor:2><argument:0><fcolor:1>' of advancement <argument:1> to <argument:2>"
+      commands.advancement.revoke.criterion.to.one.success: "<fcolor:1>🌠 Revoked criterion '<fcolor:2><argument:0><fcolor:1>' of advancement <argument:1> from <argument:2>"
+      commands.achievement.give.success.all: "<fcolor:1>🌠 Granted all advancements to <argument:0>"
+      commands.achievement.take.success.all: "<fcolor:1>🌠 Revoked all advancements from <argument:0>"
+      commands.advancement.grant.many.to.many.success: "<fcolor:1>🌠 Granted <fcolor:2><argument:0> <fcolor:1>advancements to <fcolor:2><argument:1> <fcolor:1>players"
+      commands.advancement.revoke.many.to.many.success: "<fcolor:1>🌠 Revoked <fcolor:2><argument:0> <fcolor:1>advancements from <fcolor:2><argument:1> <fcolor:1>players"
+      commands.advancement.grant.many.to.one.success: "<fcolor:1>🌠 Granted <fcolor:2><argument:0> <fcolor:1>advancements to <argument:1>"
+      commands.advancement.revoke.many.to.one.success: "<fcolor:1>🌠 Revoked <fcolor:2><argument:0> <fcolor:1>advancements from <argument:1>"
+      commands.advancement.grant.one.to.many.success: "<fcolor:1>🌠 Granted the advancement <argument:0> to <fcolor:2><argument:1> <fcolor:1>players"
+      commands.advancement.revoke.one.to.many.success: "<fcolor:1>🌠 Revoked the advancement <argument:0> from <fcolor:2><argument:1> <fcolor:1>players"
+      commands.advancement.grant.one.to.one.success: "<fcolor:1>🌠 Granted the advancement <argument:0> to <argument:1>"
+      commands.advancement.revoke.one.to.one.success: "<fcolor:1>🌠 Revoked the advancement <argument:0> from <argument:1>"
+      commands.achievement.give.success.one: "<fcolor:1>🌠 Granted the advancement <argument:0> to <argument:1>"
+      commands.achievement.take.success.one: "<fcolor:1>🌠 Revoked the advancement <argument:0> from <argument:1>"
+      commands.attribute.base_value.get.success: "<fcolor:1>❤ Base value of attribute <fcolor:2><argument:0> <fcolor:1>for entity <argument:1> is <fcolor:2><argument:2>"
+      commands.attribute.base_value.reset.success: "<fcolor:1>❤ Base value for attribute <fcolor:2><argument:0> <fcolor:1>for entity <argument:1> reset to default <fcolor:2><argument:2>"
+      commands.attribute.base_value.set.success: "<fcolor:1>❤ Base value for attribute <fcolor:2><argument:0> <fcolor:1>for entity <argument:1> set to <fcolor:2><argument:2>"
+      commands.attribute.value.get.success: "<fcolor:1>❤ Value of attribute <fcolor:2><argument:0> <fcolor:1>for entity <argument:1> is <fcolor:2><argument:2>"
+      commands.attribute.modifier.add.success: "<fcolor:1>❤ Added modifier <fcolor:2><argument:0> <fcolor:1>to attribute <fcolor:2><argument:1> <fcolor:1>for entity <argument:2>"
+      commands.attribute.modifier.remove.success: "<fcolor:1>❤ Removed modifier <fcolor:2><argument:0> <fcolor:1>from attribute <fcolor:2><argument:1> <fcolor:1>for entity <argument:2>"
+      commands.attribute.modifier.value.get.success: "<fcolor:1>❤ Value of modifier <fcolor:2><argument:0> <fcolor:1>on attribute <fcolor:2><argument:1> <fcolor:1>for entity <argument:2> is <fcolor:2><argument:3>"
+      commands.clone.success: "<fcolor:1>⏹ Successfully cloned <fcolor:2><argument:0> <fcolor:1>block(s)"
+      commands.damage.success: "<fcolor:1>🗡 Applied <fcolor:2><argument:0> <fcolor:1>damage to <argument:1>"
+      commands.deop.success: "<fcolor:1>🤖 Made <argument:0> no longer a server operator"
+      commands.dialog.clear.multiple: "<fcolor:1>🗔 Cleared dialog for <fcolor:2><argument:0> <fcolor:1>players"
+      commands.dialog.clear.single: "<fcolor:1>🗔 Cleared dialog for <argument:0>"
+      commands.dialog.show.multiple: "<fcolor:1>🗔 Displayed dialog to <fcolor:2><argument:0> <fcolor:1>players"
+      commands.dialog.show.single: "<fcolor:1>🗔 Displayed dialog to <argument:0>"
+      commands.difficulty.query: "<fcolor:1>⚔ The difficulty is <fcolor:2><argument:0>"
+      commands.difficulty.success: "<fcolor:1>⚔ The difficulty has been set to <fcolor:2><argument:0>"
+      commands.effect.clear.everything.success.multiple: "<fcolor:1>⚗ Removed every effect from <fcolor:2><argument:0> <fcolor:1>targets"
+      commands.effect.clear.everything.success.single: "<fcolor:1>⚗ Removed every effect from <argument:0>"
+      commands.effect.clear.specific.success.multiple: "<fcolor:1>⚗ Removed effect <fcolor:2><argument:0> <fcolor:1>from <fcolor:2><argument:1> <fcolor:1>targets"
+      commands.effect.clear.specific.success.single: "<fcolor:1>⚗ Removed effect <fcolor:2><argument:0> <fcolor:1>from <argument:1>"
+      commands.effect.give.success.multiple: "<fcolor:1>⚗ Applied effect <fcolor:2><argument:0> <fcolor:1>to <fcolor:2><argument:1> <fcolor:1>targets"
+      commands.effect.give.success.single: "<fcolor:1>⚗ Applied effect <fcolor:2><argument:0> <fcolor:1>to <argument:1>"
+      commands.effect.success: "<fcolor:1>⚗ Applied effect <fcolor:2><argument:0> <fcolor:1>to <argument:3>"
+      commands.effect.success.removed: "<fcolor:1>⚗ Removed effect <fcolor:2><argument:0> <fcolor:1>from <argument:1>"
+      commands.effect.success.removed.all: "<fcolor:1>⚗ Removed every effect from <argument:0>"
+      commands.enchant.success.multiple: "<fcolor:1>📖 Applied enchantment <fcolor:2><argument:0><fcolor:1> to <fcolor:2><argument:1><fcolor:1> entities"
+      commands.enchant.success.single: "<fcolor:1>📖 Applied enchantment <fcolor:2><argument:0><fcolor:1> to <argument:1>'s item"
+      commands.enchant.success: "<fcolor:1>📖 Applied enchantment"
+      commands.execute.conditional.pass: "<fcolor:1>⚡ Test passed"
+      commands.execute.conditional.pass_count: "<fcolor:1>⚡ Test passed, count: <fcolor:2><argument:0>"
+      commands.experience.query.levels: "<fcolor:1>⏺ <argument:0> has <fcolor:2><argument:1> <fcolor:1>experience levels"
+      commands.experience.query.points: "<fcolor:1>⏺ <argument:0> has <fcolor:2><argument:1> <fcolor:1>experience points"
+      commands.experience.add.levels.success.multiple: "<fcolor:1>⏺ Gave <fcolor:2><argument:0> <fcolor:1>experience levels to <fcolor:2><argument:1> <fcolor:1>players"
+      commands.experience.add.points.success.multiple: "<fcolor:1>⏺ Gave <fcolor:2><argument:0> <fcolor:1>experience points to <fcolor:2><argument:1> <fcolor:1>players"
+      commands.experience.set.levels.success.multiple: "<fcolor:1>⏺ Set <fcolor:2><argument:0> <fcolor:1>experience levels to <fcolor:2><argument:1> <fcolor:1>players"
+      commands.experience.set.points.success.multiple: "<fcolor:1>⏺ Set <fcolor:2><argument:0> <fcolor:1>experience points to <fcolor:2><argument:1> <fcolor:1>players"
+      commands.experience.add.levels.success.single: "<fcolor:1>⏺ Gave <fcolor:2><argument:0> <fcolor:1>experience levels to <argument:1>"
+      commands.experience.add.points.success.single: "<fcolor:1>⏺ Gave <fcolor:2><argument:0> <fcolor:1>experience points to <argument:1>"
+      commands.experience.set.levels.success.single: "<fcolor:1>⏺ Set <fcolor:2><argument:0> <fcolor:1>experience levels to <argument:1>"
+      commands.experience.set.points.success.single: "<fcolor:1>⏺ Set <fcolor:2><argument:0> <fcolor:1>experience points to <argument:1>"
+      commands.xp.success: "<fcolor:1>⏺ Gave <fcolor:2><argument:0> <fcolor:1>experience points to <argument:1>"
+      commands.xp.success.levels: "<fcolor:1>⏺ Gave <fcolor:2><argument:0> <fcolor:1>experience levels to <argument:1>"
+      commands.xp.success.negative.levels: "<fcolor:1>⏺ Taken <fcolor:2><argument:0> <fcolor:1>levels from <argument:1>"
+      commands.fill.success: "<fcolor:1>⏹ Successfully filled <fcolor:2><argument:0> <fcolor:1>block(s)"
+      commands.fillbiome.success: "<fcolor:1>⏹ Biomes set between <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2> <fcolor:1>and <fcolor:2><argument:3><fcolor:1>, <fcolor:2><argument:4><fcolor:1>, <fcolor:2><argument:5>"
+      commands.fillbiome.success.count: "<fcolor:1>⏹ <fcolor:2><argument:0> <fcolor:1>biome entry/entries set between <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1>, <fcolor:2><argument:3> <fcolor:1>and <fcolor:2><argument:4><fcolor:1>, <fcolor:2><argument:5><fcolor:1>, <fcolor:2><argument:6>"
+      gameMode.changed: "<fcolor:1>🗘 Your game mode has been updated to <fcolor:2><argument:0>"
+      commands.gamemode.success.other: "<fcolor:1>🗘 Set <argument:0>'s game mode to <fcolor:2><argument:1>"
+      commands.gamemode.success.self: "<fcolor:1>🗘 Set own game mode to <fcolor:2><argument:0>"
+      commands.defaultgamemode.success: "<fcolor:1>🗘 The default game mode is now <fcolor:2><argument:0>"
+      commands.gamerule.query: "<fcolor:1>🗐 Gamerule <fcolor:2><argument:0> <fcolor:1>is currently set to: <fcolor:2><argument:1>"
+      commands.gamerule.set: "<fcolor:1>🗐 Gamerule <fcolor:2><argument:0> <fcolor:1>is now set to: <fcolor:2><argument:1>"
+      commands.gamerule.success: "<fcolor:1>🗐 Game rule has been updated"
+      commands.give.success.multiple: "<fcolor:1>⛏ Gave <fcolor:2><argument:0> <fcolor:2><argument:1><fcolor:1> to <argument:2> players"
+      commands.give.success.single: "<fcolor:1>⛏ Gave <fcolor:2><argument:0> <fcolor:2><argument:1><fcolor:1> to <argument:2>"
+      commands.give.success: "<fcolor:1>⛏ Gave <fcolor:2><argument:0><fcolor:1> * <fcolor:2><argument:1><fcolor:1> to <argument:2>"
+      commands.kill.success.multiple: "<fcolor:1>☠ Killed <fcolor:2><argument:0> <fcolor:1>entities"
+      commands.kill.success.single: "<fcolor:1>☠ Killed <argument:0>"
+      commands.kill.successful: "<fcolor:1>☠ Killed <argument:0>"
+      commands.list.players: "<fcolor:1>👥 There are <fcolor:2><argument:0><fcolor:1> of a max of <fcolor:2><argument:1><fcolor:1> players online: <argument:2>"
+      commands.locate.biome.success: "<fcolor:1>🗺 The nearest <fcolor:2><argument:0><fcolor:1> is at <fcolor:2><argument:1><fcolor:1> (<fcolor:2><argument:2> <fcolor:1>blocks away)"
+      commands.locate.poi.success: "<fcolor:1>🗺 The nearest <fcolor:2><argument:0><fcolor:1> is at <fcolor:2><argument:1><fcolor:1> (<fcolor:2><argument:2> <fcolor:1>blocks away)"
+      commands.locate.structure.success: "<fcolor:1>🗺 The nearest <fcolor:2><argument:0><fcolor:1> is at <fcolor:2><argument:1><fcolor:1> (<fcolor:2><argument:2> <fcolor:1>blocks away)"
+      commands.locate.success: "<fcolor:1>🗺 The nearest <fcolor:2><argument:0><fcolor:1> is at <fcolor:2><argument:1><fcolor:1> (<fcolor:2><argument:2> <fcolor:1>blocks away)"
+      commands.locatebiome.success: "<fcolor:1>🗺 The nearest <fcolor:2><argument:0><fcolor:1> is at <fcolor:2><argument:1><fcolor:1> (<fcolor:2><argument:2> <fcolor:1>blocks away)"
+      commands.op.success: "<fcolor:1>🤖 Made <argument:0> a server operator"
+      commands.particle.success: "<fcolor:1>❄ Displaying particle <fcolor:2><argument:0>"
+      commands.recipe.give.success.multiple: "<fcolor:1>💡 Unlocked <fcolor:2><argument:0> <fcolor:1>recipe(s) for <fcolor:2><argument:1> <fcolor:1>players"
+      commands.recipe.give.success.single: "<fcolor:1>💡 Unlocked <fcolor:2><argument:0> <fcolor:1>recipe(s) for <argument:1>"
+      commands.recipe.take.success.multiple: "<fcolor:1>💡 Took <fcolor:2><argument:0> <fcolor:1>recipe(s) from <fcolor:2><argument:1> <fcolor:1>players"
+      commands.recipe.take.success.single: "<fcolor:1>💡 Took <fcolor:2><argument:0> <fcolor:1>recipe(s) from <argument:1>"
+      commands.reload.success: "<fcolor:1>🛈 Reloading!"
+      commands.ride.dismount.success: "<fcolor:1>🏇 <argument:0> stopped riding <argument:1>"
+      commands.ride.mount.success: "<fcolor:1>🏇 <argument:0> started riding <argument:1>"
+      commands.rotate.success: "<fcolor:1>🤸 Rotated <argument:0>"
+      commands.save.disabled: "<fcolor:1>🛈 Automatic saving is now disabled"
+      commands.save.enabled: "<fcolor:1>🛈 Automatic saving is now enabled"
+      commands.save.start: "<fcolor:1>🛈 Saving the game (this may take a moment!)"
+      commands.save.saving: "<fcolor:1>🛈 Saving the game (this may take a moment!)"
+      commands.save.success: "<fcolor:1>🛈 Saved the game"
+      commands.seed.success: "<fcolor:1>🔑 Seed: <argument:0>"
+      commands.setblock.success.1_19_4: "<fcolor:1>⏹ Changed the block"
+      commands.setblock.success: "<fcolor:1>⏹ Changed the block at <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1>"
+      commands.playsound.success.multiple: "<fcolor:1>🔊 Played sound <fcolor:2><argument:0> <fcolor:1>to <fcolor:2><argument:1> <fcolor:1>players"
+      commands.playsound.success.single: "<fcolor:1>🔊 Played sound <fcolor:2><argument:0> <fcolor:1>to <argument:1>"
+      commands.stopsound.success.all: "<fcolor:1>🔇 Stopped all '<fcolor:2><argument:0><fcolor:1>' sounds"
+      commands.stopsound.success.soundSource: "<fcolor:1>🔇 Stopped all sounds"
+      commands.stopsound.success.individualSound: "<fcolor:1>🔇 Stopped sound '<fcolor:2><argument:0><fcolor:1>' on source '<fcolor:2><argument:1><fcolor:1>'"
+      commands.playsound.success: "<fcolor:1>🔊 Played sound <fcolor:2><argument:0> <fcolor:1>to <argument:1>"
+      commands.stopsound.success.source.any: "<fcolor:1>🔇 Stopped all '<fcolor:2><argument:0><fcolor:1>' sounds"
+      commands.stopsound.success.source.sound: "<fcolor:1>🔇 Stopped sound '<fcolor:2><argument:0><fcolor:1>' on source '<fcolor:2><argument:1><fcolor:1>'"
+      commands.stopsound.success.sourceless.any: "<fcolor:1>🔇 Stopped all sounds"
+      commands.stopsound.success.sourceless.sound: "<fcolor:1>🔇 Stopped sound '<fcolor:2><argument:0><fcolor:1>'"
+      commands.spawnpoint.success: "<fcolor:1>🛌 Set spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> <fcolor:1>for <argument:3>"
+      commands.setworldspawn.success.1_16: "<fcolor:1>🛌 Set the world spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1>"
+      commands.setworldspawn.success.1_21_8: "<fcolor:1>🛌 Set the world spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> [<fcolor:2><argument:3><fcolor:1>]"
+      commands.setworldspawn.success: "<fcolor:1>🛌 Set the world spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> [<fcolor:2><argument:3><fcolor:1>, <fcolor:2><argument:4><fcolor:1>] in <fcolor:2><argument:5>"
+      commands.setworldspawn.success.new: "<fcolor:1>🛌 Set the world spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> [<fcolor:2><argument:3><fcolor:1>, <fcolor:2><argument:4><fcolor:1>] in <fcolor:2><argument:5>"
+      commands.spawnpoint.success.multiple.1_14_2: "<fcolor:1>🛌 Set spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> for <fcolor:2><argument:3><fcolor:1> players"
+      commands.spawnpoint.success.multiple.1_21_8: "<fcolor:1>🛌 Set spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> [<fcolor:2><argument:3><fcolor:1>] in <fcolor:2><argument:4> <fcolor:1>for <fcolor:2><argument:5><fcolor:1> players"
+      commands.spawnpoint.success.multiple: "<fcolor:1>🛌 Set spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> [<fcolor:2><argument:3><fcolor:1>, <fcolor:2><argument:4><fcolor:1>] in <fcolor:2><argument:5> <fcolor:1>for <fcolor:2><argument:6><fcolor:1> players"
+      commands.spawnpoint.success.multiple.new: "<fcolor:1>🛌 Set spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> [<fcolor:2><argument:3><fcolor:1>, <fcolor:2><argument:4><fcolor:1>] in <fcolor:2><argument:5> <fcolor:1>for <fcolor:2><argument:6><fcolor:1> players"
+      commands.spawnpoint.success.single.1_14_2: "<fcolor:1>🛌 Set spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> <fcolor:1>for <argument:3>"
+      commands.spawnpoint.success.single.1_21_8: "<fcolor:1>🛌 Set spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> [<fcolor:2><argument:3><fcolor:1>] in <fcolor:2><argument:4> <fcolor:1>for <argument:5>"
+      commands.spawnpoint.success.single: "<fcolor:1>🛌 Set spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> [<fcolor:2><argument:3><fcolor:1>, <fcolor:2><argument:4><fcolor:1>] in <fcolor:2><argument:5> <fcolor:1>for <argument:6>"
+      commands.spawnpoint.success.single.new: "<fcolor:1>🛌 Set spawn point to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1> [<fcolor:2><argument:3><fcolor:1>, <fcolor:2><argument:4><fcolor:1>] in <fcolor:2><argument:5> <fcolor:1>for <argument:6>"
+      commands.stop.stopping: "<fcolor:1>🛈 Stopping the server"
+      commands.stop.start: "<fcolor:1>🛈 Stopping the server"
+      commands.summon.success: "<fcolor:1>🐺 Summoned new <argument:0>"
+      commands.teleport.success.entity.multiple: "<fcolor:1>🌀 Teleported <fcolor:2><argument:0> <fcolor:1>entities to <argument:1>"
+      commands.teleport.success.entity.single: "<fcolor:1>🌀 Teleported <argument:0> to <argument:1>"
+      commands.tp.success: "<fcolor:1>🌀 Teleported <argument:0> to <argument:1>"
+      commands.teleport.success.location.multiple: "<fcolor:1>🌀 Teleported <fcolor:2><argument:0> <fcolor:1>to <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1>, <fcolor:2><argument:3><fcolor:1>"
+      commands.teleport.success.location.single: "<fcolor:1>🌀 Teleported <fcolor:2><argument:0> <fcolor:1>to <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1>, <fcolor:2><argument:3><fcolor:1>"
+      commands.tp.success.coordinates: "<fcolor:1>🌀 Teleported <fcolor:2><argument:0> <fcolor:1>to <fcolor:2><argument:1><fcolor:1>, <fcolor:2><argument:2><fcolor:1>, <fcolor:2><argument:3><fcolor:1>"
+      commands.time.query: "<fcolor:1>☽ The time is <fcolor:2><argument:0>"
+      commands.time.set: "<fcolor:1>☽ Set the time to <fcolor:2><argument:0>"
+      commands.weather.set.clear: "<fcolor:1>☀ Set the weather to <fcolor:2>clear"
+      commands.weather.clear: "<fcolor:1>☀ Set the weather to <fcolor:2>clear"
+      commands.weather.set.rain: "<fcolor:1>🌧 Set the weather to <fcolor:2>rain"
+      commands.weather.rain: "<fcolor:1>🌧 Set the weather to <fcolor:2>rain"
+      commands.weather.set.thunder: "<fcolor:1>⛈ Set the weather to <fcolor:2>rain & thunder"
+      commands.weather.thunder: "<fcolor:1>⛈ Set the weather to <fcolor:2>rain & thunder"
+      commands.worldborder.center.success: "<fcolor:1>🚫 Set the center of the world border to <fcolor:2><argument:0><fcolor:1>, <fcolor:2><argument:1>"
+      commands.worldborder.damage.amount.success: "<fcolor:1>🚫 Set the world border damage to <fcolor:2><argument:0> <fcolor:1>per block each second"
+      commands.worldborder.damage.buffer.success: "<fcolor:1>🚫 Set the world border damage buffer to <fcolor:2><argument:0> <fcolor:1>block(s)"
+      commands.worldborder.get.success: "<fcolor:1>🚫 The world border is currently <fcolor:2><argument:0> <fcolor:1>block(s) wide"
+      commands.worldborder.get: "<fcolor:1>🚫 The world border is currently <fcolor:2><argument:0> <fcolor:1>block(s) wide"
+      commands.worldborder.set.success: "<fcolor:1>🚫 Set the world border to <fcolor:2><argument:0> <fcolor:1>block(s) wide"
+      commands.worldborder.setSlowly.grow.success: "<fcolor:1>🚫 Growing the world border to <fcolor:2><argument:0> <fcolor:1>blocks wide over <fcolor:2><argument:2> <fcolor:1>seconds"
+      commands.worldborder.set.grow: "<fcolor:1>🚫 Growing the world border to <fcolor:2><argument:0> <fcolor:1>blocks wide over <fcolor:2><argument:1> <fcolor:1>seconds"
+      commands.worldborder.set.immediate: "<fcolor:1>🚫 Set the world border to <fcolor:2><argument:0> <fcolor:1>block(s) wide"
+      commands.worldborder.setSlowly.shrink.success: "<fcolor:1>🚫 Shrinking the world border to <fcolor:2><argument:0> <fcolor:1>block(s) wide over <fcolor:2><argument:2> <fcolor:1>second(s)"
+      commands.worldborder.set.shrink: "<fcolor:1>🚫 Shrinking the world border to <fcolor:2><argument:0> <fcolor:1>block(s) wide over <fcolor:2><argument:1> <fcolor:1>second(s)"
+      commands.worldborder.warning.distance.success: "<fcolor:1>🚫 Set the world border warning distance to <fcolor:2><argument:0> <fcolor:1>block(s)"
+      commands.worldborder.warning.time.success: "<fcolor:1>🚫 Set the world border warning time to <fcolor:2><argument:0> <fcolor:1>second(s)"
+      death.attack.anvil: "<fcolor:1>☠ <argument:0> was squashed by a falling anvil"
+      death.attack.anvil.player: "<fcolor:1>☠ <argument:0> was squashed by a falling anvil while fighting <argument:1>"
+      death.attack.arrow: "<fcolor:1>☠ <argument:0> was shot by <argument:1>"
+      death.attack.arrow.item: "<fcolor:1>☠ <argument:0> was shot by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.attack.badRespawnPoint.message: "<fcolor:1>☠ <argument:0> was killed by <fcolor:2>[<click:open_url:\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"><hover:show_text:\"<fcolor:2>MCPE-28723\">Intentional Game Design</hover></click>]"
+      death.attack.cactus: "<fcolor:1>☠ <argument:0> was pricked to death"
+      death.attack.cactus.player: "<fcolor:1>☠ <argument:0> walked into a cactus while trying to escape <argument:1>"
+      death.attack.cramming: "<fcolor:1>☠ <argument:0> was squished too much"
+      death.attack.cramming.player: "<fcolor:1>☠ <argument:0> was squashed by <argument:1>"
+      death.attack.dragonBreath: "<fcolor:1>☠ <argument:0> was roasted in dragon's breath"
+      death.attack.dragonBreath.player: "<fcolor:1>☠ <argument:0> was roasted in dragon's breath by <argument:1>"
+      death.attack.drown: "<fcolor:1>☠ <argument:0> drowned"
+      death.attack.drown.player: "<fcolor:1>☠ <argument:0> drowned while trying to escape <argument:1>"
+      death.attack.dryout: "<fcolor:1>☠ <argument:0> died from dehydration"
+      death.attack.dryout.player: "<fcolor:1>☠ <argument:0> died from dehydration while trying to escape <argument:1>"
+      death.attack.even_more_magic: "<fcolor:1>☠ <argument:0> was killed by even more magic"
+      death.attack.explosion: "<fcolor:1>☠ <argument:0> blew up"
+      death.attack.explosion.player: "<fcolor:1>☠ <argument:0> was blown up by <argument:1>"
+      death.attack.explosion.item: "<fcolor:1>☠ <argument:0> was blown up by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.attack.explosion.player.item: "<fcolor:1>☠ <argument:0> was blown up by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.attack.fall: "<fcolor:1>☠ <argument:0> hit the ground too hard"
+      death.attack.fall.player: "<fcolor:1>☠ <argument:0> hit the ground too hard while trying to escape <argument:1>"
+      death.attack.fallingBlock: "<fcolor:1>☠ <argument:0> was squashed by a falling block"
+      death.attack.fallingBlock.player: "<fcolor:1>☠ <argument:0> was squashed by a falling block while fighting <argument:1>"
+      death.attack.fallingStalactite: "<fcolor:1>☠ <argument:0> was skewered by a falling stalactite"
+      death.attack.fallingStalactite.player: "<fcolor:1>☠ <argument:0> was skewered by a falling stalactite while fighting <argument:1>"
+      death.attack.fireball: "<fcolor:1>☠ <argument:0> was fireballed by <argument:1>"
+      death.attack.fireball.item: "<fcolor:1>☠ <argument:0> was fireballed by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.attack.fireworks: "<fcolor:1>☠ <argument:0> went off with a bang"
+      death.attack.fireworks.item: "<fcolor:1>☠ <argument:0> went off with a bang due to a firework fired from <fcolor:2><argument:2><fcolor:1> by <argument:1>"
+      death.attack.fireworks.player: "<fcolor:1>☠ <argument:0> went off with a bang while fighting <argument:1>"
+      death.attack.flyIntoWall: "<fcolor:1>☠ <argument:0> experienced kinetic energy"
+      death.attack.flyIntoWall.player: "<fcolor:1>☠ <argument:0> experienced kinetic energy while trying to escape <argument:1>"
+      death.attack.freeze: "<fcolor:1>☠ <argument:0> froze to death"
+      death.attack.freeze.player: "<fcolor:1>☠ <argument:0> was frozen to death by <argument:1>"
+      death.attack.generic: "<fcolor:1>☠ <argument:0> died"
+      death.attack.generic.player: "<fcolor:1>☠ <argument:0> died because of <argument:1>"
+      death.attack.genericKill: "<fcolor:1>☠ <argument:0> was killed"
+      death.attack.genericKill.player: "<fcolor:1>☠ <argument:0> was killed while fighting <argument:1>"
+      death.attack.hotFloor: "<fcolor:1>☠ <argument:0> discovered the floor was lava"
+      death.attack.hotFloor.player: "<fcolor:1>☠ <argument:0> walked into the danger zone due to <argument:1>"
+      death.attack.indirectMagic: "<fcolor:1>☠ <argument:0> was killed by <argument:1> using magic"
+      death.attack.indirectMagic.item: "<fcolor:1>☠ <argument:0> was killed by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.attack.inFire: "<fcolor:1>☠ <argument:0> went up in flames"
+      death.attack.inFire.player: "<fcolor:1>☠ <argument:0> walked into fire while fighting <argument:1>"
+      death.attack.inWall: "<fcolor:1>☠ <argument:0> suffocated in a wall"
+      death.attack.inWall.player: "<fcolor:1>☠ <argument:0> suffocated in a wall while fighting <argument:1>"
+      death.attack.lava: "<fcolor:1>☠ <argument:0> tried to swim in lava"
+      death.attack.lava.player: "<fcolor:1>☠ <argument:0> tried to swim in lava to escape <argument:1>"
+      death.attack.lightningBolt: "<fcolor:1>☠ <argument:0> was struck by lightning"
+      death.attack.lightningBolt.player: "<fcolor:1>☠ <argument:0> was struck by lightning while fighting <argument:1>"
+      death.attack.mace_smash: "<fcolor:1>☠ <argument:0> was smashed by <argument:1>"
+      death.attack.mace_smash.item: "<fcolor:1>☠ <argument:0> was smashed by <argument:1> with <fcolor:2><argument:2><fcolor:1>"
+      death.attack.magic: "<fcolor:1>☠ <argument:0> was killed by magic"
+      death.attack.magic.player: "<fcolor:1>☠ <argument:0> was killed by magic while trying to escape <argument:1>"
+      death.attack.mob: "<fcolor:1>☠ <argument:0> was slain by <argument:1>"
+      death.attack.mob.item: "<fcolor:1>☠ <argument:0> was slain by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.attack.onFire: "<fcolor:1>☠ <argument:0> burned to death"
+      death.attack.onFire.item: "<fcolor:1>☠ <argument:0> was burned to a crisp while fighting <argument:1> wielding <fcolor:2><argument:2><fcolor:1>"
+      death.attack.onFire.player: "<fcolor:1>☠ <argument:0> was burned to a crisp while fighting <argument:1>"
+      death.attack.outOfWorld: "<fcolor:1>☠ <argument:0> fell out of the world"
+      death.attack.outOfWorld.player: "<fcolor:1>☠ <argument:0> didn't want to live in the same world as <argument:1>"
+      death.attack.outsideBorder: "<fcolor:1>☠ <argument:0> left the confines of this world"
+      death.attack.outsideBorder.player: "<fcolor:1>☠ <argument:0> left the confines of this world while fighting <argument:1>"
+      death.attack.player: "<fcolor:1>☠ <argument:0> was slain by <argument:1>"
+      death.attack.player.item: "<fcolor:1>☠ <argument:0> was slain by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.attack.sonic_boom: "<fcolor:1>☠ <argument:0> was obliterated by a sonically-charged shriek"
+      death.attack.sonic_boom.item: "<fcolor:1>☠ <argument:0> was obliterated by a sonically-charged shriek while trying to escape <argument:1> wielding <fcolor:2><argument:2><fcolor:1>"
+      death.attack.sonic_boom.player: "<fcolor:1>☠ <argument:0> was obliterated by a sonically-charged shriek while trying to escape <argument:1>"
+      death.attack.spear: "<fcolor:1>☠ <argument:0> was speared by <argument:1>"
+      death.attack.spear.item: "<fcolor:1>☠ <argument:0> was speared by <argument:1> using <argument:2>"
+      death.attack.stalagmite: "<fcolor:1>☠ <argument:0> was impaled on a stalagmite"
+      death.attack.stalagmite.player: "<fcolor:1>☠ <argument:0> was impaled on a stalagmite while fighting <argument:1>"
+      death.attack.starve: "<fcolor:1>☠ <argument:0> starved to death"
+      death.attack.starve.player: "<fcolor:1>☠ <argument:0> starved to death while fighting <argument:1>"
+      death.attack.sting: "<fcolor:1>☠ <argument:0> was stung to death"
+      death.attack.sting.item: "<fcolor:1>☠ <argument:0> was stung to death by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.attack.sting.player: "<fcolor:1>☠ <argument:0> was stung to death by <argument:1>"
+      death.attack.sweetBerryBush: "<fcolor:1>☠ <argument:0> was poked to death by a sweet berry bush"
+      death.attack.sweetBerryBush.player: "<fcolor:1>☠ <argument:0> was poked to death by a sweet berry bush while trying to escape <argument:1>"
+      death.attack.thorns: "<fcolor:1>☠ <argument:0> was killed while trying to hurt <argument:1>"
+      death.attack.thorns.item: "<fcolor:1>☠ <argument:0> was killed by <fcolor:2><argument:2><fcolor:1> while trying to hurt <argument:1>"
+      death.attack.thrown: "<fcolor:1>☠ <argument:0> was pummeled by <argument:1>"
+      death.attack.thrown.item: "<fcolor:1>☠ <argument:0> was pummeled by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.attack.trident: "<fcolor:1>☠ <argument:0> was impaled by <argument:1>"
+      death.attack.trident.item: "<fcolor:1>☠ <argument:0> was impaled by <argument:1> with <fcolor:2><argument:2><fcolor:1>"
+      death.attack.wither: "<fcolor:1>☠ <argument:0> withered away"
+      death.attack.wither.player: "<fcolor:1>☠ <argument:0> withered away while fighting <argument:1>"
+      death.attack.witherSkull: "<fcolor:1>☠ <argument:0> was shot by a skull from <argument:1>"
+      death.attack.witherSkull.item: "<fcolor:1>☠ <argument:0> was shot by a skull from <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.fell.accident.generic: "<fcolor:1>☠ <argument:0> fell from a high place"
+      death.fell.accident.ladder: "<fcolor:1>☠ <argument:0> fell off a ladder"
+      death.fell.accident.other_climbable: "<fcolor:1>☠ <argument:0> fell while climbing"
+      death.fell.accident.scaffolding: "<fcolor:1>☠ <argument:0> fell off scaffolding"
+      death.fell.accident.twisting_vines: "<fcolor:1>☠ <argument:0> fell off some twisting vines"
+      death.fell.accident.vines: "<fcolor:1>☠ <argument:0> fell off some vines"
+      death.fell.accident.weeping_vines: "<fcolor:1>☠ <argument:0> fell off some weeping vines"
+      death.fell.assist: "<fcolor:1>☠ <argument:0> was doomed to fall by <argument:1>"
+      death.fell.assist.item: "<fcolor:1>☠ <argument:0> was doomed to fall by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.fell.finish: "<fcolor:1>☠ <argument:0> fell too far and was finished by <argument:1>"
+      death.fell.finish.item: "<fcolor:1>☠ <argument:0> fell too far and was finished by <argument:1> using <fcolor:2><argument:2><fcolor:1>"
+      death.fell.killer: "<fcolor:1>☠ <argument:0> was doomed to fall"

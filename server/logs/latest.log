@@ -1,0 +1,614 @@
+[00:24:43] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[00:24:43] [Server thread/INFO]: Loading properties
+[00:24:43] [Server thread/INFO]: Default game type: SURVIVAL
+[00:24:43] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[00:24:44] [Server thread/INFO]: Debug logging is disabled
+[00:24:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:24:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:24:44] [Server thread/INFO]: Generating keypair
+[00:24:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:24:44] [Server thread/INFO]: Using epoll channel type
+[00:24:45] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[00:24:45] [Server thread/ERROR]: Could not load 'plugins/McMmoView-1.2.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: mcMMO
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[00:24:45] [Server thread/INFO]: [EmotesChat] Loading EmotesChat v1.3.1
+[00:24:45] [Server thread/INFO]: [LoginTo] Loading LoginTo v2.5
+[00:24:45] [Server thread/INFO]: [EaglerXServer] Loading EaglercraftXServer v1.0.7
+[00:24:45] [Server thread/INFO]: [EaglerXServer] (Platform: Bukkit)
+[00:24:45] [Server thread/WARN]: [EaglerXServer] Note: Its highly recommended to install EaglerXServer on BungeeCord or Velocity instead, you will have a much better experience
+[00:24:45] [Server thread/WARN]: [EaglerXServer] Note: If you are not using Spigot (or a derivative like Paper) or a version above 1.12.2, things probably won't work right
+[00:24:45] [Server thread/INFO]: [EaglerXServer] Server Name: "EaglercraftXServer"
+[00:24:45] [Server thread/ERROR]: [EaglerXServer] Could not load server icon: server-icon.png
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(ImageIO.java:1308) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.ServerIconLoader.loadServerIcon(ServerIconLoader.java:112) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.ServerIconLoader$1.loadServerIcon(ServerIconLoader.java:51) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.EaglerListener.<init>(EaglerListener.java:90) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.EaglerXServer.loadNonProxying(EaglerXServer.java:376) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.EaglerXServer.load(EaglerXServer.java:341) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.bukkit.PlatformPluginBukkit.onLoad(PlatformPluginBukkit.java:232) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:323) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[00:24:45] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.4.2
+[00:24:45] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[00:24:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:24:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:24:46] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:24:46] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:24:47] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
+[00:24:47] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.4.2
+[00:24:47] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.17
+[00:24:47] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:24:47] [Server thread/INFO]: [Maintenance] Loading Maintenance v4.3.0
+[00:24:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
+[00:24:47] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.7.0-FORK-b53
+[00:24:47] [Server thread/INFO]: [TAB] Loading TAB v5.4.0
+[00:24:47] [Server thread/INFO]: [AuthMeVelocity] Loading AuthMeVelocity v4.0.4
+[00:24:47] [Server thread/INFO]: [FlectonePulse] Loading FlectonePulse v1.7.2
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Enabling...
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library com.google.inject:guice:7.0.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library jakarta.inject:jakarta.inject-api:2.0.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library aopalliance:aopalliance:1.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library com.google.guava:guava:31.0.1-jre
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library com.google.guava:failureaccess:1.0.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library com.google.code.findbugs:jsr305:3.0.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.checkerframework:checker-qual:3.12.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library com.google.j2objc:j2objc-annotations:1.3
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library com.google.errorprone:error_prone_annotations:2.18.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.ow2.asm:asm:9.5
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library tools.jackson.dataformat:jackson-dataformat-yaml:3.0.3
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library tools.jackson.core:jackson-core:3.0.3
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library tools.jackson.core:jackson-databind:3.0.3
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library com.fasterxml.jackson.core:jackson-annotations:2.20
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.snakeyaml:snakeyaml-engine:2.10
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library com.zaxxer:HikariCP:7.0.2
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.jdbi:jdbi3-core:3.51.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.slf4j:slf4j-api:2.0.17
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library io.leangen.geantyref:geantyref:2.0.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.jdbi:jdbi3-sqlobject:3.51.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.jdbi:jdbi3-core:3.51.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.slf4j:slf4j-api:2.0.17
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library io.leangen.geantyref:geantyref:2.0.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.apache.commons:commons-text:1.15.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.apache.commons:commons-lang3:3.20.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-api:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-key:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-api:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-string:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.jetbrains:annotations:26.0.2-1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-ansi:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-api:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-key:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-api:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-string:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.jetbrains:annotations:26.0.2-1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:ansi:1.1.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-minimessage:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-api:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-key:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-api:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-string:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.jetbrains:annotations:26.0.2-1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-plain:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-api:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-key:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-api:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-string:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.jetbrains:annotations:26.0.2-1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-legacy:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-api:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-key:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-api:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-string:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.jetbrains:annotations:26.0.2-1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-nbt:4.26.1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-api:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-string:1.3.0
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library org.jetbrains:annotations:26.0.2-1
+[00:24:48] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-platform-bukkit:4.4.1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-platform-api:4.4.1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-api:4.21.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-key:4.21.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-bungeecord:4.4.1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-legacy:4.21.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-nbt:4.21.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-api:1.3.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-string:1.3.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.jetbrains:annotations:26.0.2
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-gson:4.21.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-json:4.21.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:option:1.1.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.jspecify:jspecify:1.0.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library com.google.auto.service:auto-service-annotations:1.1.1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-commons:4.21.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-gson-legacy-impl:4.21.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-json-legacy-impl:4.21.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-platform-facet:4.4.1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-platform-viaversion:4.4.1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library com.github.retrooper:packetevents-spigot:2.11.1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-api:4.25.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.jetbrains:annotations:26.0.2-1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-nbt:4.25.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-key:4.25.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-api:1.3.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-string:1.3.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library com.github.retrooper:packetevents-api:2.11.1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library com.github.retrooper:packetevents-netty-common:2.11.1
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library com.github.Anon8281:UniversalScheduler:0.1.7
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-core:2.0.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-services:2.0.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library io.leangen.geantyref:geantyref:1.3.15
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.checkerframework:checker-qual:3.43.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.apiguardian:apiguardian-api:1.1.2
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-minecraft-extras:2.0.0-beta.14
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-core:2.0.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-services:2.0.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library io.leangen.geantyref:geantyref:1.3.15
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.checkerframework:checker-qual:3.43.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.apiguardian:apiguardian-api:1.1.2
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-api:4.15.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-key:4.15.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-api:1.3.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:examination-string:1.3.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.jetbrains:annotations:24.1.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-serializer-plain:4.15.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library net.kyori:adventure-text-minimessage:4.15.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-paper:2.0.0-beta.14
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-bukkit:2.0.0-beta.14
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-core:2.0.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-services:2.0.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library io.leangen.geantyref:geantyref:1.3.15
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.checkerframework:checker-qual:3.43.0
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.apiguardian:apiguardian-api:1.1.2
+[00:24:49] [Server thread/INFO]: [FlectonePulse] Loading library org.incendo:cloud-brigadier:2.0.0-beta.14
+[00:24:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:24:51] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[00:24:52] [Server thread/INFO]:         __    
+[00:24:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[00:24:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:24:52] [Server thread/INFO]: 
+[00:24:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:24:53] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:24:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:24:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1646ms)
+[00:24:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:24:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:24:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:24:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:24:53] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[00:24:53] [Server thread/INFO]: Preparing level "world"
+[00:24:53] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:24:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:24:53] [Server thread/INFO]: Mob Spawn Range: 4
+[00:24:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:24:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:24:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:24:53] [Server thread/INFO]: Random Lighting Updates: false
+[00:24:53] [Server thread/INFO]: Structure Info Saving: true
+[00:24:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:24:53] [Server thread/INFO]: Max TNT Explosions: 100
+[00:24:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:24:53] [Server thread/INFO]: View Distance: 5
+[00:24:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:24:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:24:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:24:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:24:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:24:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:24:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:24:54] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:24:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:24:54] [Server thread/INFO]: Mob Spawn Range: 4
+[00:24:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:24:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:24:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:24:54] [Server thread/INFO]: Random Lighting Updates: false
+[00:24:54] [Server thread/INFO]: Structure Info Saving: true
+[00:24:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:24:54] [Server thread/INFO]: Max TNT Explosions: 100
+[00:24:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:24:54] [Server thread/INFO]: View Distance: 5
+[00:24:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:24:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:24:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:24:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:24:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:24:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:24:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:24:54] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3007318648184114703)
+[00:24:55] [Server thread/INFO]: Preparing spawn area: 10%
+[00:24:55] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3007318648184114703)
+[00:24:55] [Server thread/INFO]: [EmotesChat] Enabling EmotesChat v1.3.1
+[00:24:55] [Server thread/INFO]: Enabled EmotesChat v1.3.1
+[00:24:55] [Server thread/INFO]: [LoginTo] Enabling LoginTo v2.5
+[00:24:55] [Server thread/WARN]: [LoginTo] LoginTo started
+[00:24:55] [Server thread/WARN]: [LoginTo] LoginTo ended loading
+[00:24:55] [Server thread/INFO]: [EaglerXServer] Enabling EaglercraftXServer v1.0.7
+[00:24:55] [Netty Epoll Server IO #0/INFO]: [EaglerXServer] Listener "default" injected into channel [id: 0x33b34d12, L:/[0:0:0:0:0:0:0:0%0]:25565] successfully (Generic Netty method)
+[00:24:55] [Server thread/INFO]: [EaglerXServer] Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[00:24:55] [Server thread/INFO]: [EaglerXServer] Connected to skin cache database successfully!
+[00:24:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[00:24:56] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[00:24:56] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[00:24:56] [Server thread/INFO]: [Maintenance] Enabling Maintenance v4.3.0
+[00:24:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  Updates are available for EaglerXServer
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  ---------------------------------------
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]    :< Active: 1.0.7
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]    :> Latest: 1.0.8
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  https://lax1dude.net/eaglerxserver/
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  -----------------------------------
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[00:24:56] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[00:24:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:24:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:24:56] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:24:56] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:24:56] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[00:24:56] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[00:24:56] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:24:56] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:24:56] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[00:24:56] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[00:24:57] [Server thread/INFO]: [Essentials] Using locale en_US
+[00:24:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:24:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:24:57] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[00:24:57] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[00:24:57] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:24:57] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+[00:24:57] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+[00:24:58] [Server thread/INFO]: [AuthMe] Created column 'regdate' and set the current timestamp, 1768350298190, to all 0 rows
+[00:24:58] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[00:24:58] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[00:24:58] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[00:24:58] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/Eaglercraft-1.12-Server-Hosting/server/plugins/Essentials/spawn.yml'
+[00:24:58] [Server thread/INFO]: [AuthMe] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[00:24:58] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+[00:24:58] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+[00:24:58] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[00:24:58] [Server thread/INFO]: [AuthMe] Checking for updates...
+[00:24:58] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[00:24:59] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .Legend Smp: Animation "Legend Smp" has refresh interval of 30, which is not divisible by 50! Using 50.
+[00:24:59] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[00:24:59] [Server thread/INFO]: [TAB] Enabled in 272ms
+[00:24:59] [Server thread/INFO]: [AuthMeVelocity] Enabling AuthMeVelocity v4.0.4
+[00:24:59] [Server thread/INFO]: [AuthMeVelocity] Downloaded library https://repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar
+[00:24:59] [Server thread/INFO]: [AuthMeVelocity] Downloaded library https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar
+[00:24:59] [Server thread/INFO]: [AuthMeVelocity] Downloaded library https://repo1.maven.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar
+[00:24:59] [Server thread/INFO]: [AuthMeVelocity] Downloaded library https://repo1.maven.org/maven2/me/lucko/jar-relocator/1.5/jar-relocator-1.5.jar
+[00:24:59] [Server thread/INFO]: [AuthMeVelocity] Relocations applied to lib/com/typesafe/config/1.4.2/config-1.4.2.jar
+[00:24:59] [Server thread/INFO]: [AuthMeVelocity] Downloaded library https://repo1.maven.org/maven2/org/spongepowered/configurate-core/4.1.2/configurate-core-4.1.2.jar
+[00:25:00] [Server thread/INFO]: [AuthMeVelocity] Relocations applied to lib/org/spongepowered/configurate-core/4.1.2/configurate-core-4.1.2.jar
+[00:25:00] [Server thread/INFO]: [AuthMeVelocity] Downloaded library https://repo1.maven.org/maven2/org/spongepowered/configurate-hocon/4.1.2/configurate-hocon-4.1.2.jar
+[00:25:00] [Server thread/INFO]: [AuthMeVelocity] Relocations applied to lib/org/spongepowered/configurate-hocon/4.1.2/configurate-hocon-4.1.2.jar
+[00:25:00] [Server thread/INFO]: [AuthMeVelocity] Downloaded library https://repo1.maven.org/maven2/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[00:25:00] [Server thread/INFO]: [AuthMeVelocity] Relocations applied to lib/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[00:25:00] [Server thread/INFO]: [AuthMeVelocity] AuthMeVelocity enabled
+[00:25:02] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m ___       ___  __  ___  __        ___ [0m[0m
+[00:25:02] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m|__  |    |__  /  `  |  /  \ |\ | |__  [0m[0m
+[00:25:02] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m|    |___ |___ \__,  |  \__/ | \| |___ [0m[0m
+[00:25:02] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m __             __   ___ [0;96m                       [0m[0m
+[00:25:02] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m|__) |  | |    /__` |__  [0;96m                   [0m[0m
+[00:25:02] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;34m|    \__/ |___ .__/ |___[0;96m   /\         [0m[0m
+[00:25:02] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;96m                          /  \ v1.7.2               [0m[0m
+[00:25:02] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;96m__/\___  ____/\_____  ___/    \______ [0m[0m
+[00:25:02] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m [0;96m       \/           \/  [0m[0m
+[00:25:03] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96mH2 database connected[0m
+[00:25:03] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m✔ LuckPerms hooked[0m
+[00:25:03] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m✔ Maintenance hooked[0m
+[00:25:03] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m✔ TAB hooked[0m
+[00:25:04] [Server thread/WARN]: [0;34m(FlectonePulse) [0m[0;93mBubble module is not supported on this version of Minecraft[0m
+[00:25:04] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96mFlectonePulse v1.7.2 enabled[0m
+[00:25:04] [Server thread/INFO]: Done (11.381s)! For help, type "help" or "?"
+[00:25:04] [Server thread/INFO]: Timings Reset
+[00:25:04] [Craft Scheduler Thread - 3/INFO]: [EaglerXServer] Reloaded certificate: /workspaces/Eaglercraft-1.12-Server-Hosting/server/plugins/EaglercraftXServer/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[00:25:04] [Craft Scheduler Thread - 3/WARN]: [EaglerXServer] Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[00:25:04] [Craft Scheduler Thread - 0/INFO]: [Essentials] Fetching version information...
+[00:25:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[00:25:05] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[00:25:05] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.16).
+[00:25:05] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[00:25:05] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.4
+[00:25:05] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[00:25:05] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/bukkit-plugins/holographic-displays
+[00:25:05] [Craft Scheduler Thread - 5/INFO]: [AuthMe] You are running the latest version.
+[00:25:05] [Craft Scheduler Thread - 2/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:25:05] [Server thread/WARN]: [HolographicDisplays] Unable to get a stacktrace element, please inform the developer. You will only see this error once to avoid spam.
+java.lang.NoSuchMethodException: java.lang.Throwable.getStackTraceElement(int)
+	at java.lang.Class.getDeclaredMethod(Class.java:2675) ~[?:?]
+	at com.gmail.filoghost.holographicdisplays.util.ReflectionUtils.getStackTraceElement(ReflectionUtils.java:44) ~[?:?]
+	at com.gmail.filoghost.holographicdisplays.nms.v1_12_R1.EntityNMSArmorStand.getId(EntityNMSArmorStand.java:139) ~[?:?]
+	at net.minecraft.server.v1_12_R1.PacketPlayOutEntityTeleport.<init>(SourceFile:22) ~[patched_1.12.2.jar:git-Paper-1620]
+	at com.gmail.filoghost.holographicdisplays.nms.v1_12_R1.EntityNMSArmorStand.setLocationNMS(EntityNMSArmorStand.java:202) ~[?:?]
+	at com.gmail.filoghost.holographicdisplays.nms.v1_12_R1.NmsManagerImpl.spawnNMSArmorStand(NmsManagerImpl.java:106) ~[?:?]
+	at com.gmail.filoghost.holographicdisplays.object.line.CraftTextLine.spawn(CraftTextLine.java:75) ~[?:?]
+	at com.gmail.filoghost.holographicdisplays.object.CraftHologram.spawnEntities(CraftHologram.java:300) ~[?:?]
+	at com.gmail.filoghost.holographicdisplays.object.CraftHologram.refreshAll(CraftHologram.java:247) ~[?:?]
+	at com.gmail.filoghost.holographicdisplays.task.StartupLoadHologramsTask.run(StartupLoadHologramsTask.java:11) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:840) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[00:25:05] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.7.0, you're on: 5.4.2
+[00:25:05] [Craft Scheduler Thread - 7/INFO]: [0;34m(FlectonePulse) [0m[0;96m[38;2;166;216;255mYo[38;2;165;216;255mu[38;2;165;215;255mr v[38;2;164;215;255mers[38;2;163;214;255mion [0m[38;2;107;182;255m1.[38;2;106;182;255m7[38;2;106;181;255m.[38;2;105;181;255m2[0m[38;2;166;216;255m i[38;2;165;216;255ms[38;2;165;215;255m o[38;2;164;215;255mut[38;2;164;214;255md[38;2;163;214;255mat[38;2;162;214;255med[38;2;162;213;255m![38;2;161;213;255m Up[38;2;160;212;255mdat[38;2;159;212;255me [38;2;159;211;255mt[38;2;158;211;255mo [0m[38;2;107;182;255m1[38;2;106;182;255m.[38;2;106;181;255m7[38;2;105;181;255m.4[0m[38;2;166;216;255m [38;2;165;216;255ma[38;2;165;215;255mt[38;2;164;215;255m [0m[38;2;164;215;255mh[38;2;163;214;255mt[38;2;162;214;255mt[38;2;162;213;255mp[38;2;161;213;255ms:[38;2;160;212;255m//[38;2;159;212;255mm[38;2;158;211;255mod[38;2;157;211;255mr[38;2;157;210;255mi[38;2;156;210;255mn[38;2;155;209;255mth[38;2;154;209;255m.[38;2;154;208;255mc[38;2;153;208;255mo[38;2;152;208;255mm[38;2;152;207;255m/[38;2;151;207;255mpl[38;2;150;206;255mu[38;2;149;206;255mg[38;2;149;205;255mi[38;2;148;205;255mn/[38;2;147;204;255mfl[38;2;146;204;255me[38;2;145;203;255mct[38;2;144;203;255mo[38;2;144;202;255mn[38;2;143;202;255me[38;2;142;201;255mpu[38;2;141;201;255ml[38;2;141;200;255ms[38;2;140;200;255me[0m[0m
+[00:25:05] [Craft Scheduler Thread - 4/WARN]: [0;34m(FlectonePulse) [0m[0;93mFailed to download en_us.lang. HTTP response: 404 - https://assets.mcasset.cloud/1.12.2/assets/minecraft/lang/en_US.lang[0m
+[00:25:36] [User Authenticator #1/INFO]: UUID of player ItzRealSilver is 390c8904-6988-3246-8933-7139e9323778
+[00:25:36] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to LoginTo v2.5
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:76) ~[patched_1.12.2.jar:git-Paper-1620]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.bukkit.async.PlayerPostLoginInjector.lambda$wrapLoginListener$2(PlayerPostLoginInjector.java:485) ~[?:?]
+	at net.minecraft.server.v1_12_R1.LoginListener.EaglerClassProxy240190563530.e(Unknown Source) ~[?:?]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.IllegalArgumentException: location.world
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:604) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:310) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.loginto.bukkit.ExtraFeature.TeleportToALocation.TPPlayer(TeleportToALocation.java:30) ~[?:?]
+	at net.loginto.bukkit.Events.PlayerJoin.onPlayerJoin(PlayerJoin.java:48) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor17.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 19 more
+[00:25:37] [Server thread/INFO]: ItzRealSilver[/[0:0:0:0:0:0:0:1%0]:53906] logged in with entity id 64 at ([world]0.7873909638795924, 68.0, 4.524399207213285)
+[00:25:37] [Craft Scheduler Thread - 0/INFO]: [0;34m(FlectonePulse) [0m[0;96m[38;2;78;255;82m→ [38;2;255;170;0m[VIP] [38;2;107;182;255mI[38;2;105;181;255mt[38;2;102;179;255mz[38;2;100;178;255mR[38;2;97;177;255me[38;2;95;175;255ma[38;2;92;174;255ml[38;2;90;173;255mS[38;2;87;171;255mi[38;2;85;170;255ml[38;2;82;169;255mv[38;2;80;167;255me[38;2;77;166;255mr[0m[0m
+[00:25:46] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'register' in plugin LoginTo v2.5
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1492) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1297) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:850) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at net.loginto.bukkit.Commands.Register.onCommand(Register.java:72) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 15 more
+[00:26:22] [Server thread/INFO]: Unknown command!
+[00:26:22] [Server thread/INFO]: Did you mean /authme totp?
+[00:26:22] [Server thread/INFO]: Use the command /authme help to view help.
+[00:26:26] [Server thread/INFO]: Unknown command!
+[00:26:26] [Server thread/INFO]: Did you mean /authme totp?
+[00:26:26] [Server thread/INFO]: Use the command /authme help to view help.
+[00:26:31] [Server thread/INFO]: Incorrect command arguments!
+[00:26:31] [Server thread/INFO]: ==========[ AuthMeReloaded HELP ]==========
+[00:26:31] [Server thread/INFO]: Arguments:
+[00:26:31] [Server thread/INFO]:  player: Player name
+[00:26:31] [Server thread/INFO]: Detailed help: /authme help totp
+[00:26:36] [Server thread/INFO]: ==========[ AuthMeReloaded HELP ]==========
+[00:26:36] [Server thread/INFO]: Command: /authme totp <player>
+[00:26:36] [Server thread/INFO]: Short description: See if a player has enabled TOTP
+[00:26:36] [Server thread/INFO]: Detailed description:
+[00:26:36] [Server thread/INFO]:  Returns whether the specified player has enabled two-factor authentication.
+[00:26:36] [Server thread/INFO]: Arguments:
+[00:26:36] [Server thread/INFO]:  player: Player name
+[00:26:36] [Server thread/INFO]: Permissions:
+[00:26:36] [Server thread/INFO]:  authme.admin.totpviewstatus (You have permission)
+[00:26:36] [Server thread/INFO]: Default: OP's only (You have permission)
+[00:26:36] [Server thread/INFO]:  Result: You have permission
+[00:26:36] [Server thread/INFO]: Alternatives:
+[00:26:36] [Server thread/INFO]:  /authme 2fa <player>
+[00:26:47] [Server thread/INFO]: Incorrect command arguments!
+[00:26:47] [Server thread/INFO]: ==========[ AuthMeReloaded HELP ]==========
+[00:26:47] [Server thread/INFO]: Arguments:
+[00:26:47] [Server thread/INFO]:  player: Player name
+[00:26:47] [Server thread/INFO]:  password: Password
+[00:26:47] [Server thread/INFO]: Detailed help: /authme help register
+[00:26:52] [Craft Scheduler Thread - 6/WARN]: [AuthMe] Error during SQL operation: [SQLiteException]: [SQLITE_READONLY_DBMOVED]  The database file has been moved since it was opened (attempt to write a readonly database)
+[00:26:52] [Craft Scheduler Thread - 6/INFO]: An unexpected error occurred, please contact an administrator!
+[00:26:54] [Craft Scheduler Thread - 4/WARN]: [AuthMe] Error during SQL operation: [SQLiteException]: [SQLITE_READONLY_DBMOVED]  The database file has been moved since it was opened (attempt to write a readonly database)
+[00:26:54] [Craft Scheduler Thread - 4/INFO]: An unexpected error occurred, please contact an administrator!
+[00:26:58] [Server thread/INFO]: ItzRealSilver lost connection: Disconnected
+[00:26:58] [Craft Scheduler Thread - 11/INFO]: [0;34m(FlectonePulse) [0m[0;96m[38;2;255;78;78m← [38;2;255;170;0m[VIP] [38;2;107;182;255mI[38;2;105;181;255mt[38;2;102;179;255mz[38;2;100;178;255mR[38;2;97;177;255me[38;2;95;175;255ma[38;2;92;174;255ml[38;2;90;173;255mS[38;2;87;171;255mi[38;2;85;170;255ml[38;2;82;169;255mv[38;2;80;167;255me[38;2;77;166;255mr[0m[0m
+[00:27:07] [User Authenticator #2/INFO]: UUID of player ItzRealSilver is 390c8904-6988-3246-8933-7139e9323778
+[00:27:07] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to LoginTo v2.5
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:76) ~[patched_1.12.2.jar:git-Paper-1620]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.bukkit.async.PlayerPostLoginInjector.lambda$wrapLoginListener$2(PlayerPostLoginInjector.java:485) ~[?:?]
+	at net.minecraft.server.v1_12_R1.LoginListener.EaglerClassProxy240190563530.e(Unknown Source) ~[?:?]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.IllegalArgumentException: location.world
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:604) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:310) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.loginto.bukkit.ExtraFeature.TeleportToALocation.TPPlayer(TeleportToALocation.java:30) ~[?:?]
+	at net.loginto.bukkit.Events.PlayerJoin.onPlayerJoin(PlayerJoin.java:48) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor17.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 19 more
+[00:27:07] [Server thread/INFO]: ItzRealSilver[/[0:0:0:0:0:0:0:1%0]:58064] logged in with entity id 76 at ([world]0.7873909638795924, 68.0, 4.524399207213285)
+[00:27:08] [Craft Scheduler Thread - 11/INFO]: [0;34m(FlectonePulse) [0m[0;96m[38;2;78;255;82m→ [38;2;255;170;0m[VIP] [38;2;107;182;255mI[38;2;105;181;255mt[38;2;102;179;255mz[38;2;100;178;255mR[38;2;97;177;255me[38;2;95;175;255ma[38;2;92;174;255ml[38;2;90;173;255mS[38;2;87;171;255mi[38;2;85;170;255ml[38;2;82;169;255mv[38;2;80;167;255me[38;2;77;166;255mr[0m[0m
+[00:27:20] [Server thread/INFO]: ItzRealSilver issued server command: /register
+[00:27:20] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'register' in plugin LoginTo v2.5
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1492) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1297) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:850) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at net.loginto.bukkit.Commands.Register.onCommand(Register.java:70) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 15 more
+[00:27:31] [Thread-33/INFO]: [0;34m(FlectonePulse) [0m[0;96m[38;2;255;113;113m🔒 [38;2;107;182;255mC[38;2;106;182;255mo[38;2;105;181;255mn[38;2;104;181;255ms[38;2;103;180;255mol[38;2;102;179;255me[38;2;101;179;255m [38;2;255;113;113m[38;2;166;216;255mk[38;2;165;215;255mi[38;2;164;215;255mc[38;2;163;214;255mk[38;2;162;214;255me[38;2;161;213;255md[38;2;160;212;255m [38;2;255;113;113m[38;2;107;182;255mI[38;2;105;181;255mt[38;2;104;180;255mz[38;2;102;179;255mR[38;2;101;179;255me[38;2;99;178;255ma[38;2;98;177;255ml[38;2;96;176;255mS[38;2;94;175;255mi[38;2;93;174;255ml[38;2;91;174;255mv[38;2;90;173;255me[38;2;88;172;255mr[38;2;86;171;255m [38;2;255;113;113m[38;2;166;216;255m[[38;2;161;213;255mI[38;2;156;210;255mN[38;2;150;206;255mF[38;2;145;203;255mO[38;2;140;200;255m][0m[0m
+[00:27:31] [Server thread/INFO]: ItzRealSilver lost connection: Disconnected
+[00:27:31] [Craft Scheduler Thread - 4/INFO]: [0;34m(FlectonePulse) [0m[0;96m[38;2;255;78;78m← [38;2;255;170;0m[VIP] [38;2;107;182;255mI[38;2;105;181;255mt[38;2;102;179;255mz[38;2;100;178;255mR[38;2;97;177;255me[38;2;95;175;255ma[38;2;92;174;255ml[38;2;90;173;255mS[38;2;87;171;255mi[38;2;85;170;255ml[38;2;82;169;255mv[38;2;80;167;255me[38;2;77;166;255mr[0m[0m
+[00:28:46] [User Authenticator #3/INFO]: UUID of player ItzRealSilver is 390c8904-6988-3246-8933-7139e9323778
+[00:28:46] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to LoginTo v2.5
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[patched_1.12.2.jar:git-Paper-1620]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:76) ~[patched_1.12.2.jar:git-Paper-1620]
+	at jdk.internal.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.bukkit.async.PlayerPostLoginInjector.lambda$wrapLoginListener$2(PlayerPostLoginInjector.java:485) ~[?:?]
+	at net.minecraft.server.v1_12_R1.LoginListener.EaglerClassProxy240190563530.e(Unknown Source) ~[?:?]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.IllegalArgumentException: location.world
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:604) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:310) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.loginto.bukkit.ExtraFeature.TeleportToALocation.TPPlayer(TeleportToALocation.java:30) ~[?:?]
+	at net.loginto.bukkit.Events.PlayerJoin.onPlayerJoin(PlayerJoin.java:48) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor17.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 18 more
+[00:28:46] [Server thread/INFO]: ItzRealSilver[/[0:0:0:0:0:0:0:1%0]:53058] logged in with entity id 78 at ([world]0.7873909638795924, 68.0, 4.524399207213285)
+[00:28:46] [Craft Scheduler Thread - 12/INFO]: [0;34m(FlectonePulse) [0m[0;96m[38;2;78;255;82m→ [38;2;255;170;0m[VIP] [38;2;107;182;255mI[38;2;105;181;255mt[38;2;102;179;255mz[38;2;100;178;255mR[38;2;97;177;255me[38;2;95;175;255ma[38;2;92;174;255ml[38;2;90;173;255mS[38;2;87;171;255mi[38;2;85;170;255ml[38;2;82;169;255mv[38;2;80;167;255me[38;2;77;166;255mr[0m[0m
+[00:29:09] [Server thread/INFO]: ItzRealSilver lost connection: Disconnected
+[00:29:09] [Craft Scheduler Thread - 6/INFO]: [0;34m(FlectonePulse) [0m[0;96m[38;2;255;78;78m← [38;2;255;170;0m[VIP] [38;2;107;182;255mI[38;2;105;181;255mt[38;2;102;179;255mz[38;2;100;178;255mR[38;2;97;177;255me[38;2;95;175;255ma[38;2;92;174;255ml[38;2;90;173;255mS[38;2;87;171;255mi[38;2;85;170;255ml[38;2;82;169;255mv[38;2;80;167;255me[38;2;77;166;255mr[0m[0m
+[00:29:12] [Server thread/INFO]: Stopping server
+[00:29:12] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96mDisabling...[0m
+[00:29:12] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m✖ LuckPerms unhooked[0m
+[00:29:12] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m✖ Maintenance unhooked[0m
+[00:29:12] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96m✖ TAB unhooked[0m
+[00:29:12] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96mDatabase disconnected[0m
+[00:29:12] [Server thread/INFO]: [0;34m(FlectonePulse) [0m[0;96mFlectonePulse v1.7.2 disabled[0m
+[00:29:12] [Server thread/INFO]: [AuthMeVelocity] Disabling AuthMeVelocity v4.0.4
+[00:29:12] [Server thread/INFO]: [AuthMeVelocity] AuthMeVelocity disabled
+[00:29:12] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[00:29:12] [Server thread/INFO]: [TAB] Disabled in 1ms
+[00:29:12] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.7.0-FORK-b53
+[00:29:12] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[00:29:12] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[00:29:12] [Server thread/INFO]: [Maintenance] Disabling Maintenance v4.3.0
+[00:29:12] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[00:29:12] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:29:12] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:29:12] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:29:12] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
+[00:29:12] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.2.6
+[00:29:12] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
+[00:29:12] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:29:12] [Server thread/WARN]: [ViaVersion] Could not get handler DefaultChannelPipeline$TailContext#0
+[00:29:12] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:29:12] [Server thread/INFO]: [EaglerXServer] Disabling EaglercraftXServer v1.0.7
+[00:29:12] [Server thread/INFO]: [EaglerXServer] Disconnecting from skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[00:29:12] [Server thread/INFO]: [EaglerXServer] Disconnected from skin cache database successfully!
+[00:29:12] [Server thread/INFO]: [LoginTo] Disabling LoginTo v2.5
+[00:29:12] [Server thread/INFO]: [EmotesChat] Disabling EmotesChat v1.3.1
+[00:29:12] [Server thread/INFO]: Saving players
+[00:29:12] [Server thread/INFO]: Saving worlds
+[00:29:12] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[00:29:12] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether

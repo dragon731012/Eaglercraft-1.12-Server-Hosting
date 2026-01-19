@@ -1,0 +1,41 @@
+welcome:
+  location: world, 4.401, 69.163, 4.599
+  lines:
+  - Welcome to the
+  - '&6Legend Smp!'
+test:
+  location: world, 0.511, 69.110, 8.454
+  lines:
+  - Welcome to the
+  - '&6Legend Smp!'
+test2:
+  location: world, 0.676, 69.110, 0.657
+  lines:
+  - Welcome to the
+  - '&6Legend Smp!'
+test3:
+  location: world, -3.479, 69.110, 4.265
+  lines:
+  - Welcome to the
+  - '&6Legend Smp!'
+rules:
+  location: world, 7.700, 70.908, 4.497
+  lines:
+  - '&4These &5are &4the &5server &4Rules!'
+  - '&6No X-Ray Allowed >:D'
+  - '&4No Hacking'
+  - '&6No &9begging &4for &2Different &1Rank'
+operators:
+  location: world, -5.700, 70.908, 4.448
+  lines:
+  - '&1Operaters &2that &3helped &4the &5server&6!'
+enzo:
+  location: world, -5.700, 69.869, 6.558
+  lines:
+  - '&6&oAdmin Username: &b&1Silver_admin'
+  - '&6&oMinecraft Username: &1&bItzRealSilver'
+  - '&6&oReal Name: &1&bDaniel'
+glitch:
+  location: world, 0.436, 73.991, 4.099
+  lines:
+  - '&kwhyhellothere'

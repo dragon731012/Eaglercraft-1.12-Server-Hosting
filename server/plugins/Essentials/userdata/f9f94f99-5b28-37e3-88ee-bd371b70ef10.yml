@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761094708470
+  login: 1761094659745
+money: '0'
+last-account-name: YeeishYeeish8023
+lastlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 0.9023576442157195
+  y: 67.0
+  z: 2.023800070957995
+  yaw: 6.1504411697387695
+  pitch: -5.400005340576172
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: -0.9420520374067989
+  y: 67.45327914164065
+  z: 6.977577560059905
+  yaw: -218.5500030517578
+  pitch: 14.399977684020996

@@ -1,0 +1,49 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1764552532465
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1764553237865
+  login: 1764551975953
+  kits:
+    tools: 1764550774680
+money: '0'
+last-account-name: Techno_the_goat
+lastlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: -6417.67433651321
+  y: 65.0
+  z: -522.5003068272209
+  yaw: 89.243896484375
+  pitch: 9.380666732788086
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 1487.7976647329795
+  y: 108.0
+  z: -949.6999999880791
+  yaw: 113.9749755859375
+  pitch: -1.6200251579284668
+homes:
+  home:
+    world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+    world-name: world
+    x: -6185.507001145521
+    y: 63.0
+    z: -683.4929970846531
+    yaw: 178.2875213623047
+    pitch: 12.137836456298828

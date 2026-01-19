@@ -1,0 +1,27 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-09-29 14:35:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "spider": "2025-09-29 14:35:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "spider": "2025-09-29 14:35:17 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2025-09-29 14:34:10 +0000",
+      "plains": "2025-09-29 14:34:40 +0000"
+    },
+    "done": false
+  }
+}

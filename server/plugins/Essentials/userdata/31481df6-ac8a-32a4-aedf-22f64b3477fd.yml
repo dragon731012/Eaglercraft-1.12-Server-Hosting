@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1767514052808
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767517125853
+  login: 1767516520413
+money: '0'
+last-account-name: shipmhu
+lastlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 42.30000001192093
+  y: 63.0
+  z: -50.30000001192093
+  yaw: 209.75457763671875
+  pitch: 21.21933364868164
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 69.45299394712869
+  y: 63.0
+  z: -92.9789570760166
+  yaw: -135.05126953125
+  pitch: 33.02070617675781

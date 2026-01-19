@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766025297318
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766025853510
+  login: 1766024057106
+money: '0'
+last-account-name: Sammer
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 4740300.486705336
+  y: 74.78221223440981
+  z: 6765540.759726241
+  yaw: 95.79740142822266
+  pitch: 63.16626739501953
+lastlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 4738879.880317849
+  y: 66.0
+  z: 6756886.284059185
+  yaw: 174.0013427734375
+  pitch: -87.94377899169922
+homes:
+  home:
+    world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+    world-name: world
+    x: 4740301.826244631
+    y: 69.0
+    z: 6765555.880689032
+    yaw: -320.1756591796875
+    pitch: 43.837852478027344

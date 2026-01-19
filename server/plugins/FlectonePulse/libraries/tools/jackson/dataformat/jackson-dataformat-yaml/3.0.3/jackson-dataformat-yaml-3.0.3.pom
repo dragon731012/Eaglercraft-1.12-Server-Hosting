@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion> 
+  <parent>
+    <groupId>tools.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformats-text</artifactId>
+    <version>3.0.3</version>
+  </parent>
+  <artifactId>jackson-dataformat-yaml</artifactId>
+  <packaging>jar</packaging>
+  <name>Jackson-dataformat-YAML</name>
+  <description>Support for reading and writing YAML-encoded data via Jackson abstractions.
+  </description>
+  <url>https://github.com/FasterXML/jackson-dataformats-text</url>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <properties>
+    <packageVersion.dir>tools/jackson/dataformat/yaml</packageVersion.dir>
+    <packageVersion.package>${project.groupId}.yaml</packageVersion.package>
+  </properties>
+
+  <dependencies>
+    <!-- Extends Jackson core, databind; uses SnakeYAML for parsing, generation -->
+    <dependency>
+      <groupId>tools.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>tools.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.snakeyaml</groupId>
+      <artifactId>snakeyaml-engine</artifactId>
+      <version>2.10</version>
+    </dependency>
+
+     <!-- and for testing need annotations; but those come via databind already -->
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <!-- Inherited from oss-base. Generate PackageVersion.java.-->
+        <groupId>com.google.code.maven-replacer-plugin</groupId>
+        <artifactId>replacer</artifactId>
+      </plugin>
+      <!-- 29-Apr-2025, tatu: SBOM generation [JSTEP-14] -->
+      <plugin>
+        <groupId>org.cyclonedx</groupId>
+        <artifactId>cyclonedx-maven-plugin</artifactId>
+      </plugin>
+      <!-- 05-Jul-2020, tatu: Add generation of Gradle Module Metadata -->
+      <!-- 28-Feb-2025, jjohannes: Apply plugin last as it has to be the last of all 'package phase' plugins -->
+      <plugin>
+        <groupId>org.gradlex</groupId>
+        <artifactId>gradle-module-metadata-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

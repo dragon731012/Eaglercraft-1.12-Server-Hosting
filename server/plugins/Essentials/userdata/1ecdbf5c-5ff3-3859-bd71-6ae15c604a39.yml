@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766012196797
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766012463491
+  login: 1766011251545
+  kits:
+    tools: 1766012323324
+money: '0'
+last-account-name: HaangusPaangus32
+lastlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: -2.5800982337760434
+  y: 67.0
+  z: -1.8050359290216391
+  yaw: -114.10897064208984
+  pitch: -9.28450870513916
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 12.716691620570735
+  y: 72.05382268851577
+  z: 13.348630055430053
+  yaw: -27.3006591796875
+  pitch: 10.500008583068848

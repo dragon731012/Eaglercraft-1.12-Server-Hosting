@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+~   Licensed under the Apache License, Version 2.0 (the "License");
+~   you may not use this file except in compliance with the License.
+~   You may obtain a copy of the License at
+~
+~   http://www.apache.org/licenses/LICENSE-2.0
+~
+~   Unless required by applicable law or agreed to in writing, software
+~   distributed under the License is distributed on an "AS IS" BASIS,
+~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~   See the License for the specific language governing permissions and
+~   limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.basepom</groupId>
+        <artifactId>basepom-minimal</artifactId>
+        <version>66</version>
+        <relativePath>../minimal</relativePath>
+    </parent>
+
+    <artifactId>basepom-oss</artifactId>
+    <packaging>pom</packaging>
+
+    <!--
+        <name>basepom-oss</name>
+        <description>Same as minimal base POM, but also includes packaging and deployment for oss.sonatype.org</description>
+        <url>https://github.com/basepom/basepom/minimal-oss</url>
+    -->
+
+    <properties>
+        <!-- License checker for OSS deployments. -->
+        <basepom.check.skip-license>${basepom.check.skip-extended}</basepom.check.skip-license>
+        <basepom.check.fail-license>${basepom.check.fail-extended}</basepom.check.fail-license>
+
+        <!-- Some plugins can run early ("validate") or late ("verify") -->
+        <basepom.check.phase-license>verify</basepom.check.phase-license>
+
+        <!-- gpg agent configuration -->
+        <basepom.gpg.use-agent>true</basepom.gpg.use-agent>
+
+        <basepom.license.skip-existing>true</basepom.license.skip-existing>
+        <!-- this is a reference to a resource in the basepom-policy jar -->
+        <basepom.license.header>license/basepom-apache-license-header.txt</basepom.license.header>
+
+        <!-- release profiles -->
+        <basepom.release.profiles>basepom.central-release</basepom.release.profiles>
+
+        <!-- configure the central publishing plugin for deployment -->
+        <basepom.central-publishing.skip>true</basepom.central-publishing.skip>
+        <basepom.central-publishing.fail-build>true</basepom.central-publishing.fail-build>
+        <basepom.central-publishing.repo-id>central</basepom.central-publishing.repo-id>
+        <basepom.central-publishing.auto-publish>false</basepom.central-publishing.auto-publish>
+        <basepom.central-publishing.wait-until>validated</basepom.central-publishing.wait-until>
+        <basepom.central-publishing.checksums>all</basepom.central-publishing.checksums>
+        <basepom.central-publishing.deployment-name>${project.groupId}:${project.artifactId}:${project.version}</basepom.central-publishing.deployment-name>
+
+        <!-- default repository id for publishing -->
+        <basepom.deploy.snapshot.repo-id>${basepom.central-publishing.repo-id}</basepom.deploy.snapshot.repo-id>
+        <basepom.deploy.snapshot.url>https://central.sonatype.com/repository/maven-snapshots/</basepom.deploy.snapshot.url>
+
+        <!-- Plugin versions, ordered like http://maven.apache.org/plugins/ -->
+
+        <!-- tools -->
+        <dep.plugin.gpg.version>3.2.8</dep.plugin.gpg.version>
+
+        <!-- reporting -->
+        <dep.plugin.project-info-reports.version>3.9.0</dep.plugin.project-info-reports.version>
+        <dep.plugin.jxr.version>3.6.0</dep.plugin.jxr.version>
+
+        <!-- https://github.com/mathieucarbou/license-maven-plugin/tags -->
+        <dep.plugin.license.version>5.0.0</dep.plugin.license.version>
+
+        <!-- https://github.com/sonatype/nexus-maven-plugins/tags -->
+        <dep.plugin.central-publishing.version>0.9.0</dep.plugin.central-publishing.version>
+
+        <!-- control reporting independently from the checkers -->
+        <basepom.site.test.skip>${basepom.test.skip}</basepom.site.test.skip>
+        <basepom.site.it.skip>${basepom.it.skip}</basepom.site.it.skip>
+        <basepom.site.skip-checkstyle>${basepom.check.skip-checkstyle}</basepom.site.skip-checkstyle>
+        <basepom.site.skip-coverage>${basepom.check.skip-coverage}</basepom.site.skip-coverage>
+        <basepom.site.skip-pmd>${basepom.check.skip-pmd}</basepom.site.skip-pmd>
+        <basepom.site.skip-spotbugs>${basepom.check.skip-spotbugs}</basepom.site.skip-spotbugs>
+        <!-- javadoc is special -->
+        <basepom.site.skip-javadoc>${basepom.javadoc.skip}</basepom.site.skip-javadoc>
+        <basepom.site.fail-javadoc>${basepom.check.fail-javadoc}</basepom.site.fail-javadoc>
+   </properties>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>${basepom.deploy.snapshot.repo-id}</id>
+            <name>Sonatype Snapshot Repository</name>
+            <url>${basepom.deploy.snapshot.url}</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <configuration>
+                        <releaseProfiles>${basepom.release.profiles}</releaseProfiles>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>com.mycila</groupId>
+                    <artifactId>license-maven-plugin</artifactId>
+                    <version>${dep.plugin.license.version}</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.basepom</groupId>
+                            <artifactId>basepom-policy</artifactId>
+                            <version>${dep.basepom-policy.version}</version>
+                        </dependency>
+                    </dependencies>
+                    <configuration>
+                        <skip>${basepom.check.skip-license}</skip>
+                        <skipExistingHeaders>${basepom.license.skip-existing}</skipExistingHeaders>
+                        <failIfMissing>${basepom.check.fail-license}</failIfMissing>
+                        <headerDefinitions>
+                            <headerDefinition>license/xml-prefix.xml</headerDefinition>
+                        </headerDefinitions>
+                        <mapping>
+                            <g4>SLASHSTAR_STYLE</g4>
+                            <groovy>SLASHSTAR_STYLE</groovy>
+                            <java>SLASHSTAR_STYLE</java>
+                            <stg>DOUBLESLASH_STYLE</stg>
+                            <xml>XML_PREFIX</xml>
+                            <yaml>SCRIPT_STYLE</yaml>
+                        </mapping>
+                        <strictCheck>true</strictCheck>
+                        <aggregate>true</aggregate>
+                        <useDefaultExcludes>true</useDefaultExcludes>
+                        <encoding>${project.build.sourceEncoding}</encoding>
+                        <licenseSets>
+                            <licenseSet>
+                                <header>${basepom.license.header}</header>
+                                <excludes>
+                                    <exclude>.*/**</exclude>
+                                    <exclude>**/*.md</exclude>
+                                    <exclude>**/*.rst</exclude>
+                                    <exclude>**/*.adoc</exclude>
+                                    <exclude>**/*.sh</exclude>
+                                    <exclude>**/*.txt</exclude>
+                                    <exclude>**/*.thrift</exclude>
+                                    <exclude>**/*.proto</exclude>
+                                    <exclude>**/*.g</exclude>
+                                    <exclude>**/*.releaseBackup</exclude>
+                                    <exclude>**/*.vm</exclude>
+                                    <exclude>**/*.st</exclude>
+                                    <exclude>**/*.raw</exclude>
+                                    <exclude>**/*.ser</exclude>
+                                    <exclude>**/src/license/**</exclude>
+                                    <exclude>**/CNAME</exclude>
+                                    <exclude>**/.keepme</exclude>
+                                </excludes>
+                                <includes>
+                                    <include>src/**</include>
+                                    <include>**/pom.xml</include>
+                                </includes>
+                            </licenseSet>
+                        </licenseSets>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-gpg-plugin</artifactId>
+                    <version>${dep.plugin.gpg.version}</version>
+                    <configuration>
+                        <useAgent>${basepom.gpg.use-agent}</useAgent>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.sonatype.central</groupId>
+                    <artifactId>central-publishing-maven-plugin</artifactId>
+                    <version>${dep.plugin.central-publishing.version}</version>
+                    <extensions>true</extensions>
+                    <configuration>
+                        <skipPublishing>${basepom.central-publishing.skip}</skipPublishing>
+                        <failOnBuildFailure>${basepom.central-publishing.fail-build}</failOnBuildFailure>
+                        <deploymentName>${basepom.central-publishing.deployment-name}</deploymentName>
+                        <publishingServerId>${basepom.central-publishing.repo-id}</publishingServerId>
+                        <autoPublish>${basepom.central-publishing.auto-publish}</autoPublish>
+                        <waitUntil>${basepom.central-publishing.wait-until}</waitUntil>
+                        <checksums>${basepom.central-publishing.checksums}</checksums>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>com.mycila</groupId>
+                <artifactId>license-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>basepom.default</id>
+                        <phase>${basepom.check.phase-license}</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>${dep.plugin.project-info-reports.version}</version>
+                <configuration>
+                    <skip>${basepom.site.skip}</skip>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <id>default</id>
+                        <reports>
+                            <report>index</report>
+                            <report>summary</report>
+                            <report>dependency-info</report>
+                            <report>scm</report>
+                            <report>issue-management</report>
+                            <report>team</report>
+                            <report>modules</report>
+                            <report>licenses</report>
+                            <report>ci-management</report>
+                            <report>dependency-convergence</report>
+                            <report>dependencies</report>
+                            <report>dependency-management</report>
+                            <report>plugins</report>
+                            <report>plugin-management</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>${dep.plugin.surefire.version}</version>
+                <configuration>
+                    <skipSurefireReport>${basepom.site.test.skip}</skipSurefireReport>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <id>default</id>
+                        <reports>
+                            <report>report-only</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>${dep.plugin.checkstyle.version}</version>
+                <configuration>
+                    <skip>${basepom.site.skip-checkstyle}</skip>
+                    <consoleOutput>false</consoleOutput>
+                    <linkXRef>true</linkXRef>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+                <version>${dep.plugin.jxr.version}</version>
+                <configuration>
+                    <skip>${basepom.site.skip-javadoc}</skip>
+                    <failOnError>${basepom.site.fail-javadoc}</failOnError>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <id>default</id>
+                        <reports>
+                            <report>jxr-no-fork</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>${dep.plugin.pmd.version}</version>
+                <configuration>
+                    <skip>${basepom.site.skip-pmd}</skip>
+                    <targetJdk>${project.build.targetJdk}</targetJdk>
+                    <sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
+                    <linkXRef>true</linkXRef>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <id>default</id>
+                        <reports>
+                            <report>pmd</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>${dep.plugin.spotbugs.version}</version>
+                <configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.basepom</groupId>
+                            <artifactId>basepom-policy</artifactId>
+                            <version>${dep.basepom-policy.version}</version>
+                        </dependency>
+                    </dependencies>
+                    <skip>${basepom.site.skip-spotbugs}</skip>
+                    <maxHeap>${basepom.build.maxheap-mb}</maxHeap>
+                    <excludeFilterFile>spotbugs/spotbugs-suppress.xml</excludeFilterFile>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${dep.plugin.jacoco.version}</version>
+                <configuration>
+                    <skip>${basepom.site.skip-coverage}</skip>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <id>default</id>
+                        <reports>
+                            <report>report</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>${dep.plugin.javadoc.version}</version>
+                <configuration>
+                    <skip>${basepom.site.skip-javadoc}</skip>
+                    <failOnError>${basepom.site.fail-javadoc}</failOnError>
+                    <legacyMode>${basepom.javadoc.legacy-mode}</legacyMode>
+                    <release>${project.build.targetJdk}</release>
+                    <source>${maven.compiler.source}</source>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                    <maxmemory>${basepom.build.jvmsize}</maxmemory>
+                    <quiet>true</quiet>
+                    <doclint>${basepom.javadoc.doclint}</doclint>
+                    <show>${basepom.javadoc.show}</show>
+                    <excludePackageNames>${basepom.javadoc.exclude-package-names}</excludePackageNames>
+                    <windowtitle>${basepom.javadoc.title}</windowtitle>
+                    <doctitle>${basepom.javadoc.title}</doctitle>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <id>default</id>
+                        <reports>
+                            <report>javadoc-no-fork</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+        </plugins>
+    </reporting>
+
+    <profiles>
+        <profile>
+            <id>basepom.central-release</id>
+            <properties>
+                <!-- tests have been run in the preparation step of the release -->
+                <basepom.test.skip>true</basepom.test.skip>
+                <basepom.it.skip>true</basepom.it.skip>
+
+                <!-- checks have been run in the preparation step of the release -->
+                <basepom.check.skip-all>true</basepom.check.skip-all>
+
+                <!-- oss requires a javadoc jar. Build one when releasing. -->
+                <basepom.javadoc.skip>false</basepom.javadoc.skip>
+
+                <!-- skip the deploy plugin, this is using the central deployment plugin -->
+                <basepom.deploy.skip>true</basepom.deploy.skip>
+
+                <!-- use the central deployment plugin -->
+                <basepom.central-publishing.skip>false</basepom.central-publishing.skip>
+            </properties>
+            <build>
+                <plugins>
+                    <!-- Sign artifacts using gpg for oss upload -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>basepom.release.default</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.central</groupId>
+                        <artifactId>central-publishing-maven-plugin</artifactId>
+                        <extensions>true</extensions>
+                        <executions>
+                            <execution>
+                                <id>basepom.release.default</id>
+                                <phase>deploy</phase>
+                                <goals>
+                                    <goal>publish</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>basepom.deploy-release</id>
+            <properties>
+                <!-- tests have been run in the preparation step of the release -->
+                <basepom.test.skip>true</basepom.test.skip>
+                <basepom.it.skip>true</basepom.it.skip>
+
+                <!-- checks have been run in the preparation step of the release -->
+                <basepom.check.skip-all>true</basepom.check.skip-all>
+
+                <!-- oss requires a javadoc jar. Build one when releasing. -->
+                <basepom.javadoc.skip>false</basepom.javadoc.skip>
+
+                <!-- switch snapshots back to OSS -->
+                <basepom.deploy.snapshot.repo-id>sonatype-nexus-staging</basepom.deploy.snapshot.repo-id>
+                <basepom.deploy.snapshot.url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</basepom.deploy.snapshot.url>
+            </properties>
+
+            <distributionManagement>
+                <repository>
+                    <id>sonatype-nexus-staging</id>
+                    <name>Sonatype Release Repository</name>
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </repository>
+            </distributionManagement>
+
+            <build>
+                <plugins>
+                    <!-- Sign artifacts using gpg for oss upload -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>basepom.release.default</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>basepom.invoker-reporting</id>
+            <activation>
+                <file>
+                    <!-- An integration testing folder exists for the invoker plugin. -->
+                    <exists>src/it</exists>
+                </file>
+            </activation>
+            <reporting>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-invoker-plugin</artifactId>
+                        <version>${dep.plugin.invoker.version}</version>
+                        <configuration>
+                            <skip>${basepom.site.it.skip}</skip>
+                        </configuration>
+                        <reportSets>
+                            <reportSet>
+                                <id>default</id>
+                                <reports>
+                                    <report>report</report>
+                                </reports>
+                            </reportSet>
+                        </reportSets>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.jacoco</groupId>
+                        <artifactId>jacoco-maven-plugin</artifactId>
+                        <reportSets>
+                            <reportSet>
+                                <id>default-it</id>
+                                <reports>
+                                    <report>report-integration</report>
+                                </reports>
+                            </reportSet>
+                        </reportSets>
+                    </plugin>
+                </plugins>
+            </reporting>
+        </profile>
+    </profiles>
+</project>

@@ -1,0 +1,19 @@
+config:
+  emotes:
+    #This is an example emote. The section name is the internal name of the emote.
+    happy:
+      #This is what will be replaced by the emote.
+      code: ':happy:'
+      #This is the emote that will replace the code (PlaceholderAPI-compatible).
+      emote: '☺'
+      #This is the permission that the player needs to use the emote (leave in blank if you want it to be used by everyone).
+      permission: 'emoteschat.emote.happy'
+    heart:
+      code: ':heart:'
+      emote: '♡'
+      permission: ''
+
+messages:
+  emotes-list-header: '&a&lEMOTES LIST'
+  emotes-list-no-emotes: '&c&lYou can''t use any emote.'
+  emotes-list-emote-identifier: '%EMOTECODE% &e&l- &r%EMOTE%'

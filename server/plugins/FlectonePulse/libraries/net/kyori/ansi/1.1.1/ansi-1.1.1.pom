@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.kyori</groupId>
+  <artifactId>ansi</artifactId>
+  <version>1.1.1</version>
+  <name>ansi</name>
+  <description>A library to render Minecraft chat component styles to ANSI control codes</description>
+  <url>https://github.com/KyoriPowered/ansi</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kashike</id>
+      <timezone>America/Vancouver</timezone>
+    </developer>
+    <developer>
+      <id>lucko</id>
+      <name>Luck</name>
+      <email>git@lucko.me</email>
+      <url>https://lucko.me</url>
+    </developer>
+    <developer>
+      <id>zml</id>
+      <name>zml</name>
+      <timezone>America/Vancouver</timezone>
+    </developer>
+    <developer>
+      <id>Electroid</id>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/KyoriPowered/ansi.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/KyoriPowered/ansi.git</developerConnection>
+    <url>https://github.com/KyoriPowered/ansi</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/KyoriPowered/ansi/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/KyoriPowered/ansi/actions</url>
+  </ciManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>26.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

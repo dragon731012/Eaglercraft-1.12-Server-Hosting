@@ -1,0 +1,184 @@
+#  ___       ___  __  ___  __        ___
+# |__  |    |__  /  `  |  /  \ |\ | |__
+# |    |___ |___ \__,  |  \__/ | \| |___
+#  __             __   ___
+# |__) |  | |    /__` |__
+# |    \__/ |___ .__/ |___   /\
+#                           /  \
+# __/\___  ____/\_____  ___/    \______
+#        \/           \/
+#
+# https://flectone.net/pulse/docs/integration/
+enable: true
+avatar_api_url: "https://mc-heads.net/avatar/<skin>/8.png"
+body_api_url: "https://mc-heads.net/player/<skin>/16.png"
+# https://flectone.net/pulse/docs/integration/advancedban/
+advancedban:
+  enable: true
+  disable_flectonepulse_ban: true
+  disable_flectonepulse_mute: true
+  disable_flectonepulse_warn: true
+  disable_flectonepulse_kick: true
+# https://flectone.net/pulse/docs/integration/deepl/
+deepl:
+  enable: false
+  auth_key: ""
+# https://flectone.net/pulse/docs/integration/discord/
+discord:
+  enable: false
+  token: ""
+  custom_command:
+    ping:
+      need_player: true
+      aliases:
+      - "!ping"
+  presence:
+    enable: true
+    status: "ONLINE"
+    activity:
+      enable: true
+      type: "PLAYING"
+      name: "FlectonePulse"
+      url: "https://flectone.net/pulse/"
+  channel_info:
+    enable: false
+    ticker:
+      enable: true
+      period: 1200
+  message_channel:
+    FROM_DISCORD_TO_MINECRAFT:
+    - "123456"
+    CHAT_GLOBAL:
+    - "123456"
+  destination:
+    type: "CHAT"
+  sound:
+    enable: false
+# https://flectone.net/pulse/docs/integration/floodgate/
+floodgate:
+  enable: true
+# https://flectone.net/pulse/docs/integration/geyser/
+geyser:
+  enable: true
+# https://flectone.net/pulse/docs/integration/interactivechat/
+interactivechat:
+  enable: true
+# https://flectone.net/pulse/docs/integration/itemsadder/
+itemsadder:
+  enable: true
+# https://flectone.net/pulse/docs/integration/libertybans/
+libertybans:
+  enable: true
+  disable_flectonepulse_ban: true
+  disable_flectonepulse_mute: true
+  disable_flectonepulse_warn: true
+  disable_flectonepulse_kick: true
+# https://flectone.net/pulse/docs/integration/litebans/
+litebans:
+  enable: true
+  disable_flectonepulse_ban: true
+  disable_flectonepulse_mute: true
+  disable_flectonepulse_warn: true
+  disable_flectonepulse_kick: true
+# https://flectone.net/pulse/docs/integration/luckperms/
+luckperms:
+  enable: true
+  tab_sort: true
+# https://flectone.net/pulse/docs/integration/maintenance/
+maintenance:
+  enable: true
+  disable_flectonepulse_maintenance: true
+# https://flectone.net/pulse/docs/integration/minimotd/
+minimotd:
+  enable: true
+  disable_flectonepulse_status: true
+# https://flectone.net/pulse/docs/integration/miniplaceholders/
+miniplaceholders:
+  enable: true
+# https://flectone.net/pulse/docs/integration/motd/
+motd:
+  enable: true
+  disable_flectonepulse_status: true
+# https://flectone.net/pulse/docs/integration/placeholderapi/
+placeholderapi:
+  enable: true
+# https://flectone.net/pulse/docs/integration/plasmovoice/
+plasmovoice:
+  enable: true
+# https://flectone.net/pulse/docs/integration/simplevoice/
+simplevoice:
+  enable: true
+# https://flectone.net/pulse/docs/integration/skinsrestorer/
+skinsrestorer:
+  enable: true
+# https://flectone.net/pulse/docs/integration/supervanish/
+supervanish:
+  enable: true
+# https://flectone.net/pulse/docs/integration/tab/
+tab:
+  enable: true
+  disable_flectonepulse_scoreboard: true
+  disable_flectonepulse_header: true
+  disable_flectonepulse_footer: true
+  disable_flectonepulse_playerlistname: false
+# https://flectone.net/pulse/docs/integration/telegram/
+telegram:
+  enable: false
+  parse_mode: "NONE"
+  token: ""
+  custom_command:
+    id:
+      need_player: false
+      aliases:
+      - "!id"
+    ping:
+      need_player: true
+      aliases:
+      - "!ping"
+  channel_info:
+    enable: false
+    ticker:
+      enable: true
+      period: 1200
+  message_channel:
+    FROM_TELEGRAM_TO_MINECRAFT:
+    - "123456"
+    CHAT_GLOBAL:
+    - "123456"
+  destination:
+    type: "CHAT"
+  sound:
+    enable: false
+# https://flectone.net/pulse/docs/integration/triton/
+triton:
+  enable: true
+# https://flectone.net/pulse/docs/integration/twitch/
+twitch:
+  enable: false
+  client_id: ""
+  token: ""
+  custom_command:
+    ping:
+      need_player: true
+      aliases:
+      - "!ping"
+  message_channel:
+    FROM_TWITCH_TO_MINECRAFT:
+    - "faseri4ka"
+    CHAT_GLOBAL:
+    - "faseri4ka"
+  follow_channel:
+    faseri4ka:
+    - "stream start https://twitch.tv/faseri4ka"
+  destination:
+    type: "CHAT"
+  sound:
+    enable: false
+# https://flectone.net/pulse/docs/integration/vault/
+vault:
+  enable: true
+# https://flectone.net/pulse/docs/integration/yandex/
+yandex:
+  enable: false
+  token: ""
+  folder_id: ""

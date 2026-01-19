@@ -1,0 +1,133 @@
+MessageVersion: '1.2' # Version of this configuration, do not change this
+
+
+# Hi, welcome in the LoginTo personalization file
+# For colors use the § character, you can find some of them here https://htmlcolorcodes.com/minecraft-color-codes/
+# For example §2 is green, §r is for resetting the color, §l for bold exc...
+
+
+register:
+
+    # When a player succesfully sing up
+    register_success: "&3Registration &6completed &3successfully!"
+
+    # When a user try to register him self but the 2 password are not the same
+    password_mismatch: "The passwords didnt match >:("
+
+    # When a player join and ho doesnt have an account
+    register_prompt: "Welcome! Use /register <password> <confirm_password> to register yourself"
+
+    # When a user use the /register command wrong
+    register_error: "Error, do /register <password> <confirm_password>"
+
+    # When a user join for the first time and you have the required characters option enabled (%characters% = required characters in the config)
+    register_prompt_characters: 'Welcome! Use /register <password> <confirm_password> to register yourself, make sure to include one of these characters: %characters%'
+
+
+login:
+
+    # When a player successfully sing in
+    login_success: "&kwowzza &6Login completed! &kwowzza"
+
+    # When the password is wrong
+    wrong_password: "Wrong password"
+
+    # When a player join and he need to sing in
+    login_prompt: "Do: /login <password> to sign up"
+
+    # When a user didnt use /login correctly 
+    login_error: "Error, do: /login <password>"
+
+    # Message to show when a player gets kicked because ho finish his tries to login
+    message_limit_end: "You failed too many time trying to sing up, rejoin the server to retry"
+
+
+delacc:
+
+    # This message pop up when an admin delete a user account (Admin pov)
+    account_deleted: "Account deleted successfully"
+    
+    # When an admin delete your account (User pov)
+    admin_deleted_account: "Your account got eliminated by an admin, rejoin to create a new one"
+
+    # If a user/admin write wrong the /delacc command
+    delacc_wrong_syntax: "Usage: /delacc <username> <confirm>"
+    
+    # If a user/admin write the /delacc command but the selected user doesnt exist
+    delacc_account_not_fount: "Account not found"
+
+    # When someone tries to delete someone account but didnt confirm
+    delacc_not_confirmed: "Error, type 'confirm' after the player name"
+
+
+changepassword:
+
+    # When a player change his password and get disconnected
+    change_psw_success_disconnected: "Your password has been changed, rejoin and sign up"
+    
+    # When a player change his password, and didnt get disconnected
+    change_psw_success: "Your password has been changed"
+    
+    # When a user didn"t use /changepassword correctly 
+    correct_use_of_changepassword: "Correct use: /changepassword <old_password> <new_password>"
+
+    # When a user change his password but his old one is wrong
+    old_password_wrong: "The old password is wrong, if you forgot it ask an admin to delete your accout"
+
+
+errors:
+
+    # When a player try to do the /register command but hi already have an account
+    already_registered: "You are already registered"
+    
+    # When a player try to do /login or /premium commands but he is not registered
+    not_registered: "You are not registered"
+
+    # When a user do /register but his password didnt have a required character (%characters% = required characters in the config)
+    register_character_error: "Your password needs those characters in it: %characters%"
+
+    # If a player use"s a command but he doesnt have permission
+    no_permission: "You cant do this command because you dont have permission"
+
+    # A general error that can be resolved manually or not (used if the json file doesn't exist)
+    unexpected_error: "Unexpected error, please retry later"
+
+    # When someone uses /delacc on a null user
+    player_doesnt_exist: "Player does not exist"
+
+    # When a player is not authenticate and tries to execute a Non-LoginTo command
+    oncommand_when_not_authenticated: "Please authenticate yourself before executing this"
+
+    # When a player fails too many time the login and he get kicked
+    onkick_for_failed_login: "You failed the login to many times, please rejoin and retry"
+
+    # When a player takes too long for authenticate
+    onkick_for_long_waiting: "You took to long for authentication, rejoin and retry"
+
+    # When a feature is not enabled
+    feature_not_enabled: "This feature is not enabled"
+
+    
+premium:
+
+    premium:
+
+        # When a user do the /premium command but he's already premium
+        already_premium: "You are already a premium user"
+
+        # When the user do one time the /premium command, so we send the allert
+        premium_warn: "§l§6WARNING:§c If you have a cracked account with a premium username and you execute this command you will lose the ability to access again with the same name(and same progress)\nType §2/premium§c to became a premium user"
+
+        # When a user use 2 times the /premium command
+        premium_done: "You are now a premium user"
+
+    cracked:
+
+        # When a user do the /cracked command but he's already premium or cracked
+        already_cracked: "You are already a premium or cracked user"
+
+        # When the user do one time the /cracked command, so we send the allert
+        cracked_warn: "§l§6WARNING:§c You are using the cracked command, this mean that from now you will join in this network as a cracked user, with this command your cracked account will be safe from stealers that will buy a premium account with this name\nType §2/cracked§c to became a cracked user"
+
+        # When a user use 2 times the /cracked command
+        cracked_done: "You are now a cracked user"

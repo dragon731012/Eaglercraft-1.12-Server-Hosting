@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "eaa071b8-be46-38dc-b5b7-1c4def17c6de",
+    "name": "h",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4a747aaf-1328-3834-8005-05e68591485c",
+    "name": "Everythin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d411ebf9-111e-39e5-87b2-2a6a0d6646d9",
+    "name": "Sammer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a7cef9f9-cc79-3476-b209-f86656e14cc3",
+    "name": "aPandaAdmin",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  }
+]

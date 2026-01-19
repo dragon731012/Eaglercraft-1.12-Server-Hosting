@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1761106102251
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1762136837454
+  login: 1762136551546
+money: '117167591.50'
+last-account-name: Everythin
+homes:
+  home:
+    world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+    world-name: world
+    x: 7.078214578917759
+    y: 68.63536987800828
+    z: -7.300000011920928
+    yaw: -348.1499938964844
+    pitch: 37.799983978271484
+lastlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 134.54113884491517
+  y: 69.11756769370591
+  z: -199.7398409096073
+  yaw: 62.8841552734375
+  pitch: 21.749919891357422
+logoutlocation:
+  world: 0b57f944-47da-4e7a-9727-7c1bb541544c
+  world-name: world
+  x: 17.23750001192093
+  y: 90.06750889758646
+  z: 7.699999988079072
+  yaw: 69.78768920898438
+  pitch: 55.34998321533203

@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+~   Licensed under the Apache License, Version 2.0 (the "License");
+~   you may not use this file except in compliance with the License.
+~   You may obtain a copy of the License at
+~
+~   http://www.apache.org/licenses/LICENSE-2.0
+~
+~   Unless required by applicable law or agreed to in writing, software
+~   distributed under the License is distributed on an "AS IS" BASIS,
+~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~   See the License for the specific language governing permissions and
+~   limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jdbi.internal</groupId>
+        <artifactId>jdbi3-root</artifactId>
+        <version>3.51.0</version>
+        <relativePath>../root</relativePath>
+    </parent>
+
+    <groupId>org.jdbi</groupId>
+    <artifactId>jdbi3-build-parent</artifactId>
+    <packaging>pom</packaging>
+
+    <name>jdbi3 - internal - build parent</name>
+    <description>Jdbi3 build settings. This is a Jdbi internal module and not part of the public API.</description>
+
+    <properties>
+        <basepom.at-end.deploy>true</basepom.at-end.deploy>
+        <basepom.check.fail-all>true</basepom.check.fail-all>
+        <basepom.it.skip>true</basepom.it.skip>
+        <basepom.it.timeout>600</basepom.it.timeout>
+        <basepom.javadoc.exclude-package-names>*.internal.*:*.internal</basepom.javadoc.exclude-package-names>
+        <basepom.javadoc.legacy-mode>true</basepom.javadoc.legacy-mode>
+        <basepom.maven.version>3.9.0</basepom.maven.version>
+        <basepom.release.preparation-goals>clean verify</basepom.release.preparation-goals>
+        <basepom.release.profiles>basepom.central-release,jdbi-release</basepom.release.profiles>
+        <basepom.release.tag-name-format>v@{project.version}</basepom.release.tag-name-format>
+        <basepom.test.fork-count>4</basepom.test.fork-count>
+        <basepom.test.timeout>240</basepom.test.timeout>
+        <dep.antlr.version>4.13.2</dep.antlr.version>
+        <dep.asciidoctorj-diagram-ditaamini.version>1.0.3</dep.asciidoctorj-diagram-ditaamini.version>
+        <dep.asciidoctorj-diagram.version>3.0.1</dep.asciidoctorj-diagram.version>
+        <dep.asciidoctorj.version>3.0.0</dep.asciidoctorj.version>
+        <!-- formerly stuck at 3.x since 4.0.0 needs Java 17 -->
+        <dep.assertj.version>3.27.3</dep.assertj.version>
+        <dep.caffeine.version>3.2.3</dep.caffeine.version>
+        <dep.checkerframework.version>3.51.1</dep.checkerframework.version>
+        <dep.commons-compress.version>1.28.0</dep.commons-compress.version>
+        <dep.commons-lang.version>3.19.0</dep.commons-lang.version>
+        <dep.commons-text.version>1.14.0</dep.commons-text.version>
+        <!-- derby 10.17 is JDK 21 only, keep it on 10.16 for now -->
+        <dep.derby.version>10.16.1.1</dep.derby.version>
+        <dep.detekt.version>1.23.8</dep.detekt.version>
+        <dep.errorprone.version>2.43.0</dep.errorprone.version>
+        <dep.flyway.version>11.15.0</dep.flyway.version>
+        <dep.freemarker.version>2.3.34</dep.freemarker.version>
+        <dep.geantyref.version>2.0.1</dep.geantyref.version>
+        <dep.gson-java8-datatype.version>1.1.0</dep.gson-java8-datatype.version>
+        <dep.gson.version>2.13.2</dep.gson.version>
+        <dep.guava.version>33.5.0-jre</dep.guava.version>
+        <dep.guice.version>5.1.0</dep.guice.version>
+        <dep.h2.version>2.4.240</dep.h2.version>
+        <dep.hikari-cp.version>7.0.2</dep.hikari-cp.version>
+        <dep.hsqldb.version>2.7.4</dep.hsqldb.version>
+        <dep.immutables.version>2.11.6</dep.immutables.version>
+        <dep.jackson-annotations.version>2.20</dep.jackson-annotations.version>
+        <dep.jackson2.version>2.18.5</dep.jackson2.version>
+        <dep.jackson3.version>3.0.3</dep.jackson3.version>
+        <dep.jakarta-annotation-api.version>3.0.0</dep.jakarta-annotation-api.version>
+        <dep.jakarta-inject-api.version>2.0.1.MR</dep.jakarta-inject-api.version>
+        <dep.javax-inject.version>1</dep.javax-inject.version>
+        <dep.jdbi-policy.version>3.51.0</dep.jdbi-policy.version>
+        <dep.jetbrainsAnnotations.version>26.0.2-1</dep.jetbrainsAnnotations.version>
+        <dep.jfrunit.version>1.0.0.Alpha2</dep.jfrunit.version>
+        <dep.joda-time.version>2.14.0</dep.joda-time.version>
+        <dep.jts.version>1.20.0</dep.jts.version>
+        <dep.junit5.version>5.14.1</dep.junit5.version>
+        <dep.kotlin.version>2.2.21</dep.kotlin.version>
+        <dep.kotlinx-coroutines.version>1.10.2</dep.kotlinx-coroutines.version>
+        <dep.lombok.version>1.18.42</dep.lombok.version>
+        <dep.mockito.version>5.20.0</dep.mockito.version>
+        <dep.moshi.version>1.15.2</dep.moshi.version>
+        <dep.mssql.version>13.2.1.jre11</dep.mssql.version>
+        <dep.mysql.version>9.5.0</dep.mysql.version>
+        <dep.opentelemetry.version>1.55.0</dep.opentelemetry.version>
+        <dep.oracle-xe.version>23.26.0.0.0</dep.oracle-xe.version>
+        <dep.otj-pg-embedded.version>1.1.1</dep.otj-pg-embedded.version>
+        <dep.pg-embedded.version>5.4.1</dep.pg-embedded.version>
+        <dep.pgvector.version>0.1.6</dep.pgvector.version>
+        <dep.plugin.asciidoctor.version>3.2.0</dep.plugin.asciidoctor.version>
+        <dep.plugin.cyclonedx.version>2.9.1</dep.plugin.cyclonedx.version>
+        <dep.plugin.detekt.version>1.23.8</dep.plugin.detekt.version>
+        <dep.plugin.dokka.version>2.1.0</dep.plugin.dokka.version>
+        <dep.plugin.flatten.version>1.7.3</dep.plugin.flatten.version>
+        <dep.plugin.inline.version>1.5.1</dep.plugin.inline.version>
+        <dep.plugin.japicmp.version>0.24.2</dep.plugin.japicmp.version>
+        <dep.plugin.kotlin.version>${dep.kotlin.version}</dep.plugin.kotlin.version>
+        <dep.plugin.ktlint.version>3.5.0</dep.plugin.ktlint.version>
+        <dep.plugin.native.version>0.11.2</dep.plugin.native.version>
+        <dep.plugin.sortpom.version>4.0.0</dep.plugin.sortpom.version>
+        <dep.postgresql.version>42.7.8</dep.postgresql.version>
+        <dep.slf4j.version>2.0.17</dep.slf4j.version>
+        <dep.spring.boot.version>3.5.7</dep.spring.boot.version>
+        <dep.spring.version>6.2.12</dep.spring.version>
+        <dep.sqlite.version>3.50.3.0</dep.sqlite.version>
+        <dep.stringtemplate4.version>4.3.4</dep.stringtemplate4.version>
+        <dep.testcontainers.version>1.21.3</dep.testcontainers.version>
+        <dep.vavr.version>0.10.6</dep.vavr.version>
+        <dep.xz.version>1.10</dep.xz.version>
+        <jdbi.check.fail-detekt>${jdbi.check.fail-kotlin}</jdbi.check.fail-detekt>
+        <jdbi.check.fail-japicmp>${basepom.check.fail-extended}</jdbi.check.fail-japicmp>
+        <jdbi.check.fail-kotlin>${basepom.check.fail-extended}</jdbi.check.fail-kotlin>
+        <jdbi.check.fail-ktlint>${jdbi.check.fail-kotlin}</jdbi.check.fail-ktlint>
+        <jdbi.check.skip-detekt>${jdbi.check.skip-kotlin}</jdbi.check.skip-detekt>
+        <jdbi.check.skip-japicmp>${basepom.check.skip-extended}</jdbi.check.skip-japicmp>
+        <jdbi.check.skip-kotlin>${basepom.check.skip-extended}</jdbi.check.skip-kotlin>
+        <jdbi.check.skip-ktlint>${jdbi.check.skip-kotlin}</jdbi.check.skip-ktlint>
+        <jdbi.check.skip-sbom>${basepom.check.skip-extended}</jdbi.check.skip-sbom>
+        <jdbi.check.skip-sortpom>${basepom.check.skip-basic}</jdbi.check.skip-sortpom>
+        <jdbi.native.fail-no-tests>true</jdbi.native.fail-no-tests>
+        <jdbi.test.language>en</jdbi.test.language>
+        <jdbi.test.mysql-version>mysql:lts</jdbi.test.mysql-version>
+        <jdbi.test.pg-version>17</jdbi.test.pg-version>
+        <jdbi.test.region>US</jdbi.test.region>
+        <jdbi.test.timezone>UTC</jdbi.test.timezone>
+        <kotlin.compiler.jvmTarget>${project.build.targetJdk}</kotlin.compiler.jvmTarget>
+        <kotlin.compiler.languageVersion>2.1</kotlin.compiler.languageVersion>
+        <no-docker>false</no-docker>
+        <project.build.targetJdk>17</project.build.targetJdk>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.fasterxml.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
+                <version>${dep.jackson2.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>tools.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
+                <version>${dep.jackson3.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>${dep.junit5.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.testcontainers</groupId>
+                <artifactId>testcontainers-bom</artifactId>
+                <version>${dep.testcontainers.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.opentelemetry</groupId>
+                <artifactId>opentelemetry-bom</artifactId>
+                <version>${dep.opentelemetry.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${dep.jackson-annotations.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.leangen.geantyref</groupId>
+                <artifactId>geantyref</artifactId>
+                <version>${dep.geantyref.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${dep.guava.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava-testlib</artifactId>
+                <version>${dep.guava.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.inject</groupId>
+                <artifactId>guice</artifactId>
+                <version>${dep.guice.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>jakarta.inject</groupId>
+                <artifactId>jakarta.inject-api</artifactId>
+                <version>${dep.jakarta-inject-api.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.inject</groupId>
+                <artifactId>javax.inject</artifactId>
+                <version>${dep.javax-inject.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.ben-manes.caffeine</groupId>
+                <artifactId>caffeine</artifactId>
+                <version>${dep.caffeine.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.vavr</groupId>
+                <artifactId>vavr</artifactId>
+                <version>${dep.vavr.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.antlr</groupId>
+                <artifactId>antlr4-runtime</artifactId>
+                <version>${dep.antlr.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.immutables</groupId>
+                <artifactId>value</artifactId>
+                <version>${dep.immutables.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${dep.spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>${dep.spring.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring-jcl</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+                <version>${dep.spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-jdbc</artifactId>
+                <version>${dep.spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-tx</artifactId>
+                <version>${dep.spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${dep.spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${dep.spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-test</artifactId>
+                <version>${dep.spring.boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>${dep.gson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.dongliu</groupId>
+                <artifactId>gson-java8-datatype</artifactId>
+                <version>${dep.gson-java8-datatype.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup.moshi</groupId>
+                <artifactId>moshi</artifactId>
+                <version>${dep.moshi.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-core</artifactId>
+                <version>${dep.flyway.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-database-postgresql</artifactId>
+                <version>${dep.flyway.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>${dep.h2.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hsqldb</groupId>
+                <artifactId>hsqldb</artifactId>
+                <version>${dep.hsqldb.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${dep.postgresql.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.pgvector</groupId>
+                <artifactId>pgvector</artifactId>
+                <version>${dep.pgvector.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.oracle.database.jdbc</groupId>
+                <artifactId>ojdbc8</artifactId>
+                <version>${dep.oracle-xe.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.derby</groupId>
+                <artifactId>derby</artifactId>
+                <version>${dep.derby.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mysql</groupId>
+                <artifactId>mysql-connector-j</artifactId>
+                <version>${dep.mysql.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.microsoft.sqlserver</groupId>
+                <artifactId>mssql-jdbc</artifactId>
+                <version>${dep.mssql.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.locationtech.jts</groupId>
+                <artifactId>jts-core</artifactId>
+                <version>${dep.jts.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.opentable.components</groupId>
+                <artifactId>otj-pg-embedded</artifactId>
+                <version>${dep.otj-pg-embedded.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>de.softwareforge.testing</groupId>
+                <artifactId>pg-embedded</artifactId>
+                <version>${dep.pg-embedded.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.tukaani</groupId>
+                <artifactId>xz</artifactId>
+                <version>${dep.xz.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${dep.lombok.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${dep.slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+                <version>${dep.slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>${dep.slf4j.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.13.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>${dep.mockito.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>net.bytebuddy</groupId>
+                        <artifactId>byte-buddy-agent</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-junit-jupiter</artifactId>
+                <version>${dep.mockito.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.assertj</groupId>
+                <artifactId>assertj-core</artifactId>
+                <version>${dep.assertj.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.assertj</groupId>
+                <artifactId>assertj-guava</artifactId>
+                <version>${dep.assertj.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup</groupId>
+                <artifactId>javapoet</artifactId>
+                <version>1.13.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-stdlib</artifactId>
+                <version>${dep.kotlin.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-stdlib-jdk8</artifactId>
+                <version>${dep.kotlin.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-stdlib-common</artifactId>
+                <version>${dep.kotlin.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-reflect</artifactId>
+                <version>${dep.kotlin.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-test</artifactId>
+                <version>${dep.kotlin.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-test-junit5</artifactId>
+                <version>${dep.kotlin.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains.kotlinx</groupId>
+                <artifactId>kotlinx-coroutines-core-jvm</artifactId>
+                <version>${dep.kotlinx-coroutines.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.nhaarman</groupId>
+                <artifactId>mockito-kotlin</artifactId>
+                <version>1.6.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-text</artifactId>
+                <version>${dep.commons-text.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${dep.commons-lang.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${dep.commons-compress.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.xerial</groupId>
+                <artifactId>sqlite-jdbc</artifactId>
+                <version>${dep.sqlite.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.antlr</groupId>
+                <artifactId>ST4</artifactId>
+                <version>${dep.stringtemplate4.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.annotation</groupId>
+                <artifactId>javax.annotation-api</artifactId>
+                <version>1.3.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.persistence</groupId>
+                <artifactId>persistence-api</artifactId>
+                <version>1.0.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>joda-time</groupId>
+                <artifactId>joda-time</artifactId>
+                <version>${dep.joda-time.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker</artifactId>
+                <version>${dep.freemarker.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zaxxer</groupId>
+                <artifactId>HikariCP</artifactId>
+                <version>${dep.hikari-cp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-annotations</artifactId>
+                <version>${dep.spotbugs.version}</version>
+                <scope>provided</scope>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>org.checkerframework</groupId>
+                <artifactId>checker-qual</artifactId>
+                <version>${dep.checkerframework.version}</version>
+                <scope>provided</scope>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains</groupId>
+                <artifactId>annotations</artifactId>
+                <version>${dep.jetbrainsAnnotations.version}</version>
+                <scope>provided</scope>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.errorprone</groupId>
+                <artifactId>error_prone_annotations</artifactId>
+                <version>${dep.errorprone.version}</version>
+                <scope>provided</scope>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>jakarta.annotation</groupId>
+                <artifactId>jakarta.annotation-api</artifactId>
+                <version>${dep.jakarta-annotation-api.version}</version>
+                <scope>provided</scope>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>org.moditect.jfrunit</groupId>
+                <artifactId>jfrunit-core</artifactId>
+                <version>${dep.jfrunit.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!-- annotation jars available everywhere -->
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <scope>provided</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-annotations</artifactId>
+            <scope>provided</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.errorprone</groupId>
+            <artifactId>error_prone_annotations</artifactId>
+            <scope>provided</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- test dependencies -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <scope>test</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <scope>test</scope>
+            <!-- <optional>true</optional> XXX https://github.com/graalvm/native-build-tools/issues/756 -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+            <id>central-snapshots</id>
+            <name>Central Repository, Snapshots</name>
+            <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+            <id>central-snapshots</id>
+            <name>Central Repository, Snapshots</name>
+            <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+            <layout>default</layout>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <build>
+
+        <defaultGoal>clean verify</defaultGoal>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <configuration>
+                        <outputDirectory>${project.build.directory}/apidocs</outputDirectory>
+                        <links>
+                            <link>https://google.github.io/guice/api-docs/${dep.guice.version}/javadoc/</link>
+                            <link>https://javaee.github.io/javaee-spec/javadocs/</link>
+                            <link>https://docs.junit.org/${dep.junit5.version}/api/</link>
+                            <link>https://javadoc.io/doc/org.testcontainers/jdbc/${dep.testcontainers.version}/</link>
+                        </links>
+                        <detectOfflineLinks>false</detectOfflineLinks>
+                        <nodeprecated>false</nodeprecated>
+                        <author>false</author>
+                        <nohelp>true</nohelp>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.jetbrains.dokka</groupId>
+                    <artifactId>dokka-maven-plugin</artifactId>
+                    <version>${dep.plugin.dokka.version}</version>
+                    <configuration>
+                        <jdkVersion>${project.build.targetJdk}</jdkVersion>
+                        <skip>${basepom.javadoc.skip}</skip>
+                        <perPackageOptions>
+                            <packageOptions>
+                                <matchingRegex>.*\.internal</matchingRegex>
+                                <suppress>true</suppress>
+                            </packageOptions>
+                        </perPackageOptions>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.antlr</groupId>
+                    <artifactId>antlr4-maven-plugin</artifactId>
+                    <version>${dep.antlr.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.jetbrains.kotlin</groupId>
+                    <artifactId>kotlin-maven-plugin</artifactId>
+                    <version>${dep.plugin.kotlin.version}</version>
+                    <configuration>
+                        <jvmTarget>${kotlin.compiler.jvmTarget}</jvmTarget>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.asciidoctor</groupId>
+                    <artifactId>asciidoctor-maven-plugin</artifactId>
+                    <version>${dep.plugin.asciidoctor.version}</version>
+                    <configuration>
+                        <attributes>
+                            <imagesdir>${project.build.directory}/generated-docs/images</imagesdir>
+                        </attributes>
+                        <requires>
+                            <require>asciidoctor-diagram</require>
+                        </requires>
+                    </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.asciidoctor</groupId>
+                            <artifactId>asciidoctorj</artifactId>
+                            <version>${dep.asciidoctorj.version}</version>
+                        </dependency>
+                        <dependency>
+                            <groupId>org.asciidoctor</groupId>
+                            <artifactId>asciidoctorj-diagram</artifactId>
+                            <version>${dep.asciidoctorj-diagram.version}</version>
+                        </dependency>
+                        <dependency>
+                            <groupId>org.asciidoctor</groupId>
+                            <artifactId>asciidoctorj-diagram-ditaamini</artifactId>
+                            <version>${dep.asciidoctorj-diagram-ditaamini.version}</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+                <plugin>
+                    <groupId>com.github.ekryd.sortpom</groupId>
+                    <artifactId>sortpom-maven-plugin</artifactId>
+                    <version>${dep.plugin.sortpom.version}</version>
+                    <configuration>
+                        <skip>${jdbi.check.skip-sortpom}</skip>
+                        <createBackupFile>false</createBackupFile>
+                        <expandEmptyElements>false</expandEmptyElements>
+                        <keepBlankLines>true</keepBlankLines>
+                        <lineSeparator>\n</lineSeparator>
+                        <nrOfIndentSpace>4</nrOfIndentSpace>
+                        <sortDependencies>scope</sortDependencies>
+                        <sortProperties>true</sortProperties>
+                        <spaceBeforeCloseEmptyElement>true</spaceBeforeCloseEmptyElement>
+                        <predefinedSortOrder>recommended_2008_06</predefinedSortOrder>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>com.github.gantsign.maven</groupId>
+                    <artifactId>ktlint-maven-plugin</artifactId>
+                    <version>${dep.plugin.ktlint.version}</version>
+                    <configuration>
+                        <failOnViolation>${jdbi.check.fail-ktlint}</failOnViolation>
+                        <skip>${jdbi.check.skip-ktlint}</skip>
+                        <verbose>false</verbose>
+                        <experimental>false</experimental>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>com.github.ozsie</groupId>
+                    <artifactId>detekt-maven-plugin</artifactId>
+                    <version>${dep.plugin.detekt.version}</version>
+
+                    <configuration>
+                        <skip>${jdbi.check.skip-detekt}</skip>
+                        <jvmTarget>${kotlin.compiler.jvmTarget}</jvmTarget>
+                        <failBuildOnMaxIssuesReached>${jdbi.check.fail-detekt}</failBuildOnMaxIssuesReached>
+                        <configResource>policy/detekt.yml</configResource>
+                    </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.jdbi.internal</groupId>
+                            <artifactId>jdbi3-policy</artifactId>
+                            <version>${dep.jdbi-policy.version}</version>
+                        </dependency>
+                        <dependency>
+                            <groupId>io.gitlab.arturbosch.detekt</groupId>
+                            <artifactId>detekt-cli</artifactId>
+                            <version>${dep.detekt.version}</version>
+                        </dependency>
+                        <!-- Detekt's first-party unbundled plugin for library authors https://detekt.dev/docs/next/rules/libraries -->
+                        <dependency>
+                            <groupId>io.gitlab.arturbosch.detekt</groupId>
+                            <artifactId>detekt-rules-libraries</artifactId>
+                            <version>${dep.detekt.version}</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-pmd-plugin</artifactId>
+                    <configuration>
+                        <analysisCache>true</analysisCache>
+                        <rulesets>
+                            <ruleset>policy/pmd.xml</ruleset>
+                        </rulesets>
+                        <compileSourceRoots>${project.build.sourceDirectory}</compileSourceRoots>
+                    </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.jdbi.internal</groupId>
+                            <artifactId>jdbi3-policy</artifactId>
+                            <version>${dep.jdbi-policy.version}</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-checkstyle-plugin</artifactId>
+                    <configuration>
+                        <configLocation>policy/checkstyle.xml</configLocation>
+                        <suppressionsLocation>policy/checkstyle-suppress.xml</suppressionsLocation>
+                        <sourceDirectories>${project.build.sourceDirectory},${project.build.testSourceDirectory}</sourceDirectories>
+                        <excludes>**\/module-info.java</excludes>
+                    </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.jdbi.internal</groupId>
+                            <artifactId>jdbi3-policy</artifactId>
+                            <version>${dep.jdbi-policy.version}</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+                <plugin>
+                    <groupId>com.github.spotbugs</groupId>
+                    <artifactId>spotbugs-maven-plugin</artifactId>
+                    <configuration>
+                        <includeFilterFiles combine.children="override">
+                            <includeFilterFile>policy/spotbugs-include.xml</includeFilterFile>
+                        </includeFilterFiles>
+                        <excludeFilterFiles combine.children="override">
+                            <excludeFilterFile>policy/spotbugs-exclude.xml</excludeFilterFile>
+                        </excludeFilterFiles>
+                    </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.jdbi.internal</groupId>
+                            <artifactId>jdbi3-policy</artifactId>
+                            <version>${dep.jdbi-policy.version}</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>flatten-maven-plugin</artifactId>
+                    <version>${dep.plugin.flatten.version}</version>
+                    <configuration>
+                        <flattenMode>bom</flattenMode>
+                        <flattenDependencyMode>direct</flattenDependencyMode>
+                        <pomElements>
+                            <properties>remove</properties>
+                            <distributionManagement>remove</distributionManagement>
+                            <repositories>remove</repositories>
+                            <dependencyManagement>interpolate</dependencyManagement>
+                            <dependencies>remove</dependencies>
+                        </pomElements>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.basepom.maven</groupId>
+                    <artifactId>inline-maven-plugin</artifactId>
+                    <version>${dep.plugin.inline.version}</version>
+
+                    <configuration>
+                        <prefix>org.jdbi.v3.inlined</prefix>
+                        <hideClasses>true</hideClasses>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>com.github.siom79.japicmp</groupId>
+                    <artifactId>japicmp-maven-plugin</artifactId>
+                    <version>${dep.plugin.japicmp.version}</version>
+                    <configuration>
+                        <skip>${jdbi.check.skip-japicmp}</skip>
+                        <parameter>
+                            <onlyModified>true</onlyModified>
+                            <skipPomModules>true</skipPomModules>
+                            <ignoreNonResolvableArtifacts>true</ignoreNonResolvableArtifacts>
+                            <ignoreMissingOldVersion>true</ignoreMissingOldVersion>
+                            <breakBuildBasedOnSemanticVersioning>${jdbi.check.fail-japicmp}</breakBuildBasedOnSemanticVersioning>
+
+                            <excludes>
+                                <exclude>*.internal.*</exclude>
+                                <exclude>@org.jdbi.v3.meta.Alpha</exclude>
+                                <exclude>@org.jdbi.v3.meta.Beta</exclude>
+                            </excludes>
+                        </parameter>
+
+                        <oldVersion>
+                            <dependency>
+                                <groupId>${project.groupId}</groupId>
+                                <artifactId>${project.artifactId}</artifactId>
+                                <version>${jdbi.build.previous-version}</version>
+                                <type>jar</type>
+                            </dependency>
+                        </oldVersion>
+                        <newVersion>
+                            <file>
+                                <path>${project.build.directory}/${project.artifactId}-${project.version}.${project.packaging}</path>
+                            </file>
+                        </newVersion>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.cyclonedx</groupId>
+                    <artifactId>cyclonedx-maven-plugin</artifactId>
+                    <version>${dep.plugin.cyclonedx.version}</version>
+                    <configuration>
+                        <skip>${jdbi.check.skip-sbom}</skip>
+                        <skipNotDeployed>false</skipNotDeployed>
+                        <includeTestScope>false</includeTestScope>
+                        <includeLicenseText>false</includeLicenseText>
+                        <outputReactorProjects>true</outputReactorProjects>
+                        <outputFormat>all</outputFormat>
+                        <outputName>bom</outputName>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <configuration>
+                        <!-- exclude "slow" group by default -->
+                        <groups />
+                        <!-- junit 4 and 5 -->
+                        <excludedGroups>slow,org.jdbi.v3.testing.SlowTests</excludedGroups>
+                        <systemPropertyVariables combine.children="override">
+                            <pg-embedded.postgres-version>${jdbi.test.pg-version}</pg-embedded.postgres-version>
+                            <jdbi.test.mysql-version>${jdbi.test.mysql-version}</jdbi.test.mysql-version>
+                            <user.timezone>${jdbi.test.timezone}</user.timezone>
+                            <user.language>${jdbi.test.language}</user.language>
+                            <user.region>${jdbi.test.region}</user.region>
+                        </systemPropertyVariables>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <configuration>
+                        <arguments>-Dno-docker=${no-docker}</arguments>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-invoker-plugin</artifactId>
+                    <configuration>
+                        <scope>test</scope>
+                        <extraArtifacts>
+                            <extraArtifact>org.jdbi:jdbi3-bom:${project.version}:pom</extraArtifact>
+                        </extraArtifacts>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.graalvm.buildtools</groupId>
+                    <artifactId>native-maven-plugin</artifactId>
+                    <version>${dep.plugin.native.version}</version>
+                    <extensions>true</extensions>
+                    <configuration>
+                        <failNoTests>${jdbi.native.fail-no-tests}</failNoTests>
+                        <metadataRepository>
+                            <enabled>true</enabled>
+                        </metadataRepository>
+                        <buildArgs>
+                            <buildArg>-march=native</buildArg>
+                        </buildArgs>
+                        <quickBuild>true</quickBuild>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${dep.spring.boot.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-compile</id>
+                        <configuration>
+                            <compilerArgs combine.children="append">
+                                <arg>-Xlint:deprecation</arg>
+                                <arg>-Xlint:unchecked</arg>
+                            </compilerArgs>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>default-testCompile</id>
+                        <configuration>
+                            <compilerArgs combine.children="append">
+                                <arg>-Xlint:deprecation</arg>
+                            </compilerArgs>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.github.ekryd.sortpom</groupId>
+                <artifactId>sortpom-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>sort</goal>
+                        </goals>
+                        <phase>validate</phase>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>enforce-jdbi</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <!-- Ensure consistency -->
+                                <dependencyConvergence />
+
+                                <!-- ban non-module stuff -->
+                                <bannedDependencies>
+                                    <excludes>
+                                        <exclude>com.google.code.findbugs:jsr305</exclude>
+                                    </excludes>
+                                    <searchTransitive>false</searchTransitive>
+                                </bannedDependencies>
+
+                                <!--  we now require java 17 for building -->
+                                <requireJavaVersion>
+                                    <version>[17,)</version>
+                                </requireJavaVersion>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.basepom.maven</groupId>
+                <artifactId>property-helper-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>japicmp</id>
+                        <goals>
+                            <goal>get</goal>
+                        </goals>
+                        <phase>verify</phase>
+                        <configuration>
+                            <strings>
+                                <string>
+                                    <id>jdbi.build.previous-version</id>
+                                    <export>true</export>
+                                    <values>
+                                        <value>@{git.closest.tag.name}</value>
+                                    </values>
+                                    <regexp>^v(.*)$</regexp>
+                                </string>
+                            </strings>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.github.siom79.japicmp</groupId>
+                <artifactId>japicmp-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>cmp</goal>
+                        </goals>
+                        <phase>verify</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>java21</id>
+            <activation>
+                <jdk>[21,)</jdk>
+            </activation>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-compiler-plugin</artifactId>
+                            <configuration>
+                                <!-- see https://inside.java/2023/07/29/quality-heads-up/ -->
+                                <proc>full</proc>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+        <profile>
+            <id>jdbi.jpms-auto-module</id>
+            <activation>
+                <property>
+                    <name>packaging</name>
+                    <value>jar</value>
+                </property>
+                <file>
+                    <missing>src/main/java/module-info.java</missing>
+                </file>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-enforcer-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>jdbi.enforce-module-name</id>
+                                <goals>
+                                    <goal>enforce</goal>
+                                </goals>
+                                <configuration>
+                                    <rules>
+                                        <requireProperty>
+                                            <property>moduleName</property>
+                                            <message>This module must set a moduleName.</message>
+                                        </requireProperty>
+                                    </rules>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-jar-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>default-jar</id>
+                                <!-- add module name to main artifact -->
+                                <configuration>
+                                    <archive>
+                                        <manifestEntries combine.children="append">
+                                            <Automatic-Module-Name>${moduleName}</Automatic-Module-Name>
+                                        </manifestEntries>
+                                    </archive>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>basepom.default</id>
+                                <!-- add module name with "test" appended to tests artifact -->
+                                <configuration>
+                                    <archive>
+                                        <manifestEntries combine.children="append">
+                                            <Automatic-Module-Name>${moduleName}.tests</Automatic-Module-Name>
+                                        </manifestEntries>
+                                    </archive>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>maven-eclipse</id>
+            <activation>
+                <property>
+                    <!-- see https://newbedev.com/get-rid-of-pom-not-found-warning-for-org-eclipse-m2e-lifecycle-mapping -->
+                    <name>m2e.version</name>
+                </property>
+            </activation>
+            <properties>
+                <build.output>target-ide</build.output>
+            </properties>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+                        <plugin>
+                            <groupId>org.eclipse.m2e</groupId>
+                            <artifactId>lifecycle-mapping</artifactId>
+                            <version>1.0.0</version>
+                            <configuration>
+                                <lifecycleMappingMetadata>
+                                    <pluginExecutions>
+                                        <pluginExecution>
+                                            <pluginExecutionFilter>
+                                                <groupId>org.asciidoctor</groupId>
+                                                <artifactId>asciidoctor-maven-plugin</artifactId>
+                                                <versionRange>[1.5.3,)</versionRange>
+                                                <goals>
+                                                    <goal>process-asciidoc</goal>
+                                                </goals>
+                                            </pluginExecutionFilter>
+                                            <action>
+                                                <ignore />
+                                            </action>
+                                        </pluginExecution>
+                                        <pluginExecution>
+                                            <pluginExecutionFilter>
+                                                <groupId>com.github.ekryd.sortpom</groupId>
+                                                <artifactId>sortpom-maven-plugin</artifactId>
+                                                <versionRange>[0,)</versionRange>
+                                                <goals>
+                                                    <goal>sort</goal>
+                                                </goals>
+                                            </pluginExecutionFilter>
+                                            <action>
+                                                <ignore />
+                                            </action>
+                                        </pluginExecution>
+                                    </pluginExecutions>
+                                </lifecycleMappingMetadata>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+        <profile>
+            <id>kotlin</id>
+            <activation>
+                <file>
+                    <exists>${basedir}/src/main/kotlin</exists>
+                </file>
+            </activation>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>build-helper-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>kotlin</id>
+                                <goals>
+                                    <goal>add-source</goal>
+                                </goals>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <skipAddSourceIfMissing>true</skipAddSourceIfMissing>
+                                    <sources>
+                                        <source>${project.basedir}/src/main/kotlin</source>
+                                    </sources>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>test-kotlin</id>
+                                <goals>
+                                    <goal>add-test-source</goal>
+                                </goals>
+                                <phase>generate-test-sources</phase>
+                                <configuration>
+                                    <skipAddTestSourceIfMissing>true</skipAddTestSourceIfMissing>
+                                    <sources>
+                                        <source>${project.basedir}/src/test/kotlin</source>
+                                    </sources>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.jetbrains.kotlin</groupId>
+                        <artifactId>kotlin-maven-plugin</artifactId>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <args>
+                                <arg>-opt-in=kotlin.RequiresOptIn</arg>
+                            </args>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.jetbrains.dokka</groupId>
+                        <artifactId>dokka-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>javadocJar</goal>
+                                    <goal>dokka</goal>
+                                </goals>
+                                <phase>package</phase>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>com.github.gantsign.maven</groupId>
+                        <artifactId>ktlint-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>default</id>
+                                <goals>
+                                    <goal>check</goal>
+                                </goals>
+                                <phase>verify</phase>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>com.github.ozsie</groupId>
+                        <artifactId>detekt-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>default</id>
+                                <goals>
+                                    <goal>check</goal>
+                                </goals>
+                                <phase>verify</phase>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>jdbi-release</id>
+            <properties>
+                <basepom.check.skip-all>true</basepom.check.skip-all>
+                <basepom.check.skip-enforcer>false</basepom.check.skip-enforcer>
+                <jdbi.check.skip-sbom>false</jdbi.check.skip-sbom>
+            </properties>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-enforcer-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>enforce-java25</id>
+                                <goals>
+                                    <goal>enforce</goal>
+                                </goals>
+                                <configuration>
+                                    <rules>
+                                        <!-- releases must be built with Java 25 or better -->
+                                        <requireJavaVersion>
+                                            <version>[25,)</version>
+                                        </requireJavaVersion>
+                                    </rules>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.cyclonedx</groupId>
+                        <artifactId>cyclonedx-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>cyclonedx</id>
+                                <goals>
+                                    <goal>makeBom</goal>
+                                </goals>
+                                <phase>package</phase>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>native</id>
+            <activation>
+                <property>
+                    <name>jdbi.native</name>
+                </property>
+            </activation>
+            <properties>
+                <basepom.check.skip-all>true</basepom.check.skip-all>
+                <basepom.check.skip-enforcer>false</basepom.check.skip-enforcer>
+                <basepom.test.skip>true</basepom.test.skip>
+            </properties>
+        </profile>
+        <profile>
+            <!-- Profile to skip time-consuming steps. -->
+            <id>fast</id>
+            <properties>
+                <basepom.check.skip-all>true</basepom.check.skip-all>
+                <basepom.check.skip-enforcer>false</basepom.check.skip-enforcer>
+                <skipITs>true</skipITs>
+                <skipTests>true</skipTests>
+            </properties>
+        </profile>
+        <profile>
+            <!-- profile to activate slow tests. -->
+            <id>slow-tests</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <excludedGroups combine.self="override" />
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

@@ -1,0 +1,4 @@
+teleport-delay: 3
+adjustYaw: 0.0 # 0.5
+panelGlass: 11
+titleGUI: "&9&l[&f&lWarps&9&l]"

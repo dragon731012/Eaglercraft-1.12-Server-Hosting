@@ -1,0 +1,23 @@
+spawnVip: true
+spawnToWarp: true
+autoSlot: true
+rows: 5 # if autoSlot is false
+warpList:
+  - spawn
+warps:
+  spawn:
+    slot: 1
+    display: '&e&lSpawn'
+    location: 0 68 4
+      world: NotzLobby
+      x: 268.5
+      y: 24.01
+      z: -9.5
+      pitch: 0.0
+      yaw: -270.0
+    item:
+      material: GRASS
+      enchanted: false
+      lore:
+        - '&7&oClick to go'
+        - '&7&oto warp &fspawn'

@@ -1,0 +1,138 @@
+#  ___       ___  __  ___  __        ___
+# |__  |    |__  /  `  |  /  \ |\ | |__
+# |    |___ |___ \__,  |  \__/ | \| |___
+#  __             __   ___
+# |__) |  | |    /__` |__
+# |    \__/ |___ .__/ |___   /\
+#                           /  \
+# __/\___  ____/\_____  ___/    \______
+#        \/           \/
+#
+# Don't change it if you don't know what it is
+version: "1.7.2"
+# https://flectone.net/pulse/docs/config/language/
+language:
+  type: "en_us"
+  by_player: true
+# https://flectone.net/pulse/docs/config/database/
+database:
+  ignore_existing_driver: false
+  type: "H2"
+  name: "flectonepulse"
+  host: "127.0.0.1"
+  port: "3306"
+  user: "root"
+  password: "1234"
+  parameters: "?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8"
+  prefix: ""
+# https://flectone.net/pulse/docs/config/proxy/
+proxy:
+  clusters: []
+  bungeecord: false
+  velocity: false
+  # https://flectone.net/pulse/docs/config/proxy#redis
+  redis:
+    enable: false
+    host: "127.0.0.1"
+    port: 6379
+    ssl: false
+    user: ""
+    password: ""
+# https://flectone.net/pulse/docs/config/command/
+command:
+  unregister_on_reload: false
+  disabled_fabric:
+  - "msg"
+  - "banlist"
+  - "kick"
+  - "w"
+  - "tell"
+  - "me"
+  - "pardon"
+  - "ban"
+# https://flectone.net/pulse/docs/config/module/
+module:
+  enable: true
+  use_paper_message_sender: false
+# https://flectone.net/pulse/docs/config/editor/
+editor:
+  host: ""
+  https: false
+  port: 25566
+# https://flectone.net/pulse/docs/config/logger/
+logger:
+  console: "Console"
+  prefix: "\e[0;34m(FlectonePulse) \e[0m"
+  description:
+  - " \e[0;34m ___       ___  __  ___  __        ___ \e[0m"
+  - " \e[0;34m|__  |    |__  /  `  |  /  \\ |\\ | |__  \e[0m"
+  - " \e[0;34m|    |___ |___ \\__,  |  \\__/ | \\| |___ \e[0m"
+  - " \e[0;34m __             __   ___ \e[0;96m                       \e[0m"
+  - " \e[0;34m|__) |  | |    /__` |__  \e[0;96m                   \e[0m"
+  - " \e[0;34m|    \\__/ |___ .__/ |___\e[0;96m   /\\         \e[0m"
+  - " \e[0;96m                          /  \\ v<version>               \e[0m"
+  - " \e[0;96m__/\\___  ____/\\_____  ___/    \\______ \e[0m"
+  - " \e[0;96m       \\/           \\/  \e[0m"
+  warn: "\e[0;93m"
+  info: "\e[0;96m"
+  filter:
+  - "Paper Async Command Builder"
+  - "Caught previously unhandled exception :"
+  - "Error received from Telegram GetUpdates Request"
+  - "OkHttp TaskRunner"
+  - "Exception in thread \"ForkJoinPool"
+  - "FlectonePulseDatabase - "
+# https://flectone.net/pulse/docs/config/cache/
+cache:
+  types:
+    COOLDOWN:
+      duration: 5
+      time_unit: "HOURS"
+      size: 5000
+    DIALOG_CLICK:
+      duration: 1
+      time_unit: "SECONDS"
+      size: 100
+    OFFLINE_PLAYERS:
+      duration: 1
+      time_unit: "HOURS"
+      size: 1000
+    MODERATION:
+      duration: 1
+      time_unit: "HOURS"
+      size: 5000
+    LEGACY_COLOR_MESSAGE:
+      duration: 10
+      time_unit: "MINUTES"
+      size: 100000
+    MENTION_MESSAGE:
+      duration: 10
+      time_unit: "MINUTES"
+      size: 1000
+    SWEAR_MESSAGE:
+      duration: 10
+      time_unit: "MINUTES"
+      size: 100000
+    REPLACEMENT_MESSAGE:
+      duration: 10
+      time_unit: "MINUTES"
+      size: 100000
+    REPLACEMENT_IMAGE:
+      duration: 10
+      time_unit: "MINUTES"
+      size: 100
+    TRANSLATE_MESSAGE:
+      duration: 1
+      time_unit: "HOURS"
+      size: 5000
+    PROFILE_PROPERTY:
+      duration: 1
+      time_unit: "HOURS"
+      size: 1000
+# Help us improve FlectonePulse! This collects basic, anonymous data like server version and module usage.
+# No personal data, No IPs, No player names.
+# This helps us understand what features matter most and focus development where it's needed.
+# You can see the public stats here: https://flectone.net/pulse/metrics/
+# Thanks for supporting the project! ❤️
+metrics:
+  enable: true

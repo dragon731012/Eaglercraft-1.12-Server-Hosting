@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.kyori</groupId>
+  <artifactId>adventure-text-minimessage</artifactId>
+  <version>4.15.0</version>
+  <name>adventure-text-minimessage</name>
+  <description>A string-based, user-friendly format for representing Minecraft: Java Edition chat components.</description>
+  <url>https://github.com/KyoriPowered/adventure</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kashike</id>
+      <timezone>America/Vancouver</timezone>
+    </developer>
+    <developer>
+      <id>lucko</id>
+      <name>Luck</name>
+      <email>git@lucko.me</email>
+      <url>https://lucko.me</url>
+    </developer>
+    <developer>
+      <id>zml</id>
+      <name>zml</name>
+      <timezone>America/Vancouver</timezone>
+    </developer>
+    <developer>
+      <id>Electroid</id>
+    </developer>
+    <developer>
+      <id>minidigger</id>
+      <name>MiniDigger</name>
+    </developer>
+    <developer>
+      <id>kezz</id>
+    </developer>
+    <developer>
+      <id>broccolai</id>
+    </developer>
+    <developer>
+      <id>rymiel</id>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/KyoriPowered/adventure.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/KyoriPowered/adventure.git</developerConnection>
+    <url>https://github.com/KyoriPowered/adventure</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/KyoriPowered/adventure/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/KyoriPowered/adventure/actions</url>
+  </ciManagement>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>net.kyori</groupId>
+        <artifactId>adventure-bom</artifactId>
+        <version>4.15.0</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>net.kyori</groupId>
+      <artifactId>adventure-api</artifactId>
+      <version>4.15.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

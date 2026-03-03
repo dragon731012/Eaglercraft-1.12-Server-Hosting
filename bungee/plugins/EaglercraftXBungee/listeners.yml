@@ -1,0 +1,65 @@
+listener_01:
+  address: 0.0.0.0:8081
+  address_v6: 'null'
+  max_players: 60
+  tab_list: GLOBAL_PING
+  default_server: lobby
+  force_default_server: false
+  forward_ip: false
+  forward_ip_header: X-Real-IP
+  redirect_legacy_clients_to: 'null'
+  server_icon: IMG_1027.png
+  server_motd:
+  - "@atypicalpotato on youtube"
+  allow_motd: true
+  allow_query: true
+  request_motd_cache:
+    cache_ttl: 7200
+    online_server_list_animation: false
+    online_server_list_results: true
+    online_server_list_trending: true
+    online_server_list_portfolios: false
+  http_server:
+    enabled: true
+    root: '../../web'
+    page_404_not_found: 'default'
+    page_index_name:
+    - 'index.html'
+    - 'index.htm'
+  ratelimit:
+    ip:
+      enable: false
+      period: 90
+      limit: 60
+      limit_lockout: 80
+      lockout_duration: 1200
+      exceptions:
+      - '127.*'
+      - '0:0:0:0:0:0:0:1'
+    login:
+      enable: false
+      period: 50
+      limit: 5
+      limit_lockout: 10
+      lockout_duration: 300
+      exceptions:
+      - '127.*'
+      - '0:0:0:0:0:0:0:1'
+    motd:
+      enable: false
+      period: 30
+      limit: 5
+      limit_lockout: 15
+      lockout_duration: 300
+      exceptions:
+      - '127.*'
+      - '0:0:0:0:0:0:0:1'
+    query:
+      enable: false
+      period: 30
+      limit: 15
+      limit_lockout: 25
+      lockout_duration: 900
+      exceptions:
+      - '127.*'
+      - '0:0:0:0:0:0:0:1'

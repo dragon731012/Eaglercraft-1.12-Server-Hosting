@@ -9,10 +9,11 @@ listener_01:
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: 'null'
   server_icon: IMG_1027.png
-  server_motd:
-  - "@atypicalpotato on youtube"
+  server_motd: 
+  - "TEEEEEEEEEEEEAAAAAAAAAACO BELL!!!"
   allow_motd: true
   allow_query: true
+  allow_voice: true
   request_motd_cache:
     cache_ttl: 7200
     online_server_list_animation: false

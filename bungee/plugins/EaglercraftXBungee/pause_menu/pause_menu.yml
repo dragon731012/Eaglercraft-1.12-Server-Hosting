@@ -1,0 +1,43 @@
+enable_custom_pause_menu: false
+server_info_button:
+  enable_button: true
+  button_text: 'Server Info'
+  button_mode_open_new_tab: false
+  server_info_embed_url: ''
+  button_mode_embed_file: true
+  server_info_embed_file: 'server_info.html'
+  server_info_embed_screen_title: 'Server Info'
+  server_info_embed_send_chunk_rate: 1
+  server_info_embed_send_chunk_size: 24576
+  enable_template_macros: true
+  server_info_embed_template_globals:
+    example_global: 'eagler'
+  allow_embed_template_eval_macro: false
+  enable_webview_javascript: false
+  enable_webview_message_api: false
+  enable_webview_strict_csp: true
+discord_button:
+  enable_button: true
+  button_text: 'Discord'
+  button_url: 'https://invite url here'
+custom_images:
+  icon_title_L: ''
+  icon_title_R: ''
+  icon_backToGame_L: ''
+  icon_backToGame_R: ''
+  icon_achievements_L: ''
+  icon_achievements_R: ''
+  icon_statistics_L: ''
+  icon_statistics_R: ''
+  icon_serverInfo_L: ''
+  icon_serverInfo_R: ''
+  icon_options_L: ''
+  icon_options_R: ''
+  icon_discord_L: ''
+  icon_discord_R: ''
+  icon_disconnect_L: ''
+  icon_disconnect_R: ''
+  icon_background_pause: 'test_image.png'
+  icon_background_all: 'test_image.png'
+  icon_watermark_pause: ''
+  icon_watermark_all: ''

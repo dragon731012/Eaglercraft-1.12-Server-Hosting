@@ -1,5 +1,6 @@
 listener_01:
   address: 0.0.0.0:8081
+  allow_voice: true
   address_v6: 'null'
   max_players: 60
   tab_list: GLOBAL_PING

@@ -1,0 +1,38 @@
+be2deba7-bad6-37ed-a896-4cebafd8ebd1:
+  cave:
+    world: world
+    x: -311
+    y: 67
+    z: 260
+  yuri:
+    world: world
+    x: -36
+    y: 73
+    z: 136
+  store:
+    world: world
+    x: -212
+    y: 65
+    z: 259
+eaf5df1e-86af-3410-b52a-1fc0bbe69c23:
+  mine:
+    world: world
+    x: -365
+    y: 11
+    z: 261
+  out:
+    world: world
+    x: -226
+    y: 64
+    z: 254
+  farm:
+    world: world
+    x: -299
+    y: 63
+    z: 224
+538a9b6d-21c6-3dc8-981c-fa7699236cb8:
+  default:
+    world: world
+    x: -38
+    y: 73
+    z: 132

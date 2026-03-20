@@ -1,0 +1,51 @@
+server_connect_timeout: 5000
+enforce_secure_profile: false
+forge_support: true
+player_limit: -1
+log_pings: true
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+timeout: 30000
+log_commands: false
+network_compression_threshold: 256
+online_mode: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  lobby:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 0.0.0.0:25565
+    restricted: false
+listeners:
+- query_port: 25577
+  motd: '&1Another Bungee server'
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - lobby
+  bind_local_address: false
+  host: 127.0.0.1:25577
+  max_players: 1
+  tab_size: 60
+  force_default_server: true
+ip_forward: true
+remote_ping_timeout: 5000
+reject_transfers: false
+remote_ping_cache: -1
+connection_throttle: 4000
+stats: 962f574d-6f3f-40f8-9b2a-2c0467a28290
+connection_throttle_limit: 3
+groups: {}
+prevent_proxy_connections: false

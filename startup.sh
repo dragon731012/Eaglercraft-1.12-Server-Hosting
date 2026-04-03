@@ -1,7 +1,7 @@
-echo "WebSocket server listening at: ws://${RAILWAY_PUBLIC_DOMAIN}:8081"
+#!/bin/sh
 
-cd bungee
-java -jar bungee.jar &
-cd ..
-cd server
-java -jar server.jar
+# Rewrite Eaglercraft listener to use Render's assigned port
+sed -i "s/address: .*/address: 0.0.0.0:${PORT}/" bungee/plugins/EaglercraftXBungee/listeners.yml
+
+# Start BungeeCord
+java -Xms512M -Xmx512M -jar bungee/bungee.jar

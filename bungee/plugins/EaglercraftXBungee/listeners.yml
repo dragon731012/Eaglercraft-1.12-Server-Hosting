@@ -1,7 +1,7 @@
 listener_01:
-  address: 0.0.0.0:8081
+  address: 0.0.0.0:12345
   address_v6: 'null'
-  max_players: 60
+  max_players: 1000
   tab_list: GLOBAL_PING
   default_server: lobby
   force_default_server: false

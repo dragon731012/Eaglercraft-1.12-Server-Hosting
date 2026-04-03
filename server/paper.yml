@@ -14,12 +14,12 @@ config-version: 13
 settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
-  save-player-data: true
   sleep-between-chunk-saves: false
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
   incoming-packet-spam-threshold: 300
   remove-invalid-statistics: false
+  save-player-data: true
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
@@ -65,9 +65,9 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
-    portal-search-radius: 128
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
+    portal-search-radius: 128
     queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
@@ -80,10 +80,10 @@ world-settings:
     game-mechanics:
       allow-permanent-chunk-loaders: false
       scan-for-legacy-ender-dragon: true
+      shield-blocking-delay: 5
       disable-end-credits: false
       disable-player-crits: false
       disable-sprint-interruption-on-attack: false
-      shield-blocking-delay: 5
       disable-chest-cat-detection: false
       disable-unloaded-chunk-enderpearl-exploit: true
       village-sieges-enabled: true
@@ -123,7 +123,6 @@ world-settings:
     duplicate-uuid-saferegen-delete-range: 32
     keep-spawn-loaded-range: 5
     auto-save-interval: -1
-    container-update-tick-rate: 1
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
     frosted-ice:
@@ -131,14 +130,15 @@ world-settings:
       delay:
         min: 20
         max: 40
+    container-update-tick-rate: 1
     parrots-are-unaffected-by-player-movement: true
     disable-explosion-knockback: true
     elytra-hit-wall-damage: false
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 5
-    non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: false
+    non-player-arrow-despawn-rate: -1
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
@@ -171,9 +171,9 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 1
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
+    baby-zombie-movement-speed: 0.2
     spawner-nerfed-mobs-should-jump: false
     allow-leashing-undead-horse: true
-    baby-zombie-movement-speed: 0.2
     mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: true
     squid-spawn-height:

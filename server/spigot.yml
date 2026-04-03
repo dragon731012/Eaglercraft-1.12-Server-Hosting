@@ -15,8 +15,6 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  item-dirty-ticks: 20
-  bungeecord: false
   late-bind: false
   player-shuffle: 0
   filter-creative-items: true
@@ -24,6 +22,8 @@ settings:
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
+  item-dirty-ticks: 20
+  bungeecord: false
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
@@ -37,7 +37,6 @@ settings:
       max: 2048.0
 commands:
   tab-complete: 0
-  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -46,6 +45,7 @@ commands:
   - summon
   - testforblock
   - tellraw
+  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
@@ -63,6 +63,21 @@ stats:
 world-settings:
   default:
     verbose: true
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+    max-tick-time:
+      tile: 50
+      entity: 50
+    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -80,18 +95,6 @@ world-settings:
       hopper-check: 1
     hopper-amount: 1
     random-light-updates: false
-    mob-spawn-range: 4
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
-      vine-modifier: 100
-      cocoa-modifier: 100
     save-structure-info: true
     dragon-death-sound-radius: 0
     seed-village: 10387312
@@ -107,16 +110,13 @@ world-settings:
       sprint-multiplier: 0.1
       other-multiplier: 0.0
     max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
     squid-spawn-range:
       min: 45.0
-    view-distance: 5
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
+    view-distance: 5
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0

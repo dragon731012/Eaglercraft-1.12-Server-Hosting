@@ -88,11 +88,11 @@ world-settings:
       disable-unloaded-chunk-enderpearl-exploit: true
       village-sieges-enabled: true
     max-growth-height:
-      cactus: 3
-      reeds: 3
+      cactus: 4
+      reeds: 5
     fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 600
+      MinimumTicks: 1
+      MaximumTicks: 2
     despawn-ranges:
       soft: 32
       hard: 128
@@ -100,20 +100,20 @@ world-settings:
     tnt-entity-height-nerf: 0
     water-over-lava-flow-speed: 5
     fast-drain:
-      lava: false
-      water: false
+      lava: true
+      water: true
     lava-flow-speed:
-      normal: 30
+      normal: 1
       nether: 10
     lootables:
-      auto-replenish: false
+      auto-replenish: true
       restrict-player-reloot: true
       reset-seed-on-fill: true
       max-refills: -1
-      refresh-min: 12h
-      refresh-max: 2d
+      refresh-min: 1m
+      refresh-max: 2m
     filter-nbt-data-from-spawn-eggs-and-related: true
-    max-entity-collisions: 8
+    max-entity-collisions: 10
     disable-creeper-lingering-effect: false
     hopper:
       cooldown-when-full: true
@@ -131,12 +131,12 @@ world-settings:
       delay:
         min: 20
         max: 40
-    parrots-are-unaffected-by-player-movement: false
-    disable-explosion-knockback: false
-    elytra-hit-wall-damage: true
+    parrots-are-unaffected-by-player-movement: true
+    disable-explosion-knockback: true
+    elytra-hit-wall-damage: false
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
-    bed-search-radius: 1
+    bed-search-radius: 5
     non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: false
     armor-stands-tick: true
@@ -168,14 +168,14 @@ world-settings:
     armor-stands-do-collision-entity-lookups: true
     skip-entity-ticking-in-chunks-scheduled-for-unload: true
     disable-thunder: false
-    skeleton-horse-thunder-spawn-chance: 0.01
+    skeleton-horse-thunder-spawn-chance: 1
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
     spawner-nerfed-mobs-should-jump: false
-    allow-leashing-undead-horse: false
-    baby-zombie-movement-speed: 0.5
+    allow-leashing-undead-horse: true
+    baby-zombie-movement-speed: 0.2
     mob-spawner-tick-rate: 1
-    all-chunks-are-slime-chunks: false
+    all-chunks-are-slime-chunks: true
     squid-spawn-height:
       maximum: 0.0
     disable-teleportation-suffocation-check: false

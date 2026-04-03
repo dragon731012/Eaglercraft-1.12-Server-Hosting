@@ -1,0 +1,67 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: APPLE
+        buy: 10
+        sell: 2.5
+      '2':
+        material: BREAD
+        buy: 15.75
+        sell: 3.94
+      '3':
+        material: CAKE
+        buy: 240.68
+        sell: 60.17
+      '4':
+        material: COOKIE
+        buy: 2.1
+        sell: 0.53
+      '5':
+        material: BAKED_POTATO
+        buy: 5.25
+        sell: 1.32
+      '6':
+        material: COOKED_BEEF
+        buy: 6.3
+        sell: 1.58
+      '7':
+        material: COOKED_CHICKEN
+        buy: 6.3
+        sell: 1.58
+      '8':
+        material: COOKED_MUTTON
+        buy: 6.3
+        sell: 1.58
+      '9':
+        material: COOKED_PORKCHOP
+        buy: 6.3
+        sell: 1.58
+      '10':
+        material: COOKED_RABBIT
+        buy: 6.3
+        sell: 1.58
+      '11':
+        material: BEEF
+        buy: 6
+        sell: 1.5
+      '12':
+        material: CHICKEN
+        buy: 6
+        sell: 1.5
+      '13':
+        material: MUTTON
+        buy: 6
+        sell: 1.5
+      '14':
+        material: PORKCHOP
+        buy: 6
+        sell: 1.5
+      '15':
+        material: RABBIT
+        buy: 6
+        sell: 1.5
+      '16':
+        material: BEETROOT_SOUP
+        buy: 38.72
+        sell: 9.68

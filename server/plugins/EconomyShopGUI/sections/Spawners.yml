@@ -1,0 +1,14 @@
+enable: true
+slot: 32
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: SPAWNER
+  displayname: '&8&lSpawners'
+  name: '&8&lSpawners'

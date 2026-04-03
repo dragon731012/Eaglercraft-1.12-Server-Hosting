@@ -1,0 +1,63 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: FLOWER_POT
+        buy: 69.46
+        sell: 17.37
+      '2':
+        material: JACK_O_LANTERN
+        buy: 11.2
+        sell: 2.8
+      '3':
+        material: ACACIA_LEAVES
+        buy: 3
+        sell: 0.75
+      '4':
+        material: BIRCH_LEAVES
+        buy: 3
+        sell: 0.75
+      '5':
+        material: DARK_OAK_LEAVES
+        buy: 3
+        sell: 0.75
+      '6':
+        material: JUNGLE_LEAVES
+        buy: 3
+        sell: 0.75
+      '7':
+        material: OAK_LEAVES
+        buy: 3
+        sell: 0.75
+      '8':
+        material: SPRUCE_LEAVES
+        buy: 3
+        sell: 0.75
+      '9':
+        material: ACACIA_SAPLING
+        buy: 3
+        sell: 0.75
+      '10':
+        material: BIRCH_SAPLING
+        buy: 3
+        sell: 0.75
+      '11':
+        material: DARK_OAK_SAPLING
+        buy: 3
+        sell: 0.75
+      '12':
+        material: JUNGLE_SAPLING
+        buy: 3
+        sell: 0.75
+      '13':
+        material: OAK_SAPLING
+        buy: 3
+        sell: 0.75
+      '14':
+        material: SPRUCE_SAPLING
+        buy: 3
+        sell: 0.75
+      '15':
+        material: VINE
+        buy: 7
+        sell: 1.75

@@ -1,0 +1,103 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: CAULDRON
+        buy: 110.25
+        sell: 27.57
+      '2':
+        material: DAYLIGHT_DETECTOR
+        buy: 125.86
+        sell: 31.47
+      '3':
+        material: DISPENSER
+        buy: 35.58
+        sell: 8.9
+      '4':
+        material: DROPPER
+        buy: 10.52
+        sell: 2.63
+      '5':
+        material: HOPPER
+        buy: 119.98
+        sell: 30
+      '6':
+        material: IRON_DOOR
+        buy: 22.05
+        sell: 5.52
+      '7':
+        material: JUKEBOX
+        buy: 229.77
+        sell: 57.45
+      '8':
+        material: LEVER
+        buy: 1.33
+        sell: 0.34
+      '9':
+        material: NOTE_BLOCK
+        buy: 14.78
+        sell: 3.7
+      '10':
+        material: OBSERVER
+        buy: 50.04
+        sell: 12.51
+      '11':
+        material: REDSTONE_LAMP
+        buy: 52.92
+        sell: 13.23
+      '12':
+        material: REDSTONE_TORCH
+        buy: 6.13
+        sell: 1.54
+      '13':
+        material: TRIPWIRE_HOOK
+        buy: 11.91
+        sell: 2.98
+      '14':
+        material: COMPARATOR
+        buy: 56.26
+        sell: 14.07
+      '15':
+        material: REPEATER
+        buy: 20.62
+        sell: 5.16
+      '16':
+        material: OAK_BUTTON
+        buy: 1.16
+        sell: 0.29
+      '17':
+        material: STONE_BUTTON
+        buy: 0.75
+        sell: 0.19
+      '18':
+        material: PISTON
+        buy: 33.9
+        sell: 8.48
+      '19':
+        material: STICKY_PISTON
+        buy: 40.84
+        sell: 10.21
+      '20':
+        material: OAK_PRESSURE_PLATE
+        buy: 2.32
+        sell: 0.58
+      '21':
+        material: STONE_PRESSURE_PLATE
+        buy: 1.5
+        sell: 0.38
+      '22':
+        material: LIGHT_WEIGHTED_PRESSURE_PLATE
+        buy: 66.15
+        sell: 16.54
+      '23':
+        material: HEAVY_WEIGHTED_PRESSURE_PLATE
+        buy: 44.1
+        sell: 11.03
+      '24':
+        material: OAK_TRAPDOOR
+        buy: 3.48
+        sell: 0.87
+      '25':
+        material: IRON_TRAPDOOR
+        buy: 88.2
+        sell: 22.05

@@ -1,0 +1,1312 @@
+# Config.yml of EconomyShopGUI
+#
+# More info about all of the options can be found at the EconomyShopGUI wiki
+# https://wiki.gpplugins.com/economyshopgui/file-configuration/config.yml
+####################################################################################
+#                                                                                  #
+#            ##############          ########                                      #
+#            ##############         ########                                       #
+#            ##                    ##                                              #
+#            ##                   ##                                               #
+#            ##                    ##                                              #
+#            ########               #######           ############                 #
+#            ########                #######          ############                 #
+#            ##                            ##                                      #
+#            ##                             ##                                     #
+#            ##                            ##                                      #
+#            ##############         ########                                       #
+#            ##############        ########                                        #
+#                                                                                  #
+#                                                                                  #
+#                                                                                  #
+#              ###########           ##             ##      ########               #
+#             #############          ##             ##        ####                 #
+#            ##                      ##             ##         ##                  #
+#           ##                       ##             ##         ##                  #
+#           ##                       ##             ##         ##                  #
+#           ##   #########           ##             ##         ##                  #
+#           ##   ##########          ##             ##         ##                  #
+#           ##            ##         ##             ##         ##                  #
+#           ##             ##        ##             ##         ##                  #
+#            ##           ##          ##           ##          ##                  #
+#             #############            #############          ####                 #
+#              ###########              ###########         ########               #
+#                                                                                  #
+#                                                                                  #
+#                                                                                  #
+####################################################################################
+#
+config-version: 2.0.1.6
+# WARNING: Do not change this value as this might end up in a plugin that does not work!!
+#----------------------------------------------Language-------------------------------------------------
+
+# Here you can change the language of the plugin.
+language-file: lang-en.yml
+
+# See this link for all available language files: https://wiki.gpplugins.com/economyshopgui/file-configuration/languages#currently-supported-languages
+
+
+#-----------------------------------------------Locale--------------------------------------------------
+
+# The locale which will be used to format currencies.
+# Examples:
+# 'en-US' has a format of '#,##0.00'
+# 'nl-NL' has a format of '#.##0,00'
+locale: en-US
+# Note: This is not the locale at which messages will be translated, see the above option for that.
+# The locale is set in BCP 47 language tag.
+# See this website for some example BCP 47 language tag you can use: https://appmakers.dev/bcp-47-language-codes-list/
+
+# Currency format
+currency-format: '#,##0.00'
+
+# Use price amount abbreviations(shortcuts) for display prices
+abbreviations:
+  enabled: false
+  # This list is processed from top to bottom
+  # Each entry in the list represents a shorthand notation for a certain magnitude,
+  # with magnitudes increasing by a factor of 1000 as you move down the list
+  formats:
+  - 'k'
+  - 'm'
+  - 'b'
+  - 't'
+  - 'q'
+
+
+#-----------------------------------------------Updates-------------------------------------------------
+
+# This option enables or disables the automatic checking of updates for the plugin on startup or reload of the plugin
+update-checking: true
+
+
+#----------------------------------------------DebugMode------------------------------------------------
+
+# Set this value to false to disable debug mode and do not send debug messages to the console.
+debug: true
+
+# When this option is true, nms will be used for item loading and opening shops
+use-nms: true
+# The benefit of using NMS is that test results prove that it is almost twice as fast for loading items/opening shops
+# The plugin is always tested using NMS and so you should not need to disable this option
+# The only reason why you would want to disable this is if you're experiencing version compatibility issues or if support tells you to do so
+
+# When enabled, the plugin will utilize the paper API on paper 1.21.3+ servers to apply item name/lore to items and create inventory's,
+# which also allows the use of advanced MiniMessage formats in inventory titles and item names/lore
+use-paper-meta: true
+# When disabled, NMS will be used for item displays(unless disabled)
+
+
+#---------------------------------------------Transactions----------------------------------------------
+
+# Whether transactions should be logged to a text file
+transaction-log: false
+# Tip: Since EconomyShopGUI v6.12.0 the transaction history is logged inside a database by default with more details for transactions
+# So the transactions text file feature became redundant and may be disabled to save disk space
+
+# Whether the transaction history should be stored inside a database
+# Note that this feature is required for transaction placeholders to work and may be used for upcoming features,
+# so it is recommended to leave this enabled
+advanced-transaction-log: true
+
+
+#---------------------------------------------Placeholders----------------------------------------------
+
+placeholders:
+  # Specify the caching period for refreshing the transactions in seconds from the database
+  # Default is 1 minute, even shorter times allow transaction placeholders to be refreshed more frequently
+  # Note that this overrides how frequently the placeholder can be refreshed by PlaceholderAPI
+  transaction-cache: 60
+
+
+#-----------------------------------------------ShopStand-----------------------------------------------
+
+# ShopStands allow physical stands to be placed down as blocks,
+# allowing players to right/left-click the stand to purchase the item linked
+shop-stands:
+  # Enable or disable the module
+  enable: false
+  # Set the default behavior for holograms from a ShopStand
+  # TIP: When enabled, the holograms of shop stands can still be disabled individually by shift clicking the stand
+  holograms: true
+
+# ShopStands is a separate module of the plugin, so when disabled, it will completely disable this feature and its listeners
+# Due to its smart design, ShopStands aren't persistent(1.13+) unlike regular entities, and the impact on performance is minimal
+
+
+#---------------------------------------DisabledCommandsInWorlds----------------------------------------
+
+# The setting below enables or disables the disabled commands inside certain worlds feature
+# When this option is true, the commands that are added to the world inside the list below will be disabled
+enable-disabled-worlds: false
+
+# List of commands with disabled worlds
+# Each command has its own list of worlds that will be disabled.
+# If a command is not added or the list with worlds for the specified command is empty,
+# the command will work in every world.
+disabled-worlds-per-command:
+
+  shop:
+  - 'testbuilding'
+
+  sellall:
+  - 'randompvp'
+
+  editshop:
+  - 'boss-fights'
+  - 'Survival-Spawn'
+
+# NOTE: Commands disabled inside worlds with the feature above will still be registered inside the server,
+# meaning that a command still can conflict with the same command from another plugin.
+
+
+#--------------------------------------------EconomyProvider--------------------------------------------
+
+# Use this to set a different economy provider other than vault
+# Supported economy types:
+# VAULT = Economy API which requires a separate economy plugin to be installed like Essentials or CMI
+# PLAYER_POINTS = Economy provider which supports MySQL
+# GEMS_ECONOMY = Economy provider which supports multiple currencies using 'GEMS_ECONOMY:<currency>'
+# ULTRA_ECONOMY = Economy provider which supports multiple currencies using 'ULTRA_ECONOMY:<currency>'
+# COINS_ENGINE = Economy provider(formerly known as GamePoints) which supports multiple currencies using 'COINS_ENGINE:<currency>'
+# VOTING_PLUGIN = Points economy from VotingPlugin
+# ZESSENTIALS = Alternative essentials plugin supporting multiple currencies using 'ZESSENTIALS:<currency>'
+# EXP = Raw XP points used to enchant items
+economy-provider: VAULT
+
+# The economy provider above will be used for every item except when you specify a specific section economy.
+# See our wiki here on how to use multiple economy's at the same time for specific sections:
+# https://wiki.gpplugins.com/economyshopgui/file-configuration/sections.yml#specific-currency
+
+# The formatted names for currency's
+# Any currency's from GemsEconomy, UltraEconomy and CoinsEngine will use the formats when the currency was created/set by the economy plugin,
+# though this can be overridden by setting it manually below per currency if desired
+currency-formats:
+  player-points:
+    singular: Point
+    plural: Points
+    friendly: Points
+  vault:
+    singular: '%currency-symbol%'
+    plural: '%currency-symbol%'
+    friendly: money
+  gems-economy:Example:
+    singular: Example
+    plural: Examples
+    friendly: Examples
+
+
+#--------------------------------------------SpawnerProvider--------------------------------------------
+
+# This option can be used to set an external spawner provider to use for the spawners inside the shop
+# Available values:
+# DISABLED = This will disable both spawner place and break event which disables the spawner provider
+# DEFAULT = The default spawner provider inside ESGUI, see the SpawnerSettings section in this config
+# AUTO = Automatically searches for compatible spawner provider, if no provider was found, DEFAULT will be used
+# SILKSPAWNERS = An external spawner provider created by Timbru
+# SILKSPAWNERSV2 = An external spawner provider created by CandC_9_12
+# WILDSTACKER = An external spawner provider that can stack & upgrade spawners
+# ULTIMATESTACKER = An external spawner provider that can stack spawners
+# ROSESTACKER = An external spawner provider that can stack spawners
+# MINEABLESPAWNERS = An external spawner provider
+# SPAWNERMETA = An external spawner provider that can stack & upgrade spawners
+# SPAWNERLEGACY = The premium version of SpawnerMeta with more features/customize-ability
+# SMART_SPAWNER = A spawner provider which supports stacking spawners
+spawner-provider: AUTO
+# NOTE: When there is no spawner provider set, the default will be used
+
+
+#-----------------------------------------------DiscordSRV----------------------------------------------
+
+# The DiscordSRV hook allows you to log transaction directly to a discord text channels in your guild when someone makes a transaction
+enable-discordsrv-hook: false
+
+# Note: The channel configured under the 'channel' option also needs to exist inside config.yml of DiscordSRV or this won't work
+# See their documentation on how to add channels: https://docs.discordsrv.com/installation/basic-setup/#set-up-a-basic-channel-relay
+
+# Configure the message sent to a channel when a transaction is made
+# Available placeholders:
+# %translations-discord-srv-transaction% - The DiscordSRV message configured inside your language file
+# %player_skull_texture% - The player's skull texture
+# %player_name% - The player triggering the transaction
+# %player_displayname% = The player displayname with prefixes/suffixes
+# %bought/sold% - Either 'bought' or 'sold'
+# %amount% - The amount of items used in this transaction
+# %items% - The item names used in this transaction
+# %price% - The total price for all items used in this transaction
+discordsrv-transactions:
+  channel: shop-transactions
+  raw: ''
+  embed:
+    color: '0x006FFF'
+    title: ''
+    description: ''
+    author:
+      title: New shop transaction
+      imageURL: https://api.creepernation.net/avatar/%player_name%
+    fields:
+      1:
+        title: Player
+        message: '```%player_displayname%```'
+      2:
+        title: Mode
+        message: '```%bought/sold%```'
+      3:
+        title: Amount
+        message: '```%amount%```'
+      4:
+        title: Product(s)
+        message: '```%items%```'
+      5:
+        title: Price
+        message: '```%price%```'
+    footer:
+      title: ''
+      imageURL: ''
+
+
+#------------------------------------------PlayerTransactions-------------------------------------------
+
+# When this option is set to true, every time a player sells/buys something from the server, it will output it in the console.
+# This way the server owner or staff can see when a item is bought/sold many times or control/correct prices and exploits in the shop.
+log-player-transactions: true
+# Set to false to disable this.
+
+# This option sends an on-screen title to the player with the price of the items being bought/sold
+# When this setting is enabled, it will only show when items get sold either thru /sellgui, /sellall commands or when the item has the 'close-menu' item option enabled
+on-screen-title: true
+
+# Should we drop the remaining items on the ground when the players inventory is full?
+drop-remaining-items-on-ground: false
+# When this option is false, the plugin will only give the items that fit inside the inventory and the remaining items will be cancelled. The player will only pay for the amount of items that fit inside the inventory.
+# Warning: When this option is true, players could lag out your server by buying an insane amount of items that fall on the ground!
+
+# Whether to sell shulker contents
+# When false, shulker boxes inside the player's inventory when selling items won't be emptied/sold
+# When true, the plugin will try to sell any item inside a shulker box when selling items
+sell-shulker-boxes: true
+
+# Players will not be able to buy/sell items, nor use /sellall and /sellgui while inside any of the below gamemodes
+# Possible values: ADVENTURE, CREATIVE, SPECTATOR and SURVIVAL
+banned-gamemodes:
+- 'CREATIVE'
+- 'SPECTATOR'
+
+# When purchasing a item from shop, should the transaction message say which material was sold/bought from shop or should it be the item name?
+use-item-name: true
+# When this is false, purchasing/selling a item to shop will cause the message in chat use the material name of the item instead of the item name to let the player know what has been sold/bought
+
+
+#-----------------------------------------------Bedrock--------------------------------------------------
+
+# When this option is true, all GUI screens opened for bedrock players will default to a full sized inventory
+resize-gui-for-bedrock: true
+
+# Enabling this option will enable support for bedrock players to see textured player heads by loading a custom resource pack
+pre-register-skulls: false
+# NOTE: This requires Geyser, and the setting inside the config of Geyser 'add-non-bedrock-items' to be enabled for this to work
+# NOTE: This feature only loads textured player heads for shop items, navigation bars and transaction items,
+# meaning that the bedrock player's head won't be loaded when using 'skullowner: %player_name%'
+# NOTE: Since newer versions of Geyser disable itself when it runs on both backend and proxy servers, this feature can no longer be used for servers running behind a proxy!
+# NOTE: Adding a new textured player head to shop when the server is running won't work, this requires a full server restart
+
+# This option enables a custom player profile item for bedrock players instead of the 'skullowner: %player_name%' texture
+custom-bedrock-player-profile:
+  enabled: true
+  item:
+    material: SUNFLOWER
+    name: '%player_displayname%'
+    lore:
+    - '%translations-money%: &c%player_balance%'
+
+# !! If you have a server network and Floodgate on the backend server,
+# you will need to enable the option 'send-floodgate-data' inside the config.yml of Floodgate on your proxy server for players to be detected as Bedrock players !!
+
+
+#---------------------------------------------Inventory's------------------------------------------------
+
+# Whether the previous GUI menu should open when pressing the escape button
+# Example: Pressing escape to close the inventory when inside the buy/sell screen, will open the shop page of the shop section from this item
+escape-back: false
+# This won't work when the back button is disabled
+# Note: This option requires a server restart for changes
+
+main-menu:
+  # The size of the main shop inventory in rows
+  # Possible values: 2 | 3 | 4 | 5 | 6
+  # Note that the navigation bar also is 1 row(unless disabled)
+  gui-rows: 6
+  # The fill item for inside the main menu which will fill empty spots
+  fill-item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    enable: true
+
+# Assign custom click actions when clicking a shop item
+# Possible actions: BUY, SELL, SELL_ALL
+# Possible click types: LEFT, SHIFT_LEFT, RIGHT, SHIFT_RIGHT, NONE
+click-mappings:
+  BUY: LEFT
+  SELL: RIGHT
+  SELL_ALL: SHIFT_RIGHT
+# These are globally specified mappings, meaning if a section does not override these mappings, it will default to this
+
+# Inventory settings for the /sellgui screen
+sellgui-screen:
+  gui-rows: 6
+#  items:
+#    filler1:
+#      material: GRAY_STAINED_GLASS_PANE
+#      name: " "
+#      slot: 1-9,10,18,19,27,28,36,37,45
+
+#--------------------------------------------NavigationBar----------------------------------------------
+
+# These settings allow you to customize the items in the bottom row of the GUI, aka the navigation bar
+# Valid placeholders:
+# %player_name% = the player name
+# %player_displayname% = The player displayname with prefixes/suffixes
+# %player_balance% = the player's balance
+# %player_level% = the player's ingame experience level
+# %translations-money% = the translated message of 'money'
+# %translations-level% = the translated message of 'level'
+# %translations-previous-page% = the translated message of 'previous-page'
+# %translations-current-page% = the translated message of 'current-page'
+# %translations-next-page% = the translated message of 'next-page'
+# %translations-back% = the translated message of 'back'
+# %translations-cancel% = the translated message of 'cancel'
+# Valid actions:
+# PAGE_BACK = Open the previous page when clicked
+# PAGE_NEXT = Open the next page when clicked
+# BACK = Open the previous menu when clicked
+
+# The navigation bar that appears in the main menu
+main-menu-nav-bar:
+  enabled: true
+  items:
+    1:
+      material: player_head
+      skullowner: '%player_name%'
+      name: '%player_displayname%'
+      lore:
+      - '%translations-money%: &c%player_balance%'
+    2:
+      material: air
+    3:
+      material: air
+    4:
+      material: air
+    5:
+      material: air
+    6:
+      material: air
+    7:
+      material: air
+    8:
+      material: air
+    9:
+      material: barrier
+      name: '%translations-cancel%'
+      action: BACK
+
+# The 'default' navigation bar for every shop category
+# Note that disabling the navigation bar here, will also disable it for every shop category which does not have its own navigation bar configured
+shops-nav-bar:
+  enabled: true
+  items:
+    1:
+      material: player_head
+      skullowner: '%player_name%'
+      name: '%player_displayname%'
+      lore:
+      - '%translations-money%: &c%player_balance%'
+    2:
+      material: air
+    3:
+      material: air
+    4:
+      material: red_stained_glass_pane
+      name: '%translations-previous-page%'
+      action: PAGE_BACK
+      paginated:
+        enabled: true
+        orElse:
+          material: AIR
+    5:
+      material: paper
+      name: '%translations-current-page%'
+    6:
+      material: blue_stained_glass_pane
+      name: '%translations-next-page%'
+      action: PAGE_NEXT
+      paginated:
+        enabled: true
+        orElse:
+          material: AIR
+    7:
+      material: air
+    8:
+      material: air
+    9:
+      material: barrier
+      name: '%translations-back%'
+      action: BACK
+
+# The navigation bar that appears in the buy/sell screens and the buy stacks screen
+# Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
+transaction-screens-nav-bar:
+  enabled: true
+  items:
+    1:
+      material: player_head
+      skullowner: '%player_name%'
+      name: '%player_displayname%'
+      lore:
+      - '%translations-money%: &c%player_balance%'
+    2:
+      material: air
+    3:
+      material: air
+    4:
+      material: air
+    5:
+      material: REDSTONE_TORCH
+      name: '&c&lToggle buying/selling'
+      action: TOGGLE_MODE
+      onlyEnableForGeyserPlayers: true
+    6:
+      material: air
+    7:
+      material: air
+    8:
+      material: air
+    9:
+      material: barrier
+      name: '%translations-back%'
+      action: BACK
+
+# The navigation bar that appears in the buy/sell screens from the shop stands
+# Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
+shopstands-transaction-screens-nav-bar:
+  enabled: false
+  items:
+    1:
+      material: player_head
+      skullowner: '%player_name%'
+      name: '%player_displayname%'
+      lore:
+      - '%translations-money%: &c%player_balance%'
+    2:
+      material: air
+    3:
+      material: air
+    4:
+      material: air
+    5:
+      material: REDSTONE_TORCH
+      name: '&c&lToggle buying/selling'
+      action: TOGGLE_MODE
+      onlyEnableForGeyserPlayers: true
+    6:
+      material: air
+    7:
+      material: air
+    8:
+      material: air
+    9:
+      material: barrier
+      name: '%translations-close%'
+      action: CLOSE
+
+# The navigation bar that appears in the /sellGUI screen
+sellgui-nav-bar:
+  enabled: true
+  items:
+    1:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    2:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    3:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    4:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    5:
+      material: NETHER_STAR
+      name: '&a&lSellGUI'
+      lore:
+      - '&6Drop items in to sell'
+      - '&6upon closing, everything will be sold.'
+      - '&eItems that couldn''t be sold'
+      - '&ewill be given back to you.'
+    6:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    7:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    8:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    9:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+
+
+#---------------------------------------------ItemSettings----------------------------------------------
+
+# Allows items with a different name to be sold to the shop
+allow-renamed-items: true
+
+# Allows items with different lore to be sold to the shop
+allow-lore-items: true
+
+# When disabled, all sold items will be sold regardless of their item meta(name, lore, enchantments, armor color, potion types, spawner types, recipes, etc...)
+# and will only be matched according the item type
+match-item-meta: true
+
+# Sort the shop items that match each other using a custom order in the list,
+# that way the highest/lowest priced item is prioritized when selling items via /sellall or /sellgui
+#
+# SHOP_LOAD_ORDER = Items will be loaded in the load order of the shop they are located in(Default)
+# DESCENDING_SELL_PRICE = Sort items from HIGH sell prices to LOW sell prices
+# ASCENDING_SELL_PRICE = Sort items from LOW sell prices to HIGH sell prices
+sort-items-by: DESCENDING_SELL_PRICE
+# By default, when set to DESCENDING, items that match each other(or duplicate) are prioritized by the highest sell price when selling them
+# For example when having two similar apples in shop, one sold for 20$ and one sold for 5$, players will sell the apple with the highest price when sold via /sellall or /sellgui
+
+# Shop item lore is separated into 7 different 'parts' which can be changed in order.
+# The default order of lore is as follows:
+# 1. special-lore
+# 2. item-requirements
+# 3. buy-prices
+# 4. sell-prices
+# 5. decoration-lore
+# 6. item-lore(Configured on the shop item inside the config(if any))
+# 7. admin-lore
+# Use the list below to re-arrange it
+lore-arrangement:
+- 'special-lore'
+- 'item-requirements'
+- 'buy-prices'
+- 'sell-prices'
+- 'decoration-lore'
+- 'item-lore'
+- 'admin-lore'
+
+# Allows customization of display lore displayed on shop items.
+# Note that only pricing and decoration lore support multiple lines of lore,
+# adding multiple lines to lore which does not support it, will not work.
+# It is possible to remove language placeholders('%translations-<message>%') and modify the lore directly in here.
+# Color codes and RGB colors are supported!
+display-lore-layout:
+  # Top lore of a shop item
+  special-lore:
+    seasonal-pricing: '%translations-item-seasonal-price%'
+  # Displayed when the player doesn't meet a item requirement
+  item-requirements:
+    region-requirement-not-met:
+    - '%translations-region-requirement-lore%'
+    quest-requirement-not-met:
+    - '%translations-quest-requirement-lore%'
+    time-requirement-not-met:
+    - '%translations-time-requirement-lore%'
+  # One of the following lore is displayed on shop items with buy prices based on the items state
+  buy-prices:
+    normal:
+    - '%translations-left-click-buy%'
+    disabled:
+    - '%translations-item-cannot-be-bought%'
+    undefined:
+    - ''
+    discounted:
+    - '%translations-discounted-buy-price%'
+    seasonal:
+    - '%translations-seasonal-buy-price%'
+  # One of the following lore is displayed on shop items with sell prices based on the items state
+  sell-prices:
+    normal:
+    - '%translations-right-click-sell%'
+    disabled:
+    - '%translations-item-cannot-be-sold%'
+    undefined:
+    - ''
+    multiplied:
+    - '%translations-multiplied-sell-price%'
+    seasonal:
+    - '%translations-seasonal-sell-price%'
+    # The following lore is displayed on any shop item with a sell price
+    # AND if the shift-right-click-sell-all config option is enabled
+    sell-all:
+    - ''
+  # Extra item lore displayed on every shop items
+  # Can be used to decorate lore, or add information inside lore which applies for all items
+  decoration-lore:
+    # The following decoration lore is displayed on every shop item with a buy and/or sell price
+    extra-lore:
+    - '%translations-decoration-lore%'
+    # The following decoration lore is displayed on any shop item with a buy price
+    extra-buy-lore:
+    - '%translations-decoration-lore-buy%'
+    # The following decoration lore is displayed on any shop item with a sell price
+    # AND if the shift-right-click-sell-all config option is enabled
+    extra-sell-all-lore:
+    - '%translations-decoration-lore-sell-all%'
+    # The following decoration lore is displayed on any shop item with a sell price
+    extra-sell-lore:
+    - '%translations-decoration-lore-sell%'
+  # More detailed item lore which is only shown for specific permissions
+  admin-lore:
+    # The following lore is only displayed on shop items if players have the 'EconomyShopGUI.itemindexes' permission
+    item-index: '%translations-item-location-in-shop%'
+
+# Enable/disable the lore on items given to players when an item is bought from shop
+bought-items-lore: true
+
+# Allow enchants greater than the max level that Mojang has specified.
+allow-unsafe-enchants: true
+
+# This option will toggle whether non-stackable/over-stacked items are allowed inside the shop
+# When having troubles with illegal-stack plugins and this plugin, disable this option to limit item stacking to their natural stack size to prevent future issues
+allow-illegal-stacks: true
+# Enabling this option will allow players to select up to x64 to buy in the transaction screens, even if the max stack size of the item is 16 for example
+
+# Whether the ADD/REMOVE buttons of the transaction screens are changed
+# to help players visually see when the min/max amount is reached which they can select using the buttons
+# If this is disabled, players can still only select to the max stack size of the item(depending on the allow-illegal-stacks option)
+visual-transaction-limits:
+  # The action to take when min/max amount is reached
+  # Valid actions are NONE, RENAME, REMOVE
+  # RENAME will rename the item buttons, whereas REMOVE will remove the button from the transaction screen for the time the limit is reached
+  action: REMOVE
+  # If disabled, the ADD/REMOVE buttons will not change (depending on the action specified above) for the initial amount of the item only,
+  # where the initial amount is the amount which is preselected when first opening the buy/sell screens
+  # When enabled, for example a unstackable item will not show or have renamed ADD/REMOVE buttons even if the user did not click any buttons
+  initial-amount: true
+
+# Globally enable or disable the feature to use Shift-Right-Click to sell all items
+shift-right-click-sell-all: true
+
+# The NBT Tags listed below will be ignored when a item gets sold to the shop
+# For example:
+# When a tool/armor is damaged it cannot be sold to the server by default, if you add the 'Damage' tag to the list below. A damaged item can be sold to the shop
+sold-items-ignored-NBTtags:
+- 'RepairCost'
+# The 'RepairCost' tag is added by default since all items that get repaired by anvil/mending will get it, if we don't add it to the ignored list, a item repaired will not be able to be sold to the server
+
+# Set the limit for maximum pages inside a shop section, default is 50 but you can expand it to 100 if needed
+max-shop-pages: 50
+# Note: 50 pages is already a limit of 2250 items(50 * 45) inside one shop section which will most likely never be used.
+# We only decided to add a limit to this to prevent people from making a shop with a redundant amount of pages(1000/5000/...),
+# if you really need more pages inside your shop which will most likely never happen, just join our support server and tell us why you need it, we will increase this limit only if we see this being a need.
+
+# These settings can be changed to customize the option items inside the buy/sell screen
+
+# The following placeholders can be used to get the displayname of the item from your language file
+# %translations-min-thirty-two%
+# %translations-min-sixteen%
+# %translations-min-one%
+# %translations-plus-one%
+# %translations-plus-sixteen%
+# %translations-plus-thirty-two%
+# %translations-buy%
+# %translations-buy-stacks%
+# %translations-sell-all%
+# %translations-sell%
+
+# Buy screen
+buy-screen:
+  menu-size: 5
+  fill-item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+  items:
+    1:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-thirty-two%'
+      stack-size: 32
+      action: REMOVE32
+      slot: 19
+
+    2:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-sixteen%'
+      stack-size: 16
+      action: REMOVE16
+      slot: 20
+
+    3:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-one%'
+      action: REMOVE1
+      slot: 21
+
+    4:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-one%'
+      action: ADD1
+      slot: 23
+
+    5:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-sixteen%'
+      stack-size: 16
+      action: ADD16
+      slot: 24
+
+    6:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-thirty-two%'
+      stack-size: 32
+      action: ADD32
+      slot: 25
+
+    7:
+      material: paper
+      name: '%translations-buy%'
+      lore:
+      - '%translations-transaction-screen-total-price%'
+      action: CONFIRM_TRANSACTION
+      slot: 13
+      type: CONFIRM
+
+    8:
+      slot: 22
+      type: SELECTED_ITEM
+
+    9:
+      material: chest
+      name: '%translations-buy-stacks%'
+      slot: 31
+      action: OPEN_BUY_STACKS
+
+# Sell screen
+sell-screen:
+  menu-size: 5
+  fill-item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+  items:
+    1:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-thirty-two%'
+      stack-size: 32
+      action: REMOVE32
+      slot: 19
+
+    2:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-sixteen%'
+      stack-size: 16
+      action: REMOVE16
+      slot: 20
+
+    3:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-one%'
+      action: REMOVE1
+      slot: 21
+
+    4:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-one%'
+      action: ADD1
+      slot: 23
+
+    5:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-sixteen%'
+      stack-size: 16
+      action: ADD16
+      slot: 24
+
+    6:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-thirty-two%'
+      stack-size: 32
+      action: ADD32
+      slot: 25
+
+    7:
+      material: paper
+      name: '%translations-sell%'
+      lore:
+      - '%translations-transaction-screen-total-price%'
+      action: CONFIRM_TRANSACTION
+      slot: 13
+      type: CONFIRM
+
+    8:
+      slot: 22
+      type: SELECTED_ITEM
+
+    9:
+      material: emerald
+      name: '%translations-sell-all%'
+      slot: 31
+      action: SELL_ALL
+
+# Buy stacks screen
+buy-stacks-screen:
+  menu-size: 5
+  fill-item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+  items:
+    1:
+      material: magenta_stained_glass
+      name: '%translations-min-thirty-two%'
+      stack-size: 32
+      action: REMOVE32
+      slot: 19
+
+    2:
+      material: magenta_stained_glass
+      name: '%translations-min-sixteen%'
+      stack-size: 16
+      action: REMOVE16
+      slot: 20
+
+    3:
+      material: magenta_stained_glass
+      name: '%translations-min-one%'
+      action: REMOVE1
+      slot: 21
+
+    4:
+      material: light_blue_stained_glass
+      name: '%translations-plus-one%'
+      action: ADD1
+      slot: 23
+
+    5:
+      material: light_blue_stained_glass
+      name: '%translations-plus-sixteen%'
+      stack-size: 16
+      action: ADD16
+      slot: 24
+
+    6:
+      material: light_blue_stained_glass
+      name: '%translations-plus-thirty-two%'
+      stack-size: 32
+      action: ADD32
+      slot: 25
+
+    7:
+      material: paper
+      name: '%translations-buy%'
+      lore:
+      - '%translations-transaction-screen-total-price%'
+      action: CONFIRM_TRANSACTION
+      slot: 13
+      type: CONFIRM
+
+    8:
+      slot: 22
+      type: SELECTED_ITEM
+
+shopstand-buy-screen:
+  menu-size: 1
+  items:
+    1:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-buy%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 1
+      hideDefaultLore: true
+      action: INSTA_BUY
+      slot: 0
+    2:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-buy%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 4
+      hideDefaultLore: true
+      action: INSTA_BUY
+      slot: 1
+    3:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-buy%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 10
+      hideDefaultLore: true
+      action: INSTA_BUY
+      slot: 2
+    4:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-buy%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 16
+      hideDefaultLore: true
+      action: INSTA_BUY
+      slot: 3
+    5:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-buy%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 32
+      hideDefaultLore: true
+      action: INSTA_BUY
+      slot: 4
+    6:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-buy%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 64
+      hideDefaultLore: true
+      action: INSTA_BUY
+      slot: 5
+    7:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-buy%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 128
+      hideDefaultLore: true
+      action: INSTA_BUY
+      slot: 6
+    8:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-buy%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 256
+      hideDefaultLore: true
+      action: INSTA_BUY
+      slot: 7
+    9:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-buy%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 512
+      hideDefaultLore: true
+      action: INSTA_BUY
+      slot: 8
+
+shopstand-sell-screen:
+  menu-size: 1
+  items:
+    1:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-sell%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 1
+      hideDefaultLore: true
+      action: INSTA_SELL
+      slot: 0
+    2:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-sell%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 4
+      hideDefaultLore: true
+      action: INSTA_SELL
+      slot: 1
+    3:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-sell%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 10
+      hideDefaultLore: true
+      action: INSTA_SELL
+      slot: 2
+    4:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-sell%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 16
+      hideDefaultLore: true
+      action: INSTA_SELL
+      slot: 3
+    5:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-sell%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 32
+      hideDefaultLore: true
+      action: INSTA_SELL
+      slot: 4
+    6:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-sell%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 64
+      hideDefaultLore: true
+      action: INSTA_SELL
+      slot: 5
+    7:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-sell%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 128
+      hideDefaultLore: true
+      action: INSTA_SELL
+      slot: 6
+    8:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-sell%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 256
+      hideDefaultLore: true
+      action: INSTA_SELL
+      slot: 7
+    9:
+      material: '%selected_item%'
+      name: '%translations-shopstand-click-to-sell%'
+      lore:
+      - '%translations-shopstand-total-price%'
+      stack-size: 512
+      hideDefaultLore: true
+      action: INSTA_SELL
+      slot: 8
+
+#------------------------------------------------Seasons------------------------------------------------
+
+# In combination with the plugin RealisticSeasons, it is possible to add price modifiers for items per season
+enable-seasonal-pricing: false
+
+# All price modifiers below are calculated of the original price specified inside the shops.yml
+# For example: +50% on an item with buy price of $7 = (7+50%) $10.5
+# Note that when a season changes, all prices will reset to the original price configured in your shops.yml,
+# meaning that if on the same shop/item a multiplier for the new seasons is present, it'll be calculated of the original price.
+season-price-modifiers:
+  Spring:
+    Dyes:
+      # Increased amount of flowers in Spring
+      all: -50%
+    Food:
+      # Increased amount of mobs spawn in Spring
+      all: -25%
+    Blocks:
+      page1:items:6: +50%
+    Spawners:
+      page1:items:26: -25%
+      page1:items:10: -25%
+      page1:item:25: -25%
+      page1:items:8: -25%
+    Farming:
+      page1:items:15: +30%
+  Summer:
+    Farming:
+      # Most crops/plants will grow twice as fast in Summer
+      all: +35%
+  Fall:
+    Spawners:
+      page1:items:20: -50%
+      page1:items:13: -50%
+      page1:items:31: -40%
+      page1:items:7: -25%
+    Farming:
+      page1:items:24: -75%
+      page1:items:7: -75%
+    Mobs:
+      page1:items:18: +25%
+  Winter:
+    Blocks:
+      page1:items:6: +50%
+    Spawners:
+      page1:items:35: -50%
+    Farming:
+      # Most crops/plants won't grow in Winter
+      all: -20%
+      page1:items:15: +45%
+
+# Should shop items notify players when a seasonal price is present?
+# When this is enabled, shop items with a seasonal price will display so in there shop lore
+seasonal-lore:
+  enabled: true
+  Summer:
+    icon: '&e&l☀'
+  Spring:
+    icon: '&6&l☘'
+  Fall:
+    icon: '&c☔'
+  Winter:
+    icon: '&b&l❄'
+
+
+#-----------------------------------------------Discounts-----------------------------------------------
+
+# Enable or disable discounts inside the shop
+enable-discounts: false
+
+# Here you can set all discounts active inside the shop
+# Every entry is a shop section that holds the permission nodes with its discounts
+discounts:
+  # Section blocks
+  Blocks:
+    # Players with the permission node EconomyShopGUI.discounts.vip inside your permissions system will get 20% discount on every item inside this section.
+    vip: 20
+    # Players with the permission node EconomyShopGUI.discounts.gold inside your permissions system will get 5% discount on every item inside this section.
+    gold: 5
+  Farming:
+    vip: 15
+  Redstone:
+    diamond: 30
+  all:
+    coal: 2.5
+# If a player has for example access to 2 permission discounts inside the same shop section, the discount with the highest value will be active
+
+
+#--------------------------------------------SellMultipliers--------------------------------------------
+
+# Enable or disable sell multipliers
+enable-sell-multipliers: false
+
+# Configure this option to use sell multipliers
+# Every entry is a shop section that holds the permission nodes with its multipliers
+sell-multipliers:
+  all:
+    # Players with the permission 'EconomyShopGUI.sell-multipliers.vip' will get an 20% multiplier on any item
+    vip: 20
+    # Players with the permission 'EconomyShopGUI.sell-multipliers.gold' will get an 2.5% multiplier on any item
+    gold: 2.5
+    # Players with the permission 'EconomyShopGUI.sell-multipliers.coal' will get an 1% multiplier on any item
+    coal: 1
+  Spawners:
+    # Players with the permission 'EconomyShopGUI.sell-multipliers.gold' will get an extra 10% multiplier in this section
+    gold: 12.5
+# If a player has for example access to 2 sell multipliers inside the same shop section, the multiplier with the highest value will be active
+
+
+#-----------------------------------------------Commands------------------------------------------------
+
+# When this option is turned on it will automatically override the essential's sell command with an alias to /sellall.
+# There are a few reasons why this setting is turned on for default, and you should use /sellall instead of /sell
+# 1. EconomyShopGUI's /sellall command is capable of differentiating item meta data whereas the /sell command from essentials sells items according to their material
+# 2. Players accidentally use /sell instead of /sellall ending up in giving them a different sell price for the item
+override-sell-command: true
+# Note: Disabling this feature will get rid of the command alias, but you will need to restart your server to see changes
+
+# This setting will enable the use of the old /sellall command
+# Meaning that if the below setting is set to true, players can use '/sellall' without a subcommand to sell the whole inventory instead of '/sellall inventory'
+old-sellall-command: false
+# This setting is set to false by default because it may confuse players with the /sell command from essentials, ending in them accidentally selling their whole inventory
+
+# These are the commands included in EconomyShopGUI
+# Set a command to true to enable it, and set a command to false in order to disable it.
+commands:
+
+  # SellAll command lets you sell all items inside your inventory that are listed in the shop, or you can sell a specific item.
+  sellall: true
+
+  # The shop command opens the main shop.
+  shop: true
+
+  # Reload command allows you to reload all configuration files.
+  sreload: true
+
+  # With this command you can add/remove items without configuring the shops config
+  editshop: true
+
+  # This command opens a sell GUI to sell items
+  sellgui: true
+
+  # Allows to give shop items to certain players or yourself
+  shopgive: true
+
+# Set different aliases for the main shop command, defaults to /shop if empty
+# Do not use a slash('/') before the command name or it will not work
+shop-commands:
+- 'shop'
+- 'market'
+
+# Set different aliases for the sellall command, defaults to /sellall if empty
+sellall-commands:
+- 'sellall'
+
+# Set different aliases for the sellgui command, defaults to /sellgui if empty
+sellgui-commands:
+- 'sellgui'
+
+
+#-------------------------------------------DisableBackButton-------------------------------------------
+
+# Disables the ability to go back to the previous shop menu
+disable-back:
+  # When enabled, the back button will be disabled on direct shop command(/shop <section>)
+  direct-shop-command: false
+  # When enabled, the back button will be disabled on direct shop command executed from console(/shop <section> <player>)
+  # Useful for NPC shops which are opened using /shop <section> <player> to prevent the player returning to the main menu
+  direct-shop-command-console: false
+  # When enabled, the back button won't be usable for any subsections located inside any shops with a disabled back button
+  sub-sections: false
+
+
+#----------------------------------------------JoinMessage----------------------------------------------
+
+# Here you can enable or disable the JoinMessage
+enable-joinmessage: false
+
+
+#-----------------------------------------------LevelEvent----------------------------------------------
+
+# Here you can enable or disable the LevelEvent
+enable-levelevent: false
+
+# Here you can set the amount of money a player gets when he is level 5, 10, 15
+leveleventmoney5/10/15: 10
+
+# Here you can set the amount of money a player gets when he is level 20, 25, 30
+leveleventmoney20/25/30: 50
+
+
+#-----------------------------------------------SpawnerSettings---------------------------------------
+
+# NOTE: Changing any of the below settings requires a server restart to take effect
+
+# If you set this to 'false' you can only place spawners that are bought, you won't be able to get them back with an (Silk Touch) pickaxe.
+enable-spawnerbreak: true
+
+# When this option is set to false, you will no longer be able to place spawners bought from the shop with the EconomyShopGUI spawner system.
+enable-spawnerplace: true
+
+# This option disallows players to right-click a spawner with a spawn egg to change its spawned type when disabled
+# This is default Minecraft behavior and is disabled by default by EconomyShopGUI to prevent players from exploiting this feature
+# Though, if you still wanted to allow players to do this(like in default Minecraft), you may set this option to 'true'
+allow-spawner-type-change: false
+
+# This option will disable/enable the XP dropped when a spawner is broken.
+player-placed-spawners-drop-exp: false
+
+# This option defines whether the default spawner provider should be able to mine vanilla spawners aswell
+only-mine-plugin-spawners: false
+
+# Set the items that are allowed to break a spawner
+# If a spawner gets broken with another item then listed here, the spawner will not be given to the player
+spawner-break-tools:
+
+  1:
+    material: DIAMOND_PICKAXE
+    enchantments:
+    - 'SILK_TOUCH'
+  2:
+    material: IRON_PICKAXE
+    enchantments:
+    - 'SILK_TOUCH'
+    - 'EFFICIENCY:2'
+  3:
+    material: NETHERITE_PICKAXE
+    enchantments:
+    - 'SILK_TOUCH'
+
+# NOTE: When any other 3rd party spawner provider is enabled and setup, these options will no longer work since they are not controlled anymore by ESGUI

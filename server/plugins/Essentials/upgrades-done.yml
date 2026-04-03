@@ -1,0 +1,17 @@
+updateLegacyToAdventure: true
+newUidCacheBuilt: true
+updateSpawnsToNewSpawnsConfig: true
+updateJailsToNewJailsConfig: true
+warnMetrics: true
+updateRandomTeleport: true
+movemotdToFile: true
+moverulesToFile: true
+deleteOldItemsCsv: true
+sanitizeAllUserFilenames: true
+updateUsersPowerToolsFormat: true
+updateUsersHomesFormat: true
+banFormatChange: true
+updateUsersIgnoreListUUID: true
+updateUsersStupidLegacyPathNames: true
+updateUsersMailList: true
+updatePurgeBrokenNpcAccounts: true

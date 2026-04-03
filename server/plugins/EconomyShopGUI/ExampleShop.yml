@@ -1,0 +1,163 @@
+# This is an example shop file which is only a reference for how shop configs should be created in /shops/<shopName>.yml
+
+# The file name defines the shop internal name and needs to match the filename for the section inside the sections folder
+# Example:
+# /shops/Blocks.yml -> /sections/Blocks.yml
+# /shops/Z_EverythingElse.yml -> /sections/Z_EverythingElse.yml
+#
+# If this does not match, an example shop will be created with name '<shopName>.yml', so make sure it matches!
+
+# The different pages inside this section
+pages:
+  page1:
+    # The size of the GUI defined in rows, one row is 9 slots long.
+
+    # In other words, this page will have a size of 36 slots BUT;
+    # when this shop section has a navigation bar, the last row of the inventory will be 'reserved' for the navigation bar
+    # making it so the inventory can only carry 27 shop items instead of 36.
+
+    # Adding more items to this page which exceeds the size, will result in them not being able to load
+    gui-rows: 4
+    # When the per page title setting is not specified, the shop page will have the title of the section
+    title: "&dCustom title for this page"
+    # Here is where the items are configured for page 1
+    items:
+      1: # This number(item index) doesn't need to be a number and doesn't need to be in order(1,2,3) at all, it just needs to be unique for this page
+        material: "GRAY_STAINED_GLASS_PANE"
+        displayname: "&6Example item"
+        buy: 50
+        sell: 27.25
+      # An example enchanted item
+      2:
+        material: "DIAMOND_SWORD"
+        name: "&b&lKnight's sword"
+        lore:
+          - "&cDon't let this fall into the wrong hands!"
+        enchantments:
+          - "SHARPNESS:10"
+          - "UNBREAKING:5"
+          - "KNOCKBACK:5"
+          - "SMITE:5"
+          - "FIRE_ASPECT:5"
+          - "MENDING"
+        buy: 2099
+      example3:
+        material: "GRASS_BLOCK"
+        buy: 4.99
+        sell: 2.2
+      # Items with no sell price cannot be sold to shop, likewise cannot be bought from shop without a buy price
+      example_item:
+        material: "DIRT"
+        buy: 2.99
+      3:
+        material: "STONE"
+        buy: 3.99
+        sell: 1.1
+      # Example potion item
+      4:
+        material: POTION
+        displayname: "&bSuperman Potion"
+        name: "&bSuperman Potion"
+        buy: 5000
+        potiontypes:
+          - long_fire_resistance
+          - long_night_vision
+          - long_leaping
+          - long_regeneration
+          - long_strength
+          - long_swiftness
+          - long_water_breathing
+      5:
+        material: "CALCITE"
+        sell: 0.99
+      6:
+        material: "HAY_BLOCK"
+        buy: 10
+      ice:
+        material: "PACKED_ICE"
+        buy: 13.5
+        sell: 3.38
+  page2:
+    # One actual row can be used to add shop items, the bottom row will be occupied by the navigation bar
+    gui-rows: 2
+    items:
+      1:
+        material: "BLACK_WOOL"
+        buy: 29.4
+        sell: 7.35
+      2:
+        material: "BLUE_WOOL"
+        buy: 29.4
+        sell: 7.35
+      3:
+        material: "BROWN_WOOL"
+        buy: 29.4
+        sell: 7.35
+      4:
+        material: "CYAN_WOOL"
+        buy: 29.4
+        sell: 7.35
+      5:
+        material: "GRAY_WOOL"
+        buy: 29.4
+        sell: 7.35
+      6:
+        material: "GREEN_WOOL"
+        buy: 29.4
+        sell: 7.35
+      7:
+        material: "LIGHT_BLUE_WOOL"
+        buy: 29.4
+        sell: 7.35
+      8:
+        material: "LIGHT_GRAY_WOOL"
+        buy: 29.4
+        sell: 7.35
+      9:
+        material: "LIME_WOOL"
+        buy: 29.4
+        sell: 7.35
+      # The following items will not be able to load because the shop only has 9 slots available
+      10:
+        material: "MAGENTA_WOOL"
+        buy: 29.4
+        sell: 7.35
+      11:
+        material: "ORANGE_WOOL"
+        buy: 29.4
+        sell: 7.35
+      12:
+        material: "PINK_WOOL"
+        buy: 29.4
+        sell: 7.35
+      13:
+        material: "PURPLE_WOOL"
+        buy: 29.4
+        sell: 7.35
+      14:
+        material: "RED_WOOL"
+        buy: 29.4
+        sell: 7.35
+      15:
+        material: "WHITE_WOOL"
+        buy: 29.4
+        sell: 7.35
+      16:
+        material: "YELLOW_WOOL"
+        buy: 29.4
+        sell: 7.35
+  page3:
+    # Not setting any size will make the GUI dynamically sized based on how many items are in the page
+    items:
+      1:
+        material: Knowledge_book
+        name: "Get Rusty"
+        recipes:
+          - "minecraft:iron_ingot"
+          - "minecraft:furnace"
+          - "minecraft:NETHERITE_SWORD"
+        buy: 10
+      2:
+        material: "BEACON"
+        buy: 1601.52
+        sell: 400.38

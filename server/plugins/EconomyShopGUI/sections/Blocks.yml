@@ -1,0 +1,14 @@
+enable: true
+slot: 20
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: GRASS_BLOCK
+  displayname: '&2&lBlocks'
+  name: '&2&lBlocks'

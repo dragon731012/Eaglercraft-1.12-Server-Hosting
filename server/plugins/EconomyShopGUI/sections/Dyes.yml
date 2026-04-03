@@ -1,0 +1,14 @@
+enable: true
+slot: 24
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: CYAN_DYE
+  displayname: '&2&lDyes'
+  name: '&2&lDyes'

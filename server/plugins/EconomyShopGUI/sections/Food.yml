@@ -1,0 +1,14 @@
+enable: true
+slot: 26
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: COOKED_BEEF
+  displayname: '&6&lFood'
+  name: '&6&lFood'

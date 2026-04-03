@@ -1,0 +1,103 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: SPAWNER
+        spawnertype: BLAZE
+        buy: 125000
+        sell: -1
+      '2':
+        material: SPAWNER
+        spawnertype: CHICKEN
+        buy: 15000
+        sell: -1
+      '3':
+        material: SPAWNER
+        spawnertype: COW
+        buy: 100000
+        sell: -1
+      '4':
+        material: SPAWNER
+        spawnertype: CREEPER
+        buy: 150000
+        sell: -1
+      '5':
+        material: SPAWNER
+        spawnertype: ENDERMAN
+        buy: 175000
+        sell: -1
+      '6':
+        material: SPAWNER
+        spawnertype: HORSE
+        buy: 65000
+        sell: -1
+      '7':
+        material: SPAWNER
+        spawnertype: HUSK
+        buy: 125000
+        sell: -1
+      '8':
+        material: SPAWNER
+        spawnertype: IRON_GOLEM
+        buy: 1000000
+        sell: -1
+      '9':
+        material: SPAWNER
+        spawnertype: MUSHROOM_COW
+        buy: 125000
+        sell: -1
+      '10':
+        material: SPAWNER
+        spawnertype: PARROT
+        buy: 30000
+        sell: -1
+      '11':
+        material: SPAWNER
+        spawnertype: RABBIT
+        buy: 45000
+        sell: -1
+      '12':
+        material: SPAWNER
+        spawnertype: SHEEP
+        buy: 45000
+        sell: -1
+      '13':
+        material: SPAWNER
+        spawnertype: SHULKER
+        buy: 500000
+        sell: -1
+      '14':
+        material: SPAWNER
+        spawnertype: SKELETON
+        buy: 125000
+        sell: -1
+      '15':
+        material: SPAWNER
+        spawnertype: SLIME
+        buy: 550000
+        sell: -1
+      '16':
+        material: SPAWNER
+        spawnertype: SPIDER
+        buy: 45000
+        sell: -1
+      '17':
+        material: SPAWNER
+        spawnertype: SQUID
+        buy: 100000
+        sell: -1
+      '18':
+        material: SPAWNER
+        spawnertype: WITCH
+        buy: 500000
+        sell: -1
+      '19':
+        material: SPAWNER
+        spawnertype: WOLF
+        buy: 250000
+        sell: -1
+      '20':
+        material: SPAWNER
+        spawnertype: ZOMBIE
+        buy: 120000
+        sell: -1

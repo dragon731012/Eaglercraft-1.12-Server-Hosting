@@ -1,0 +1,14 @@
+enable: true
+slot: 31
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: TUBE_CORAL
+  displayname: '&9&lDecoration'
+  name: '&9&lDecoration'

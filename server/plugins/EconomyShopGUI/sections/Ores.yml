@@ -1,0 +1,14 @@
+enable: true
+slot: 14
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: IRON_INGOT
+  displayname: '&f&lOres'
+  name: '&f&lOres'

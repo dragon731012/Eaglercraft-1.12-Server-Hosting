@@ -74,9 +74,6 @@ world-settings:
       netherwart-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
     mob-spawn-range: 4
     entity-activation-range:
       animals: 32
@@ -110,6 +107,9 @@ world-settings:
       sprint-multiplier: 0.1
       other-multiplier: 0.0
     max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 50
+      entity: 50
     squid-spawn-range:
       min: 45.0
     item-despawn-rate: 6000

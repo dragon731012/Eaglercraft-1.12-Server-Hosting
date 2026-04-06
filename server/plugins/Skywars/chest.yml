@@ -1,0 +1,146 @@
+chestItems:
+  '50':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      type: BREAD
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: APPLE
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: BAKED_POTATO
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+  '40':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: SNOW_BALL
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: EGG
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+  '35':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SPADE
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+  '30':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: EGG
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      type: SNOW_BALL
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 4 
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 16  
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_CHICKEN
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_SPADE      
+  '25':  
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLD_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLD_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLD_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLD_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+    - ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SPADE
+  '20':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 8
+  '15':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE    
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 2
+  '10':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SPADE
+  '5':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 2

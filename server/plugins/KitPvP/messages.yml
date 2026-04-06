@@ -1,0 +1,68 @@
+Messages:
+  General:
+    Prefix: '&7[&b&lKIT-PVP&7]'
+    Permission: '%prefix% &cYou do not have permission (%permission%).'
+    Player: '%prefix% &cYou must be a player to perform this action.'
+  Commands:
+    Create: '%prefix% &7The kit &b%kit% &7has successfully been created.'
+    Delete: '%prefix% &7The kit &b%kit% &7has successfully been deleted.'
+    Kit: '%prefix% &7You have selected kit &b%kit%&7.'
+    KitOther: '%prefix% &7Attempting to give &b%player% &7kit &b%kit%&7.'
+    Kits: '%prefix% &bKits (case-sensitive): &7%kits%'
+    Teleport: '%prefix% &7Teleported you to the spawn.'
+    Teleporting: '%prefix% &7Teleporting, do not move.'
+    Time: '%prefix% &7Teleporting you in &b%time% seconds&7.'
+    Added: '%prefix% &7Successfully added spawn &b#%number% &7in arena &b&b%arena%&7.'
+    Removed: '%prefix% &7Successfully removed the arena &b%arena%&7.'
+    Reload: '%prefix% &7Successfully reloaded the configurations and cleared caches.'
+    Cleared: '%prefix% &7Your kit has been cleared.'
+    ClearedOther: '%prefix% &7You cleared &b%player%''s &7kit.'
+    SetStats: '%prefix% &7Updated &b%player%''s &7stats to &b%amount% %type%&7.'
+  Other:
+    Needed: '%prefix% &cYou must be Level %level% to use that kit.'
+    Level: '%prefix% &7Congratulations! You are now &bLevel %level%&7.'
+    Sign: '%prefix% &7You have successfully created a sign.'
+    Players: '%prefix% &cThere are no other players with a kit online.'
+    NoKit: None
+    PreviewMenuTitle: 'Previewing: %kit%'
+    PreviewMenuBackArrowItemName: '&cBack to Kits'
+    PreviewMenuPotionEffectsItemName: '&a&lPotion Effects'
+    OverflowItemsDropped: '%prefix% &b%number% &7kit items had no inventory space
+      and were dropped on the ground.'
+  Error:
+    Player: '%prefix% &cYou must right-click on a player to activate this ability.'
+    Arena: '%prefix% &cNo arena exists with name %arena%.'
+    ExistsArena: '%prefix% &cThe specified arena does not exist.'
+    Exists: '%prefix% &cThe specified kit already exists.'
+    Lost: '%prefix% &cKit not found! Remember kit names are case-sensitive!'
+    Arguments: '%prefix% Please specify more arguments in the command.'
+    Kit: '%prefix% &cYou must select a kit before hitting players.'
+    Moved: '%prefix% &cYou moved, teleportation cancelled.'
+    Invincible: '%prefix% &cYou cannot hit that player because they have no kit.'
+    Selected: '%prefix% &cYou have already selected a kit.'
+    SelectedOther: '%prefix% &cThe specified player has already selected a kit.'
+    Location: '%prefix% &cYou are not in the arena to perform this action.'
+    KitInvalid: '%prefix% &cYou cannot perform this action because you have a kit
+      selected.'
+    CooldownKit: '%prefix% &cYou cannot select this kit for another %cooldown%.'
+    CooldownAbility: '%prefix% &cYou cannot use this ability for another %cooldown%.'
+    Offline: '%prefix% &cThe specified player could not be found.'
+    Menu: '%prefix% &cFailed to automatically add to the menu, the menu may be full.'
+    PVP: '%prefix% &cPVP is not permitted in this region.'
+    InvalidType: '%prefix% &cInvalid type "%type%". Available types: %types%.'
+    InvalidNumber: '%prefix% &cInvalid number "%number%".'
+    OverflowItemsLost: '%prefix% &c%number% items could not fit in your inventory
+      and were lost.'
+    InvalidKitName: '%prefix% &cFailed to create kit due to invalid kit name (contains
+      +, -)'
+  Stats:
+    Message:
+    - '&7&m                                &r'
+    - ' '
+    - ' &b&lStats for %player%'
+    - ' &aLevel: &7%level%/%max_level%'
+    - ' &aExperience: &7%xp%/%max_xp%'
+    - ' &aKills: &7%kills%'
+    - ' &aDeaths: &7%deaths%'
+    - ' '
+    - '&7&m                                &r'

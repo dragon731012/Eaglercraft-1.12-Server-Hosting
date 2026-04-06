@@ -1,0 +1,233 @@
+sounds:
+  pigdeath:
+    sound: ENTITY_PIG_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bPig Death'
+    level: 4
+    cost: 100
+    position: 2
+    page: 1
+  catdeath:
+    sound: ENTITY_CAT_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bCat Death'
+    level: 9
+    cost: 100
+    position: 4
+    page: 1
+  muledeath:
+    sound: ENTITY_MULE_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bMule Death'
+    level: 14
+    cost: 100
+    position: 6
+    page: 1
+  lightning:
+    sound: ENTITY_LIGHTNING_IMPACT
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bLightning Impact'
+    level: 19
+    cost: 100
+    position: 8
+    page: 1
+  cathiss:
+    sound: ENTITY_CAT_HISS
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bCat Hiss'
+    level: 24
+    cost: 100
+    position: 9
+    page: 1
+  explosion:
+    sound: ENTITY_GENERIC_EXPLODE
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bExplosion'
+    level: 29
+    cost: 100
+    position: 11
+    page: 1
+  ghastwarn:
+    sound: ENTITY_GHAST_WARN
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bGhast Warn'
+    level: 34
+    cost: 100
+    position: 13
+    page: 1
+  wolfgrowl:
+    sound: ENTITY_WOLF_GROWL
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bWolf Growl'
+    level: 39
+    cost: 100
+    position: 15
+    page: 1
+  guardiancurse:
+    sound: ENTITY_ELDER_GUARDIAN_CURSE
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bGuardian Curse'
+    level: 44
+    cost: 100
+    position: 17
+    page: 1
+  zombiehorsedeath:
+    sound: ENTITY_ZOMBIE_HORSE_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bZombie Horse Death'
+    level: 49
+    cost: 100
+    position: 18
+    page: 1
+  zombieconverted:
+    sound: ENTITY_ZOMBIE_VILLAGER_CONVERTED
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bCure Villager'
+    level: 54
+    cost: 100
+    position: 20
+    page: 1
+  zombiedeath:
+    sound: ENTITY_ZOMBIE_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bZombie Death'
+    level: 59
+    cost: 100
+    position: 22
+    page: 1
+  blazedeath:
+    sound: ENTITY_BLAZE_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bBlaze Death'
+    level: 64
+    cost: 100
+    position: 24
+    page: 1
+  guardiandeath:
+    sound: ENTITY_ELDER_GUARDIAN_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bGuardian Death'
+    level: 69
+    cost: 100
+    position: 26
+    page: 1
+  endermandeath:
+    sound: ENTITY_ENDERMEN_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bEndermen Death'
+    level: 74
+    cost: 100
+    position: 27
+    page: 1
+  ghasthurt:
+    sound: ENTITY_GHAST_HURT
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bGhast Hurt'
+    level: 79
+    cost: 100
+    position: 29
+    page: 1
+  golemdeath:
+    sound: ENTITY_IRONGOLEM_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bIron Golem Death'
+    level: 84
+    cost: 100
+    position: 31
+    page: 1
+  skeletonhorsedeath:
+    sound: ENTITY_SKELETON_HORSE_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bSkeleton Horse Death'
+    level: 89
+    cost: 100
+    position: 33
+    page: 1
+  witherdeath:
+    sound: ENTITY_WITHER_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bWither Death'
+    level: 94
+    cost: 100
+    position: 35
+    page: 1
+  dragongrowl:
+    sound: ENTITY_ENDERDRAGON_GROWL
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bEnder Dragon Growl'
+    level: 99
+    cost: 100
+    position: 36
+    page: 1
+  none:
+    sound: blank
+    isCustomSound: true
+    volume: 10
+    pitch: 1
+    icon: NOTE_BLOCK
+    displayName: '&bNo Sound'
+    level: 0
+    cost: 0
+    position: 0
+    page: 1
+menuSize: 45

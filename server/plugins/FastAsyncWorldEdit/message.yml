@@ -1,0 +1,18 @@
+info:
+  worldedit_delayed: '&7Please wait while we process your WorldEdit action...'
+  worldedit_run: '&7Apologies for the delay. Now executing: %s'
+  worldedit_complete: '&7WorldEdit action completed.'
+  require_selection_in_mask: '&7%s of your selection is not within your mask. You
+    can only make edits within allowed regions.'
+  worldedit_volume: '&7You cannot select a volume of %current%. The maximum volume
+    you can modify is %max%.'
+  worldedit_iterations: '&7You cannot iterate %current% times. The maximum number
+    of iterations allowed is %max%.'
+  worldedit_unsafe: '&7Access to that command has been blocked'
+  worldedit_dangerous_worldedit: '&cFAWE processed unsafe WorldEdit at %s0 by %s1'
+  worldedit_bypass: '&7&oTo bypass your restrictions use &c/wea'
+  worldedit_bypassed: '&7Currently bypassing WorldEdit restriction.'
+  worldedit_unmasked: '&6Your WorldEdit is now unrestricted.'
+  worldedit_restricted: '&6Your WorldEdit is now restricted.'
+error:
+  not_player: '&cYou must be a player to perform this action!'

@@ -1,0 +1,12 @@
+max-volume: 50000000
+command-blacklist:
+- cs
+- .s
+- restore
+- snapshot
+- delchunks
+- listchunks
+max-entities: 1337
+max-iterations: 1000
+require-selection-in-mask: false
+max-blockstates: 1337

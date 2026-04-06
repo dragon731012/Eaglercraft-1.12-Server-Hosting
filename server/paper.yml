@@ -67,30 +67,8 @@ world-settings:
       disable-mesa-additional-gold: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
-    fast-drain:
-      lava: true
-      water: true
-    lava-flow-speed:
-      normal: 1
-      nether: 10
-    lootables:
-      auto-replenish: true
-      restrict-player-reloot: true
-      reset-seed-on-fill: true
-      max-refills: -1
-      refresh-min: 1m
-      refresh-max: 2m
-    queue-light-updates: false
     portal-search-radius: 128
-    filter-nbt-data-from-spawn-eggs-and-related: true
-    max-entity-collisions: 10
-    disable-creeper-lingering-effect: false
-    hopper:
-      cooldown-when-full: true
-      disable-move-event: false
-      push-based: false
-    duplicate-uuid-resolver: saferegen
-    duplicate-uuid-saferegen-delete-range: 32
+    queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
     delay-chunk-unloads-by: 10s
@@ -121,6 +99,28 @@ world-settings:
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     water-over-lava-flow-speed: 5
+    fast-drain:
+      lava: true
+      water: true
+    lava-flow-speed:
+      normal: 1
+      nether: 10
+    lootables:
+      auto-replenish: true
+      restrict-player-reloot: true
+      reset-seed-on-fill: true
+      max-refills: -1
+      refresh-min: 1m
+      refresh-max: 2m
+    filter-nbt-data-from-spawn-eggs-and-related: true
+    max-entity-collisions: 10
+    disable-creeper-lingering-effect: false
+    hopper:
+      cooldown-when-full: true
+      disable-move-event: false
+      push-based: false
+    duplicate-uuid-resolver: saferegen
+    duplicate-uuid-saferegen-delete-range: 32
     keep-spawn-loaded-range: 5
     auto-save-interval: -1
     nether-ceiling-void-damage: false
@@ -140,6 +140,8 @@ world-settings:
     prevent-tnt-from-moving-in-water: false
     non-player-arrow-despawn-rate: -1
     armor-stands-tick: true
+    spawner-nerfed-mobs-should-jump: false
+    baby-zombie-movement-speed: 0.2
     keep-spawn-loaded: true
     anti-xray:
       enabled: false
@@ -171,13 +173,11 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 1
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    spawner-nerfed-mobs-should-jump: false
-    baby-zombie-movement-speed: 0.2
+    squid-spawn-height:
+      maximum: 0.0
     allow-leashing-undead-horse: true
     mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: true
-    squid-spawn-height:
-      maximum: 0.0
     disable-teleportation-suffocation-check: false
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false

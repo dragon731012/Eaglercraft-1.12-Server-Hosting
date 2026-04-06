@@ -1,0 +1,39 @@
+Kit:
+  Permission: kp.kit.archer
+  Cooldown: 0
+  Level: 0
+Inventory:
+  Armor:
+    Helmet:
+      Name: '&7Archer Helmet'
+      Material: CHAINMAIL_HELMET
+    Chestplate:
+      Name: '&7Archer Chestplate'
+      Material: CHAINMAIL_CHESTPLATE
+    Leggings:
+      Name: '&7Archer Leggings'
+      Material: CHAINMAIL_LEGGINGS
+    Boots:
+      Name: '&7Archer Boots'
+      Material: CHAINMAIL_BOOTS
+  Items:
+    0:
+      Name: '&aArcher''s Sword'
+      Material: STONE_SWORD
+    1:
+      Name: '&aArcher''s Bow'
+      Material: BOW
+    2:
+      Name: '&aFire Arrows &cOFF &7(Right Click)'
+      Material: SLIME_BALL
+      Amount: 10
+    7:
+      Name: '&aArcher''s Arrows &7(+1 arrow each successful shot)'
+      Material: ARROW
+      Amount: 64
+    8:
+      Name: '&aPlayer Tracker &7(Right Click)'
+      Material: COMPASS
+    Fill:
+      Name: '&aRegenerative Soup &7(Right Click)'
+      Material: MUSHROOM_SOUP

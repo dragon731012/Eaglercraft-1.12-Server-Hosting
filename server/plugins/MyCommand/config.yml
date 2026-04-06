@@ -1,0 +1,92 @@
+#-----------------------------------------------------------------------------------------------------------#
+#							  MyCommand Plugin config file (last update v5.6.4)								#
+#																											#
+#  					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/  					#
+#																											#
+# With the listener, you can disable completely plugin parts. Put true for active and false for deactive it #
+# The vehicle listener, it's used only for DETECTOR_RAIL Material.											#
+# The Move listener instead, it's used for WarmUps. 														#
+# DELAY_SEC in Signs and Block it's used for prevent the command floods. Put it on 0, for disable it.		#
+# The Economy function require the Vault plugin. Download it here : http://dev.bukkit.org/server-mods/vault/#
+#-----------------------------------------------------------------------------------------------------------#
+LISTENERS:
+  # Active this if you want use the /mycmd-blockset features.
+  BLOCK_LISTENER: true
+  # This allow you to execute commands from the ChatListener, Example, without the slash / prefix.
+  CHAT_LISTENER: false
+  # Turn this one on, to allow the execution of custom commands in-game. Basically the core of MyCommand
+  CUSTOM_COMMANDS_GAME: true
+  # Use ConsoleListener to allow you execute custom commands from the console.
+  CUSTOM_COMMANDS_CONSOLE: true
+  # Extra Listener, allows you to execute commands on some extra events, like death,join and someone else. Check playerevents.yml
+  EXTRA_LISTENER: false
+  # Enable this if you want use the /mycmd-itemset feature.
+  ITEM_LISTENER: true
+  # Active the move listener to cancel WarmUp's
+  MOVE_LISTENER: false
+  # Active the NPC one, to be able to use the /mycmd-npcs features.
+  NPCS_LISTENER: false
+  # Turn the plugin message on, if you want to interface with MyCommand for BungeeCord and executing proxy commands from local server. Also this allow's you to use some proxy-side placeholders.
+  PLUGIN_MESSAGE_LISTENER: false
+  # The Sign listener allow the use of [MyCmd] signs.
+  SIGN_LISTENER: true
+  # The Vehicle listener it's used only for the DETECTOR_RAIL Material in block-set feature, and allows you to execute commands when a player trigger a detector_rail.
+  VEHICLE_LISTENER: false
+  # Enable this if you want to use the dynamic ICON_MENU's feature. Without it you can't check when a player closes the menu with ESC key. Also turn this on if you want run commands from the MERCHANT_GUI
+  INVENTORY_LISTENER: true
+  # Enable the Hologram listener if you want to launch commands through holograms made with /mycmd hologram
+  HOLOGRAM_LISTENER: true
+#Determinate how many $args can be typed in a command. (lower = faster)
+COMMANDS:
+  MAX_ARGUMENTS: 9
+#Misc options.
+DEBUG:
+  GAME: false
+  CONSOLE: true
+  DISABLE_PERMISSIONS: false
+  USE_UUID_FOR_PLAYERDATA: true
+  USE_NAME_INSTEAD_OF_ID_IN_THE_PERMISSION_NAME: true
+  USE_THE_UPDATER: true
+  SAVE_PENDING_COOLDOWNS: true
+  USE_AT_SELECTORS_PLACEHOLDERS: false
+  ROUND_DOUBLE_DECIMALS_AT: 2
+  REPLACE_ARGS_WITH_NOTHING_IF_EMPTY: true
+ECONOMY:
+  ALLOW_DEBT: false
+SCHEDULER:
+  ENABLED: false
+  DATE_FORMAT: "d M yyyy"
+  FIRST_CHECK_AFTER_SEC: 60
+  LAUNCH_CHECK_ON_EVERY_N_MIN: 60
+SIGNS:
+  HEADER: "[MYCMD]"
+  DELAY_SEC: 5
+NPCS:
+  DELAY_SEC: 3
+INTERACTION:
+  DELAY_SEC: 3
+HOLOGRAMS:
+  DELAY_SEC: 5
+BLOCKS:
+  DELAY_SEC: 5
+  MATERIAL:
+    LEFT_CLICK_INTERACTION:
+    - STONE_BUTTON
+    RIGHT_CLICK_INTERACTION:
+    - LEVER
+    - STONE_BUTTON
+    - OAK_BUTTON
+    - OAK_DOOR
+    PHYSICAL_INTERACTION:
+    - STONE_PRESSURE_PLATE
+    - OAK_PRESSURE_PLATE
+    - DETECTOR_RAIL
+# MYSQL support for PlayerData's values storage only.
+MYSQL: 
+  USE: false
+  HOST: 'localhost'
+  PORT: '3306'
+  USERNAME: 'username'
+  PASSWORD: 'password'
+  DATABASE: 'MyCommand'
+  AUTO_RECONNECT: true

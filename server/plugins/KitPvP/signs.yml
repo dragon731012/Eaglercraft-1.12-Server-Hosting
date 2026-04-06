@@ -1,0 +1,35 @@
+# To learn how to create signs, please
+# visit the signs.yml documentation on GitHub:
+# https://github.com/cervinakuy/KitPvP/wiki/signs.yml
+
+Signs:
+  Kit:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to select'
+    Line-3: '&1%kit% kit'
+    Line-4: ' '
+  Clear:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to clear'
+    Line-3: '&1your current kit'
+    Line-4: ' '
+  Menu:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to open'
+    Line-3: '&1the kit selector'
+    Line-4: ' '
+  Stats:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to view'
+    Line-3: '&1your stats'
+    Line-4: ' '
+  Refill:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to refill'
+    Line-3: '&1your soups'
+    Line-4: ' '
+  Arena:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to teleport'
+    Line-3: '&1to &1%arena% &1arena'
+    Line-4: ' '

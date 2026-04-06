@@ -2,11 +2,11 @@
 #by MrMarL & Adarsh A
 
 #Specify the World Name.
-world: world
+world: voidworld
 #The Cordinates where the postion of your First OneBlock is set.
-x: -242.0
-y: 65.0
-z: 197.0
+x: 0.0
+y: 150.0
+z: 0.0
 #This is the place where a player gets tp-ed when they execute /ob leave
 leaveworld: world
 #Specify the Lobby World

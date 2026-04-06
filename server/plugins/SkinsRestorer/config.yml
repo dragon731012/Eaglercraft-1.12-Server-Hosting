@@ -1,0 +1,380 @@
+##################################
+#      SkinsRestorer config      #
+##################################
+
+# We from SRTeam thank you for using our plugin!
+
+# We recommend you read the official installation guide before asking for help:
+# https://skinsrestorer.net/docs/installation
+
+# We have prepared a few resources to help you configure the plugin:
+# General help: https://skinsrestorer.net/docs/configuration
+# Commands and permissions: https://skinsrestorer.net/docs/configuration/commands-permissions
+# Translations and messages: https://skinsrestorer.net/docs/configuration/locale-translations
+
+# If you encounter issues, you can do the following:
+# Read the troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+# For advanced help or other, go to our Discord Server: https://skinsrestorer.net/discord
+
+# (?) Step by step installation guide: https://skinsrestorer.net/docs/installation
+
+# (!) IF YOU ARE USING A PROXY (BungeeCord, Waterfall or Velocity), YOU NEED TO INSTALL SKINSRESTORER ON THE PROXY AND ALL SERVERS! (!)
+# (!) YOU ALSO NEED TO CONFIGURE YOUR SERVERS TO DETECT THE PROXY! (!)
+# (!) AND YOU ALSO NEED TO PUT THE SAME CONFIG FILE IN ALL PROXIES AND SERVERS! (!)
+# (!) You can find detailed proxy instructions here: https://skinsrestorer.net/docs/installation
+
+##########
+# Locale #
+##########
+
+# Translation & message options here
+# To learn more about translations and how to make custom translations, visit: https://skinsrestorer.net/docs/configuration/locale-translations
+messages:
+    # A locale code for the locale you want to use by default for messages and commands.
+    # Has to be a string separated by an underscore.
+    locale: en
+    # A locale code for the messages and commands sent to the console.
+    # This is useful if you want to use a different locale for the console than for players.
+    # We recommend keeping this at the default value because we mostly only provide support in English.
+    # Has to be a string separated by an underscore.
+    consoleLocale: en
+    # Disable the message prefix in SkinsRestorer messages.
+    disablePrefix: false
+    # Every message sent by the plugin will use the players client locale if a translation is available.
+    # If disabled, the config locale will be used instead.
+    perIssuerLocale: true
+    # How dates are formatted by the plugin in messages. Format is explained here:
+    # https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
+    dateFormat: dd MMMM yyyy
+
+############
+# Database #
+############
+
+# Settings for databases skin storage (recommended for large networks with a lot of skins)
+# Set database.type to FILE, MYSQL or POSTGRESQL.
+# [!] Make sure you have the correct permissions set for your database user. [!]
+# [!] Make sure to fill in database.connectionOptions if you're using certificate / ssl authentication. [!]
+# [!] If you're not using ssl, change sslMode=trust to sslMode=disable [!]
+database:
+    # Database backend selection. Valid values: FILE, MYSQL, POSTGRESQL.
+    type: FILE
+    host: localhost
+    port: 3306
+    database: db
+    username: root
+    password: pass
+    maxPoolSize: 10
+    tablePrefix: sr_
+    connectionOptions: sslMode=trust&serverTimezone=UTC
+
+############
+# Commands #
+############
+
+# Control behaviour of commands.
+# To learn more about commands and permissions, visit: https://skinsrestorer.net/docs/configuration/commands-permissions
+commands:
+    # For all player commands to work by default, you need to give players the permission 'skinsrestorer.player'.
+    # This option allows you to force the default permission (skinsrestorer.player) to be given to all players.
+    # A value of 'false' will disable this behaviour, and players will need to be given the permission explicitly.
+    # This is because some platforms (like BungeeCord) do not have a default permission system.
+    # If your platform supports default permissions, this option is ignored.
+    forceDefaultPermissions: true
+    # Players cooldown in seconds when changing skins (set to 0 to disable).
+    # SkinErrorCooldown is used when an error or invalid url occurs.
+    # Can be bypassed with 'skinsrestorer.bypasscooldown'.
+    skinChangeCooldown: 30
+    # Players cooldown in seconds when getting skulls (set to 0 to disable).
+    # SkullErrorCooldown is used when an error or invalid url occurs.
+    # Can be bypassed with 'skinsrestorer.bypasscooldown'.
+    skullGetCooldown: 30
+    skinErrorCooldown: 5
+    skullErrorCooldown: 5
+    # When enabled, only websites from the list below is allowed to be set using /skin url <url>
+    # [?] this is useful if you host your own image server.
+    restrictSkinUrls:
+        enabled: false
+        list: 
+        - https://i.imgur.com
+        - http://i.imgur.com
+        - https://storage.googleapis.com
+        - http://storage.googleapis.com
+        - https://cdn.discordapp.com
+        - http://cdn.discordapp.com
+        - https://textures.minecraft.net
+        - http://textures.minecraft.net
+    # Skins in this list will be disabled, so users can't set them.
+    # Can be bypassed with 'skinsrestorer.bypassdisabled'.
+    disabledSkins:
+        enabled: false
+        list: 
+        - steve
+        - owner
+    # To enable per skin permissions you must agree to these rules:
+    # - Do not monetize players being able to use their own skin
+    # - Do not force players to steve skins and make them pay to use their own skin
+    # - You can charge them for custom skins, but not their own skin
+    # If you agree, set this to: 'I will follow the rules'
+    perSkinPermissionsConsent: ''
+    # Allows the usage of per-skin permission.
+    # Example: skinsrestorer.skin.xknat OR skinsrestorer.skin.Pistonmaster
+    # with "skinsrestorer.ownskin" players can run /skin set <their own name>.
+    # [!] Only enable if you have set up permissions properly and know what you are doing.
+    # [!] This option only works if 'commands.perSkinPermissionsConsent' is consented to.
+    perSkinPermissions: false
+    # How many commands to store in the player's command history.
+    # This is used for the /skin undo command.
+    # Use 0 to disable storing command history.
+    maxHistoryLength: 36
+    # How many favourites a player may have.
+    # This is used for the /skin favourite command.
+    # Use 0 to disable storing favourites.
+    maxFavouriteLength: 180
+    customHelp:
+        # Override the automatically generated translated help message with a custom one.
+        # This is useful if you want to have a custom help message for your server.
+        # This only affects the base help message when running /skin with no parameters, not the error/subcommand help messages.
+        enabled: false
+        # The custom help message to send to the player when running /skin with no parameters.
+        message: 
+        - <yellow>Skin plugin Help
+        - <gray>---------------------
+        - <gray>/skin set <skin> - <yellow>Set your skin
+    # <!! Warning !!>
+    # This option will disable the /skin command from being registered on the server.
+    # Do not disable this unless you are overriding the /skin command with a different plugin or you don't want the skin command.
+    # Requires a server restart to take effect.
+    disableSkinCommand: false
+    # <!! Warning !!>
+    # This option will disable the /skull command from being registered on the server.
+    # Do not disable this unless you are overriding the /skull command with a different plugin or you don't want the skull command.
+    # Requires a server restart to take effect.
+    disableSkullCommand: false
+    # <!! Warning !!>
+    # This option will disable the /skins command from being registered on the server.
+    # Do not disable this unless you are overriding the /skins command with a different plugin or you don't want the GUI command.
+    # Requires a server restart to take effect.
+    disableGUICommand: false
+
+# Control what skins appear in the /skins GUI
+gui:
+    # Control what skin is displayed when a player does not have permission for a skin.
+    # This is the end part of the skin texture URL.
+    # You can obtain the texture URL from /sr info skin <skinName>
+    notUnlockedSkin: c10591e6909e6a281b371836e462d67a2c78fa0952e910f32b41a26c48c1757c
+    # Control custom skins in the /skins GUI
+    custom:
+        # Whether custom skins are enabled in the /skins GUI
+        enabled: false
+        # Order of custom skins relative to the other skin types
+        index: 0
+        # Whether only specific custom skins are allowed in the /skins GUI
+        onlyShowList: true
+        # Specific custom skins to show in the /skins GUI
+        list: 
+        - xknat
+        - pistonmaster
+    # Control player skins in the /skins GUI
+    players:
+        # Whether player skins are enabled in the /skins GUI
+        enabled: false
+        # Order of player skins relative to the other skin types
+        index: 1
+        # Whether only specific player skins are allowed in the /skins GUI
+        onlyShowList: false
+        # Specific player skins to show in the /skins GUI
+        list: 
+        - 7dcfc130-344a-4719-9fbe-3176bc2075c6
+        - b1ae0778-4817-436c-96a3-a72c67cda060
+    # Control recommended skins in the /skins GUI
+    recommendations:
+        # Whether recommended skins are enabled in the /skins GUI
+        enabled: true
+        # Order of recommended skins relative to the other skin types
+        index: 2
+        # Whether only specific recommended skins are allowed in the /skins GUI
+        onlyShowList: false
+        # Specific recommended skins to show in the /skins GUI
+        list: 
+        - vampire
+        - space-suit
+
+###########
+# Storage #
+###########
+
+# Here you can design the plugin the way you want it.
+
+# Enable or disable default skins
+# applyForPremium: false will only put a skin on skinless/steve players.
+# If there is more than one, the plugin will choose a random one.
+# You can use "<random>" in the defaultSkins list to select a random SkinsRestorer recommended skin.
+# [!] url.png skins will be cached and therefore will not be updated
+storage:
+    defaultSkins:
+        enabled: false
+        applyForPremium: false
+        list: 
+        - xknat
+        - pistonmaster
+    # <!! Warning !!>
+    # Enable this will require players to run "/skin update" to update their skin.
+    disallowAutoUpdateSkin: false
+    # Time that skins are stored in the database before we request again (in minutes).
+    # [?] A value of 0 will always trigger a request to the Mojang API.
+    # [!] Lowering this value will increase the amount of requests which could be a problem on large servers.
+    skinExpiresAfter: 15
+    # How long we should cache the UUIDs of players (in minutes).
+    # [?] A value of 0 will always trigger a request to the Mojang API.
+    # [!] Lowering this value will increase the amount of requests which could be a problem on large servers.
+    uuidExpiresAfter: 60
+
+#########
+# Proxy #
+#########
+
+# Change proxy specific settings here.
+proxy:
+    # Disable all SkinsRestorer commands on specific backend servers.
+    # [!] This only works & is relevant if you're using proxies like BungeeCord / Velocity
+    notAllowedCommandServers:
+        # Whether to enable the backend server command blocking feature.
+        enabled: true
+        # Block players from executing SkinsRestorer commands before having joined a server.
+        ifNoServerBlockCommand: false
+        # When false means servers in the list are NOT allowed to execute SkinsRestorer commands, true means ONLY servers in the list are allowed to execute SkinsRestorer commands.
+        allowList: false
+        # List of servers where SkinsRestorer commands are allowed/disallowed depending on the 'allowList' setting.
+        list: 
+        - auth
+
+##########
+# Server #
+##########
+
+# Change server specific settings here.
+server:
+    # Disabling this will stop SkinsRestorer from changing skins when a player loads a server resource pack.
+    # When a player loads a server resource pack, their skin is reset. By default, SkinsRestorer reapplies the skin when the player reports that the resource pack has been loaded or an error has occurred.
+    resourcePackFix: true
+    # Dismounts a mounted (on a horse, or sitting) player when their skin is updated, preventing players from becoming desynced.
+    dismountPlayerOnSkinUpdate: true
+    # Remounts a player that was dismounted after a skin update (above option must be true).
+    # Disabling this is only recommended if you use plugins that allow you ride other players, or use sit. Otherwise you could get errors or players could be kicked for flying.
+    remountPlayerOnSkinUpdate: true
+    # Dismounts all passengers mounting a player (such as plugins that let you ride another player), preventing those players from becoming desynced.
+    dismountPassengersOnSkinUpdate: false
+    sound:
+        # Play a sound when a player runs /skin to change their skin.
+        enabled: true
+        # Sound to play when a player runs /skin to change their skin.
+        # You can find the allowed format and values at
+        # https://javadoc.io/static/com.github.cryptomorin/XSeries/11.0.0/com/cryptomorin/xseries/XSound.html#parse(java.lang.String)
+        value: ENTITY_PLAYER_TELEPORT, 0.7
+    # Proxy mode settings. Allows SkinsRestorer to work with proxies.
+    proxyMode:
+        # Proxy mode detection. Valid values are ENABLED, DISABLED, AUTO. Auto will auto detect based on your server configuration.
+        detection: AUTO
+        # Proxy mode API will make server-side plugin calls to SkinsRestorer API possible. Only works if a database is set up instead of file storage.
+        api: true
+login:
+    # Stops the process of setting a skin if the LoginEvent was canceled by an AntiBot plugin.
+    # [?] Unsure? leave this true for better performance.
+    noSkinIfLoginCanceled: true
+    # This will make SkinsRestorer always apply the skin even if the player joins as premium on an online mode server.
+    alwaysApplyPremium: false
+api:
+    # Here you can fill in your APIKey for lower MineSkin request times.
+    # Key can be requested from https://mineskin.org/apikey
+    # MineSkin offers 10% off your first three months (all plans except Lite) with the coupon SKINSRESTORER10.
+    # All plans other than Lite include cape generation, higher limits, and other exclusive features.
+    # [?] A key is not required, but recommended.
+    mineskinAPIKey: key
+    # SkinsRestorer uses MineSkin to generate usable skins from links.
+    # All skins generated by MineSkin are by default shown in their public gallery on their website.
+    # Enabling this option will hide all skins generated by MineSkin from their public gallery.
+    mineskinSecretSkins: false
+    # SkinsRestorer provides curated recommended skins for players to use
+    # These skin can be used via /skin random and the /skins GUI
+    # If you would like to opt out of this feature, set this to false.
+    # It will prevent loading of recommended skins from storage and downloading new ones.
+    # Be aware that commands like /skin random will not work without this feature.
+    fetchRecommendedSkins: true
+    # Window size in seconds for batching Mojang API requests to avoid rate limits.
+    # Requests are batched in windows of this duration or up to 10 requests, whichever comes first.
+    # Default is 1 second.
+    mojangBatchWindowSeconds: 1
+    # Enable Ely.by as a skin data provider.
+    # When enabled, SkinsRestorer will use Ely.by to fetch player skins instead of Mojang.
+    # This is useful for servers that support non-premium players using Ely.by accounts.
+    # Disabled by default. Enable only if your server uses Ely.by.
+    elyByEnabled: false
+
+###############
+# Danger Zone #
+###############
+
+# ABSOLUTELY DO NOT CHANGE SETTINGS HERE IF YOU DO NOT KNOW WHAT YOU DO!
+advanced:
+    # <!! Warning !!>
+    # Enabling this will stop SkinsRestorer to change skins on join.
+    # Handy for when you want run /skin apply to apply skin after texturepack popup
+    disableOnJoinSkins: false
+    # <!! Warning !!>
+    # This enables the PaperMC join event integration that allows instant skins on join.
+    # It is recommended over the fallback listener because it is smoother and should not lag the server.
+    # It also fixes all resource pack skin apply issues.
+    # If your players are experiencing extremely long loading screens, try disabling this.
+    enablePaperJoinListener: true
+    # <!! Warning !!>
+    # This is a very dangerous feature that should only be used if you know what you are doing.
+    # Instead of resending player skins to other players by hiding and shadowing them, we will teleport them to a far away location and back
+    # This is a workaround for some server software with broken vanishing support, like Arclight.
+    teleportRefresh: false
+    # <!! Warning !!>
+    # When enabled SkinsRestorer will not try to connect to any web server, which means the follow things won't work:
+    # Getting new skins from Mojang, looking up uuids of players, skin url, update checking and more.
+    # SkinsRestorer will only be able to access already downloaded skins.
+    # This is useful for servers that are not connected to the internet or have a firewall blocking connections.
+    noConnections: false
+    # <!! Warning !!>
+    # When enabled SkinsRestorer will use the new player head objects inside chat messages.
+    # While these new objects look great, they are not supported by all server software and plugins, especially older servers.
+    # This option will be on by default in the future when backwards compatibility is no longer a concern.
+    playerHeadChatObjects: false
+
+# Updater Settings
+# <!! Warning !!>
+# Using outdated version void's support, compatibility & stability.
+
+# To block all types of automatic updates (which can risk keeping an exploit):
+# Create a file called 'noautoupdate.txt' in the plugin directory (./plugins/SkinsRestorer/ )
+
+################
+# DEV's corner #
+################
+
+# Enable these on the dev's request
+dev:
+    # Enable to start receiving debug messages about api requests & more.
+    debug: false
+
+# End #
+
+# Useful tools:
+# 
+# SkinFile Generator:
+# With SkinFile Generator, you can upload your own custom skin to get a unique .skin file that you can put in your skins folder, to use with SkinsRestorer.
+# Check it out here: https://generator.skinsrestorer.net
+# 
+# SkinSystem:
+# With SkinSystem, you, as a server owner, can connect AuthMe with the SkinSystem website that you can host, to give your players the ability to upload custom skins.
+# Check it out here: https://github.com/SkinsRestorer/SkinSystem
+# 
+# Useful Links #
+# Website: https://skinsrestorer.net
+# Docs: https://skinsrestorer.net/docs
+# Spigot: https://skinsrestorer.net/spigot
+# Github: https://github.com/SkinsRestorer/SkinsRestorer
+# Discord: https://skinsrestorer.net/discord

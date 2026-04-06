@@ -1,0 +1,105 @@
+leaderboard:
+  wins:
+    leaders:
+      format:
+      - item:DIAMOND
+      - '&6Top Players - WINS'
+      - '&61st {player_1} - &b{wins_1}'
+      - '&62nd {player_2} - &b{wins_2}'
+      - '&63rd {player_3} - &b{wins_3}'
+      - '&64th {player_4} - &b{wins_4}'
+      - '&65th {player_5} - &b{wins_5}'
+      - '&66th {player_6} - &b{wins_6}'
+      - '&67th {player_7} - &b{wins_7}'
+      - '&68th {player_8} - &b{wins_8}'
+      - '&69th {player_9} - &b{wins_9}'
+      - '&610th {player_10} - &b{wins_10}'
+      - item:DIAMOND
+      locations:
+    topplayer:
+      format:
+      - item:{playerhead_1}
+      - '&6Top Player - WINS'
+      - '&6{player_1}'
+      - '&6wins: &b{wins_1}'
+      - '&6Kills: &b{kills_1}'
+      - item:{playerhead_1}
+      locations:
+  kills:
+    leaders:
+      format:
+      - item:DIAMOND
+      - '&6Top Players - KILLS'
+      - '&61st {player_1} - &b{kills_1}'
+      - '&62nd {player_2} - &b{kills_2}'
+      - '&63rd {player_3} - &b{kills_3}'
+      - '&64th {player_4} - &b{kills_4}'
+      - '&65th {player_5} - &b{kills_5}'
+      - '&66th {player_6} - &b{kills_6}'
+      - '&67th {player_7} - &b{kills_7}'
+      - '&68th {player_8} - &b{kills_8}'
+      - '&69th {player_9} - &b{kills_9}'
+      - '&610th {player_10} - &b{kills_10}'
+      - item:DIAMOND
+      locations:
+    topplayer:
+      format:
+      - item:{playerhead_1}
+      - '&6Top Player - KILLS'
+      - '&6{player_1}'
+      - '&6kills: &b{kills_1}'
+      - '&6Kills: &b{wins_1}'
+      - item:{playerhead_1}
+      locations:
+  xp:
+    leaders:
+      format:
+      - item:DIAMOND
+      - '&6Top Players - XP'
+      - '&61st {player_1} - &b{xp_1}'
+      - '&62nd {player_2} - &b{xp_2}'
+      - '&63rd {player_3} - &b{xp_3}'
+      - '&64th {player_4} - &b{xp_4}'
+      - '&65th {player_5} - &b{xp_5}'
+      - '&66th {player_6} - &b{xp_6}'
+      - '&67th {player_7} - &b{xp_7}'
+      - '&68th {player_8} - &b{xp_8}'
+      - '&69th {player_9} - &b{xp_9}'
+      - '&610th {player_10} - &b{xp_10}'
+      - item:DIAMOND
+      locations:
+  losses:
+    leaders:
+      format:
+      - item:DIAMOND
+      - '&6Top Players - LOSSES'
+      - '&61st {player_1} - &b{losses_1}'
+      - '&62nd {player_2} - &b{losses_2}'
+      - '&63rd {player_3} - &b{losses_3}'
+      - '&64th {player_4} - &b{losses_4}'
+      - '&65th {player_5} - &b{losses_5}'
+      - '&66th {player_6} - &b{losses_6}'
+      - '&67th {player_7} - &b{losses_7}'
+      - '&68th {player_8} - &b{losses_8}'
+      - '&69th {player_9} - &b{losses_9}'
+      - '&610th {player_10} - &b{losses_10}'
+      - item:DIAMOND
+      locations:
+  deaths:
+    leaders:
+      format:
+      - item:DIAMOND
+      - '&6Top Players - DEATHS'
+      - '&61st {player_1} - &b{deaths_1}'
+      - '&62nd {player_2} - &b{deaths_2}'
+      - '&63rd {player_3} - &b{deaths_3}'
+      - '&64th {player_4} - &b{deaths_4}'
+      - '&65th {player_5} - &b{deaths_5}'
+      - '&66th {player_6} - &b{deaths_6}'
+      - '&67th {player_7} - &b{deaths_7}'
+      - '&68th {player_8} - &b{deaths_8}'
+      - '&69th {player_9} - &b{deaths_9}'
+      - '&610th {player_10} - &b{deaths_10}'
+      - item:DIAMOND
+      locations:
+  

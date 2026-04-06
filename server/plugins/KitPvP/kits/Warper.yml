@@ -1,0 +1,52 @@
+Kit:
+  Permission: kp.kit.warper
+  Level: 0
+  Cooldown: 0
+Inventory:
+  Armor:
+    Helmet:
+      Name: '&7Warper Helmet'
+      Material: LEATHER_HELMET
+      Dye:
+        Red: 0
+        Green: 0
+        Blue: 0
+    Chestplate:
+      Name: '&7Warper Chestplate'
+      Material: LEATHER_CHESTPLATE
+      Dye:
+        Red: 0
+        Green: 0
+        Blue: 0
+    Leggings:
+      Name: '&7Warper Leggings'
+      Material: LEATHER_LEGGINGS
+      Dye:
+        Red: 0
+        Green: 0
+        Blue: 0
+    Boots:
+      Name: '&7Warper Boots'
+      Material: LEATHER_BOOTS
+      Dye:
+        Red: 0
+        Green: 0
+        Blue: 0
+  Items:
+    0:
+      Name: '&aWarper''s Sword'
+      Material: IRON_SWORD
+    1:
+      Name: '&aEnder Pearls'
+      Material: ENDER_PEARL
+      Amount: 4
+    2:
+      Name: '&aNearest Player Teleporter &7(Right Click)'
+      Material: EYE_OF_ENDER
+      Amount: 3
+    8:
+      Name: '&aPlayer Tracker &7(Right Click)'
+      Material: COMPASS
+    Fill:
+      Name: '&aRegenerative Soup &7(Right Click)'
+      Material: MUSHROOM_SOUP

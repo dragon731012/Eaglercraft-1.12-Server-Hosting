@@ -1,0 +1,107 @@
+# ServerListPlus v3.5.0 - https://git.io/slp
+# More information is available in the wiki: https://git.io/slp-wiki
+
+# This is the section where you can customize your server status ping!
+#  - Default is the section for the status used when the player name is unknown.
+#    Personalized is used if the client has already joined the server once.
+#    Use %player% as placeholder for the player's name.
+# 
+# Features:
+#  - Description (MotD): A short status message for your server, max. 2 lines.
+#  - Players:
+#    - Hover: The player hover message that is displayed if you hover the player count.
+#    - Slots: Custom player slot formatting, see http://git.io/slp-slots
+#  - Favicon:
+#    - Use multiple server icons or the player's head as favicon, see http://git.io/oMhJlg
+#    - Possible favicon sources: Files, Folders, URLs, Heads, Helms, Encoded
+# 
+#  More features are explained in the Wiki: http://git.io/slp-config
+# 
+# Usage:
+#  - Add multiple entries for random messages.
+#  - You can use formatting codes (&c, &l etc) and hex RGB color codes (&#rrggbb).
+#  - Save the file with valid UTF-8 encoding for special characters.
+#  - Available placeholders:
+#    - Player name: %player%
+#    - Player count: %online%, %max%, %online@server% %online@world%
+#    - Random online player name: %random_player%
+#    - Ban reason: %ban_reason%
+#    - Ban operator: %ban_operator%
+#    - Ban experiation date: %ban_expiration_date%, %ban_expiration_datetime%
+--- !Status
+Default:
+  Description:
+    - |-
+      &8&kVOID&r &7[BOOTING...]
+    - |-
+      &8&kVOI&r &7[LOADING MODULES...]
+    - |-
+      &8&kVOID&r &7[SYNCING DIMENSIONS...]
+    - |-
+      &8&lVOID&r &7[READY]
+    - |-
+      &b&lVOID NETWORK&r &7| &f1.12.2
+  Players:
+    Hover:
+      - |-
+        &aWelcome to &lA Minecraft Server&a!
+        &aCurrently &e&l%online%/%max% &aplayers are playing on our server!
+
+Personalized:
+  Description:
+    - |-
+      &8&kVOID&r &7[BOOTING...] &8| &7Hello, &f%player%&7!
+    - |-
+      &8&kVOI&r &7[LOADING MODULES...] &8| &7Hello, &f%player%&7!
+    - |-
+      &8&kVOID&r &7[SYNCING DIMENSIONS...] &8| &7Hello, &f%player%&7!
+    - |-
+      &8&lVOID&r &7[READY] &8| &7Welcome back, &f%player%&7!
+    - |-
+      &b&lVOID NETWORK&r &7| &f1.12.2
+      &8A MULTI-DIMENSION EXPERIENCE
+  Players:
+    Hover:
+      - |-
+        &aWelcome back, &l%player%&a!
+        &aCurrently &e&l%online%/%max% &aplayers are playing on our server!
+
+# PlayerTracking: Enable/disable tracking of player names to their IP-Addresses.
+#   - Persistence can be disabled with the toggle in the Storage section.
+# StripRGBIfOutdated: Strip RGB color codes for outdated clients.
+#   - With this enabled you can put an old color code (e.g. &c) before RGB codes/gradients
+#     and they will be shown for outdated clients.
+# Unknown: Placeholder replacement if the real value is unknown.
+# Favicon: Options for the creation / downloading of favicons:
+#  - RecursiveFolderSearch: Also search for favicons in sub directories.
+#  - SkinSource: The URL to get the Minecraft Skins from. (%s -> player name)
+#  - ResizeStrategy: The strategy used to resize too small or too big favicons.
+#      NONE (keep them as is, will probably fail), SCALE (scale them to the correct size)
+--- !Plugin
+PlayerTracking:
+  Enabled: true
+  Storage: !JSONStorage
+    Enabled: true
+    SaveDelay: 5m
+StripRGBIfOutdated: true
+Unknown:
+  PlayerName: player
+  PlayerCount: ???
+  Date: ???
+  BanReason: some reason
+  BanOperator: somebody
+  BanExpirationDate: never
+Favicon:
+  Timeout: 10s
+  RecursiveFolderSearch: false
+  ResizeStrategy: SCALE
+
+# This section is only for the Bukkit plugin of ServerListPlus.
+# ProtocolLib: (DISABLE|AUTO|ENABLE) Decides if ProtocolLib should be used by ServerListPlus.
+#   Generally, AUTO (the default) is a good choice: ProtocolLib is used on Spigot for
+#   full functionality, but disabled on Paper because it is not needed there.
+#   Note that this might cause other plugins that make use of ProtocolLib to overwrite
+#   the changes made by ServerListPlus. In that case, try setting ENABLE instead.
+--- !Bukkit
+ProtocolLib: AUTO
+

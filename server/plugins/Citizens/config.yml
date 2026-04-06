@@ -1,0 +1,138 @@
+# Citizens Configuration
+
+npc:
+  always-use-name-holograms: false
+  pathfinding:
+    new-finder:
+      iterations-per-tick: 5000
+      check-bounding-boxes: false
+      open-doors: false
+    defaults:
+      destination-teleport-margin: -1
+    default-distance-margin: 2
+    default-path-distance-margin: 1
+    update-path-rate: 20
+    straight-line-targeting-distance: 5
+    disable-mc-fallback-navigation: true
+    maximum-new-pathfinder-iterations: 10000
+    maximum-visited-nodes: 768
+    minecraft:
+      max-fall-distance: 3
+    attack-range: 3.0625
+    use-new-finder: false
+  default:
+    bossbar-view-range: 64
+    waypoints:
+      cache-paths: false
+    look-close:
+      enabled: false
+      range: 5
+      random-look-enabled: false
+      random-look-delay: 60
+      disable-while-navigating: true
+    pathfinding:
+      range: 75.0
+    random-talker: false
+    realistic-looking: false
+    spawn-nodamage-ticks: 20
+    stationary-ticks: -1
+    talk-close:
+      enabled: false
+      range: 5
+    text:
+      '0': Hi, I'm <npc>!
+  chat:
+    options:
+      bystanders-hear-targeted-chat: false
+      max-number-of-targets-to-show: 2
+      multiple-targets-format: <target>|, <target>| & <target>| & others
+      range: 5
+      max-text-range: 500
+      talk-to-npcs: true
+    format:
+      no-targets: '[<npc>]: <text>'
+      with-target-to-bystanders: '[<npc>] -> [<target>]: <text>'
+      to-target: '<npc>: <text>'
+      with-targets-to-bystanders: '[<npc>] -> [<targets>]: <text>'
+  controllable:
+    ground-direction-modifier: 1.0
+    max-ground-speed: 0.5
+    use-boat-controls: true
+  defaults:
+    block-breaker-radius: -1
+  hologram:
+    default-line-height: 0.4
+  limits:
+    default-limit: 10
+    max-permission-checks: 100
+    max-packet-entries: 15
+    max-speed: 100
+  text:
+    speech-bubble-ticks: 50
+    max-talk-cooldown: 5
+    min-talk-cooldown: 10
+    talk-item: '*'
+  tablist:
+    disable: true
+    remove-packet-delay: 1
+  follow:
+    teleport-across-worlds: true
+  skins:
+    player-join-update-delay-ticks: 60
+    max-retries: -1
+    retry-delay: 120
+    rotation-update-degrees: 90.0
+    use-latest-by-default: false
+    view-distance: 100.0
+    placeholder-update-frequency-ticks: 6000
+  chunks:
+    always-keep-loaded: false
+  commands:
+    global-delay-seconds: 1
+    error-messages:
+      maximum-times-used: You have reached the maximum number of uses ({0}).
+      missing-item: Missing {1} {0}
+      no-permission: You don't have permission to do that.
+      not-enough-experience: You need at least {0} experience.
+      not-enough-money: You need at least ${0}.
+      on-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+  packets:
+    update-delay: 30
+  player:
+    remove-from-list: true
+  scoreboard-teams:
+    packet-send-ticks: 1
+    enable: true
+  selection:
+    item: stick
+    message: Selected [[<npc>]] (ID <id>).
+  server-ownership: false
+  teleport-delay: -1
+general:
+  authlib:
+    profile-url: https://sessionserver.mojang.com/session/minecraft/profile/
+  debug-chunk-loads: false
+  debug-file: ''
+  debug-mode: false
+  debug-pathfinding: false
+  entity-spawn-wait-ticks: 20
+  color-scheme:
+    message-error: <red>
+    message-highlight: yellow
+    message: <green>
+  translation:
+    locale: ''
+  reload-warning-enabled: true
+advanced:
+  check-minecraft-version: true
+economy:
+  npc:
+    cost: 100.0
+storage:
+  save-task:
+    delay: 72000
+  file: saves.yml
+  type: yaml
+subplugins:
+  folder: plugins

@@ -1,8 +1,8 @@
 server_connect_timeout: 5000
 enforce_secure_profile: false
-remote_ping_cache: -1
 forge_support: true
 player_limit: -1
+log_pings: true
 permissions:
   default:
   - bungeecord.command.server
@@ -15,7 +15,10 @@ permissions:
   - bungeecord.command.kick
 timeout: 30000
 log_commands: false
+network_compression_threshold: 256
 online_mode: false
+disabled_commands:
+- disabledcommandhere
 servers:
   lobby:
     motd: ''
@@ -37,15 +40,12 @@ listeners:
   max_players: 5
   tab_size: 100
   force_default_server: true
-prevent_proxy_connections: false
-remote_ping_timeout: 5000
 ip_forward: true
-network_compression_threshold: 256
+remote_ping_timeout: 5000
 reject_transfers: false
-disabled_commands:
-- disabledcommandhere
+remote_ping_cache: -1
 connection_throttle: 4000
 stats: 962f574d-6f3f-40f8-9b2a-2c0467a28290
 connection_throttle_limit: 3
 groups: {}
-log_pings: true
+prevent_proxy_connections: false

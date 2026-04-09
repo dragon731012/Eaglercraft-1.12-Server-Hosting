@@ -3966,3 +3966,1995 @@ java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plu
 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
 22:26:10 [INFO] Listening on /127.0.0.1:25577
+23:50:44 [INFO] Using mbed TLS based native cipher.
+23:50:44 [INFO] Using zlib based native compressor.
+23:50:44 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+23:50:44 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:50:44 [INFO] Epoll is working, utilising it!
+23:50:44 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:50:44 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:50:44 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:50:44 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:50:44 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:50:44 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:50:44 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+23:50:44 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:50:44 [WARNING] :>  
+23:50:44 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+23:50:44 [WARNING] :>  
+23:50:44 [WARNING] :>  This plugin wasn't tested to be 'working'
+23:50:44 [WARNING] :>  with ANY version of BungeeCord (and forks)
+23:50:44 [WARNING] :>  apart from the versions listed below:
+23:50:44 [WARNING] :>  
+23:50:44 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+23:50:44 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+23:50:44 [WARNING] :>  
+23:50:44 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+23:50:44 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+23:50:44 [WARNING] :>  
+23:50:44 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+23:50:44 [WARNING] :>  
+23:50:44 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+23:50:44 [WARNING] :>  
+23:50:44 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:50:44 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:50:44 [WARNING] Forced host server pvp is not defined
+23:50:44 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+23:50:44 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] [ServerListPlus] [Core] Reloading configuration...
+23:50:44 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+23:50:44 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+23:50:44 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+23:50:44 [INFO] [ServerListPlus] Successfully loaded!
+23:50:44 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+23:50:44 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:50:44 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:50:45 [INFO] Listening on /127.0.0.1:25577
+21:54:54 [INFO] Using mbed TLS based native cipher.
+21:54:54 [INFO] Using zlib based native compressor.
+21:54:54 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+21:54:54 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+21:54:54 [INFO] Epoll is working, utilising it!
+21:54:54 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+21:54:54 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+21:54:54 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+21:54:54 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+21:54:54 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+21:54:54 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:54:54 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+21:54:54 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+21:54:54 [WARNING] :>  
+21:54:54 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+21:54:54 [WARNING] :>  
+21:54:54 [WARNING] :>  This plugin wasn't tested to be 'working'
+21:54:54 [WARNING] :>  with ANY version of BungeeCord (and forks)
+21:54:54 [WARNING] :>  apart from the versions listed below:
+21:54:54 [WARNING] :>  
+21:54:54 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+21:54:54 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+21:54:54 [WARNING] :>  
+21:54:54 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+21:54:54 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+21:54:54 [WARNING] :>  
+21:54:54 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+21:54:54 [WARNING] :>  
+21:54:54 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+21:54:54 [WARNING] :>  
+21:54:54 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+21:54:54 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+21:54:54 [WARNING] Forced host server pvp is not defined
+21:54:54 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+21:54:54 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] [ServerListPlus] [Core] Reloading configuration...
+21:54:54 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+21:54:54 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+21:54:54 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+21:54:54 [INFO] [ServerListPlus] Successfully loaded!
+21:54:54 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+21:54:54 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:54:54 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+21:54:54 [INFO] Listening on /127.0.0.1:25577
+00:08:28 [INFO] Using mbed TLS based native cipher.
+00:08:28 [INFO] Using zlib based native compressor.
+00:08:28 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+00:08:28 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:08:28 [INFO] Epoll is working, utilising it!
+00:08:28 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:08:28 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:08:28 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:08:28 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:08:28 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:08:28 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:08:28 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+00:08:28 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:08:28 [WARNING] :>  
+00:08:28 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:08:28 [WARNING] :>  
+00:08:28 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:08:28 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:08:28 [WARNING] :>  apart from the versions listed below:
+00:08:28 [WARNING] :>  
+00:08:28 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+00:08:28 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+00:08:28 [WARNING] :>  
+00:08:28 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+00:08:28 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+00:08:28 [WARNING] :>  
+00:08:28 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:08:28 [WARNING] :>  
+00:08:28 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:08:28 [WARNING] :>  
+00:08:28 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:08:28 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+00:08:28 [WARNING] Forced host server pvp is not defined
+00:08:28 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+00:08:28 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] [ServerListPlus] [Core] Reloading configuration...
+00:08:28 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+00:08:28 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+00:08:28 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+00:08:28 [INFO] [ServerListPlus] Successfully loaded!
+00:08:28 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+00:08:28 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:08:28 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+00:08:28 [INFO] Listening on /127.0.0.1:25577
+02:45:24 [INFO] Using mbed TLS based native cipher.
+02:45:24 [INFO] Using zlib based native compressor.
+02:45:24 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+02:45:24 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+02:45:24 [INFO] Epoll is working, utilising it!
+02:45:24 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+02:45:24 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+02:45:24 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+02:45:24 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+02:45:24 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+02:45:24 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+02:45:24 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+02:45:24 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+02:45:24 [WARNING] :>  
+02:45:24 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+02:45:24 [WARNING] :>  
+02:45:24 [WARNING] :>  This plugin wasn't tested to be 'working'
+02:45:24 [WARNING] :>  with ANY version of BungeeCord (and forks)
+02:45:24 [WARNING] :>  apart from the versions listed below:
+02:45:24 [WARNING] :>  
+02:45:24 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+02:45:24 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+02:45:24 [WARNING] :>  
+02:45:24 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+02:45:24 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+02:45:24 [WARNING] :>  
+02:45:24 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+02:45:24 [WARNING] :>  
+02:45:24 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+02:45:24 [WARNING] :>  
+02:45:24 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+02:45:24 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+02:45:24 [WARNING] Forced host server pvp is not defined
+02:45:24 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+02:45:24 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] [ServerListPlus] [Core] Reloading configuration...
+02:45:24 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+02:45:24 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+02:45:24 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+02:45:24 [INFO] [ServerListPlus] Successfully loaded!
+02:45:24 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+02:45:24 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:45:24 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+02:45:24 [INFO] Listening on /127.0.0.1:25577
+02:47:51 [INFO] Closing listener [id: 0x67b0969d, L:/127.0.0.1:25577]
+02:47:51 [INFO] Closing pending connections
+02:47:51 [INFO] Disconnecting 0 connections
+02:47:51 [INFO] Disabling plugins
+02:47:51 [INFO] Closing IO threads
+02:48:24 [INFO] Using mbed TLS based native cipher.
+02:48:24 [INFO] Using zlib based native compressor.
+02:48:24 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+02:48:24 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+02:48:24 [INFO] Epoll is working, utilising it!
+02:48:25 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+02:48:25 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+02:48:25 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+02:48:25 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+02:48:25 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+02:48:25 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+02:48:25 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+02:48:25 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+02:48:25 [WARNING] :>  
+02:48:25 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+02:48:25 [WARNING] :>  
+02:48:25 [WARNING] :>  This plugin wasn't tested to be 'working'
+02:48:25 [WARNING] :>  with ANY version of BungeeCord (and forks)
+02:48:25 [WARNING] :>  apart from the versions listed below:
+02:48:25 [WARNING] :>  
+02:48:25 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+02:48:25 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+02:48:25 [WARNING] :>  
+02:48:25 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+02:48:25 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+02:48:25 [WARNING] :>  
+02:48:25 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+02:48:25 [WARNING] :>  
+02:48:25 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+02:48:25 [WARNING] :>  
+02:48:25 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+02:48:25 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+02:48:25 [WARNING] Forced host server pvp is not defined
+02:48:25 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+02:48:25 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] [ServerListPlus] [Core] Reloading configuration...
+02:48:25 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+02:48:25 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+02:48:25 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+02:48:25 [INFO] [ServerListPlus] Successfully loaded!
+02:48:25 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+02:48:25 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+02:48:25 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+02:48:25 [INFO] Listening on /127.0.0.1:25577
+12:59:58 [INFO] Using mbed TLS based native cipher.
+12:59:58 [INFO] Using zlib based native compressor.
+12:59:58 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+12:59:58 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:59:59 [INFO] Epoll is working, utilising it!
+12:59:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:59:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:59:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:59:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:59:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:59:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:59:59 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+12:59:59 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:59:59 [WARNING] :>  
+12:59:59 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+12:59:59 [WARNING] :>  
+12:59:59 [WARNING] :>  This plugin wasn't tested to be 'working'
+12:59:59 [WARNING] :>  with ANY version of BungeeCord (and forks)
+12:59:59 [WARNING] :>  apart from the versions listed below:
+12:59:59 [WARNING] :>  
+12:59:59 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+12:59:59 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+12:59:59 [WARNING] :>  
+12:59:59 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+12:59:59 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+12:59:59 [WARNING] :>  
+12:59:59 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+12:59:59 [WARNING] :>  
+12:59:59 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+12:59:59 [WARNING] :>  
+12:59:59 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:59:59 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+12:59:59 [WARNING] Forced host server pvp is not defined
+12:59:59 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+12:59:59 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] [ServerListPlus] [Core] Reloading configuration...
+12:59:59 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+12:59:59 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+12:59:59 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+12:59:59 [INFO] [ServerListPlus] Successfully loaded!
+12:59:59 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+12:59:59 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:59:59 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+12:59:59 [INFO] Listening on /127.0.0.1:25577
+13:42:37 [INFO] Using mbed TLS based native cipher.
+13:42:37 [INFO] Using zlib based native compressor.
+13:42:37 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+13:42:37 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+13:42:37 [INFO] Epoll is working, utilising it!
+13:42:37 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+13:42:37 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+13:42:37 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+13:42:37 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+13:42:37 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+13:42:37 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:42:37 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+13:42:37 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+13:42:37 [WARNING] :>  
+13:42:37 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+13:42:37 [WARNING] :>  
+13:42:37 [WARNING] :>  This plugin wasn't tested to be 'working'
+13:42:37 [WARNING] :>  with ANY version of BungeeCord (and forks)
+13:42:37 [WARNING] :>  apart from the versions listed below:
+13:42:37 [WARNING] :>  
+13:42:37 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+13:42:37 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+13:42:37 [WARNING] :>  
+13:42:37 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+13:42:37 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+13:42:37 [WARNING] :>  
+13:42:37 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+13:42:37 [WARNING] :>  
+13:42:37 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+13:42:37 [WARNING] :>  
+13:42:37 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+13:42:37 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+13:42:37 [WARNING] Forced host server pvp is not defined
+13:42:37 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+13:42:37 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] [ServerListPlus] [Core] Reloading configuration...
+13:42:37 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+13:42:37 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+13:42:37 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+13:42:37 [INFO] [ServerListPlus] Successfully loaded!
+13:42:37 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+13:42:37 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:42:37 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+13:42:38 [INFO] Listening on /127.0.0.1:25577
+13:52:56 [INFO] Closing listener [id: 0xe89128ba, L:/127.0.0.1:25577]
+13:52:56 [INFO] Closing pending connections
+13:52:56 [INFO] Disconnecting 0 connections
+13:52:56 [INFO] Disabling plugins
+13:52:56 [INFO] Closing IO threads
+13:53:28 [INFO] Using mbed TLS based native cipher.
+13:53:28 [INFO] Using zlib based native compressor.
+13:53:28 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+13:53:28 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+13:53:28 [INFO] Epoll is working, utilising it!
+13:53:28 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+13:53:28 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+13:53:28 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+13:53:28 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+13:53:28 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+13:53:28 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:53:28 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+13:53:28 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+13:53:28 [WARNING] :>  
+13:53:28 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+13:53:28 [WARNING] :>  
+13:53:28 [WARNING] :>  This plugin wasn't tested to be 'working'
+13:53:28 [WARNING] :>  with ANY version of BungeeCord (and forks)
+13:53:28 [WARNING] :>  apart from the versions listed below:
+13:53:28 [WARNING] :>  
+13:53:28 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+13:53:28 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+13:53:28 [WARNING] :>  
+13:53:28 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+13:53:28 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+13:53:28 [WARNING] :>  
+13:53:28 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+13:53:28 [WARNING] :>  
+13:53:28 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+13:53:28 [WARNING] :>  
+13:53:28 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+13:53:28 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+13:53:28 [WARNING] Forced host server pvp is not defined
+13:53:28 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+13:53:28 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] [ServerListPlus] [Core] Reloading configuration...
+13:53:28 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+13:53:28 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+13:53:28 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+13:53:28 [INFO] [ServerListPlus] Successfully loaded!
+13:53:28 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+13:53:28 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+13:53:28 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+13:53:28 [INFO] Listening on /127.0.0.1:25577
+15:13:21 [INFO] Using mbed TLS based native cipher.
+15:13:21 [INFO] Using zlib based native compressor.
+15:13:21 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+15:13:21 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+15:13:21 [INFO] Epoll is working, utilising it!
+15:13:21 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+15:13:21 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+15:13:21 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+15:13:21 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+15:13:21 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+15:13:21 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:13:21 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+15:13:21 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:13:21 [WARNING] :>  
+15:13:21 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+15:13:21 [WARNING] :>  
+15:13:21 [WARNING] :>  This plugin wasn't tested to be 'working'
+15:13:21 [WARNING] :>  with ANY version of BungeeCord (and forks)
+15:13:21 [WARNING] :>  apart from the versions listed below:
+15:13:21 [WARNING] :>  
+15:13:21 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+15:13:21 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+15:13:21 [WARNING] :>  
+15:13:21 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+15:13:21 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+15:13:21 [WARNING] :>  
+15:13:21 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+15:13:21 [WARNING] :>  
+15:13:21 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+15:13:21 [WARNING] :>  
+15:13:21 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:13:21 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+15:13:21 [WARNING] Forced host server pvp is not defined
+15:13:21 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+15:13:21 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] [ServerListPlus] [Core] Reloading configuration...
+15:13:21 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+15:13:21 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+15:13:21 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+15:13:21 [INFO] [ServerListPlus] Successfully loaded!
+15:13:21 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+15:13:21 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+15:13:21 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+15:13:21 [INFO] Listening on /127.0.0.1:25577
+16:38:35 [INFO] Using mbed TLS based native cipher.
+16:38:35 [INFO] Using zlib based native compressor.
+16:38:35 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+16:38:35 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+16:38:35 [INFO] Epoll is working, utilising it!
+16:38:35 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+16:38:35 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+16:38:35 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+16:38:35 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+16:38:35 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+16:38:35 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:38:35 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+16:38:35 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+16:38:35 [WARNING] :>  
+16:38:35 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+16:38:35 [WARNING] :>  
+16:38:35 [WARNING] :>  This plugin wasn't tested to be 'working'
+16:38:35 [WARNING] :>  with ANY version of BungeeCord (and forks)
+16:38:35 [WARNING] :>  apart from the versions listed below:
+16:38:35 [WARNING] :>  
+16:38:35 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+16:38:35 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+16:38:35 [WARNING] :>  
+16:38:35 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+16:38:35 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+16:38:35 [WARNING] :>  
+16:38:35 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+16:38:35 [WARNING] :>  
+16:38:35 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+16:38:35 [WARNING] :>  
+16:38:35 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+16:38:35 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:38:35 [WARNING] Forced host server pvp is not defined
+16:38:35 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+16:38:35 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] [ServerListPlus] [Core] Reloading configuration...
+16:38:35 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+16:38:35 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+16:38:35 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+16:38:35 [INFO] [ServerListPlus] Successfully loaded!
+16:38:35 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+16:38:35 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:38:35 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:38:35 [INFO] Listening on /127.0.0.1:25577
+17:09:03 [INFO] Using mbed TLS based native cipher.
+17:09:03 [INFO] Using zlib based native compressor.
+17:09:03 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+17:09:03 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+17:09:03 [INFO] Epoll is working, utilising it!
+17:09:03 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+17:09:03 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+17:09:03 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+17:09:03 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+17:09:03 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+17:09:03 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:09:03 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+17:09:03 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+17:09:03 [WARNING] :>  
+17:09:03 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+17:09:03 [WARNING] :>  
+17:09:03 [WARNING] :>  This plugin wasn't tested to be 'working'
+17:09:03 [WARNING] :>  with ANY version of BungeeCord (and forks)
+17:09:03 [WARNING] :>  apart from the versions listed below:
+17:09:03 [WARNING] :>  
+17:09:03 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+17:09:03 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+17:09:03 [WARNING] :>  
+17:09:03 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+17:09:03 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+17:09:03 [WARNING] :>  
+17:09:03 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+17:09:03 [WARNING] :>  
+17:09:03 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+17:09:03 [WARNING] :>  
+17:09:03 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+17:09:03 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+17:09:03 [WARNING] Forced host server pvp is not defined
+17:09:03 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+17:09:03 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] [ServerListPlus] [Core] Reloading configuration...
+17:09:03 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+17:09:03 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+17:09:03 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+17:09:03 [INFO] [ServerListPlus] Successfully loaded!
+17:09:03 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+17:09:03 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:09:03 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+17:09:03 [INFO] Listening on /127.0.0.1:25577
+17:41:43 [INFO] Using mbed TLS based native cipher.
+17:41:43 [INFO] Using zlib based native compressor.
+17:41:43 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+17:41:43 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+17:41:43 [INFO] Epoll is working, utilising it!
+17:41:43 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+17:41:43 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+17:41:43 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+17:41:43 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+17:41:43 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+17:41:43 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:41:43 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+17:41:43 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+17:41:43 [WARNING] :>  
+17:41:43 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+17:41:43 [WARNING] :>  
+17:41:43 [WARNING] :>  This plugin wasn't tested to be 'working'
+17:41:43 [WARNING] :>  with ANY version of BungeeCord (and forks)
+17:41:43 [WARNING] :>  apart from the versions listed below:
+17:41:43 [WARNING] :>  
+17:41:43 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+17:41:43 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+17:41:43 [WARNING] :>  
+17:41:43 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+17:41:43 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+17:41:43 [WARNING] :>  
+17:41:43 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+17:41:43 [WARNING] :>  
+17:41:43 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+17:41:43 [WARNING] :>  
+17:41:43 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+17:41:43 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+17:41:43 [WARNING] Forced host server pvp is not defined
+17:41:43 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+17:41:43 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] [ServerListPlus] [Core] Reloading configuration...
+17:41:43 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+17:41:43 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+17:41:43 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+17:41:43 [INFO] [ServerListPlus] Successfully loaded!
+17:41:43 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+17:41:43 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+17:41:43 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+17:41:43 [INFO] Listening on /127.0.0.1:25577
+20:23:18 [INFO] Using mbed TLS based native cipher.
+20:23:18 [INFO] Using zlib based native compressor.
+20:23:18 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+20:23:18 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+20:23:18 [INFO] Epoll is working, utilising it!
+20:23:18 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+20:23:18 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+20:23:18 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+20:23:18 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+20:23:18 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+20:23:18 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:23:18 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+20:23:18 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+20:23:18 [WARNING] :>  
+20:23:18 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+20:23:18 [WARNING] :>  
+20:23:18 [WARNING] :>  This plugin wasn't tested to be 'working'
+20:23:18 [WARNING] :>  with ANY version of BungeeCord (and forks)
+20:23:18 [WARNING] :>  apart from the versions listed below:
+20:23:18 [WARNING] :>  
+20:23:18 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+20:23:18 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+20:23:18 [WARNING] :>  
+20:23:18 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+20:23:18 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+20:23:18 [WARNING] :>  
+20:23:18 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+20:23:18 [WARNING] :>  
+20:23:18 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+20:23:18 [WARNING] :>  
+20:23:18 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+20:23:18 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+20:23:18 [WARNING] Forced host server pvp is not defined
+20:23:18 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+20:23:18 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] [ServerListPlus] [Core] Reloading configuration...
+20:23:18 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+20:23:18 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+20:23:18 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+20:23:18 [INFO] [ServerListPlus] Successfully loaded!
+20:23:18 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+20:23:18 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+20:23:18 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+20:23:19 [INFO] Listening on /127.0.0.1:25577
+20:35:26 [INFO] Closing listener [id: 0x529c5a4e, L:/127.0.0.1:25577]
+20:35:26 [INFO] Closing pending connections
+20:35:26 [INFO] Disconnecting 0 connections
+20:35:27 [INFO] Disabling plugins
+20:35:27 [INFO] Closing IO threads
+21:46:55 [INFO] Using mbed TLS based native cipher.
+21:46:55 [INFO] Using zlib based native compressor.
+21:46:55 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+21:46:55 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+21:46:55 [INFO] Epoll is working, utilising it!
+21:46:55 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+21:46:55 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+21:46:55 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+21:46:55 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+21:46:55 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+21:46:55 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:46:55 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+21:46:55 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+21:46:55 [WARNING] :>  
+21:46:55 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+21:46:55 [WARNING] :>  
+21:46:55 [WARNING] :>  This plugin wasn't tested to be 'working'
+21:46:55 [WARNING] :>  with ANY version of BungeeCord (and forks)
+21:46:55 [WARNING] :>  apart from the versions listed below:
+21:46:55 [WARNING] :>  
+21:46:55 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+21:46:55 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+21:46:55 [WARNING] :>  
+21:46:55 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+21:46:55 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+21:46:55 [WARNING] :>  
+21:46:55 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+21:46:55 [WARNING] :>  
+21:46:55 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+21:46:55 [WARNING] :>  
+21:46:55 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+21:46:55 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+21:46:55 [WARNING] Forced host server pvp is not defined
+21:46:55 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+21:46:55 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] [ServerListPlus] [Core] Reloading configuration...
+21:46:55 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+21:46:55 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+21:46:55 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+21:46:55 [INFO] [ServerListPlus] Successfully loaded!
+21:46:55 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+21:46:55 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+21:46:55 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+21:46:55 [INFO] Listening on /127.0.0.1:25577
+22:37:28 [INFO] Using mbed TLS based native cipher.
+22:37:28 [INFO] Using zlib based native compressor.
+22:37:28 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+22:37:28 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+22:37:28 [INFO] Epoll is working, utilising it!
+22:37:28 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+22:37:28 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+22:37:28 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+22:37:28 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+22:37:28 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+22:37:28 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:37:28 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+22:37:28 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+22:37:28 [WARNING] :>  
+22:37:28 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+22:37:28 [WARNING] :>  
+22:37:28 [WARNING] :>  This plugin wasn't tested to be 'working'
+22:37:28 [WARNING] :>  with ANY version of BungeeCord (and forks)
+22:37:28 [WARNING] :>  apart from the versions listed below:
+22:37:28 [WARNING] :>  
+22:37:28 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+22:37:28 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+22:37:28 [WARNING] :>  
+22:37:28 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+22:37:28 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+22:37:28 [WARNING] :>  
+22:37:28 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+22:37:28 [WARNING] :>  
+22:37:28 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+22:37:28 [WARNING] :>  
+22:37:28 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+22:37:28 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+22:37:28 [WARNING] Forced host server pvp is not defined
+22:37:28 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+22:37:28 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] [ServerListPlus] [Core] Reloading configuration...
+22:37:28 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+22:37:28 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+22:37:28 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+22:37:28 [INFO] [ServerListPlus] Successfully loaded!
+22:37:28 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+22:37:28 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:37:28 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+22:37:29 [INFO] Listening on /127.0.0.1:25577
+23:18:57 [INFO] Using mbed TLS based native cipher.
+23:18:57 [INFO] Using zlib based native compressor.
+23:18:57 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+23:18:57 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:18:57 [INFO] Epoll is working, utilising it!
+23:18:57 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:18:57 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:18:57 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:18:57 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:18:57 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:18:57 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:18:57 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+23:18:57 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:18:57 [WARNING] :>  
+23:18:57 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+23:18:57 [WARNING] :>  
+23:18:57 [WARNING] :>  This plugin wasn't tested to be 'working'
+23:18:57 [WARNING] :>  with ANY version of BungeeCord (and forks)
+23:18:57 [WARNING] :>  apart from the versions listed below:
+23:18:57 [WARNING] :>  
+23:18:57 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+23:18:57 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+23:18:57 [WARNING] :>  
+23:18:57 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+23:18:57 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+23:18:57 [WARNING] :>  
+23:18:57 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+23:18:57 [WARNING] :>  
+23:18:57 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+23:18:57 [WARNING] :>  
+23:18:57 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:18:57 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:18:57 [WARNING] Forced host server pvp is not defined
+23:18:57 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+23:18:57 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] [ServerListPlus] [Core] Reloading configuration...
+23:18:57 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+23:18:57 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+23:18:57 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+23:18:57 [INFO] [ServerListPlus] Successfully loaded!
+23:18:57 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+23:18:57 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:18:57 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:18:57 [INFO] Listening on /127.0.0.1:25577
+23:53:42 [INFO] Using mbed TLS based native cipher.
+23:53:42 [INFO] Using zlib based native compressor.
+23:53:42 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+23:53:42 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:53:42 [INFO] Epoll is working, utilising it!
+23:53:42 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:53:42 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:53:42 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:53:42 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:53:42 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:53:42 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:53:42 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+23:53:42 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:53:42 [WARNING] :>  
+23:53:42 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+23:53:42 [WARNING] :>  
+23:53:42 [WARNING] :>  This plugin wasn't tested to be 'working'
+23:53:42 [WARNING] :>  with ANY version of BungeeCord (and forks)
+23:53:42 [WARNING] :>  apart from the versions listed below:
+23:53:42 [WARNING] :>  
+23:53:42 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+23:53:42 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+23:53:42 [WARNING] :>  
+23:53:42 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+23:53:42 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+23:53:42 [WARNING] :>  
+23:53:42 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+23:53:42 [WARNING] :>  
+23:53:42 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+23:53:42 [WARNING] :>  
+23:53:42 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+23:53:42 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:53:42 [WARNING] Forced host server pvp is not defined
+23:53:42 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+23:53:42 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] [ServerListPlus] [Core] Reloading configuration...
+23:53:42 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+23:53:42 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+23:53:42 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+23:53:42 [INFO] [ServerListPlus] Successfully loaded!
+23:53:42 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+23:53:42 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+23:53:42 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:53:42 [INFO] Listening on /127.0.0.1:25577
+00:16:13 [INFO] Using mbed TLS based native cipher.
+00:16:13 [INFO] Using zlib based native compressor.
+00:16:13 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+00:16:13 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:16:13 [INFO] Epoll is working, utilising it!
+00:16:13 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:16:13 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:16:13 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:16:13 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:16:13 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:16:13 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:16:13 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+00:16:13 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:16:13 [WARNING] :>  
+00:16:13 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:16:13 [WARNING] :>  
+00:16:13 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:16:13 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:16:13 [WARNING] :>  apart from the versions listed below:
+00:16:13 [WARNING] :>  
+00:16:13 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+00:16:13 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+00:16:13 [WARNING] :>  
+00:16:13 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+00:16:13 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+00:16:13 [WARNING] :>  
+00:16:13 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:16:13 [WARNING] :>  
+00:16:13 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:16:13 [WARNING] :>  
+00:16:13 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:16:13 [WARNING] Error loading plugin EaglercraftXBungee
+while parsing a block mapping
+ in 'reader', line 1, column 1:
+    enable_authentication_system: true
+    ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 13, column 29:
+    last_eagler_login_message: 'Your last Eaglercraft login was  ... 
+                                ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:486)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:112)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:80)
+	at net.md_5.bungee.config.YamlConfiguration.load(YamlConfiguration.java:72)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:111)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+00:16:13 [WARNING] Forced host server pvp is not defined
+00:16:13 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+00:16:13 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] [ServerListPlus] [Core] Reloading configuration...
+00:16:13 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+00:16:13 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+00:16:13 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+00:16:13 [INFO] [ServerListPlus] Successfully loaded!
+00:16:13 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+00:16:13 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:16:13 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+00:16:13 [INFO] Listening on /127.0.0.1:25577
+00:40:34 [INFO] Closing listener [id: 0xbd7240b5, L:/127.0.0.1:25577]
+00:40:34 [INFO] Closing pending connections
+00:40:34 [INFO] Disconnecting 0 connections
+00:40:35 [INFO] Disabling plugins
+00:40:35 [INFO] Closing IO threads
+00:41:06 [INFO] Using mbed TLS based native cipher.
+00:41:06 [INFO] Using zlib based native compressor.
+00:41:06 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+00:41:06 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:41:06 [INFO] Epoll is working, utilising it!
+00:41:06 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:41:06 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:41:06 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:41:06 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:41:06 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:41:06 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:41:06 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+00:41:06 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:41:06 [WARNING] :>  
+00:41:06 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:41:06 [WARNING] :>  
+00:41:06 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:41:06 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:41:06 [WARNING] :>  apart from the versions listed below:
+00:41:06 [WARNING] :>  
+00:41:06 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+00:41:06 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+00:41:06 [WARNING] :>  
+00:41:06 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+00:41:06 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+00:41:06 [WARNING] :>  
+00:41:06 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:41:06 [WARNING] :>  
+00:41:06 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:41:06 [WARNING] :>  
+00:41:06 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:41:06 [WARNING] Error loading plugin EaglercraftXBungee
+java.lang.ClassCastException: class java.lang.String cannot be cast to class net.md_5.bungee.config.Configuration (java.lang.String is in module java.base of loader 'bootstrap'; net.md_5.bungee.config.Configuration is in unnamed module of loader 'app')
+	at net.md_5.bungee.config.Configuration.getSection(Configuration.java:136)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:98)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+00:41:06 [WARNING] Forced host server pvp is not defined
+00:41:06 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+00:41:06 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] [ServerListPlus] [Core] Reloading configuration...
+00:41:06 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+00:41:06 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+00:41:06 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+00:41:06 [INFO] [ServerListPlus] Successfully loaded!
+00:41:06 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+00:41:06 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:41:06 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+00:41:06 [INFO] Listening on /127.0.0.1:25577
+00:41:10 [INFO] §cCommand not found
+00:57:30 [INFO] Closing listener [id: 0xaad6b6ee, L:/127.0.0.1:25577]
+00:57:30 [INFO] Closing pending connections
+00:57:30 [INFO] Disconnecting 0 connections
+00:57:30 [INFO] Disabling plugins
+00:57:30 [INFO] Closing IO threads
+00:58:03 [INFO] Using mbed TLS based native cipher.
+00:58:03 [INFO] Using zlib based native compressor.
+00:58:03 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+00:58:03 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:58:03 [INFO] Epoll is working, utilising it!
+00:58:03 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:58:03 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:58:03 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:58:03 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:58:03 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:58:03 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:58:03 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+00:58:03 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:58:03 [WARNING] :>  
+00:58:03 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:58:03 [WARNING] :>  
+00:58:03 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:58:03 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:58:03 [WARNING] :>  apart from the versions listed below:
+00:58:03 [WARNING] :>  
+00:58:03 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+00:58:03 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+00:58:03 [WARNING] :>  
+00:58:03 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+00:58:03 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+00:58:03 [WARNING] :>  
+00:58:03 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:58:03 [WARNING] :>  
+00:58:03 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:58:03 [WARNING] :>  
+00:58:03 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:58:03 [WARNING] Error loading plugin EaglercraftXBungee
+java.lang.ClassCastException: class java.lang.String cannot be cast to class net.md_5.bungee.config.Configuration (java.lang.String is in module java.base of loader 'bootstrap'; net.md_5.bungee.config.Configuration is in unnamed module of loader 'app')
+	at net.md_5.bungee.config.Configuration.getSection(Configuration.java:136)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:98)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+00:58:03 [WARNING] Forced host server pvp is not defined
+00:58:03 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+00:58:03 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] [ServerListPlus] [Core] Reloading configuration...
+00:58:03 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+00:58:03 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+00:58:03 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+00:58:03 [INFO] [ServerListPlus] Successfully loaded!
+00:58:03 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+00:58:03 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:58:03 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+00:58:03 [INFO] Listening on /0.0.0.0:25577
+01:07:10 [INFO] Closing listener [id: 0xdde5a7b2, L:/[0:0:0:0:0:0:0:0]:25577]
+01:07:10 [INFO] Closing pending connections
+01:07:10 [INFO] Disconnecting 0 connections
+01:07:10 [INFO] Disabling plugins
+01:07:10 [INFO] Closing IO threads
+01:07:45 [INFO] Using mbed TLS based native cipher.
+01:07:45 [INFO] Using zlib based native compressor.
+01:07:45 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+01:07:45 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+01:07:45 [INFO] Epoll is working, utilising it!
+01:07:45 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+01:07:45 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+01:07:45 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+01:07:45 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+01:07:45 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+01:07:45 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+01:07:45 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] Loaded plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+01:07:45 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+01:07:45 [WARNING] :>  
+01:07:45 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+01:07:45 [WARNING] :>  
+01:07:45 [WARNING] :>  This plugin wasn't tested to be 'working'
+01:07:45 [WARNING] :>  with ANY version of BungeeCord (and forks)
+01:07:45 [WARNING] :>  apart from the versions listed below:
+01:07:45 [WARNING] :>  
+01:07:45 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+01:07:45 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+01:07:45 [WARNING] :>  
+01:07:45 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+01:07:45 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+01:07:45 [WARNING] :>  
+01:07:45 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+01:07:45 [WARNING] :>  
+01:07:45 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+01:07:45 [WARNING] :>  
+01:07:45 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+01:07:45 [WARNING] Error loading plugin EaglercraftXBungee
+java.lang.ClassCastException: class java.lang.String cannot be cast to class net.md_5.bungee.config.Configuration (java.lang.String is in module java.base of loader 'bootstrap'; net.md_5.bungee.config.Configuration is in unnamed module of loader 'app')
+	at net.md_5.bungee.config.Configuration.getSection(Configuration.java:136)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:98)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:345)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:07:45 [WARNING] Forced host server pvp is not defined
+01:07:45 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+01:07:45 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] [ServerListPlus] [Core] Reloading configuration...
+01:07:45 [INFO] [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+01:07:45 [INFO] [ServerListPlus] [Core] Loaded configuration: PluginConf
+01:07:45 [INFO] [ServerListPlus] [Core] Reloading saved player identities...
+01:07:45 [INFO] [ServerListPlus] Successfully loaded!
+01:07:45 [INFO] Enabled plugin ServerListPlus version 3.5.0 by Minecrell (https://github.com/Minecrell)
+01:07:45 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+01:07:45 [WARNING] Exception encountered when loading plugin: EaglercraftXBungee
+java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:266)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:298)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:07:45 [INFO] Listening on /0.0.0.0:25577
+01:07:47 [INFO] Closing listener [id: 0x77b1c6bb, L:/[0:0:0:0:0:0:0:0]:25577]
+01:07:47 [INFO] Closing pending connections
+01:07:47 [INFO] Disconnecting 0 connections
+01:07:48 [INFO] Disabling plugins
+01:07:48 [INFO] Closing IO threads

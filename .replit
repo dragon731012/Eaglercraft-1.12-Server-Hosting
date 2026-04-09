@@ -30,8 +30,12 @@ task = "shell.exec"
 args = "bash run.sh"
 waitForPort = 5000
 
+[deployment]
+deploymentTarget = "vm"
+run = ["bash", "run.sh"]
+
 [[ports]]
-localPort = 5000
+localPort = 80
 externalPort = 80
 
 [[ports]]
@@ -40,13 +44,12 @@ externalPort = 8081
 
 [[ports]]
 localPort = 25565
+externalPort = 3001
+
+[[ports]]
+localPort = 25569
 externalPort = 3000
 
 [[ports]]
 localPort = 25577
-externalPort = 3001
-exposeLocalhost = true
-
-[deployment]
-deploymentTarget = "vm"
-run = ["bash", "run.sh"]
+externalPort = 3002

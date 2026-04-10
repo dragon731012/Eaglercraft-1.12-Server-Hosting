@@ -1,0 +1,16 @@
+auth:
+  enabled: false
+
+listeners:
+  - host: 0.0.0.0:25577
+    motd: "Eaglercraft Server"
+    max_players: 100
+    tab_list: GLOBAL_PING
+    force_default_server: true
+    default_server: "backend"
+
+servers:
+  backend:
+    address: 127.0.0.1:25565
+    motd: "Backend Server"
+    restricted: false

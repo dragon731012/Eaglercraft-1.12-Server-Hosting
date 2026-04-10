@@ -1,0 +1,167 @@
+# Thanks for downloading my plugin. Make sure to enjoy it.
+# If you have any questions to hesitate to contact me.
+#  _____   _              ____    _   _
+# |_   _| | |__     ___  |  _ \  (_) | |_
+#   | |   | '_ \   / _ \ | |_) | | | | __|
+#   | |   | | | | |  __/ |  __/  | | | |_
+#   |_|   |_| |_|  \___| |_|     |_|  \__|
+#
+# This is a file to help you configure settings to your likings. It is recommended
+# to leave everything as it is, but, if you know what you're doing, feel free to change
+# it. If you do not understand what something does, please leave it as it is and ask for help
+
+general: #General stuff
+    launchpad-power: 5.0 #How many power should launchpads have? (Slime Blocks turn into launchpads when using this plugin) [number]
+    gold-on-pickup: 2.0 #When picking-up gold from the gold generators, how many gold should the player be rewarded with? [number]
+    auto-respawn: true #When a player dies, should he get auto re-spawned? (Could be bugged) [true/false]
+    fighting-time: 20 #For how many seconds should 'Fighting' appear in scoreboard when someone fights? In seconds [number]
+    goldenheads-head: 'LegendaryJulien' #The name of the player for the Golden Heads perk. [text]
+    spawn-mobs: false #Should mobs be spawned in the server? Might not work properly [true/false]
+    fall-damage: false #Should players take fall damage when they fall? [true/false]
+    lose-hunger: false #Should players lose hunger when they are on the server? [true/false]
+
+prices: #Costing
+    items: #Prices for '/items'
+       1diamondsword: 100 #When purchasing a diamond sword, how many gold should the player charged? [number]
+       8obsidian: 40 #When purchasing 8 obsidian blocks, how many gold should the player charged? [number]
+       32arrows: 16 #When purchasing 32 arrows, how many gold should the player charged? [number]
+       1diamondplate: 250 #When purchasing a diamond chestplate, how many gold should the player charged? [number]
+       1diamondboots: 150 #When purchasing diamond boots, how many gold should the player charged? [number]
+    upgrades: #Prices for '/upgrades'
+       xpboost: 500 #When purchasing the XP Boost upgrade, how many gold should the player charged? [number]
+       goldboost: 1000 #When purchasing the Gold Boost upgrade, how many gold should the player charged? [number]
+       meleedamage: 450 #When purchasing the Melee Damage upgrade, how many gold should the player charged? [number]
+       bowdamage: 450 #When purchasing the Bow Damage upgrade, how many gold should the player charged? [number]
+       damagereduction: 450 #When purchasing the Damage Reduction upgrade, how many gold should the player charged? [number]
+       buildbattler: 750 #When purchasing the Build Battler upgrade, how many gold should the player charged? [number]
+       gatobattler: 1000 #When purchasing the Gato Battler upgrade, how many gold should the player charged? [number]
+    perks: #Prices for '/perks'
+       goldenheads: 500 #When purchasing the Golden Heads perk, how many gold should the player charged? [number]
+       fishingrod: 1000 #When purchasing the Fishing Rod perk, how many gold should the player charged? [number]
+       lavabucket: 1000 #When purchasing the Lava Bucket perk, how many gold should the player charged? [number]
+       strengthchaining: 2000 #When purchasing the Strenght Chaining perk, how many gold should the player charged? [number]
+       endlessquiver: 2000 #When purchasing the Endless Quiver perk, how many gold should the player charged? [number]
+       spammer: 1000 #When purchasing the Spammer perk, how many gold should the player charged? [number]
+       bountyhunter: 2000 #When purchasing the Bounty Hunter perk, how many gold should the player charged? [number]
+       mineman: 3000 #When purchasing the MineMan perk, how many gold should the player charged? [number]
+       safetyfirst: 3000 #When purchasing the Safety First perk, how many gold should the player charged? [number]
+       trickledown: 4000 #When purchasing the Trickle Down perk, how many gold should the player charged? [number]
+       luckydiamond: 4000 #When purchasing the Lucky Diamond perk, how many gold should the player charged? [number]
+       streaker: 1000 #When purchasing the Streaker perk, how many gold should the player charged? [number]
+       gladiator: 4000 #When purchasing the Gladiator perk, how many gold should the player charged? [number]
+       vampire: 4000 #When purchasing the Vampire perk, how many gold should the player charged? [number]
+
+gold-generators: #Spawning gold
+    required-players: 2 #How many players to require in order to start spawning gold? (Set to 0 to disable) [number]
+    spawn-interval: 200 #Every how many seconds should gold randomly be spawned in the locations set? (In seconds) [number]
+
+signs: #Joining system
+    lines: #The lines for signs
+        - '&8[&6&lThePit&8]' #The first line [text]
+        - 'Map: &8[&6%arena%&8]' #Same as above for the other lines.
+        - 'Players: &8[&6%current%&7/&6%max%&8]'
+        - 'Join: &8[&6Click Here&8]'
+
+actionbar: #Sending a pretty message
+    hearts: #Hitting each-other
+        format: '&7%player% %hearts%' #When player hits another player what message should be sent in the actionbar? [text]
+        remain-hearts-color: '&4' #When replacing %hearts% above what should the color of the remaining hearts be? [text]
+        lose-hearts-color: '&0' #When replacing %hearts% above what should the color of the lost hearts be? [text]
+    kill: #Killing each-other
+        format: '&7%player% &a&lKILL!' #When a player kills another player what message should be sent in the action to the killer? [text]
+
+titles: #Sending titles
+    death-title: #Death
+        title: '&cYOU DIED' #When a player dies, what title should be sent? [text]
+        subtitle: '' #When a player dies, what subtitle should be sent? [text]
+    level-up-title: #Level-up
+        title: '&b&lLEVEL UP!' #When a player level-ups, what title should be sent? [text]
+        subtitle: '&7[&3%oldlevel%&7] &7-> &7[&b%newlevel%&7]' #When a player level-ups, what subtitle should be sent? [text]
+
+format: #Formating
+    chat-format: '&7[%lvl%&7] %player%: %message%' #When someone types in chat, how should the plugin format his message? [text]
+    tablist-format: '&7[%lvl%&7] &7%player%' #When someone joins the server, how should the plugin format his tablist? [text]
+ 
+killstreaks: #Streaks
+    - 5 #On what killstreak should a message be sent? [text]
+    - 10
+    - 15
+    - 30
+
+bounties: #Bounties
+    required-ks-for-bounty: 30 #After a player has reach an amount of killstreak there's an X chance that he will get bountied [number]
+    bounty-chance: 7 #What should the chance of getting bountied be? [text]
+    values:
+        - 250 #Random bounty values [number]
+        - 300
+        - 200
+        - 350
+
+scoreboard: #That little thing in the right middle of your screen
+    update: 1 #Every how many half of a second should the scoreboard get updated? Example, putting 1 means it's going to update every half second, and putting 2 will update every second [number]
+    title: '&e&lTHE PIT' #The title of the scoreboard [text]
+    rows: #Rows for the scoreboard [text]
+     - '&7%date%'
+     - '&2&l'
+     - 'Level: &7[&3%lvl%&7]'
+     - 'Needed XP: &b%xp%'
+     - '&4&l'
+     - 'Gold: &6%gold%g'
+     - '&7&l'
+     - 'Status: %status%'
+     - '&9&l'
+     - '&emc.example.net'
+
+leveling-system: #Color, XP, Gold
+    0to9: #When a player is from level 0 to level 9.
+       color: '&7' #When a player is from level 0 to level 9 what color should he have when formating? [text]
+       xp-on-kill: 2 #When a player is from level 0 to level 9 how many XP should he earn when killing someone? [number]
+       gold-on-kill: 10.00 #When a player is from level 0 to level 9 how many GOLD should he earn when killing someone? [number]
+    10to19: #Same as above for everything else in 'leveling-system'
+       color: '&9'
+       xp-on-kill: 4
+       gold-on-kill: 10.00
+    20to29:
+       color: '&3'
+       xp-on-kill: 5
+       gold-on-kill: 13.00
+    30to39:
+       color: '&2'
+       xp-on-kill: 5
+       gold-on-kill: 13.00
+    40to49:
+       color: '&a'
+       xp-on-kill: 6
+       gold-on-kill: 15.00
+    50to59:
+       color: '&e'
+       xp-on-kill: 7
+       gold-on-kill: 15.00
+    60to69:
+       color: '&6&l'
+       xp-on-kill: 8
+       gold-on-kill: 16.00
+    70to79:
+       color: '&c&l'
+       xp-on-kill: 9
+       gold-on-kill: 17.00
+    80to89:
+       color: '&4&l'
+       xp-on-kill: 10
+       gold-on-kill: 19.00
+    90to99:
+       color: '&5&l'
+       xp-on-kill: 12
+       gold-on-kill: 22.00
+    100to109:
+       color: '&d&l'
+       xp-on-kill: 14
+       gold-on-kill: 24.00
+    110to119:
+       color: '&f&l'
+       xp-on-kill: 16
+       gold-on-kill: 26.00
+    120:
+       color: '&b&l'
+       xp-on-kill: 0
+       gold-on-kill: 30.00

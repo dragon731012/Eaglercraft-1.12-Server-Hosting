@@ -30,8 +30,7 @@ listeners:
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
-  forced_hosts:
-    pvp.md-5.net: pvp
+  forced_hosts: {}
   ping_passthrough: false
   priorities:
   - lobby

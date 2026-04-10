@@ -1,0 +1,57 @@
+general:
+   no-permission: '&8&l > &6You do not have &epermission &6to do that'
+   no-console: '&cOnly players can use that command.'
+   update-found:
+    - '&8[&eThePit&8] &6An update was found. Stay updated and download it using the'
+    - '&8[&eThePit&8] &6following link: https://www.spigotmc.org/resources/61016/'
+death-by-player: '&c&lDEATH! &7by %killer%! &e&lTRY NEXT TIME'
+death-by-unknown: '&c&lDEATH!'
+kill-by-player: '&a&lKILL! &7on %killed%! &6+%gold%g &b+%xp%XP'
+level-up-message: '&b&lPIT LEVEL UP! &7[&3%oldlevel%&7] &7-> &7[&b%newlevel%&7]'
+gold-pickup-message: '&6&lGOLD PICKUP! &7from the ground &6%amount%g'
+killstreak-message: '&c&lSTREAK! &7of &c%kills% &7by %player%'
+bountied-message: '&6&lBOUNTY! &7bump &6&l%bounty% &7on %player% for high streak'
+bounty-claimed: '&6&lBOUNTY CLAIMED! &7%killer% killed %killed% for &6&l%bounty%g'
+
+guis:
+  bought: '&a&lPURCHASE! &6%item%'
+  not-enough-gold: '&cYou do not have enough gold.'
+
+commands:
+  right-usage: '&8&l > &6The right usage is &e%usage%'
+  player-not-found: '&8&l > &e%player% &6could not be found.'
+  must-be-number: '&8&l > &6The amount &ehas &6to be a number.'
+  gold:
+   set: '&8&l > &6Successfully set &e%amount% &6gold to &e%player%&6.'
+   add: '&8&l > &6Successfully added &e%amount% &6gold to &e%player%&6.'
+   rem: '&8&l > &6Successfully removed &e%amount% &6gold to &e%player%&6.'
+  level:
+   between: '&8&l > &6The level has to be &ebetween &60 and 120.'
+   set: '&8&l > &6Successfully set &e%amount% &6level to &e%player%&6.'
+   add: '&8&l > &6Successfully added &e%amount% &6gold to &e%player%&6.'
+   remove: '&8&l > &6Successfully removed &e%amount% &6gold to &e%player%&6.'
+  adminmode:
+   enabled: '&8&l > &6You are now in the &eadmin &6mode.'
+   disabled: '&8&l > &6You are no longer in the &eadmin &6mode.'
+  arena:
+   already-in-arena: '&8&l > &6You are &ealready &6in an arena.'
+   not-in-arena: '&8&l > &6You are &enot &6in any arena right now.'
+   no-spawn-loc: '&8&l > &6The spawn &elocation &6has not been set.'
+   no-lobby-loc: '&8&l > &6The lobby &elocation &6has not been set.'
+   not-found: '&8&l > &6An arena with that &ename &6could not be found.'
+   create: '&8&l > &6Successfully created a &enew &6arena named &e%arena%&6.'
+   delete: '&8&l > &6Successfully deleted an arena named &e%arena%&6.'
+   join: '&8&l > &6Successfully joined &e%arena% &6arena. Have fun :)'
+   leave: '&8&l > &6Successfully left &e%arena% &6arena. Rip :('
+   list: '&8&l > &6The current arenas are: &e'
+   setspawn: '&8&l > &6Successfully set the &espawn &6location.'
+   setmax: '&8&l > &6Successfully set max players &e%max% &6for arena &e%arena%&6.'
+  goldloc:
+   add: '&8&l > &6Successfully added a new &egold &6generator.'
+   remove: '&8&l > &6Successfully removed the latest &egold &6generator.'
+  lauchpad:
+   add: '&8&l > &6Successfully &eadded &6a new launchpad.'
+  setlobby:
+   set: '&8&l > &6Successfully set the &elobby &6location.'
+  reload:
+   success: '&8&l > &6Successfully &ereloaded &6the configuration files.'

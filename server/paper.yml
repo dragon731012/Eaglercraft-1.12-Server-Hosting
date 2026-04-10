@@ -65,15 +65,15 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    queue-light-updates: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
+    delay-chunk-unloads-by: 10s
+    save-queue-limit-for-auto-save: 50
+    max-auto-save-chunks-per-tick: 24
     portal-search-radius: 128
-    queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
-    delay-chunk-unloads-by: 10s
-    max-auto-save-chunks-per-tick: 24
-    save-queue-limit-for-auto-save: 50
     remove-corrupt-tile-entities: false
     max-chunk-sends-per-tick: 81
     max-chunk-gens-per-tick: 10
@@ -137,8 +137,8 @@ world-settings:
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 5
-    prevent-tnt-from-moving-in-water: false
     non-player-arrow-despawn-rate: -1
+    prevent-tnt-from-moving-in-water: false
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:

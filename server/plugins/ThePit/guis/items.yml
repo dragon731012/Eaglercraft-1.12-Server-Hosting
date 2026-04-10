@@ -1,0 +1,49 @@
+title: 'Non-permanent items'
+availabilityColors: '&e:&c'
+availabilityMessages: 'Click to purchase:Not enough gold'
+slots: 27
+items:
+  '0':
+    name: '%color%Diamond Sword'
+    material: 'DIAMOND_SWORD:1:0'
+    slot: 10
+    price: 100
+    lore:
+     - '&7+6 Attack damage.'
+     - ''
+     - '&7&oLost on death'
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+  '1':
+    name: '%color%Obsidian'
+    material: 'OBSIDIAN:8:0'
+    slot: 11
+    price: 40
+    lore:
+     - '&7+6 Remains for 120 seconds.'
+     - ''
+     - '&7&oLost on death'
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+  '2':
+    name: '%color%Diamond Chestplate'
+    material: 'DIAMOND_CHESTPLATE:1:0'
+    slot: 15
+    price: 250
+    lore:
+     - '&7Auto-equips on buy.'
+     - ''
+     - '&7&oLost on death'
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+  '3':
+    name: '%color%Diamond Boots'
+    material: 'DIAMOND_BOOTS:1:0'
+    slot: 16
+    price: 150
+    lore:
+     - '&7Auto-equips on buy.'
+     - ''
+     - '&7&oLost on death'
+     - '&7Cost: &6%price%'
+     - '%color%%message%'

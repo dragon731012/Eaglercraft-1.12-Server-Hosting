@@ -1,0 +1,129 @@
+title: 'Permanent upgrades'
+availabilityColors: '&e:&c:&c'
+availabilityMessages: 'Click to purchase:Not enough gold:Already owned'
+slots: 45
+items:
+  '0':
+     name: '&aPerk Slot #1'
+     material: 'DIAMOND_BLOCK:1:0'
+     reqlevel: 0
+     slot: 12
+     lore:
+      - '&7Select a perk to fill this'
+      - '&7slot'
+      - ''
+      - '&eClick to choose a perk.'
+  '1':
+     name: '&aPerk Slot #2'
+     material: 'DIAMOND_BLOCK:2:0'
+     reqlevel: 35
+     slot: 13
+     lore:
+      - '&7Select a perk to fill this'
+      - '&7slot'
+      - ''
+      - '&eClick to choose a perk.'
+  '2':
+     name: '&aPerk Slot #3'
+     material: 'DIAMOND_BLOCK:3:0'
+     reqlevel: 70
+     slot: 14
+     lore:
+      - '&7Select a perk to fill this'
+      - '&7slot'
+      - ''
+      - '&eClick to choose a perk.'
+  '3':
+    name: '%color%XP Boost'
+    material: 'INK_SACK:1:12'
+    slot: 28
+    price: 500
+    lore:
+     - '&7Each tier:'
+     - '&7Earn &b+10XP &7from all'
+     - '&7sources'
+     - ''
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+  '4':
+    name: '%color%Gold Boost'
+    material: 'INK_SACK:1:14'
+    slot: 29
+    price: 1000
+    lore:
+     - '&7Each tier:'
+     - '&7Earn &6+10XP &7from all'
+     - '&7sources'
+     - ''
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+  '5':
+    name: '%color%Melee Damage'
+    material: 'INK_SACK:1:1'
+    slot: 30
+    price: 450
+    lore:
+     - '&7Each tier:'
+     - '&7Deal &c+1 &7melee damage.'
+     - ''
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+  '6':
+    name: '%color%Bow Damage'
+    material: 'INK_SACK:1:11'
+    slot: 31
+    price: 450
+    lore:
+     - '&7Each tier:'
+     - '&7Deal &c+3 &7bow damage.'
+     - ''
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+  '7':
+    name: '%color%Damage Reduction'
+    material: 'INK_SACK:1:6'
+    slot: 32
+    price: 450
+    lore:
+     - '&7Each tier:'
+     - '&7Recieve &9-1 &7damage.'
+     - ''
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+  '8':
+    name: '%color%Build Battler'
+    material: 'INK_SACK:1:7'
+    slot: 33
+    price: 750
+    lore:
+     - '&7Each tier:'
+     - '&7Your blocks stay &e+60'
+     - '&7seconds.'
+     - ''
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+  '9':
+    name: '%color%Gato Battler'
+    material: 'CAKE:1:0'
+    slot: 34
+    price: 1000
+    lore:
+     - '&7Each tier:'
+     - '&dFirst kill &7each life'
+     - '&7rewards &6+5g &b+6XP&7.'
+     - ''
+     - '&7Cost: &6%price%g'
+     - '%color%%message%'
+
+
+not-available:
+  perks:
+   name: &cPerk slot not available.'
+   material: 'BEDROCK:1:0'
+   lore:
+    - 'Required level: &7[&c&l%level%&7]'
+  upgrades:
+   name: &cUnknown Upgrade'
+   material: 'BEDROCK:1:0'
+   lore:
+    - 'Required level: &7[&c&l%level%&7]'  

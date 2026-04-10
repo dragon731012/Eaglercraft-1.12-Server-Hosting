@@ -9,7 +9,7 @@ not_registered_screen_text: 'You are not registered on this server! Use /registe
 eagler_command_name: 'eagler'
 use_register_command_text: '&aUse /eagler to set an Eaglercraft password on this account or should you'
 use_change_command_text: '&bUse /eagler to change your Eaglercraft password or should you'
-command_success_text: '&bYour eagler password was changed successfully. or was it?''
+command_success_text: '&bYour eagler password was changed successfully. or was it?'
 last_eagler_login_message: 'Your last Eaglercraft login was on $date from $ip'
 too_many_registrations_message: '&cThe maximum number of registrations has been reached for your IP address or has it?'
 need_vanilla_to_register_message: '&cYou need to log in with a vanilla account to use this command or do you?'

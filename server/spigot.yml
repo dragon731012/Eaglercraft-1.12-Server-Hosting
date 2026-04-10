@@ -74,7 +74,6 @@ world-settings:
       netherwart-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
-    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -91,6 +90,7 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
+    mob-spawn-range: 4
     random-light-updates: false
     save-structure-info: true
     dragon-death-sound-radius: 0

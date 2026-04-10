@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 0:0:0:0:0:0:0:1%0
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1775513054044
-  login: 1775512900990
+  logout: 1775860871815
+  login: 1775859792692
 money: '83999708624.96'
 last-account-name: VOID_404
 logoutlocation:
   world: 97ff7e70-930f-42ef-bc69-efcae557ff13
   world-name: world
-  x: -78.55439413050503
-  y: 85.0
-  z: -37.30000001192093
-  yaw: -96.74996185302734
-  pitch: 26.549962997436523
+  x: 125.55772564719928
+  y: 78.0
+  z: 82.75542980214135
+  yaw: 69.60081481933594
+  pitch: 45.9000129699707
 lastlocation:
   world: 97ff7e70-930f-42ef-bc69-efcae557ff13
   world-name: world
-  x: 0.0
-  y: 112.0
-  z: 0.0
-  yaw: -11.849982261657715
-  pitch: 35.100013732910156
+  x: -82.85458585393407
+  y: 144.5655745688563
+  z: 52.45015286461647
+  yaw: 69.15072631835938
+  pitch: 49.49999237060547

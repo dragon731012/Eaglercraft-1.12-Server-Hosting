@@ -135,11 +135,11 @@ Spawn:
   Time: 5
   Enabled: true
 Arenas:
-  world:
+  KP:
     '1':
-      World: world
-      X: -67
-      Y: 91
-      Z: -39
-      Yaw: 97.65005
-      Pitch: 33.149963
+      World: KP
+      X: -1
+      Y: 72
+      Z: -18
+      Yaw: -314.40005
+      Pitch: 21.150002

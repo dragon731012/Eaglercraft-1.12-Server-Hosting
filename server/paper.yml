@@ -65,17 +65,17 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
-    queue-light-updates: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
+    queue-light-updates: false
     delay-chunk-unloads-by: 10s
-    save-queue-limit-for-auto-save: 50
     max-auto-save-chunks-per-tick: 24
+    save-queue-limit-for-auto-save: 50
+    max-chunk-sends-per-tick: 81
     portal-search-radius: 128
     optimize-explosions: false
     use-chunk-inhabited-timer: true
     remove-corrupt-tile-entities: false
-    max-chunk-sends-per-tick: 81
     max-chunk-gens-per-tick: 10
     game-mechanics:
       allow-permanent-chunk-loaders: false

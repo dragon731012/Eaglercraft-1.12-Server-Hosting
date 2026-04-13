@@ -1,5 +1,25 @@
-#-----------------------------------------------------------------------------------------------------------#
-#								MyCommand NPCs DataBase File (last update v5.2.2)							#
-#																											#
-#					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/ 						#
-#-----------------------------------------------------------------------------------------------------------#
+entities:
+  '1':
+    customname: '&aMyCmd &eNPC 1'
+    loc: world;-33.0;106.0;11.0;0;0
+    commands: []
+  '2':
+    customname: '&aMyCmd &eNPC 2'
+    loc: world;-32.0;108.0;4.0;0;0
+    commands: []
+  '3':
+    customname: '&aMyCmd &eNPC 3'
+    loc: world;-44.0;111.0;10.0;0;0
+    commands: []
+  '4':
+    customname: '&aMyCmd &eNPC 4'
+    loc: world;-42.0;109.0;16.0;0;0
+    commands: []
+  '5':
+    customname: '&aMyCmd &eNPC 5'
+    loc: world;-52.0;114.0;7.0;0;0
+    commands: []
+  '6':
+    customname: '&aMyCmd &eNPC 6'
+    loc: world;-89.0;81.0;-61.0;0;0
+    commands: []

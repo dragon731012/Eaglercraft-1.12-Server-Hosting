@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1776093927165
+  login: 1776094289033
+money: '9855999742265.3199999999999999'
+last-account-name: Boxxinger__
+logoutlocation:
+  world: 038c3a0a-7118-4c75-b0cc-a7b189108695
+  world-name: voidworld
+  x: -3.6846371902888553
+  y: 151.0
+  z: 4.446963819437371
+  yaw: 47.843017578125
+  pitch: 33.599884033203125

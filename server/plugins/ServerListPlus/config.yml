@@ -96,3 +96,11 @@ Favicon:
   RecursiveFolderSearch: false
   ResizeStrategy: SCALE
 
+# This section is only for the Bukkit plugin of ServerListPlus.
+# ProtocolLib: (DISABLE|AUTO|ENABLE) Decides if ProtocolLib should be used by ServerListPlus.
+#   Generally, AUTO (the default) is a good choice: ProtocolLib is used on Spigot for
+#   full functionality, but disabled on Paper because it is not needed there.
+#   Note that this might cause other plugins that make use of ProtocolLib to overwrite
+#   the changes made by ServerListPlus. In that case, try setting ENABLE instead.
+--- !Bukkit
+ProtocolLib: AUTO

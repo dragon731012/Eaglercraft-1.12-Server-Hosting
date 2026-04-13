@@ -68,14 +68,14 @@ world-settings:
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
     queue-light-updates: false
-    delay-chunk-unloads-by: 10s
     max-auto-save-chunks-per-tick: 24
-    save-queue-limit-for-auto-save: 50
-    max-chunk-sends-per-tick: 81
+    delay-chunk-unloads-by: 10s
     portal-search-radius: 128
     optimize-explosions: false
     use-chunk-inhabited-timer: true
+    save-queue-limit-for-auto-save: 50
     remove-corrupt-tile-entities: false
+    max-chunk-sends-per-tick: 81
     max-chunk-gens-per-tick: 10
     game-mechanics:
       allow-permanent-chunk-loaders: false
@@ -132,10 +132,10 @@ world-settings:
         max: 40
     container-update-tick-rate: 1
     parrots-are-unaffected-by-player-movement: true
+    use-alternate-fallingblock-onGround-detection: false
     disable-explosion-knockback: true
     elytra-hit-wall-damage: false
     grass-spread-tick-rate: 1
-    use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 5
     non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: false

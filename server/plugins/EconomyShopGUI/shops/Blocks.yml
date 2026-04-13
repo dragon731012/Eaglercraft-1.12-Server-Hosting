@@ -407,8 +407,8 @@ pages:
         sell: 0.44
       '101':
         material: BLACK_WOOL
-        buy: 0
-        sell: 7000000000
+        buy: 29.4
+        sell: 7.35
       '102':
         material: BLUE_WOOL
         buy: 29.4

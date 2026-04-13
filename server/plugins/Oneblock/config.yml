@@ -26,7 +26,7 @@ Chat_alert: true
 #ProgressBar Color
 Progress_bar_color: GREEN
 #Shoud we Create New Islands for New Players?
-Island_for_new_players: true
+Island_for_new_players: false
 #Should the player get tp-ed to the island again after the death in game?
 Rebirth_on_the_island: true
 #Level Multiplier 
@@ -48,7 +48,7 @@ droptossup: true
 physics: false
 #Limits the number of people on the island. (0 - unlimited)
 max_players_team: 0
-useemptyislands: true
-autojoin: false
+useemptyislands: false
+autojoin: true
 gui: true
 WGflags: []

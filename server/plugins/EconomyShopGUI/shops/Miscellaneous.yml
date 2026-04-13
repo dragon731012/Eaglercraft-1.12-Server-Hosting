@@ -87,7 +87,7 @@ pages:
         sell: 131.25
       '22':
         material: TOTEM_OF_UNDYING
-        buy: 100
+        buy: 1000
         sell: 25
       '23':
         material: WATER_BUCKET
@@ -103,5 +103,9 @@ pages:
         sell: 137.88
       '26':
         material: END_ROD
-        buy: 2.14
-        sell: 0.54
+        buy: 1
+        sell: 0.03
+      '27':
+        material: ENDER_CHEST
+        buy: 273.12
+        sell: 68.28

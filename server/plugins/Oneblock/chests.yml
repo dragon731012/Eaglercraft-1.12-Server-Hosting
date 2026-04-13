@@ -15,6 +15,7 @@ small_chest:
 - SUGAR_CANE
 - CARROT
 - POTATO
+- dih
 # Medium chest [medium levels]
 medium_chest:
 - GOLDEN_HOE
@@ -47,3 +48,5 @@ high_chest:
 - GOLD_INGOT
 - GOLDEN_APPLE
 - GLOWSTONE_DUST
+- ELYTRA
+- ENDER_PEARL

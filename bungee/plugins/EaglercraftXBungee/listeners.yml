@@ -2,21 +2,25 @@ listener_01:
   address: 0.0.0.0:5000
   address_v6: null
   max_players: 1000
-  tab_list: GLOBAL_PING
+  tab_list: SERVER
   default_server: lobby
-  force_default_server: false
+  force_default_server: true
   forward_ip: false
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: null
   server_icon: VSTD_logo.jpg
-  server_name: '&bV•S•T•D'
+  
+  server_name: "&bV•S•T•D"
+  
   server_motd:
     - "&b&lV•S•T•D&r &7• &fThe Multiverse Awaits..."
-    - "&7&o Oneblock•Skyblock•Survival•PitPvP•Skywars•Bedwars"
+    - "&7&o Oneblock•Survival•PitPvP•Skywars•Bedwars & more!"
 
   allow_motd: true
-  motd_passthrough: true
-  ping_passthrough: true
+  motd_enabled: true
+  motd_override: true  
+  motd_passthrough: false
+  ping_passthrough: false
   allow_query: true
 
   request_motd_cache:

@@ -109,3 +109,19 @@ pages:
         material: ENDER_CHEST
         buy: 273.12
         sell: 68.28
+      '28':
+        material: SHULKER_BOX
+        buy: 24.43
+        sell: 6.11
+      '29':
+        material: CLOCK
+        buy: 137.82
+        sell: 34.46
+      '30':
+        material: PAINTING
+        buy: 35.74
+        sell: 8.94
+      '31':
+        material: ITEM_FRAME
+        buy: 40.15
+        sell: 10.04

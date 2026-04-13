@@ -3,101 +3,101 @@ pages:
     items:
       '1':
         material: CAULDRON
-        buy: 110.25
-        sell: 27.57
+        buy: 110250
+        sell: 2757
       '2':
         material: DAYLIGHT_DETECTOR
-        buy: 125.86
-        sell: 31.47
+        buy: 125860
+        sell: 3147
       '3':
         material: DISPENSER
-        buy: 35.58
-        sell: 8.9
+        buy: 3558
+        sell: 890
       '4':
         material: DROPPER
-        buy: 10.52
-        sell: 2.63
+        buy: 1052
+        sell: 263
       '5':
         material: HOPPER
-        buy: 119.98
-        sell: 30
+        buy: 119980
+        sell: 3000
       '6':
         material: IRON_DOOR
-        buy: 22.05
-        sell: 5.52
+        buy: 2205
+        sell: 552
       '7':
         material: JUKEBOX
-        buy: 229.77
-        sell: 57.45
+        buy: 229770
+        sell: 5745
       '8':
         material: LEVER
-        buy: 1.33
-        sell: 0.34
+        buy: 133
+        sell: 34
       '9':
         material: NOTE_BLOCK
-        buy: 14.78
-        sell: 3.7
+        buy: 1478
+        sell: 370
       '10':
         material: OBSERVER
-        buy: 50.04
-        sell: 12.51
+        buy: 5004
+        sell: 1251
       '11':
         material: REDSTONE_LAMP
-        buy: 52.92
-        sell: 13.23
+        buy: 5292
+        sell: 1323
       '12':
         material: REDSTONE_TORCH
-        buy: 6.13
-        sell: 1.54
+        buy: 613
+        sell: 154
       '13':
         material: TRIPWIRE_HOOK
-        buy: 11.91
-        sell: 2.98
+        buy: 1191
+        sell: 298
       '14':
         material: COMPARATOR
-        buy: 56.26
-        sell: 14.07
+        buy: 5626
+        sell: 1407
       '15':
         material: REPEATER
-        buy: 20.62
-        sell: 5.16
+        buy: 2062
+        sell: 516
       '16':
         material: OAK_BUTTON
-        buy: 1.16
-        sell: 0.29
+        buy: 116
+        sell: 29
       '17':
         material: STONE_BUTTON
-        buy: 0.75
-        sell: 0.19
+        buy: 75
+        sell: 19
       '18':
         material: PISTON
-        buy: 33.9
-        sell: 8.48
+        buy: 3390
+        sell: 848
       '19':
         material: STICKY_PISTON
-        buy: 40.84
-        sell: 10.21
+        buy: 4084
+        sell: 1021
       '20':
         material: OAK_PRESSURE_PLATE
-        buy: 2.32
-        sell: 0.58
+        buy: 232
+        sell: 58
       '21':
         material: STONE_PRESSURE_PLATE
-        buy: 1.5
-        sell: 0.38
+        buy: 150
+        sell: 38
       '22':
         material: LIGHT_WEIGHTED_PRESSURE_PLATE
-        buy: 66.15
-        sell: 16.54
+        buy: 6615
+        sell: 1654
       '23':
         material: HEAVY_WEIGHTED_PRESSURE_PLATE
-        buy: 44.1
-        sell: 11.03
+        buy: 4410
+        sell: 1103
       '24':
         material: OAK_TRAPDOOR
-        buy: 3.48
-        sell: 0.87
+        buy: 348
+        sell: 87
       '25':
         material: IRON_TRAPDOOR
-        buy: 88.2
-        sell: 22.05
+        buy: 8820
+        sell: 2205

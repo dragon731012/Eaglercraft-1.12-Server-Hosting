@@ -3,65 +3,65 @@ pages:
     items:
       '1':
         material: COAL
-        buy: 21
-        sell: 5.25
+        buy: 2100
+        sell: 525
       '2':
         material: COAL_BLOCK
-        buy: 198.45
-        sell: 49.62
+        buy: 198450
+        sell: 4962
       '3':
         material: DIAMOND
-        buy: 210
-        sell: 52.5
+        buy: 210000
+        sell: 5250
       '4':
         material: DIAMOND_BLOCK
-        buy: 1984.5
-        sell: 496.13
+        buy: 1984500
+        sell: 496130
       '5':
         material: EMERALD
-        buy: 142.23
-        sell: 35.56
+        buy: 142230
+        sell: 3556
       '6':
         material: EMERALD_BLOCK
-        buy: 1344.01
-        sell: 336.01
+        buy: 1344010
+        sell: 336010
       '7':
         material: GOLD_BLOCK
-        buy: 297.68
-        sell: 74.42
+        buy: 297680
+        sell: 7442
       '8':
         material: GOLD_INGOT
-        buy: 31.5
-        sell: 7.88
+        buy: 3150
+        sell: 788
       '9':
         material: IRON_BLOCK
-        buy: 198.45
-        sell: 49.62
+        buy: 198450
+        sell: 4962
       '10':
         material: IRON_INGOT
-        buy: 21
-        sell: 5.25
+        buy: 2100
+        sell: 525
       '11':
         material: LAPIS_BLOCK
-        buy: 136.44
-        sell: 34.11
+        buy: 136440
+        sell: 3411
       '12':
         material: LAPIS_LAZULI
-        buy: 14.44
-        sell: 3.61
+        buy: 1444
+        sell: 361
       '13':
         material: QUARTZ
-        buy: 33.08
-        sell: 8.27
+        buy: 3308
+        sell: 827
       '14':
         material: QUARTZ_BLOCK
-        buy: 138.92
-        sell: 34.73
+        buy: 138920
+        sell: 3473
       '15':
         material: REDSTONE
-        buy: 5.25
-        sell: 1.32
+        buy: 525
+        sell: 132
       '16':
         material: REDSTONE_BLOCK
-        buy: 49.62
-        sell: 12.41
+        buy: 4962
+        sell: 1241

@@ -3,125 +3,125 @@ pages:
     items:
       '1':
         material: ANVIL
-        buy: 713.32
-        sell: 178.33
+        buy: 713320
+        sell: 178330
       '2':
         material: CARROT_ON_A_STICK
-        buy: 7.08
-        sell: 1.77
+        buy: 708
+        sell: 177
       '3':
         material: COBWEB
-        buy: 40
-        sell: 10
+        buy: 4000
+        sell: 1000
       '4':
         material: ELYTRA
-        buy: 2415.2
+        buy: 2415200
         sell: -1
       '5':
         material: ENDER_CHEST
-        buy: 273.12
-        sell: 68.28
+        buy: 273120
+        sell: 6828
       '6':
         material: ENDER_EYE
-        buy: 10.11
-        sell: 2.53
+        buy: 1011
+        sell: 253
       '7':
         material: EXPERIENCE_BOTTLE
-        buy: 107.94
+        buy: 107940
         sell: -1
       '8':
         material: GLOWSTONE_DUST
-        buy: 7
-        sell: 1.75
+        buy: 700
+        sell: 175
       '9':
         material: LAVA_BUCKET
-        buy: 69.62
-        sell: 17.41
+        buy: 6962
+        sell: 1741
       '10':
         material: LEAD
-        buy: 17.33
-        sell: 4.34
+        buy: 1733
+        sell: 434
       '11':
         material: LILY_PAD
-        buy: 28
-        sell: 7
+        buy: 2800
+        sell: 700
       '12':
         material: MAP
-        buy: 99.29
-        sell: 24.83
+        buy: 9929
+        sell: 2483
       '13':
         material: NAME_TAG
-        buy: 100
-        sell: 25
+        buy: 100000
+        sell: 2500
       '14':
         material: NETHER_STAR
-        buy: 400
-        sell: 100
+        buy: 400000
+        sell: 100000
       '15':
         material: RED_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '16':
         material: SADDLE
-        buy: 60
-        sell: 15
+        buy: 6000
+        sell: 1500
       '17':
         material: SHULKER_SHELL
-        buy: 7
-        sell: 1.75
+        buy: 700
+        sell: 175
       '18':
         material: SLIME_BALL
-        buy: 5
-        sell: 1.25
+        buy: 500
+        sell: 125
       '19':
         material: SNOW
-        buy: 6.62
-        sell: 1.66
+        buy: 662
+        sell: 166
       '20':
         material: SNOWBALL
-        buy: 3
-        sell: 0.75
+        buy: 300
+        sell: 75
       '21':
         material: SPONGE
-        buy: 525
-        sell: 131.25
+        buy: 525000
+        sell: 131250
       '22':
         material: TOTEM_OF_UNDYING
-        buy: 1000
-        sell: 25
+        buy: 1000000
+        sell: 2500
       '23':
         material: WATER_BUCKET
-        buy: 69.57
-        sell: 17.4
+        buy: 6957
+        sell: 1740
       '24':
         material: WRITABLE_BOOK
-        buy: 48.95
-        sell: 12.24
+        buy: 4895
+        sell: 1224
       '25':
         material: BEACON
-        buy: 551.52
-        sell: 137.88
+        buy: 551520
+        sell: 137880
       '26':
         material: END_ROD
-        buy: 1
-        sell: 0.03
+        buy: 100
+        sell: 3
       '27':
         material: ENDER_CHEST
-        buy: 273.12
-        sell: 68.28
+        buy: 273120
+        sell: 6828
       '28':
         material: SHULKER_BOX
-        buy: 24.43
-        sell: 6.11
+        buy: 2443
+        sell: 611
       '29':
         material: CLOCK
-        buy: 137.82
-        sell: 34.46
+        buy: 137820
+        sell: 3446
       '30':
         material: PAINTING
-        buy: 35.74
-        sell: 8.94
+        buy: 3574
+        sell: 894
       '31':
         material: ITEM_FRAME
-        buy: 40.15
-        sell: 10.04
+        buy: 4015
+        sell: 1004

@@ -3,65 +3,65 @@ pages:
     items:
       '1':
         material: APPLE
-        buy: 10
-        sell: 2.5
+        buy: 1000
+        sell: 250
       '2':
         material: BREAD
-        buy: 15.75
-        sell: 3.94
+        buy: 1575
+        sell: 394
       '3':
         material: CAKE
-        buy: 240.68
-        sell: 60.17
+        buy: 240680
+        sell: 6017
       '4':
         material: COOKIE
-        buy: 2.1
-        sell: 0.53
+        buy: 210
+        sell: 53
       '5':
         material: BAKED_POTATO
-        buy: 5.25
-        sell: 1.32
+        buy: 525
+        sell: 132
       '6':
         material: COOKED_BEEF
-        buy: 6.3
-        sell: 1.58
+        buy: 630
+        sell: 158
       '7':
         material: COOKED_CHICKEN
-        buy: 6.3
-        sell: 1.58
+        buy: 630
+        sell: 158
       '8':
         material: COOKED_MUTTON
-        buy: 6.3
-        sell: 1.58
+        buy: 630
+        sell: 158
       '9':
         material: COOKED_PORKCHOP
-        buy: 6.3
-        sell: 1.58
+        buy: 630
+        sell: 158
       '10':
         material: COOKED_RABBIT
-        buy: 6.3
-        sell: 1.58
+        buy: 630
+        sell: 158
       '11':
         material: BEEF
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '12':
         material: CHICKEN
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '13':
         material: MUTTON
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '14':
         material: PORKCHOP
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '15':
         material: RABBIT
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '16':
         material: BEETROOT_SOUP
-        buy: 38.72
-        sell: 9.68
+        buy: 3872
+        sell: 968

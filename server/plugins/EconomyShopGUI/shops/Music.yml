@@ -3,49 +3,49 @@ pages:
     items:
       '1':
         material: MUSIC_DISC_11
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '2':
         material: MUSIC_DISC_13
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '3':
         material: MUSIC_DISC_BLOCKS
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '4':
         material: MUSIC_DISC_CAT
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '5':
         material: MUSIC_DISC_CHIRP
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '6':
         material: MUSIC_DISC_FAR
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '7':
         material: MUSIC_DISC_MALL
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '8':
         material: MUSIC_DISC_MELLOHI
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '9':
         material: MUSIC_DISC_STAL
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '10':
         material: MUSIC_DISC_STRAD
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '11':
         material: MUSIC_DISC_WAIT
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875
       '12':
         material: MUSIC_DISC_WARD
-        buy: 75
-        sell: 18.75
+        buy: 7500
+        sell: 1875

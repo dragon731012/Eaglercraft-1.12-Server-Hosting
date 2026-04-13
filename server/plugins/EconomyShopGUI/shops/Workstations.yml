@@ -3,5 +3,5 @@ pages:
     items:
       '1':
         material: BREWING_STAND
-        buy: 7.4
-        sell: 1.85
+        buy: 740
+        sell: 185

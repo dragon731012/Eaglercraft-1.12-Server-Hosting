@@ -3,1339 +3,1339 @@ pages:
     items:
       '1':
         material: ACACIA_BOAT
-        buy: 5.79
-        sell: 1.45
+        buy: 579
+        sell: 145
       '2':
         material: ACACIA_DOOR
-        buy: 2.32
-        sell: 0.58
+        buy: 232
+        sell: 58
       '3':
         material: ACACIA_FENCE
-        buy: 1.95
-        sell: 0.49
+        buy: 195
+        sell: 49
       '4':
         material: ACACIA_FENCE_GATE
-        buy: 4.75
-        sell: 1.19
+        buy: 475
+        sell: 119
       '5':
         material: ACTIVATOR_RAIL
-        buy: 23.33
-        sell: 5.84
+        buy: 2333
+        sell: 584
       '6':
         material: ALLIUM
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
       '7':
         material: ARMOR_STAND
-        buy: 4.05
-        sell: 1.02
+        buy: 405
+        sell: 102
       '8':
         material: BEETROOT
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '9':
         material: BIRCH_BOAT
-        buy: 5.79
-        sell: 1.45
+        buy: 579
+        sell: 145
       '10':
         material: BIRCH_DOOR
-        buy: 2.32
-        sell: 0.58
+        buy: 232
+        sell: 58
       '11':
         material: BIRCH_FENCE
-        buy: 1.95
-        sell: 0.49
+        buy: 195
+        sell: 49
       '12':
         material: BIRCH_FENCE_GATE
-        buy: 4.75
-        sell: 1.19
+        buy: 475
+        sell: 119
       '13':
         material: BLACK_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '14':
         material: BLACK_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '15':
         material: BLACK_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '16':
         material: BLACK_CONCRETE_POWDER
-        buy: 8.01
-        sell: 2.01
+        buy: 801
+        sell: 201
       '17':
         material: BLACK_GLAZED_TERRACOTTA
-        buy: 25
-        sell: 6.25
+        buy: 2500
+        sell: 625
       '18':
         material: BLACK_SHULKER_BOX
-        buy: 31.16
-        sell: 7.79
+        buy: 3116
+        sell: 779
       '19':
         material: BLACK_STAINED_GLASS
-        buy: 7.31
-        sell: 1.83
+        buy: 731
+        sell: 183
       '20':
         material: BLACK_STAINED_GLASS_PANE
-        buy: 2.88
-        sell: 0.72
+        buy: 288
+        sell: 72
       '21':
         material: BLACK_TERRACOTTA
-        buy: 23.81
-        sell: 5.96
+        buy: 2381
+        sell: 596
       '22':
         material: BLUE_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '23':
         material: BLUE_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '24':
         material: BLUE_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '25':
         material: BLUE_CONCRETE_POWDER
-        buy: 9.25
-        sell: 2.32
+        buy: 925
+        sell: 232
       '26':
         material: BLUE_GLAZED_TERRACOTTA
-        buy: 26.3
-        sell: 6.58
+        buy: 2630
+        sell: 658
       '27':
         material: BLUE_SHULKER_BOX
-        buy: 26.75
-        sell: 6.69
+        buy: 2675
+        sell: 669
       '28':
         material: BLUE_STAINED_GLASS
-        buy: 6.76
-        sell: 1.69
+        buy: 676
+        sell: 169
       '29':
         material: BLUE_STAINED_GLASS_PANE
-        buy: 2.66
-        sell: 0.67
+        buy: 266
+        sell: 67
       '30':
         material: BLUE_TERRACOTTA
-        buy: 25.05
-        sell: 6.27
+        buy: 2505
+        sell: 627
       '31':
         material: BONE_BLOCK
-        buy: 19.85
-        sell: 4.97
+        buy: 1985
+        sell: 497
       '32':
         material: BONE_MEAL
-        buy: 2.1
-        sell: 0.53
+        buy: 210
+        sell: 53
       '33':
         material: BOOK
-        buy: 35.62
-        sell: 8.91
+        buy: 3562
+        sell: 891
       '34':
         material: BOW
-        buy: 23.88
-        sell: 5.97
+        buy: 2388
+        sell: 597
       '35':
         material: BOWL
-        buy: 0.87
-        sell: 0.22
+        buy: 87
+        sell: 22
       '36':
         material: BRICK
-        buy: 22.05
-        sell: 5.52
+        buy: 2205
+        sell: 552
       '37':
         material: BROWN_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '38':
         material: BROWN_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '39':
         material: BROWN_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '40':
         material: BROWN_CONCRETE_POWDER
-        buy: 8.14
-        sell: 2.04
+        buy: 814
+        sell: 204
       '41':
         material: BROWN_GLAZED_TERRACOTTA
-        buy: 25.14
-        sell: 6.29
+        buy: 2514
+        sell: 629
       '42':
         material: BROWN_MUSHROOM_BLOCK
-        buy: 0.06
-        sell: 0.02
+        buy: 6
+        sell: 2
       '43':
         material: BROWN_SHULKER_BOX
-        buy: 32.27
-        sell: 8.07
+        buy: 3227
+        sell: 807
       '44':
         material: BROWN_STAINED_GLASS
-        buy: 7.45
-        sell: 1.87
+        buy: 745
+        sell: 187
       '45':
         material: BROWN_STAINED_GLASS_PANE
-        buy: 2.94
-        sell: 0.74
+        buy: 294
+        sell: 74
   page2:
     items:
       '46':
         material: BROWN_TERRACOTTA
-        buy: 23.94
-        sell: 5.99
+        buy: 2394
+        sell: 599
       '47':
         material: BUCKET
-        buy: 66.15
-        sell: 16.54
+        buy: 6615
+        sell: 1654
       '48':
         material: CHAINMAIL_BOOTS
-        buy: 40
-        sell: 10
+        buy: 4000
+        sell: 1000
       '49':
         material: CHAINMAIL_CHESTPLATE
-        buy: 60
-        sell: 15
+        buy: 6000
+        sell: 1500
       '50':
         material: CHAINMAIL_HELMET
-        buy: 40
-        sell: 10
+        buy: 4000
+        sell: 1000
       '51':
         material: CHAINMAIL_LEGGINGS
-        buy: 60
-        sell: 15
+        buy: 6000
+        sell: 1500
       '52':
         material: CHARCOAL
-        buy: 6.3
-        sell: 1.58
+        buy: 630
+        sell: 158
       '53':
         material: CHEST
-        buy: 9.27
-        sell: 2.32
+        buy: 927
+        sell: 232
       '54':
         material: CHEST_MINECART
-        buy: 125.49
-        sell: 31.38
+        buy: 125490
+        sell: 3138
       '55':
         material: CHISELED_QUARTZ_BLOCK
-        buy: 145.87
-        sell: 36.47
+        buy: 145870
+        sell: 3647
       '56':
         material: CHISELED_RED_SANDSTONE
-        buy: 35.28
-        sell: 8.82
+        buy: 3528
+        sell: 882
       '57':
         material: CHISELED_SANDSTONE
-        buy: 12.6
-        sell: 3.15
+        buy: 1260
+        sell: 315
       '58':
         material: CHISELED_STONE_BRICKS
-        buy: 0.75
-        sell: 0.19
+        buy: 75
+        sell: 19
       '59':
         material: CLAY_BALL
-        buy: 5
-        sell: 1.25
+        buy: 500
+        sell: 125
       '60':
         material: CLOCK
-        buy: 137.82
-        sell: 34.46
+        buy: 137820
+        sell: 3446
       '61':
         material: COAL_ORE
-        buy: 20
+        buy: 2000
         sell: -1
       '62':
         material: COARSE_DIRT
-        buy: 5.78
-        sell: 1.45
+        buy: 578
+        sell: 145
       '63':
         material: COBBLESTONE_SLAB
-        buy: 0.36
-        sell: 0.09
+        buy: 36
+        sell: 9
       '64':
         material: COBBLESTONE_STAIRS
-        buy: 0.72
-        sell: 0.18
+        buy: 72
+        sell: 18
       '65':
         material: COBBLESTONE_WALL
-        buy: 0.72
-        sell: 0.18
+        buy: 72
+        sell: 18
       '66':
         material: COMPASS
-        buy: 93.72
-        sell: 23.43
+        buy: 9372
+        sell: 2343
       '67':
         material: COOKED_COD
-        buy: 6.3
-        sell: 1.58
+        buy: 630
+        sell: 158
       '68':
         material: CRACKED_STONE_BRICKS
-        buy: 0.79
-        sell: 0.2
+        buy: 79
+        sell: 20
       '69':
         material: CRAFTING_TABLE
-        buy: 4.64
-        sell: 1.16
+        buy: 464
+        sell: 116
       '70':
         material: CREEPER_HEAD
         buy: -1
-        sell: 150
+        sell: 150000
       '71':
         material: CYAN_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '72':
         material: CYAN_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '73':
         material: CYAN_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '74':
         material: CYAN_CONCRETE_POWDER
-        buy: 7.43
-        sell: 1.86
+        buy: 743
+        sell: 186
       '75':
         material: CYAN_GLAZED_TERRACOTTA
-        buy: 24.4
-        sell: 6.1
+        buy: 2440
+        sell: 610
       '76':
         material: CYAN_SHULKER_BOX
-        buy: 26.29
-        sell: 6.58
+        buy: 2629
+        sell: 658
       '77':
         material: CYAN_STAINED_GLASS
-        buy: 6.7
-        sell: 1.68
+        buy: 670
+        sell: 168
       '78':
         material: CYAN_STAINED_GLASS_PANE
-        buy: 2.64
-        sell: 0.66
+        buy: 264
+        sell: 66
       '79':
         material: CYAN_TERRACOTTA
-        buy: 23.24
-        sell: 5.81
+        buy: 2324
+        sell: 581
       '80':
         material: DANDELION
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
       '81':
         material: DARK_OAK_BOAT
-        buy: 5.79
-        sell: 1.45
+        buy: 579
+        sell: 145
       '82':
         material: DARK_OAK_DOOR
-        buy: 2.32
-        sell: 0.58
+        buy: 232
+        sell: 58
       '83':
         material: DARK_OAK_FENCE
-        buy: 1.95
-        sell: 0.49
+        buy: 195
+        sell: 49
       '84':
         material: DARK_OAK_FENCE_GATE
-        buy: 4.75
-        sell: 1.19
+        buy: 475
+        sell: 119
       '85':
         material: DEAD_BUSH
-        buy: 30
-        sell: 7.5
+        buy: 3000
+        sell: 750
       '86':
         material: DETECTOR_RAIL
-        buy: 23.24
-        sell: 5.81
+        buy: 2324
+        sell: 581
       '87':
         material: DIAMOND_AXE
-        buy: 662.72
-        sell: 165.68
+        buy: 662720
+        sell: 165680
       '88':
         material: DIAMOND_BOOTS
-        buy: 882
-        sell: 220.5
+        buy: 882000
+        sell: 220500
       '89':
         material: DIAMOND_CHESTPLATE
-        buy: 1764
-        sell: 441
+        buy: 1764000
+        sell: 441000
       '90':
         material: DIAMOND_HELMET
-        buy: 1102.5
-        sell: 275.63
+        buy: 1102500
+        sell: 275630
   page3:
     items:
       '91':
         material: DIAMOND_HOE
-        buy: 442.22
-        sell: 110.56
+        buy: 442220
+        sell: 110560
       '92':
         material: DIAMOND_HORSE_ARMOR
-        buy: 2250
-        sell: 562.5
+        buy: 2250000
+        sell: 562500
       '93':
         material: DIAMOND_LEGGINGS
-        buy: 1543.5
-        sell: 385.88
+        buy: 1543500
+        sell: 385880
       '94':
         material: DIAMOND_ORE
-        buy: 200
+        buy: 200000
         sell: -1
       '95':
         material: DIAMOND_PICKAXE
-        buy: 662.72
-        sell: 165.68
+        buy: 662720
+        sell: 165680
       '96':
         material: DIAMOND_SHOVEL
-        buy: 221.72
-        sell: 55.43
+        buy: 221720
+        sell: 5543
       '97':
         material: DIAMOND_SWORD
-        buy: 441.61
-        sell: 110.41
+        buy: 441610
+        sell: 110410
       '98':
         material: DRAGON_BREATH
-        buy: 109.93
-        sell: 27.49
+        buy: 109930
+        sell: 2749
       '99':
         material: DRAGON_EGG
-        buy: 5000
-        sell: 1250
+        buy: 5000000
+        sell: 1250000
       '100':
         material: DRAGON_HEAD
         buy: -1
-        sell: 1250
+        sell: 1250000
       '101':
         material: EMERALD_ORE
-        buy: 150
+        buy: 150000
         sell: -1
       '102':
         material: ENCHANTED_GOLDEN_APPLE
         buy: -1
-        sell: 2500
+        sell: 2500000
       '103':
         material: ENCHANTING_TABLE
-        buy: 609.65
-        sell: 152.42
+        buy: 609650
+        sell: 152420
       '104':
         material: END_CRYSTAL
         buy: -1
-        sell: 24.73
+        sell: 2473
       '105':
         material: ENDER_PEARL
-        buy: 7
-        sell: 1.75
+        buy: 700
+        sell: 175
       '106':
         material: FERN
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '107':
         material: FIRE_CHARGE
-        buy: 13.7
-        sell: 3.43
+        buy: 1370
+        sell: 343
       '108':
         material: FIREWORK_ROCKET
-        buy: 5.47
-        sell: 1.37
+        buy: 547
+        sell: 137
       '109':
         material: FIREWORK_STAR
-        buy: 17.38
-        sell: 4.35
+        buy: 1738
+        sell: 435
       '110':
         material: FISHING_ROD
-        buy: 16.53
-        sell: 4.14
+        buy: 1653
+        sell: 414
       '111':
         material: FLINT
-        buy: 2
-        sell: 0.5
+        buy: 200
+        sell: 50
       '112':
         material: FLINT_AND_STEEL
-        buy: 24.15
-        sell: 6.04
+        buy: 2415
+        sell: 604
       '113':
         material: FURNACE
-        buy: 5.72
-        sell: 1.43
+        buy: 572
+        sell: 143
       '114':
         material: FURNACE_MINECART
-        buy: 121.77
-        sell: 30.45
+        buy: 121770
+        sell: 3045
       '115':
         material: GLASS_BOTTLE
-        buy: 6.62
-        sell: 1.66
+        buy: 662
+        sell: 166
       '116':
         material: GLISTERING_MELON_SLICE
-        buy: 27.51
-        sell: 6.88
+        buy: 2751
+        sell: 688
       '117':
         material: GOLD_NUGGET
-        buy: 3.15
-        sell: 0.79
+        buy: 315
+        sell: 79
       '118':
         material: GOLD_ORE
-        buy: 30
+        buy: 3000
         sell: -1
       '119':
         material: GOLDEN_APPLE
-        buy: 275.1
-        sell: 68.78
+        buy: 275100
+        sell: 6878
       '120':
         material: GOLDEN_AXE
-        buy: 100.45
-        sell: 25.12
+        buy: 100450
+        sell: 2512
       '121':
         material: GOLDEN_BOOTS
-        buy: 132.3
-        sell: 33.08
+        buy: 132300
+        sell: 3308
       '122':
         material: GOLDEN_CARROT
-        buy: 31.71
-        sell: 7.93
+        buy: 3171
+        sell: 793
       '123':
         material: GOLDEN_CHESTPLATE
-        buy: 264.6
-        sell: 66.15
+        buy: 264600
+        sell: 6615
       '124':
         material: GOLDEN_HELMET
-        buy: 165.38
-        sell: 41.35
+        buy: 165380
+        sell: 4135
       '125':
         material: GOLDEN_HOE
-        buy: 67.37
-        sell: 16.85
+        buy: 6737
+        sell: 1685
       '126':
         material: GOLDEN_HORSE_ARMOR
-        buy: 775
-        sell: 193.75
+        buy: 775000
+        sell: 193750
       '127':
         material: GOLDEN_LEGGINGS
-        buy: 231.53
-        sell: 57.89
+        buy: 231530
+        sell: 5789
       '128':
         material: GOLDEN_PICKAXE
-        buy: 100.45
-        sell: 25.12
+        buy: 100450
+        sell: 2512
       '129':
         material: GOLDEN_SHOVEL
-        buy: 34.3
-        sell: 8.58
+        buy: 3430
+        sell: 858
       '130':
         material: GOLDEN_SWORD
-        buy: 66.76
-        sell: 16.69
+        buy: 6676
+        sell: 1669
       '131':
         material: GRASS
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '132':
         material: GRAY_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '133':
         material: GRAY_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '134':
         material: GRAY_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '135':
         material: GRAY_CONCRETE_POWDER
-        buy: 7.83
-        sell: 1.96
+        buy: 783
+        sell: 196
   page4:
     items:
       '136':
         material: GRAY_GLAZED_TERRACOTTA
-        buy: 24.81
-        sell: 6.21
+        buy: 2481
+        sell: 621
       '137':
         material: GRAY_SHULKER_BOX
-        buy: 29.44
-        sell: 7.36
+        buy: 2944
+        sell: 736
       '138':
         material: GRAY_STAINED_GLASS
-        buy: 7.09
-        sell: 1.78
+        buy: 709
+        sell: 178
       '139':
         material: GRAY_STAINED_GLASS_PANE
-        buy: 2.8
-        sell: 0.7
+        buy: 280
+        sell: 70
       '140':
         material: GRAY_TERRACOTTA
-        buy: 23.63
-        sell: 5.91
+        buy: 2363
+        sell: 591
       '141':
         material: GREEN_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '142':
         material: GREEN_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '143':
         material: GREEN_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '144':
         material: GREEN_CONCRETE_POWDER
-        buy: 7.37
-        sell: 1.85
+        buy: 737
+        sell: 185
       '145':
         material: GREEN_GLAZED_TERRACOTTA
-        buy: 24.33
-        sell: 6.09
+        buy: 2433
+        sell: 609
       '146':
         material: GREEN_SHULKER_BOX
-        buy: 25.76
-        sell: 6.44
+        buy: 2576
+        sell: 644
       '147':
         material: GREEN_STAINED_GLASS
-        buy: 6.63
-        sell: 1.66
+        buy: 663
+        sell: 166
       '148':
         material: GREEN_STAINED_GLASS_PANE
-        buy: 2.62
-        sell: 0.66
+        buy: 262
+        sell: 66
       '149':
         material: GREEN_TERRACOTTA
-        buy: 23.17
-        sell: 5.8
+        buy: 2317
+        sell: 580
       '150':
         material: HOPPER_MINECART
-        buy: 241.74
-        sell: 60.44
+        buy: 241740
+        sell: 6044
       '151':
         material: ICE
-        buy: 3
-        sell: 0.75
+        buy: 300
+        sell: 75
       '152':
         material: IRON_AXE
-        buy: 67.37
-        sell: 16.85
+        buy: 6737
+        sell: 1685
       '153':
         material: IRON_BARS
-        buy: 8.27
-        sell: 2.07
+        buy: 827
+        sell: 207
       '154':
         material: IRON_BOOTS
-        buy: 88.2
-        sell: 22.05
+        buy: 8820
+        sell: 2205
       '155':
         material: IRON_CHESTPLATE
-        buy: 176.4
-        sell: 44.1
+        buy: 176400
+        sell: 4410
       '156':
         material: IRON_HELMET
-        buy: 110.25
-        sell: 27.57
+        buy: 110250
+        sell: 2757
       '157':
         material: IRON_HOE
-        buy: 45.32
-        sell: 11.33
+        buy: 4532
+        sell: 1133
       '158':
         material: IRON_HORSE_ARMOR
-        buy: 175
-        sell: 43.75
+        buy: 175000
+        sell: 4375
       '159':
         material: IRON_LEGGINGS
-        buy: 154.35
-        sell: 38.59
+        buy: 154350
+        sell: 3859
       '160':
         material: IRON_NUGGET
-        buy: 2.22
-        sell: 0.56
+        buy: 222
+        sell: 56
       '161':
         material: IRON_ORE
-        buy: 20
+        buy: 2000
         sell: -1
       '162':
         material: IRON_PICKAXE
-        buy: 67.37
-        sell: 16.85
+        buy: 6737
+        sell: 1685
       '163':
         material: IRON_SHOVEL
-        buy: 23.27
-        sell: 5.82
+        buy: 2327
+        sell: 582
       '164':
         material: IRON_SWORD
-        buy: 44.71
-        sell: 11.18
+        buy: 4471
+        sell: 1118
       '165':
         material: ITEM_FRAME
-        buy: 40.15
-        sell: 10.04
+        buy: 4015
+        sell: 1004
       '166':
         material: JUNGLE_BOAT
-        buy: 5.79
-        sell: 1.45
+        buy: 579
+        sell: 145
       '167':
         material: JUNGLE_DOOR
-        buy: 2.32
-        sell: 0.58
+        buy: 232
+        sell: 58
       '168':
         material: JUNGLE_FENCE
-        buy: 1.95
-        sell: 0.49
+        buy: 195
+        sell: 49
       '169':
         material: JUNGLE_FENCE_GATE
-        buy: 4.75
-        sell: 1.19
+        buy: 475
+        sell: 119
       '170':
         material: LADDER
-        buy: 1.42
-        sell: 0.36
+        buy: 142
+        sell: 36
       '171':
         material: LAPIS_ORE
-        buy: 55
+        buy: 5500
         sell: -1
       '172':
         material: LARGE_FERN
-        buy: 7
-        sell: 1.75
+        buy: 700
+        sell: 175
       '173':
         material: LEATHER_BOOTS
-        buy: 141.12
-        sell: 35.28
+        buy: 141120
+        sell: 3528
       '174':
         material: LEATHER_CHESTPLATE
-        buy: 282.24
-        sell: 70.56
+        buy: 282240
+        sell: 7056
       '175':
         material: LEATHER_HELMET
-        buy: 176.4
-        sell: 44.1
+        buy: 176400
+        sell: 4410
       '176':
         material: LEATHER_LEGGINGS
-        buy: 246.96
-        sell: 61.74
+        buy: 246960
+        sell: 6174
       '177':
         material: LIGHT_BLUE_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '178':
         material: LIGHT_BLUE_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '179':
         material: LIGHT_BLUE_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '180':
         material: LIGHT_BLUE_CONCRETE_POWDER
-        buy: 7.49
-        sell: 1.88
+        buy: 749
+        sell: 188
   page5:
     items:
       '181':
         material: LIGHT_BLUE_GLAZED_TERRACOTTA
-        buy: 24.46
-        sell: 6.12
+        buy: 2446
+        sell: 612
       '182':
         material: LIGHT_BLUE_SHULKER_BOX
-        buy: 26.75
-        sell: 6.69
+        buy: 2675
+        sell: 669
       '183':
         material: LIGHT_BLUE_STAINED_GLASS
-        buy: 6.76
-        sell: 1.69
+        buy: 676
+        sell: 169
       '184':
         material: LIGHT_BLUE_STAINED_GLASS_PANE
-        buy: 2.66
-        sell: 0.67
+        buy: 266
+        sell: 67
       '185':
         material: LIGHT_BLUE_TERRACOTTA
-        buy: 23.3
-        sell: 5.83
+        buy: 2330
+        sell: 583
       '186':
         material: LIGHT_GRAY_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '187':
         material: LIGHT_GRAY_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '188':
         material: LIGHT_GRAY_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '189':
         material: LIGHT_GRAY_CONCRETE_POWDER
-        buy: 7.49
-        sell: 1.88
+        buy: 749
+        sell: 188
       '190':
         material: LIGHT_GRAY_GLAZED_TERRACOTTA
-        buy: 24.46
-        sell: 6.12
+        buy: 2446
+        sell: 612
       '191':
         material: LIGHT_GRAY_SHULKER_BOX
-        buy: 26.75
-        sell: 6.69
+        buy: 2675
+        sell: 669
       '192':
         material: LIGHT_GRAY_STAINED_GLASS
-        buy: 6.76
-        sell: 1.69
+        buy: 676
+        sell: 169
       '193':
         material: LIGHT_GRAY_STAINED_GLASS_PANE
-        buy: 2.66
-        sell: 0.67
+        buy: 266
+        sell: 67
       '194':
         material: LIGHT_GRAY_TERRACOTTA
-        buy: 23.3
-        sell: 5.83
+        buy: 2330
+        sell: 583
       '195':
         material: LILAC
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
       '196':
         material: LIME_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '197':
         material: LIME_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '198':
         material: LIME_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '199':
         material: LIME_CONCRETE_POWDER
-        buy: 11.21
-        sell: 2.81
+        buy: 1121
+        sell: 281
       '200':
         material: LIME_GLAZED_TERRACOTTA
-        buy: 25.18
-        sell: 6.3
+        buy: 2518
+        sell: 630
       '201':
         material: LIME_SHULKER_BOX
-        buy: 32.27
-        sell: 8.07
+        buy: 3227
+        sell: 807
       '202':
         material: LIME_STAINED_GLASS
-        buy: 7.45
-        sell: 1.87
+        buy: 745
+        sell: 187
       '203':
         material: LIME_STAINED_GLASS_PANE
-        buy: 2.94
-        sell: 0.74
+        buy: 294
+        sell: 74
       '204':
         material: LIME_TERRACOTTA
-        buy: 23.98
-        sell: 6
+        buy: 2398
+        sell: 600
       '205':
         material: MAGENTA_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '206':
         material: MAGENTA_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '207':
         material: MAGENTA_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '208':
         material: MAGENTA_CONCRETE_POWDER
-        buy: 11.21
-        sell: 2.81
+        buy: 1121
+        sell: 281
       '209':
         material: MAGENTA_GLAZED_TERRACOTTA
-        buy: 24.46
-        sell: 6.12
+        buy: 2446
+        sell: 612
       '210':
         material: MAGENTA_SHULKER_BOX
-        buy: 26.75
-        sell: 6.69
+        buy: 2675
+        sell: 669
       '211':
         material: MAGENTA_STAINED_GLASS
-        buy: 6.76
-        sell: 1.69
+        buy: 676
+        sell: 169
       '212':
         material: MAGENTA_STAINED_GLASS_PANE
-        buy: 2.66
-        sell: 0.67
+        buy: 266
+        sell: 67
       '213':
         material: MAGENTA_TERRACOTTA
-        buy: 23.3
-        sell: 5.83
+        buy: 2330
+        sell: 583
       '214':
         material: MILK_BUCKET
-        buy: 69.67
-        sell: 17.42
+        buy: 6967
+        sell: 1742
       '215':
         material: MINECART
-        buy: 110.25
-        sell: 27.57
+        buy: 110250
+        sell: 2757
       '216':
         material: MOSSY_COBBLESTONE_WALL
-        buy: 8.47
-        sell: 2.12
+        buy: 847
+        sell: 212
       '217':
         material: MUSHROOM_STEM
-        buy: 0.4
-        sell: 0.1
+        buy: 40
+        sell: 10
       '218':
         material: MUSHROOM_STEW
-        buy: 5.12
-        sell: 1.28
+        buy: 512
+        sell: 128
       '219':
         material: NETHER_BRICK
-        buy: 0.21
-        sell: 0.06
+        buy: 21
+        sell: 6
       '220':
         material: NETHER_BRICK_FENCE
-        buy: 0.7
-        sell: 0.18
+        buy: 70
+        sell: 18
       '221':
         material: NETHER_QUARTZ_ORE
-        buy: 31.5
+        buy: 3150
         sell: -1
       '222':
         material: NETHER_WART_BLOCK
-        buy: 28.35
-        sell: 7.09
+        buy: 2835
+        sell: 709
       '223':
         material: OAK_BOAT
-        buy: 5.79
-        sell: 1.45
+        buy: 579
+        sell: 145
       '224':
         material: OAK_DOOR
-        buy: 2.32
-        sell: 0.58
+        buy: 232
+        sell: 58
       '225':
         material: OAK_FENCE
-        buy: 1.95
-        sell: 0.49
+        buy: 195
+        sell: 49
   page6:
     items:
       '226':
         material: OAK_FENCE_GATE
-        buy: 4.75
-        sell: 1.19
+        buy: 475
+        sell: 119
       '227':
         material: OAK_SIGN
-        buy: 2.52
-        sell: 0.63
+        buy: 252
+        sell: 63
       '228':
         material: ORANGE_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '229':
         material: ORANGE_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '230':
         material: ORANGE_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '231':
         material: ORANGE_CONCRETE_POWDER
-        buy: 7.49
-        sell: 1.88
+        buy: 749
+        sell: 188
       '232':
         material: ORANGE_GLAZED_TERRACOTTA
-        buy: 30.87
-        sell: 7.72
+        buy: 3087
+        sell: 772
       '233':
         material: ORANGE_SHULKER_BOX
-        buy: 26.75
-        sell: 6.69
+        buy: 2675
+        sell: 669
       '234':
         material: ORANGE_STAINED_GLASS
-        buy: 6.76
-        sell: 1.69
+        buy: 676
+        sell: 169
       '235':
         material: ORANGE_STAINED_GLASS_PANE
-        buy: 2.66
-        sell: 0.67
+        buy: 266
+        sell: 67
       '236':
         material: ORANGE_TERRACOTTA
-        buy: 23.3
-        sell: 5.83
+        buy: 2330
+        sell: 583
       '237':
         material: ORANGE_TULIP
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
       '238':
         material: OXEYE_DAISY
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
       '239':
         material: PAINTING
-        buy: 35.74
-        sell: 8.94
+        buy: 3574
+        sell: 894
       '240':
         material: PAPER
-        buy: 0.11
-        sell: 0.03
+        buy: 11
+        sell: 3
       '241':
         material: PEONY
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
       '242':
         material: PINK_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '243':
         material: PINK_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '244':
         material: PINK_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '245':
         material: PINK_CONCRETE_POWDER
-        buy: 7.49
-        sell: 1.88
+        buy: 749
+        sell: 188
       '246':
         material: PINK_GLAZED_TERRACOTTA
-        buy: 24.46
-        sell: 6.12
+        buy: 2446
+        sell: 612
       '247':
         material: PINK_SHULKER_BOX
-        buy: 26.75
-        sell: 6.69
+        buy: 2675
+        sell: 669
       '248':
         material: PINK_STAINED_GLASS
-        buy: 6.76
-        sell: 1.69
+        buy: 676
+        sell: 169
       '249':
         material: PINK_STAINED_GLASS_PANE
-        buy: 2.66
-        sell: 0.67
+        buy: 266
+        sell: 67
       '250':
         material: PINK_TERRACOTTA
-        buy: 23.3
-        sell: 5.83
+        buy: 2330
+        sell: 583
       '251':
         material: PINK_TULIP
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
       '252':
         material: POISONOUS_POTATO
         buy: -1
-        sell: 15
+        sell: 1500
       '253':
         material: POPPED_CHORUS_FRUIT
-        buy: 3.15
-        sell: 0.79
+        buy: 315
+        sell: 79
       '254':
         material: POPPY
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
       '255':
         material: POWERED_RAIL
-        buy: 34.1
-        sell: 8.53
+        buy: 3410
+        sell: 853
       '256':
         material: PRISMARINE_CRYSTALS
-        buy: 7
-        sell: 1.75
+        buy: 700
+        sell: 175
       '257':
         material: PRISMARINE_SHARD
-        buy: 7
-        sell: 1.75
+        buy: 700
+        sell: 175
       '258':
         material: PUFFERFISH
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '259':
         material: PUMPKIN_PIE
-        buy: 10.62
-        sell: 2.66
+        buy: 1062
+        sell: 266
       '260':
         material: PURPLE_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '261':
         material: PURPLE_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '262':
         material: PURPLE_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '263':
         material: PURPLE_CONCRETE_POWDER
-        buy: 11.21
-        sell: 2.81
+        buy: 1121
+        sell: 281
       '264':
         material: PURPLE_GLAZED_TERRACOTTA
-        buy: 24.47
-        sell: 6.12
+        buy: 2447
+        sell: 612
       '265':
         material: PURPLE_SHULKER_BOX
-        buy: 26.81
-        sell: 6.71
+        buy: 2681
+        sell: 671
       '266':
         material: PURPLE_STAINED_GLASS
-        buy: 6.76
-        sell: 1.69
+        buy: 676
+        sell: 169
       '267':
         material: PURPLE_STAINED_GLASS_PANE
-        buy: 2.67
-        sell: 0.67
+        buy: 267
+        sell: 67
       '268':
         material: PURPLE_TERRACOTTA
-        buy: 23.3
-        sell: 5.83
+        buy: 2330
+        sell: 583
       '269':
         material: PURPUR_PILLAR
-        buy: 3.48
-        sell: 0.87
+        buy: 348
+        sell: 87
       '270':
         material: QUARTZ_PILLAR
-        buy: 145.87
-        sell: 36.47
+        buy: 145870
+        sell: 3647
   page7:
     items:
       '271':
         material: RABBIT_STEW
-        buy: 20.39
-        sell: 5.1
+        buy: 2039
+        sell: 510
       '272':
         material: RAIL
-        buy: 8.31
-        sell: 2.08
+        buy: 831
+        sell: 208
       '273':
         material: RED_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '274':
         material: RED_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '275':
         material: RED_CONCRETE_POWDER
-        buy: 7.49
-        sell: 1.88
+        buy: 749
+        sell: 188
       '276':
         material: RED_GLAZED_TERRACOTTA
-        buy: 24.46
-        sell: 6.12
+        buy: 2446
+        sell: 612
       '277':
         material: RED_MUSHROOM_BLOCK
-        buy: 0.06
-        sell: 0.02
+        buy: 6
+        sell: 2
       '278':
         material: RED_SHULKER_BOX
-        buy: 26.75
-        sell: 6.69
+        buy: 2675
+        sell: 669
       '279':
         material: RED_STAINED_GLASS
-        buy: 6.76
-        sell: 1.69
+        buy: 676
+        sell: 169
       '280':
         material: RED_STAINED_GLASS_PANE
-        buy: 2.66
-        sell: 0.67
+        buy: 266
+        sell: 67
       '281':
         material: RED_TERRACOTTA
-        buy: 23.3
-        sell: 5.83
+        buy: 2330
+        sell: 583
       '282':
         material: REDSTONE_ORE
-        buy: 20
+        buy: 2000
         sell: -1
       '283':
         material: ROSE_BUSH
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
       '284':
         material: SALMON
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '285':
         material: SHEARS
-        buy: 44.1
-        sell: 11.03
+        buy: 4410
+        sell: 1103
       '286':
         material: SHIELD
-        buy: 29
-        sell: 7.25
+        buy: 2900
+        sell: 725
       '287':
         material: SHULKER_BOX
-        buy: 24.43
-        sell: 6.11
+        buy: 2443
+        sell: 611
       '288':
         material: SKELETON_SKULL
         buy: -1
-        sell: 150
+        sell: 150000
       '289':
         material: SPECTRAL_ARROW
-        buy: 15.89
-        sell: 3.98
+        buy: 1589
+        sell: 398
       '290':
         material: SPRUCE_BOAT
-        buy: 5.79
-        sell: 1.45
+        buy: 579
+        sell: 145
       '291':
         material: SPRUCE_DOOR
-        buy: 2.32
-        sell: 0.58
+        buy: 232
+        sell: 58
       '292':
         material: SPRUCE_FENCE
-        buy: 1.95
-        sell: 0.49
+        buy: 195
+        sell: 49
       '293':
         material: SPRUCE_FENCE_GATE
-        buy: 4.75
-        sell: 1.19
+        buy: 475
+        sell: 119
       '294':
         material: STICK
-        buy: 0.58
-        sell: 0.15
+        buy: 58
+        sell: 15
       '295':
         material: STONE_AXE
-        buy: 3.36
-        sell: 0.84
+        buy: 336
+        sell: 84
       '296':
         material: STONE_HOE
-        buy: 2.65
-        sell: 0.67
+        buy: 265
+        sell: 67
       '297':
         material: STONE_PICKAXE
-        buy: 3.36
-        sell: 0.84
+        buy: 336
+        sell: 84
       '298':
         material: STONE_SHOVEL
-        buy: 1.93
-        sell: 0.49
+        buy: 193
+        sell: 49
       '299':
         material: STONE_SWORD
-        buy: 2.04
-        sell: 0.51
+        buy: 204
+        sell: 51
       '300':
         material: SUGAR
-        buy: 0.11
-        sell: 0.03
+        buy: 11
+        sell: 3
       '301':
         material: TNT_MINECART
-        buy: 227.67
-        sell: 56.92
+        buy: 227670
+        sell: 5692
       '302':
         material: TORCH
-        buy: 5.67
-        sell: 1.42
+        buy: 567
+        sell: 142
       '303':
         material: TRAPPED_CHEST
-        buy: 22.23
-        sell: 5.56
+        buy: 2223
+        sell: 556
       '304':
         material: TROPICAL_FISH
-        buy: 6
-        sell: 1.5
+        buy: 600
+        sell: 150
       '305':
         material: WET_SPONGE
         buy: -1
-        sell: 125
+        sell: 125000
       '306':
         material: WHITE_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '307':
         material: WHITE_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '308':
         material: WHITE_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '309':
         material: WHITE_CONCRETE_POWDER
-        buy: 7.63
-        sell: 1.91
+        buy: 763
+        sell: 191
       '310':
         material: WHITE_GLAZED_TERRACOTTA
-        buy: 24.6
-        sell: 6.15
+        buy: 2460
+        sell: 615
       '311':
         material: WHITE_SHULKER_BOX
-        buy: 27.36
-        sell: 6.84
+        buy: 2736
+        sell: 684
       '312':
         material: WHITE_STAINED_GLASS
-        buy: 6.83
-        sell: 1.71
+        buy: 683
+        sell: 171
       '313':
         material: WHITE_STAINED_GLASS_PANE
-        buy: 2.69
-        sell: 0.68
+        buy: 269
+        sell: 68
       '314':
         material: WHITE_TERRACOTTA
-        buy: 23.43
-        sell: 5.86
+        buy: 2343
+        sell: 586
       '315':
         material: WHITE_TULIP
-        buy: 1
-        sell: 0.25
+        buy: 100
+        sell: 25
   page8:
     items:
       '316':
         material: WITHER_SKELETON_SKULL
         buy: -1
-        sell: 125
+        sell: 125000
       '317':
         material: WOODEN_AXE
-        buy: 4.69
-        sell: 1.18
+        buy: 469
+        sell: 118
       '318':
         material: WOODEN_HOE
-        buy: 3.54
-        sell: 0.89
+        buy: 354
+        sell: 89
       '319':
         material: WOODEN_PICKAXE
-        buy: 4.69
-        sell: 1.18
+        buy: 469
+        sell: 118
       '320':
         material: WOODEN_SHOVEL
-        buy: 2.38
-        sell: 0.6
+        buy: 238
+        sell: 60
       '321':
         material: WOODEN_SWORD
-        buy: 3.54
-        sell: 0.89
+        buy: 354
+        sell: 89
       '322':
         material: YELLOW_BANNER
-        buy: 185.83
-        sell: 46.46
+        buy: 185830
+        sell: 4646
       '323':
         material: YELLOW_BED
-        buy: 96.09
-        sell: 24.03
+        buy: 9609
+        sell: 2403
       '324':
         material: YELLOW_CARPET
-        buy: 20.58
-        sell: 5.15
+        buy: 2058
+        sell: 515
       '325':
         material: YELLOW_CONCRETE_POWDER
-        buy: 7.45
-        sell: 1.87
+        buy: 745
+        sell: 187
       '326':
         material: YELLOW_GLAZED_TERRACOTTA
-        buy: 24.41
-        sell: 6.11
+        buy: 2441
+        sell: 611
       '327':
         material: YELLOW_SHULKER_BOX
-        buy: 26.39
-        sell: 6.6
+        buy: 2639
+        sell: 660
       '328':
         material: YELLOW_STAINED_GLASS
-        buy: 6.71
-        sell: 1.68
+        buy: 671
+        sell: 168
       '329':
         material: YELLOW_STAINED_GLASS_PANE
-        buy: 2.65
-        sell: 0.67
+        buy: 265
+        sell: 67
       '330':
         material: YELLOW_TERRACOTTA
-        buy: 23.25
-        sell: 5.82
+        buy: 2325
+        sell: 582
       '331':
         material: ZOMBIE_HEAD
         buy: -1
-        sell: 150
+        sell: 150000

@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "963644bb-22a9-3af1-abfc-df4350f9f401",
+    "name": "HeadAdmin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e659aa58-f332-31d3-9920-8febd4e8721b",
+    "name": "garrett",
+    "level": 2,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3c00b58d-a066-4f52-a2b7-615641dcbe00",
+    "name": "Server",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "dbaaf4b4-8cfe-3181-8f8d-50a581ac5d98",
+    "name": "Derek",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

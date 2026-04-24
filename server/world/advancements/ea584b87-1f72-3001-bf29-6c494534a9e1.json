@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2026-02-25 16:38:31 +0000",
+      "taiga": "2026-02-25 16:38:14 +0000",
+      "taiga_hills": "2026-02-25 16:36:50 +0000"
+    },
+    "done": false
+  }
+}

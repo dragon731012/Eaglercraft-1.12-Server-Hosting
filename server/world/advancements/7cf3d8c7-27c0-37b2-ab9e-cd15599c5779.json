@@ -1,0 +1,16 @@
+{
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2026-03-04 18:42:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2026-03-04 18:42:07 +0000",
+      "taiga": "2026-03-04 18:41:53 +0000",
+      "taiga_hills": "2026-03-04 18:41:06 +0000"
+    },
+    "done": false
+  }
+}

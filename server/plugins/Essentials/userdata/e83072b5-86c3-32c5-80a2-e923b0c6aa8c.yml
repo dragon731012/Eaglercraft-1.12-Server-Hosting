@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1776094529674
+  logout: 1776121084836
+  login: 1776121044235
 money: '0'
 last-account-name: ransom
+logoutlocation:
+  world: 038c3a0a-7118-4c75-b0cc-a7b189108695
+  world-name: voidworld
+  x: 196.3581812895509
+  y: 137.74718866953233
+  z: 2.409422152772184
+  yaw: 63.750160217285156
+  pitch: 67.34998321533203

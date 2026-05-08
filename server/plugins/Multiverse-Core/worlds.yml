@@ -2,7 +2,7 @@ worlds:
   world:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: world
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -34,11 +34,11 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 35.13320969434292
-      y: 80.0
-      z: -36.578302706355075
-      pitch: 24.600006
-      yaw: -108.89926
+      x: -25.66353930887685
+      y: 60.0
+      z: -170.53798144080542
+      pitch: 24.299976
+      yaw: 178.6509
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []

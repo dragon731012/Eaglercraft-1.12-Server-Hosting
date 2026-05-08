@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1776201131943
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1776115916295
-  login: 1776115913145
-money: '8203999702416.82'
+  logout: 1776350579778
+  login: 1776350434325
+money: '8203976811062.82'
 last-account-name: VOID_404
 logoutlocation:
+  world: 038c3a0a-7118-4c75-b0cc-a7b189108695
+  world-name: voidworld
+  x: 6.721206058674429
+  y: 151.0
+  z: -1.1194887221785519
+  yaw: 177.9019775390625
+  pitch: 46.35004806518555
+lastlocation:
   world: 038c3a0a-7118-4c75-b0cc-a7b189108695
   world-name: voidworld
   x: 0.5
   y: 151.0
   z: 0.5
-  yaw: 18.011552810668945
-  pitch: 44.30568313598633
-lastlocation:
-  world: 97ff7e70-930f-42ef-bc69-efcae557ff13
-  world-name: world
-  x: -82.85458585393407
-  y: 144.5655745688563
-  z: 52.45015286461647
-  yaw: 69.15072631835938
-  pitch: 49.49999237060547
+  yaw: -66.45641326904297
+  pitch: 66.27896881103516

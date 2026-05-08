@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1776347549768
+  login: 1776347539211
+money: '0'
+last-account-name: justincase
+logoutlocation:
+  world: 97ff7e70-930f-42ef-bc69-efcae557ff13
+  world-name: world
+  x: 46.504537331148484
+  y: 89.0
+  z: -55.72752093638361
+  yaw: -181.0492706298828
+  pitch: 22.349998474121094

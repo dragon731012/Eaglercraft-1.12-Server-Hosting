@@ -1,14 +1,8 @@
 [
   {
-    "uuid": "c1b922c7-c6db-3550-933a-c28dde9941c0",
-    "name": "ViggYigg5492",
+    "uuid": "6f7c2000-8c8c-3e32-a19f-f89575d57255",
+    "name": "VOID",
     "level": 4,
     "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "4979b573-68c5-378e-bf2f-66e7efb35241",
-    "name": "The_VOID",
-    "level": 4,
-    "bypassesPlayerLimit": true
   }
 ]

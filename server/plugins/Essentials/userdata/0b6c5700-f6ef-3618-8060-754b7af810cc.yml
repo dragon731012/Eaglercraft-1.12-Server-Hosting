@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1776093953182
-  login: 1776094509295
+  logout: 1776348695384
+  login: 1776348683684
 money: '7167999983251.10'
 last-account-name: The_VOID
 logoutlocation:
   world: 038c3a0a-7118-4c75-b0cc-a7b189108695
   world-name: voidworld
-  x: -7.41564458022861
-  y: 163.0
-  z: 6.395350353208234
-  yaw: -88.691162109375
-  pitch: 90.0
+  x: -2.8844810613941845
+  y: 152.0
+  z: 0.8499558739414976
+  yaw: 79.76544952392578
+  pitch: 37.62017059326172

@@ -152,15 +152,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/wooden_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-04-13 15:04:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2026-04-13 14:59:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-04-13 15:04:22 +0000"
     },
     "done": true
   },
@@ -203,6 +203,12 @@
   "minecraft:recipes/decorations/sign": {
     "criteria": {
       "has_planks": "2026-04-13 15:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2026-04-16 14:00:55 +0000"
     },
     "done": true
   },

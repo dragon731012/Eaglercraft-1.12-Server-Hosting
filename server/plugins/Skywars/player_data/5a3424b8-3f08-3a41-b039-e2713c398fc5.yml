@@ -1,0 +1,13 @@
+wins: 0
+losses: 0
+kills: 0
+deaths: 0
+pareffect: none
+proeffect: none
+glasscolor: none
+winsound: none
+killsound: none
+taunt: none
+uuid: 5a3424b8-3f08-3a41-b039-e2713c398fc5
+player_name: _ransom
+xp: 0

@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1778208952060
-  login: 1778208730356
-money: '0'
+  logout: 1778346863444
+  login: 1778346913668
+money: '193268640.0'
 last-account-name: VOID
 logoutlocation:
   world: 97ff7e70-930f-42ef-bc69-efcae557ff13
   world-name: world
-  x: -20.888326748119187
-  y: 76.0
-  z: -147.18022125087577
-  yaw: -42.59908676147461
-  pitch: 58.65001678466797
+  x: -540.7664737400335
+  y: 64.0
+  z: -299.736056964445
+  yaw: -214.34869384765625
+  pitch: 22.049970626831055
+lastlocation:
+  world: 97ff7e70-930f-42ef-bc69-efcae557ff13
+  world-name: world
+  x: -25.66353930887685
+  y: 60.0
+  z: -170.53798144080542
+  yaw: 173.55088806152344
+  pitch: 33.14997482299805

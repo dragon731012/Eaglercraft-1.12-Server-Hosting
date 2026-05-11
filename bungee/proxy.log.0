@@ -13830,3 +13830,6 @@ io.netty.handler.timeout.ReadTimeoutException
 21:14:49 [INFO] [EaglercraftXBungee] [/172.31.69.194:44030]: Logged in as 'NULL_405'
 21:14:49 [INFO] [NULL_405] -> UpstreamBridge has connected
 21:14:49 [INFO] [NULL_405] <-> ServerConnector [lobby] has connected
+21:23:36 [INFO] [NULL_405] disconnected with: §fTimed out
+21:23:36 [INFO] [NULL_405] -> UpstreamBridge has disconnected
+21:23:36 [INFO] [NULL_405] <-> DownstreamBridge <-> [lobby] has disconnected

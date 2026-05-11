@@ -653,3 +653,9 @@
 [21:20:40] [Server thread/INFO]: NULL_405 issued server command: /home
 [21:21:30] [Server thread/INFO]: NULL_405 issued server command: /lp group default permission set multiverse.core.tp.* true
 [21:21:39] [Async Chat Thread - #0/INFO]: [world][0] NULL_405: apply-wildcards: true
+[21:23:36] [Server thread/WARN]: NULL_405 was kicked due to keepalive timeout!
+[21:23:36] [Server thread/INFO]: NULL_405 lost connection: Timed out
+[21:23:36] [Server thread/INFO]: Now saving stats of player NULL_405
+[21:23:36] [Server thread/INFO]: NULL_405 left the game
+[21:23:36] [Server thread/WARN]: handleDisconnection() called twice
+[21:24:41] [luckperms-worker-0/INFO]: [LuckPerms] [FileWatcher] Detected change in group file for default - reloading...

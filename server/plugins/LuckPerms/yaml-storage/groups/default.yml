@@ -10,3 +10,12 @@ permissions:
 - multiverse.core.tp.self
 - multiverse.core.list.worlds
 - multiverse.core.list.warps
+- multiverse.core.tp.hub
+- multiverse.core.tp.KP
+- multiverse.core.tp.OBSPAWN
+- multiverse.core.tp.oneblock
+- multiverse.core.tp.PIT
+- multiverse.core.tp.survival
+- multiverse.core.tp.world
+- multiverse.core.tp.world_nether
+- multiverse.core.tp.world_the_end

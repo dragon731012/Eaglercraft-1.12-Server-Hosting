@@ -74,6 +74,7 @@ world-settings:
       netherwart-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
+    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -90,7 +91,6 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
-    mob-spawn-range: 4
     random-light-updates: false
     save-structure-info: true
     dragon-death-sound-radius: 0
@@ -121,6 +121,6 @@ world-settings:
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
-    zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
+    zombie-aggressive-towards-villager: true
     max-entity-collisions: 8

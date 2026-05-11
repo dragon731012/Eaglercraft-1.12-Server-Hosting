@@ -140,7 +140,6 @@ world-settings:
     prevent-tnt-from-moving-in-water: false
     non-player-arrow-despawn-rate: -1
     armor-stands-tick: true
-    allow-leashing-undead-horse: true
     keep-spawn-loaded: true
     anti-xray:
       enabled: false
@@ -172,9 +171,10 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 1
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
+    mob-spawner-tick-rate: 1
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.2
-    mob-spawner-tick-rate: 1
+    allow-leashing-undead-horse: true
     all-chunks-are-slime-chunks: true
     squid-spawn-height:
       maximum: 0.0

@@ -11,7 +11,7 @@
 # it. If you do not understand what something does, please leave it as it is and ask for help
 
 general: #General stuff
-    launchpad-power: 5.0 #How many power should launchpads have? (Slime Blocks turn into launchpads when using this plugin) [number]
+    launchpad-power: 1.0 #How many power should launchpads have? (Slime Blocks turn into launchpads when using this plugin) [number]
     gold-on-pickup: 2.0 #When picking-up gold from the gold generators, how many gold should the player be rewarded with? [number]
     auto-respawn: true #When a player dies, should he get auto re-spawned? (Could be bugged) [true/false]
     fighting-time: 20 #For how many seconds should 'Fighting' appear in scoreboard when someone fights? In seconds [number]

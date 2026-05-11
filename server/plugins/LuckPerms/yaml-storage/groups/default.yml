@@ -1,0 +1,12 @@
+name: default
+parents: []
+permissions:
+- essentials.spawn
+- essentials.home
+- essentials.sethome
+- essentials.tpa
+- essentials.tpaccept
+- essentials.msg
+- multiverse.core.tp.self
+- multiverse.core.list.worlds
+- multiverse.core.list.warps

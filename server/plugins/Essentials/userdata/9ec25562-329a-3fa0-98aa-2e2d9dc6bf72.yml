@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1778515886377
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778518489571
+  login: 1778517090064
+money: '107634988.25'
+last-account-name: boxxinger__
+logoutlocation:
+  world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
+  world-name: oneblock
+  x: 999.8483420248444
+  y: 66.0
+  z: 1.8438954587294187
+  yaw: -150.00003051757812
+  pitch: 2.699986219406128
+lastlocation:
+  world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
+  world-name: oneblock
+  x: 1007.8285152048578
+  y: 66.0
+  z: 6.94783268027095
+  yaw: -135.7498779296875
+  pitch: 34.64990997314453

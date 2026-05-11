@@ -152,7 +152,7 @@ spawnmob-limit: 10
 warn-on-smite: true
 
 # Should items be dropped at a player's feet if their inventory is full instead of not giving the item(s)?
-drop-items-if-full: false
+drop-items-if-full: true
 
 # Should Essentials notify players if they have no new mail?
 notify-no-new-mail: true
@@ -638,7 +638,7 @@ repair-enchanted: true
 
 # Allow "unsafe" enchantments in kits and item spawning.
 # WARNING: Mixing and over-leveling some enchantments can cause issues with clients, servers, and plugins.
-unsafe-enchantments: false
+unsafe-enchantments: true
 
 # The maximum distance in blocks from the player that the /tree and /bigtree commands can spawn trees.
 tree-command-range-limit: 300
@@ -1293,7 +1293,7 @@ random-spawn-location: "none"
 random-respawn-location: "none"
 
 # Teleport all joining players to their spawnpoint.
-spawn-on-join: false
+spawn-on-join: true
 # The following value of 'guests' states that all players in the 'guests' group will be teleported to spawn when joining.
 #spawn-on-join: guests
 # The following list value states that all players in the 'guests' or 'admin' groups will be teleported to spawn when joining.

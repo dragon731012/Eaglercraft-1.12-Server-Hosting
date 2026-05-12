@@ -137,9 +137,10 @@ world-settings:
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 10
-    prevent-tnt-from-moving-in-water: true
     non-player-arrow-despawn-rate: -1
+    prevent-tnt-from-moving-in-water: true
     armor-stands-tick: true
+    allow-leashing-undead-horse: true
     keep-spawn-loaded: true
     anti-xray:
       enabled: true
@@ -173,7 +174,6 @@ world-settings:
     fire-physics-event-for-redstone: false
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.2
-    allow-leashing-undead-horse: true
     mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: true
     squid-spawn-height:

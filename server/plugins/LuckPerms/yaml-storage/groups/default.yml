@@ -1,21 +1,50 @@
-name: default
-parents: []
-permissions:
-- essentials.spawn
-- essentials.home
-- essentials.sethome
-- essentials.tpa
-- essentials.tpaccept
-- essentials.msg
-- multiverse.core.tp.self
-- multiverse.core.list.worlds
-- multiverse.core.list.warps
-- multiverse.core.tp.hub
-- multiverse.core.tp.KP
-- multiverse.core.tp.OBSPAWN
-- multiverse.core.tp.oneblock
-- multiverse.core.tp.PIT
-- multiverse.core.tp.survival
-- multiverse.core.tp.world
-- multiverse.core.tp.world_nether
-- multiverse.core.tp.world_the_end
+group:
+  name: default
+  permissions:
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.warp
+    - essentials.warp.*
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.msg
+    - essentials.back
+
+    - multiverse.core.tp.*
+    - multiverse.core.spawn.self
+    - multiverse.portal.access.*
+
+    - oneblock.user
+
+    - pit.join
+    - pit.leave
+    - pit.help
+    - pit.stats
+    - pit.upgrades
+    - pit.perks
+    - pit.shop
+    - pit.prestige
+
+    - kitpvp.use
+    - kitpvp.kit.*
+
+    - bw.join
+    - bw.play
+
+    - swr.play
+
+    - duels.player
+
+    - economyshopgui.shop
+
+    - skinsrestorer.player
+
+    - holograms.view
+
+    - tab.player
+
+    - commandnpc.use
+
+  parents: []
+  weight: 1

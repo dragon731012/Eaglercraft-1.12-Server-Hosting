@@ -81,7 +81,7 @@ world-settings:
       allow-permanent-chunk-loaders: false
       scan-for-legacy-ender-dragon: true
       shield-blocking-delay: 5
-      disable-end-credits: false
+      disable-end-credits: true
       disable-player-crits: false
       disable-sprint-interruption-on-attack: false
       disable-chest-cat-detection: false
@@ -94,8 +94,8 @@ world-settings:
       MinimumTicks: 1
       MaximumTicks: 2
     despawn-ranges:
-      soft: 32
-      hard: 128
+      soft: 128
+      hard: 256
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     water-over-lava-flow-speed: 5
@@ -116,7 +116,7 @@ world-settings:
     max-entity-collisions: 10
     disable-creeper-lingering-effect: false
     hopper:
-      cooldown-when-full: true
+      cooldown-when-full: false
       disable-move-event: false
       push-based: false
     duplicate-uuid-resolver: saferegen
@@ -136,13 +136,13 @@ world-settings:
     elytra-hit-wall-damage: false
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
-    bed-search-radius: 5
+    bed-search-radius: 10
+    prevent-tnt-from-moving-in-water: true
     non-player-arrow-despawn-rate: -1
-    prevent-tnt-from-moving-in-water: false
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
-      enabled: false
+      enabled: true
       engine-mode: 1
       chunk-edge-mode: 1
       max-chunk-section-index: 3

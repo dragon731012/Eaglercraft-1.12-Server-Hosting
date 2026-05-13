@@ -80,12 +80,12 @@ world-settings:
     game-mechanics:
       allow-permanent-chunk-loaders: false
       scan-for-legacy-ender-dragon: true
-      shield-blocking-delay: 5
+      shield-blocking-delay: 0
       disable-end-credits: true
       disable-player-crits: false
       disable-sprint-interruption-on-attack: false
       disable-chest-cat-detection: false
-      disable-unloaded-chunk-enderpearl-exploit: true
+      disable-unloaded-chunk-enderpearl-exploit: false
       village-sieges-enabled: true
     max-growth-height:
       cactus: 4
@@ -134,11 +134,11 @@ world-settings:
     parrots-are-unaffected-by-player-movement: true
     disable-explosion-knockback: true
     elytra-hit-wall-damage: false
-    use-alternate-fallingblock-onGround-detection: false
     grass-spread-tick-rate: 1
+    use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 10
-    prevent-tnt-from-moving-in-water: true
     non-player-arrow-despawn-rate: -1
+    prevent-tnt-from-moving-in-water: true
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
@@ -171,11 +171,11 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 1
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    all-chunks-are-slime-chunks: true
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.2
     allow-leashing-undead-horse: true
     mob-spawner-tick-rate: 1
+    all-chunks-are-slime-chunks: true
     squid-spawn-height:
       maximum: 0.0
     disable-teleportation-suffocation-check: false

@@ -6,8 +6,11 @@ sed -i "s/address: 0.0.0.0:[0-9]*/address: 0.0.0.0:5000/" bungee/plugins/Eaglerc
 # Start log cleanup in the background
 nohup bash "$(dirname "$0")/cleanup.sh" > /dev/null 2>&1 &
 
-# Start the Minecraft backend server in the background
+# Patch VoidGen generator strings in worlds.yml before Paper reads it
 cd server
+perl patch_worlds.pl
+
+# Start the Minecraft backend server in the background
 java -Xms512M -Xmx1G -jar server.jar nogui &
 cd ..
 

@@ -2,19 +2,34 @@ NPCS:
   '5':
     Commands:
     - 1~~~mvtp oneblock~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
-  '2':
-    Commands:
-    - 1~~~mvtp ONEBLOCK~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
   '4':
     Commands:
     - 1~~~p:mvtp survival~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
   '1':
     Commands:
     - 1~~~pit join PIT~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '8':
+    Commands:
+    - 1~~~mv tp world~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
   '0':
     Commands:
     - 1~~~pit leave~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
     - 2~~~mv tp hub~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
-  '8':
+  '2':
     Commands:
-    - 1~~~mv tp world~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 1~~~mv tp OBSPAWN~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '18':
+    Commands:
+    - 1~~~mv tp oneblock~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '19':
+    Commands:
+    - 1~~~mv tp oneblock~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '20':
+    Commands:
+    - 1~~~mv tp oneblock~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '21':
+    Commands:
+    - 1~~~mv tp oneblock~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '7':
+    Commands:
+    - 1~~~mv tp Bedwars~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

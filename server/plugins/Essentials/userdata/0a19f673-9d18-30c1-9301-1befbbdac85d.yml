@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778704369187
+  login: 1778704221948
+money: '3446.0'
+last-account-name: DavisCI00
+lastlocation:
+  world: 7643fa74-54cb-4c1f-97f5-45a2384c5309
+  world-name: world
+  x: -222.52324654767918
+  y: 71.0
+  z: -291.37822352204563
+  yaw: -249.1769561767578
+  pitch: 34.79987716674805
+logoutlocation:
+  world: 7643fa74-54cb-4c1f-97f5-45a2384c5309
+  world-name: world
+  x: -231.7877532140069
+  y: 78.0
+  z: -300.11268429952923
+  yaw: -94.2205810546875
+  pitch: 47.99999237060547

@@ -37,7 +37,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "plains": "2026-05-11 21:14:50 +0000"
+      "forest": "2026-05-13 21:41:48 +0000",
+      "forest_hills": "2026-05-13 21:41:41 +0000",
+      "plains": "2026-05-11 21:14:50 +0000",
+      "jungle": "2026-05-13 21:41:50 +0000"
     },
     "done": false
   }

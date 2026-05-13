@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778690822381
+  login: 1778690813224
+money: '0'
+last-account-name: grantwinsor
+logoutlocation:
+  world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
+  world-name: oneblock
+  x: 1400.0723674127137
+  y: 66.0
+  z: 0.45282494243393234
+  yaw: -83.70000457763672
+  pitch: 58.04999542236328
+lastlocation:
+  world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
+  world-name: oneblock
+  x: 0.4426882434780039
+  y: 65.0
+  z: 0.3431837071881847
+  yaw: -96.89999389648438
+  pitch: 87.89999389648438

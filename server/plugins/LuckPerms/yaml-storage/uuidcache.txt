@@ -1,3 +1,10 @@
 # LuckPerms UUID lookup cache
+1e8297bc-07aa-334c-951d-596cb60794ee:grantwinsor
+1936a803-4469-39d3-afa3-bec4d465a2fc:DavisC100
+f08676b9-700f-3383-8ddb-38262d88ade5:JellyExist
+68bc8db3-eb2c-3bdf-af0a-cb213f316762:justincase
 c9d9ae18-d772-3251-b05a-08513c3270fd:NULL_405
 6f7c2000-8c8c-3e32-a19f-f89575d57255:VOID
+e83072b5-86c3-32c5-80a2-e923b0c6aa8c:ransom
+9ec25562-329a-3fa0-98aa-2e2d9dc6bf72:boxxinger__
+0a19f673-9d18-30c1-9301-1befbbdac85d:DavisCI00

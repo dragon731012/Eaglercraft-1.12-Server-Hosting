@@ -1,0 +1,16 @@
+{"timestamp":1778708043,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.spawn true"}
+{"timestamp":1778708057,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.home true"}
+{"timestamp":1778708065,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.sethome true"}
+{"timestamp":1778708075,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.warp true"}
+{"timestamp":1778708084,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.core.tp.self true"}
+{"timestamp":1778708091,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set oneblock.user true"}
+{"timestamp":1778708099,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set pit.join true"}
+{"timestamp":1778708110,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set kitpvp.kit.* true"}
+{"timestamp":1778708433,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.* true"}
+{"timestamp":1778708440,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.self.w true"}
+{"timestamp":1778708446,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.other.w true"}
+{"timestamp":1778708453,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.self.ul true"}
+{"timestamp":1778708461,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.other.ul true"}
+{"timestamp":1778708467,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.self.e true"}
+{"timestamp":1778708477,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.other.e true"}
+{"timestamp":1778708590,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set pit.join true server=true server=default server=permission server=set server=pit.leave server=true/lp world=group"}

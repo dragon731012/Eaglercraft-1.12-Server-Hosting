@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1778517387903
-  login: 1778517020787
-money: '0'
+  logout: 1778688492415
+  login: 1778688320692
+money: '67.67'
 last-account-name: ransom
 logoutlocation:
   world: 7643fa74-54cb-4c1f-97f5-45a2384c5309
   world-name: world
-  x: 33.19781422731761
-  y: 73.0
-  z: -241.30000001192093
-  yaw: 75.5810546875
-  pitch: 17.849990844726562
+  x: -81.05793992775226
+  y: 79.0
+  z: -286.3814505496811
+  yaw: 127.18118286132812
+  pitch: 4.23094367980957
 lastlocation:
   world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
   world-name: oneblock

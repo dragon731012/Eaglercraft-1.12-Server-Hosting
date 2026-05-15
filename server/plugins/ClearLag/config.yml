@@ -64,7 +64,6 @@ ram-meter:
   interval: 20
   ram-limit: 5000
   commands:
-    - 'lagg killmobs'
     - 'lagg clear'
 
 #Configure what the '/lagg halt' command does
@@ -301,11 +300,8 @@ tps-meter:
   tps-trigger: 14.0
   tps-recover: 19.0
   commands:
-    - 'lagg killmobs'
     - 'lagg clear'
-    - 'lagg halt on'
-  recover-commands:
-    - 'lagg halt off'
+  recover-commands: []
 
 #This is /lagg killmobs, put what you DON'T want removed!
 # -- 'remove-named', when FALSE entities with custom names will NOT be removed

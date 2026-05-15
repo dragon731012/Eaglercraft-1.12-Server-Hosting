@@ -112,7 +112,7 @@ mobs:
     block-painting-destroy: false
     block-item-frame-destroy: false
     block-armor-stand-destroy: false
-    block-plugin-spawning: true
+    block-plugin-spawning: false
     block-above-ground-slimes: false
     block-other-explosions: false
     block-zombie-door-destruction: false

@@ -16,7 +16,7 @@ general: #General stuff
     auto-respawn: true #When a player dies, should he get auto re-spawned? (Could be bugged) [true/false]
     fighting-time: 20 #For how many seconds should 'Fighting' appear in scoreboard when someone fights? In seconds [number]
     goldenheads-head: 'LegendaryJulien' #The name of the player for the Golden Heads perk. [text]
-    spawn-mobs: false #Should mobs be spawned in the server? Might not work properly [true/false]
+    spawn-mobs: true #Should mobs be spawned in the server? Might not work properly [true/false]
     fall-damage: false #Should players take fall damage when they fall? [true/false]
     lose-hunger: false #Should players lose hunger when they are on the server? [true/false]
 

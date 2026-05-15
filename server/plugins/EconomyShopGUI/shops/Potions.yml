@@ -3,725 +3,725 @@ pages:
     items:
       '1':
         material: POTION
-        buy: 1190
-        sell: 298
+        buy: 500
+        sell: 125
         potiontypes:
         - fire_resistance
       '2':
         material: POTION
-        buy: 2162
-        sell: 541
+        buy: 300
+        sell: 75
         potiontypes:
         - harming
       '3':
         material: POTION
-        buy: 3258
-        sell: 815
+        buy: 400
+        sell: 100
         potiontypes:
         - healing
       '4':
         material: POTION
-        buy: 4938
-        sell: 1235
+        buy: 800
+        sell: 200
         potiontypes:
         - invisibility
       '5':
         material: POTION
-        buy: 194220
-        sell: 4856
+        buy: 400
+        sell: 100
         potiontypes:
         - leaping
       '6':
         material: POTION
-        buy: 3703
-        sell: 926
+        buy: 500
+        sell: 125
         potiontypes:
         - night_vision
       '7':
         material: POTION
-        buy: 1084
-        sell: 271
+        buy: 400
+        sell: 100
         potiontypes:
         - poison
       '8':
         material: POTION
-        buy: 4582
-        sell: 1146
+        buy: 800
+        sell: 200
         potiontypes:
         - regeneration
       '9':
         material: POTION
-        buy: 1387
-        sell: 347
+        buy: 300
+        sell: 75
         potiontypes:
         - slowness
       '10':
         material: POTION
-        buy: 620
-        sell: 155
+        buy: 600
+        sell: 150
         potiontypes:
         - strength
       '11':
         material: POTION
-        buy: 353
-        sell: 89
+        buy: 400
+        sell: 100
         potiontypes:
         - swiftness
       '12':
         material: POTION
-        buy: 978
-        sell: 245
+        buy: 600
+        sell: 150
         potiontypes:
         - water_breathing
       '13':
         material: POTION
-        buy: 1018
-        sell: 255
+        buy: 300
+        sell: 75
         potiontypes:
         - weakness
       '14':
         material: POTION
-        buy: 1818
-        sell: 455
+        buy: 700
+        sell: 175
         potiontypes:
         - long_fire_resistance
       '15':
         material: POTION
-        buy: 5791
-        sell: 1448
+        buy: 1200
+        sell: 300
         potiontypes:
         - long_invisibility
       '16':
         material: POTION
-        buy: 4481
-        sell: 1121
+        buy: 700
+        sell: 175
         potiontypes:
         - long_night_vision
       '17':
         material: POTION
-        buy: 1705
-        sell: 427
+        buy: 600
+        sell: 150
         potiontypes:
         - long_poison
       '18':
         material: POTION
-        buy: 5413
-        sell: 1354
+        buy: 1200
+        sell: 300
         potiontypes:
         - long_regeneration
       '19':
         material: POTION
-        buy: 2027
-        sell: 507
+        buy: 400
+        sell: 100
         potiontypes:
         - long_slowness
       '20':
         material: POTION
-        buy: 1213
-        sell: 304
+        buy: 900
+        sell: 225
         potiontypes:
         - long_strength
       '21':
         material: POTION
-        buy: 930
-        sell: 233
+        buy: 600
+        sell: 150
         potiontypes:
         - long_swiftness
       '22':
         material: POTION
-        buy: 1593
-        sell: 399
+        buy: 900
+        sell: 225
         potiontypes:
         - long_water_breathing
       '23':
         material: POTION
-        buy: 1635
-        sell: 409
+        buy: 400
+        sell: 100
         potiontypes:
         - long_weakness
       '24':
         material: POTION
-        buy: 5408
-        sell: 1352
+        buy: 600
+        sell: 150
         potiontypes:
         - strong_harming
       '25':
         material: POTION
-        buy: 6569
-        sell: 1643
+        buy: 800
+        sell: 200
         potiontypes:
         - strong_healing
       '26':
         material: POTION
-        buy: 237030
-        sell: 5926
+        buy: 700
+        sell: 175
         potiontypes:
         - strong_leaping
       '27':
         material: POTION
-        buy: 4265
-        sell: 1067
+        buy: 700
+        sell: 175
         potiontypes:
         - strong_poison
       '28':
         material: POTION
-        buy: 7973
-        sell: 1994
+        buy: 1500
+        sell: 375
         potiontypes:
         - strong_regeneration
       '29':
         material: POTION
-        buy: 3773
-        sell: 944
+        buy: 1000
+        sell: 250
         potiontypes:
         - strong_strength
       '30':
         material: POTION
-        buy: 3490
-        sell: 873
+        buy: 700
+        sell: 175
         potiontypes:
         - strong_swiftness
       '31':
         material: SPLASH_POTION
-        buy: 2905
-        sell: 727
+        buy: 625
+        sell: 156
         potiontypes:
         - fire_resistance
       '32':
         material: SPLASH_POTION
-        buy: 3935
-        sell: 984
+        buy: 375
+        sell: 94
         potiontypes:
         - harming
       '33':
         material: SPLASH_POTION
-        buy: 5096
-        sell: 1274
+        buy: 500
+        sell: 125
         potiontypes:
         - healing
       '34':
         material: SPLASH_POTION
-        buy: 6878
-        sell: 1720
+        buy: 1000
+        sell: 250
         potiontypes:
         - invisibility
       '35':
         material: SPLASH_POTION
-        buy: 222300
-        sell: 5558
+        buy: 500
+        sell: 125
         potiontypes:
         - leaping
       '36':
         material: SPLASH_POTION
-        buy: 5568
-        sell: 1392
+        buy: 625
+        sell: 156
         potiontypes:
         - night_vision
       '37':
         material: SPLASH_POTION
-        buy: 2792
-        sell: 698
+        buy: 500
+        sell: 125
         potiontypes:
         - poison
       '38':
         material: SPLASH_POTION
-        buy: 6499
-        sell: 1625
+        buy: 1000
+        sell: 250
         potiontypes:
         - regeneration
       '39':
         material: SPLASH_POTION
-        buy: 3113
-        sell: 779
+        buy: 375
+        sell: 94
         potiontypes:
         - slowness
       '40':
         material: SPLASH_POTION
-        buy: 2300
-        sell: 575
+        buy: 750
+        sell: 188
         potiontypes:
         - strength
       '41':
         material: SPLASH_POTION
-        buy: 2017
-        sell: 505
+        buy: 500
+        sell: 125
         potiontypes:
         - swiftness
       '42':
         material: SPLASH_POTION
-        buy: 2679
-        sell: 670
+        buy: 750
+        sell: 188
         potiontypes:
         - water_breathing
       '43':
         material: SPLASH_POTION
-        buy: 2722
-        sell: 681
+        buy: 375
+        sell: 94
         potiontypes:
         - weakness
       '44':
         material: SPLASH_POTION
-        buy: 3570
-        sell: 893
+        buy: 875
+        sell: 219
         potiontypes:
         - long_fire_resistance
       '45':
         material: SPLASH_POTION
-        buy: 7782
-        sell: 1946
+        buy: 1500
+        sell: 375
         potiontypes:
         - long_invisibility
   page2:
     items:
       '46':
         material: SPLASH_POTION
-        buy: 6393
-        sell: 1599
+        buy: 875
+        sell: 219
         potiontypes:
         - long_night_vision
       '47':
         material: SPLASH_POTION
-        buy: 3450
-        sell: 863
+        buy: 750
+        sell: 188
         potiontypes:
         - long_poison
       '48':
         material: SPLASH_POTION
-        buy: 7381
-        sell: 1846
+        buy: 1500
+        sell: 375
         potiontypes:
         - long_regeneration
       '49':
         material: SPLASH_POTION
-        buy: 3791
-        sell: 948
+        buy: 500
+        sell: 125
         potiontypes:
         - long_slowness
       '50':
         material: SPLASH_POTION
-        buy: 2929
-        sell: 733
+        buy: 1125
+        sell: 281
         potiontypes:
         - long_strength
       '51':
         material: SPLASH_POTION
-        buy: 2629
-        sell: 658
+        buy: 750
+        sell: 188
         potiontypes:
         - long_swiftness
       '52':
         material: SPLASH_POTION
-        buy: 3331
-        sell: 833
+        buy: 1125
+        sell: 281
         potiontypes:
         - long_water_breathing
       '53':
         material: SPLASH_POTION
-        buy: 3376
-        sell: 844
+        buy: 500
+        sell: 125
         potiontypes:
         - long_weakness
       '54':
         material: SPLASH_POTION
-        buy: 7375
-        sell: 1844
+        buy: 750
+        sell: 188
         potiontypes:
         - strong_harming
       '55':
         material: SPLASH_POTION
-        buy: 8607
-        sell: 2152
+        buy: 1000
+        sell: 250
         potiontypes:
         - strong_healing
       '56':
         material: SPLASH_POTION
-        buy: 267680
-        sell: 6692
+        buy: 875
+        sell: 219
         potiontypes:
         - strong_leaping
       '57':
         material: SPLASH_POTION
-        buy: 6164
-        sell: 1541
+        buy: 875
+        sell: 219
         potiontypes:
         - strong_poison
       '58':
         material: SPLASH_POTION
-        buy: 100940
-        sell: 2524
+        buy: 1875
+        sell: 469
         potiontypes:
         - strong_regeneration
       '59':
         material: SPLASH_POTION
-        buy: 5643
-        sell: 1411
+        buy: 1250
+        sell: 313
         potiontypes:
         - strong_strength
       '60':
         material: SPLASH_POTION
-        buy: 5343
-        sell: 1336
+        buy: 875
+        sell: 219
         potiontypes:
         - strong_swiftness
       '61':
         material: LINGERING_POTION
-        buy: 147310
-        sell: 3683
+        buy: 750
+        sell: 188
         potiontypes:
         - fire_resistance
       '62':
         material: LINGERING_POTION
-        buy: 158220
-        sell: 3956
+        buy: 450
+        sell: 113
         potiontypes:
         - harming
       '63':
         material: LINGERING_POTION
-        buy: 170540
-        sell: 4264
+        buy: 600
+        sell: 150
         potiontypes:
         - healing
       '64':
         material: LINGERING_POTION
-        buy: 189420
-        sell: 4736
+        buy: 1200
+        sell: 300
         potiontypes:
         - invisibility
       '65':
         material: LINGERING_POTION
-        buy: 352150
-        sell: 8804
+        buy: 600
+        sell: 150
         potiontypes:
         - leaping
       '66':
         material: LINGERING_POTION
-        buy: 175540
-        sell: 4389
+        buy: 750
+        sell: 188
         potiontypes:
         - night_vision
       '67':
         material: LINGERING_POTION
-        buy: 146110
-        sell: 3653
+        buy: 600
+        sell: 150
         potiontypes:
         - poison
       '68':
         material: LINGERING_POTION
-        buy: 185410
-        sell: 4636
+        buy: 1200
+        sell: 300
         potiontypes:
         - regeneration
       '69':
         material: LINGERING_POTION
-        buy: 149520
-        sell: 3738
+        buy: 450
+        sell: 113
         potiontypes:
         - slowness
       '70':
         material: LINGERING_POTION
-        buy: 140900
-        sell: 3523
+        buy: 900
+        sell: 225
         potiontypes:
         - strength
       '71':
         material: LINGERING_POTION
-        buy: 137900
-        sell: 3448
+        buy: 600
+        sell: 150
         potiontypes:
         - swiftness
       '72':
         material: LINGERING_POTION
-        buy: 144920
-        sell: 3623
+        buy: 900
+        sell: 225
         potiontypes:
         - water_breathing
       '73':
         material: LINGERING_POTION
-        buy: 145370
-        sell: 3635
+        buy: 450
+        sell: 113
         potiontypes:
         - weakness
       '74':
         material: LINGERING_POTION
-        buy: 154360
-        sell: 3859
+        buy: 1050
+        sell: 263
         potiontypes:
         - long_fire_resistance
       '75':
         material: LINGERING_POTION
-        buy: 199000
-        sell: 4975
+        buy: 1800
+        sell: 450
         potiontypes:
         - long_invisibility
       '76':
         material: LINGERING_POTION
-        buy: 184290
-        sell: 4608
+        buy: 1050
+        sell: 263
         potiontypes:
         - long_night_vision
       '77':
         material: LINGERING_POTION
-        buy: 153090
-        sell: 3828
+        buy: 900
+        sell: 225
         potiontypes:
         - long_poison
       '78':
         material: LINGERING_POTION
-        buy: 194750
-        sell: 4869
+        buy: 1800
+        sell: 450
         potiontypes:
         - long_regeneration
       '79':
         material: LINGERING_POTION
-        buy: 156710
-        sell: 3918
+        buy: 600
+        sell: 150
         potiontypes:
         - long_slowness
       '80':
         material: LINGERING_POTION
-        buy: 147570
-        sell: 3690
+        buy: 1350
+        sell: 338
         potiontypes:
         - long_strength
       '81':
         material: LINGERING_POTION
-        buy: 144390
-        sell: 3610
+        buy: 900
+        sell: 225
         potiontypes:
         - long_swiftness
       '82':
         material: LINGERING_POTION
-        buy: 151830
-        sell: 3796
+        buy: 1350
+        sell: 338
         potiontypes:
         - long_water_breathing
       '83':
         material: LINGERING_POTION
-        buy: 152310
-        sell: 3808
+        buy: 600
+        sell: 150
         potiontypes:
         - long_weakness
       '84':
         material: LINGERING_POTION
-        buy: 194700
-        sell: 4868
+        buy: 900
+        sell: 225
         potiontypes:
         - strong_harming
       '85':
         material: LINGERING_POTION
-        buy: 207750
-        sell: 5194
+        buy: 1200
+        sell: 300
         potiontypes:
         - strong_healing
       '86':
         material: LINGERING_POTION
-        buy: 400260
-        sell: 100070
+        buy: 1050
+        sell: 263
         potiontypes:
         - strong_leaping
       '87':
         material: LINGERING_POTION
-        buy: 181850
-        sell: 4547
+        buy: 1050
+        sell: 263
         potiontypes:
         - strong_poison
       '88':
         material: LINGERING_POTION
-        buy: 223520
-        sell: 5588
+        buy: 2250
+        sell: 563
         potiontypes:
         - strong_regeneration
       '89':
         material: LINGERING_POTION
-        buy: 176330
-        sell: 4409
+        buy: 1500
+        sell: 375
         potiontypes:
         - strong_strength
       '90':
         material: LINGERING_POTION
-        buy: 173150
-        sell: 4329
+        buy: 1050
+        sell: 263
         potiontypes:
         - strong_swiftness
   page3:
     items:
       '91':
         material: TIPPED_ARROW
-        buy: 2170
-        sell: 543
+        buy: 500
+        sell: 125
         potiontypes:
         - fire_resistance
       '92':
         material: TIPPED_ARROW
-        buy: 2314
-        sell: 579
+        buy: 300
+        sell: 75
         potiontypes:
         - harming
       '93':
         material: TIPPED_ARROW
-        buy: 2475
-        sell: 619
+        buy: 400
+        sell: 100
         potiontypes:
         - healing
       '94':
         material: TIPPED_ARROW
-        buy: 2723
-        sell: 681
+        buy: 800
+        sell: 200
         potiontypes:
         - invisibility
       '95':
         material: TIPPED_ARROW
-        buy: 4859
-        sell: 1215
+        buy: 400
+        sell: 100
         potiontypes:
         - leaping
       '96':
         material: TIPPED_ARROW
-        buy: 2263
-        sell: 566
+        buy: 700
+        sell: 175
         potiontypes:
         - long_fire_resistance
       '97':
         material: TIPPED_ARROW
-        buy: 2849
-        sell: 713
+        buy: 1200
+        sell: 300
         potiontypes:
         - long_invisibility
       '98':
         material: TIPPED_ARROW
-        buy: 2656
-        sell: 664
+        buy: 700
+        sell: 175
         potiontypes:
         - long_night_vision
       '99':
         material: TIPPED_ARROW
-        buy: 2246
-        sell: 562
+        buy: 600
+        sell: 150
         potiontypes:
         - long_poison
       '100':
         material: TIPPED_ARROW
-        buy: 2793
-        sell: 699
+        buy: 1200
+        sell: 300
         potiontypes:
         - long_regeneration
       '101':
         material: TIPPED_ARROW
-        buy: 2294
-        sell: 574
+        buy: 400
+        sell: 100
         potiontypes:
         - long_slowness
       '102':
         material: TIPPED_ARROW
-        buy: 2174
-        sell: 544
+        buy: 900
+        sell: 225
         potiontypes:
         - long_strength
       '103':
         material: TIPPED_ARROW
-        buy: 2132
-        sell: 533
+        buy: 600
+        sell: 150
         potiontypes:
         - long_swiftness
       '104':
         material: TIPPED_ARROW
-        buy: 2230
-        sell: 558
+        buy: 900
+        sell: 225
         potiontypes:
         - long_water_breathing
       '105':
         material: TIPPED_ARROW
-        buy: 2236
-        sell: 559
+        buy: 400
+        sell: 100
         potiontypes:
         - long_weakness
       '106':
         material: TIPPED_ARROW
-        buy: 2541
-        sell: 636
+        buy: 500
+        sell: 125
         potiontypes:
         - night_vision
       '107':
         material: TIPPED_ARROW
-        buy: 2155
-        sell: 539
+        buy: 400
+        sell: 100
         potiontypes:
         - poison
       '108':
         material: TIPPED_ARROW
-        buy: 2670
-        sell: 668
+        buy: 800
+        sell: 200
         potiontypes:
         - regeneration
       '109':
         material: TIPPED_ARROW
-        buy: 2199
-        sell: 550
+        buy: 300
+        sell: 75
         potiontypes:
         - slowness
       '110':
         material: TIPPED_ARROW
-        buy: 2086
-        sell: 522
+        buy: 600
+        sell: 150
         potiontypes:
         - strength
       '111':
         material: TIPPED_ARROW
-        buy: 2792
-        sell: 698
+        buy: 600
+        sell: 150
         potiontypes:
         - strong_harming
       '112':
         material: TIPPED_ARROW
-        buy: 2964
-        sell: 741
+        buy: 800
+        sell: 200
         potiontypes:
         - strong_healing
       '113':
         material: TIPPED_ARROW
-        buy: 5490
-        sell: 1373
+        buy: 700
+        sell: 175
         potiontypes:
         - strong_leaping
       '114':
         material: TIPPED_ARROW
-        buy: 2624
-        sell: 656
+        buy: 700
+        sell: 175
         potiontypes:
         - strong_poison
       '115':
         material: TIPPED_ARROW
-        buy: 3171
-        sell: 793
+        buy: 1500
+        sell: 375
         potiontypes:
         - strong_regeneration
       '116':
         material: TIPPED_ARROW
-        buy: 2551
-        sell: 638
+        buy: 1000
+        sell: 250
         potiontypes:
         - strong_strength
       '117':
         material: TIPPED_ARROW
-        buy: 2509
-        sell: 628
+        buy: 700
+        sell: 175
         potiontypes:
         - strong_swiftness
       '118':
         material: TIPPED_ARROW
-        buy: 2047
-        sell: 512
+        buy: 400
+        sell: 100
         potiontypes:
         - swiftness
       '119':
         material: TIPPED_ARROW
-        buy: 2139
-        sell: 535
+        buy: 600
+        sell: 150
         potiontypes:
         - water_breathing
       '120':
         material: TIPPED_ARROW
-        buy: 2145
-        sell: 537
+        buy: 300
+        sell: 75
         potiontypes:
         - weakness

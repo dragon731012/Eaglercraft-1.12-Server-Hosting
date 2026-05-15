@@ -40,7 +40,7 @@ global-broadcasts:
 # -- 'follow-stack' Should Clearlag keep printing the stacktrace every time it changes (Can be very spammy)?
 # Help-> https://dev.bukkit.org/projects/clearlagg/pages/finding-the-cause-of-lag-spikes
 lag-spike-helper:
-  enabled: false
+  enabled: true
   min-elapsed-time: 500
   check-interval: 100
   follow-stack: true
@@ -60,7 +60,7 @@ hopper-limiter:
 # -- 'interval' is how often clearlag will check your ram usage
 # -- 'commands' lists the commands that will be ran upon hitting your ram-limit
 ram-meter:
-  enabled: false
+  enabled: true
   interval: 20
   ram-limit: 5000
   commands:
@@ -140,12 +140,11 @@ mob-breeding-limiter:
 #Should clearlag purge logs under /logs when the server starts?
 # -- 'days-old' means how many days old can the log be to be deleted
 log-purger:
-  enabled: false
+  enabled: true
   days-old: 3
 
 #What type of entities SHOULD NOT be removed while doing /lagg area?
 area-filter:
-    - Itemframe
     - Minecart
     - Wolf
     - Villager
@@ -187,7 +186,7 @@ mob-range:
 #How long should items/Mobs be left on the ground
 # -- live-time's go by ticks (20 ticks a second)
 live-time:
-  enabled: false
+  enabled: true
   interval: 10
   mobtimer: true
   itemtimer: true
@@ -294,10 +293,10 @@ spawn-limiter:
 # -- 'recover-broadcast-message' specifies which message should be broadcasted when TPS recovers
 # -- 'broadcast-enabled' defines whether or not tps-meter should broadcast
 tps-meter:
-  enabled: false
+  enabled: true
   trigger-broadcast-message: '&6[ClearLag] &cThe server is overloaded, executing lag-perventing measures'
   recover-broadcast-message: '&6[ClearLag] &aThe server is no longer overloaded!'
-  broadcast-enabled: false
+  broadcast-enabled: true
   interval: 15
   tps-trigger: 14.0
   tps-recover: 19.0

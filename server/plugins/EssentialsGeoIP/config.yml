@@ -1,0 +1,18 @@
+database:
+  show-cities: false
+  download-if-missing: true
+  # Url for country
+  download-url: "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key={LICENSEKEY}&suffix=tar.gz"
+  # Url for cities
+  download-url-city: "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key={LICENSEKEY}&suffix=tar.gz"
+  # License key for downloads
+  license-key: ""
+  update:
+    enable: true
+    by-every-x-days: 30
+show-on-login: true
+show-on-whois: true
+# "enable-locale" enables locale on geolocation display.
+# Language is determined by Essentials/config.yml "locale" section.
+# Not all languages are supported. See https://dev.maxmind.com/geoip/geoip2/web-services/#Languages
+enable-locale: true

@@ -3,61 +3,61 @@ pages:
     items:
       '1':
         material: FLOWER_POT
-        buy: 6946
-        sell: 1737
+        buy: 20
+        sell: 5
       '2':
         material: JACK_O_LANTERN
-        buy: 1120
-        sell: 280
+        buy: 30
+        sell: 8
       '3':
         material: ACACIA_LEAVES
-        buy: 300
-        sell: 75
+        buy: 10
+        sell: 3
       '4':
         material: BIRCH_LEAVES
-        buy: 300
-        sell: 75
+        buy: 10
+        sell: 3
       '5':
         material: DARK_OAK_LEAVES
-        buy: 300
-        sell: 75
+        buy: 10
+        sell: 3
       '6':
         material: JUNGLE_LEAVES
-        buy: 300
-        sell: 75
+        buy: 10
+        sell: 3
       '7':
         material: OAK_LEAVES
-        buy: 300
-        sell: 75
+        buy: 10
+        sell: 3
       '8':
         material: SPRUCE_LEAVES
-        buy: 300
-        sell: 75
+        buy: 10
+        sell: 3
       '9':
         material: ACACIA_SAPLING
-        buy: 300
-        sell: 75
+        buy: 12
+        sell: 3
       '10':
         material: BIRCH_SAPLING
-        buy: 300
-        sell: 75
+        buy: 10
+        sell: 3
       '11':
         material: DARK_OAK_SAPLING
-        buy: 300
-        sell: 75
+        buy: 12
+        sell: 3
       '12':
         material: JUNGLE_SAPLING
-        buy: 300
-        sell: 75
+        buy: 15
+        sell: 4
       '13':
         material: OAK_SAPLING
-        buy: 300
-        sell: 75
+        buy: 10
+        sell: 3
       '14':
         material: SPRUCE_SAPLING
-        buy: 300
-        sell: 75
+        buy: 10
+        sell: 3
       '15':
         material: VINE
-        buy: 700
-        sell: 175
+        buy: 20
+        sell: 5

@@ -3,44 +3,44 @@ pages:
     items:
       '1':
         material: CAULDRON
-        buy: 110250
-        sell: 2757
+        buy: 150
+        sell: 38
       '2':
         material: DAYLIGHT_DETECTOR
-        buy: 125860
-        sell: 3147
+        buy: 200
+        sell: 50
       '3':
         material: DISPENSER
-        buy: 3558
-        sell: 890
+        buy: 200
+        sell: 50
       '4':
         material: DROPPER
-        buy: 1052
-        sell: 263
+        buy: 100
+        sell: 25
       '5':
         material: HOPPER
-        buy: 119980
-        sell: 3000
+        buy: 500
+        sell: 125
       '6':
         material: IRON_DOOR
         buy: 2205
         sell: 552
       '7':
         material: JUKEBOX
-        buy: 229770
-        sell: 5745
+        buy: 200
+        sell: 50
       '8':
         material: LEVER
-        buy: 133
-        sell: 34
+        buy: 20
+        sell: 5
       '9':
         material: NOTE_BLOCK
-        buy: 1478
-        sell: 370
+        buy: 100
+        sell: 25
       '10':
         material: OBSERVER
-        buy: 5004
-        sell: 1251
+        buy: 100
+        sell: 25
       '11':
         material: REDSTONE_LAMP
         buy: 5292
@@ -51,52 +51,52 @@ pages:
         sell: 154
       '13':
         material: TRIPWIRE_HOOK
-        buy: 1191
-        sell: 298
+        buy: 30
+        sell: 8
       '14':
         material: COMPARATOR
-        buy: 5626
-        sell: 1407
+        buy: 100
+        sell: 25
       '15':
         material: REPEATER
-        buy: 2062
-        sell: 516
+        buy: 50
+        sell: 13
       '16':
         material: OAK_BUTTON
-        buy: 116
-        sell: 29
+        buy: 10
+        sell: 3
       '17':
         material: STONE_BUTTON
-        buy: 75
-        sell: 19
+        buy: 15
+        sell: 4
       '18':
         material: PISTON
-        buy: 3390
-        sell: 848
+        buy: 100
+        sell: 25
       '19':
         material: STICKY_PISTON
-        buy: 4084
-        sell: 1021
-      '20':
-        material: OAK_PRESSURE_PLATE
-        buy: 232
-        sell: 58
-      '21':
-        material: STONE_PRESSURE_PLATE
         buy: 150
         sell: 38
+      '20':
+        material: OAK_PRESSURE_PLATE
+        buy: 15
+        sell: 4
+      '21':
+        material: STONE_PRESSURE_PLATE
+        buy: 20
+        sell: 5
       '22':
         material: LIGHT_WEIGHTED_PRESSURE_PLATE
-        buy: 6615
-        sell: 1654
+        buy: 100
+        sell: 25
       '23':
         material: HEAVY_WEIGHTED_PRESSURE_PLATE
-        buy: 4410
-        sell: 1103
+        buy: 200
+        sell: 50
       '24':
         material: OAK_TRAPDOOR
-        buy: 348
-        sell: 87
+        buy: 20
+        sell: 5
       '25':
         material: IRON_TRAPDOOR
         buy: 8820

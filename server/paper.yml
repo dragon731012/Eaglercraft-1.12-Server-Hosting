@@ -171,10 +171,10 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 1
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    mob-spawner-tick-rate: 1
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.2
     allow-leashing-undead-horse: true
+    mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: true
     squid-spawn-height:
       maximum: 0.0

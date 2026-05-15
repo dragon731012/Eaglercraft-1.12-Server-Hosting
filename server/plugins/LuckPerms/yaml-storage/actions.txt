@@ -14,3 +14,22 @@
 {"timestamp":1778708467,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.self.e true"}
 {"timestamp":1778708477,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.other.e true"}
 {"timestamp":1778708590,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set pit.join true server=true server=default server=permission server=set server=pit.leave server=true/lp world=group"}
+{"timestamp":1778715958,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"create"}
+{"timestamp":1778715967,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"parent add default"}
+{"timestamp":1778715981,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set essentials.gamemode true"}
+{"timestamp":1778715987,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set essentials.gamemode.* true"}
+{"timestamp":1778715997,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set essentials.tp true"}
+{"timestamp":1778716010,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set essentials.tphere true"}
+{"timestamp":1778716024,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set essentials.kick true"}
+{"timestamp":1778716031,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set essentials.mute true"}
+{"timestamp":1778716041,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set essentials.ban true"}
+{"timestamp":1778716049,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set multiverse.core.* true"}
+{"timestamp":1778716056,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set worldedit.* true"}
+{"timestamp":1778716064,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set minecraft.command.kill false"}
+{"timestamp":1778716073,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set essentials.kill false"}
+{"timestamp":1778716080,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set essentials.kill.* false"}
+{"timestamp":1778716088,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"admin"},"description":"permission set kill.* false"}
+{"timestamp":1778716100,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"god"},"description":"create"}
+{"timestamp":1778716110,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"god"},"description":"parent add admin"}
+{"timestamp":1778716119,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"god"},"description":"permission set * true"}
+{"timestamp":1778716128,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"USER","uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"description":"parent set god"}

@@ -4,8 +4,8 @@
 #Specify the World Name.
 world: oneblock
 #The Cordinates where the postion of your First OneBlock is set.
-x: 0.0
-y: 65.0
+x: 1000.0
+y: 66.0
 z: 0.0
 #This is the place where a player gets tp-ed when they execute /ob leave
 leaveworld: world

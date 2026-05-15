@@ -1063,10 +1063,10 @@ protect:
     flint-fire: false
     lightning-fire-spread: true
     portal-creation: false
-    tnt-explosion: false
+    tnt-explosion: true
     tnt-playerdamage: false
     tnt-itemdamage: false
-    tnt-minecart-explosion: false
+    tnt-minecart-explosion: true
     tnt-minecart-playerdamage: false
     tnt-minecart-itemdamage: false
     fireball-explosion: false
@@ -1078,11 +1078,11 @@ protect:
     witherskull-playerdamage: false
     witherskull-itemdamage: false
     wither-spawnexplosion: false
-    wither-blockreplace: false
-    creeper-explosion: false
+    wither-blockreplace: true
+    creeper-explosion: true
     creeper-playerdamage: false
     creeper-itemdamage: false
-    creeper-blockdamage: false
+    creeper-blockdamage: true
     ender-crystal-explosion: false
     enderdragon-blockdamage: true
     enderman-pickup: false

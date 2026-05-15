@@ -87,7 +87,7 @@ physics:
     disable-water-damage-blocks: []
 ignition:
     block-tnt: false
-    block-tnt-block-damage: false
+    block-tnt-block-damage: true
     block-lighter: false
 fire:
     disable-lava-fire-spread: true

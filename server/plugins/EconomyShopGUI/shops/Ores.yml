@@ -59,9 +59,9 @@ pages:
         sell: 100
       '15':
         material: REDSTONE
-        buy: 30
-        sell: 8
+        buy: 0.25
+        sell: 0.1
       '16':
         material: REDSTONE_BLOCK
-        buy: 270
-        sell: 68
+        buy: 2.25
+        sell: 0.9

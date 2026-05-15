@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778872333297
+  login: 1778872322465
+money: '0'
+last-account-name: zombiemaster76
+lastlocation:
+  world: 54d1c7be-4464-4485-9417-78b3a61a4c06
+  world-name: hub
+  x: 73.59580284921712
+  y: 83.0
+  z: 75.72148879645303
+  yaw: -3.4499940872192383
+  pitch: 73.80001831054688
+logoutlocation:
+  world: 54d1c7be-4464-4485-9417-78b3a61a4c06
+  world-name: hub
+  x: 73.5
+  y: 83.0
+  z: 75.5
+  yaw: 0.15000595152378082
+  pitch: 59.550018310546875

@@ -67,11 +67,11 @@ world-settings:
       disable-mesa-additional-gold: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
-    portal-search-radius: 128
+    delay-chunk-unloads-by: 10s
     queue-light-updates: false
+    portal-search-radius: 128
     optimize-explosions: false
     use-chunk-inhabited-timer: true
-    delay-chunk-unloads-by: 10s
     max-auto-save-chunks-per-tick: 24
     save-queue-limit-for-auto-save: 50
     remove-corrupt-tile-entities: false
@@ -137,8 +137,8 @@ world-settings:
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 10
-    non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: true
+    non-player-arrow-despawn-rate: -1
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
@@ -171,9 +171,9 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 1
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    allow-leashing-undead-horse: true
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.2
+    allow-leashing-undead-horse: true
     mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: true
     squid-spawn-height:

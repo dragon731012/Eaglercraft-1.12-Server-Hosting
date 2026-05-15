@@ -1,6 +1,6 @@
 name: default
 permissions:
-- pit.join:
+- pit.join.PIT
     value: true
     context:
       server:

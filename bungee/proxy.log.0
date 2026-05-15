@@ -17836,3 +17836,434 @@ io.netty.handler.timeout.ReadTimeoutException
 03:58:42 [INFO] [EaglercraftXBungee] Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
 03:58:42 [INFO] [EaglercraftXBungee] Stopping skin cache HTTP client...
 03:58:44 [INFO] Closing IO threads
+04:02:14 [INFO] Using mbed TLS based native cipher.
+04:02:14 [INFO] Using zlib based native compressor.
+04:02:14 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+04:02:14 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+04:02:14 [INFO] Epoll is working, utilising it!
+04:02:14 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+04:02:14 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+04:02:14 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+04:02:14 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+04:02:14 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+04:02:14 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+04:02:14 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:14 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:14 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:14 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:14 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:14 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:14 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+04:02:14 [WARNING] :>  
+04:02:14 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+04:02:14 [WARNING] :>  
+04:02:14 [WARNING] :>  This plugin wasn't tested to be 'working'
+04:02:14 [WARNING] :>  with ANY version of BungeeCord (and forks)
+04:02:14 [WARNING] :>  apart from the versions listed below:
+04:02:14 [WARNING] :>  
+04:02:14 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+04:02:14 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+04:02:14 [WARNING] :>  
+04:02:14 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+04:02:14 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+04:02:14 [WARNING] :>  
+04:02:14 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+04:02:14 [WARNING] :>  
+04:02:14 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+04:02:14 [WARNING] :>  
+04:02:14 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+04:02:14 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+04:02:14 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+04:02:14 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+04:02:15 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+04:02:15 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:15 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:15 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:15 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:15 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:15 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+04:02:15 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+04:02:15 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:5000
+04:02:15 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+04:02:15 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+04:02:15 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+04:02:15 [INFO] Listening on /0.0.0.0:25577
+04:02:15 [INFO] [EaglercraftXBungee] Loaded certificate: /home/runner/workspace/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+12:55:58 [INFO] Using mbed TLS based native cipher.
+12:55:58 [INFO] Using zlib based native compressor.
+12:55:58 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+12:55:59 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+12:55:59 [INFO] Epoll is working, utilising it!
+12:55:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+12:55:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+12:55:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+12:55:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+12:55:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+12:55:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:55:59 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:55:59 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:55:59 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:55:59 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:55:59 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:55:59 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:55:59 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:55:59 [WARNING] :>  
+12:55:59 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+12:55:59 [WARNING] :>  
+12:55:59 [WARNING] :>  This plugin wasn't tested to be 'working'
+12:55:59 [WARNING] :>  with ANY version of BungeeCord (and forks)
+12:55:59 [WARNING] :>  apart from the versions listed below:
+12:55:59 [WARNING] :>  
+12:55:59 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+12:55:59 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+12:55:59 [WARNING] :>  
+12:55:59 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+12:55:59 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+12:55:59 [WARNING] :>  
+12:55:59 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+12:55:59 [WARNING] :>  
+12:55:59 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+12:55:59 [WARNING] :>  
+12:55:59 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+12:55:59 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+12:56:00 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+12:56:00 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+12:56:00 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+12:56:00 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:56:00 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:56:00 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:56:00 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:56:00 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:56:00 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+12:56:00 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+12:56:01 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:5000
+12:56:01 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+12:56:01 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+12:56:01 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+12:56:01 [INFO] Listening on /0.0.0.0:25577
+12:56:01 [INFO] [EaglercraftXBungee] Loaded certificate: /home/runner/workspace/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+12:56:07 [INFO] [EaglercraftXBungee] [/172.31.73.2:38174]: Connected via websocket
+12:56:07 [INFO] [EaglercraftXBungee] [/172.31.73.2:38174]: Origin header is null
+12:56:07 [INFO] [EaglercraftXBungee] [/172.31.73.2:38174]: Logged in as 'VOID'
+12:56:07 [INFO] [VOID] -> UpstreamBridge has connected
+12:56:07 [INFO] [VOID] <-> ServerConnector [lobby] has connected
+13:22:17 [INFO] [VOID] -> UpstreamBridge has disconnected
+13:22:17 [INFO] [VOID] <-> DownstreamBridge <-> [lobby] has disconnected
+16:29:46 [INFO] Using mbed TLS based native cipher.
+16:29:46 [INFO] Using zlib based native compressor.
+16:29:46 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+16:29:46 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+16:29:46 [INFO] Epoll is working, utilising it!
+16:29:46 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+16:29:46 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+16:29:46 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+16:29:46 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+16:29:46 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+16:29:46 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:29:47 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+16:29:47 [WARNING] :>  
+16:29:47 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+16:29:47 [WARNING] :>  
+16:29:47 [WARNING] :>  This plugin wasn't tested to be 'working'
+16:29:47 [WARNING] :>  with ANY version of BungeeCord (and forks)
+16:29:47 [WARNING] :>  apart from the versions listed below:
+16:29:47 [WARNING] :>  
+16:29:47 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+16:29:47 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+16:29:47 [WARNING] :>  
+16:29:47 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+16:29:47 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+16:29:47 [WARNING] :>  
+16:29:47 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+16:29:47 [WARNING] :>  
+16:29:47 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+16:29:47 [WARNING] :>  
+16:29:47 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+16:29:47 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+16:29:47 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+16:29:47 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+16:29:47 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+16:29:47 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+16:29:47 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+16:29:47 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:5000
+16:29:47 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+16:29:48 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+16:29:48 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+16:29:48 [INFO] Listening on /0.0.0.0:25577
+16:29:48 [INFO] [EaglercraftXBungee] Loaded certificate: /home/runner/workspace/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+16:30:06 [INFO] [EaglercraftXBungee] [/172.31.76.2:37552]: Connected via websocket
+16:30:06 [INFO] [EaglercraftXBungee] [/172.31.76.2:37552]: Origin header is null
+16:30:06 [INFO] [EaglercraftXBungee] [/172.31.76.2:37552]: Logged in as 'VOID'
+16:30:06 [INFO] [VOID] -> UpstreamBridge has connected
+16:30:06 [INFO] [VOID] <-> ServerConnector [lobby] has connected
+16:38:22 [INFO] [VOID] -> UpstreamBridge has disconnected
+16:38:22 [INFO] [VOID] <-> DownstreamBridge <-> [lobby] has disconnected
+16:42:04 [INFO] [EaglercraftXBungee] [/172.31.76.2:52320]: Connected via websocket
+16:42:04 [INFO] [EaglercraftXBungee] [/172.31.76.2:52320]: Origin header is null
+16:42:04 [INFO] [EaglercraftXBungee] [/172.31.76.2:52320]: Logged in as 'VOID'
+16:42:04 [INFO] [VOID] -> UpstreamBridge has connected
+16:42:04 [INFO] [VOID] <-> ServerConnector [lobby] has connected
+16:42:12 [INFO] [VOID] disconnected with: §f§c TRY AGAIN!!!
+16:42:12 [INFO] [VOID] -> UpstreamBridge has disconnected
+16:42:12 [INFO] [VOID] <-> DownstreamBridge <-> [lobby] has disconnected
+16:42:15 [INFO] [EaglercraftXBungee] [/172.31.76.2:57870]: Connected via websocket
+16:42:15 [INFO] [EaglercraftXBungee] [/172.31.76.2:57870]: Origin header is null
+16:42:15 [INFO] [EaglercraftXBungee] [/172.31.76.2:57870]: Logged in as 'VOID'
+16:42:15 [INFO] [VOID] -> UpstreamBridge has connected
+16:42:15 [INFO] [VOID] <-> ServerConnector [lobby] has connected
+16:56:29 [INFO] [EaglercraftXBungee] [/172.31.76.2:43008]: Connected via websocket
+16:56:29 [INFO] [EaglercraftXBungee] [/172.31.76.2:43008]: Origin header is null
+16:56:30 [INFO] [EaglercraftXBungee] [/172.31.76.2:43008]: Logged in as 'zombiemaster41'
+16:56:30 [INFO] [zombiemaster41] -> UpstreamBridge has connected
+16:56:30 [INFO] [zombiemaster41] <-> ServerConnector [lobby] has connected
+16:58:13 [INFO] [VOID] -> UpstreamBridge has disconnected
+16:58:13 [INFO] [VOID] <-> DownstreamBridge <-> [lobby] has disconnected
+16:58:45 [INFO] [zombiemaster41] -> UpstreamBridge has disconnected
+16:58:45 [INFO] [zombiemaster41] <-> DownstreamBridge <-> [lobby] has disconnected
+16:59:34 [INFO] [EaglercraftXBungee] [/172.31.76.2:40656]: Connected via websocket
+16:59:34 [INFO] [EaglercraftXBungee] [/172.31.76.2:40656]: Origin header is null
+16:59:34 [INFO] [EaglercraftXBungee] [/172.31.76.2:40656]: Logged in as 'VOID'
+16:59:34 [INFO] [VOID] -> UpstreamBridge has connected
+16:59:34 [INFO] [VOID] <-> ServerConnector [lobby] has connected
+17:00:18 [INFO] [EaglercraftXBungee] [/172.31.76.2:47794]: Connected via websocket
+17:00:18 [INFO] [EaglercraftXBungee] [/172.31.76.2:47794]: Origin header is null
+17:00:18 [INFO] [EaglercraftXBungee] [/172.31.76.2:47794]: Logged in as 'zombiemaster41'
+17:00:18 [INFO] [zombiemaster41] -> UpstreamBridge has connected
+17:00:18 [INFO] [zombiemaster41] <-> ServerConnector [lobby] has connected
+17:04:31 [INFO] [zombiemaster41] -> UpstreamBridge has disconnected
+17:04:31 [INFO] [zombiemaster41] <-> DownstreamBridge <-> [lobby] has disconnected
+17:04:32 [INFO] [EaglercraftXBungee] [/172.31.76.2:41716]: Connected via websocket
+17:04:32 [INFO] [EaglercraftXBungee] [/172.31.76.2:41716]: Origin header is null
+17:04:32 [INFO] [EaglercraftXBungee] [/172.31.76.2:41716]: Logged in as 'zombiemaster41'
+17:04:32 [INFO] [zombiemaster41] -> UpstreamBridge has connected
+17:04:32 [INFO] [zombiemaster41] <-> ServerConnector [lobby] has connected
+17:05:31 [INFO] [zombiemaster41] -> UpstreamBridge has disconnected
+17:05:31 [INFO] [zombiemaster41] <-> DownstreamBridge <-> [lobby] has disconnected
+17:05:41 [INFO] [EaglercraftXBungee] [/172.31.76.2:45742]: Connected via websocket
+17:05:41 [INFO] [EaglercraftXBungee] [/172.31.76.2:45742]: Origin header is null
+17:05:41 [INFO] [EaglercraftXBungee] [/172.31.76.2:45742]: Logged in as 'zombiemaster67'
+17:05:41 [INFO] [zombiemaster67] -> UpstreamBridge has connected
+17:05:41 [INFO] [zombiemaster67] <-> ServerConnector [lobby] has connected
+17:14:50 [INFO] [zombiemaster67] -> UpstreamBridge has disconnected
+17:14:50 [INFO] [zombiemaster67] <-> DownstreamBridge <-> [lobby] has disconnected
+18:56:16 [INFO] [VOID] -> UpstreamBridge has disconnected
+18:56:16 [INFO] [VOID] <-> DownstreamBridge <-> [lobby] has disconnected
+18:59:28 [INFO] [EaglercraftXBungee] [/172.31.76.2:51726]: Connected via websocket
+18:59:28 [INFO] [EaglercraftXBungee] [/172.31.76.2:51726]: Origin header is null
+18:59:28 [INFO] [EaglercraftXBungee] [/172.31.76.2:51726]: Logged in as 'VOID'
+18:59:28 [INFO] [VOID] -> UpstreamBridge has connected
+18:59:28 [INFO] [VOID] <-> ServerConnector [lobby] has connected
+19:10:59 [INFO] Using mbed TLS based native cipher.
+19:10:59 [INFO] Using zlib based native compressor.
+19:10:59 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+19:10:59 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+19:10:59 [INFO] Epoll is working, utilising it!
+19:10:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+19:10:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+19:10:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+19:10:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+19:10:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+19:10:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+19:10:59 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:10:59 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:10:59 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:10:59 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:10:59 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:10:59 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:10:59 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+19:10:59 [WARNING] :>  
+19:10:59 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+19:10:59 [WARNING] :>  
+19:10:59 [WARNING] :>  This plugin wasn't tested to be 'working'
+19:10:59 [WARNING] :>  with ANY version of BungeeCord (and forks)
+19:10:59 [WARNING] :>  apart from the versions listed below:
+19:10:59 [WARNING] :>  
+19:10:59 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+19:10:59 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+19:10:59 [WARNING] :>  
+19:10:59 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+19:10:59 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+19:10:59 [WARNING] :>  
+19:10:59 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+19:10:59 [WARNING] :>  
+19:10:59 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+19:10:59 [WARNING] :>  
+19:10:59 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+19:10:59 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+19:11:00 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+19:11:00 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+19:11:00 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+19:11:00 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:11:00 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:11:00 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:11:00 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:11:00 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:11:00 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:11:00 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+19:11:00 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:5000
+19:11:00 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+19:11:00 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+19:11:00 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+19:11:00 [INFO] Listening on /0.0.0.0:25577
+19:11:01 [INFO] [EaglercraftXBungee] Loaded certificate: /home/runner/workspace/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+19:11:30 [INFO] [EaglercraftXBungee] [/172.31.100.226:44010]: Connected via websocket
+19:11:30 [INFO] [EaglercraftXBungee] [/172.31.100.226:44010]: Origin header is null
+19:11:30 [INFO] [EaglercraftXBungee] [/172.31.100.226:44010]: Logged in as 'VOID'
+19:11:30 [INFO] [VOID] -> UpstreamBridge has connected
+19:11:30 [INFO] [VOID] <-> ServerConnector [lobby] has connected
+19:12:02 [INFO] [EaglercraftXBungee] [/172.31.100.226:52134]: Connected via websocket
+19:12:02 [INFO] [EaglercraftXBungee] [/172.31.100.226:52134]: Origin header is null
+19:12:02 [INFO] [EaglercraftXBungee] [/172.31.100.226:52134]: Logged in as 'zombiemaster76'
+19:12:02 [INFO] [zombiemaster76] -> UpstreamBridge has connected
+19:12:02 [INFO] [zombiemaster76] <-> ServerConnector [lobby] has connected
+19:12:13 [INFO] [zombiemaster76] -> UpstreamBridge has disconnected
+19:12:13 [INFO] [zombiemaster76] <-> DownstreamBridge <-> [lobby] has disconnected
+19:12:22 [INFO] [EaglercraftXBungee] [/172.31.100.226:45450]: Connected via websocket
+19:12:22 [INFO] [EaglercraftXBungee] [/172.31.100.226:45450]: Origin header is null
+19:12:22 [INFO] [EaglercraftXBungee] [/172.31.100.226:45450]: Logged in as 'zombiemaster67'
+19:12:22 [INFO] [zombiemaster67] -> UpstreamBridge has connected
+19:12:22 [INFO] [zombiemaster67] <-> ServerConnector [lobby] has connected
+19:14:41 [INFO] [zombiemaster67] -> UpstreamBridge has disconnected
+19:14:41 [INFO] [zombiemaster67] <-> DownstreamBridge <-> [lobby] has disconnected
+19:29:31 [INFO] [VOID] -> UpstreamBridge has disconnected
+19:29:31 [INFO] [VOID] <-> DownstreamBridge <-> [lobby] has disconnected
+19:48:53 [INFO] Using mbed TLS based native cipher.
+19:48:53 [INFO] Using zlib based native compressor.
+19:48:53 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+19:48:53 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+19:48:53 [INFO] Epoll is working, utilising it!
+19:48:53 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+19:48:53 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+19:48:53 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+19:48:53 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+19:48:53 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+19:48:53 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+19:48:53 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:53 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:53 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:53 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:53 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:53 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:53 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+19:48:53 [WARNING] :>  
+19:48:53 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+19:48:53 [WARNING] :>  
+19:48:53 [WARNING] :>  This plugin wasn't tested to be 'working'
+19:48:53 [WARNING] :>  with ANY version of BungeeCord (and forks)
+19:48:53 [WARNING] :>  apart from the versions listed below:
+19:48:53 [WARNING] :>  
+19:48:53 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+19:48:53 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+19:48:53 [WARNING] :>  
+19:48:53 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+19:48:53 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+19:48:53 [WARNING] :>  
+19:48:53 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+19:48:53 [WARNING] :>  
+19:48:53 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+19:48:53 [WARNING] :>  
+19:48:53 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+19:48:53 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+19:48:54 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+19:48:54 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+19:48:54 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+19:48:54 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:54 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:54 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:54 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:54 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:54 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+19:48:54 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+19:48:54 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:5000
+19:48:54 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+19:48:54 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+19:48:54 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+19:48:54 [INFO] Listening on /0.0.0.0:25577
+19:48:54 [INFO] [EaglercraftXBungee] Loaded certificate: /home/runner/workspace/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+19:53:51 [INFO] [EaglercraftXBungee] [/172.31.68.162:41204]: Connected via websocket
+19:53:51 [INFO] [EaglercraftXBungee] [/172.31.68.162:41204]: Origin header is null
+19:53:51 [INFO] [EaglercraftXBungee] [/172.31.68.162:41204]: Logged in as 'VOID'
+19:53:51 [INFO] [VOID] -> UpstreamBridge has connected
+19:53:51 [INFO] [VOID] <-> ServerConnector [lobby] has connected
+19:54:23 [INFO] [VOID] disconnected with: §f§4Login timeout exceeded, you have been kicked from the server, please try again! LATER.
+19:54:23 [INFO] [VOID] -> UpstreamBridge has disconnected
+19:54:23 [INFO] [VOID] <-> DownstreamBridge <-> [lobby] has disconnected
+19:54:27 [INFO] [EaglercraftXBungee] [/172.31.68.162:48222]: Connected via websocket
+19:54:27 [INFO] [EaglercraftXBungee] [/172.31.68.162:48222]: Origin header is null
+19:54:27 [INFO] [EaglercraftXBungee] [/172.31.68.162:48222]: Logged in as 'VOID'
+19:54:27 [INFO] [VOID] -> UpstreamBridge has connected
+19:54:27 [INFO] [VOID] <-> ServerConnector [lobby] has connected
+19:55:00 [INFO] [VOID] -> UpstreamBridge has disconnected
+19:55:00 [INFO] [VOID] <-> DownstreamBridge <-> [lobby] has disconnected
+22:07:53 [INFO] Using mbed TLS based native cipher.
+22:07:53 [INFO] Using zlib based native compressor.
+22:07:53 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+22:07:53 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+22:07:53 [INFO] Epoll is working, utilising it!
+22:07:53 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+22:07:53 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+22:07:53 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+22:07:53 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+22:07:53 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+22:07:53 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:07:53 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:53 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:53 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:53 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:53 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:53 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:53 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+22:07:53 [WARNING] :>  
+22:07:53 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+22:07:53 [WARNING] :>  
+22:07:53 [WARNING] :>  This plugin wasn't tested to be 'working'
+22:07:53 [WARNING] :>  with ANY version of BungeeCord (and forks)
+22:07:53 [WARNING] :>  apart from the versions listed below:
+22:07:53 [WARNING] :>  
+22:07:53 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+22:07:53 [WARNING] :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+22:07:53 [WARNING] :>  
+22:07:53 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+22:07:53 [WARNING] :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+22:07:53 [WARNING] :>  
+22:07:53 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+22:07:53 [WARNING] :>  
+22:07:53 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+22:07:53 [WARNING] :>  
+22:07:53 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+22:07:54 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+22:07:54 [INFO] [EaglercraftXBungee] Loaded vanilla profile: lax1dude
+22:07:54 [INFO] Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+22:07:54 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+22:07:54 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:54 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:54 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:54 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:54 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:54 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+22:07:54 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+22:07:54 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:5000
+22:07:54 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+22:07:54 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+22:07:54 [INFO] Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+22:07:54 [INFO] Listening on /0.0.0.0:25577
+22:07:55 [INFO] [EaglercraftXBungee] Loaded certificate: /home/runner/workspace/bungee/plugins/EaglercraftXBungee/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+22:11:31 [INFO] Closing listener [id: 0x158fec59, L:/[0:0:0:0:0:0:0:0]:25577]
+22:11:31 [INFO] Closing pending connections
+22:11:31 [INFO] Disconnecting 0 connections
+22:11:31 [INFO] Disabling plugins
+22:11:31 [INFO] [EaglercraftXBungee] Eaglercraft listener closed: /0.0.0.0:5000
+22:11:31 [INFO] [EaglercraftXBungee] Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+22:11:31 [INFO] [EaglercraftXBungee] Stopping skin cache HTTP client...
+22:11:33 [INFO] Closing IO threads

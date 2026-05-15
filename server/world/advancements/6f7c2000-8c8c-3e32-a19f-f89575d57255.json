@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-05-15 18:49:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wooden_slab": {
     "criteria": {
       "has_planks": "2026-05-12 17:08:39 +0000"
@@ -317,6 +323,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-05-15 18:49:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_obsidian": "2026-05-08 17:19:00 +0000"
@@ -381,6 +393,7 @@
     "criteria": {
       "cooked_beef": "2026-05-14 17:29:15 +0000",
       "apple": "2026-05-14 14:28:28 +0000",
+      "potato": "2026-05-15 18:12:59 +0000",
       "melon": "2026-05-14 14:28:17 +0000",
       "mutton": "2026-05-08 17:15:38 +0000",
       "golden_apple": "2026-05-14 15:13:09 +0000",
@@ -550,6 +563,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-05-15 18:49:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_sand": "2026-05-10 02:34:39 +0000"
@@ -608,6 +627,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2026-05-14 15:27:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-05-15 18:49:22 +0000"
     },
     "done": true
   },
@@ -872,6 +897,12 @@
   "minecraft:recipes/building_blocks/red_nether_brick": {
     "criteria": {
       "has_nether_wart": "2026-05-12 17:08:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2026-05-15 18:50:26 +0000"
     },
     "done": true
   },
@@ -1313,6 +1344,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-05-15 18:50:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_prismarine_crystals": "2026-05-09 17:25:35 +0000"
@@ -1322,6 +1359,12 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2026-05-14 14:37:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_log": "2026-05-15 18:11:03 +0000"
     },
     "done": true
   },
@@ -1487,6 +1530,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-05-15 18:49:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_bonemeal": "2026-05-12 18:01:42 +0000"
@@ -1630,6 +1679,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_at_least_9_diamond": "2026-05-15 13:18:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "entered_water": "2026-05-08 02:48:11 +0000"
@@ -1645,6 +1700,12 @@
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2026-05-14 15:24:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-05-15 18:49:22 +0000"
     },
     "done": true
   },

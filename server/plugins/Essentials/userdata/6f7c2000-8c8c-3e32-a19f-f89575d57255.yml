@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: false
+flymode: true
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -12,20 +12,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1778872366748
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1778816794015
-  login: 1778816783414
-money: '0'
+  logout: 1778874900959
+  login: 1778874867872
+money: '14771758.0'
 last-account-name: VOID
 logoutlocation:
   world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
   world-name: oneblock
-  x: 1000.0999999940395
-  y: 67.0
-  z: 0.8910000084489584
+  x: 1000.4441054932794
+  y: 69.0
+  z: -19.58326428271539
+  yaw: -357.9241943359375
+  pitch: 17.56793785095215
+lastlocation:
+  world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
+  world-name: oneblock
+  x: 1000.7000000029802
+  y: 66.875
+  z: 0.3999999985098839
   yaw: 0.0
   pitch: 0.0

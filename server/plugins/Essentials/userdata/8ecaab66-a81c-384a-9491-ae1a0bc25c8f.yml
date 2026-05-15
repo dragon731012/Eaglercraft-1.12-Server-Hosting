@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1778864254101
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778864731842
+  login: 1778864673060
+money: '0'
+last-account-name: zombiemaster41
+lastlocation:
+  world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
+  world-name: oneblock
+  x: 997.2271845844222
+  y: 66.0
+  z: 3.3271795878051957
+  yaw: -106.3499755859375
+  pitch: 11.699999809265137
+logoutlocation:
+  world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
+  world-name: oneblock
+  x: 998.1322990825807
+  y: 66.0
+  z: 0.09985168435722709
+  yaw: 235.349365234375
+  pitch: 56.99999237060547

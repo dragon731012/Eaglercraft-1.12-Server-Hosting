@@ -139,6 +139,7 @@ world-settings:
     bed-search-radius: 10
     non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: true
+    mob-spawner-tick-rate: 1
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
@@ -174,7 +175,6 @@ world-settings:
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.2
     allow-leashing-undead-horse: true
-    mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: true
     squid-spawn-height:
       maximum: 0.0

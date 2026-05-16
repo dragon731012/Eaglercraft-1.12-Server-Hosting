@@ -118,9 +118,9 @@ world-settings:
       exp: 3.0
     view-distance: 5
     arrow-despawn-rate: 1200
-    enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
+    enable-zombie-pigmen-portal-spawns: true
+    nerf-spawner-mobs: false
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
-    nerf-spawner-mobs: false
     max-entity-collisions: -1

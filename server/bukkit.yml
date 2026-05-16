@@ -21,17 +21,17 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: This gateway has been stopped
 spawn-limits:
-  monsters: 1000000
-  animals: 1000000
-  water-animals: 1000000
-  ambient: 10000000
+  monsters: 100
+  animals: 20
+  water-animals: 10
+  ambient: 10
 chunk-gc:
   period-in-ticks: 600
   load-threshold: 0
 ticks-per:
-  animal-spawns: 1
-  monster-spawns: 1
+  animal-spawns: 10
+  monster-spawns: 20
   autosave: 6000
 aliases: now-in-commands.yml

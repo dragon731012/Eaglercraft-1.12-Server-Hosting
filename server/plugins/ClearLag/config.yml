@@ -72,7 +72,7 @@ ram-meter:
 # -- 'halted' this section defines which actions should be halted during '/lagg halt'
 halt-command:
   remove-entities: true
-  disable-natural-entity-spawning: true
+  disable-natural-entity-spawning: false
   halted:
     fire: true
     fire-burn: true
@@ -187,7 +187,7 @@ mob-range:
 live-time:
   enabled: true
   interval: 10
-  mobtimer: true
+  mobtimer: false
   itemtimer: true
   arrowtimer: true
   arrowkilltime: 15
@@ -350,7 +350,7 @@ item-merger:
 # -- 'remove-entities' What entities SHOULD be removed during removal
 auto-removal:
   enabled: true
-  broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
+  broadcast-message: 'Cleared Entities'
   broadcast-removal: true
   autoremoval-interval: 460
   world-filter:
@@ -365,8 +365,7 @@ auto-removal:
   minecart: false
   primed-tnt: true
   item-filter:
-  # - Stone <-This item-id will be ignored during removal!
-  # - Grass
+  
   remove-entities:
     - Arrow onGround
     - Snowball

@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-05-18 13:46:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_stained_glass_pane": {
     "criteria": {
       "has_glass": "2026-05-13 14:03:26 +0000"
@@ -41,9 +47,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/green_bed": {
+    "criteria": {
+      "has_green_wool": "2026-05-19 16:31:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/observer": {
     "criteria": {
       "has_quartz": "2026-05-13 15:21:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2026-05-18 15:43:09 +0000"
     },
     "done": true
   },
@@ -110,6 +128,12 @@
   "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2026-05-13 18:15:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2026-05-19 16:01:33 +0000"
     },
     "done": true
   },
@@ -311,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-05-19 16:38:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pink_dye_from_red_bonemeal": {
     "criteria": {
       "has_bonemeal": "2026-05-12 16:33:46 +0000"
@@ -320,6 +350,12 @@
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2026-05-13 15:24:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log2": "2026-05-18 16:33:05 +0000"
     },
     "done": true
   },
@@ -335,11 +371,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-05-18 16:33:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_beef": "2026-05-13 16:40:49 +0000",
+      "chorus_fruit": "2026-05-19 16:53:47 +0000",
       "porkchop": "2026-05-13 15:56:29 +0000",
       "melon": "2026-05-12 17:37:50 +0000",
+      "golden_apple": "2026-05-18 13:41:30 +0000",
       "golden_carrot": "2026-05-12 16:28:20 +0000"
     },
     "done": false
@@ -458,6 +502,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2026-05-19 16:01:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2026-05-12 16:27:07 +0000"
@@ -473,6 +523,12 @@
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2026-05-12 17:02:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-05-18 13:46:02 +0000"
     },
     "done": true
   },
@@ -754,6 +810,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2026-05-19 16:01:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2026-05-13 15:24:34 +0000"
@@ -808,6 +870,25 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie_pigman": "2026-05-19 16:40:56 +0000",
+      "wither_skeleton": "2026-05-19 16:41:47 +0000",
+      "skeleton": "2026-05-19 16:38:07 +0000",
+      "blaze": "2026-05-19 16:42:18 +0000",
+      "zombie": "2026-05-18 15:38:34 +0000",
+      "witch": "2026-05-18 15:45:34 +0000",
+      "spider": "2026-05-18 15:46:33 +0000",
+      "creeper": "2026-05-18 15:46:04 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-05-18 16:33:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2026-05-12 16:58:41 +0000"
@@ -829,6 +910,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2026-05-13 15:24:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-05-18 15:59:36 +0000"
     },
     "done": true
   },
@@ -868,6 +955,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-05-18 16:33:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_banner": {
+    "criteria": {
+      "has_green_wool": "2026-05-19 16:31:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2026-05-12 18:07:42 +0000"
@@ -877,6 +976,12 @@
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_at_least_9_gold_nugget": "2026-05-14 17:39:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_the_recipe": "2026-05-19 15:59:33 +0000"
     },
     "done": true
   },
@@ -958,6 +1063,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_lapis": "2026-05-18 15:59:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2026-05-12 17:13:32 +0000"
@@ -1006,6 +1117,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_red_pink": {
+    "criteria": {
+      "has_lapis": "2026-05-18 15:59:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2026-05-12 18:07:42 +0000"
@@ -1033,6 +1150,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
     "criteria": {
       "has_bonemeal": "2026-05-13 15:21:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_bricks": {
+    "criteria": {
+      "has_end_stone": "2026-05-19 16:04:10 +0000"
     },
     "done": true
   },
@@ -1168,6 +1291,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-05-18 15:43:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fence": {
     "criteria": {
       "has_planks": "2026-05-12 16:26:05 +0000"
@@ -1201,6 +1330,18 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2026-05-12 17:02:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-05-18 13:46:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2026-05-18 16:33:09 +0000"
     },
     "done": true
   },
@@ -1300,9 +1441,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2026-05-18 13:46:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2026-05-19 16:01:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2026-05-13 13:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-05-18 14:04:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2026-05-18 15:38:34 +0000"
     },
     "done": true
   },
@@ -1336,6 +1501,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/green_carpet": {
+    "criteria": {
+      "has_green_wool": "2026-05-19 16:31:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_bonemeal": "2026-05-13 15:21:26 +0000"
@@ -1344,6 +1515,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "forest": "2026-05-19 16:52:10 +0000",
       "beaches": "2026-05-12 16:24:50 +0000",
       "forest_hills": "2026-05-13 15:25:48 +0000",
       "plains": "2026-05-11 15:59:17 +0000",
@@ -1424,6 +1596,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_lapis": "2026-05-18 15:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2026-05-19 16:01:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2026-05-11 16:01:42 +0000"
@@ -1481,6 +1665,12 @@
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2026-05-12 18:07:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_at_least_9_lapis": "2026-05-19 15:59:33 +0000"
     },
     "done": true
   },
@@ -1547,6 +1737,12 @@
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_the_recipe": "2026-05-13 15:26:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-05-18 16:33:09 +0000"
     },
     "done": true
   },

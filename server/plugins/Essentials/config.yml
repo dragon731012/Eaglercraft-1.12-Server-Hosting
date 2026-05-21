@@ -89,11 +89,11 @@ change-tab-complete-name: false
 # If the teleport destination is unsafe, should players be teleported to the nearest safe location?
 # If this is set to true, Essentials will attempt to teleport players close to the intended destination.
 # If this is set to false, attempted teleports to unsafe locations will be cancelled with a warning.
-teleport-safety: true
+teleport-safety: false
 
 # This forcefully disables teleport safety checks without a warning if attempting to teleport to unsafe locations.
 # Both 'teleport-safety' above and this option must be set to true to force teleportation to dangerous locations.
-force-disable-teleport-safety: false
+force-disable-teleport-safety: true
 
 # If a player is teleporting to an unsafe location in creative, adventure, or god mode, they will not be teleported to a
 # safe location. If you'd like players to be teleported to a safe location all of the time, set this option to true.
@@ -117,7 +117,7 @@ teleport-delay: 0
 
 # The delay, in seconds, during which a player can't be attacked by other players after being teleported by a command.
 # This also prevents the player from attacking others.
-teleport-invulnerability: 4
+teleport-invulnerability: 1
 
 # Whether to make all teleportations go to the center of the block, where the x and z coordinates' decimals become .5.
 teleport-to-center: true
@@ -1058,7 +1058,7 @@ protect:
     water-flow: false
     water-bucket-flow: false
     fire-spread: true
-    lava-fire-spread: true
+    lava-fire-spread: false
     lava-itemdamage: false
     flint-fire: false
     lightning-fire-spread: true
@@ -1066,7 +1066,7 @@ protect:
     tnt-explosion: true
     tnt-playerdamage: false
     tnt-itemdamage: false
-    tnt-minecart-explosion: true
+    tnt-minecart-explosion: false
     tnt-minecart-playerdamage: false
     tnt-minecart-itemdamage: false
     fireball-explosion: false
@@ -1078,13 +1078,13 @@ protect:
     witherskull-playerdamage: false
     witherskull-itemdamage: false
     wither-spawnexplosion: false
-    wither-blockreplace: true
+    wither-blockreplace: false
     creeper-explosion: true
     creeper-playerdamage: false
     creeper-itemdamage: false
     creeper-blockdamage: true
     ender-crystal-explosion: false
-    enderdragon-blockdamage: true
+    enderdragon-blockdamage: false
     enderman-pickup: false
     villager-death: false
     bed-explosion: false
@@ -1204,11 +1204,11 @@ protect:
 
     # Should building be disabled for those without the 'essentials.build' permission?
     # Setting this to false means Essentials AntiBuild will never prevent players from building.
-    build: true
+    build: false
 
     # Should people without the 'essentials.build' permission be prevented from using items?
     # Setting this to false means Essentials AntiBuild will never prevent players from using items.
-    use: true
+    use: false
 
     # Should Essentials message people when they are not allowed to build?
     warn-on-build-disallow: true

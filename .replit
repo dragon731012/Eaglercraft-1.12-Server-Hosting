@@ -4,7 +4,7 @@ expertMode = true
 
 [nix]
 channel = "stable-25_05"
-packages = ["wget"]
+packages = ["wget", "busybox-sandbox-shell"]
 
 [workflows]
 runButton = "Project"

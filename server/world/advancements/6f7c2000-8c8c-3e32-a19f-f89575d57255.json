@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-05-17 22:56:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_stained_glass_pane": {
     "criteria": {
       "has_glass": "2026-05-14 17:49:47 +0000"
@@ -56,6 +62,12 @@
   "minecraft:recipes/building_blocks/oak_wooden_slab": {
     "criteria": {
       "has_planks": "2026-05-12 17:08:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2026-05-18 13:07:29 +0000"
     },
     "done": true
   },
@@ -119,9 +131,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-05-18 13:07:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2026-05-14 15:24:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2026-05-17 22:50:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-05-18 16:33:35 +0000"
     },
     "done": true
   },
@@ -391,12 +421,15 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2026-05-19 15:56:29 +0000",
       "cooked_beef": "2026-05-14 17:29:15 +0000",
       "apple": "2026-05-10 20:42:09 +0000",
       "potato": "2026-05-10 20:40:16 +0000",
+      "cooked_cod": "2026-05-18 15:53:32 +0000",
       "melon": "2026-05-14 20:40:16 +0000",
       "mutton": "2026-05-08 17:15:38 +0000",
       "golden_apple": "2026-05-14 15:13:09 +0000",
+      "cooked_chicken": "2026-05-18 16:54:02 +0000",
       "carrot": "2026-05-12 17:08:39 +0000"
     },
     "done": false
@@ -515,6 +548,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2026-05-17 22:50:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_shovel": {
     "criteria": {
       "has_gold_ingot": "2026-05-08 17:15:50 +0000"
@@ -536,6 +575,18 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2026-05-08 17:16:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-05-17 22:56:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-05-17 17:24:50 +0000"
     },
     "done": true
   },
@@ -864,6 +915,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2026-05-17 22:50:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2026-05-10 02:26:40 +0000"
@@ -879,6 +936,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2026-05-12 17:08:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2026-05-18 13:07:29 +0000"
     },
     "done": true
   },
@@ -926,9 +989,17 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "zombie_pigman": "2026-05-20 21:55:30 +0000",
       "wither_skeleton": "2026-05-16 00:45:31 +0000",
+      "zombie_villager": "2026-05-19 15:45:01 +0000",
       "skeleton": "2026-05-15 23:07:00 +0000",
-      "creeper": "2026-05-15 23:22:02 +0000"
+      "blaze": "2026-05-18 13:19:31 +0000",
+      "zombie": "2026-05-17 13:57:40 +0000",
+      "silverfish": "2026-05-18 13:13:21 +0000",
+      "guardian": "2026-05-18 15:34:56 +0000",
+      "spider": "2026-05-18 13:04:18 +0000",
+      "creeper": "2026-05-15 23:22:02 +0000",
+      "enderman": "2026-05-18 16:54:10 +0000"
     },
     "done": false
   },
@@ -947,6 +1018,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_at_least_9_redstone": "2026-05-12 18:01:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-05-18 16:35:09 +0000"
     },
     "done": true
   },
@@ -971,6 +1048,12 @@
   "minecraft:recipes/decorations/pink_stained_glass_pane": {
     "criteria": {
       "has_glass": "2026-05-14 17:49:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2026-05-18 13:07:29 +0000"
     },
     "done": true
   },
@@ -1388,6 +1471,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-05-17 22:56:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_wooden_slab": {
     "criteria": {
       "has_planks": "2026-05-08 17:12:05 +0000"
@@ -1427,6 +1516,12 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2026-05-08 17:15:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wooden_slab": {
+    "criteria": {
+      "has_planks": "2026-05-18 13:07:29 +0000"
     },
     "done": true
   },
@@ -1478,6 +1573,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2026-05-18 16:33:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2026-05-08 17:19:00 +0000"
@@ -1499,6 +1600,18 @@
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2026-05-15 16:56:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2026-05-17 22:56:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2026-05-17 22:50:41 +0000"
     },
     "done": true
   },
@@ -1621,6 +1734,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2026-05-18 13:04:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2026-05-08 17:16:17 +0000"
@@ -1654,6 +1773,12 @@
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2026-05-14 17:49:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2026-05-17 22:50:41 +0000"
     },
     "done": true
   },
@@ -1825,6 +1950,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-05-18 16:33:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_diamond_block": "2026-05-14 13:20:08 +0000"
@@ -1882,6 +2013,12 @@
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2026-05-14 19:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2026-05-20 22:19:31 +0000"
     },
     "done": true
   },

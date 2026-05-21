@@ -15,6 +15,7 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
+  bungeecord: false
   late-bind: false
   player-shuffle: 0
   filter-creative-items: true
@@ -23,7 +24,6 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   item-dirty-ticks: 20
-  bungeecord: false
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
@@ -37,6 +37,7 @@ settings:
       max: 2048.0
 commands:
   tab-complete: 0
+  log: false
   spam-exclusions:
   - /skill
   silent-commandblock-console: true
@@ -45,14 +46,13 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: idk what is cmd is plz do /help to see all cmds...
-  server-full: The server is full!
+  server-full: The server is full plz try LATER.!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  restart: Server is restarting PLZ STANDBY...
 advancements:
   disable-saving: false
   disabled:
@@ -62,25 +62,14 @@ stats:
   forced-stats: {}
 world-settings:
   default:
-    verbose: true
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 10000000000
-      wheat-modifier: 100
-      netherwart-modifier: 100
-      vine-modifier: 100
-      cocoa-modifier: 100
-    mob-spawn-range: 8
+    verbose: false
+    mob-spawn-range: 5
     entity-activation-range:
       animals: 32
-      monsters: 32
+      monsters: 48
       misc: 16
       water: 16
-      tick-inactive-villagers: true
+      tick-inactive-villagers: false
     entity-tracking-range:
       players: 48
       animals: 48
@@ -88,9 +77,9 @@ world-settings:
       misc: 32
       other: 64
     ticks-per:
-      hopper-transfer: 8
+      hopper-transfer: 1
       hopper-check: 1
-    hopper-amount: 1
+    hopper-amount: 10
     random-light-updates: false
     save-structure-info: true
     dragon-death-sound-radius: 0
@@ -112,15 +101,26 @@ world-settings:
       entity: 50
     squid-spawn-range:
       min: 45.0
-    item-despawn-rate: 6000
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+    item-despawn-rate: 10000
     merge-radius:
-      item: 2.5
-      exp: 3.0
+      item: 1.5
+      exp: 5
     view-distance: 5
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
-    zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
+    zombie-aggressive-towards-villager: true
     max-entity-collisions: -1

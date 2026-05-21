@@ -12,7 +12,7 @@
 # For a list of valid material values, please view https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 
 MetricsEnabled: true
-ActivationMode: 'SNEAK'
+ActivationMode: 'STAND'
 RepairFriendlyVeinminer: false
 IncludeEdges: true
 DisabledWorlds:

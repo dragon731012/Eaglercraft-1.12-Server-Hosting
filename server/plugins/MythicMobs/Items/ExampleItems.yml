@@ -1,0 +1,47 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SkeletonKingSword:
+  Id: DIAMOND_SWORD
+  Data: 0
+  Display: '&3Greatsword of the Skeleton King'
+  Lore:
+  - '&6A powerful sword used by'
+  - '&6the King of Skeletons.'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - KNOCKBACK:2
+  - FIRE_ASPECT:2
+  Attributes:
+    MainHand:
+      Health: 10
+      MovementSpeed: 0.1
+KingsCrown:
+  Id: GOLDEN_HELMET
+  Data: 0
+  Amount: 1
+  Display: '&dCrown of the King'
+  Lore:
+  - '&6A kingly crowl that grants'
+  - '&6the wearer unwavering power!'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - PROTECTION_PROJECTILE:2
+  - PROTECTION_FIRE:2
+  - PROTECTION_EXPLOSIONS:2
+  Hide:
+  - ATTRIBUTES
+  - ENCHANTS
+  Attributes:
+    Head:
+      Health: 10
+      KnockbackResistance: 10
+BanditTunic:
+  Id: LEATHER_CHESTPLATE
+  Display: '&aBandit Tunic'
+  Lore:
+  - '&6A leather tunic taken from'
+  - '&6the corpse of a bandit.'
+  Options:
+    Color: 255,40,40

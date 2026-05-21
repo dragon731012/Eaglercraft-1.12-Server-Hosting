@@ -61,7 +61,7 @@ world-settings:
       stronghold: true
       temple: true
       village: true
-      flat-bedrock: false
+      flat-bedrock: true
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
@@ -69,7 +69,7 @@ world-settings:
     use-vanilla-world-scoreboard-name-coloring: false
     portal-search-radius: 128
     queue-light-updates: false
-    optimize-explosions: false
+    optimize-explosions: true
     use-chunk-inhabited-timer: true
     delay-chunk-unloads-by: 10s
     max-auto-save-chunks-per-tick: 24
@@ -113,7 +113,7 @@ world-settings:
       refresh-min: 1m
       refresh-max: 2m
     filter-nbt-data-from-spawn-eggs-and-related: true
-    max-entity-collisions: 10
+    max-entity-collisions: 2
     disable-creeper-lingering-effect: false
     hopper:
       cooldown-when-full: false
@@ -137,8 +137,8 @@ world-settings:
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 10
-    prevent-tnt-from-moving-in-water: true
     non-player-arrow-despawn-rate: -1
+    prevent-tnt-from-moving-in-water: true
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
@@ -171,13 +171,19 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 1
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
+    mob-spawner-tick-rate: 1
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.2
     allow-leashing-undead-horse: true
-    mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: true
     squid-spawn-height:
       maximum: 0.0
     disable-teleportation-suffocation-check: false
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
+    zombie-pigmen:
+      portal-spawn-tick-rate: 1
+    use-faster-eigencraft-redstone: true
+max-tick-time:
+  tile: 1000
+  entity: 1000

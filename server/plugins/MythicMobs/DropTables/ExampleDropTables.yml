@@ -1,0 +1,19 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SkeletonKingDrops:
+  Conditions:
+  - playerwithin 40
+  Drops:
+  - SkeletonKingItemDrops 1
+  - experience 100
+  - heroesexp 200
+SkeletonKingItemDrops:
+  MinItems: 1
+  MaxItems: 2
+  Drops:
+  - KingsCrown 1 0.01
+  - SkeletonKingSword 0.1
+  - GOLD_NUGGET 32-64 1
+  - DIAMOND 1-12 0.8

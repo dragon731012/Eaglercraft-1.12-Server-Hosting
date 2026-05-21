@@ -33,3 +33,12 @@
 {"timestamp":1778716110,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"god"},"description":"parent add admin"}
 {"timestamp":1778716119,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"god"},"description":"permission set * true"}
 {"timestamp":1778716128,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"USER","uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"description":"parent set god"}
+{"timestamp":1779026109,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set pit.join.PIT true"}
+{"timestamp":1779026116,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set pit.leave true"}
+{"timestamp":1779026123,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set kitpvp.kit.* true"}
+{"timestamp":1779026130,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set multiverse.teleport.* true"}
+{"timestamp":1779026136,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.home true"}
+{"timestamp":1779026141,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.sethome true"}
+{"timestamp":1779026147,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.spawn true"}
+{"timestamp":1779026152,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.warp true"}
+{"timestamp":1779026157,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set oneblock.user true"}

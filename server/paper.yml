@@ -65,10 +65,10 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    queue-light-updates: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
     portal-search-radius: 128
-    queue-light-updates: false
     optimize-explosions: true
     use-chunk-inhabited-timer: true
     delay-chunk-unloads-by: 10s

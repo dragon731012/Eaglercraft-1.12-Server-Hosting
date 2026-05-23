@@ -1,0 +1,97 @@
+Sapling Replant:
+  Tree Types to Replant:
+    BigSpruce: true
+    Birch: true
+    Jungle: true
+    BigJungle: true
+    Oak: true
+    Spruce: true
+    Brown Shroom: true
+    Red Shroom: true
+    Acacia: true
+    Dark Oak: true
+  Command Time Delay (Seconds): 30
+  Bottom Block has to be Broken First: true
+  Time to Protect Sapling (Seconds): 0
+  Time to Block Sapling Growth (Seconds): 0
+  Replant When Tree Burns Down: true
+  Block all breaking of Saplings: false
+  Delay until Sapling is replanted (seconds) (minimum 1 second): 1
+  Enforce: false
+Main:
+  Apply Full Tool Damage: true
+  Auto Add To Inventory: false
+  Auto Plant Dropped Saplings: false
+  Automatic Tree Destruction: true
+  Destroy Only Blocks Above: false
+  Force Break Default Radius: 10
+  Force Grow Default Radius: 10
+  Force Break Max Radius: 30
+  Force Grow Max Radius: 30
+  Ignore User Placed Blocks: false
+  Initial Delay: false
+  Language: en
+  Sapling Replant: true
+  Toggle Default: true
+  Use mcMMO if Available: true
+  Use Permissions: false
+Automatic Tree Destruction:
+  Required Lore: ''
+  When Sneaking: true
+  When Not Sneaking: true
+  Forced Removal: false
+  Remove Leaves: true
+  Initial Delay (seconds): 10
+  Delay (ticks): 0
+  Tree Types:
+    Birch: true
+    Jungle: true
+    BigJungle: true
+    BigSpruce: true
+    Oak: true
+    Spruce: true
+    Brown Shroom: true
+    Red Shroom: true
+    Acacia: true
+    Dark Oak: true
+  Cooldown (seconds): 0
+Auto Plant Dropped Saplings:
+  Chance (percent): 10
+  Delay (seconds): 5
+Leaf Decay:
+  Fast Leaf Decay: true
+Tools:
+  Sapling Replant Require Tools: true
+  Tree Destruction Require Tools: true
+  Tools List:
+  - DIAMOND_AXE
+  - WOOD_AXE
+  - GOLD_AXE
+  - IRON_AXE
+  - STONE_AXE
+  Drop Chance:
+    DIAMOND_AXE: 100
+    WOOD_AXE: 100
+    GOLD_AXE: 100
+    IRON_AXE: 100
+    STONE_AXE: 100
+Worlds:
+  Enable Per World: false
+  Enabled Worlds:
+  - world
+  - world2
+Custom Drops:
+  APPLE: 0.1
+  GOLDEN_APPLE: 0.0
+Placed Blocks:
+  Handler Plugin Name: TreeAssist
+Modding:
+  Disable Durability Fix: false
+  Custom Logs:
+  - -1
+  Custom Tree Blocks:
+  - -1
+  Custom Saplings:
+  - -1
+Debug: none
+Config Help: dev.bukkit.org/server-mods/tree-assist/pages/config-walkthrough/

@@ -1,0 +1,5 @@
+The global and world default configuration files have moved to /workspaces/Eaglercraft-1.12-Server-Hosting/server/config
+and the world-specific configuration file has been moved inside
+the respective world folder.
+
+See https://docs.papermc.io/paper/configuration for more information.

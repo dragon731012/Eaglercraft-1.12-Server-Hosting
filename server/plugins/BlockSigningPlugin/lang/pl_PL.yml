@@ -1,0 +1,38 @@
+msg:
+  duplicate_removed: 'Usunięto zduplikowany przedmiot: {hash}'
+  cross_duplicate_removed: 'Usunięto duplikat między ekwipunkami: {hash}'
+broadcast:
+  cross_duplicate_removed: '&c[Anti-Dupe] {player} został złapany na duplikowaniu! (Gracz: {player},
+    Hash: {hash}, Czas: {time})'
+  duplicate_removed: '&c[Anti-Dupe] {player} został złapany na duplikowaniu! (Gracz: {player},
+    Hash: {hash}, Czas: {time})'
+cmd:
+  recovery:
+    usage: 'Użycie: /antidupe recovery give <player>'
+    given: Przekazano ostatnio odzyskany przedmiot graczowi {player}.
+    none: Nie znaleziono wpisów odzyskiwania dla tego gracza.
+  customitem:
+    added: 'Dodano chronioną niestandardową nazwę przedmiotu: {name}'
+    list: 'Chronione niestandardowe nazwy przedmiotów: {names}'
+    removed: 'Usunięto chronioną niestandardową nazwę przedmiotu: {name}'
+prefix: '&c[Anti-Dupe]&r '
+title:
+  no_duping: '&4 ZAKAZ DUPLIKACJI! '
+discord:
+  offence_detected:
+    title: Wykryto naruszenie Anti-Dupe
+    description: '{player} uruchomił wykrywanie Anti-Dupe.'
+  removed_duplicates:
+    title: Anti-Dupe usunął zduplikowane przedmioty
+    description: Duplikaty zostały usunięte i zarchiwizowane.
+  ban:
+    title: Ban Anti-Dupe
+    description: '{player} został zbanowany przez Anti-Dupe.'
+  field:
+    player: Gracz
+    uuid: UUID
+    world: Świat
+    location: Lokalizacja
+    action: Akcja
+    reason: Powód
+    items: Przedmioty

@@ -1,0 +1,145 @@
+# MythicSkywars — LabyMod 4 Server API integration
+# https://dev.labymod.net/pages/server/
+# -----------------------------------------------------------------------------
+# Requires the LabyMod Server API plugin (server-bukkit jar) in your plugins folder.
+# Download: https://github.com/LabyMod/labymod4-server-api/releases
+#
+# This bridge is optional and safe to keep enabled even on servers where the
+# LabyMod Server API plugin is absent — features simply no-op.
+# -----------------------------------------------------------------------------
+
+enabled: true
+
+modules:
+  # --- Discord Rich Presence ---
+  # Shows game info in the player's Discord status.
+  discord-rpc:
+    enabled: true
+    lobby:
+      game-mode: "In Lobby"
+    in-game:
+      # Placeholders: {map}, {alive}, {max_players}, {team_size}, {player}, {team_alive}
+      game-mode: "Playing {map}"
+      # If true, includes the match start timestamp so Discord shows elapsed time.
+      include-start-time: true
+
+  # --- Playing Game Mode ---
+  # Shows what game mode the player is in to their LabyMod Chat friends.
+  playing-game-mode:
+    enabled: true
+    lobby: "SkyWars Lobby"
+    # Placeholders: {map}, {alive}, {max_players}, {team_size}, {player}
+    in-game: "SkyWars - {map}"
+
+  # --- Economy Display ---
+  # Shows a balance in the LabyMod HUD (top-right corner).
+  economy-display:
+    enabled: false
+    # Key: bank, cash, or a custom key.
+    key: "cash"
+    # Public URL for the economy icon (leave empty for default coin icon).
+    icon-url: ""
+
+  # --- Tab List Banner ---
+  # Custom image displayed above the player list (tab).
+  # Image must be 5:1 aspect ratio, recommended 1280x256 pixels.
+  tab-banner:
+    enabled: false
+    # Public URL to the banner image.
+    url: "https://example.com/your-server-banner.png"
+
+  # --- Tab List Flags ---
+  # Show country flags next to player names in the tab list.
+  # Flags are set programmatically (e.g. from GeoIP data).
+  # This just enables the feature — you must call LabyModBridge.setTabListFlag() in code.
+  tab-flags:
+    enabled: false
+
+  # --- Interaction Menu ---
+  # Custom entries in the right-click player menu.
+  # Actions: RUN_COMMAND, SUGGEST_COMMAND, CLIPBOARD, OPEN_BROWSER
+  # Value placeholders: {name} = target player name, {uuid} = target player UUID
+  interaction-menu:
+    enabled: true
+    entries:
+      - label: "Report"
+        action: "RUN_COMMAND"
+        value: "/report {name}"
+      - label: "View Stats"
+        action: "RUN_COMMAND"
+        value: "/sw stats {name}"
+      - label: "Party Invite"
+        action: "RUN_COMMAND"
+        value: "/party invite {name}"
+
+  # --- Markers (Team Pings) ---
+  # When enabled, player markers are sent to the server instead of only to
+  # LabyMod friends. This allows the server to forward pings to teammates.
+  markers:
+    enabled: true
+
+  # --- Permissions (Feature Toggles) ---
+  # Deny or allow specific LabyMod client features.
+  # See: https://dev.labymod.net/pages/server/labymod/moderation/permissions/
+  # Common permissions:
+  #   BETTER_PERSPECTIVE, CHAT_AUTOTEXT, MINIMAP_RADAR, BLOCKBUILD,
+  #   IMPROVED_LAVA, CROSSHAIR_SYNC, REFILL_FIX, RANGE_MARKER
+  permissions:
+    enabled: false
+    # Features to DENY (disable on the client):
+    deny:
+      - "BETTER_PERSPECTIVE"
+      - "MINIMAP_RADAR"
+    # Features to ALLOW (explicitly enable):
+    allow: []
+
+  # --- Addon Blacklist ---
+  # Forcefully disable specific LabyMod addons on the client.
+  # See: https://dev.labymod.net/pages/server/labymod/moderation/disable-addons/
+  # Use the addon namespace (e.g. "voicechat", "clearwater", "damageindicator").
+  addon-blacklist:
+    enabled: false
+    disabled-addons:
+      - "clearwater"
+      - "damageindicator"
+
+  # --- Addon Recommendations ---
+  # Suggest or require addons when a LabyMod player joins.
+  # Opens a popup showing recommended/required addons.
+  # Note: LabyMod does NOT enforce required addons — handle that yourself.
+  addon-recommendations:
+    enabled: false
+    # Addons to suggest (player can ignore):
+    recommended: []
+    # Addons to mark as required (popup shows them as required):
+    required: []
+
+  # --- Server Switch Prompt ---
+  # After a match ends, prompt LabyMod players to switch to another server.
+  # Useful for BungeeCord/Velocity networks.
+  server-switch:
+    enabled: false
+    # The server address to suggest switching to.
+    address: "lobby.example.com"
+    # Title shown in the prompt popup.
+    title: "Return to lobby?"
+
+  # --- Input Prompt ---
+  # Enables the input prompt feature (used programmatically, e.g. for report reasons).
+  # Call LabyModBridge.openInputPrompt() from code to trigger it.
+  input-prompt:
+    enabled: false
+
+  # --- Subtitles ---
+  # Display text below player nametags (visible to other LabyMod users).
+  subtitles:
+    enabled: false
+    # Placeholders: {map}, {alive}, {max_players}, {team_size}, {player}, {team_alive}
+    in-game: ""
+
+  # --- Match Tick ---
+  # Periodic refresh during matches (updates Discord RPC elapsed time, etc.)
+  match-tick:
+    enabled: true
+    # How often to refresh (in ticks). 20 = once per second.
+    interval-ticks: 20

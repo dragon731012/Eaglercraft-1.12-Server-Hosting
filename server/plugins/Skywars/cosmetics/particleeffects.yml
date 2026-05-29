@@ -1,0 +1,195 @@
+# The first value is the particle effect.
+# The second value is the cost to unlock that particle effect.
+
+effects:
+  water:
+    displayname: '&bWater'
+    icon: NETHER_STAR
+    level: 2
+    cost: 100
+    particles:
+    - WATER_SPLASH:0:1:0:14:8
+    position: 2
+    page: 1
+  flame:
+    displayname: '&bFlame'
+    icon: NETHER_STAR
+    level: 7
+    cost: 100
+    particles:
+    - FLAME:0:1:0:8:4
+    position: 4
+    page: 1
+  smoke:
+    displayname: '&bSmoke'
+    icon: NETHER_STAR
+    level: 12
+    cost: 100
+    particles:
+    - SMOKE_LARGE:0:1:0:16:8
+    position: 6
+    page: 1
+  critical:
+    displayname: '&bCritical'
+    icon: NETHER_STAR
+    level: 17
+    cost: 100
+    particles:
+    - CRIT:0:1:0:8:5
+    position: 8
+    page: 1
+  slime:
+    displayname: '&bSlime'
+    icon: NETHER_STAR
+    level: 22
+    cost: 100
+    particles:
+    - SLIME:0:1:0:12:6
+    position: 9
+    page: 1
+  snow:
+    displayname: '&bSnow'
+    icon: NETHER_STAR
+    level: 27
+    cost: 100
+    particles:
+    - SNOWBALL:0:1:0:12:6
+    position: 11
+    page: 1
+  magic:
+    displayname: '&bMagic'
+    icon: NETHER_STAR
+    level: 32
+    cost: 100
+    particles:
+    - SPELL_WITCH:0:1:0:10:7
+    position: 13
+    page: 1
+  music:
+    displayname: '&bMusic'
+    icon: NETHER_STAR
+    level: 37
+    cost: 100
+    particles:
+    - NOTE:0:1:-1:10:4
+    position: 15
+    page: 1
+  happy:
+    displayname: '&bHappy'
+    icon: NETHER_STAR
+    level: 42
+    cost: 100
+    particles:
+    - VILLAGER_HAPPY:0:1:0:12:4
+    position: 17
+    page: 1
+  angry:
+    displayname: '&bAngry'
+    icon: NETHER_STAR
+    level: 47
+    cost: 100
+    particles:
+    - VILLAGER_ANGRY:0:1:0:5:2
+    position: 18
+    page: 1
+  potion:
+    displayname: '&bPotion'
+    icon: NETHER_STAR
+    level: 52
+    cost: 100
+    particles:
+    - SPELL:0:1:0:12:6
+    position: 20
+    page: 1
+  poison:
+    displayname: '&bPoison'
+    icon: NETHER_STAR
+    level: 57
+    cost: 100
+    particles:
+    - SPELL_INSTANT:0:1:0:12:6
+    position: 22
+    page: 1
+  alphabet:
+    displayname: '&bAlphabet'
+    icon: NETHER_STAR
+    level: 62
+    cost: 100
+    particles:
+    - ENCHANTMENT_TABLE:0:1:-1:16:8
+    position: 24
+    page: 1
+  lava:
+    displayname: '&bLava'
+    icon: NETHER_STAR
+    level: 67
+    cost: 100
+    particles:
+    - LAVA:0:1:0:16:4
+    position: 26
+    page: 1
+  lava_drip:
+    displayname: '&bLave Drip'
+    icon: NETHER_STAR
+    level: 72
+    cost: 100
+    particles:
+    - DRIP_LAVA:0:1:0:8:4
+    position: 27
+    page: 1
+  heart:
+    displayname: '&bHeart'
+    icon: NETHER_STAR
+    level: 77
+    cost: 100
+    particles:
+    - HEART:0:1:0:10:3
+    position: 29
+    page: 1
+  redstone:
+    displayname: '&bRedstone'
+    icon: NETHER_STAR
+    level: 82
+    cost: 100
+    particles:
+    - REDSTONE:0:1:0:10:3
+    position: 31
+    page: 1
+  sparks:
+    displayname: '&bSparks'
+    icon: NETHER_STAR
+    level: 87
+    cost: 100
+    particles:
+    - FIREWORKS_SPARK:0:1:0:8:4
+    position: 33
+    page: 1
+  portal:
+    displayname: '&bPortal'
+    icon: NETHER_STAR
+    level: 92
+    cost: 100
+    particles:
+    - PORTAL:0:1:0:140:80
+    position: 35
+    page: 1
+  colourful:
+    displayname: '&bColourful'
+    icon: NETHER_STAR
+    level: 97
+    cost: 100
+    particles:
+    - REDSTONE:0:0.5:0:10:3
+    - SLIME:0.5:1:0:12:6
+    - LAVA:1:1.5:0:16:4
+    - PORTAL:1.5:2:0:140:80
+    position: 36
+    page: 1
+  none:
+    displayname: '&bNo Particles'
+    icon: NETHER_STAR
+    level: 0
+    cost: 0
+    position: 0
+    page: 1
+menuSize: 45

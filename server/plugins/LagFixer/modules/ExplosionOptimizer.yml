@@ -1,0 +1,71 @@
+ExplosionOptimizer:
+  enabled: true
+  worlds:
+  - '*'
+  values:
+    # Limits the maximum explosion power/radius to reduce excessive destruction
+    yield_limit:
+      enabled: false
+      
+      # Maximum explosion power for all sources
+      # Higher = more destructive, Lower = less damage
+      # Default TNT yield in Minecraft is 4.0
+      default: 4.0
+      
+      # Explosion power limits per entity type:
+      # These override the "default" value
+      # Entity types: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+      per_entity:
+      - TNT:4.0
+      - TNT_MINECART:4.0
+      - CREEPER:3.0
+      - FIREBALL:1.0
+      - WITHER_SKULL:1.0
+      - END_CRYSTAL:6.0
+    
+    # Prevents chain reactions where one explosion triggers others nearby
+    anti_chain:
+      enabled: true
+      
+      # Prevent chain reactions:
+      prevent_tnt_chains: true # TNT won't trigger other TNT
+      prevent_creeper_chains: false # Creepers can still trigger others
+      prevent_crystal_chains: true # End crystals won't chain
+      
+      # Prevent explosions from igniting TNT blocks
+      # true = explosions won't ignite TNT, false = normal behavior
+      prevent_block_ignition: true
+      
+      # Radius to check for potential chain reactions (in blocks)
+      chain_radius: 8.0
+      
+      # Maximum number of explosions allowed in one chain
+      max_chain_size: 3
+      
+      # Delay before allowing new chains after an explosion (ms)
+      chain_cooldown: 1000
+    
+    management:
+      # ⚠️ WARNING: This will completely disable explosions!
+      # Enable only if you experience severe lag caused by explosions
+      enabled: false
+      
+      # Explosion types to disable:
+      cancel_block_explosions: true # Beds in Nether, etc.
+      cancel_creepers: false # Keep creepers for gameplay
+      cancel_crystals: true
+      cancel_fireballs: true
+      cancel_tnt: true
+      cancel_wither_skulls: true
+      
+      # Partial effects when explosions are disabled:
+      explosion_damage: # Damage entities but no block destruction
+        enabled: false
+        multiplier: 2.5
+      explosion_sound: # Keep sounds for immersion
+        enabled: true
+        volume: 1.0
+      explosion_knockback: # Knockback but no block destruction
+        enabled: false
+        multiplier: 0.6
+        use_newton_raphson: true # Faster than Math.sqrt

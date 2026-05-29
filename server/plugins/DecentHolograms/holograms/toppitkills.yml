@@ -1,0 +1,42 @@
+location: PIT:-64.996:77.000:-105.019
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: §e§lTop 15 players §a(THE PIT KILLS)
+    height: 0.3
+  - content: '§61º §e%ajlb_lb_the-pit_player_kills_1_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_1_alltime_value%'
+    height: 0.3
+  - content: '§62º §e%ajlb_lb_the-pit_player_kills_2_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_2_alltime_value%'
+    height: 0.3
+  - content: '§63º §e%ajlb_lb_the-pit_player_kills_3_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_3_alltime_value%'
+    height: 0.3
+  - content: '§64º §e%ajlb_lb_the-pit_player_kills_4_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_4_alltime_value%'
+    height: 0.3
+  - content: '§65º §e%ajlb_lb_the-pit_player_kills_5_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_5_alltime_value%'
+    height: 0.3
+  - content: '§66º §e%ajlb_lb_the-pit_player_kills_6_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_6_alltime_value%'
+    height: 0.3
+  - content: '§67º §e%ajlb_lb_the-pit_player_kills_7_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_7_alltime_value%'
+    height: 0.3
+  - content: '§68º §e%ajlb_lb_the-pit_player_kills_8_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_8_alltime_value%'
+    height: 0.3
+  - content: '§69º §e%ajlb_lb_the-pit_player_kills_9_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_9_alltime_value%'
+    height: 0.3
+  - content: '§610º §e%ajlb_lb_the-pit_player_kills_10_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_10_alltime_value%'
+    height: 0.3
+  - content: '§611º §e%ajlb_lb_the-pit_player_kills_11_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_11_alltime_value%'
+    height: 0.3
+  - content: '§612º §e%ajlb_lb_the-pit_player_kills_12_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_12_alltime_value%'
+    height: 0.3
+  - content: '§613º §e%ajlb_lb_the-pit_player_kills_13_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_13_alltime_value%'
+    height: 0.3
+  - content: '§614º §e%ajlb_lb_the-pit_player_kills_14_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_14_alltime_value%'
+    height: 0.3
+  - content: '§615º §e%ajlb_lb_the-pit_player_kills_15_alltime_name% §fKills: §6%ajlb_lb_the-pit_player_kills_15_alltime_value%'
+    height: 0.3
+  actions: {}

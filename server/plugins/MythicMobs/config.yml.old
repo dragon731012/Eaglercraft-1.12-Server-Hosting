@@ -1,0 +1,80 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+Configuration:
+  Version: 4.11
+  General:
+    AllowMetrics: true
+    CheckForUpdates: true
+    CompatibilityMode: false
+    DebugLevel: 0
+    ErrorLogging: true
+    Language: enUS
+    UseVolatileFeatures: true
+    SendGiveItemFeedback: true
+  Clock:
+    ClockInterval: 1
+    SaveInterval: 5
+    SpawnsInterval: 2
+    ScannerInterval: 10
+    CleanupInterval: 600
+  Components:
+    CustomSpawners: true
+    RandomSpawning: true
+  Mobs:
+    DespawnByDefault: true
+    EnableAIModifiers: true
+    EnableTimerSkills: true
+    EnableThreatTables: true
+    EnablePlayerFactions: true
+    EnableLegacySkills: false
+    KillMessagePrefix: ''
+    PreventOtherDropsByDefault: false
+    Scaling:
+      Default:
+        Enabled: true
+        PerBlocksFromSpawn: 250
+      world2:
+        Enabled: true
+        PerBlocksFromSpawn: 250
+      world2_nether:
+        Enabled: false
+        PerBlocksFromSpawn: 100
+    ScalingEquations:
+      Health: V * ((1.05)^(L-1))
+      Damage: V * ((1.05)^(L-1))
+    DefaultLevelModifiers:
+      Health: 0.1
+      Armor: 0
+      Damage: 0
+      KnockbackResistance: 0
+      Power: 0
+  RandomSpawning:
+    DisableVanillaSpawns: false
+    GenerateSpawnPoints: false
+    MaxMobsPerChunk: 2
+    SpawnRadiusPerPlayer: 64
+    SpawnRadiusPerPlayerY: 32
+    DespawnLazyRandomMobs: true
+    MaxGenerationTime: 20
+    PointsPerSecond:
+      Land: 5
+      Air: 0
+      Sea: 2
+      Lava: 0
+      Ground: 0
+  Compatibility:
+    Heroes:
+      Enabled: true
+    McMMO:
+      Enabled: true
+      ShowXPMessage: true
+      XPMessageFormat: '&7You receive <drop.amount> experience for slaying <dropper.name>'
+    SkillAPI:
+      Enabled: true
+      ShowXPMessage: true
+      XPMessageFormat: '&7You receive <drop.amount> experience for slaying <dropper.name>'
+    Vault:
+      Enabled: true
+      ShowMoneyMessage: true
+      MoneyMessageFormat: '&7You receive <drop.amount> currency for slaying <dropper.name>'

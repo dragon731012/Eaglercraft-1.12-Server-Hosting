@@ -1,0 +1,100 @@
+# MythicSkywars — Lunar Client / Apollo integration
+# https://lunarclient.dev/apollo/introduction | Server: plugins/Apollo/
+# -----------------------------------------------------------------------------
+# Defaults are aggressive: most modules ON. Disable what you do not want.
+# Without the Apollo plugin on the server, features no-op (and you may see a startup warning).
+# -----------------------------------------------------------------------------
+
+enabled: true
+
+modules:
+  team:
+    enabled: true
+    refresh-ticks: 1
+
+  cooldown:
+    enabled: true
+    # Lunar HUD after throwing an ender pearl (while in a playing match).
+    pearl-seconds: 15
+    entries:
+      pvp-timer:
+        apollo-id: "msw-pvp"
+        icon-material: DIAMOND_SWORD
+      ender-pearl:
+        apollo-id: "msw-pearl"
+        icon-material: ENDER_PEARL
+
+  notification:
+    enabled: true
+    default-display-seconds: 4
+    # Notification titles are limited to 15 characters on Lunar.
+    match-start:
+      title: "Match live!"
+      description: "Map: {map}"
+    pvp-enabled:
+      title: "PVP on!"
+      description: "You can take damage now."
+    chest-refill:
+      title: "Refill!"
+      description: "Island chests restocked."
+    victory:
+      title: "Victory!"
+      description: "You won on {map}"
+
+  waypoint:
+    enabled: true
+    # Where the waypoint points: spectator = /swm spawn spec (recommended),
+    # centroid = average of island cage spawns, border = world border center, auto = spectator then centroid then border.
+    mode: auto
+    # Display name (and Lunar id for removeWaypoint) — must stay unique per player session.
+    name: "Spectate"
+    color: "#FFAA00"
+    reset-on-match-end: true
+
+  glow:
+    enabled: true
+    teammates: true
+    # In team mode, highlight enemies too (red) when both teams are known.
+    enemies-in-team: true
+    # Solo: glowing every opponent is a wallhack on Lunar — default off. LOS + range still apply if enabled.
+    enemies-in-solo: true
+    # Require unobstructed line of sight so glow is not visible through walls (strongly recommended).
+    require-line-of-sight: true
+    # Max horizontal distance in blocks (0 = no cap). 48 matches typical entity tracking.
+    max-horizontal-blocks: 48
+
+  # Lunar Client title overlay (useful for 1.7 Lunar); does not replace vanilla titles.
+  title-lunar:
+    enabled: true
+    on-pvp-enabled:
+      enabled: true
+      subtitle: "PVP is enabled!"
+
+  rich-presence:
+    enabled: true
+
+  # Apollo border is for legacy Lunar (1.7–1.12) only — not driven by MythicSkywars code.
+  border:
+    enabled: true
+
+# Lobby water portals (config.yml → lobby-water-portals.<name>) — Lunar waypoint + hint while standing in portal water.
+# All user-facing strings use keys from messages.yml (edit there for translations / colors).
+lobby-water-portals:
+  enabled: true
+  defaults:
+    waypoint-name-message: "lunar.water-portal.waypoint-name"
+    hint-notification-enabled: true
+    # If true, Lunar hint only when the player enters a portal (not every move inside).
+    hint-only-on-enter: true
+    hint-title-message: "lunar.water-portal.hint-title"
+    hint-description-message: "lunar.water-portal.hint-desc"
+    hint-display-seconds: 4
+    waypoint-color: "#00CCFF"
+  # Per-portal overrides — key must match the portal name in lobby-water-portals (case-insensitive).
+  portals: {}
+  # Example:
+  # portals:
+  #   duels:
+  #     waypoint-name-message: "lunar.water-portal.duels-waypoint"
+  #     hint-title-message: "lunar.water-portal.duels-title"
+  #     hint-description-message: "lunar.water-portal.duels-desc"

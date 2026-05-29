@@ -1,0 +1,33 @@
+# default config.yml for ConsoleSpamFixReborn
+# for bukkit/folia and forks
+
+#Add here the messages you want to hide from your console and logs.
+#Each line represents a new message.
+#NOTE! You dont need to add the full message!
+#The plugin will hide all messages that contain the text added below.
+#  EXAMPLE:
+#
+#    Messages-To-Hide-Filter:
+#    - 'No new version available'
+#
+#  All messages that will appear in the server console that contain these words 'WARNING: unlocalizedName' will be hidden and they will not appear on logs or console.
+#  If you have large errors you dont have to type the full error. But the more words you add the more accurate will be and will not hide other messages that may contain the words added in the filter.
+
+Messages-To-Hide-Filter:
+  contains:
+    - 'First example message'
+    - 'Second example message'
+  regex:
+    - '^Third example message$'
+    - '^\[.*\] Fourth example message$'
+
+
+#Chat messages with color and format codes support.
+#Minecraft Color and Format Codes: http://minecraft.gamepedia.com/Formatting_codes    
+ChatMessages:
+    NoPermission: '[System] You don''t have permission!'
+    CmdHelp: '[System] &cAvailable commands:&6 /csf reload'
+    CmdReload: '[System] Config reload complete!'
+
+# !NOTE: DONT CHANGE CONFIG VERSION!
+_config-version: 2

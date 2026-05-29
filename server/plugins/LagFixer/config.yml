@@ -1,0 +1,51 @@
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+# ░██╗░░░░░░█████╗░░██████╗░░░███████╗██╗██╗░░██╗███████╗██████╗░░
+# ░██║░░░░░██╔══██╗██╔════╝░░░██╔════╝██║╚██╗██╔╝██╔════╝██╔══██╗░
+# ░██║░░░░░███████║██║░░██╗░░░█████╗░░██║░╚███╔╝░█████╗░░██████╔╝░
+# ░██║░░░░░██╔══██║██║░░╚██╗░░██╔══╝░░██║░██╔██╗░██╔══╝░░██╔══██╗░
+# ░███████╗██║░░██║╚██████╔╝░░██║░░░░░██║██╔╝╚██╗███████╗██║░░██║░
+# ░╚══════╝╚═╝░░╚═╝░╚═════╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+# To configure modules you need to go to /plugins/LagFixer/modules/<module>.yml
+
+# Some of the options below require a server restart or plugin reload.
+main:
+  prefix: '&8[&e&l⚡&8] '
+  # Displays LagFixer version info on hover.
+  prefix_hover: true
+  
+  monitor:
+    # Monitor for TPS, MSPT, CPU, and other metrics.
+    resource:
+      enabled: true
+      # Update interval in seconds
+      interval: 5
+    
+    # Monitor for counting entities and chunks.
+    worlds:
+      enabled: true
+      # Update interval in seconds
+      interval: 30
+    
+    # Map server load chart (/lagfixer map)
+    map:
+      enabled: true
+      # Update interval in seconds
+      interval: 3
+      id: 3
+  
+  # Automatically reports LagFixer errors and Spark profiler to our support team.
+  errors_reporter: true
+  # Automatically checks for updates and notifies the console and players with permission.
+  updater: true
+  # Displays warnings for legacy methods without support.
+  warnings: true
+  # Optimized metrics available at https://bstats.org/plugin/bukkit/LagFixer/19292.
+  bStats: true
+  
+  command:
+    permission: lagfixer.command
+    aliases:
+    - lf
+    - antilag
+    - lag

@@ -1,0 +1,21 @@
+allowed-items:
+  # FIND ITEM NAMES HERE: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  - NETHERITE_HOE
+  - DIAMOND_HOE
+  - IRON_HOE
+  - STONE_HOE
+  - GOLDEN_HOE
+  - WOODEN_HOE
+  - WOODEN_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLDEN_AXE
+  - DIAMOND_AXE
+  - NETHERITE_AXE
+
+messages:
+  #COLOR CODES CAN BE FOUND https://htmlcolorcodes.com/
+  enabled: "#808080Autoreplant is now #008000Enabled"
+  disabled: "#808080Autoreplant is now #FF0000Disabled"
+  usage: "Usage: /autoreplant"
+  no_permission: "#8B0000You don't have permission to use this command!"

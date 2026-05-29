@@ -1,0 +1,61 @@
+inventory:
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:bow
+  count: 1
+  components:
+    minecraft:enchantments: '{"minecraft:flame":1}'
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:arrow
+  count: 20
+  schema_version: 1
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:golden_helmet
+  count: 1
+  components:
+    minecraft:enchantments: '{"minecraft:protection":1}'
+  schema_version: 1
+requirePermission: true
+icon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:dandelion
+  count: 1
+  schema_version: 1
+lockedIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:barrier
+  count: 1
+  schema_version: 1
+position: 10
+page: 2
+name: Princess
+enabled: true
+lores:
+  unlocked:
+  - '&7Set enemies on fire from afar'
+  - '&7with a flame bow and protected helmet'
+  locked: '&cA permission is required to unlock this kit!'
+gameSettings:
+  noRegen: false
+  noPvp: false
+  soupPvp: false
+  noFallDamage: false
+filename: Princess

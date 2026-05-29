@@ -1,0 +1,88 @@
+combat-log:
+  # =========================
+  # Core settings
+  # =========================
+  timer:
+    duration-seconds: 5                 # Combat timer duration
+    display: actionbar                   # actionbar | bossbar
+
+  restrictions:
+    elytra:
+      disabled-in-combat: false          # Disable elytra flight while in combat
+    teleporting:
+      disabled-in-combat: true          # Disable any teleport while in combat
+    mending:
+      disabled-in-combat: false
+    riptide:
+      stop: false
+      cooldown: 10000                    # riptide cooldown (ms)
+    explosions:
+      set-combat-on-explosion: true      # End crystals + block explosions set combat
+
+  punishment:
+    damage: 16.0                          # Damage penalty for restricted actions (0 = off)
+    kill-on-logout: false                # Kill player if they log out in combat
+
+  # =========================
+  # Special triggers
+  # =========================
+  triggers:
+    enderpearl:
+      set-combat-on-land: false           # Pearl on land triggers combat
+      only-if-already-in-combat: false   # If false: pearl can start combat
+
+  # =========================
+  # Exclusions / blocks
+  # =========================
+  ignored-worlds:
+    - "hub"                              # Worlds where combat timer is ignored
+    - "OBspawn"
+    - "Bedwars"
+
+  blocked-commands:
+    - "tpa"                              # Commands blocked during combat
+    - "spawn"
+    - "home"
+    - "warp"
+    - "rtp"
+    - "tpaccept"
+    - "tpdeny"
+
+  # =========================
+  # Combat zone
+  # =========================
+  combat-zone:
+    enabled: false
+    radius: 10
+
+  # =========================
+  # Potion effects on combat tag
+  # =========================
+  tag-effects:
+   - type: BLINDNESS
+     duration-seconds: 10
+     amplifier: 225
+     show-particles: false
+   - type: MINING_FATIGUE
+     duration-seconds: 10
+     amplifier: 225
+     show-particles: false
+
+  # =========================
+  # WorldGuard integration
+  # =========================
+  worldguard:
+    safe-zone-barrier:
+      enabled: true                      # Show visual barrier at safe zone borders
+      material: BARRIER                  # Any valid Material name (e.g. BARRIER, BLUE_STAINED_GLASS)
+      radius: 1                          # Radius of fake blocks shown around the boundary (in blocks)
+
+anti-kill-abuse:
+  enabled: true
+
+  limits:
+    max-kills: 10                          # more than 5 kills = abuse
+    remove-kill-after-seconds: 30         # kill removed from list after X seconds
+
+  punish-commands:
+   - "broadcast ⚠ %player% is spam killing, beware! ⚠"

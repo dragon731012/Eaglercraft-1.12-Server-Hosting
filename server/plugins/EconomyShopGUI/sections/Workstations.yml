@@ -1,0 +1,17 @@
+enable: true
+slot: 13
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: GRINDSTONE
+  lore:
+  - '&8&lGive your villager a job,'
+  - '&8&lor use it for your own.'
+  displayname: '&7&lWorkstations'
+  name: '&7&lWorkstations'

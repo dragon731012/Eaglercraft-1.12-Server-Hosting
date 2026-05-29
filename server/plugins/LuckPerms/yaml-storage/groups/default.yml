@@ -1,0 +1,11 @@
+name: default
+permissions:
+- kitpvp.kit.*
+- multiverse.teleport.*
+- essentials.home
+- essentials.sethome
+- essentials.spawn
+- essentials.warp
+- oneblock.user
+- pit.join.PIT
+- pit.leave

@@ -1,0 +1,61 @@
+inventory:
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:wooden_sword
+  count: 1
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:sponge
+  count: 6
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:leather_chestplate
+  count: 1
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+requirePermission: true
+icon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:wooden_sword
+  count: 1
+  schema_version: 1
+lockedIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:barrier
+  count: 1
+  schema_version: 1
+position: 7
+page: 1
+name: Tactician
+enabled: true
+lores:
+  unlocked:
+  - '&7Start with a set of items'
+  - '&7that will help you eliminate the others'
+  locked: '&cA permission is required to unlock this kit!'
+gameSettings:
+  noRegen: false
+  noPvp: false
+  soupPvp: false
+  noFallDamage: false
+filename: Tactician

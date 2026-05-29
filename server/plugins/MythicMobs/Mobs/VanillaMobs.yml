@@ -1,0 +1,15 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+CAVE_SPIDER:
+  Health: 30
+  Damage: 7
+WITHER_SKELETON:
+  Health: 50
+  Damage: 10
+GIANT:
+  Health: 1000
+  Damage: 20
+  Skills:
+  - potion{type=POISON;duration=100;lvl=1} @target ~onAttack

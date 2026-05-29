@@ -1,0 +1,103 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: CAULDRON
+        buy: 150
+        sell: 38
+      '2':
+        material: DAYLIGHT_DETECTOR
+        buy: 200
+        sell: 50
+      '3':
+        material: DISPENSER
+        buy: 200
+        sell: 50
+      '4':
+        material: DROPPER
+        buy: 100
+        sell: 25
+      '5':
+        material: HOPPER
+        buy: 500
+        sell: 125
+      '6':
+        material: IRON_DOOR
+        buy: 2205
+        sell: 552
+      '7':
+        material: JUKEBOX
+        buy: 200
+        sell: 50
+      '8':
+        material: LEVER
+        buy: 20
+        sell: 5
+      '9':
+        material: NOTE_BLOCK
+        buy: 100
+        sell: 25
+      '10':
+        material: OBSERVER
+        buy: 100
+        sell: 25
+      '11':
+        material: REDSTONE_LAMP
+        buy: 5292
+        sell: 1323
+      '12':
+        material: REDSTONE_TORCH
+        buy: 613
+        sell: 154
+      '13':
+        material: TRIPWIRE_HOOK
+        buy: 30
+        sell: 8
+      '14':
+        material: COMPARATOR
+        buy: 100
+        sell: 25
+      '15':
+        material: REPEATER
+        buy: 50
+        sell: 13
+      '16':
+        material: OAK_BUTTON
+        buy: 10
+        sell: 3
+      '17':
+        material: STONE_BUTTON
+        buy: 15
+        sell: 4
+      '18':
+        material: PISTON
+        buy: 100
+        sell: 25
+      '19':
+        material: STICKY_PISTON
+        buy: 150
+        sell: 38
+      '20':
+        material: OAK_PRESSURE_PLATE
+        buy: 15
+        sell: 4
+      '21':
+        material: STONE_PRESSURE_PLATE
+        buy: 20
+        sell: 5
+      '22':
+        material: LIGHT_WEIGHTED_PRESSURE_PLATE
+        buy: 100
+        sell: 25
+      '23':
+        material: HEAVY_WEIGHTED_PRESSURE_PLATE
+        buy: 200
+        sell: 50
+      '24':
+        material: OAK_TRAPDOOR
+        buy: 20
+        sell: 5
+      '25':
+        material: IRON_TRAPDOOR
+        buy: 8820
+        sell: 2205

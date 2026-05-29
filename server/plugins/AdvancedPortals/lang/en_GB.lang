@@ -1,0 +1,234 @@
+# Same as default minecraft lang files but can handle comments if a # is the first character
+# Anything not set in translations will be defaulted back to the en_GB file.
+# The default en_GB will always be loaded before any other file, even if you make a new en_GB so that new strings
+# do not have blank values possibly making new features unusable.
+#
+# The format of included strings is %(number of argument)$s  (starts at 1 not 0)
+# So the order of variables being inserted into the string is not a set order. Just like minecraft
+#
+# For colors use & or §
+# &0   Black
+# &1   Dark Blue
+# &2   Dark Green
+# &3   Dark Aqua
+# &4   Dark Red
+# &5   Dark Purple
+# &6   Gold
+# &7   Gray
+# &8   Dark Gray
+# &9   Blue
+# &a   Green
+# &b   Aqua
+# &c   Red
+# &d   Light Purple
+# &e   Yellow
+# &f   White
+# &k   Obfuscated
+# &l   Bold
+# &m   Strikethrough
+# &n   Underline
+# &o   Italic
+# &r   Reset
+#
+# &x   Hex Color (#aa5f10 represented by &x&r&r&g&g&b&b) - Spigot 1.16.1+
+# &#   Hex color (#aa5f10 represented by &#rrggbb) - Spigot 1.16.1+
+#
+# Some debug messages may not be listed here for translation.
+
+translatedata.translationsoutdated= Some of the translations from the current translation file &e%1$s&c are out of date.
+translatedata.replacecommand= Use &e/portal langupdate&c to copy out a new default &een_GB&c file.
+translatedata.replaced= A new &een_GB&a file has been copied to the data folder.
+translatedata.updated= Lang file reloaded. &e%1$s &atranslations have been added. If you want to reset the file, Please use "&elangupdate overwrite&a".
+
+messageprefix.positive=&a[&eAdvancedPortals&a]
+messageprefix.negative=&c[&7AdvancedPortals&c]
+
+logger.pluginenable=Advanced portals have been enabled!
+logger.plugindisable=Advanced portals are being disabled!
+logger.plugincrafterror=This version of craftbukkit is not yet supported or something went wrong, please post this message with the version number and the above stacktrace in an issue on GitHub v:%1$s
+
+command.noargs= Sorry but you need to specify a sub command, please use &e/%1$s help &cif you would like a list of possible subcommands.
+command.subcommand.invalid= Sorry but that is not a valid sub command.
+
+command.help.header=&a%1$s Help - Page %2$s of %3$s
+command.help.subcommandheader=&a%1$s Help - %2$s
+command.help.invalidhelp= Sorry but &e%1$s&c is not a valid page number or sub command.
+
+command.reload.help=Reloads portal data
+command.reload.detailedhelp=Reloads all portal data from files in the data folder
+command.reload.reloaded= All Advanced Portals data reloaded. Some config values may need a full server restart or a plugin reload to take effect.
+
+command.create.help=Creates portals
+command.create.error= There was a problem making the portal.
+command.create.portal.console= You cannot create a portal using the console.
+command.create.detailedhelp=Format is /portal create (name) [tag:tagvalue] List tags after create in the format tag:value, if your value needs spaces use the format tag:"value with spaces"
+command.create.complete= The portal has been successfully created.
+
+command.create.destination.help=Creates destinations
+command.create.destination.error= There was a problem making the destination
+command.create.destination.console= You cannot create a destination using the console.
+command.create.destination.detailedhelp=Format is /desti create (name) [tag:tagvalue] List tags after create in the format tag:value, if your value needs spaces use the format tag:"value with spaces"
+command.create.destination.prep=&aCreating destination
+command.create.destination.complete= The destination has been successfully created.
+command.destination.moved=Destination "%1$s" has been moved to your current location.
+command.destination.notfound=Destination not found: "%1$s".
+command.destination.move.error=An error occurred while moving the destination.
+command.destination.move.help=/desti move <destination_name> - Move a destination to your current location.
+command.destination.move.detailedhelp=/desti move <destination_name> - Moves the destination to your current location. The destination must already exist and you must have permission to move it.
+
+command.portal.info.complete= Portal information for &e%1$s&a:
+command.portal.info.notfound= No portal by the name &e%1$s &cwas found.
+command.portal.info.noname= You must specify a name.
+
+
+command.create.tags=&aTags&7:
+
+command.playeronly= Sorry but that command can only be run by a player.
+
+command.portal.remove.noname= You need to give the name of the portal you want to remove.
+command.portal.remove.error= There was a problem removing the portal.
+command.portal.remove.noname=No portal by that name was found
+command.portal.remove.invalidselection=The portal selection you had is no longer valid
+command.portal.remove.noselection=You don't have a portal selected
+command.portal.remove.complete= The portal has been successfully removed.
+
+command.portal.show.help=Shows nearby portals
+command.portal.show.detailedhelp=Shows nearby portals. Relies on debug markers so may not work on certain versions of minecraft (1.16+ atm only).
+command.portal.show.enabled= Portal markers are now enabled.
+command.portal.show.disabled= Portal markers are now disabled.
+command.portal.show.unsupported= Portal markers are not supported on this version of minecraft. (1.16+ atm only)
+
+command.destination.noname=No destination by that name was found
+
+command.destination.rename.error= There was a problem renaming the destination.
+command.destination.rename.usage= Usage: /desti rename <oldName> <newName>
+command.destination.rename.help= Renames a destination
+command.destination.rename.detailedhelp= Renames a destination from an old name to a new name. The old name must be the name of an existing destination.
+command.destination.rename.success= The destination has been successfully renamed from &e%1$s &ato &e%2$s&a.
+command.destination.rename.notfound= No destination by the name &e%1$s &cwas found.
+
+command.destination.remove.error= There was a problem removing the destination.
+command.destination.remove.complete= The destination has been successfully removed.
+
+command.destination.show.help=Shows nearby destinations
+command.destination.show.detailedhelp=Shows nearby destinations. Relies on debug markers so may not work on certain versions of minecraft (1.16+ atm only).
+command.destination.show.enabled= Destination markers are now enabled.
+command.destination.show.disabled= Destination markers are now disabled.
+command.destination.show.unsupported= Destination markers are not supported on this version of minecraft. (1.16+ atm only)
+
+command.destination.teleport.help=Teleports to specified destination.
+command.destination.teleport.detailedhelp=Teleports to destination given by the name of the destination.
+command.destination.teleport.error= There was an error teleporting to &e%1$s&c.
+command.destination.teleport.success= You have teleported to &e%1$s&a.
+
+command.destination.teleportplayer.success= You have teleported &e%1$s &ato destination &e%2$s&a.
+command.destination.teleportplayer.error= There was an error teleporting &e%1$s &cto destination &e%2$s&c.
+
+command.destination.reload.help=Reloads the destination data from the repository.
+command.destination.reload.detailedhelp=This command will reload all destination data from the repository, updating the cache with the latest data.
+command.destination.reload= Destinations reloaded.
+
+command.portal.list.help=Lists portals
+command.portal.list=&7 Portals&a:
+
+command.portal.disablebeacon.help=Disables the gateway beacon effect for a portal
+command.portal.disablebeacon.noname= You must specify a name
+command.portal.disablebeacon.complete= The beacon effect has been disabled for the portal.
+command.portal.disablebeacon.notfound= No portal by the name &e%1$s &cwas found.
+
+command.destination.list.help=Lists destinations
+command.destination.list=&7 Destinations&a:
+
+command.selector= You have been given a portal selector.
+command.selector.help=Gives you a portal region selector
+command.selector.detailedhelp=Gives you a portal selector to select the regions for making portals.
+
+command.portal.import= &e%1$s &aportals and &e%2$s &adestinations will be imported. The config file will also be overwritten. Please type &e/portal import confirm &ato confirm this action.
+command.portal.import.confirm= &aImporting portals and destinations.
+command.portal.import.complete= &aImported &e%1$s &aportals and &e%2$s &adestinations.
+command.portal.import.help=Imports portals and destinations from the old format.
+command.portal.import.detailedhelp=Imports portals and destinations from the old format. This not overwrite any existing portals and destinations with the same name however you will lose any config values setup.
+
+command.portalblock= You have been given a &ePortal Block&a!
+
+command.endportalblock= You have been given a &8End Portal Block Placer&a!
+
+command.gatewayblock= You have been given a &8Gateway Block Placer&a!
+
+portal.error.invalidselection= You must have both pos1 and pos2 selected to create a portal.
+portal.error.takenname= The name given for the portal is already taken.
+portal.error.selection.differentworlds= Both the selected points need to be in the same world.
+portal.error.selection.missing= You need to select both points for the portal.
+portal.error.save= There was a problem saving the portal.
+portal.error.nopermission= You don't have permission to use that portal.
+
+portal.nobuild= You don't have permission to build here!
+
+desti.info.noargs=&cNo tags were given
+
+command.error.noname= You must specify a name &ename:someNameHere
+command.error.notags= No tags have been given. You need to include at least &ename:(name)&c.
+command.error.nametaken= The name &e%1$s &cis already taken.
+command.error.invalidname= The name provided is invalid. Please avoid using special characters or slashes.
+command.error.destination.notfound= No destination by the name &e%1$s &cwas found.
+
+desti.error.save= There was a problem saving the destination.
+desti.error.noname= You must specify a name. (name:someNameHere)
+desti.error.notfound= No destination by the name &e%1$s &cwas found.
+desti.error.invalidworld= Destination "%1$s" world "%2$s" is not valid/loaded.
+
+desti.warpdesti.warp=&aYou have warped to &e%1$s&a.
+
+error.notplayer=Only players can do that.
+
+portal.selector.poschange=&aYou have selected &epos%1$s &aX&7:&e%2$s &aY&7:&e%3$s &aZ&7:&e%4$s
+
+time.second=second
+time.seconds=seconds
+portal.cooldown.join=&cThere is &e%1$s &c%2$s join cooldown protection left.
+portal.cooldown.individual=&cPlease wait &e%1$s &c%2$s until attempting to enter this portal again.
+
+command.lang.help=Update the translation file
+
+command.version.help=Returns the current version of the plugin
+
+command.subcommand.nopermission= Sorry but you don't have permission for that, please use &e/%1$s help &cif you would like a list of possible sub commands.
+command.nopermission= Sorry but you don't have permission for that.
+
+items.selector.name=Portal Region Selector
+items.selector.pos=Select pos %1$s
+items.interact.left=Left Click
+items.interact.right=Right Click
+
+tag.permission.description=Sets the permission of a portal
+tag.desti.description=Sets the destination of the portal
+tag.name.error.nospaces= The name cannot contain spaces.
+tag.triggerblock.description=Sets the trigger block/s of the portal. Comma separated or multi tag.
+tag.triggerblock.error.invalidmaterial= The trigger block is invalid.
+tag.command.description=Sets a command on the post activation of the portal. Comma separated or multi tag.
+tag.portalEvent.description=Triggers the portal from portal events rather than the player entering the portal. (survival nether portal)
+tag.message.description=Sets the message to be displayed when the portal is activated
+tag.conditions.description=Sets the conditions for the portal to be activated
+tag.conditions.fail=The conditions to activate this portal have not been met
+tag.conditions.invalid=The conditions are invalid
+tag.cost.description=Sets the cost of entering the portal
+tag.cost.fail=You do not have enough money to enter this portal. The price is &e$%1$s
+tag.cost.negative=The cost must be a positive number.
+tag.cost.number=The cost must be a number.
+tag.cost.error=There was an error processing the cost. Please contact an Admin.
+
+tag.cooldown.fail= The cooldown must be a number.
+tag.command.nopermission= You do not have permission to create a command at %1$s command level
+tag.command.notenabled= Command portals of %1$s level are not enabled on this server.
+tag.command.disabled= Command portals are &edisabled &con this server. Please contact a server admin if this is an issue.
+tag.command.op.disabled= Op command portals are &edisabled &con this server. Please contact a server admin if this is an issue.
+tag.command.console.disabled= Console command portals are &edisabled &con this server. Please contact a server admin if this is an issue.
+tag.command.permswildcard.disabled= Wildcard &e*&c permission command portals are &edisabled &con this server. Please contact a server admin if this is an issue.
+tag.command.proxy.disabled= Proxy command portals are &edisabled &con this server. Please contact a server admin if this is an issue.
+
+tag.proxy.notenabled= Proxy portals are currently &edisabled &con this server. Please contact a server admin to enable them.
+tag.proxy.description= Sets the server destination of the portal.
+
+command.portal.move.help=Moves a portal to your selected region
+command.portal.move.detailedhelp=Usage: /portal move <name> - Moves the specified portal to the region you have selected with your selector tool
+command.portal.move.complete=Moved portal %1$s to your selected region

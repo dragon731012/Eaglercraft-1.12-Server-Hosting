@@ -1,0 +1,8 @@
+mysql:
+  enable: false #WILL USE YAML INSTEAD OF SQL IF IT IS FALSE
+  host: 'localhost'
+  user: 'root'
+  password: ''
+  database: 'minecraft'
+  port: 3306
+UseSSL: 'false'

@@ -1,0 +1,145 @@
+Prefix: '&8[&cThePit&8] '
+ScoreBoardEnabled: false
+ScoreBoard-Interval-Update: 3
+UseVault: false
+bungeemode: false
+Commands-ON-KILL-Enabled: false
+Commands-Executed-On-Kill:
+- givecoins %killer% 50
+- effect %killed% speed 20
+DisableWorldLeaveThePitEvent: false
+EnableBuildingOnThePit: false
+PlayersRemainOnThePitOnLeave: false
+disable-negation-of-ajleaderboards-no-update-permission: false
+Permission: '&cSorry, but you dont have the permission to use this.'
+Message:
+  ThePitJoin-Message: '&eYou join in the ThePit'
+  ThePitLeave-Message: '&eYou leave the ThePit'
+  BlockedCMD-OnThePit: '&eThis command cannot be perfomed on ThePit! Write /thepit
+    leave to leave!'
+  Clear: '&eYou returned to the THEPIT spawn'
+Title:
+  DeathTitle: '&cYou died'
+  DeathSubTitle: '&7Try again'
+  JoinTitle: '&eYou joined on the ThePit'
+  JoinSubTitle: '&eHave a great game!'
+  LeaveTitle: '&cYou leave the ThePit!'
+  LeaveSubTitle: '&cTo join again use: /ThePit join'
+RespawnSound: true
+Sound:
+  Kit: ENTITY_ITEM_PICKUP
+  ShopMenu: BLOCK_CHEST_OPEN
+  KitUse: ENTITY_ENDER_DRAGON_HURT
+  Soup: ENTITY_GENERIC_EAT
+  Fisherman: ENTITY_ENDERMAN_TELEPORT
+  Spiderman: ENTITY_SLIME_JUMP
+  Respawn: ENTITY_PLAYER_LEVELUP
+  Join: ENTITY_PLAYER_LEVELUP
+  KitMenu: BLOCK_WOODEN_DOOR_CLOSE
+  SpongeUse: ENTITY_ENDERMAN_TELEPORT
+  BowlDrop: ENTITY_ITEM_PICKUP
+  ErrorMessage: ENTITY_ARROW_HIT_PLAYER
+  ItemDespawn: BLOCK_LAVA_POP
+  SucefullMessage: ENTITY_EXPERIENCE_ORB_PICKUP
+  NoPermissionMessage: ENTITY_WITHER_SHOOT
+  SwitcherShoot: ENTITY_ENDERMAN_TELEPORT
+  Timelord: ENTITY_WITHER_SPAWN
+  Stomper: ENTITY_FIREWORK_ROCKET_BLAST
+  NarutoAbility: ENTITY_BLAZE_DEATH
+  CommandsSounds: UI_BUTTON_CLICK
+  ShopMenu-Click: ENTITY_PLAYER_LEVELUP
+  Streak: LEVEL_UP
+  Airman-Fly: ENTITY_ENDERMAN_SCREAM
+  DoubleJump-Ability: ENTITY_FIREWORK_ROCKET_BLAST
+  StomperDamage: BLOCK_ANVIL_LAND
+  1v1: UI_BUTTON_CLICK
+  ClickTest: UI_BUTTON_CLICK
+  AnchorHit: BLOCK_ANVIL_LAND
+  RyuAbility: ENTITY_GENERIC_EXPLODE
+  Respawning: UI_BUTTON_CLICK
+  RespawnSucess: ENTITY_EXPERIENCE_ORB_PICKUP
+EnableCommandBlockingInThePit: false
+DisableHungerOnThePit: true
+DisableDropsOnThePit: true
+DisablePickupItemsOnThePit: true
+ClearItemsOnGround: true
+ClearInterval: 10
+Death:
+  # death message
+  Tell: You have died to %player%! You lost 50 coins.
+Kill:
+  Tell: You killed %player%, you earned 100 coins.
+SendIPAddressData: true
+SpongeBoostAmplifier: 8
+EnableOnlyCommandsAllowedInKitPvP: true
+ALLOWED_COMMANDS:
+- /kitpvp
+- /tell
+- /msg
+- /w
+- /adminmode
+- /sc
+- /tp
+- /tpall
+- /kpkitmenu
+- /tag
+- /mute
+- /kick
+- /warn
+- /ac
+- /staffchat
+- /ban
+- /tag
+- /kp
+- /kitpvp
+- /stats
+- /kpkills
+- /kpsetlevel
+- /givecoins
+- /coins
+- /score
+- /sb
+- /gm
+- /gamemode
+BLOCKED_COMMANDS:
+- /warp
+- /ewarp
+- /tpa
+- /etpa
+- /server
+- /sw
+- /skywars
+- /bw
+- /bedwars
+- /home
+- /ehome
+- /is
+- /spawn
+- /island
+- /mines
+status:
+  retaliado1:
+    kills: 2
+    deaths: 0
+  retaliado2:
+    kills: 2
+    deaths: 0
+Spawn:
+  World: world
+  X: 45.80294662701026
+  Y: 124.86933315841993
+  Z: -91.71575866737658
+  Pitch: 42.90001
+  Yaw: -9.5999975
+SpawnD:
+  World: world
+  X: 45.80294662701026
+  Y: 124.86933315841993
+  Z: -91.71575866737658
+  Pitch: 42.90001
+  Yaw: -9.5999975
+TOP:
+  World: PIT
+  X: -64.99641247016095
+  Y: 77.0
+  Z: -105.01876845139775

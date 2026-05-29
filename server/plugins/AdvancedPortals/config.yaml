@@ -1,0 +1,30 @@
+blockSpectatorMode: true
+commandPortals:
+  console: true
+  enabled: true
+  op: true
+  permsWildcard: true
+  proxy: true
+defaultTriggerBlock: NETHER_PORTAL
+disableGatewayBeam: true
+disablePhysicsEvents: false
+disablePlayerDataSaving: false
+enableProxySupport: false
+joinCooldown: 5
+maxPortalVisualisationSize: 1000
+maxSelectionVisualisationSize: 9000
+playFailSound: true
+portalProtection: true
+portalProtectionRadius: 5
+selectorMaterial: IRON_AXE
+showVisibleRange: 50
+stopWaterFlow: true
+throwbackStrength: 0.7
+translationFile: en_GB
+useOnlySpecialAxe: true
+warpEffect:
+  enabled: true
+  soundEffect: ender
+  visualEffect: ender
+warpMessageInChat: false
+warpMessageOnActionBar: true

@@ -1,0 +1,79 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SkeletalKnight:
+  Type: WITHER_SKELETON
+  Display: '&aSkeletal Knight'
+  Health: 40
+  Damage: 8
+  Equipment:
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  - IRON_SWORD HAND
+  - SHIELD OFFHAND
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  LevelModifiers:
+  - health 5
+  - damage 0.5
+  Options:
+    MovementSpeed: 0.1
+SkeletonKing:
+  Type: WITHER_SKELETON
+  Display: '&6Skeleton King'
+  Health: 500
+  Damage: 10
+  Skills:
+  - speak{m="None may challenge the Skeleton King!";cooldown=20} @PlayersInRadius{r=40}
+    ~onCombat >0 0.2
+  - speak{m="Ahahahahah! Die, <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill
+    >0 1
+  - skill{s=SummonSkeletons} @self 0.1
+  - skill{s=SmashAttack} @target >0 0.2
+  Equipment:
+  - KingsCrown HEAD
+  - SkeletonKingSword HAND
+  Drops:
+  - SkeletonKingDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+SkeletalMinion:
+  Type: SKELETON
+  Display: '&2Skeletal Minion'
+  Health: 10
+  Damage: 2
+  Options:
+    MovementSpeed: 0.1
+StaticallyChargedSheep:
+  Type: SHEEP
+  Display: '&aStatically Charged Sheep'
+  Health: 100
+  Damage: 2
+  Options:
+    MovementSpeed: 0.3
+  DamageModifiers:
+  - LIGHTNING 0
+  - FIRE 0.5
+  Skills:
+  - lightning @LivingInRadius{r=10} ~onTimer:100
+AngrySludge:
+  Type: SLIME
+  Display: '&aAngry Sludge'
+  Health: 100
+  Damage: 2
+  Options:
+    Size: 20
+    MovementSpeed: 0.1
+    PreventSlimeSplit: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    KnockbackResistance: 1
+  Skills:
+  - skill{s=AngrySludgePoison} 0.2
+  - blockmask{material=SLIME_BLOCK;r=1;duration=100} @self ~onTimer:20

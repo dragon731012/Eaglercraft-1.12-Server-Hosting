@@ -1,0 +1,35 @@
+Kit:
+  Permission: kp.kit.tank
+  Cooldown: 0
+  Level: 0
+Inventory:
+  Armor:
+    Helmet:
+      Name: '&7Tank Helmet'
+      Material: IRON_HELMET
+    Chestplate:
+      Name: '&7Tank Chestplate'
+      Material: DIAMOND_CHESTPLATE
+    Leggings:
+      Name: '&7Tank Leggings'
+      Material: DIAMOND_LEGGINGS
+    Boots:
+      Name: '&7Tank Boots'
+      Material: IRON_BOOTS
+  Items:
+    0:
+      Name: '&aTank''s Sword'
+      Material: IRON_SWORD
+    1:
+      Name: '&aSpeed Boost &7(Right Click)'
+      Material: FEATHER
+    8:
+      Name: '&aPlayer Tracker &7(Right Click)'
+      Material: COMPASS
+    Fill:
+      Name: '&aRegenerative Soup &7(Right Click)'
+      Material: MUSHROOM_SOUP
+Effects:
+  SLOW:
+    Amplifier: 2
+    Duration: -1

@@ -1,0 +1,11 @@
+# Spawns on grass blocks.
+flowers:
+- SUGAR_CANE
+- CORNFLOWER
+- OXEYE_DAISY
+- RED_TULIP
+- BLUE_ORCHID
+- DANDELION
+- POPPY
+- YELLOW_FLOWER
+- RED_ROSE

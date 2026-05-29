@@ -1,0 +1,94 @@
+#
+# Item Configuration Options
+#
+# More information about Mythic item features can be found here:
+# https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Items/Items
+#
+Configuration:
+  
+  # ================================================================================
+  # Item Updater
+  # ================================================================================
+  ItemUpdating:
+    Enabled: true
+    OnLogin: true
+    OnScroll: true
+    OnInvClose: true
+  
+  # ================================================================================
+  # FancyDrop Everything (EXPERIMENTAL)
+  # ================================================================================
+  EnableFancyDropEffectsEverywhere: false
+  
+  # ================================================================================
+  # Item Defaults - choose what item options default to
+  # ================================================================================
+  DefaultItemOptions:
+    Material: STONE
+    PreventEnchanting: false # Can be true or false
+    PreventCrafting: modeled # Can be true, false, modeled, or default
+    PreventAnviling: default # Can be true, false, modeled, or default
+    PreventSmithing: default # Can be true, false, modeled, or default
+  
+  # ================================================================================
+  # Item Skills (requires Crucible)
+  # ================================================================================
+  ItemSkills:
+    JoinDelay: 20 # Delay when joining before items are scanned
+  
+  # ================================================================================
+  # Item Stats (requires Crucible)
+  # ================================================================================
+  ItemStats:
+    Rounding: 2 # Default decimal places to round stats to when generated
+    SaveRatios: false # Save generated stat ratios for the Item Updater
+  
+  # ================================================================================
+  # Lore Templates (requires Crucible)
+  # ================================================================================
+  LoreTemplates:
+    EnableDefaultTemplate: false # If the default template should be applied to all items
+    DefaultTemplateName: DEFAULT # The name of the default template
+    DefaultTemplate: # The default lore template
+      - Line:
+        - '{stats}'
+        - '{stats}<gray>Bonus Stats:'
+        - '{stats-each}<green> <stat.display>'
+      - Filler: ''
+      - Line:
+        - '{augments:GEM}<gray>Gems:'
+        - '{augments-each:GEM}<yellow><augment.display>'
+      - Filler: ''
+      - Line:
+        - '{lore}'
+  
+  # ================================================================================
+  # Custom Blocks (requires Crucible)
+  # ================================================================================
+  CustomBlocks:
+    SwapIsPickBlock: true # Can be true or false
+  
+  # ================================================================================
+  # Custom Equippables (requires Crucible)
+  # ================================================================================
+  Equippables:
+    Enabled: false
+    CustomSlots:
+    - Id: NECKLACE
+      Display: Neck
+      EquipConditions:
+      - itemGroup{group=NECK}
+    - Id: RING_1
+      Display: Ring
+      EquipConditions:
+      - itemGroup{group=RING}
+    - Id: RING_2
+      Display: Ring
+      EquipConditions:
+      - itemGroup{group=RING}
+  
+  # ================================================================================
+  # Custom Furniture (requires Crucible)
+  # ================================================================================
+  Furniture:
+    DefaultType: DISPLAY # Can be DISPLAY, ARMOR_STAND or ITEM_FRAME

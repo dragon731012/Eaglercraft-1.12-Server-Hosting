@@ -1,0 +1,2 @@
+# Crate drop tables (crate events). ChestManager reads chestItems keyed by loot chance (1-100).
+chestItems: {}

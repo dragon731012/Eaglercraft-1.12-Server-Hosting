@@ -1,0 +1,130 @@
+chestItems:
+  '60':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 32
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 22
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 16
+  '40':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 19
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 16
+  '25':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_AXE
+  '20':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: GRILLED_PORK
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 8
+  '15':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 4
+  '5':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+    - ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      type: EGG
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_DAMAGE: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+  '1':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16386
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 1

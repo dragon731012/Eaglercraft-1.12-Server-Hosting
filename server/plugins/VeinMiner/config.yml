@@ -1,0 +1,53 @@
+# Please note that REDSTONE_ORE and GLOWING_REDSTONE_ORE are the same blocks, but both are necessary in the list in order for it to work. 
+# |-->  Reason: Touching a redstone block turns it into a glowing redstone ore, and the plugin needs to be able to detect both
+
+# ActivationMode values are as followed:
+# |--> 'SNEAK': Activated upon breaking block whilst sneaking
+# |--> 'STAND': Activated upon breaking block whilst standing up
+
+# Specifying block data values:
+# |--> Simply specify your block ID, and use a semi-colon to promptly place your data value
+# |--> Example: "STONE;1" will specify granite
+
+# For a list of valid material values, please view https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+MetricsEnabled: true
+ActivationMode: SNEAK
+RepairFriendlyVeinminer: true
+IncludeEdges: true
+DisabledWorlds:
+
+Tools:
+  Pickaxe:
+    MaxVeinSize: 64
+  Axe:
+    MaxVeinSize: 64
+  Shovel:
+    MaxVeinSize: 64
+  Hoe:
+    MaxVeinSize: 64
+  Shears:
+    MaxVeinSize: 64
+  Hand:
+    InheritMaterialsFromAll: true
+
+BlockList: Moved to categories.yml
+Aliases:
+  unnamed_alias_1:
+  - minecraft:red_mushroom_block,minecraft:brown_mushroom_block
+  unnamed_alias_2:
+  - minecraft:grass,minecraft:tall_grass
+  unnamed_alias_3:
+  - minecraft:pumpkin,minecraft:carved_pumpkin
+  unnamed_alias_4:
+  - minecraft:acacia_log,minecraft:acacia_wood
+  unnamed_alias_5:
+  - minecraft:birch_log,minecraft:birch_wood
+  unnamed_alias_6:
+  - minecraft:dark_oak_log,minecraft:dark_oak_wood
+  unnamed_alias_7:
+  - minecraft:jungle_log,minecraft:jungle_wood
+  unnamed_alias_8:
+  - minecraft:oak_log,minecraft:oak_wood
+  unnamed_alias_9:
+  - minecraft:spruce_log,minecraft:spruce_wood

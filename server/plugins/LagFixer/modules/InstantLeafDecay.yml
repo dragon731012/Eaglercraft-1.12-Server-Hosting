@@ -1,0 +1,11 @@
+InstantLeafDecay:
+  enabled: true
+  worlds: # Use '*' to enable for all worlds.
+    - '*'
+  values:
+    # Items drop when leaves decay.
+    drop_items: true
+    # Maximum distance from a tree trunk for leaves to decay.
+    tree_distance: 7
+    # If false, leaves only decay when broken by players.
+    leaves_decay: true

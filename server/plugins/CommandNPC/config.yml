@@ -1,0 +1,5 @@
+ClickType: both
+CoolDown: '20'
+ExecuteCommandMessage: 'false'
+BungeeCord: 'false'
+CooldownMessage: 'true'

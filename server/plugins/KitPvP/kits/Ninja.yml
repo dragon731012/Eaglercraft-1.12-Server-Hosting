@@ -1,0 +1,40 @@
+Kit:
+  Permission: kp.kit.ninja
+  Level: 0
+  Cooldown: 0
+Inventory:
+  Armor:
+    Helmet:
+      Name: '&7Ninja Helmet'
+      Material: LEATHER_HELMET
+      Dye:
+        Red: 0
+        Green: 0
+        Blue: 0
+    Chestplate:
+      Name: '&7Ninja Chestplate'
+      Material: CHAINMAIL_CHESTPLATE
+    Leggings:
+      Name: '&7Ninja Leggings'
+      Material: CHAINMAIL_LEGGINGS
+    Boots:
+      Name: '&7Ninja Boots'
+      Material: CHAINMAIL_BOOTS
+  Items:
+    0:
+      Name: '&aNinja''s Sword'
+      Material: IRON_SWORD
+    1:
+      Name: '&aVanish Stars &7(Right Click)'
+      Material: NETHER_STAR
+      Amount: 3
+    8:
+      Name: '&aPlayer Tracker &7(Right Click)'
+      Material: COMPASS
+    Fill:
+      Name: '&aRegenerative Soup &7(Right Click)'
+      Material: MUSHROOM_SOUP
+Effects:
+  SPEED:
+    Amplifier: 1
+    Duration: -1

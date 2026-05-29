@@ -1,0 +1,61 @@
+inventory:
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:wooden_sword
+  count: 1
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:blaze_spawn_egg
+  count: 2
+  components:
+    minecraft:damage: '0'
+  schema_version: 1
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:chainmail_chestplate
+  count: 1
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+requirePermission: true
+icon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:blaze_spawn_egg
+  count: 1
+  components:
+    minecraft:damage: '0'
+  schema_version: 1
+lockedIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:barrier
+  count: 1
+  schema_version: 1
+position: 13
+page: 1
+name: Blaze
+enabled: true
+lores:
+  unlocked:
+  - '&7Spawn blazes that will protect'
+  - '&7you and set everyone on fire!'
+  locked: '&cA permission is required to unlock this kit!'
+gameSettings:
+  noRegen: false
+  noPvp: false
+  soupPvp: false
+  noFallDamage: false
+filename: Blaze

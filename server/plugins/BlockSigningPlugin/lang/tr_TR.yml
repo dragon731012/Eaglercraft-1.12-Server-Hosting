@@ -1,0 +1,38 @@
+msg:
+  duplicate_removed: 'Çoğaltılmış eşya kaldırıldı: {hash}'
+  cross_duplicate_removed: 'Envanterler arası çoğaltma kaldırıldı: {hash}'
+broadcast:
+  cross_duplicate_removed: '&c[Anti-Dupe] {player} çoğaltma yaparken yakalandı! (Oyuncu: {player},
+    Hash: {hash}, Zaman: {time})'
+  duplicate_removed: '&c[Anti-Dupe] {player} çoğaltma yaparken yakalandı! (Oyuncu: {player},
+    Hash: {hash}, Zaman: {time})'
+cmd:
+  recovery:
+    usage: 'Kullanım: /antidupe recovery give <player>'
+    given: En son kurtarılan eşya {player} oyuncusuna verildi.
+    none: Bu oyuncu için kurtarma kaydı bulunamadı.
+  customitem:
+    added: 'Korumalı özel eşya adı eklendi: {name}'
+    list: 'Korumalı özel eşya adları: {names}'
+    removed: 'Korumalı özel eşya adı kaldırıldı: {name}'
+prefix: '&c[Anti-Dupe]&r '
+title:
+  no_duping: '&4 DUP YOK! '
+discord:
+  offence_detected:
+    title: Anti-Dupe ihlali tespit edildi
+    description: '{player} Anti-Dupe tespitini tetikledi.'
+  removed_duplicates:
+    title: Anti-Dupe çoğaltılmış eşyaları kaldırdı
+    description: Kopyalar kaldırıldı ve yedeklendi.
+  ban:
+    title: Anti-Dupe yasağı
+    description: '{player} Anti-Dupe tarafından yasaklandı.'
+  field:
+    player: Oyuncu
+    uuid: UUID
+    world: Dünya
+    location: Konum
+    action: Eylem
+    reason: Sebep
+    items: Eşyalar

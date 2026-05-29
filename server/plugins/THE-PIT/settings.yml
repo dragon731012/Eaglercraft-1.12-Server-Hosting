@@ -1,0 +1,235 @@
+#If the player kills a player put here the quantity of earned coins
+Earned-Coins-Per-Kill: 100
+#If the player is killed put here the quantity of lost coins
+Lost-Coins-Per-Death: 50
+#XP Earned on kill
+XPEarned-OnKill: 25
+#XP Lost on death
+XPLost-OnDeath: 10
+#XP REQUIRED TO LEVELUP
+XP-Required-To-LevelUP: 200
+
+
+#Customize here the killstreak rewards
+KS-3: 150
+KS-5: 300
+KS-10: 500
+KS-15: 700
+KS-20: 900
+KS-25: 1200
+KS-30: 1500
+KS-40: 2000
+KS-50: 3200
+KS-60: 4100
+KS-65: 5000
+KS-70: 5800
+KS-80: 6100
+KS-90: 6500
+KS-100: 8000
+
+#Levels Prefix
+#Needs placeholder %kp-pvp_player_levelprefix% in a tab/chat plugin to get them displayed
+Levels:
+  Levels:
+    0:
+      Prefix: '&7[%level%]'
+    1:
+      Prefix: '&7[%level%]'
+    2:
+      Prefix: '&7[%level%]'
+    3:
+      Prefix: '&7[%level%]'
+    4:
+      Prefix: '&7[%level%]'
+    5:
+      Prefix: '&7[%level%]'
+    6:
+      Prefix: '&7[%level%]'
+    7:
+      Prefix: '&7[%level%]'
+    8:
+      Prefix: '&7[%level%]'
+    9:
+      Prefix: '&7[%level%]'
+    10:
+      Prefix: '&7[%level%]'
+    11:
+      Prefix: '&7[%level%]'
+    12:
+      Prefix: '&7[%level%]'
+    13:
+      Prefix: '&7[%level%]'
+    14:
+      Prefix: '&7[%level%]'
+    15:
+      Prefix: '&7[%level%]'
+    16:
+      Prefix: '&7[%level%]'
+    17:
+      Prefix: '&7[%level%]'
+    18:
+      Prefix: '&7[%level%]'
+    19:
+      Prefix: '&7[%level%]'
+    20:
+      Prefix: '&9[%level%]'
+    21:
+      Prefix: '&9[%level%]'
+    22:
+      Prefix: '&9[%level%]'
+    23:
+      Prefix: '&9[%level%]'
+    24:
+      Prefix: '&9[%level%]'
+    25:
+      Prefix: '&9[%level%]'
+    26:
+      Prefix: '&9[%level%]'
+    27:
+      Prefix: '&9[%level%]'
+    28:
+      Prefix: '&9[%level%]'
+    29:
+      Prefix: '&9[%level%]'
+    30:
+      Prefix: '&9[%level%]'
+    31:
+      Prefix: '&9[%level%]'
+    32:
+      Prefix: '&9[%level%]'
+    33:
+      Prefix: '&9[%level%]'
+    34:
+      Prefix: '&9[%level%]'
+    35:
+      Prefix: '&9[%level%]'
+    36:
+      Prefix: '&9[%level%]'
+    37:
+      Prefix: '&9[%level%]'
+    38:
+      Prefix: '&9[%level%]'
+    39:
+      Prefix: '&9[%level%]'
+    40:
+      Prefix: '&e[%level%]'
+    41:
+      Prefix: '&e[%level%]'
+    42:
+      Prefix: '&e[%level%]'
+    43:
+      Prefix: '&e[%level%]'
+    44:
+      Prefix: '&e[%level%]'
+    45:
+      Prefix: '&e[%level%]'
+    46:
+      Prefix: '&e[%level%]'
+    47:
+      Prefix: '&e[%level%]'
+    48:
+      Prefix: '&e[%level%]'
+    49:
+      Prefix: '&e[%level%]'
+    50:
+      Prefix: '&e[%level%]'
+    51:
+      Prefix: '&e[%level%]'
+    52:
+      Prefix: '&e[%level%]'
+    53:
+      Prefix: '&e[%level%]'
+    54:
+      Prefix: '&e[%level%]'
+    55:
+      Prefix: '&e[%level%]'
+    56:
+      Prefix: '&e[%level%]'
+    57:
+      Prefix: '&e[%level%]'
+    58:
+      Prefix: '&e[%level%]'
+    59:
+      Prefix: '&e[%level%]'
+    60:
+      Prefix: '&e[%level%]'
+    61:
+      Prefix: '&e[%level%]'
+    62:
+      Prefix: '&e[%level%]'
+    63:
+      Prefix: '&e[%level%]'
+    64:
+      Prefix: '&e[%level%]'
+    65:
+      Prefix: '&e[%level%]'
+    66:
+      Prefix: '&e[%level%]'
+    67:
+      Prefix: '&e[%level%]'
+    68:
+      Prefix: '&e[%level%]'
+    69:
+      Prefix: '&e[%level%]'
+    70:
+      Prefix: '&6[%level%]'
+    71:
+      Prefix: '&6[%level%]'
+    72:
+      Prefix: '&6[%level%]'
+    73:
+      Prefix: '&6[%level%]'
+    74:
+      Prefix: '&6[%level%]'
+    75:
+      Prefix: '&6[%level%]'
+    76:
+      Prefix: '&6[%level%]'
+    77:
+      Prefix: '&6[%level%]'
+    78:
+      Prefix: '&6[%level%]'
+    79:
+      Prefix: '&6[%level%]'
+    80:
+      Prefix: '&6[%level%]'
+    81:
+      Prefix: '&6[%level%]'
+    82:
+      Prefix: '&6[%level%]'
+    83:
+      Prefix: '&6[%level%]'
+    84:
+      Prefix: '&6[%level%]'
+    85:
+      Prefix: '&6[%level%]'
+    86:
+      Prefix: '&6[%level%]'
+    87:
+      Prefix: '&6[%level%]'
+    88:
+      Prefix: '&6[%level%]'
+    89:
+      Prefix: '&6[%level%]'
+    90:
+      Prefix: '&6[%level%]'
+    91:
+      Prefix: '&6[%level%]'
+    92:
+      Prefix: '&6[%level%]'
+    93:
+      Prefix: '&6[%level%]'
+    94:
+      Prefix: '&6[%level%]'
+    95:
+      Prefix: '&6[%level%]'
+    96:
+      Prefix: '&6[%level%]'
+    97:
+      Prefix: '&6[%level%]'
+    98:
+      Prefix: '&6[%level%]'
+    99:
+      Prefix: '&6[%level%]'
+    100:
+      Prefix: '&c[%level%]'

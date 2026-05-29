@@ -1,0 +1,24 @@
+# Change the command labels and aliases here to avoid conflicts with other plugins.
+# All names are automatically lowercased.
+config-version: 1
+
+commands:
+  duel:
+    name: duel
+    aliases: [1v1]
+  party:
+    name: party
+    aliases: [p, duelparty, dp]
+  queue:
+    name: queue
+    aliases: [q]
+  spectate:
+    name: spectate
+    aliases: [spec]
+  duels:
+    name: duels
+    aliases: [ds]
+  kit:
+    name: kit
+    aliases: [dkit]
+

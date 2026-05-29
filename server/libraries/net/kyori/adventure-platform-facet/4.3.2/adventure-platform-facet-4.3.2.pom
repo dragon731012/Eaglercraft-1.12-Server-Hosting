@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.kyori</groupId>
+  <artifactId>adventure-platform-facet</artifactId>
+  <version>4.3.2</version>
+  <name>adventure-platform-facet</name>
+  <description>Legacy platform integrations for the adventure UI library</description>
+  <url>https://github.com/KyoriPowered/adventure-platform</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>kashike</id>
+      <timezone>America/Vancouver</timezone>
+    </developer>
+    <developer>
+      <id>lucko</id>
+      <name>Luck</name>
+      <email>git@lucko.me</email>
+      <url>https://lucko.me</url>
+    </developer>
+    <developer>
+      <id>zml</id>
+      <name>zml</name>
+      <timezone>America/Vancouver</timezone>
+    </developer>
+    <developer>
+      <id>Electroid</id>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/KyoriPowered/adventure-platform.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/KyoriPowered/adventure-platform.git</developerConnection>
+    <url>https://github.com/KyoriPowered/adventure-platform</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/KyoriPowered/adventure-platform/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/KyoriPowered/adventure-platform/actions</url>
+  </ciManagement>
+  <dependencies>
+    <dependency>
+      <groupId>net.kyori</groupId>
+      <artifactId>adventure-platform-api</artifactId>
+      <version>4.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.kyori</groupId>
+      <artifactId>adventure-nbt</artifactId>
+      <version>4.13.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

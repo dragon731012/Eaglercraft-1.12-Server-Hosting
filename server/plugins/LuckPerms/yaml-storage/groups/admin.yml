@@ -1,0 +1,21 @@
+name: admin
+permissions:
+- essentials.gamemode.*
+- essentials.kill.*:
+    value: false
+- multiverse.core.*
+- kill.*:
+    value: false
+- worldedit.*
+- essentials.ban
+- essentials.gamemode
+- essentials.kick
+- essentials.kill:
+    value: false
+- essentials.mute
+- essentials.tp
+- essentials.tphere
+- minecraft.command.kill:
+    value: false
+parents:
+- default

@@ -1,0 +1,14 @@
+items:
+  # === FISCHE ===
+  COD: { reward: 10.0, xp: 20 }
+  SALMON: { reward: 15.0, xp: 25 }
+  TROPICAL_FISH: { reward: 50.0, xp: 100 }
+  PUFFERFISH: { reward: 60.0, xp: 120 }
+
+  # === SCHÄTZE ===
+  ENCHANTED_BOOK: { reward: 200.0, xp: 500 }
+  NAME_TAG: { reward: 100.0, xp: 200 }
+  SADDLE: { reward: 150.0, xp: 300 }
+  NAUTILUS_SHELL: { reward: 300.0, xp: 600 }
+  BOW: { reward: 50.0, xp: 100 }
+  FISHING_ROD: { reward: 50.0, xp: 100 }

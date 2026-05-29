@@ -1,0 +1,233 @@
+sounds:
+  thunder:
+    sound: ENTITY_LIGHTNING_BOLT_THUNDER
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bThunder and Lighting'
+    level: 5
+    cost: 100
+    position: 2
+    page: 1
+  witherambient:
+    sound: ENTITY_WITHER_AMBIENT
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bWither Ambient'
+    level: 10
+    cost: 100
+    position: 4
+    page: 1
+  gamemusic:
+    sound: MUSIC_GAME
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bGame Music'
+    level: 15
+    cost: 100
+    position: 6
+    page: 1
+  credits:
+    sound: MUSIC_CREDITS
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bCredits Music'
+    level: 20
+    cost: 100
+    position: 8
+    page: 1
+  witherspawn:
+    sound: ENTITY_WITHER_SPAWN
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bWither Spawn'
+    level: 25
+    cost: 100
+    position: 9
+    page: 1
+  '11':
+    sound: MUSIC_DISC_11
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bRecord 11'
+    level: 30
+    cost: 100
+    position: 11
+    page: 1
+  dragon:
+    sound: MUSIC_DRAGON
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bDragon Music'
+    level: 35
+    cost: 100
+    position: 13
+    page: 1
+  menu:
+    sound: MUSIC_MENU
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bMenu Music'
+    level: 40
+    cost: 100
+    position: 15
+    page: 1
+  '13':
+    sound: MUSIC_DISC_13
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bRecord 13'
+    level: 45
+    cost: 100
+    position: 17
+    page: 1
+  enderdragondeath:
+    sound: ENTITY_ENDER_DRAGON_DEATH
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bEnder Dragon Death'
+    level: 50
+    cost: 100
+    position: 18
+    page: 1
+  mall:
+    sound: MUSIC_DISC_MALL
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bMall Record'
+    level: 55
+    cost: 100
+    position: 20
+    page: 1
+  mellohi:
+    sound: MUSIC_DISC_MELLOHI
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bMellohi Record'
+    level: 60
+    cost: 100
+    position: 22
+    page: 1
+  cat:
+    sound: MUSIC_DISC_CAT
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bCat Record'
+    level: 65
+    cost: 100
+    position: 24
+    page: 1
+  stal:
+    sound: MUSIC_DISC_STAL
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bStal Record'
+    level: 70
+    cost: 100
+    position: 26
+    page: 1
+  far:
+    sound: MUSIC_DISC_FAR
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bFar Record'
+    level: 75
+    cost: 100
+    position: 27
+    page: 1
+  blocks:
+    sound: MUSIC_DISC_BLOCKS
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bBlocks Record'
+    level: 80
+    cost: 100
+    position: 29
+    page: 1
+  wait:
+    sound: MUSIC_DISC_WAIT
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bWait Record'
+    level: 85
+    cost: 100
+    position: 31
+    page: 1
+  chirp:
+    sound: MUSIC_DISC_CHIRP
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bChirp Record'
+    level: 90
+    cost: 100
+    position: 33
+    page: 1
+  ward:
+    sound: MUSIC_DISC_WARD
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bWard Record'
+    level: 95
+    cost: 100
+    position: 35
+    page: 1
+  strad:
+    sound: MUSIC_DISC_STRAD
+    isCustomSound: false
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bStrad Record'
+    level: 100
+    cost: 100
+    position: 36
+    page: 1
+  none:
+    sound: blank
+    isCustomSound: true
+    volume: 10
+    pitch: 1
+    icon: JUKEBOX
+    displayName: '&bNo Sound'
+    level: 0
+    cost: 0
+    position: 0
+    page: 1
+menuSize: 45

@@ -1,0 +1,38 @@
+msg:
+  duplicate_removed: 'Duplicate item removed: {hash}'
+  cross_duplicate_removed: 'Cross-inventory duplicate removed: {hash}'
+broadcast:
+  cross_duplicate_removed: '&c[Anti-Dupe] {player} was caught duping! (Player: {player},
+    Hash: {hash}, Time: {time})'
+  duplicate_removed: '&c[Anti-Dupe] {player} was caught duping! (Player: {player},
+    Hash: {hash}, Time: {time})'
+cmd:
+  recovery:
+    usage: 'Usage: /antidupe recovery give <player>'
+    given: Gave latest recovered item to {player}.
+    none: No recovery entries found for that player.
+  customitem:
+    added: 'Added protected custom item name: {name}'
+    list: 'Protected custom item names: {names}'
+    removed: 'Removed protected custom item name: {name}'
+prefix: '&c[Anti-Dupe]&r '
+title:
+  no_duping: '&4 NO DUPING! '
+discord:
+  offence_detected:
+    title: Anti-Dupe offence detected
+    description: '{player} triggered Anti-Dupe detection.'
+  removed_duplicates:
+    title: Anti-Dupe removed duplicate items
+    description: Duplicates were removed and backed up.
+  ban:
+    title: Anti-Dupe ban
+    description: '{player} was banned by Anti-Dupe.'
+  field:
+    player: Player
+    uuid: UUID
+    world: World
+    location: Location
+    action: Action
+    reason: Reason
+    items: Items

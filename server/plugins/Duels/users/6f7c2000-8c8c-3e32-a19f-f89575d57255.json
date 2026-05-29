@@ -1,0 +1,11 @@
+{
+  "uuid" : "6f7c2000-8c8c-3e32-a19f-f89575d57255",
+  "name" : "VOID",
+  "wins" : 0,
+  "losses" : 0,
+  "duelCooldownUntil" : 0,
+  "requests" : true,
+  "rating" : null,
+  "matches" : [ ],
+  "partyRequests" : true
+}

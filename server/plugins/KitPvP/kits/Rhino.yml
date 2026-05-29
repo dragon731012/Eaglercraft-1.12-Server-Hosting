@@ -1,0 +1,46 @@
+Kit:
+  Permission: kp.kit.rhino
+  Cooldown: 0
+  Level: 0
+Inventory:
+  Armor:
+    Helmet:
+      Name: '&7Rhino Helmet'
+      Material: DIAMOND_HELMET
+    Chestplate:
+      Name: '&7Rhino Chestplate'
+      Material: LEATHER_CHESTPLATE
+      Amount: 1
+      Dye:
+        Red: 76
+        Green: 76
+        Blue: 76
+    Leggings:
+      Name: '&7Rhino Leggings'
+      Material: LEATHER_LEGGINGS
+      Amount: 1
+      Dye:
+        Red: 76
+        Green: 76
+        Blue: 76
+    Boots:
+      Name: '&7Rhino Boots'
+      Material: LEATHER_BOOTS
+      Amount: 1
+      Dye:
+        Red: 76
+        Green: 76
+        Blue: 76
+  Items:
+    0:
+      Name: '&aRhino''s Sword'
+      Material: IRON_SWORD
+    1:
+      Name: '&aStampede &7(Right Click)'
+      Material: FIREWORK_STAR
+    8:
+      Name: '&aPlayer Tracker &7(Right Click)'
+      Material: COMPASS
+    Fill:
+      Name: '&aRegenerative Soup &7(Right Click)'
+      Material: MUSHROOM_SOUP

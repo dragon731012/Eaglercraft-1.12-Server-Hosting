@@ -1,0 +1,49 @@
+inventory:
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+requirePermission: true
+icon:
+  ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+lockedIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:barrier
+  count: 1
+  schema_version: 1
+position: 4
+page: 2
+name: Vengeance
+enabled: true
+lores:
+  unlocked:
+  - '&7Start with a powerful harming potion'
+  - '&7to instantly damage your enemies'
+  locked: '&cA permission is required to unlock this kit!'
+gameSettings:
+  noRegen: false
+  noPvp: false
+  soupPvp: false
+  noFallDamage: false
+filename: Vengeance

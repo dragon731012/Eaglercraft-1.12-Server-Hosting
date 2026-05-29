@@ -1,0 +1,6 @@
+{
+    "worldedit.expand.expanded": "Η περιοχή επεκτάθηκε κατά {0} blocks",
+    "worldedit.expand.expanded.vert": "Η περιοχή επεκτάθηκε κατά {0} blocks (από πάνω προς τα κάτω).",
+    "worldedit.biomeinfo.position": "Biomes στην θέση σας: {0}",
+    "worldedit.biomeinfo.selection": "Biomes στην επιλογή σας: {0}"
+}

@@ -1,0 +1,32 @@
+blocks:
+  # === OBERWELT STÄMME ===
+  OAK_LOG: { reward: 2.0, xp: 5 }
+  SPRUCE_LOG: { reward: 2.2, xp: 5 }
+  BIRCH_LOG: { reward: 2.0, xp: 5 }
+  JUNGLE_LOG: { reward: 2.5, xp: 6 }
+  ACACIA_LOG: { reward: 2.5, xp: 6 }
+  DARK_OAK_LOG: { reward: 2.2, xp: 5 }
+  MANGROVE_LOG: { reward: 3.0, xp: 7 }
+  CHERRY_LOG: { reward: 3.0, xp: 7 }
+
+  # === NETHER HÖLZER ===
+  CRIMSON_STEM: { reward: 4.0, xp: 10 }
+  WARPED_STEM: { reward: 4.0, xp: 10 }
+
+  # === ENTRINDETE VARIANTEN ===
+  STRIPPED_OAK_LOG: { reward: 2.0, xp: 5 }
+  STRIPPED_SPRUCE_LOG: { reward: 2.2, xp: 5 }
+  STRIPPED_BIRCH_LOG: { reward: 2.0, xp: 5 }
+  STRIPPED_JUNGLE_LOG: { reward: 2.5, xp: 6 }
+  STRIPPED_ACACIA_LOG: { reward: 2.5, xp: 6 }
+  STRIPPED_DARK_OAK_LOG: { reward: 2.2, xp: 5 }
+  STRIPPED_MANGROVE_LOG: { reward: 3.0, xp: 7 }
+  STRIPPED_CHERRY_LOG: { reward: 3.0, xp: 7 }
+  STRIPPED_CRIMSON_STEM: { reward: 4.0, xp: 10 }
+  STRIPPED_WARPED_STEM: { reward: 4.0, xp: 10 }
+
+  # === SONSTIGES ===
+  BAMBOO_BLOCK: { reward: 1.5, xp: 3 }
+  MUSHROOM_STEM: { reward: 1.0, xp: 2 }
+  BROWN_MUSHROOM_BLOCK: { reward: 1.0, xp: 2 }
+  RED_MUSHROOM_BLOCK: { reward: 1.0, xp: 2 }

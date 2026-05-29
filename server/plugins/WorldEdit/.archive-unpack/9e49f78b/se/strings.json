@@ -1,0 +1,17 @@
+{
+    "worldedit.restore.block-place-error": "Maŋimus meattáhus: {0}",
+    "worldedit.ceil.moved": "Woosh!",
+    "worldedit.thru.moved": "Woosh!",
+    "worldedit.jumpto.moved": "Puf!",
+    "worldedit.up.moved": "Woosh!",
+    "worldedit.timezone.invalid": "Boasttu áigiavádat",
+    "worldedit.tool.info.internalid.hover": "Siskkáldas ID",
+    "worldedit.error.incorrect-usage": "Geavaheapmi: {0}",
+    "worldedit.selection.convex.info.triangles": "Golbmačiehka: {0}",
+    "worldedit.selection.cuboid.info.pos1": "Sajus 1: {0}",
+    "worldedit.selection.cuboid.info.pos2": "Sajus 2: {0}",
+    "worldedit.selection.ellipsoid.info.center": "Guovddáš: {0}",
+    "worldedit.selection.cylinder.info.center": "Guovddáš: {0}",
+    "worldedit.sideeffect.state.on": "Oaivi",
+    "worldedit.sideeffect.state.off": "Eret alde"
+}

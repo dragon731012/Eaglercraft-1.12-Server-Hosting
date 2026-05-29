@@ -1,0 +1,164 @@
+chestItems:
+  '40':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 12
+  '35':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 24
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 27
+  '25':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      type: GRILLED_PORK
+      amount: 9
+    - ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+  '20':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 4
+  '15':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 21
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: EGG
+      amount: 8
+  '10':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16386
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 4
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+  '5':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16386
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+  '3':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_DAMAGE: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_DAMAGE: 1
+  '1':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 1

@@ -1,0 +1,18 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+RandomSkeletonKing:
+  MobType: SkeletonKing
+  Worlds: world
+  Chance: 0.001
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - outside true
+RandomSkeletalKnight:
+  MobType: SkeletalKnight
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE

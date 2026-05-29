@@ -1,0 +1,255 @@
+# Citizens Configuration
+
+npc:
+  always-use-name-holograms: false
+  pathfinding:
+    new-finder:
+      iterations-per-tick: 5000
+      check-bounding-boxes: false
+      open-doors: true
+      maximum-iterations: 5000
+    defaults:
+      destination-teleport-margin: -1
+    default-distance-margin: 2
+    default-path-distance-margin: 1
+    update-path-rate: 20
+    straight-line-targeting-distance: 5
+    disable-mc-fallback-navigation: true
+    maximum-new-pathfinder-iterations: 10000
+    maximum-visited-nodes: 768
+    minecraft:
+      max-fall-distance: 3
+      # Minecraft will pick a 'close-enough' location when pathfinding to a block if it can't find a direct path
+      # Disabled by default
+      disable-fallback-navigation: true
+      # The maximum number of blocks to check when pathfinding
+      maximum-search-blocks: 1024
+    attack-range: 3.0625
+    use-new-finder: false
+    default-destination-teleport-margin: -1
+    default-range-blocks: 75.0
+    maximum-visited-blocks: 768
+    citizens:
+      # Number of blocks to pathfind per tick
+      blocks-per-tick: 250
+      # Duration of time to keep chunks used in async pathfinding in memory for.
+      # Decrease this value if you expect chunks to be changed rapidly during pathfinding, or increase it if chunks rarely change during pathfinding at the expense of memory.
+      async-chunk-cache-expiry: 5s
+      # Whether to check bounding boxes when pathfinding such as between fences, inside doors, or other half-blocks
+      check-bounding-boxes: false
+      # Whether to simulate jumping while pathfinding - increases pathfinding CPU cost.
+      # Async pathfinder recommended. Still experimental.
+      experimental-jumps: false
+      # The maximum number of blocks to check when pathfinding
+      maximum-search-blocks: 1024
+      # Whether to open doors while pathfinding (should close them as well)
+      open-doors: true
+    # Debug pathfinding by showing fake target blocks
+    debug-paths: false
+    # Default duration in the same location before the NPC considers itself stuck and failed pathfinding
+    default-stationary-duration: -1
+    # The default action to perform when NPCs are unable to find a path or are stuck in the same block for too long
+    # Supported options are: 'teleport to destination' or 'none'
+    default-stuck-action: none
+    # The default allowed maximum fall distance when pathfinding, set to -1 to use the default value
+    allowed-fall-distance: -1
+    # The pathfinder type.
+    # Valid options are: CITIZENS, CITIZENS_ASYNC or MINECRAFT.
+    # CITIZENS_ASYNC is a new option that is faster but requires more than one processor core and more memory.
+    pathfinder-type: MINECRAFT
+  default:
+    bossbar-view-range: 64
+    waypoints:
+      cache-paths: false
+    look-close:
+      enabled: false
+      range: 5
+      random-look-enabled: false
+      random-look-delay: 60
+      disable-while-navigating: true
+      realistic-looking: false
+    pathfinding:
+      range: 75.0
+    random-talker: false
+    realistic-looking: false
+    spawn-nodamage-ticks: 20
+    stationary-ticks: -1
+    talk-close:
+      enabled: false
+      range: 5
+      random-talker: false
+      text:
+        '0': Hi, I'm <npc>!
+    text:
+      '0': Hi, I'm <npc>!
+    block-breaker-radius: -1
+    # Default duration of invincibility on entity spawn, Minecraft default is 20 ticks
+    spawn-invincibility-duration: 1s
+    # The default cost to create an NPC
+    npc-cost: 100.0
+    # Whether to reset NPC yaw on spawn
+    # Currently this is implemented by an arm swing animation due to Minecraft limitations
+    reset-yaw-on-spawn: true
+    enable-scoreboard-teams: true
+  chat:
+    options:
+      bystanders-hear-targeted-chat: false
+      max-number-of-targets-to-show: 2
+      multiple-targets-format: <target>|, <target>| & <target>| & others
+      range: 5
+      max-text-range: 500
+      talk-to-npcs: true
+    format:
+      no-targets: '[<npc>]: <text>'
+      with-target-to-bystanders: '[<npc>] -> [<target>]: <text>'
+      to-target: '<npc>: <text>'
+      with-targets-to-bystanders: '[<npc>] -> [<targets>]: <text>'
+  controllable:
+    ground-direction-modifier: 1.0
+    max-ground-speed: 0.5
+    use-boat-controls: true
+    # The maximum flying speed that controllable NPCs can reach, in Minecraft velocity units
+    max-flying-speed: 0.75
+  defaults:
+    block-breaker-radius: -1
+  hologram:
+    default-line-height: 0.4
+    # The default renderer for holograms, must be one of the following:
+    # interaction - requires 1.19+, matches nametags more closely than display
+    # display - allows for different colored backgrounds
+    # display_vehicle - mounts the display on the NPC
+    # areaeffectcloud - the safest option
+    # armorstand - the second safest option, has a hitbox clientside
+    # armorstand_vehicle - mounts the armorstand on the NPC, only useful for nameplates
+    default-renderer: display
+    default-renderer-settings:
+      seeThrough: false
+      shadowed: true
+      billboard: CENTER
+      interpolationDelay: 0
+      interpolationDuration: 0
+    # Whether to always update the hologram position every tick
+    always-update-position: false
+    # How often to update hologram names (including placeholders)
+    update-rate: 1s
+  limits:
+    default-limit: 10
+    max-permission-checks: 100
+    max-packet-entries: 15
+    max-speed: 100
+  text:
+    speech-bubble-ticks: 50
+    max-talk-cooldown: 5
+    min-talk-cooldown: 10
+    talk-item: '*'
+    # Default maximum delay when talking to players
+    default-random-text-delay-max: 10s
+    # Default minimum delay when talking to players
+    default-random-text-delay-min: 5s
+    # Default duration that speech bubbles show up for
+    speech-bubble-duration: 50t
+  tablist:
+    disable: true
+    remove-packet-delay: 1
+  follow:
+    teleport-across-worlds: true
+  skins:
+    player-join-update-delay-ticks: 60
+    max-retries: -1
+    retry-delay: 120
+    rotation-update-degrees: 90.0
+    use-latest-by-default: false
+    view-distance: 100.0
+    placeholder-update-frequency-ticks: 6000
+    # How long to wait before sending skins to joined players
+    player-join-update-delay: 1s
+    # Whether to try and look for the player skin for all new NPCs
+    # If this is set to false and you create an NPC named Dinnerbone, the NPC will have the default (steve/alex/etc) skin rather than trying to fetch the Dinnerbone skin
+    try-fetch-default-skin: true
+    # How often to update skin placeholders
+    placeholder-update-frequency: 5m
+  chunks:
+    always-keep-loaded: false
+  commands:
+    global-delay-seconds: 1
+    error-messages:
+      maximum-times-used: You have reached the maximum number of uses ({0}).
+      missing-item: Missing {1} {0}
+      no-permission: You don't have permission to do that.
+      not-enough-experience: You need at least {0} experience.
+      not-enough-money: You need at least ${0}.
+      on-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      global-maximum-times-used: You have reached the maximum number of uses ({0}).
+    # The global cooldown before a command can be used again, must be in seconds
+    global-cooldown: 1s
+  packets:
+    update-delay: 30
+  player:
+    remove-from-list: true
+  scoreboard-teams:
+    packet-send-ticks: 1
+    enable: true
+  selection:
+    item: stick
+    message: Selected [[<npc>]] (ID <id>).
+  server-ownership: false
+  teleport-delay: -1
+  delay-player-teleport-ticks: -1
+  movement:
+    # Movement speed percentage increase while in water
+    water-speed-modifier: 1.15
+  # Use packet NPCs for name holograms (experimental)
+  use-packet-holograms: false
+  shops:
+    default-item:
+      max-repeats-on-shift-click: ''
+      result-message: ''
+      already-purchased-message: ''
+      lore: ''
+      name: ''
+      times-purchasable: ''
+      cost-message: ''
+      click-to-confirm-message: ''
+    # The global view permission that players need to view any NPC shop
+    # Defaults to empty (no permission required).
+    global-view-permission: ''
+    # Whether to add default item description placeholders for all shop items by default.
+    add-default-item-description: false
+general:
+  authlib:
+    profile-url: https://sessionserver.mojang.com/session/minecraft/profile/
+  debug-chunk-loads: false
+  debug-file: ''
+  debug-mode: false
+  debug-pathfinding: false
+  entity-spawn-wait-ticks: 20
+  color-scheme:
+    message-error: <red>
+    message-highlight: yellow
+    message: <green>
+  translation:
+    locale: ''
+  reload-warning-enabled: true
+  # Entities are no longer spawned until the chunks are loaded from disk
+  # Wait for chunk loading for one second by default, increase if your disk is slow
+  wait-for-entity-spawn: 1s
+  # Whether to reset formatting on color change.
+  # Emulates old color code behavior.
+  reset-formatting-on-color-change: false
+  # The resource pack path to save resource packs to
+  resource-pack-path: plugins/Citizens/resourcepack
+advanced:
+  check-minecraft-version: true
+economy:
+  npc:
+    cost: 100.0
+storage:
+  save-task:
+    delay: 72000
+  file: saves.yml
+  type: yaml
+  # How often to save NPCs to disk
+  save-task-frequency: 1hr
+subplugins:
+  folder: plugins

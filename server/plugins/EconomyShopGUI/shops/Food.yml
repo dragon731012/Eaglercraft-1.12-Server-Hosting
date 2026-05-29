@@ -1,0 +1,67 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: APPLE
+        buy: 15
+        sell: 4
+      '2':
+        material: BREAD
+        buy: 25
+        sell: 6
+      '3':
+        material: CAKE
+        buy: 150
+        sell: 38
+      '4':
+        material: COOKIE
+        buy: 15
+        sell: 4
+      '5':
+        material: BAKED_POTATO
+        buy: 20
+        sell: 5
+      '6':
+        material: COOKED_BEEF
+        buy: 50
+        sell: 13
+      '7':
+        material: COOKED_CHICKEN
+        buy: 40
+        sell: 10
+      '8':
+        material: COOKED_MUTTON
+        buy: 40
+        sell: 10
+      '9':
+        material: COOKED_PORKCHOP
+        buy: 50
+        sell: 13
+      '10':
+        material: COOKED_RABBIT
+        buy: 40
+        sell: 10
+      '11':
+        material: BEEF
+        buy: 30
+        sell: 8
+      '12':
+        material: CHICKEN
+        buy: 20
+        sell: 5
+      '13':
+        material: MUTTON
+        buy: 25
+        sell: 6
+      '14':
+        material: PORKCHOP
+        buy: 30
+        sell: 8
+      '15':
+        material: RABBIT
+        buy: 25
+        sell: 6
+      '16':
+        material: BEETROOT_SOUP
+        buy: 50
+        sell: 13

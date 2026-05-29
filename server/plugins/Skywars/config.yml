@@ -1,0 +1,555 @@
+# Extra join/leave and map traces in console (INFO). Set false on production to reduce noise.
+debugMode: true
+bungeeMode: false
+bungeeModeType: server
+bungeeRandomMapPickOnStart: false
+bungeeLobby: lobby
+isLobbyServer: false
+gameServers:
+  - server-name:port:display_name:max_players:team_size:127.0.0.1
+gameEndCommands:
+tauntCooldown: 10
+enablePressurePlateJoin: false
+teleportToSpawnOnJoin: true
+teleportToSpawnOnWorldEnter: true
+resourcepack: https://www.dropbox.com/s/8scs6c911y3mqbg/taunts-resource-pack.zip?dl=1
+promptForResourcePackOnJoin: false
+lobbyBoardEnabled: true
+displayPlayerLevelOnXpBar: true
+enabledLobbyGuard: true
+lobby:
+  forceSunnyWhenProtected: true
+  forceDayWhenProtected: true
+  hideJoinQuitMessages: true
+  hideDeathMessages: true
+economyEnabled: false
+clearInventoryOnLobbyJoin: true
+timeFormat: simplified
+defaultKit: "null" #Name of the starter kit, leave null for none
+slimeworldmanager:
+  enable: false
+  source: file
+game:
+  win:
+    clearInventory: true
+    enableFlight: false
+  kickOnWorldTeleport: true
+  enableQuickDeath: true
+  quickDeathY: -10
+  enablePVPTimer: true
+  PVPTimerTime: 10 # this is the time in seconds
+  enableWinMessage: true
+  enableLookDirection: true
+  worldBorder:
+    enabled: false
+    borderSize: 400
+  showHealth: true
+  snowballDamage: 1
+  eggDamage: 1
+  ecoForWin: 5
+  ecoForKill: 1
+  winCommands: []
+  killCommands: []
+  timeAfterMatch: 15
+  # After this many seconds of match time (scoreboard clock), force deathmatch if the game is still going.
+  # Set 0 to disable. Runs even when DeathMatchEvent is disabled in gameevents.yml (still needs deathmatch spawns on the map).
+  suddenDeathAfterSeconds: 900
+  waitTimer: 10
+  resetTimerOnJoin: false
+  kitVotingEnabled: false
+  spectateEnabled: true
+  maxMapSize: 400
+  tauntsEnabled: true
+  modifierLevel:
+    speed:
+    strength:
+    jump: 
+  # Auto-generated waiting lobby for team maps (no need to set /swm spawn lobby)
+  teamWaitingLobby:
+    # Y height of the platform (should be above the highest point of your maps)
+    height: 200
+    # Radius of the barrier floor (15 = 31x31 platform)
+    radius: 15
+    # Height of the invisible walls around the edge
+    wallHeight: 4
+teams:
+  usePlayerNames: true
+  usePlayerGlassColors: true
+  useTeamNumberInMenu: true
+  teamCageMaterial: YELLOW_WOOL
+  useTeamMaterialBytes: false
+  standardTeamMaterialByte: 4
+  useSeparateCages: true
+  changeTablistNames: false
+  balanceUnselectedPlayersAcrossTeams: true
+chat:
+  useTeamChat: true
+  enableFormatter: true
+  limitGameChatToGame: true
+  limitLobbyChatToLobby: true
+  limitSpecChatToSpec: true
+  externalChat:
+    useExternalChat: false
+    addPrefix: false  
+parties:
+  enabled: true
+  enablePartyAndFriendsSupport: false
+  maxPartySize: 4
+  lobbyWorlds: []
+holograms: 
+  enabled: true
+chests:
+  loadTrappedChestsAsCenter: false
+  maxItemsChest: 38
+  maxItemsDoubleChest: 53
+  # Global automatic chest refill during matches (in seconds).
+  refill:
+    enabled: true
+    intervalSeconds: 180
+    keepChestOpen: true
+    showHologram: true
+kit:
+  menuSize: 45
+  randPos: 0
+  randItem: NETHER_STAR
+  noKitPos: 44
+  noKitItem: GLASS
+titles:
+  enabled: true
+fireworks:
+  enabled: true
+  per5Ticks: 1
+sounds:
+  enabled: true
+  countdown: BLOCK_NOTE_BLOCK_BASS
+  join: BLOCK_WOODEN_DOOR_OPEN
+  leave: BLOCK_WOODEN_DOOR_CLOSE
+  openJoinMenu: BLOCK_FENCE_GATE_OPEN
+  openSpectateMenu: BLOCK_FENCE_GATE_OPEN
+  openOptionsMenu: ENTITY_ZOMBIE_VILLAGER_CURE
+  openGlassMenu: BLOCK_GLASS_BREAK
+  openWinSoundMenu: ENTITY_FIREWORK_ROCKET_BLAST
+  openKillSoundMenu: ENTITY_PIG_DEATH
+  openParticleMenu: BLOCK_GRAVEL_STEP
+  openProjectileMenu: ENTITY_ARROW_SHOOT
+  openTauntMenu: ENTITY_ENDER_DRAGON_FLAP
+  openKitMenu: ENTITY_PLAYER_ATTACK_SWEEP
+  openChestMenu: BLOCK_CHEST_OPEN
+  openHealthMenu: ENTITY_SPLASH_POTION_BREAK
+  openTimeMenu: ITEM_BOTTLE_FILL_DRAGONBREATH
+  openWeatherMenu: WEATHER_RAIN
+  openModifierMenu: ENTITY_SPLASH_POTION_BREAK
+  confirmSelectionSound: ENTITY_VILLAGER_YES
+  errorSound: ENTITY_VILLAGER_NO
+  teamJoinSound: BLOCK_NOTE_BLOCK_PLING
+signs:
+  enabled: true
+  blockoffline: COAL_BLOCK
+  blockwaiting: EMERALD_BLOCK
+  blockplaying: REDSTONE_BLOCK
+  blockending: LAPIS_BLOCK
+  almostfull: DIAMOND_HELMET
+  threefull: GOLDEN_HELMET
+  halffull: IRON_HELMET
+  almostempty: LEATHER_HELMET
+items:
+  randomVoteEnabled: true
+  joinGameItemEnabled: true
+  # When true, the lobby join item joins a random waiting arena (any mode) instead of opening solo/team GUIs.
+  joinCompassRandomJoin: false
+  spectateGameItemEnabled: true
+  optionsItemEnabled: true
+  teamSelectPosition: 2
+  teamSelectItem: END_CRYSTAL
+  kitsEnabled: true
+  kitVotePosition: 0
+  kitvote: ENDER_EYE
+  voteEnabled: true
+  votingPosition: 4
+  votingItem: COMPASS
+  exitGameItem: IRON_DOOR
+  exitPosition: 8
+  playAgainItemEnabled: true
+  playAgainPosition: 8
+  playAgainItem: EMERALD
+  rejoinItemEnabled: true
+  rejoinItemPosition: 1
+  statsItemEnabled: true
+  statsItemPosition: 6
+  backToLobbyItemEnabled: true
+  backToLobbyPosition: 8
+  exitMenuItem: BARRIER
+  prevPageItem: FEATHER
+  nextPageItem: FEATHER
+  chestVoteEnabled: true
+  chestVotePosition: 9
+  chestvote: SHIELD
+  chestrandom: NETHER_STAR
+  chestbasic: STONE_SWORD
+  chestnormal: IRON_SWORD
+  chestop: DIAMOND_SWORD
+  healthVoteEnabled: true
+  healthVotePosition: 11
+  healthvote: EXPERIENCE_BOTTLE
+  healthrandom: NETHER_STAR
+  healthfive: REDSTONE
+  healthten: REDSTONE
+  healthfifteen: REDSTONE
+  healthtwenty: REDSTONE
+  nopermission: BARRIER
+  timeVoteEnabled: true
+  timeVotePosition: 13
+  timevote: CLOCK
+  timerandom: NETHER_STAR
+  timedawn: CLOCK
+  timenoon: CLOCK
+  timedusk: CLOCK
+  timemidnight: CLOCK
+  weatherVoteEnabled: true
+  weatherVotePosition: 15
+  weathervote: BLAZE_POWDER
+  weatherrandom: NETHER_STAR
+  weathersunny: PRISMARINE_SHARD
+  weatherrain: PRISMARINE_SHARD
+  weatherstorm: PRISMARINE_SHARD
+  weathersnow: PRISMARINE_SHARD
+  modifierVoteEnabled: true
+  modifierVotePosition: 17
+  modifiervote: DRAGON_BREATH
+  modifierspeed: BOOK
+  modifierjump: BOOK
+  modifierstrength: BOOK
+  modifiernone: BOOK
+  modifierrandom: NETHER_STAR
+  joinselect: DIAMOND_SWORD
+  rejoinitem: DIAMOND_SWORD
+  singleSlot: 11
+  singlemenu: REDSTONE_TORCH
+  teamSlot: 15
+  teammenu: COMPARATOR
+  spectateselect: WOODEN_SWORD
+  backlobbyitem: RED_BED
+  statsitem: BOOK
+  optionselect: ENDER_EYE
+  particleselect: BLAZE_POWDER
+  particleselectslot: 11
+  projectileselect: ARROW
+  projectileselectslot: 12 
+  killsoundselect: DIAMOND_SWORD
+  killsoundselectslot: 14
+  killsounditem: NOTE_BLOCK
+  winsoundselect: DRAGON_EGG
+  winsoundselectslot: 15
+  glassselect: GLASS
+  glassselectslot: 9 
+  tauntselect: SHIELD
+  tauntselectslot: 17
+particles:
+  enabled: true
+  ticksperupdate: 3
+enabledMenus:
+  join: true
+  joinSlot: 0
+  spectate: true
+  spectateSlot: 4
+  options: true
+  optionsSlot: 7
+  glass: true
+  particle: true
+  projectile: true
+  killsound: true
+  winsound: true
+  taunts: true
+  perks: true
+stats-menu:
+  enabled: true
+  size: 27
+  slots:
+    profile: 11
+    economy: 13
+    soulwell: 15
+    close: 22
+  show:
+    economy: true
+    soulwell: true
+  items:
+    economy-material: GOLD_INGOT
+    soulwell-material: NETHER_STAR
+    close-material: BARRIER
+rejoin:
+  enabled: true
+  windowSeconds: 180
+soulwell:
+  enabled: true
+  souls-per-kill: 1
+  souls-per-win: 3
+  souls-per-spin: 10
+  max-spins-at-once: 5
+  xezbeth-permission: "sw.soulwell.xezbethluck"
+  animation-ticks-per-frame: 2
+  animation-frames: 24
+  options-menu-slot: 22
+  # Soul Well block location - set in-game with /sw soulwell set
+  well-location: ""
+  click-debug-enabled: false
+  buy:
+    warlock:
+      souls: 5
+      cost: 50
+    necromancer:
+      souls: 15
+      cost: 200
+    deathangel:
+      souls: 50
+      cost: 750
+  upgrades:
+    discount-costs:
+      level1: 400
+      level2: 1000
+      level3: 2000
+    frame-cost: 900
+  rewards:
+    coins:
+      weight: 20
+      min: 15
+      max: 75
+    xp:
+      weight: 15
+      min: 15
+      max: 50
+    cage:
+      weight: 14
+      allow-list:
+      - white
+      - orange
+      - magenta
+      - lightblue
+      - yellow
+      - lime
+      - pink
+      - gray
+      - lightgray
+      - cyan
+      - purple
+      - blue
+      - brown
+      - green
+      - red
+      - black
+      - lapis
+      - redstone
+      - emerald
+      - diamond
+      deny-list:
+      - none
+    kit:
+      weight: 5
+      allow-list: []
+      deny-list: []
+    perk:
+      weight: 8
+      allow-list:
+      - water
+      - flame
+      - smoke
+      - critical
+      - slime
+      - snow
+      - magic
+      - music
+      - happy
+      - angry
+      - potion
+      - poison
+      - alphabet
+      - lava
+      - lava_drip
+      - heart
+      - redstone
+      - sparks
+      - portal
+      - colourful
+      deny-list:
+      - none
+    killsound:
+      weight: 10
+      allow-list:
+      - pigdeath
+      - catdeath
+      - muledeath
+      - lightning
+      - cathiss
+      - explosion
+      - ghastwarn
+      - wolfgrowl
+      - guardiancurse
+      - zombiehorsedeath
+      - zombieconverted
+      - zombiedeath
+      - blazedeath
+      - guardiandeath
+      - endermandeath
+      - ghasthurt
+      - golemdeath
+      - skeletonhorsedeath
+      - witherdeath
+      - dragongrowl
+      deny-list:
+      - none
+    winsound:
+      weight: 9
+      allow-list:
+      - thunder
+      - witherambient
+      - gamemusic
+      - credits
+      - witherspawn
+      - "11"
+      - dragon
+      - menu
+      - "13"
+      - enderdragondeath
+      - mall
+      - mellohi
+      - cat
+      - stal
+      - far
+      - blocks
+      - wait
+      - chirp
+      - ward
+      - strad
+      deny-list:
+      - none
+    projectile:
+      weight: 8
+      allow-list:
+      - water
+      - flame
+      - smoke
+      - critical
+      - slime
+      - snow
+      - magic
+      - music
+      - happy
+      - angry
+      - potion
+      - poison
+      - alphabet
+      - lava
+      - lava_drip
+      - heart
+      - redstone
+      - sparks
+      - portal
+      - clouds
+      deny-list:
+      - none
+    taunt:
+      weight: 5
+      allow-list:
+      - playwithfire
+      - chicken
+      - pig
+      - dragon
+      - seekdestroy
+      - comeoutplay
+      deny-list:
+      - none
+    gameperk:
+      weight: 6
+    command:
+      weight: 0
+      commands:
+      - "give {player} diamond 1"
+sqldatabase:
+  enabled: false
+  hostname: localhost
+  port: 3306
+  database: database
+  username: username
+  password: password
+  # Disable SSL/certificate checks if your MySQL host does not provide TLS certificates.
+  ssl: false
+  verifyCertificate: false
+  publicKeyRetrieval: false
+  connectTimeoutMs: 10000
+  socketTimeoutMs: 30000
+  serverTimezone: UTC
+  useUnicode: true
+  characterEncoding: utf8
+migration:
+  ultimateskywars:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: database
+      # Optional: database used for MongoDB authentication (authSource). Defaults to 'database' when empty.
+      authDatabase: admin
+      # auto, scram-sha-1, or scram-sha-256
+      authMechanism: auto
+      # ESSENTIALSX (via Vault), BUILTIN (store in sw_player.economy), or SKIP.
+      economyImportMode: BUILTIN
+      # Optional ID mappings for importing USW-owned kits/perks into SWR permissions.
+      # Example: kits: { "1": "scout" } -> grants sw.kit.scout when USW kit id 1 is owned.
+      # Example: perks: { "3": "bulldozer" } -> grants sw.perk.bulldozer.<level> from USW perksData.
+      # If left empty, migrateusw auto-detects mappings from plugins/Skywars/UltraSkyWars/kits.yml and perks.yml.
+      mappings:
+        kits: {}
+        perks: {}
+      # Print resolved migration Mongo settings and full exception chain.
+      debug: false
+      username: ''
+      password: ''
+      collection: players
+leaderboards:
+  length: 10
+  leaderboardUpdateInterval: 300
+  signsEnabled: true
+  headsEnabled: true  
+  winsLeaderboardEnabled: false
+  lossesLeaderboardEnabled: false  
+  killsLeaderboardEnabled: false
+  deathsLeaderboardEnabled: false
+  xpLeaderboardEnabled: false
+disable-commands:
+  exceptions:
+  - msg
+  - r
+  - sw quit
+  - leave
+  enabled: true
+disable-commands-spectate:
+  exceptions:
+  - msg
+  - r
+  - sw quit
+  - leave
+  enabled: true
+
+# Lobby water portal regions - set in-game with /sw portal commands
+# lobby-water-portals:
+#   example:
+#     world: world
+#     type: ALL
+#     x1: 0
+#     y1: 0
+#     z1: 0
+#     x2: 0
+#     y2: 0
+#     z2: 0
+#     pos1Set: false
+#     pos2Set: false
+#     luckyMode: false
+
+# Update checker - checks GitHub Releases for new versions
+updater:
+  enabled: true
+  # Check for pre-release/nightly builds too (recommended to stay up to date)
+  checkForBetaVersions: true
+  # Automatically download new versions (applied on next server restart)
+  autoUpdate: true
+  # GitHub repository
+  github-owner: 'MythicalLTD'
+  github-repo: 'MythicSkywars'

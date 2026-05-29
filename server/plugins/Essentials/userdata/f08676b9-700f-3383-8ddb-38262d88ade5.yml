@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1779371272008
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1779371600352
+  login: 1779370216296
+money: '134557.0000000000000005'
+last-account-name: JellyExist
+logoutlocation:
+  world: 7643fa74-54cb-4c1f-97f5-45a2384c5309
+  world-name: world
+  x: -235.44610737061353
+  y: 77.0
+  z: -256.65881664140693
+  yaw: 199.3492431640625
+  pitch: 26.250028610229492
+lastlocation:
+  world: 54d1c7be-4464-4485-9417-78b3a61a4c06
+  world-name: hub
+  x: 73.59580284921712
+  y: 83.0
+  z: 75.72148879645303
+  yaw: -32.69999694824219
+  pitch: 88.79999542236328
+homes:
+  home:
+    world: 7643fa74-54cb-4c1f-97f5-45a2384c5309
+    world-name: world
+    x: -241.46578428319265
+    y: 65.0
+    z: -296.00858459877634
+    yaw: 354.4501037597656
+    pitch: 36.750022888183594

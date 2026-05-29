@@ -1,0 +1,38 @@
+msg:
+  duplicate_removed: 'Дубль предмета видалено: {hash}'
+  cross_duplicate_removed: 'Міжінвентарний дубль видалено: {hash}'
+broadcast:
+  cross_duplicate_removed: '&c[Anti-Dupe] {player} спіймали на дюпі! (Гравець: {player},
+    Hash: {hash}, Час: {time})'
+  duplicate_removed: '&c[Anti-Dupe] {player} спіймали на дюпі! (Гравець: {player},
+    Hash: {hash}, Час: {time})'
+cmd:
+  recovery:
+    usage: 'Використання: /antidupe recovery give <player>'
+    given: Останній відновлений предмет видано гравцю {player}.
+    none: Для цього гравця записи відновлення не знайдені.
+  customitem:
+    added: 'Додано захищену власну назву предмета: {name}'
+    list: 'Захищені власні назви предметів: {names}'
+    removed: 'Видалено захищену власну назву предмета: {name}'
+prefix: '&c[Anti-Dupe]&r '
+title:
+  no_duping: '&4 ДЮП ЗАБОРОНЕНО! '
+discord:
+  offence_detected:
+    title: Виявлено порушення Anti-Dupe
+    description: '{player} спричинив спрацювання Anti-Dupe.'
+  removed_duplicates:
+    title: Anti-Dupe видалив дублікати предметів
+    description: Дублікати видалено та збережено.
+  ban:
+    title: Бан Anti-Dupe
+    description: '{player} був забанений Anti-Dupe.'
+  field:
+    player: Гравець
+    uuid: UUID
+    world: Світ
+    location: Місцезнаходження
+    action: Дія
+    reason: Причина
+    items: Предмети

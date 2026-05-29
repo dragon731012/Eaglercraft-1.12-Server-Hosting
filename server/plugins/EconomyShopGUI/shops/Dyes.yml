@@ -1,0 +1,71 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: CYAN_DYE
+        buy: 15
+        sell: 4
+      '2':
+        material: GRAY_DYE
+        buy: 15
+        sell: 4
+      '3':
+        material: GREEN_DYE
+        buy: 10
+        sell: 3
+      '4':
+        material: LIGHT_BLUE_DYE
+        buy: 15
+        sell: 4
+      '5':
+        material: LIGHT_GRAY_DYE
+        buy: 15
+        sell: 4
+      '6':
+        material: LIME_DYE
+        buy: 15
+        sell: 4
+      '7':
+        material: MAGENTA_DYE
+        buy: 20
+        sell: 5
+      '8':
+        material: ORANGE_DYE
+        buy: 15
+        sell: 4
+      '9':
+        material: PINK_DYE
+        buy: 15
+        sell: 4
+      '10':
+        material: PURPLE_DYE
+        buy: 20
+        sell: 5
+      '11':
+        material: RED_DYE
+        buy: 15
+        sell: 4
+      '12':
+        material: YELLOW_DYE
+        buy: 10
+        sell: 3
+      '13':
+        material: AZURE_BLUET
+        buy: 15
+        sell: 4
+      '14':
+        material: BLUE_ORCHID
+        buy: 20
+        sell: 5
+      '15':
+        material: RED_TULIP
+        buy: 15
+        sell: 4
+      '16':
+        material: SUNFLOWER
+        buy: 20
+        sell: 5
+      '17':
+        material: INK_SAC
+        buy: 20
+        sell: 5

@@ -1,0 +1,55 @@
+# OneBlock Plugin Configuration file
+# by MrMarL & Adarsh A
+
+# Specify the World Name.
+world: oneblock
+# The Cordinates where the postion of your First OneBlock is set.
+x: 1000.0
+y: 66.0
+z: 0.0
+# This is the place where a player gets tp-ed when they execute /ob leave
+leaveworld: world
+# Specify the Lobby World
+xleave: 0.0
+yleave: 0.0
+zleave: 0.0
+yawleave: 0.0
+# Should we enable the Progress Bar?
+Progress_bar: true
+# This is the speed/amount of block regenarating when a block is breaked in OneBlock 
+# Default value is 7, Increasing this may cause lag.
+frequency: 10
+# What shoud progress bar show?
+Progress_bar_text: level
+# Shoud we enable chat alert for Levels
+Chat_alert: true
+# ProgressBar Color
+Progress_bar_color: GREEN
+# Shoud we Create New Islands for New Players?
+Island_for_new_players: false
+# Should the player get tp-ed to the island again after the death in game?
+Rebirth_on_the_island: true
+# Level Multiplier 
+# Default value: 5
+level_multiplier: 5
+# Should we Prevent other players going from their island to others islands?
+protection: false
+# Create a WorldGuard region for each island? (only premium)
+WorldGuard: true
+# This is the block-distance between one Island to other.
+# Default value 100. If you increase this then More chunks will be generated.
+# Which causes more storage to be occupied
+set: 100
+# Use the island creation mode in a circle?
+СircleMode: false
+# Toss drop(item) up above the block?
+droptossup: true
+# Apply physics to blocks? //for example: falling gravel
+physics: false
+# Limits the number of people on the island. (0 - unlimited)
+max_players_team: 0
+useemptyislands: false
+autojoin: true
+gui: true
+WGflags: []
+Border: true

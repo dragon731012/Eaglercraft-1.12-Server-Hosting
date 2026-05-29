@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1779376012543
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1779376045159
+  login: 1779373503003
+money: '1151701.0'
+last-account-name: ransom
+lastlocation:
+  world: 7643fa74-54cb-4c1f-97f5-45a2384c5309
+  world-name: world
+  x: -11.15577219949129
+  y: 71.0
+  z: -181.6355662418093
+  yaw: 16.331327438354492
+  pitch: 31.38102149963379
+logoutlocation:
+  world: 7643fa74-54cb-4c1f-97f5-45a2384c5309
+  world-name: world
+  x: -119.00559205597884
+  y: 62.0
+  z: -367.22389223676527
+  yaw: 23.2503662109375
+  pitch: -6.0000104904174805
+homes:
+  home:
+    world: 7643fa74-54cb-4c1f-97f5-45a2384c5309
+    world-name: world
+    x: -119.2915742771729
+    y: 62.0
+    z: -367.00188803730134
+    yaw: -0.299774169921875
+    pitch: 30.74997901916504

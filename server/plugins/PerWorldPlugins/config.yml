@@ -1,0 +1,114 @@
+# PerWorldPlugins Configuration
+
+# Disable or Enable the message of new updates.
+updateChecker: true
+# Disable or Enable the bStats metrics.
+metrics: true
+# Message send when execute blocked plugin command.
+disabledCommandMessage: '&4[Server]: &f{player} this command is disabled for {world}.'
+
+# If false, the plugins/groups added in the world will work.
+# If true, it will be reversed.
+blacklist: true
+
+plugins:
+  # For set group set - g:example (example is the name of group)
+  # Add and edit groups in the groups.yml
+  # ":ignore" is for ignore this plugin and don't check this.
+  # In the Example case, the plugin is blocked in "world" (If is the blacklist on true)
+  Example:
+  - world
+  viaversion:
+  - :ignore
+  luckperms:
+  - :ignore
+  vault:
+  - :ignore
+  worldedit:
+  - :ignore
+  worldguard:
+  - :ignore
+  placeholderapi:
+  - :ignore
+  oneblock:
+  - :ignore
+  essentials:
+  - :ignore
+  viabackwards:
+  - :ignore
+  multiverse-core:
+  - :ignore
+  essentialsspawn:
+  - :ignore
+  kpcore:
+  - :ignore
+  viarewind:
+  - :ignore
+  citizens:
+  - :ignore
+  skinsrestorer:
+  - :ignore
+  mythicmobs:
+  - :ignore
+  decentholograms:
+  - :ignore
+  autoreplant:
+  - :ignore
+  serverlistplus:
+  - :ignore
+  veinminer:
+  - :ignore
+  duels:
+  - :ignore
+  blocksigningplugin:
+  - :ignore
+  kitpvp:
+  - :ignore
+  authme:
+  - :ignore
+  the-pit:
+  - :ignore
+  voidgen:
+  - :ignore
+  tab:
+  - :ignore
+  unsafeenchants:
+  - :ignore
+  bedwars:
+  - :ignore
+  craftableinvframes:
+  - :ignore
+  combatlog:
+  - :ignore
+  ajleaderboards:
+  - :ignore
+  lagfixer:
+  - :ignore
+  mycommand:
+  - :ignore
+  economyshopgui:
+  - :ignore
+  essentialsantibuild:
+  - :ignore
+  holomobhealth:
+  - :ignore
+  clearlag:
+  - :ignore
+  essentialsgeoip:
+  - :ignore
+  advancedportals:
+  - :ignore
+  skywars:
+  - :ignore
+  commandnpc:
+  - :ignore
+  essentialsprotect:
+  - :ignore
+  protocollib:
+  - :ignore
+  consolespamfixreborn:
+  - :ignore
+  jobsystem:
+  - :ignore
+  apollo-folia:
+  - :ignore

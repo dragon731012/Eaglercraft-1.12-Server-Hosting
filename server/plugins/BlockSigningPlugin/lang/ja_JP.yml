@@ -1,0 +1,38 @@
+msg:
+  duplicate_removed: '重複アイテムを削除しました: {hash}'
+  cross_duplicate_removed: 'インベントリ間の重複を削除しました: {hash}'
+broadcast:
+  cross_duplicate_removed: '&c[Anti-Dupe] {player} が複製行為で検出されました！ (プレイヤー: {player},
+    Hash: {hash}, 時刻: {time})'
+  duplicate_removed: '&c[Anti-Dupe] {player} が複製行為で検出されました！ (プレイヤー: {player},
+    Hash: {hash}, 時刻: {time})'
+cmd:
+  recovery:
+    usage: '使用法: /antidupe recovery give <player>'
+    given: {player} に最新の復旧アイテムを渡しました。
+    none: そのプレイヤーの復旧エントリが見つかりませんでした。
+  customitem:
+    added: '保護されたカスタムアイテム名を追加しました: {name}'
+    list: '保護されたカスタムアイテム名: {names}'
+    removed: '保護されたカスタムアイテム名を削除しました: {name}'
+prefix: '&c[Anti-Dupe]&r '
+title:
+  no_duping: '&4 複製禁止！ '
+discord:
+  offence_detected:
+    title: Anti-Dupe 違反を検出
+    description: '{player} がAnti-Dupe検出をトリガーしました。'
+  removed_duplicates:
+    title: Anti-Dupe が重複アイテムを削除
+    description: 重複は削除され、バックアップされました。
+  ban:
+    title: Anti-Dupe BAN
+    description: '{player} はAnti-DupeによりBANされました。'
+  field:
+    player: プレイヤー
+    uuid: UUID
+    world: ワールド
+    location: 位置
+    action: アクション
+    reason: 理由
+    items: アイテム

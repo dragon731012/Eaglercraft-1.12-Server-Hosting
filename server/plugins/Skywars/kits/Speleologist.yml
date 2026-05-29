@@ -1,0 +1,58 @@
+inventory:
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:stone
+  count: 16
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:iron_pickaxe
+  count: 1
+  components:
+    minecraft:enchantments: '{"minecraft:efficiency":3}'
+  schema_version: 1
+armor:
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+- ==: org.bukkit.inventory.ItemStack
+  schema_version: 1
+  DataVersion: 4671
+  id: minecraft:air
+requirePermission: true
+icon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:iron_pickaxe
+  count: 1
+  schema_version: 1
+lockedIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:barrier
+  count: 1
+  schema_version: 1
+position: 6
+page: 2
+name: Speleologist
+enabled: true
+lores:
+  unlocked:
+  - '&7Mine blocks quickly with an'
+  - '&7efficiency III iron pickaxe'
+  locked: '&cA permission is required to unlock this kit!'
+gameSettings:
+  noRegen: false
+  noPvp: false
+  soupPvp: false
+  noFallDamage: false
+filename: Speleologist

@@ -1,0 +1,167 @@
+# ==========================================
+# JobSystem Configuration
+# ==========================================
+
+settings:
+  # Which language file should be used?
+  # 'de' will load messages_de.yml | 'en' will load messages_en.yml
+  language: "en"
+
+  # Maximum number of jobs a player can have at the same time
+  max-jobs: 2
+
+  # How much XP is required to reach level 2?
+  xp-needed-per-level: 100
+
+  # Percentage increase of XP needed for each subsequent level (e.g. 20%)
+  xp-increase-percentage: 20.0
+
+  # Chat formatting settings
+  show-company-tags: true
+  show-prestige-stars: true
+
+  # Prestige settings
+  prestige-max-level: 50
+  prestige-money-bonus: 0.10 # Grants 10% more money per prestige level
+
+  # ========================================
+  # Daily Reward Settings
+  # ========================================
+  daily-base-reward: 2500     # Base money players get on day 1
+  daily-streak-bonus: 500     # Extra money added for each consecutive day
+  daily-max-streak: 30        # Cap the streak bonus after X days
+
+  # ========================================
+  # Bank & Interest Settings
+  # ========================================
+  bank:
+    interest-rate: 0.02 # 0.02 = 2% interest per payout
+    interest-interval-minutes: 60 # Payout interest every 60 minutes
+
+  # Company settings
+  company-create-cost: 50000.0
+  company-takeover-enabled: true
+
+  # NPC Employee settings (Passive income feature)
+  employee-cost: 10000.0
+
+  # Mayor & Taxes
+  taxes:
+    enabled: true
+
+  # Job Perks (Base chances without magic skill upgrades)
+  perks:
+    auto-smelt-chance: 25 # Miner: Chance to drop ingots instead of ores
+    timber-chance: 20     # Lumberjack: Chance to fell the whole tree at once
+
+  # ========================================
+  # Company Limits
+  # ========================================
+  company:
+    base-member-limit: 5       # Mitgliederlimit bei Level 1
+    extra-members-per-level: 2 # +2 Mitglieder pro weiterem Firmenlevel
+
+  # ========================================
+  # Auction House
+  # ========================================
+  auctionhouse:
+    enabled: true
+    listing-fee: 50.0 # Kostet 50$, ein Item einzustellen
+
+  # ========================================
+  # Job Combination Bonuses
+  # ========================================
+  # If a player has ALL jobs listed in a combo, they get the bonus.
+  # Bonus 0.15 means +15% more money for every action.
+  job-combinations:
+    industrialist:
+      jobs: ["miner", "crafter"]
+      bonus: 0.15
+    nature-lover:
+      jobs: ["farmer", "lumberjack"]
+      bonus: 0.10
+    survivalist:
+      jobs: ["hunter", "fisherman"]
+      bonus: 0.10
+
+  # ========================================
+  # Black Market & Smuggling
+  # ========================================
+  blackmarket:
+    smuggle-cost: 25000.0         # Cost to start a smuggle run
+    smuggle-distance: 2000        # Teleport distance (Blocks)
+    rotation-interval-minutes: 60 # How often the items change (in minutes)
+
+  # Rotation Items
+  # Format -> "MATERIAL:PAYOUT_PRICE"
+  blackmarket-items:
+    - "DIAMOND:5000"
+    - "EMERALD:3000"
+    - "NETHERITE_INGOT:10000"
+    - "ANCIENT_DEBRIS:8000"
+    - "GOLD_BLOCK:4000"
+    - "IRON_BLOCK:1500"
+
+# ==========================================
+# GUI Layout Settings
+# ==========================================
+gui-layout:
+  # Size of the main Job Center GUI (must be a multiple of 9, max 54)
+  size: 45
+
+  # Slots for the individual jobs in the Main GUI
+  jobs:
+    miner: 10
+    lumberjack: 11
+    farmer: 12
+    hunter: 14
+    fisherman: 15
+    crafter: 16
+
+  # Toggle and arrange specific features in the Main GUI
+  features:
+    employee:
+      enabled: true
+      slot: 28
+    companies:
+      enabled: true
+      slot: 29
+    stocks:
+      enabled: true
+      slot: 30
+    mayor:
+      enabled: true
+      slot: 32
+    bank:
+      enabled: true
+      slot: 33
+    blackmarket:
+      enabled: true
+      slot: 34
+
+  # Completely customizable Mayor GUI
+  mayor:
+    size: 27
+    items:
+      info:
+        slot: 4
+        material: "GOLD_BLOCK"
+      change_tax:
+        slot: 10
+        material: "HOPPER"
+      withdraw:
+        slot: 12
+        material: "GOLD_INGOT"
+        amount: 10000
+      rain:
+        slot: 14
+        material: "WATER_BUCKET"
+        cost: 5000
+      booster:
+        slot: 16
+        material: "BLAZE_POWDER"
+        cost: 50000
+      run_for_mayor:
+        slot: 13
+        material: "EMERALD"
+        cost: 100000

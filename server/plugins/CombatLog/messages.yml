@@ -1,0 +1,43 @@
+combat-log:
+  messages:
+    combat-log: "&c{player} has combat logged!"
+    elytra-use-denied: "&dYou can't use elytra in combat"
+    teleporting-denied: "&dYou can't teleport in combat"
+    blocked-command: "&cYou can't use this command in combat"
+    region-entry-denied: "&cYou can't enter this region in combat"
+    riptide-denied: "&cYou can't use riptide in combat"
+    afk-title: "&cPlease disable afk, you are in combat!"
+
+    timer:
+      actionbar: "&c{timeLeft}/{maxTime}"
+      bossbar-title: "&cIn Combat: {timeLeft}s"
+
+commands:
+  combatlog:
+    no-permission: "<red>You do not have permission to use this command."
+    usage-header: "<yellow>Usage:"
+    usages:
+      reload: "<gray>/{label} reload"
+      status: "<gray>/{label} status <player>"
+      untag: "<gray>/{label} untag <player>"
+    reload:
+      success: "<green>CombatLog config and messages reloaded."
+      failed: "<red>Failed to reload CombatLog. Check console for details."
+    errors:
+      player-not-found: "<red>Player not found: <white>{player}"
+    untag:
+      success: "<green>Removed combat tag from <white>{player}"
+      not-in-combat: "<yellow>Player <white>{player} <yellow>was not in combat."
+    status:
+      title: "<gold>Combat status for <white>{player}"
+      world: "<gray>World: <white>{world}"
+      gamemode: "<gray>Gamemode: <white>{gamemode}"
+      in-combat: "<gray>In combat: <white>{value}"
+      time-left: "<gray>Time left: <white>{value}"
+      ignored-world: "<gray>Ignored world: <white>{value}"
+      combat-zone-enabled: "<gray>Combat zone enabled: <white>{value}"
+      worldguard-active: "<gray>WorldGuard active: <white>{value}"
+    values:
+      yes: "yes"
+      no: "no"
+      not-applicable: "n/a"

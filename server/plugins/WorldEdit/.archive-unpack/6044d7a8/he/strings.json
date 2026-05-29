@@ -1,0 +1,20 @@
+{
+    "worldedit.expand.expanded": "האיזור הורחב ב- {0} בלוקים",
+    "worldedit.expand.expanded.vert": "האיזור הורחב ב - {0} בלוקים (מלמעלה-למטה).",
+    "worldedit.biomeinfo.lineofsight": "ביומות בשדה הראייה: {0}",
+    "worldedit.biomeinfo.position": "ביומות במיקומך: {0}",
+    "worldedit.biomeinfo.selection": "ביומות בבחירתך: {0}",
+    "worldedit.biomeinfo.not-locatable": "שולח הפקודה צריך להיות נוכח בעולם כדי להשתמש ב p flag- .",
+    "worldedit.brush.radius-too-large": "הרדיוס המקסימלי המורשה למברשת הוא: {0}",
+    "worldedit.brush.apply.radius": "הגודל של המברשת",
+    "worldedit.brush.apply.shape": "הצורה של האיזור",
+    "worldedit.brush.apply.type": "סוג המברשת לשימוש",
+    "worldedit.brush.paint.size": "הגודל של המברשת",
+    "worldedit.brush.paint.shape": "הצורה של האיזור",
+    "worldedit.brush.paint.density": "היעד של המברשת",
+    "worldedit.brush.paint.type": "סוג מברשת לשימוש",
+    "worldedit.brush.operation.equip": "הגדר את המברשת ל {0}.",
+    "worldedit.setbiome.not-locatable": "שולח הפקודה צריך להיות נוכח בעולם כדי להשתמש ב p flag- .",
+    "worldedit.sideeffect.state.on": "פעיל",
+    "worldedit.sideeffect.state.off": "כבוי"
+}

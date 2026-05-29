@@ -1,0 +1,47 @@
+# To learn all the options available with killstreaks, please
+# visit the killstreaks.yml documentation on GitHub:
+# https://github.com/cervinakuy/KitPvP/wiki/killstreaks.yml
+
+KillStreaks:
+  3:
+    Sound:
+      Sound: ENDERDRAGON_GROWL
+      Pitch: 1
+    Message:
+      Message: '%prefix% &b%player% &7is on a killstreak of &b%streak% Kills&7.'
+  6:
+    Title:
+      Title: '&c&lKill Streak'
+      Subtitle: '&6%player% &7is on a &6%streak% &7kill streak.'
+    Sound:
+      Sound: ENDERDRAGON_GROWL
+      Pitch: 1
+    Message:
+      Message: '%prefix% &b%player% &7is on a killstreak of &b%streak% Kills&7.'
+  10:
+    Title:
+      Title: '&c&lKill Streak'
+      Subtitle: '&6%player% &7is on a &6%streak% &7kill streak.'
+    Sound:
+      Sound: ENDERDRAGON_GROWL
+      Pitch: 1
+    Message:
+      Message: '%prefix% &b%player% &7is on a killstreak of &b%streak% Kills&7.'
+    Commands:
+      - 'console: give %player% gold_ingot 1'
+EndStreaks:
+  3:
+    Sound:
+      Sound: ENDERDRAGON_GROWL
+      Pitch: 1
+    Message:
+      Message: '%prefix% &b%player% &7lost their streak of &b%streak% Kills&7.'
+  6:
+    Title:
+      Title: '&c&lKill Streak'
+      Subtitle: '&6%player% &7lost their streak of &6%streak%&7.'
+    Sound:
+      Sound: ENDERDRAGON_GROWL
+      Pitch: 1
+    Message:
+      Message: '%prefix% &b%player% &7lost their streak of &b%streak% Kills&7.'

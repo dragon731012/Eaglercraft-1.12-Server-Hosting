@@ -1,0 +1,28 @@
+# Whether or not to enable invisible item frames glowing when there's no item in them
+# This will also make them visible when there's no item in them
+item-frames-glow: true
+
+# The item in the center of the recipe
+# Recommended to use "/iframe setitem" to change this
+recipe:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:lingering_potion
+  count: 1
+  components:
+    minecraft:potion_contents: '{potion:"minecraft:invisibility"}'
+  schema_version: 1
+
+itemname-invframe: Invisible Item Frame
+itemname-glow-invframe: Glow Invisible Item Frame
+
+messages:
+  no-access: §cSorry, you don't have permission to run this command
+  not-player: §cSorry, you must be a player to use this command!
+  player-not-found: §cPlayer %player% is not online.
+  give-success: §aAdded an invisible item frame to your inventory
+  reload-success: §aReloaded!
+  recheck-success: §aRechecked invisible item frames
+  recipe-update-success: §aRecipe item updated!
+  specify-player-name: Please specify the player's name
+  player-name-cannot-be-empty: Player name cannot be empty

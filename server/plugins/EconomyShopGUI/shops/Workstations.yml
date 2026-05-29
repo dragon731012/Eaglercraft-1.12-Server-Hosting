@@ -1,0 +1,7 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: BREWING_STAND
+        buy: 200
+        sell: 50

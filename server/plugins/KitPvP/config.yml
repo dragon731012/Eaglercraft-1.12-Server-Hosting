@@ -1,0 +1,145 @@
+# To learn more about the options available and their functionality, please
+# visit the config.yml documentation on GitHub:
+# https://github.com/cervinakuy/KitPvP/wiki/config.yml
+
+Items:
+  Kits:
+    Enabled: true
+    Name: '&aKit Selector &7(Right Click)'
+    Material: CHEST
+    Slot: 0
+    Menu: true
+    Commands: []
+  Leave:
+    Enabled: true
+    Name: '&aReturn to Hub &7(Right Click)'
+    Material: WATCH
+    Slot: 8
+    BungeeCord:
+      Server: Hub
+      Enabled: false
+    Commands: []
+Chat:
+  Format: '%level% &e%player% &f%message%'
+  Enabled: true
+Combat:
+  HitSound:
+    Sound: BLAZE_HIT
+    Pitch: 1
+    Enabled: true
+  ArrowHit:
+    Message: '%prefix% &b%player% &7is on &c%health%&7.'
+    Enabled: true
+  ArrowReturn:
+    ItemName: '&eReturnable Arrow'
+    NoSpace: '%prefix% &cYou must have at least one slot open in your inventory for
+      you to receive your arrow for your successful shot.'
+    Enabled: true
+    Count: 2
+Kill:
+  SoupReward:
+    NoSpace: '%prefix% &c%amount% soups could not be added to your full inventory.'
+    Amount: 1
+    Delay: 0
+    Enabled: true
+  Commands: []
+Death:
+  Title:
+    Title: '&c&lYOU DIED!'
+    Subtitle: '&7You will respawn in %seconds% seconds.'
+    Time: 5
+    Message: '%prefix% &7Respawning...'
+  Sound:
+    Sound: AMBIENCE_THUNDER
+    Pitch: 1
+    Enabled: false
+  Commands: []
+  Messages:
+    Player: '%prefix% &b%victim% &7was killed by &b%killer% &7(&c%killer_health%&7).'
+    Shot: '%prefix% &b%victim% &7was shot by &b%killer% &7(&c%killer_health%&7).'
+    Fall: '%prefix% &b%victim% &7fell to their doom.'
+    Void: '%prefix% &b%victim% &7died from the void.'
+    Fire: '%prefix% &b%victim% &7died from fire.'
+    Explosion: '%prefix% &b%victim% &7blew up.'
+    Suicide: '%prefix% &b%victim% &7killed themselves.'
+    Unknown: '%prefix% &b%victim% &7died.'
+    Enabled: true
+Respawn:
+  Commands: []
+PlayerTracker:
+  Name: '&aPlayer Tracker'
+  Message: '&b&lTarget: &3%nearestplayer% &b&lDistance: &3%distance%'
+  NoneOnline: '&cNo Players Online'
+  TrackBelowY: 128
+  RefreshOnlyWhenHeld: true
+Soups:
+  Name: '&aRegenerative Soups &7(Right Click)'
+  RegenAmount: 6
+  RemoveAfterUse: true
+  Lore:
+  - '&7Use this item to regain health.'
+  Sound: EAT
+  Pitch: 1
+  Enabled: true
+TNT:
+  Name: '&aThrowable TNT &7(Right Click)'
+  Enabled: true
+PreviewMenuBackArrowCommands:
+- 'player: kp menu'
+Commands:
+  Alias:
+    Spawn: false
+    Kit: false
+    Kits: false
+    Stats: false
+Storage:
+  Type: sqlite
+  MySQL:
+    Host: 127.0.0.1
+    Port: 3306
+    Database: kitpvp
+    Username: root
+    Password: password
+Arena:
+  ClearPotionEffectsOnJoin: true
+  ClearInventoryOnJoin: true
+  ClearInventoryOnLeave: false
+  ClearInventoryOnRespawn: true
+  ClearInventoryOnKit: true
+  ClearKitOnCommandSpawn: true
+  PreventBlockBreaking: true
+  PreventBlockPlacing: true
+  PreventItemDropping: true
+  PreventHunger: true
+  PreventItemDurabilityDamage: false
+  PreventChestOpen: true
+  PreventFallDamage: false
+  PreventDeathDrops: true
+  PreventArenaSignUseWithKit: true
+  KeepWeatherAtSunny: true
+  GiveItemsOnClear: true
+  GiveItemsOnRespawn: true
+  GiveItemsOnJoin: true
+  NoKitProtection: true
+  FancyDeath: true
+  ResetKillStreakOnLeave: true
+  ToSpawnOnJoin: true
+  DeathParticles: true
+  AbilitiesRequireKit: true
+  AddOverflowItemsOnKit: true
+  DropRemainingOverflowItemsOnKit: true
+  ResetMaxHealthOnDeath: true
+Other:
+  AutomaticallyAddKitToMenu: true
+Spawn:
+  Time: 5
+  Enabled: true
+Arenas:
+  KP:
+    '1':
+      World: KP
+      X: -1
+      Y: 72
+      Z: -18
+      Yaw: -314.40005
+      Pitch: 21.150002

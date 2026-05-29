@@ -1,0 +1,27 @@
+# Minecraft server worlds
+server/world*
+server/world_nether*
+server/world_the_end*
+server/oneblock*
+server/survival*
+server/hub*
+server/PIT*
+server/Bedwars*
+server/OBSPAWN*
+server/KP*
+server/Other*
+
+# Logs and caches
+server/logs/
+server/map-color-cache.dat
+bungee/eaglercraft_skins_cache.db
+
+# Plugin data
+server/plugins/*/*.db
+server/plugins/*/*.log
+server/plugins/*/transactions/
+server/plugins/AuthMe/authme.db
+
+# Misc
+*.lock
+*.dat_old

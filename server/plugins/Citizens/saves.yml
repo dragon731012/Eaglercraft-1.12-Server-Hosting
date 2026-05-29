@@ -25,6 +25,7 @@ npc:
         - 360.0
       type: PLAYER
       location:
+<<<<<<< HEAD
         bodyYaw: -88.53896
         world: hub
         x: 69.4662
@@ -35,18 +36,41 @@ npc:
         worldid: 54d1c7be-4464-4485-9417-78b3a61a4c06
       age: {
         }
+=======
+        bodyYaw: -160.31218
+        world: hub
+        x: '69.5'
+        y: '84.0'
+        z: '79.5'
+        yaw: '-160.3122'
+        pitch: '19.478'
+      age:
+        age: 0
+        locked: true
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
       waypoints:
         linear: {
           }
         provider: linear
       followtrait:
         active: false
+<<<<<<< HEAD
       commandtrait: {
         }
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,inventory,type,followtrait,waypoints,location,age,chunktickettrait
+=======
+        followingUUID: 6f7c2000-8c8c-3e32-a19f-f89575d57255
+        protect: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+    traitnames: skintrait,spawned,location,type,waypoints,mounttrait,owner,commandtrait,inventory,age,scoreboardtrait,lookclose,smoothrotationtrait,followtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -74,6 +98,7 @@ npc:
         - 360.0
       type: PLAYER
       location:
+<<<<<<< HEAD
         bodyYaw: 88.91412
         world: hub
         x: 77.4018
@@ -84,6 +109,18 @@ npc:
         worldid: 54d1c7be-4464-4485-9417-78b3a61a4c06
       age: {
         }
+=======
+        bodyYaw: 113.35869
+        world: hub
+        x: '77.4018'
+        y: '84.0625'
+        z: '79.4983'
+        yaw: '117.5669'
+        pitch: '12.4405'
+      age:
+        age: 0
+        locked: true
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
       waypoints:
         wander:
           delay: -1
@@ -95,16 +132,102 @@ npc:
           }
       commandtrait:
         commands:
+<<<<<<< HEAD
         - command: pit join PIT
           hand: RIGHT
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,inventory,type,waypoints,location,age,chunktickettrait
+=======
+          '0':
+            command: pit join PIT
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cooldowns:
+          c9d9ae18-d772-3251-b05a-08513c3270fd:
+            lastUsedId: 0
+          6f7c2000-8c8c-3e32-a19f-f89575d57255:
+            lastUsedId: 0
+          0a19f673-9d18-30c1-9301-1befbbdac85d:
+            lastUsedId: 0
+    traitnames: skintrait,spawned,location,type,waypoints,mounttrait,commandtrait,inventory,owner,age,scoreboardtrait,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
+<<<<<<< HEAD
       usedefaultstuckaction: false
+=======
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid: b8f62a32-118d-4706-bc11-e4f3277ad99e
+      cached-skin-uuid-name: farmer
+    name: Lobby
+    uuid: 3ea7893d-ab77-4fb1-b3b0-41fd8f6efad1
+    traits:
+      owner:
+        uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
+      skintrait:
+        fetchDefaultSkin: true
+        signature: rZVbt9K0XbT5WCue5CETqnbAxIh8kkTFiVgjRJpk3tzYSNC6qiCKO9jupX5f6ii31rAnhe8VMEyxYbc3gfjuDLXFRFLibzLmTzvOgDox7el52Sb7slaNyQ6nqSHEhTqygrVQpC1JaetJDGE2FjckqTnTNeaYGWuTuUJ3U0h7cmtPsCxE9czLhmPwlw+Yd0UZiPBH5yN/A6Q8VUPqt4Z4gRhBuH46yL5YkFY5gyFUdRVkJKEdfzNhExEAHiWO7HDqjF7hqmPbxG8S7DMxMdYrNc5eRavDHLlYf3N/tBbEEgXYkQevOBPxPgbsvRz0iCGApotYRtTtU6CNORcf36vLOr6opPc+wz9I2BclxQnM27foU8qbeKKXxGdCGb8b4+Ot5Osd9aC9xb675TcjqYPmyioR80dWoWj/mwUwz7iOlyjFhX7oheeTNAexX3WDUtnzAm5iEns6gydGknSitdflUEyL2aRRFXvAuc4Ata//x4D94xwnelPmpV0CVMi2+Oo+C+BFlVVD0BdoIbNDvisDtAKTOsnP3I1LMmt8MvXtPqDJe8S1ePyIu1EF5014k9NubJr05kSkmh9J5VfxEF5MVZFiXTEYPNGQUbizbCQy3ENmJzdViPIq0DLYqUvx85g5Dr9HgOTEEoMzLVfaGX+7EIllmXgETV8s3xVR0epK828=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODQyMDE1MzM2NCwKICAicHJvZmlsZUlkIiA6ICJiOGY2MmEzMjExOGQ0NzA2YmMxMWU0ZjMyNzdhZDk5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYXJtZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk0MjcyY2NmNmRjOWM4MDgyMWRkYWQzMjYxYTkzMDI2NjAxNTc4ZTAwNGY1MzlhNGI4MDdkOTkxYmM3N2UxZiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: Farmer
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: 204.92162
+        world: PIT
+        x: '-68.0716'
+        y: '69.0'
+        z: '-105.0523'
+        yaw: '-155.0784'
+        pitch: '-84.0785'
+      age:
+        age: 0
+        locked: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      waypoints:
+        wander:
+          delay: -1
+          pathfind: true
+          xrange: 25
+          yrange: 3
+        provider: wander
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        cooldowns:
+          6f7c2000-8c8c-3e32-a19f-f89575d57255:
+            lastUsedId: 1
+    traitnames: skintrait,spawned,location,type,waypoints,mounttrait,commandtrait,inventory,owner,age,scoreboardtrait,lookclose,smoothrotationtrait
+    navigator:
+      speedmodifier: '0.10000000149011612'
+      avoidwater: false
+      usedefaultstuckaction: true
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
   '8':
     metadata:
       cached-skin-uuid: de33271f-912c-461a-a4aa-2cca671c897a
@@ -116,6 +239,7 @@ npc:
       owner:
         uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
       location:
+<<<<<<< HEAD
         bodyYaw: -47.431007
         world: hub
         x: 67.6129
@@ -126,6 +250,18 @@ npc:
         worldid: 54d1c7be-4464-4485-9417-78b3a61a4c06
       age: {
         }
+=======
+        bodyYaw: -87.22128
+        world: hub
+        x: '67.6129'
+        y: '84.0625'
+        z: '75.443'
+        yaw: '-87.2213'
+        pitch: '24.9219'
+      age:
+        age: 0
+        locked: true
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
       skintrait:
         signature: jgUFspE8u1IKPHIqdtabqJDy+V4Fgv7feu/druLU9q7WMj3XN/eatrzGibekF8L/gJW19BzfPDj0OpWXFvNQgM8xPRm6lrFiHihDImueodgMe2QXG8lN0J3GE7yTDqjlrcHaWpd6hphMHPCSk2oQ/qqtfJ0NTqCPkgVPGSlUrenm/M5sNCp4fljLktR8Hg26cmuqip9nScn3k0b8IvPndgOeseaSBsCY6A1AqxqbmSAZdllyCd9C+dR7MwkDRqHYmoOglhhD5ERg2ILHNCwDGFy09MhIKg72Pg61QP8EBEu4ACr9GHtH9zxWCSiQfddx64p9bi7Cjzv9D3f9FbaVR1QS+Jv8lAiJFE3sejR/0e/cV77jNa3TDCVjtuj3kcEioF3dU3Yi4iQdxThs3QP5P+5iJe4cAeAIXYXIkvgP0NLR9eQk2lLnlsjONBJiTEIxFk8Cx6jYxZLE8iyhYstr1uQ+WAqGqKwSLUppIQDbm5EsZm3N3Gtx1wgc3jqSzaVUNHew86Q4wEsMKWYIGo6lGjEXS5AZrWTPpbEV/EWTzv03hSA1xOD578IM0YOyYJKk/tSD9ZGlynBF37Y9TrtjmHBmPFJXL7woni+4pFH2rldFhcl7043sWQ00ltueio5T2Zorm8oFI3Dpx5Mm6O1/dp7Q4cOQpYzYHX9ZXRudlqE=
         skinName: file
@@ -136,12 +272,18 @@ npc:
         - 0.0
         - 0.0
         randomYawRange:
+<<<<<<< HEAD
         - 0.0
         - 360.0
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,mounttrait,skintrait,lookclose,location,inventory,type,age,chunktickettrait
+=======
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,inventory,skintrait,spawned,location,type,age,mounttrait,scoreboardtrait,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -165,6 +307,7 @@ npc:
       owner:
         uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
       location:
+<<<<<<< HEAD
         bodyYaw: 50.627747
         world: hub
         x: 79.4809
@@ -175,14 +318,31 @@ npc:
         worldid: 54d1c7be-4464-4485-9417-78b3a61a4c06
       age: {
         }
+=======
+        bodyYaw: 71.81406
+        world: hub
+        x: '79.4809'
+        y: '84.0625'
+        z: '75.3925'
+        yaw: '71.8141'
+        pitch: '12.3981'
+      age:
+        age: 0
+        locked: true
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
       skintrait:
         signature: OFC//7+Wh1RJEaQT5g+cY2sEriiOuZGBs62m9ghleoGjKnYpIcSS5O4kL5Krv2y0NFF9CZTZw/F+h2hxXRUjX2uw/8fQy88s1zYitx2fDE/mVVh7K29tyv5o3oXgKtlEdcGD/VyDuOcnkGWwIZoN2bG2FwQsNxjqgCRWktvYpZm3wps6upThkss4Cfrxy1PMWFXwE2U9FuAwWaSEcjREO2zm7rBcrUruy+tAtPpezC/c9mNLezLJg7i+6ntQu7RKTMF3wuq1gpojAcrdGlHc226JHTLCzH7csxaSEHJAhcj+goidRyg35BIZc36zhmyf6PPljGquUb1jshf/5Hqsy/ArS+Oiy4S1+eKp209/0HrUtHAOJlBxyDFxfUSC9xH1yv7RqeP9ydBkZLhMKH1usWEJKk+/hxd7iMAAfpi0qH0kD6Z9IBLiD62i82TYy7VGNnIoYsDJJR25OWHoPluPZc96D6blIiWnpQMWgVmIoXyfU9gjt71SOmLDIRxKqLziJA1k3sqOXU5Um7a962QOzaaoASg+PR5hsyyRsl0HXuP5YjXRjiM+UA3H18xbpcKwAFjoW7OsVhD76CaXkiYsN9stiw8QKUqE7uX512i0UsbNAKS7Bi3EL5O33clWcC/PoJ2ZRpFqkAVmOa87wzUN08v+m0zeEMbeB4wgGwav9uU=
         skinName: technoblade
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODQzMzkzOTI1NywKICAicHJvZmlsZUlkIiA6ICJiODc2ZWMzMmUzOTY0NzZiYTExNTg0MzhkODNjNjdkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWNobm9ibGFkZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YzkwN2E3ZjRmMGMzYTZjOWM5Yjc5MzQ4ZjdiZjE5OTM2OTViNmQyZWFlMmZhYjcwNGExYTRkOWI4Mjg4Y2JlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+<<<<<<< HEAD
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,mounttrait,skintrait,lookclose,location,inventory,type,age,chunktickettrait
+=======
+        updateSkins: false
+    traitnames: owner,inventory,skintrait,spawned,location,type,age,mounttrait,scoreboardtrait,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -206,6 +366,7 @@ npc:
       owner:
         uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
       location:
+<<<<<<< HEAD
         bodyYaw: 139.6467
         world: hub
         x: 73.4421
@@ -216,13 +377,30 @@ npc:
         worldid: 54d1c7be-4464-4485-9417-78b3a61a4c06
       age: {
         }
+=======
+        bodyYaw: 110.199554
+        world: hub
+        x: '73.4421'
+        y: '84.0625'
+        z: '81.5621'
+        yaw: '142.2845'
+        pitch: '12.4536'
+      age:
+        age: 0
+        locked: true
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
       skintrait:
         signature: jEJ2GkrpEP4MuMhMCB0izUMbYe1KoJ/0ECI6EAZCyTS82KHbjnX/IUCvzzcTVRiCilDFayH0ccguBAtpx5o9e/4rptNZfczDctpSVAQSCtSKz5IC+W6LZjn0dleYDU+d4bMj+E45PZJr4E4OQlgb7RLZ5UK2xDv8thWH02xhtASypE/vi9C2txS6xjzMjk4CHTog6zq+2ioE9lcfCdiwJkv7k2sDIGYM7N1cLl570GfFIF1NvKuKGCgwtQOrjsZeNOEnKs6xae3RqX58fRrfEbG3HZ6rmCdaZZHg8YuSUrS/zfEsbJw0ETNn5oJWdtHFq+kPMD4EIY/1WHSrKGHjHZrVq2Ko1S/WhD0k+v5393/HPKyp822/a2jgKM35EGRfIv9ruT3MhXts2YyubodfP90OgrrAr8iVz7wp0mDzqRfJHQ+EBctEsPtE8BieuidArY1sy9LzK6Wa5wssyYDf+kB8B81elCypJzAhJLDOpsWb5jneGRc7zKRkha6hviwl9d0qcPyGH+BVXgd2lLEkEbjESc3x6RUvccLD+M8rS96hA4vJVOsi7q52yKjHqYgGlyc9kX+KpE25fFYvcLh/xrOH2RhPN/cG+o6NW+T/CG7MaE2QrwfN0pTcASd5Wt2u9aoko9sJekUI7TGujO6KWhmPFlBmU4sa1wPqX08JiBs=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODQzNDMxMjQzMiwKICAicHJvZmlsZUlkIiA6ICJkNjYyYTJkYzMwNWM0YmJjOWYyZjExYjg1ZmY1NTU5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3l3YXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2ZTQzYzRhNjUyNGU5YWU4MjdjMGI2MGQzOTI3ZDU2YTVjYzMxNjE3M2RlM2IwOGEwYmI0ODYyMTVmNGMwODYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U3ZGZlYTE2ZGM4M2M5N2RmMDFhMTJmYWJiZDEyMTYzNTljMGNkMGVhNDJmOTk5OWI2ZTk3YzU4NDk2M2U5ODAiCiAgICB9CiAgfQp9
+<<<<<<< HEAD
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,mounttrait,skintrait,lookclose,location,inventory,type,age,chunktickettrait
+=======
+        updateSkins: false
+    traitnames: owner,inventory,skintrait,spawned,location,type,age,mounttrait,scoreboardtrait,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -246,6 +424,7 @@ npc:
       owner:
         uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
       location:
+<<<<<<< HEAD
         bodyYaw: 55.3338
         world: hub
         x: 77.5
@@ -256,16 +435,33 @@ npc:
         worldid: 54d1c7be-4464-4485-9417-78b3a61a4c06
       age: {
         }
+=======
+        bodyYaw: 18.368958
+        world: hub
+        x: '77.5'
+        y: '84.0625'
+        z: '71.5'
+        yaw: '18.369'
+        pitch: '12.4575'
+      age:
+        age: 0
+        locked: true
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
       skintrait:
         signature: lSgKmEdtLR0bjSl8QObS2DQsdTpN3YO5DnvJdUQCBMKrL59xd84+Vc5Epcxtp4LQnFhW299ei3XtEWfGveAMUeJnpYF6EGC377+A099OIIX1yRwGP9VZOtHi7dcXUELN46JFFHdzeJ5ON5daUXVxSGeHicCFFDVnGTctpqqsQINOTb7fhYugUQcFoDKxX+scGc5KdFXl6P2pKtytUNSUP9jiDTfM/r+nH9ir9fNgeppz0/KRkzU3ucLuIqKn9Fx0zZZL+fVFhZA0cPBYJs9p2gcx8TWzHnfJ+lO9Ft4KE4xtZCoPmtNG9WbjVihUYbwew3c8yt+e0tVVTdQC5IrfO01Vc9de7FaL18I6hjMYV3M2d9O6EWevhnLLb9ISHfsauWbjITNwWiD7X9ZjMnl0+L9EZvnDhEjhTAhqilKUo2picUDlDsTvGxh6w9AreYzG7tGL0JLecrmRgJIh0mlFGqEWHXkihTy9q75RVFTrRVOLB7dX2cOGqGg38TIiJlyrL08n8OC413aZ4GWnIEmgaFUvQ/D8PbA7eVeGEz+5vfVZlM0YNRuDrkt0IppmZvY67V/3Z6xpq0IVrkRgVxuZW04RMPE76lwKbMMdCZzFDxmxLgjROWW7LrPDeF3yYkYUL/Zo4tKB4ECQFjxTzKEsN8q4eqYxySY1Pa89x8BBkiE=
         skinName: fah
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODc2NDc2NDU0NSwKICAicHJvZmlsZUlkIiA6ICJhY2I5NWIxMzYzYTY0MDY2ODgzYTM5MzVkYzk1MTNkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDExNWI2OGZhZjcxMDcxNjdkNzJiMGMyYmI2ZjYzZDcwZDZmZWFkZGVhZjRjNTZjZWYyYmU0MWYyZWUzMWIxYyIKICAgIH0KICB9Cn0=
       hologramtrait:
         direction: BOTTOM_UP
+<<<<<<< HEAD
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,mounttrait,skintrait,lookclose,inventory,type,hologramtrait,location,age,chunktickettrait
+=======
+        lineHeight: -1.0
+    traitnames: owner,inventory,skintrait,hologramtrait,spawned,location,type,age,mounttrait,scoreboardtrait,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -293,6 +489,7 @@ npc:
       owner:
         uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
       location:
+<<<<<<< HEAD
         bodyYaw: 17.451775
         world: hub
         x: 73.5
@@ -311,6 +508,25 @@ npc:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,mounttrait,skintrait,lookclose,inventory,type,waypoints,location,age,chunktickettrait
+=======
+        bodyYaw: -21.326332
+        world: hub
+        x: '73.5'
+        y: '84.0625'
+        z: '69.5'
+        yaw: '-21.3263'
+        pitch: '12.4277'
+      age:
+        age: 0
+        locked: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: P6VxiQD1t6QpQBtjG21E9aMWcMsPmplp24UdsuMLl3NiKeoRmfIwk667Sd0v5TuHfANC51Eq6KrwvRUyw54nQb2rAA1VB7NAm0udIUjCLmjekEonMRT2ptPzZaftA7jZhBsl48LgzpeN/kUDkhXatWsvXDer2oy5oZOh4UIzpl9kzbHgaZRPk77+SG+4ZsOB/s235vgsxF+sdxh84KFqkGcTHMCIt7IwGDB1mXFRadOx9EOHIftW+kFVc1nbAx8/PjabfWBOgZDNzy/bkHosMihzYP+7C4XxC7t1LwBY08o+ItfbhWPw3JNAHMaI7NaalLh5ggoGVAQIHEVjzfMv+BUqxzD5f8XEVUqDzvqsZ9q1qtAB9mD2mJkiyF28JmEdJRO55KrRj3OpHRjvdQH0q5aX7gYuJ0aw6q1dGhZqGqJGblCBJdQYJn/Sv45iMhjWqagJ8qveP7OYSxJHNMO/tjvsrMERDPllSaU7wgiNW0X6VGO1nXeBlCOyaQb204fFaxoqbO2/+0WSWzoVPomjTQzYGJBFRV7gPS08HCARYGs2sjaXKFnque8+YvGOnqMMOzYFKcUAZBX5At5k+InZZmCTZIW28AAYo04F5BF/bKdWIVKKd9q4iClLFaKkXRelXPj43yoEdXipN6p6kxzl65RGQOnMIbwt+m4wnMWXeSM=
+        skinName: ste
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODQzNDk2MDUyMiwKICAicHJvZmlsZUlkIiA6ICIxMzYyMTc2ZjQ2YTI0YWM2OTViNTUyMmQ0YWQzNTdmYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0YWY3MTg0NTVkNGFhYjUyOGU3YTYxZjg2ZmEyNWU2YTM2OWQxNzY4ZGNiMTNmN2RmMzE5YTcxM2ViODEwYiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+    traitnames: inventory,owner,skintrait,spawned,location,type,waypoints,age,mounttrait,scoreboardtrait,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -334,6 +550,7 @@ npc:
       owner:
         uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
       location:
+<<<<<<< HEAD
         bodyYaw: -11.75325
         world: hub
         x: 69.4455
@@ -344,14 +561,92 @@ npc:
         worldid: 54d1c7be-4464-4485-9417-78b3a61a4c06
       age: {
         }
+=======
+        bodyYaw: -19.135262
+        world: hub
+        x: '69.4455'
+        y: '84.0625'
+        z: '71.4257'
+        yaw: '-19.1353'
+        pitch: '19.0514'
+      age:
+        age: 0
+        locked: true
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
       skintrait:
         signature: KC/1NdbMaajREGpjfrXFFzjoS8cWstuRJ++JV+JQbjKQdr45JZHDL77e1/8dkcVymEIxdfvhdFEmwjWwoJWmvcxVOnhIBfVI/xnyTpcl4euphi2l3uo9LJCnVbGhFBnmj5aR4g3gXsCYHULtOWSE7wf75Q/da2zGWd4xlzOB2pV3+ALLA1Ap6ODVFHYJe+0Tr3w/QtEKjwkM6QYN7eDwGh8ZEBVCTE8NzdoEz3p2PAL8xkWUaDZhKSb7IWcWdpi7eqDbCdGgVCtZmmey+UKuqYrSXGIQFmva8VIiCB+dylxl7QSsPgCXataQJ0bm8GGhDOyXAAjff9dHYkuu+IIGANgYje9zWU/eRpQe9WEV5PFO19c2KDwpONa51sz4tCuEiB++1DZ2ArCxXRRWFdimYvORe7ijIwhT+913sND1bpHdXGZl11kW/8Te8JsvxIB//Oq10MatKOcB9iA2YN0y3lA0abQ9OPdXS4UYGrGA+EkMraMe62AY9XlheH5dTdjzLljlTbtRM0177q1kppedEGrAzE8mm1Rkr7XLozeyULf24rPLr7ammjUp8wcj67MzSYnzse24Pn+4jcuzr4sRBxudazwAarM6GidvwSc9t9DXX2kNOETPRiflKi/LOccJIdtnN1+IXc8fERopOdnfPo3Z1abQ7MbyrcjLqSIVZqE=
         skinName: PitPvP
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODQzNDgzNDQwMywKICAicHJvZmlsZUlkIiA6ICIwZGJlNjA2ZDRhNzg0MmQ3ODljOGRlYWYwYzUwMDg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQaXRQVlAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFjN2E0MzI3MDA2NmNjMjAxYjEyYzVhNWUyMjEyYTczZGI1N2M1OWRhYmI1ZjA3ZTAxMzVhYTMwOWM3Mzc1YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+<<<<<<< HEAD
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: owner,spawned,scoreboardtrait,rotationtrait,mounttrait,skintrait,lookclose,location,inventory,type,age,chunktickettrait
+=======
+        updateSkins: false
+    traitnames: owner,inventory,skintrait,spawned,location,type,age,mounttrait,scoreboardtrait,lookclose,smoothrotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      cached-skin-uuid: e2485a3b-56c9-4165-98fa-e50b73276391
+      cached-skin-uuid-name: justinss
+    name: KOOKOO
+    uuid: b383ea9f-2bf0-48bb-8881-fc2c74eccef9
+    traits:
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+        provider: wander
+        wander:
+          delay: -1
+          pathfind: true
+          xrange: 25
+          yrange: 3
+      spawned: true
+      owner:
+        uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
+      age:
+        age: 0
+        locked: true
+      followtrait:
+        active: true
+        followingUUID: 6f7c2000-8c8c-3e32-a19f-f89575d57255
+        protect: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: uMWYegNyLp5AOq+/mS4doK82u5xs6sDZCgcwXxr2cJ5LCldrgFMuSqhVnrRZjn0R6q1FzuKDCUvJxBfHqAqxmlNmYVffeyrZM/iOpvcoK65dlE51W3dF1wbu9VQhABncI+BVm9IJ0uIaiQMcPMNHuGeNX0GjTuKl+2CtkdE64tWbdTkgmXBSpg3BNS/NdLkp1YSmYcg1mgASrHVr18U2Yl1s5BTzpCme4NQY1dHJ+6g4P4t9rW4BTaBoiUpHEgCWy5HyRgXF4J0T8dd7F6657FlqYT90jpl4Epj1khOUcSRNboOpPJJ+FGKk/S5Nn4bEYrvROwZqEakZ/QQVd1i2Lih/TZoie9izim0wEVNRRpRd1d7K3Vq0alM3RWrd2TwviIEN/w9mNNcw8QpJO6uiLmaZcy05vmKghZGKk68aKLZNfVOjm+mX4CqfnQ3oASOftTvosEj50r9jidrp8FS0aQ06lOQEspdvzosaNGzclGQgj0lSfEENdiWz6BvXpxhzCrJsKkMLV513pbdKSSfdwHF9L33dzyWblpSDLTIXAc7vpZpBP+FU4vnrb7O7KvymCXo9EqfTIryDEnDD/PgqrU3uzCUgNHRwXQZdgocuDFyR7FbVU7OCM3K3RXACyC8D8BCFZLMhYQxH/WcZyxkREn5rjdsIu2TeocKiTxjzStc=
+        skinName: justinss
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODUxOTc3ODMyNCwKICAicHJvZmlsZUlkIiA6ICJlMjQ4NWEzYjU2Yzk0MTY1OThmYWU1MGI3MzI3NjM5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKdXN0aW5zcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YmUzMTI0OGVkNGFjMzhiODI5MjFiNzhlOTc1MDg4ZmY5NWUwM2I1NDI2NDQyNjI4ZWEzZjg5Y2UzYjllMTAxIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: 0.0
+        world: world_the_end
+        x: '-27.0'
+        y: '57.0'
+        z: '-94.0'
+        yaw: '0.0'
+        pitch: '0.0'
+    traitnames: skintrait,spawned,location,type,waypoints,mounttrait,owner,inventory,age,scoreboardtrait,lookclose,followtrait,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -391,12 +686,19 @@ npc:
       followtrait:
         active: false
         followingUUID: 9ec25562-329a-3fa0-98aa-2e2d9dc6bf72
+<<<<<<< HEAD
       gravity: {
         }
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: spawned,scoreboardtrait,owner,skintrait,mounttrait,lookclose,inventory,type,followtrait,gravity,location,poses,age,chunktickettrait
+=======
+        protect: false
+      gravity:
+        enabled: false
+    traitnames: skintrait,spawned,location,type,mounttrait,inventory,owner,gravity,poses,age,scoreboardtrait,lookclose,smoothrotationtrait,followtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -431,12 +733,20 @@ npc:
         signature: gGZRYooJ6FK1WdtIcv1VgpCJNzxazbpBY7l8qi0+oNhKoebG8OtG0Q/oN96t0PcYaseu065763zBFfMPmrVMmhP0adMp8dkZBcFgAj09uEQ/S5KTb27KRFTwx6bIgei1LXysJeqerbIAWjyWKCk6hv7tX08cZqjWNo66IY/IPNirdERqgIsOYH5f49A1PNrQ+IwvqrtSwynV1iuHariF5LvvasLMqeFfodeaPFwOINQEO4SoReO3GtbPyyiLzcr3CSdAGgP/JJTCdaEPcBN0GoGJJmPsDyj6CHBHPJRBF7MnQzgNapfLtiNltLk26qbAvpfPIKmSLeGdYgk4+ocQNDXLS4m1TgeSMxwoOaP07RqgK0VVuX6mQek0idD28aERztPbwccUitBP2CXQ2eDKzfN22AEXw0eadE9ORKwAofxIMQZ9xtyo9Uet2v2dAe7Cdjf8mPlXC0awOkDtbKgVv4hwJGdN+6yM0anClxiVssp5ndBbUTsL/Rpw5vlwY0GL5OWp7wE+Ax///Is6uFgVHuldNmPt5bkTN5f0CSsxyQySliZ0gR13cBxutPRcmsxJZHJzqVtK1FeSatMFiNZby354WE9dSNAXFvZAscdD8Z9yGceBf899QvZcO1wRsXx2m12VSkJMnsfM0gCm49yg/o4N32G0in7MEMpYA7TdTys=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODUxOTE0Mzk0NiwKICAicHJvZmlsZUlkIiA6ICJlYzcwYmNhZjcwMmY0YmI4YjQ4ZDI3NmZhNTJhNzgwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTkzZjZmYzQwNDg4ZjE4NzdjZGE5NGE4MzBiNTRlOWY2ZjU0YWI1OGE1NDUzYmFkNWM5NDc3MjZkZDFmNDczIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       type: PLAYER
+<<<<<<< HEAD
       age: {
         }
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,mounttrait,skintrait,lookclose,location,inventory,type,age,chunktickettrait
+=======
+      age:
+        age: 0
+        locked: true
+      spawned: true
+    traitnames: owner,inventory,skintrait,spawned,location,type,age,mounttrait,scoreboardtrait,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -488,6 +798,7 @@ npc:
       inventory:
         '1':
           amount: 1
+<<<<<<< HEAD
           type: diamond_sword
       age: {
         }
@@ -495,6 +806,14 @@ npc:
         tags:
         - CITIZENS_NPC
     traitnames: spawned,scoreboardtrait,owner,skintrait,mounttrait,lookclose,inventory,type,waypoints,location,poses,age,chunktickettrait
+=======
+          mdata: 0
+      age:
+        age: 0
+        locked: true
+      spawned: true
+    traitnames: skintrait,spawned,location,type,waypoints,mounttrait,inventory,owner,poses,age,scoreboardtrait,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -540,10 +859,14 @@ npc:
         visible: false
       owner:
         uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
+<<<<<<< HEAD
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,bossbar,mounttrait,skintrait,lookclose,location,inventory,type,age,chunktickettrait
+=======
+    traitnames: inventory,owner,skintrait,spawned,location,type,age,mounttrait,scoreboardtrait,bossbar,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -567,6 +890,7 @@ npc:
         skinName: fah
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODY3ODUxMDM1NywKICAicHJvZmlsZUlkIiA6ICJhY2I5NWIxMzYzYTY0MDY2ODgzYTM5MzVkYzk1MTNkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDExNWI2OGZhZjcxMDcxNjdkNzJiMGMyYmI2ZjYzZDcwZDZmZWFkZGVhZjRjNTZjZWYyYmU0MWYyZWUzMWIxYyIKICAgIH0KICB9Cn0=
       location:
+<<<<<<< HEAD
         bodyYaw: 315.00183
         world: OBSPAWN
         x: 0.6204
@@ -575,15 +899,30 @@ npc:
         yaw: -44.9982
         pitch: 0.0
         worldid: f0dcb5e1-c430-4624-98bb-4c5a8d2da5b6
+=======
+        bodyYaw: 239.27927
+        world: OBSPAWN
+        x: '4.5441'
+        y: '68.0'
+        z: '4.9817'
+        yaw: '-120.7207'
+        pitch: '0.0'
+      spawned: true
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
       owner:
         uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
       followtrait:
         active: false
         followingUUID: 9ec25562-329a-3fa0-98aa-2e2d9dc6bf72
+<<<<<<< HEAD
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,mounttrait,skintrait,location,inventory,type,followtrait,waypoints,age,chunktickettrait
+=======
+        protect: false
+    traitnames: owner,inventory,skintrait,spawned,location,type,waypoints,age,mounttrait,scoreboardtrait,followtrait,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -607,6 +946,7 @@ npc:
         skinName: fah
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODY4MDAwMDQ1MSwKICAicHJvZmlsZUlkIiA6ICJhY2I5NWIxMzYzYTY0MDY2ODgzYTM5MzVkYzk1MTNkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDExNWI2OGZhZjcxMDcxNjdkNzJiMGMyYmI2ZjYzZDcwZDZmZWFkZGVhZjRjNTZjZWYyYmU0MWYyZWUzMWIxYyIKICAgIH0KICB9Cn0=
       location:
+<<<<<<< HEAD
         bodyYaw: 88.13461
         world: OBSPAWN
         x: -6.7806
@@ -621,6 +961,19 @@ npc:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,mounttrait,skintrait,location,inventory,type,waypoints,age,chunktickettrait
+=======
+        bodyYaw: 219.7753
+        world: OBSPAWN
+        x: '7.8412'
+        y: '67.9375'
+        z: '4.512'
+        yaw: '-140.2247'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
+    traitnames: inventory,owner,skintrait,spawned,location,type,waypoints,age,mounttrait,scoreboardtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -644,6 +997,7 @@ npc:
         skinName: fah
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODY3OTc5NzMwMiwKICAicHJvZmlsZUlkIiA6ICJhY2I5NWIxMzYzYTY0MDY2ODgzYTM5MzVkYzk1MTNkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDExNWI2OGZhZjcxMDcxNjdkNzJiMGMyYmI2ZjYzZDcwZDZmZWFkZGVhZjRjNTZjZWYyYmU0MWYyZWUzMWIxYyIKICAgIH0KICB9Cn0=
       location:
+<<<<<<< HEAD
         bodyYaw: 226.4599
         world: OBSPAWN
         x: 7.002
@@ -658,6 +1012,19 @@ npc:
         tags:
         - CITIZENS_NPC
     traitnames: owner,scoreboardtrait,spawned,mounttrait,skintrait,location,inventory,type,waypoints,age,chunktickettrait
+=======
+        bodyYaw: 179.5868
+        world: OBSPAWN
+        x: '33.5059'
+        y: '68.0'
+        z: '15.3127'
+        yaw: '179.5868'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
+    traitnames: owner,inventory,skintrait,spawned,location,type,waypoints,age,mounttrait,scoreboardtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -681,6 +1048,7 @@ npc:
         skinName: fah
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3ODY3ODUxMDM1NywKICAicHJvZmlsZUlkIiA6ICJhY2I5NWIxMzYzYTY0MDY2ODgzYTM5MzVkYzk1MTNkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDExNWI2OGZhZjcxMDcxNjdkNzJiMGMyYmI2ZjYzZDcwZDZmZWFkZGVhZjRjNTZjZWYyYmU0MWYyZWUzMWIxYyIKICAgIH0KICB9Cn0=
       location:
+<<<<<<< HEAD
         bodyYaw: 46.48976
         world: OBSPAWN
         x: -13.2122
@@ -695,6 +1063,19 @@ npc:
         tags:
         - CITIZENS_NPC
     traitnames: owner,spawned,scoreboardtrait,mounttrait,skintrait,location,inventory,type,waypoints,age,chunktickettrait
+=======
+        bodyYaw: 168.53894
+        world: OBSPAWN
+        x: '-8.4189'
+        y: '68.0'
+        z: '-14.0998'
+        yaw: '168.5389'
+        pitch: '0.0'
+      spawned: true
+      owner:
+        uuid: 6f7c2000-8c8c-3e32-a19f-f89575d57255
+    traitnames: inventory,owner,skintrait,spawned,location,type,waypoints,age,mounttrait,scoreboardtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -709,6 +1090,7 @@ npc:
     uuid: 2d508b97-224d-44de-92bb-156d66df880a
     traits:
       location:
+<<<<<<< HEAD
         bodyYaw: 152.46884
         world: oneblock
         x: 1010.7
@@ -717,6 +1099,15 @@ npc:
         yaw: 167.9604
         pitch: -20.4758
         worldid: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
+=======
+        bodyYaw: -55.945473
+        world: world
+        x: '-230.9011'
+        y: '69.5435'
+        z: '-281.5395'
+        yaw: '-55.9455'
+        pitch: '-12.3901'
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
       type: PLAYER
       skintrait:
         signature: Ao2ODMVIv1v5W1c7d5OmLgw+5Rx7F7ahyb1kWPNgqeou5yy483esWjgCCZd6d5PLIV8Y2fqgCwMgNPmZAVCSraeoQ/PeDPVo9qrGYTqN/3a2RjMW+v4rz9fJAP6OD26nPP6Cf40BWtCHz6YS7FtccrluC8VBtcSELYjXykS/v0e3pLSf7YI4QepJBMSzYT2eiQP2JZzUwJU6eWRDxgDIYcTDe4vKKolRR2e+MgrN1L2NHXp1R97+Asv3Tn8LRTyy9nsqwzM/TlWuZmnkmoTl8I328/te1fFvZAzSuZz8Xh7KRVIM2KNbWv6ve8naKoCO6uEIKpYbgDuAE3YI5lQN5JJvbEoj29wp3eubuSp0m+8js2HUriqt5b7uygiR6aJhT/gOeld1OPG1XBj9z46cXmzfxRMNezUAbF+im7qD9Oof7/iJ/xRl1Wdci+sS3q2C9hJ8o3gwoKypuxx8ImSyjfsTuwiSrNCMuW+kZp8Fau2SVf7kFAp8SpbpLSgTIluJj0auvwXJ8rF6sPMZHb202bUqtKE8r4tnrk9OJVHYNdldsQfGLcT3yVQZC2Avh2Jbf/OVhzQ81KUZUZlz+Ttg5dCjSoViJb3DTx147rJx0Vm1HefAYLOi07WFDDljyiF5iP/hdrJ+iEfUP1Lu2V/qa7OQPfP+zQnlcqs/AytGYLU=
@@ -735,6 +1126,7 @@ npc:
         - 0.0
         - 360.0
       inventory:
+<<<<<<< HEAD
       - amount: 1
         type: poppy
       - amount: 1
@@ -789,6 +1181,13 @@ npc:
         provider: wander
     traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,type,inventory,waypoints,location,age,chunktickettrait
     name: Lobby
+=======
+        '0':
+          type: COBBLESTONE
+          amount: 2
+          mdata: 0
+    traitnames: inventory,owner,skintrait,spawned,location,type,age,mounttrait,scoreboardtrait,lookclose,smoothrotationtrait
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
     navigator:
       usedefaultstuckaction: false
       speedmodifier: 0.10000000149011612

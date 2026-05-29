@@ -12,23 +12,41 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
+<<<<<<< HEAD
   lastteleport: 1779995824904
+=======
+  lastteleport: 1779371287864
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
+<<<<<<< HEAD
   logout: 1779995965382
   login: 1779995626506
 money: '1996464.10'
+=======
+  logout: 1779376172328
+  login: 1779370246326
+money: '391282.75'
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
 last-account-name: VOID
 logoutlocation:
   world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
   world-name: oneblock
+<<<<<<< HEAD
   x: 1019.3153188825803
   y: 72.1875
   z: -2.3691712534726697
   yaw: -71.85018157958984
   pitch: 37.80006790161133
+=======
+  x: 1010.6863158862999
+  y: 66.0
+  z: 16.12645626820415
+  yaw: -58.6494140625
+  pitch: 35.09994888305664
+>>>>>>> fffcd8d7c2953d50ba29d85334b905b226a58214
 lastlocation:
   world: 8a2c19b0-f4d6-4b0d-9b50-b0db9b3f5cd7
   world-name: oneblock

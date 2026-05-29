@@ -1,0 +1,85 @@
+chestItems:
+  '100':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 12
+  '45':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 23
+  '40':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+  '35':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      type: APPLE
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: EGG
+      amount: 6
+  '30':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+  '25':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+  '20':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+  '15':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+  '10':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+  '5':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+  '1':
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16386
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET

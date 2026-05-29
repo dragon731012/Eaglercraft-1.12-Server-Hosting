@@ -1,0 +1,110 @@
+events:
+  all:
+    DisableRegenEvent:
+      enabled: false
+      minStart: 180
+      maxStart: 240
+      chance: 25
+      announceTimer: true
+      repeatable: false
+    HealthDecayEvent:
+      enabled: false
+      minStart: 240
+      maxStart: 300
+      chance: 20
+      announceTimer: true
+      repeatable: false
+    EnderDragonEvent:
+      enabled: false
+      minStart: 420
+      maxStart: 540
+      chance: 10
+      announceTimer: true
+      repeatable: false
+    WitherEvent:
+      enabled: false
+      minStart: 360
+      maxStart: 480
+      chance: 12
+      announceTimer: true
+      repeatable: false
+    MobSpawnEvent:
+      enabled: false
+      minStart: 180
+      maxStart: 300
+      chance: 20
+      announceTimer: true
+      repeatable: false
+    ArrowRainEvent:
+      enabled: false
+      minStart: 300
+      maxStart: 420
+      chance: 15
+      announceTimer: true
+      repeatable: false
+      spawnPer2Tick: 2
+    AnvilRainEvent:
+      enabled: false
+      minStart: 360
+      maxStart: 480
+      chance: 10
+      announceTimer: true
+      repeatable: false
+      spawnPer5Tick: 1
+    CrateDropEvent:
+      enabled: false
+      minStart: 180
+      maxStart: 360
+      chance: 20
+      announceTimer: true
+      repeatable: true
+    ShrinkingBorderEvent:
+      enabled: false
+      minStart: 360
+      maxStart: 480
+      chance: 20
+      announceTimer: true
+      repeatable: false
+    ProjectilesOnlyEvent:
+      enabled: false
+      minStart: 120
+      maxStart: 240
+      chance: 15
+      announceTimer: true
+      repeatable: false
+    ProjectileSpleefEvent:
+      enabled: false
+      minStart: 300
+      maxStart: 420
+      chance: 15
+      announceTimer: true
+      repeatable: false
+    DoubleDamageEvent:
+      enabled: false
+      minStart: 240
+      maxStart: 360
+      chance: 15
+      announceTimer: true
+      repeatable: false
+    GhastEvent:
+      enabled: false
+      minStart: 300
+      maxStart: 420
+      chance: 10
+      announceTimer: true
+      repeatable: false
+    DeathMatchEvent:
+      enabled: true
+      minStart: 600
+      maxStart: 660
+      chance: 100
+      announceTimer: true
+      repeatable: false
+  solo:
+    DeathMatchEvent:
+      minStart: 540
+      maxStart: 600
+  team:
+    DeathMatchEvent:
+      minStart: 600
+      maxStart: 720

@@ -1,0 +1,23 @@
+{
+    "worldedit.expand.description.vert": "Vertically expand the selection to world limits.",
+    "worldedit.expand.expanded": "Region expanded {0} blocks",
+    "worldedit.expand.expanded.vert": "Region expanded {0} blocks (top-to-bottom).",
+    "worldedit.biomeinfo.lineofsight": "Biomes at line of sight point: {0}",
+    "worldedit.biomeinfo.position": "Biomes at your position: {0}",
+    "worldedit.biomeinfo.selection": "Biomes in your selection: {0}",
+    "worldedit.biomeinfo.not-locatable": "Command sender must be present in the world to use the -p flag.",
+    "worldedit.brush.radius-too-large": "Maximum allowed brush radius: {0}",
+    "worldedit.brush.apply.description": "Apply brush, apply a function to every block",
+    "worldedit.brush.apply.radius": "The size of the brush",
+    "worldedit.brush.apply.shape": "The shape of the region",
+    "worldedit.brush.apply.type": "Type of brush to use",
+    "worldedit.brush.apply.item.warning": "This brush simulates item usages. Its effects may not work on all platforms, may not be undo-able, and may cause strange interactions with other mods/plugins. Use at your own risk.",
+    "worldedit.brush.paint.description": "Paint brush, apply a function to a surface",
+    "worldedit.brush.paint.size": "The size of the brush",
+    "worldedit.brush.paint.shape": "The shape of the region",
+    "worldedit.brush.paint.density": "The density of the brush",
+    "worldedit.brush.paint.type": "Type of brush to use",
+    "worldedit.brush.paint.item.warning": "This brush simulates item usages. Its effects may not work on all platforms, may not be undo-able, and may cause strange interactions with other mods/plugins. Use at your own risk.",
+    "worldedit.brush.sphere.equip": "Sphere brush shape equipped ({0}).",
+    "worldedit.setbiome.not-locatable": "Command sender must be present in the world to use the -p flag."
+}

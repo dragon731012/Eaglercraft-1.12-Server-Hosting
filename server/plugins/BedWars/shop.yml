@@ -1,0 +1,355 @@
+#
+# Copyright (C) 2023 ScreamingSandals
+#
+# This file is part of Screaming BedWars.
+#
+# Screaming BedWars is free software: you can redistribute it and/or modify it
+# under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Screaming BedWars is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with Screaming BedWars. If not, see <https://www.gnu.org/licenses/>.
+#
+
+data:
+#-   stack:
+#      type: golden_apple
+#      amount: 1
+#      display-name: "Example category"
+#      lore:
+#      - "This is my category!"
+#      - "Please buy things inside!"
+#    items:
+#    - price: 50
+#      price-type: "bronze"
+#      stack:
+#        type: diamond_sword
+#        amount: 1
+#        enchants:
+#          sharpness: 2
+#        repair-cost: 1
+#        damage: 99
+# Value 'applycolorbyteam' is used for automatic-coloring-in-shop.
+# See WarpPowder for more info.
+
+- stack: "diamond_chestplate;1;Armor;Protect yourself with armor! Click here."
+  items:
+   - price: 1 of bronze
+     properties: "applycolorbyteam"
+     stack:
+      type: leather_helmet
+      enchants:
+        protection: 1
+   - price: 1 of bronze
+     properties: "applycolorbyteam"
+     stack:
+      type: leather_leggings
+      enchants:
+        protection: 1
+   - price: 1 of bronze
+     properties: "applycolorbyteam"
+     stack:
+      type: leather_boots
+      enchants:
+        protection: 1
+   - price: 1 of iron
+     stack:
+      type: chainmail_chestplate
+      enchants:
+        protection: 1
+   - price: 3 of iron
+     stack:
+      type: chainmail_chestplate
+      enchants:
+        protection: 2
+   - price: 7 of iron
+     stack:
+      type: chainmail_chestplate
+      enchants:
+        protection: 3
+   - price: 10 of gold
+     stack:
+      type: iron_helmet
+      display-name: Helm
+      enchants:
+        protection: 2
+       
+- stack: "diamond_sword;1;Swords;Click here to get sword for attacking your enemies"
+  column: center
+  items:
+   - price: 8 of bronze
+     stack:
+      type: stick
+      enchants:
+        knockback: 1
+   - price: 1 of iron
+     stack:
+      type: golden_sword
+      enchants:
+        sharpness: 1
+   - price: 3 of iron
+     stack:
+      type: golden_sword
+      enchants:
+        sharpness: 2
+   - price: 7 of iron
+     stack:
+      type: golden_sword
+      enchants:
+        sharpness: 3
+   - price: 3 of gold
+     stack:
+      type: golden_sword
+      enchants:
+        sharpness: 2
+        knockback: 1
+   - price: 15 of gold
+     stack:
+      type: golden_axe
+      display-name: "Axe of Infinity"
+      enchants:
+        sharpness: 1
+        unbreaking: 1
+        knockback: 1
+       
+- stack: "bow;1;Bows;Prove yourself as a marksman with these wonderful bows"
+  column: right
+  items:
+   - price: 3 of gold
+     stack:
+      type: bow
+      enchants:
+        infinity: 1
+   - price: 7 of gold
+     stack:
+      type: bow
+      enchants:
+        infinity: 1
+        power: 1
+   - price: 13 of gold
+     stack:
+      type: bow
+      enchants:
+        infinity: 1
+        power: 2
+   - price: 14 of gold
+     stack:
+      type: bow
+      enchants:
+        infinity: 1
+        flame: 1
+   - price: 15 of gold
+     stack:
+      type: bow
+      enchants:
+        infinity: 1
+        flame: 1
+        punch: 1
+   - arrow for 1 of gold
+
+- stack: "cooked_porkchop;1;Eat;Are you hungry? Get something to eat."
+  row: 3
+  column: 2
+  items:
+   - cooked_porkchop;2 for 4 of bronze
+   - golden_apple for 2 of iron
+   - bread;10 for 5 of gold
+
+- stack:
+    type: potion
+    display-name: "Drinks"
+    lore:
+      - "Not enough? Use these potions and you'll feel better!"
+    potion-type: strength
+  row: 3
+  column: 6
+  items:
+    - stack:
+        type: potion
+        potion-type: healing
+      price: 3 of iron
+    - stack:
+        type: potion
+        potion-type: strong_healing
+      price: 5 of iron
+    - stack:
+        type: potion
+        potion-type: swiftness
+      price: 7 of iron
+    - stack:
+        type: potion
+        potion-type: strength
+      price: 1 of gold
+    - stack:
+        type: potion
+        potion-type: regeneration
+      price: 3 of gold
+
+- stack: "sandstone;1;Blocks;Get to the others! Possible with blocks."
+  linebreak: before
+  items:
+   - cut_sandstone;2 for 1 of bronze
+   - end_stone;3 for 7 of bronze
+   - iron_block for 3 of iron
+   - glowstone;4 for 15 of bronze
+   - price: 4 of bronze
+     properties: "applycolorbyteam"
+     stack: glass
+
+- stack: "tnt;1;Useful Stuff;Looking for useful stuff? Here are some!"
+  column: center
+  items:
+   - chest for 1 of iron
+   - ender_chest for 1 of gold
+   - price: 3 of iron
+     stack: "tnt;1;Autoigniteable TNT"
+     properties:
+      - name: "AutoIgniteableTnt"
+        explosion-time: 5
+        damage-placer: false
+   - price: 7 of iron
+     properties:
+      - name: "WarpPowder"
+        delay: 6
+     stack:
+      type: gunpowder
+      display-name: "Warp Powder"
+      lore:
+       - "When using this powder you'll get"
+       - "teleported to you spawn point within 6 seconds"
+       - "Warning: Any movement will stop the process"
+   - price: 3 of iron
+     properties:
+      - name: "Trap"
+        data:
+         - sound: ENTITY_SHEEP_AMBIENT
+         - effect:
+            effect: blindness
+            amplifier: 2
+            duration: 100
+            ambient: true
+            particles: true
+            icon: true
+         - effect:
+            effect: weakness
+            amplifier: 2
+            duration: 100
+            ambient: true
+            particles: true
+            icon: true
+         - effect:
+            effect: slowness
+            amplifier: 2
+            duration: 100
+            ambient: true
+            particles: true
+            icon: true
+     stack:
+      type: string
+      display-name: "Trap"
+      lore:
+       - "Get informed if an enemy steps on your trap"
+       - "and your enemy won't be able to move properly."
+   - price: 6 of iron
+     properties:
+      - name: "MagnetShoes"
+        probability: 75
+     stack:
+      type: iron_boots
+      display-name: "Magnet-Shoes"
+      lore:
+       - "Wear those shoes and have a 75%"
+       - "chance of getting no knockback!"
+   - price: 5 of iron
+     properties: "Tracker"
+     stack:
+      type: compass
+      display-name: "Tracker"
+      lore:
+       - "Wanna know where your closest target is?"
+       - "Let's try this out!"
+   - price: 15 of iron
+     properties:
+      - name: "rescueplatform"
+        delay: 5
+     stack:
+      type: blaze_rod
+      display-name: "Rescue Platform"
+      lore:
+       - "Protect yourself from falling into"
+       - "void with a Rescue Platform."
+       - "This is your last hope!"
+   - price: 5 of gold
+     properties:
+      - name: "arrowblocker"
+        delay: 5
+     stack:
+      type: ender_eye
+      display-name: "Arrow Blocker"
+      lore:
+       - "Block arrows that are coming"
+       - "for you with black magic."
+       - "I mean, with this item."
+   - price: 64 of bronze
+     properties:
+      - name: "protectionwall"
+     stack:
+      type: bricks
+      display-name: "Protection Wall"
+      lore:
+       - "Instantly builds a wall that"
+       - "can save your life!"
+   - price: 24 of iron
+     properties:
+      - name: "Golem"
+        speed: 0.25
+        follow-range: 16.0
+     stack:
+      type: ghast_spawn_egg
+      display-name: "Golem"
+      lore:
+       - "An iron golem that will protect"
+       - "your team from the enemies."
+   - price: 10 of gold
+     properties: "TNTSheep"
+     stack:
+      type: sheep_spawn_egg
+      display-name: "TNT Sheep"
+      lore:
+       - "Use the TNT-Sheep! It will"
+       - "walk towards your closest enemy"
+       - "and explode within 8 seconds!"
+   - price: 40 of iron
+     properties: "ThrowableFireball"
+     stack:
+       type: fire_charge
+       display-name: "Fireball"
+       lore:
+         - "Is it a bird? Is it a plane?"
+         - "By the time you know"
+         - "you are dead!"
+
+- stack: "diamond_pickaxe;1;Pickaxes;Destroy others blocks? Use these pickaxes."
+  column: right
+  items:
+   - price: 4 of bronze
+     stack:
+      type: iron_pickaxe
+      enchants:
+        fortune: 1
+   - price: 2 of iron
+     stack:
+      type: iron_pickaxe
+      enchants:
+        fortune: 2
+   - price: 1 of gold
+     stack:
+      type: iron_pickaxe
+      enchants:
+        fortune: 3

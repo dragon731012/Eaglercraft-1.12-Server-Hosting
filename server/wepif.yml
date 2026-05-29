@@ -12,13 +12,9 @@
 #   in categories (like "enforce-single-session" is in the "protection"
 #   category.
 # - If you want to check the format of this file before putting it
-#   into WEPIF, paste it into http://yaml-online-parser.appspot.com/
+#   into WEPIF, paste it into https://yaml-online-parser.appspot.com/
 #   and see if it gives "ERROR:".
 # - Lines starting with # are comments and so they are ignored.
-#
-# About Configuration Permissions
-# - See http://wiki.sk89q.com/wiki/WorldEdit/Permissions/Bukkit
-# - Now with multiworld support (see example)
 
 
 ignore-nijiperms-bridges: true
@@ -31,6 +27,8 @@ resolvers:
     - NijiPermissionsResolver
     - DinnerPermsResolver
     - FlatFilePermissionsResolver
+    disabled:
+    - VaultResolver
 permissions:
     groups:
         default:

@@ -1,0 +1,38 @@
+msg:
+  duplicate_removed: '已移除重复物品：{hash}'
+  cross_duplicate_removed: '已移除跨背包重复物品：{hash}'
+broadcast:
+  cross_duplicate_removed: '&c[Anti-Dupe] {player} 被抓到复制！(玩家：{player},
+    Hash：{hash}, 时间：{time})'
+  duplicate_removed: '&c[Anti-Dupe] {player} 被抓到复制！(玩家：{player},
+    Hash：{hash}, 时间：{time})'
+cmd:
+  recovery:
+    usage: '用法：/antidupe recovery give <player>'
+    given: 已将最新恢复的物品给予 {player}。
+    none: 未找到该玩家的恢复记录。
+  customitem:
+    added: '已添加受保护的自定义物品名称：{name}'
+    list: '受保护的自定义物品名称：{names}'
+    removed: '已移除受保护的自定义物品名称：{name}'
+prefix: '&c[Anti-Dupe]&r '
+title:
+  no_duping: '&4 禁止复制！ '
+discord:
+  offence_detected:
+    title: 检测到 Anti-Dupe 违规
+    description: '{player} 触发了 Anti-Dupe 检测。'
+  removed_duplicates:
+    title: Anti-Dupe 已移除重复物品
+    description: 重复物品已移除并已备份。
+  ban:
+    title: Anti-Dupe 封禁
+    description: '{player} 已被 Anti-Dupe 封禁。'
+  field:
+    player: 玩家
+    uuid: UUID
+    world: 世界
+    location: 位置
+    action: 操作
+    reason: 原因
+    items: 物品

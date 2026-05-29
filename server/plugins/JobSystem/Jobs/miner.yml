@@ -1,0 +1,83 @@
+blocks:
+  # === STANDARD STEINE (ÜBERWORLD) ===
+  STONE: { reward: 1.0, xp: 2 }
+  COBBLESTONE: { reward: 0.5, xp: 1 }
+  MOSSY_COBBLESTONE: { reward: 1.5, xp: 2 }
+  SMOOTH_STONE: { reward: 1.0, xp: 2 }
+  DIORITE: { reward: 1.0, xp: 1 }
+  ANDESITE: { reward: 1.0, xp: 1 }
+  GRANITE: { reward: 1.0, xp: 1 }
+  DEEPSLATE: { reward: 1.5, xp: 2 }
+  COBBLED_DEEPSLATE: { reward: 1.0, xp: 1 }
+  TUFF: { reward: 2.0, xp: 2 }
+  CALCITE: { reward: 3.0, xp: 3 }
+  SANDSTONE: { reward: 0.5, xp: 1 }
+  RED_SANDSTONE: { reward: 0.5, xp: 1 }
+  GRAVEL: { reward: 0.2, xp: 1 }
+  DIRT: { reward: 0.1, xp: 0 }
+  GRASS_BLOCK: { reward: 0.1, xp: 0 }
+
+  # === ERZE (ÜBERWORLD) ===
+  COAL_ORE: { reward: 5.0, xp: 10 }
+  DEEPSLATE_COAL_ORE: { reward: 6.0, xp: 12 }
+  COPPER_ORE: { reward: 4.0, xp: 8 }
+  DEEPSLATE_COPPER_ORE: { reward: 5.0, xp: 10 }
+  IRON_ORE: { reward: 10.0, xp: 15 }
+  DEEPSLATE_IRON_ORE: { reward: 12.0, xp: 18 }
+  REDSTONE_ORE: { reward: 8.0, xp: 12 }
+  DEEPSLATE_REDSTONE_ORE: { reward: 10.0, xp: 15 }
+  LAPIS_ORE: { reward: 15.0, xp: 20 }
+  DEEPSLATE_LAPIS_ORE: { reward: 18.0, xp: 25 }
+  GOLD_ORE: { reward: 25.0, xp: 35 }
+  DEEPSLATE_GOLD_ORE: { reward: 30.0, xp: 45 }
+  DIAMOND_ORE: { reward: 100.0, xp: 100 }
+  DEEPSLATE_DIAMOND_ORE: { reward: 120.0, xp: 120 }
+  EMERALD_ORE: { reward: 150.0, xp: 150 }
+  DEEPSLATE_EMERALD_ORE: { reward: 180.0, xp: 180 }
+
+  # === ROHERZ-BLÖCKE ===
+  RAW_IRON_BLOCK: { reward: 50.0, xp: 50 }
+  RAW_COPPER_BLOCK: { reward: 20.0, xp: 20 }
+  RAW_GOLD_BLOCK: { reward: 100.0, xp: 100 }
+
+  # === HÖHLEN-UPDATE BLÖCKE (Caves & Cliffs) ===
+  AMETHYST_BLOCK: { reward: 4.0, xp: 5 }
+  BUDDING_AMETHYST: { reward: 10.0, xp: 15 }
+  AMETHYST_CLUSTER: { reward: 10.0, xp: 15 }
+  DRIPSTONE_BLOCK: { reward: 2.0, xp: 3 }
+  POINTED_DRIPSTONE: { reward: 1.5, xp: 2 }
+  MUD: { reward: 0.5, xp: 1 }
+  PACKED_MUD: { reward: 1.0, xp: 2 }
+  MOSS_BLOCK: { reward: 1.0, xp: 2 }
+  CLAY: { reward: 1.0, xp: 2 }
+
+  # === OBSIDIAN & TERRACOTTA (Mesa) ===
+  OBSIDIAN: { reward: 25.0, xp: 30 }
+  CRYING_OBSIDIAN: { reward: 35.0, xp: 40 }
+  TERRACOTTA: { reward: 2.0, xp: 3 }
+  RED_TERRACOTTA: { reward: 2.0, xp: 3 }
+  ORANGE_TERRACOTTA: { reward: 2.0, xp: 3 }
+  YELLOW_TERRACOTTA: { reward: 2.0, xp: 3 }
+  BROWN_TERRACOTTA: { reward: 2.0, xp: 3 }
+  WHITE_TERRACOTTA: { reward: 2.0, xp: 3 }
+  LIGHT_GRAY_TERRACOTTA: { reward: 2.0, xp: 3 }
+
+  # === NETHER BLÖCKE ===
+  NETHERRACK: { reward: 0.2, xp: 1 }
+  NETHER_QUARTZ_ORE: { reward: 10.0, xp: 15 }
+  NETHER_GOLD_ORE: { reward: 15.0, xp: 20 }
+  ANCIENT_DEBRIS: { reward: 500.0, xp: 500 }
+  BASALT: { reward: 1.5, xp: 2 }
+  SMOOTH_BASALT: { reward: 1.5, xp: 2 }
+  BLACKSTONE: { reward: 1.5, xp: 2 }
+  GILDED_BLACKSTONE: { reward: 20.0, xp: 25 }
+  MAGMA_BLOCK: { reward: 2.0, xp: 3 }
+  GLOWSTONE: { reward: 3.0, xp: 5 }
+  SOUL_SAND: { reward: 1.0, xp: 1 }
+  SOUL_SOIL: { reward: 1.0, xp: 1 }
+  CRIMSON_NYLIUM: { reward: 0.5, xp: 1 }
+  WARPED_NYLIUM: { reward: 0.5, xp: 1 }
+
+  # === END BLÖCKE ===
+  END_STONE: { reward: 2.0, xp: 3 }
+  PURPUR_BLOCK: { reward: 3.0, xp: 4 }

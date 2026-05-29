@@ -1,0 +1,143 @@
+#
+# Mob Configuration Options
+#
+# More information about Mythic mob features can be found here:
+# https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Mobs/Mobs
+#
+Configuration:
+  
+  # ================================================================================
+  # General mob options
+  # ================================================================================
+  Mobs:
+    CancelDamageIfZero: false
+    KillMessagePrefix: ''
+  
+  # ================================================================================
+  # Mob Defaults - choose what mob options default to
+  # ================================================================================
+  DefaultMobOptions:
+    Despawn: true
+    
+    PreventOtherDrops: false
+    PreventVanillaDamage: false
+  
+  # ================================================================================
+  # Drops - Options that affect loot that mobs drop
+  # ================================================================================
+  MobDrops:
+    DefaultDropMethod: VANILLA
+    DoLootsplosionByDefault: false
+    DoHologramNameByDefault: false
+    DoItemGlowByDefault: false
+    DoItemBeamByDefault: false
+    DoItemVFXByDefault: false
+    
+    # Special VFX item that will overlay over the dropped item.
+    # Can be used to make extra-fancy effects for drops
+    DefaultItemVFX:
+      Material: POTION
+      Model: 1
+    # Generation: item/vfx_item            # Generation requires Crucible
+
+    DoPerPlayerDropsByDefault: false # Drops are rolled for each participant
+    MinimumDamagePercentForDrops: 0.0 # Damage % to be eligible for per-player loot
+    DoClientsideDropsByDefault: false # Per-player loot is only shown to the player
+    
+    DefaultDeathHologram:
+    - <rainbow>--------------------------------
+    - <red><bold>DEFEATED <mob.name>
+    - '<gold>Rank: <white>#<player.rank>'
+    - '<gold>Damage: <white><player.damage>'
+    - ''
+    - <green>#1. <1.name> - <1.damage>
+    - <yellow>#2. <2.name> - <2.damage>
+    - <yellow>#3. <3.name> - <3.damage>
+    - <rainbow>--------------------------------
+    DefaultDeathChatMessage:
+    - <rainbow>--------------------------------
+    - <red><bold>DEFEATED <mob.name>
+    - '<gold>Rank: <white>#<player.rank>'
+    - '<gold>Damage: <white><player.damage>'
+    - ''
+    - <green>#1. <1.name> - <1.damage>
+    - <yellow>#2. <2.name> - <2.damage>
+    - <yellow>#3. <3.name> - <3.damage>
+    - <rainbow>--------------------------------
+    DefaultLeaderboardTimeout: 6000
+  
+  # ================================================================================
+  # Eggs - options related to mob eggs
+  # ================================================================================
+  MobEggs:
+    Material: PIG_SPAWN_EGG
+    Model: 0
+    DefaultDisplay: <mob.name> Spawn Egg
+    DefaultLore:
+    - <dark_gray>A Mythical Egg that can</dark_gray>
+    - <dark_gray>be used to resurrect a</dark_gray>
+    - <dark_gray><mob.name</dark_gray>
+  
+  # ================================================================================
+  # Holograms - options related to hologram-type features
+  # ================================================================================
+  Holograms:
+    GlobalOffset: 0.15
+    
+    CastBar:
+      InfoBackground: 0,0,0,0
+      InfoBillboarding: VERTICAL
+      CastBackground: 0,0,0,0
+      CastBillboarding: VERTICAL
+      Offset: 1
+    
+    HealthBar:
+      Background: 0,0,0,0
+      Billboarding: VERTICAL
+      Offset: -0.05
+      Length: 50
+      Scale: 0.4,0.4,0.4
+    
+    Nameplate:
+      Background: 0,0,0,60
+      Billboarding: VERTICAL
+      Offset: 0
+    
+    Speech:
+      Background: 100,100,100,60
+      Billboarding: VERTICAL
+      LinePrefix: <white>
+      Offset: 0.4
+  
+  # ================================================================================
+  # Level Scaling - Allows mobs to level up and become stronger
+  # ================================================================================
+  MobLeveling:
+    
+    # Used to scale a mob's attributes as they level up
+    ScalingEquations:
+      Health: V * ((1.05)^(L-1))
+      Damage: V * ((1.05)^(L-1))
+    
+    # Alternate legacy method of scaling mobs attributes
+    DefaultLevelModifiers:
+      Health: 0.1
+      Armor: 0
+      Damage: 0
+      KnockbackResistance: 0
+      Power: 0
+    
+    # Per-world scaling options
+    WorldScaling:
+      Default:
+        Enabled: true
+        ScaleVanillaMobs: true
+        PerBlocksFromSpawn: 250
+      world2:
+        Enabled: true
+        PerBlocksFromSpawn: 250
+      world2_nether:
+        Enabled: false
+        PerBlocksFromSpawn: 100
+
+

@@ -1,0 +1,38 @@
+msg:
+  duplicate_removed: 'Objeto duplicado eliminado: {hash}'
+  cross_duplicate_removed: 'Duplicado entre inventarios eliminado: {hash}'
+broadcast:
+  cross_duplicate_removed: '&c[Anti-Dupe] ¡{player} fue atrapado duplicando! (Jugador: {player},
+    Hash: {hash}, Hora: {time})'
+  duplicate_removed: '&c[Anti-Dupe] ¡{player} fue atrapado duplicando! (Jugador: {player},
+    Hash: {hash}, Hora: {time})'
+cmd:
+  recovery:
+    usage: 'Uso: /antidupe recovery give <player>'
+    given: Se entregó el último objeto recuperado a {player}.
+    none: No se encontraron entradas de recuperación para ese jugador.
+  customitem:
+    added: 'Se añadió el nombre de objeto personalizado protegido: {name}'
+    list: 'Nombres de objetos personalizados protegidos: {names}'
+    removed: 'Se eliminó el nombre de objeto personalizado protegido: {name}'
+prefix: '&c[Anti-Dupe]&r '
+title:
+  no_duping: '&4 ¡NO DUPLIQUES! '
+discord:
+  offence_detected:
+    title: Infracción de Anti-Dupe detectada
+    description: '{player} activó la detección de Anti-Dupe.'
+  removed_duplicates:
+    title: Anti-Dupe eliminó objetos duplicados
+    description: Los duplicados fueron eliminados y respaldados.
+  ban:
+    title: Baneo de Anti-Dupe
+    description: '{player} fue baneado por Anti-Dupe.'
+  field:
+    player: Jugador
+    uuid: UUID
+    world: Mundo
+    location: Ubicación
+    action: Acción
+    reason: Razón
+    items: Objetos

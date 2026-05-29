@@ -1,0 +1,151 @@
+taunts:
+  playwithfire:
+    name: '&4Play with Fire'
+    icon: FLINT_AND_STEEL
+    level: 5
+    cost: 100
+    addGlow: true
+    lore:
+    - '&b*Plays ambient fire sound.'
+    - '&6*Surrounds player in fire and'
+    - '&6lava particles.'
+    message: '&eWhen you play with fire you get burned!'
+    sound: BLOCK_FIRE_AMBIENT
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0
+    particleDensity: 8
+    particles:
+    - FLAME
+    - LAVA
+    - SMOKE_NORMAL
+    position: 2
+    page: 1
+  chicken:
+    name: '&4Who''s a Chicken'
+    icon: EGG
+    level: 10
+    cost: 100
+    addGlow: true
+    lore:
+    - '&b*Plays chicken hurt sound.'
+    - '&6*Surrounds player in snowball and'
+    - '&6angry villager particles.'
+    message: '&eSomeone''s a yellow belly!'
+    sound: ENTITY_CHICKEN_DEATH
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0.5
+    particleDensity: 35
+    particles:
+    - SNOWBALL
+    - VILLAGER_ANGRY
+    position: 4
+    page: 1
+  pig:
+    name: '&4Here Piggy Piggy'
+    icon: PORKCHOP
+    level: 15
+    cost: 100
+    addGlow: true
+    lore:
+    - '&b*Plays pig hurt sound.'
+    - '&6*Surrounds player in fire and'
+    - '&6lava particles.'
+    message: '&eHere Piggy Piggy Piggy!'
+    sound: ENTITY_PIG_DEATH
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0.5
+    particleDensity: 35
+    particles:
+    - SNOWBALL
+    - VILLAGER_ANGRY
+    position: 6
+    page: 1
+  dragon:
+    name: '&4Fear Me!'
+    icon: DRAGON_EGG
+    level: 20
+    cost: 100
+    addGlow: true
+    lore:
+    - '&b*Plays dragon growl.'
+    - '&6*Surrounds player in fire and lava particles.'
+    message: '&4Sniff....Sniff....I smell fear!!'
+    sound: ENTITY_ENDER_DRAGON_GROWL
+    useCustomSound: false
+    volume: 10
+    pitch: 1
+    particleSpeed: 0.5
+    particleDensity: 35
+    particles:
+    - DRAGON_BREATH
+    - SMOKE_NORMAL
+    position: 8
+    page: 1
+  seekdestroy:
+    name: '&eSeek and Destroy'
+    icon: GOLDEN_AXE
+    level: 30
+    cost: 100
+    addGlow: true
+    lore:
+    - '&a*REQUIRES CUSTOM RESOURCE PACK!'
+    - '&b*Plays custom seek and destory taunt.'
+    - '&6*Surrounds player in portal'
+    - '&6and restone particles'
+    message: '&eWe will seek and destroy you!'
+    sound: SEEK_DESTROY
+    useCustomSound: true
+    volume: 10
+    pitch: 1
+    particleSpeed: 0.2
+    particleDensity: 60
+    particles:
+    - PORTAL
+    - REDSTONE
+    position: 9
+    page: 1
+  comeoutplay:
+    name: '&eCome Out and Play'
+    icon: RABBIT_FOOT
+    level: 35
+    cost: 100
+    addGlow: true
+    lore:
+    - '&a*REQUIRES CUSTOM RESOURCE PACK!'
+    - '&b*Plays custom come out and play taunt.'
+    - '&6*Surrounds player in witch and happy particles'
+    message: '&eCome out and play with me!'
+    sound: COME_OUT_AND_PLAY
+    useCustomSound: true
+    volume: 10
+    pitch: 1
+    particleSpeed: 0.5
+    particleDensity: 30
+    particles:
+    - SPELL_WITCH
+    - VILLAGER_HAPPY
+    position: 11
+    page: 1
+  none:
+    name: '&eNo Taunt'
+    icon: NETHER_STAR
+    level: 0
+    cost: 0
+    addGlow: false
+    lore:
+    - ''
+    message: ''
+    useCustomSound: true
+    volume: 10
+    pitch: 1
+    particleSpeed: 0.5
+    particleDensity: 30
+    position: 0
+    page: 1
+menuSize: 45

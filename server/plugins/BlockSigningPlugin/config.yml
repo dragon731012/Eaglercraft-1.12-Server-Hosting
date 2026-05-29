@@ -1,0 +1,307 @@
+# Anti-Dupe Configuration
+# Controls the behavior of the anti-duplication system.
+
+# Configuration version. Do not modify this manually, as it is used to detect outdated configs.
+# If the version does not match the plugin's expected version, the config will be replaced.
+config-version: 3.0
+
+# Language file in plugins/BlockSigningPlugin/lang/<code>.yml
+language: en_US
+
+# Interval (in seconds) for scanning individual player inventories for duplicate items.
+# Higher values reduce server load but may delay duplicate detection.
+# Recommended: 5-10 seconds for most servers.
+scan-interval-seconds: 5
+
+# Interval (in seconds) for scanning across all players' inventories for duplicate hashes.
+# This detects items duplicated across different players.
+# Higher values reduce server load but may delay cross-inventory detection.
+# Recommended: 30-60 seconds for most servers.
+cross-inventory-scan-interval-seconds: 30
+
+# Interval (in seconds) for checking player inventories for items without hashes.
+# This ensures items added by external plugins (e.g., EconomyShopGUI) are assigned hashes.
+# Lower values increase responsiveness but may increase server load.
+# Recommended: 1-2 seconds for most servers.
+unhashed-check-interval-seconds: 1
+
+# Whether to automatically ban players caught duplicating items.
+# If true, players are banned.
+# If false, items are removed, but no bans are issued.
+# Set to false for testing or lenient servers.
+auto-ban-enabled: false
+
+# If true, removed duplicates are saved to recovery.yml
+backup-removed-items: true
+max-recovery-entries-per-player: 5
+
+# Enables debug logging for detailed information (e.g., hash assignments, item stacking).
+# If true, verbose messages are logged to the console.
+# If false, only critical logs (warnings, errors, dupe detections) are recorded.
+# Set to false for production to reduce log spam.
+debug: false
+
+# If true, anti-dupe checks are restricted to only the items listed in the 'onlyscan' section.
+# If false, all items are checked except those in 'blacklisted-items' and 'excluded-from-dupe-scans'.
+# When enabled, the 'excluded-from-dupe-scans' list is ignored.
+onlyscan-enabled: false
+
+# List of materials that are exempt from hash assignment and duplicate checks.
+# Use to prevent processing of specific items (e.g., unobtainable or server-specific items).
+# Must use valid Bukkit Material names (e.g., BEDROCK, DIAMOND_SWORD).
+# Add items that should not be tracked to avoid performance overhead.
+blacklisted-items:
+- ARROW
+- SPECTRAL_ARROW
+- TIPPED_ARROW
+- SNOWBALL
+- EGG
+- ENDER_PEARL
+- SPLASH_POTION
+- LINGERING_POTION
+#  - POTION: 50
+
+# List of player UUIDs exempt from anti-dupe checks.
+# Players in this list can have duplicate items without triggering detection or bans.
+# Use /antidupe whitelist <add|remove> <player> to manage this list.
+whitelist:
+- 123e4567-e89b-12d3-a456-426614174000
+
+# List of materials excluded from anti-dupe scans.
+# These items are still assigned hashes but are not checked for duplicates unless 'onlyscan-enabled' is true.
+# Useful for items that admins allow to be duplicated (e.g., event items).
+# Must use valid Bukkit Material names.
+# The following items must never be protected.
+excluded-from-dupe-scans:
+- ARROW
+- SPECTRAL_ARROW
+- TIPPED_ARROW
+- SNOWBALL
+- EGG
+- ENDER_PEARL
+- SPLASH_POTION
+- LINGERING_POTION
+
+# List of materials to scan for duplicates when 'onlyscan-enabled' is true.
+# Only these items will be checked for duplication if 'onlyscan-enabled' is enabled.
+# Must use valid Bukkit Material names (e.g., DIAMOND, NETHERITE_INGOT).
+onlyscan:
+- ACACIA_BOAT
+- ACACIA_CHEST_BOAT
+- ARMOR_STAND
+- AXOLOTL_BUCKET
+- BEETROOT_SOUP
+- BIRCH_BOAT
+- BIRCH_CHEST_BOAT
+- BLACK_SHULKER_BOX
+- BLUE_SHULKER_BOX
+- BOW
+- BROWN_SHULKER_BOX
+- BRUSH
+- BUNDLE
+- CARROT_ON_A_STICK
+- CHAINMAIL_BOOTS
+- CHAINMAIL_CHESTPLATE
+- CHAINMAIL_HELMET
+- CHAINMAIL_LEGGINGS
+- CHERRY_BOAT
+- CHERRY_CHEST_BOAT
+- CHEST_MINECART
+- COD_BUCKET
+- COMMAND_BLOCK_MINECART
+- COPPER_AXE
+- COPPER_BOOTS
+- COPPER_BOOTS
+- COPPER_CHESTPLATE
+- COPPER_CHESTPLATE
+- COPPER_HELMET
+- COPPER_HELMET
+- COPPER_HOE
+- COPPER_LEGGINGS
+- COPPER_LEGGINGS
+- COPPER_PICKAXE
+- COPPER_SHOVEL
+- COPPER_SPEAR
+- COPPER_SWORD
+- CREEPER_BANNER_PATTERN
+- CROSSBOW
+- CYAN_SHULKER_BOX
+- DARK_OAK_BOAT
+- DARK_OAK_CHEST_BOAT
+- DEBUG_STICK
+- DIAMOND_AXE
+- DIAMOND_BOOTS
+- DIAMOND_CHESTPLATE
+- DIAMOND_HELMET
+- DIAMOND_HOE
+- DIAMOND_HORSE_ARMOR
+- DIAMOND_LEGGINGS
+- DIAMOND_PICKAXE
+- DIAMOND_SHOVEL
+- DIAMOND_SPEAR
+- DIAMOND_SWORD
+- ELYTRA
+- ENCHANTED_BOOK
+- FILLED_MAP
+- FISHING_ROD
+- FLINT_AND_STEEL
+- FLOWER_BANNER_PATTERN
+- FURNACE_MINECART
+- GLOBE_BANNER_PATTERN
+- GOAT_HORN
+- GOLDEN_AXE
+- GOLDEN_BOOTS
+- GOLDEN_CHESTPLATE
+- GOLDEN_HELMET
+- GOLDEN_HOE
+- GOLDEN_HORSE_ARMOR
+- GOLDEN_LEGGINGS
+- GOLDEN_PICKAXE
+- GOLDEN_SHOVEL
+- GOLDEN_SPEAR
+- GOLDEN_SWORD
+- GRAY_SHULKER_BOX
+- GREEN_SHULKER_BOX
+- HOPPER_MINECART
+- IRON_AXE
+- IRON_BOOTS
+- IRON_CHESTPLATE
+- IRON_HELMET
+- IRON_HOE
+- IRON_HORSE_ARMOR
+- IRON_LEGGINGS
+- IRON_PICKAXE
+- IRON_SHOVEL
+- IRON_SPEAR
+- IRON_SWORD
+- JUNGLE_BOAT
+- JUNGLE_CHEST_BOAT
+- LAVA_BUCKET
+- LEATHER_BOOTS
+- LEATHER_CHESTPLATE
+- LEATHER_HELMET
+- LEATHER_HORSE_ARMOR
+- LEATHER_LEGGINGS
+- LIGHT_BLUE_SHULKER_BOX
+- LIGHT_GRAY_SHULKER_BOX
+- LIME_SHULKER_BOX
+- LINGERING_POTION
+- MACE
+- MAGENTA_SHULKER_BOX
+- MANGROVE_BOAT
+- MANGROVE_CHEST_BOAT
+- MILK_BUCKET
+- MINECART
+- MOJANG_BANNER_PATTERN
+- MUSHROOM_STEW
+- MUSIC_DISC_11
+- MUSIC_DISC_13
+- MUSIC_DISC_5
+- MUSIC_DISC_BLOCKS
+- MUSIC_DISC_CAT
+- MUSIC_DISC_CHIRP
+- MUSIC_DISC_CREATOR
+- MUSIC_DISC_CREATOR_MUSIC_BOX
+- MUSIC_DISC_FAR
+- MUSIC_DISC_MALL
+- MUSIC_DISC_MELLOHI
+- MUSIC_DISC_OTHERSIDE
+- MUSIC_DISC_PIGSTEP
+- MUSIC_DISC_PRECIPICE
+- MUSIC_DISC_RELIC
+- MUSIC_DISC_STAL
+- MUSIC_DISC_STRAD
+- MUSIC_DISC_WAIT
+- MUSIC_DISC_WARD
+- NETHERITE_AXE
+- NETHERITE_BOOTS
+- NETHERITE_CHESTPLATE
+- NETHERITE_HELMET
+- NETHERITE_HOE
+- NETHERITE_LEGGINGS
+- NETHERITE_PICKAXE
+- NETHERITE_SHOVEL
+- NETHERITE_SPEAR
+- NETHERITE_SWORD
+- OAK_BOAT
+- OAK_CHEST_BOAT
+- ORANGE_SHULKER_BOX
+- PALE_OAK_BOAT
+- PALE_OAK_CHEST_BOAT
+- PIGLIN_BANNER_PATTERN
+- PINK_SHULKER_BOX
+- POTION
+- POWDER_SNOW_BUCKET
+- PUFFERFISH_BUCKET
+- PURPLE_SHULKER_BOX
+- RABBIT_STEW
+- RECOVERY_COMPASS
+- RED_SHULKER_BOX
+- SADDLE
+- SALMON_BUCKET
+- SHEARS
+- SHIELD
+- SHULKER_BOX
+- SKULL_BANNER_PATTERN
+- SPAWNER_MINECART
+- SPLASH_POTION
+- SPRUCE_BOAT
+- SPRUCE_CHEST_BOAT
+- SPYGLASS
+- STONE_AXE
+- STONE_HOE
+- STONE_PICKAXE
+- STONE_SHOVEL
+- STONE_SPEAR
+- STONE_SWORD
+- SUSPICIOUS_STEW
+- TADPOLE_BUCKET
+- TNT_MINECART
+- TOTEM_OF_UNDYING
+- TRIDENT
+- TROPICAL_FISH_BUCKET
+- TURTLE_HELMET
+- WARPED_FUNGUS_ON_A_STICK
+- WATER_BUCKET
+- WHITE_SHULKER_BOX
+- WOODEN_AXE
+- WOODEN_HOE
+- WOODEN_PICKAXE
+- WOODEN_SHOVEL
+- WOODEN_SPEAR
+- WOODEN_SWORD
+- WRITABLE_BOOK
+- WRITTEN_BOOK
+- YELLOW_SHULKER_BOX
+#  - "Excalibur"
+#  - "Legendary Pickaxe"
+
+# Discord Webhook
+discord:
+  enabled: false
+  webhook-url: ''
+  username: Anti-Dupe
+  avatar-url: ''
+  # Optional ping content, e.g. "<@&ROLE_ID>" or "@here"
+  ping: ''
+  notify-on:
+    dupe-detected: true
+    item-removed: true
+    ban: true
+  include:
+    player-uuid: true
+    world: true
+    location: true
+    item-summary: true
+  rate-limit-seconds: 2
+public-dupe-messages: true
+protected-custom-items:
+- excalibur
+- legendary pickaxe
+custom-items:
+  excalibur:
+    hash-mode: NAME
+    max-stack-size: 1
+  legendary pickaxe:
+    hash-mode: NAME
+    max-stack-size: 1

@@ -1,0 +1,96 @@
+# A server restart is required to apply changes.
+MobAiReducer:
+  enabled: true
+  worlds: # Use '*' to enable for all worlds.
+    - '*'
+  values:
+    collides: true # Disabling this option allows storing up to 2x more creatures, but may currently prevent arrows from hitting optimized entities.
+    silent: false # Disables audio packets, improving performance for large farms.
+    async: true
+    force_load: true # Overwrites entity AI on plugin reload.
+    click_event: true # Sends info when a player clicks on a creature (disabled by the developer).
+    purge_interval: 30 # The purge frequency of the cache for mobs with optimized MobAI is defined in seconds. It does not remove animals from the world — it only removes them from the internal WeakHashMap to prevent a memory leak.
+    ignore_models: true # If "true" the MobAiReducer won't apply to entities from ModelEngine or MythicMobs
+    
+    # List of triggered spawn reasons. Spawn reasons: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+    spawn_reasons:
+    - NATURAL
+    - SPAWNER_EGG
+    - SPAWNER
+    - EGG
+    - BREEDING
+    - DISPENSE_EGG
+    - ENDER_PEARL
+    - COMMAND
+    
+    # Entities that will have their mob AI and pathfinder system replaced.
+    entities:
+      animals: true
+      monsters: true
+      villagers: false
+      tameable: false # Pets (e.g. wolves, horses, cats, llamas, parrots).
+      birds: false # Flying entities (e.g. bees, parrots).
+      others: true
+    
+    # If "true" only listed entities be optimized; if "false", all unlisted entities be optimized
+    list_mode: false
+    
+    # Entity types: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+    list:
+    - WOLF
+    - MOOSHROOM
+    - SNOW_GOLEM
+    - IRON_GOLEM
+    - ENDER_DRAGON
+    - WARDEN
+    
+    pathfinder:
+      # If "true" pathfinder will keep dedicated pathfinders to the entities (e.g. creeper explosion)
+      keep_dedicated: true
+      
+      # If "true" only listed pathfinders will be removed; if "false", all unlisted pathfinders will be removed
+      list_mode: false
+      
+      # List of pathfinders that contain a given phrase in the class name
+      list:
+      - AttackableTarget
+      - HurtByTarget
+      - Attack
+      - BowShoot
+      - Swell
+      - Eat
+      - FishSchool
+      - Sit
+      - FollowOwner
+      - Panic
+    # - AvoidTarget
+    # - RestrictSun
+    # - FleeSun
+
+    animals:
+      tempt:
+        enabled: true
+        # Player search range.
+        range: 6.25
+        # Movement speed.
+        speed: 1.25
+        # Player search cooldown (in ticks).
+        cooldown: 30
+        # Villagers follow players holding emeralds.
+        villagers: true
+        # If false, only the main hand is checked.
+        trigger_both_hands: true
+        # Calls EntityTargetEvent with Reason: Tempt.
+        event: false
+        # Not recommended, but can optimize packet flow
+        teleport: false
+      breed:
+        enabled: true
+        # Partner search range.
+        range: 5.0
+        # Movement speed.
+        speed: 1.0
+        # Calls EntityTargetEvent with Reason: Custom.
+        event: false
+        # Not recommended, but can optimize packet flow
+        teleport: false

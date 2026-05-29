@@ -1,589 +1,1035 @@
+# ---------------------------------------------------------------------------
+# Universal prefix — matches legacy Megas/oldlang game lines: bold aqua + gray ▸ + body.
+# (oldlang: "&b&lSkywars &7▸ &b(player) &ehas joined...")
+# ---------------------------------------------------------------------------
+message-prefix: "&b&lSkyWars &7▸ &r"
+message-prefix-exclude-prefixes: []
+
+lunar:
+  water-portal:
+    waypoint-name: "&b&l{portal}"
+    hint-title: "&e{portal}"
+    hint-desc: "&7{friendly_type} &8· &7{lucky_line} &8· &7Dive in to queue!"
+    lucky-on: "&aLucky queue"
+    lucky-off: "&7Normal queue"
+
 chat:
-  lobbychat: '&7[&bSkyWars&7] &6&l{level} &b{displayname}&f: &7{message}'
-  specchat: '&8[&cSpec&8] &6&l{level} &b{displayname}&f: &7{message}'
-  ingamechat: '&8[&7Chat&8] &6&l{level} &b{displayname}&f: &7{message}'
-  teamchat: '&8[&aTeam&8] &6&l{level} &b{displayname}&f: &7{message}'
-  externalPrefix: ''
+  lobbychat: "&7{level_display_prefix}&b{displayname} &8› &7{message}"
+  specchat: "&c[Spectate] &7{level_display_prefix}&b{displayname} &8› &7{message}"
+  ingamechat: "&7[All] &7{level_display_prefix}&b{displayname} &8› &7{message}"
+  teamchat: "&a[Team] &7{level_display_prefix}&b{displayname} &8› &7{message}"
+  externalPrefix: ""
 command:
-  kit-create: '&aSuccessfully created the kit {kit}'
-  kit-update: '&aThe kit {kit}&7''s contents have been updated with your inventory
-    contents'
-  kit-enable: '&7The kit {kit} &7is now {state}!'
-  kit-perm: '&7The kit {kit} &7{state} requires a permission to unlock'
-  kit-fall: '&7Fall damage has been {state} &7for the kit {kit}'
-  kit-pvp: '&7PVP damage has been {state} &7for the kit {kit}'
-  kit-regen: '&7Health Regeneration has been {state} &7for the kit {kit}'
-  kit-soup: '&7Soup PVP has been {state} &7for the kit {kit}'
-  kit-icon: '&7The kit icon is now &b{icon}'
-  kit-locked-icon: '&7The locked kit icon item is now &b{icon}'
-  kit-listno: '&cThere aren''t any kits to display'
-  kit-listheader: '&6Kit Filename&f - &ePosition&f - &aStatus'
-  kit-listheader2: '&9==============================================='
-  kit-list: '&6{filename}&f - &e{position}&f - &a{status}'
-  kit-load: '&aLoaded the kit {kit} into your inventory'
-  kit-loadmsg: '&7&oUse the &e&o/swkit update &7&ocommand to save any changes you
-    make!'
-  kit-loreerror: '&cYou must specify a number between 1 and 16 or "locked"!'
-  kit-lore: '&aYou successfully set lore line {line} of kit {kit}'
-  kit-name: '&7You changed the display name of the kit to: {kit}'
-  kit-position: '&7You changed the kit''s position in the menu to &b{position}'
-  no-kit: '&cCouldn''t find a kit with the name {kit}'
-  stats-cleared: '&cYou cleared {player}''s stats!'
-  must-be-online: '&cThat player is not online!'
-  reload: '&aSuccessfully reloaded the &bSkyWarsReloaded&a plugin by &bGaagjesCraft
-    Network Team&a!'
-  player-not-found: '&cCouldn''t find a player with that name!'
-  spawnset: '&aThe Skywars lobby spawn has successfully been set to your location!'
-  setstat: '&a{player}''s {stat} was set to {amount}!'
-  must-be-int: '&cYou must specify a number!'
-  method-must-be: '&cThe stat method could either be "set", "add", or "remove"'
-  invalid-effect: '&cThat is not a valid effect!'
-  invalid-color: '&cThat is not a valid color!'
-  invalid-sound: '&cThat is not a valid sound!'
-  chestadd: '&aAdded the item(s) in your {method} to {type} chests at {percent} percent!'
-  stat-types: '&cThe stat could either be "wins", "losses", "kills", "deaths", "xp",
-    "pareffect", "proeffect", "glasscolor", "killsound", or "winsound"'
-  hologram-removed: '&cThe nearest hologram has been removed!'
-  hologram-created: '&aYou successfully created a &b{type} {format} &ahologram!'
-  hologram-already-exists: '&cThere is already a hologram within 0.5 block radius
-    of your location!'
+  teleported-to-spawn: "&aTeleported to the lobby spawn."
+  select-set: "&aSelected &e{player}&a for &e/sw send [map]&a."
+  send-success: "&aSent &e{player}&a to arena &e{map}&a."
+  coins:
+    unavailable: "&cEconomy is disabled or unavailable."
+    player-not-found: "&cPlayer not found: &e{player}"
+    balance: "&a{player}&7's balance: &6{balance}"
+  kit-create: "&aSuccessfully created the kit {kit}"
+  kit-update: "&aThe kit {kit}&7's contents have been updated with your inventory contents"
+  kit-enable: "&7The kit {kit} &7is now {state}!"
+  kit-perm: "&7The kit {kit} &7{state} requires a permission to unlock"
+  kit-fall: "&7Fall damage has been {state} &7for the kit {kit}"
+  kit-pvp: "&7PVP damage has been {state} &7for the kit {kit}"
+  kit-regen: "&7Health Regeneration has been {state} &7for the kit {kit}"
+  kit-soup: "&7Soup PVP has been {state} &7for the kit {kit}"
+  kit-icon: "&7The kit icon is now &b{icon}"
+  kit-locked-icon: "&7The locked kit icon item is now &b{icon}"
+  kit-listno: "&cThere aren't any kits to display"
+  kit-listheader: "&6Kit Filename&f - &ePosition&f - &aStatus"
+  kit-listheader2: "&9==============================================="
+  kit-list: "&6{filename}&f - &e{position}&f - &a{status}"
+  kit-load: "&aLoaded the kit {kit} into your inventory"
+  kit-loadmsg: "&7&oUse the &e&o/swkit update &7&ocommand to save any changes you make!"
+  kit-loreerror: "&cYou must specify a number between 1 and 16 or \"locked\"!"
+  kit-lore: "&aYou successfully set lore line {line} of kit {kit}"
+  kit-name: "&7You changed the display name of the kit to: {kit}"
+  kit-position: "&7You changed the kit's position in the menu to &b{position}"
+  no-kit: "&cCouldn't find a kit with the name {kit}"
+  stats-cleared: "&cYou cleared {player}'s stats!"
+  must-be-online: "&cThat player is not online!"
+  reload: "&aSuccessfully reloaded &bMythicSkywars&a. &7Luck / NTD:
+    &echests/lucky/luckyblocks.yml&7. Loot tiers: &echests/normal &7· &ebasic
+    &7· &eop&7."
+  player-not-found: "&cCouldn't find a player with that name!"
+  spawnset: "&aThe Skywars lobby spawn has successfully been set to your location!"
+  setstat: "&a{player}'s {stat} was set to {amount}!"
+  must-be-int: "&cYou must specify a number!"
+  method-must-be: "&cThe stat method could either be \"set\", \"add\", or \"remove\""
+  migrateusw-start: "&eStarting UltraSkyWars MongoDB migration... This may take a while."
+  migrateusw-mode: "&7Mode: &f{mode}"
+  migrateusw-finished: "&aUltraSkyWars migration finished."
+  migrateusw-summary: "&aScanned: {scanned}, Imported: {imported}, Skipped:
+    {skipped}, Failed: {failed}"
+  update:
+    unavailable: "&cUpdate checker is not available."
+    checking: "&7Checking for updates..."
+    force-checking: "&7Force re-checking for updates (clearing cache)..."
+    available: "&aA new update is available! &eCurrent: &7v{current} &e→ New:
+      &bv{version}"
+    up-to-date: "&aYou are running the latest version! &7(v{version})"
+    already-downloaded: "&aThe update has already been downloaded and is ready to apply."
+    use-update-cmd: "&7Use &e/sw update &7to download and apply the update."
+    downloading: "&7Downloading update v{version}..."
+    downloaded: "&aSuccessfully downloaded update v{version}!"
+    restart: "&e&lPlease restart the server to apply the update."
+    download-failed: "&cFailed to download the update. Check the console for details."
+    no-download: "&cNo download URL available for this update. Check the GitHub
+      releases page manually."
+  invalid-effect: "&cThat is not a valid effect!"
+  invalid-color: "&cThat is not a valid color!"
+  invalid-sound: "&cThat is not a valid sound!"
+  chestadd: "&aAdded the item(s) in your {method} to {type} chests at {percent} percent!"
+  stat-types: "&cThe stat could either be \"wins\", \"losses\", \"kills\",
+    \"deaths\", \"xp\", \"souls\", \"pareffect\", \"proeffect\", \"glasscolor\",
+    \"killsound\", or \"winsound\""
+  hologram-removed: "&cThe nearest hologram has been removed!"
+  hologram-created: "&aYou successfully created a &b%type% %format% &ahologram!"
+  bypass-lobby-slots-enabled: "&aLobby slot bypass enabled. You can now move items
+    and build/place in lobby."
+  bypass-lobby-slots-disabled: "&eLobby slot bypass disabled."
+  lobbywaterportal:
+    unavailable: "&cLobby water portal manager is not available."
+    usage-header: "&6Lobby water portal commands:"
+    usage-create: "&e/sw lobbywaterportal create (name)"
+    usage-pos1: "&e/sw lobbywaterportal pos1 (name)"
+    usage-pos2: "&e/sw lobbywaterportal pos2 (name)"
+    usage-pos: "&eUsage: /sw lobbywaterportal {sub} (name)"
+    usage-type: "&e/sw lobbywaterportal type (name) (all|single|team)"
+    usage-luckymode: "&e/sw lobbywaterportal luckymode (name) (on|off)"
+    usage-delete: "&e/sw lobbywaterportal delete (name)"
+    usage-list: "&e/sw lobbywaterportal list"
+    created: "&aCreated lobby water portal &e{name}&a. Use pos1/pos2/type."
+    exists: "&ePortal &6{name} &ealready exists."
+    deleted: "&aDeleted portal &e{name}&a."
+    not-found: "&cPortal &e{name} &cnot found."
+    set-pos: "&aSet &e{sub} &afor &e{name} &ato your current block."
+    invalid-type: "&cInvalid type. Use all, single, or team."
+    set-type: "&aSet portal &e{name} &atype to &e{type}&a."
+    invalid-luckymode: "&cInvalid lucky mode value. Use on or off."
+    set-luckymode: "&aSet portal &e{name} &alucky mode to &e{state}&a."
+    list-header: "&6Lobby water portals:"
+    list-empty: "&7- none"
+    list-entry: "&7- {entry}"
+  soulwell:
+    unavailable: "&cSoul Well manager is not available."
+    usage-header: "&6Soul Well admin:"
+    usage-setwell: "&e/sw soulwell setwell"
+    usage-holo: "&e/sw soulwell holo"
+    usage-info: "&e/sw soulwell info"
+    usage-clear: "&e/sw soulwell clear"
+    usage-open: "&e/sw soulwell open [player]"
+    usage-debug: "&e/sw soulwell debug (on|off)"
+    look-at-block: "&cLook at a block within 6 blocks."
+    not-set: "&cSoul Well block is not set."
+    set-at: "&aSoul Well set at &e{world} {x}, {y}, {z}"
+    holo-refreshed: "&aSoul Well hologram refreshed."
+    cleared: "&eSoul Well location cleared."
+    opened-for: "&aOpened Soul Well for &e{player}&a."
+    debug-state: "&7Soul Well click debug is currently: &e{state}"
+    debug-set: "&aSoul Well click debug set to: &e{state}"
 kit:
-  vote-random: '&cRandom'
-  rand-lore: '&7Selects a random kit.'
-  vote-nokit: '&cNo kit'
-  nokit-lore: '&7Play without a kit.'
+  vote-random: "&cRandom"
+  rand-lore: "&7Selects a random kit."
+  vote-nokit: "&cNo kit"
+  nokit-lore: "&7Play without a kit."
 taunt:
-  prefix: '&eTaunt &b{player}'
+  prefix: "&eTaunt &7· &b{player}"
+  line: "&e&lTAUNT &8| &b{player}&7: &f{text}"
 event:
-  announce: '&eThe &b{event}&e event is starting in &7{time}'
-  crateInv: '&7SkyWars Crate'
+  announce: "&eEvent &a{event} &8- &estarts in &c{time}&e! &7Get ready."
+  crateInv: "&7SkyWars Crate"
 maps:
-  noArenas: '&cThere currently are no arenas. Create one using ''/swm create <name>'''
-  waitingLobbySpawn: '&aThe waiting lobby spawn of map {mapname} has been set to your
-    location!'
-  setLookDirection: '&aThe look direction spawn of map {mapname} has been set to your
-    location!'
-  created: '&aSuccessfully created a new arena called {mapname}!'
-  creator: '&aThe creator of map {mapname} has been set to {creator}!'
-  deleted: '&cYou deleted an arena called {mapname}! This cannot be undone.'
-  listHeader: '&7--------------[&aArena List&7]--------------'
-  listResult: '&7{filename}&f - &b{displayname}&f - {status}'
-  minplayer: '&aThe minimum amount of players to start the map {mapname} has been
-    set to {min}!'
-  teamsize: '&aThe team size of map {mapname} has been set to {size}!'
-  name: '&bThe display name of map {mapname} has been set to {displayname}!'
-  refreshed: '&7Successfully reloaded the map data of the map {mapname}!'
-  registered: '&aSuccessfully registered a map called {mapname}'
-  unregistered: '&cSuccessfully unregistered a map called {mapname}'
-  saved: '&aSuccessfully saved a map called {mapname}'
-  register-reminder: '&7You have to register the arena to save your changes!'
-  changename: '&7Enter the new display name in the chat.'
-  changecreator: '&bEnter the new creator in the chat.'
-  addSpawn: '&aSpawn &e#{num}&a has been added to map {mapname}'
-  addDeathSpawn: '&aDeathMatch Spawn &e#{num}&a added to map {mapname}'
-  spawnRemoved: '&cSpawn &7#{num}&c of team &7{team}&c has been removed from the map
-    {mapname}'
-  deathSpawnRemoved: '&cDeathMatch Spawn &7#{num}&c has been removed from the map
-    {mapname}'
-  specSpawn: '&aThe spectator spawn of map {mapname} has been set to your location'
-  chestPlacementType: '&7From now on, all chests you place in the arena {mapname}
-    will be &e{type} &7chests.'
-  addChest: '&aAdded a new chest to the map {mapname}'
-  addCenterChest: '&aAdded a new center chest to the map {mapname}'
-  removeChest: '&cRemoved a chest from the map {mapname}'
+  noArenas: "&cThere currently are no arenas. Create one using '/swm create (name)'"
+  editor:
+    tool-given: "&aUse the blaze rod to open the arena setup menu."
+    left-without-saving: "&eLeft editor for arena {mapname} without saving changes."
+    team-spawn-added: "&aAdded team spawn for team &e#{team}&a."
+    chest-mode-set: "&aChest mode set to {mode}&a."
+    chest-mode-center: "&6CENTER"
+    chest-mode-normal: "&6NORMAL"
+    friendly-fire-state: "&aFriendly fire is now {state}&a."
+    hologram:
+      line: "&aSETUP &7({type}&7)"
+      type:
+        chest-normal: "&eCHEST: NORMAL"
+        chest-center: "&eCHEST: CENTER"
+        chest-unregistered: "&cCHEST: NOT SETUP"
+        spawn: "&bSPAWN T{team}#{spawn}"
+        deathmatch-spawn: "&2DM SPAWN #{num}"
+        world-spawn: "&dWORLD SPAWN"
+        spectator-spawn: "&5SPECTATOR SPAWN"
+    no-spawn-at-location: "&cNo player/team spawn exists at your current location."
+    no-deathmatch-spawn-at-location: "&cNo deathmatch spawn exists at your current location."
+    spectate-spawn-cleared: "&aSpectate spawn cleared for this arena."
+    waiting-spawn-cleared: "&aWaiting lobby spawn cleared for this arena."
+    waiting-spawn-disabled-solo: "&eWaiting lobby spawn is disabled for solo arenas."
+    min-players-unavailable: "&eAdd player spawns first before changing minimum players."
+    all-chests-normalized: "&aRegistered every chest on this map as NORMAL. Total
+      chests: &e{count}&a."
+    state:
+      enabled: "&aenabled"
+      disabled: "&cdisabled"
+    item:
+      add-player-spawn:
+        name: "&bAdd Player Spawn"
+        lore: "&7Left click: set here | Right click: remove"
+      chest-mode:
+        name: "&bChest Mode"
+        lore-current: "&7Current: {mode}"
+        lore-toggle: "&7Click to toggle chest placement mode"
+      add-deathmatch-spawn:
+        name: "&bAdd Deathmatch Spawn"
+        lore: "&7Set deathmatch spawn at your location"
+      set-look-direction:
+        name: "&bSet Look Direction"
+        lore: "&7Set default chest look direction from your location"
+      set-spectate-spawn:
+        name: "&bSet Spectate Spawn"
+        lore: "&7Left click: set here | Right click: remove"
+      friendly-fire:
+        name: "&bFriendly Fire"
+        lore-current: "&7Friendly Fire: {state}"
+        lore-toggle: "&7Click to toggle friendly fire"
+      set-waiting-spawn:
+        name: "&bSet Waiting Lobby Spawn"
+        lore: "&7Left click: set here | Right click: remove"
+      team-size:
+        name: "&bTeam Size"
+        lore-current: "&7Team Size: &6{size}"
+        lore-left: "&7Left click: increase"
+        lore-right: "&7Right click: decrease"
+      min-players:
+        name: "&bMinimum Players"
+        lore-current: "&7Min Players: &6{count}"
+        lore-left: "&7Left click: increase"
+        lore-right: "&7Right click: decrease"
+      normalize-chests:
+        name: "&bSet All Chests To NORMAL"
+        lore: "&7Scans the whole map and registers all chests as NORMAL"
+      open-arena-manager:
+        name: "&bOpen Arena Manager"
+        lore: "&7Open advanced arena settings"
+      remove-deathmatch-spawn:
+        name: "&cRemove Deathmatch Spawn"
+        lore: "&7Remove deathmatch spawn at your current location"
+      save-exit:
+        name: "&aSave & Exit Editor"
+        lore: "&7Save current map edits and leave editor"
+      exit-no-save:
+        name: "&cExit Without Saving"
+        lore: "&7Leave editor without saving changes"
+  waitingLobbySpawn: "&aThe waiting lobby spawn of map {mapname} has been set to your location!"
+  setLookDirection: "&aThe look direction spawn of map {mapname} has been set to your location!"
+  created: "&aSuccessfully created a new arena called {mapname}!"
+  creator: "&aThe creator of map {mapname} has been set to {creator}!"
+  deleted: "&cYou deleted an arena called {mapname}! This cannot be undone."
+  listHeader: "&7--------------[&aArena List&7]--------------"
+  listResult: "&7{filename}&f - &b{displayname}&f - {status}"
+  minplayer: "&aThe minimum amount of players to start the map {mapname} has been
+    set to {min}!"
+  teamsize: "&aThe team size of map {mapname} has been set to {size}!"
+  name: "&bThe display name of map {mapname} has been set to {displayname}!"
+  refreshed: "&7Successfully reloaded the map data of the map {mapname}!"
+  registered: "&aSuccessfully registered a map called {mapname}"
+  unregistered: "&cSuccessfully unregistered a map called {mapname}"
+  saved: "&aSuccessfully saved a map called {mapname}"
+  register-reminder: "&7You have to register the arena to save your changes!"
+  changename: "&7Enter the new display name in the chat."
+  changecreator: "&bEnter the new creator in the chat."
+  addSpawn: "&aSpawn &e#{num}&a has been added to map {mapname}"
+  addDeathSpawn: "&aDeathMatch Spawn &e#{num}&a added to map {mapname}"
+  chest-type-center: "&aThe chest you are looking at is a &bcenter chest&a!"
+  chest-type-normal: "&aThe chest you are looking at is a &bnormal chest&a!"
+  chest-type-unregistered: "&cThe chest you are looking at is not registered in this arena!"
+  spawnRemoved: "&cSpawn &7#{num}&c of team &7{team}&c has been removed from the
+    map {mapname}"
+  deathSpawnRemoved: "&cDeathMatch Spawn &7#{num}&c has been removed from the map {mapname}"
+  specSpawn: "&aThe spectator spawn of map {mapname} has been set to your location"
+  chestPlacementType: "&7From now on, all chests you place in the arena {mapname}
+    will be &e{type} &7chests."
+  addChest: "&aAdded a new chest to the map {mapname}"
+  addCenterChest: "&aAdded a new center chest to the map {mapname}"
+  removeChest: "&cRemoved a chest from the map {mapname}"
+  waiting-lobby-auto: "&a[SkyWars] Waiting lobby is auto-generated for team maps. No setup needed!"
+  copyasduo:
+    team-size-error: "&cTeam size must be a number (default: 2)."
+    not-found: "&cMap data file not found: &e{map}.yml"
+    not-found-hint: "&7Make sure the solo map exists in plugins/MythicSkywars/mapsData/"
+    converting: "&a[MythicSkywars] &7Converting &e{source} &7-) &e{target} &7(team
+      size: {teamsize})..."
+    success: "&a[MythicSkywars] &aSuccessfully created &e{target}&a!"
+    data-file: "&7  Map data: &f{file}"
+    world-copied: "&7  World folder: &fcopied"
+    world-skipped: "&7  World folder: &cskipped (source not found)"
+    team-size-info: "&7  Team size: &f{teamsize}"
+    teams-info: "&7  Teams: &f{teams}"
+    min-players-info: "&7  Min players: &f{min}"
+    next-steps: "&eNext steps:"
+    step-review: "&7  1. Review the map with &f/swm edit {target}"
+    step-register: "&7  2. Register it with &f/swm register {target}"
+    error: "&c[MythicSkywars] Error copying map: {error}"
 party:
-  memberbusy: '&cUnable to join a game. {player} is busy!'
-  disbanded: '&c{leader} has disbanded the party {partyname}&c!'
-  joined: '&7[&a+&7] &b{player} &7joined the party!'
-  declined: '&c{player} has declined your party invite!'
-  left: '&7[&c-&7] &b{player} &7left the party!'
-  invite: '&b{leader} &7has invited you to join the party {partyname}&7! Type &e/swparty
-    accept&7 to join the party!'
-  clicktoaccept: '&aClick here to accept!'
-  invited: '&7You have invited &b{player} &7to join the party!'
-  pendingInvite: '&cYou already sent an invite to {player}!'
-  couldnotfind: '&cCouldn''t find anyone with the name {player}!'
-  noinvite: '&cNobody invited you :('
-  youjoined: '&aYou joined the party {partyname}!'
-  youdeclined: '&cYou declined the party invite of the party {partyname}!'
-  partyisfull-nojoin: '&cOh no! That party is full, you can''t join.'
-  alreadyinparty: '&cYou''re already in a party...'
-  create: '&aYou created a party with the name {partyname}&a!'
-  notinaparty: '&cOnly party members can do this!'
-  mustbepartyleader: '&cOnly party leaders can do this!'
-  onlyleader: '&cOnly the party leader has the power to join games!'
-  youlefttheparty: '&cYou left your current party!'
-  rename: '&7You renamed your party to {partyname}&7!'
-  info1: '&7Party Name: &b{partyname}'
-  info2: '&7Party Leader: &b{leader}'
-  info3: '&7Party members: &b{members}'
+  memberbusy: "&c{player} &7is busy &8— &ccan't pull them into a game right now!"
+  disbanded: "&c{leader} &7disbanded &f{partyname}&7. &8| &7Squad wiped."
+  joined: "&b{player} &ejoined the party! &8· &7welcome in!"
+  declined: "&c{player} &7declined the invite &8» &7no hard feelings (maybe)."
+  left: "&b{player} &eleft the party. &8| &7stay sharp out there!"
+  invite: "&b{leader} &einvited you to &f{partyname}&e! &8- &7type &a/swparty accept"
+  clicktoaccept: "&aClick here to accept!"
+  invited: "&aInvite sent to &b{player}&a! &8· &7they have to accept."
+  pendingInvite: "&cYou already pinged &e{player}&c — wait for a reply!"
+  couldnotfind: "&cNobody online named &e{player}&c. &8| &7check spelling?"
+  noinvite: "&cNo invite pending &8» &7ask your leader to resend!"
+  youjoined: "&aYou joined &f{partyname}&a! &8· &7follow the leader into queue."
+  youdeclined: "&cYou declined &f{partyname}&c. &7They will cope."
+  partyisfull-nojoin: "&cParty full &8| &7try another squad or make your own!"
+  alreadyinparty: "&cAlready in a party &8» &7leave first with &e/swparty leave"
+  create: "&aParty &f{partyname} &acreated! &8· &7invite with &e/swparty invite"
+  notinaparty: "&cYou are not in a party &8— &7join or create one first!"
+  mustbepartyleader: "&cOnly the &6leader &ccan do that!"
+  onlyleader: "&cOnly the leader can queue the whole party &8» &7pass lead or ask them!"
+  youlefttheparty: "&eYou left the party. &7Solo queue is brave!"
+  rename: "&aParty renamed to &f{partyname}&a! &8| &7fresh branding."
+  info1: "&eParty &8| &7Name: &f{partyname}"
+  info2: "&eParty &8| &7Leader: &b{leader}"
+  info3: "&eParty &8| &7Members: &b{members}"
+  leader-tip: "&7Leaders: &e/swparty invite &7adds players &8· &7only you can queue everyone!"
+  stack-tip: "&7Parties spawn together on team maps &8» &7share kits mentally!"
+coins:
+  unavailable: "&cEconomy is disabled or unavailable."
+  player-not-found: "&cPlayer not found: &e{player}"
+  balance: "&a{player}&7's balance: &6{balance}"
 error:
-  not-looking-at-chest: '&cYou must be looking at a chest within a 5 blocks ratio!'
-  no-holograms-found: '&cNo holograms were found!'
-  holograms-not-enabled: '&cHolograms are not enabled! Enable it in the config.yml
-    and make sure you have HolographicDisplays installed. Does it disable itself?
-    Stop the server, modify the config and start the server again!'
-  map-min-be-int: '&cYou must specify a number!'
-  map-name-too-short: '&cThe display name must have at least one character!'
-  map-id-invalid: '&cThe map id provided has invalid characters. You may use the following
-    characters: a-z, A-Z, 0-9, underscores and dashes.'
-  map-remove: '&cFailed to delete the arena. A manual deletion may be necessary!'
-  map-creator: '&cThe creator name must have at least one character!'
-  map-exists: '&cUnable to create the arena: there already is an arena with that name!'
-  map-world-exists: '&cUnable to create the arena: there already is a world with that
-    name!'
-  map-does-not-exist: '&cThere''s now map with that name!'
-  map-not-editing: '&cTo use this command, you must be editing a map!'
-  map-fail-load: '&cSkyWars was unable to load that map!'
-  map-not-registered: '&cSkyWars could not register that map!'
-  map-failed-to-register: '&cSkyWars could not register that map. Check the console
-    for more information. It''s most likely that the map does not have at least 2
-    player spawns. If you already set these spawns, please set them again.'
-  map-register-is-it-saved: '&cSkyWars could not register that map! Is it saved?'
-  map-register-not-exist: '&cSkyWars could not register that map! It doesn''t exist!'
-  map-not-in-edit: '&cThat map currently isn''t being edited!'
-  cmd-no-perm: '&cYou don''t have permission to use this command!'
-  must-be-player: '&cYou must be a player to perform this command!'
-  signs-no-perm: '&cYou don''t have permission to create join signs!'
-  spectate-playing: '&cYou can''t spectate when you''re playing a game!'
-  spectate-notatthistime: '&cYou can''t spectate at this time!'
-  spectate-no-longer-avail: '&cThat SkyWars match has already ended.'
-  spectate-cancelled: '&cTeleportation cancelled!'
-  could-not-join: '&cWe were unable to find a SkyWars game for you to join!'
-  could-not-join2: '&cYou can''t join that game at this time!'
-  cooldown: '&cYou can''t use your taunt for another &7{timeleft}'
-  chestpercent: '&c[percentage] must be a number between 1 and 100!'
-  position: '&c[position] must be a number between 0 and 35!'
-  chesttype: '&c[chesttype] must be either "basic", "basiccenter", "normal", "normalcenter",
-    "op", "opcenter", or "crate"'
-  chestmethod: '&c[method] must be either "hand" or "inv"'
-  schematicsInUse: '&cMap commands are disabled when using schematics!'
-  nospawn: '&cThe SkyWars lobby spawn has to be set before you can do this! Set it
-    using &o/sw setspawn'
-  nopermission: '&cYou don''t have the permission to vote!'
-  using-paf-hook: '&cSkywars party commands are disabled when using PartyAndFriends
-    support!'
+  server-starting: "&cServer is still starting up. Please try again in a moment."
+  not-looking-at-chest: "&cYou must be looking at a chest within a 5 blocks ratio!"
+  no-holograms-found: "&cNo holograms were found!"
+  holograms-not-enabled: "&cHolograms are not enabled! Set holograms.enabled in
+    config.yml and install DecentHolograms. If the option disables itself, stop
+    the server, fix the config, and start again."
+  option-menu-not-ready: "&cThis options menu is not ready yet. Check your options
+    config files and reload the plugin."
+  map-min-be-int: "&cYou must specify a number!"
+  map-name-too-short: "&cThe display name must have at least one character!"
+  map-id-invalid: "&cThe map id provided has invalid characters. You may use the
+    following characters: a-z, A-Z, 0-9, underscores and dashes."
+  map-remove: "&cFailed to delete the arena. A manual deletion may be necessary!"
+  map-creator: "&cThe creator name must have at least one character!"
+  map-exists: "&cUnable to create the arena: there already is an arena with that name!"
+  map-world-exists: "&cUnable to create the arena: there already is a world with that name!"
+  map-does-not-exist: "&cThere's now map with that name!"
+  map-not-editing: "&cTo use this command, you must be editing a map!"
+  map-fail-load: "&cSkyWars was unable to load that map!"
+  map-not-registered: "&cSkyWars could not register that map!"
+  map-failed-to-register: "&cSkyWars could not register that map. Check the
+    console for more information. It's most likely that the map does not have at
+    least 2 player spawns. If you already set these spawns, please set them
+    again."
+  map-register-is-it-saved: "&cSkyWars could not register that map! Is it saved?"
+  map-register-not-exist: "&cSkyWars could not register that map! It doesn't exist!"
+  map-register-unbalanced-spawns: "&cCould not register the map {mapname}. The
+    team spawns are unbalanced. Make sure each team has the same amount of
+    spawns and they do not override the team size."
+  map-register-not-enough-spawns: "&cCould not register the map {mapname}. The
+    arena does not have enough spawnpoints. You must have at least 2 set. Use
+    '/swm spawn player'."
+  map-register-missing-spec: "&cCould not register the map {mapname}. You did not
+    set the spectator spawn. Use '/swm spawn spec'."
+  map-register-missing-lobby: "&cCould not register the map {mapname}. No waiting
+    lobby spawn has been set. This is required for team games. Use '/swm spawn
+    lobby'."
+  map-not-in-edit: "&cThat map currently isn't being edited!"
+  map-spawn-team-required: "&cTeam mode is enabled! You must specify a team to add this spawn to."
+  map-spawn-type: "&cType must be: player, spec, eye, deathmatch or lobby"
+  map-spawn-team-number: "&cYou must enter a valid number greater than 0."
+  map-spawn-solo-no-team: "&cSolo mode is enabled! There are no teams to add a
+    spawn to. Use: /swm spawn player"
+  map-spawn-separate-cages-disabled: "&cSeparate cages are disabled! You can only
+    add one spawn per team. Use: /swm spawn player"
+  map-spawn-usage: "&cCorrect usage: /swm spawn (type) [team]"
+  cmd-no-perm: "&cYou don't have permission to use this command!"
+  must-be-player: "&cYou must be a player to perform this command!"
+  signs-no-perm: "&cYou don't have permission to create join signs!"
+  spectate-playing: "&cYou can't spectate when you're playing a game!"
+  spectate-notatthistime: "&cYou can't spectate at this time!"
+  spectate-no-longer-avail: "&cThat SkyWars match has already ended."
+  spectate-cancelled: "&cTeleportation cancelled!"
+  could-not-join: "&cWe were unable to find a SkyWars game for you to join!"
+  join-map-failed: "&cCould not join arena &e{map}&c. It may not exist, be the
+    wrong mode (solo/team), be full, or not be open for join."
+  could-not-join2: "&cYou can't join that game at this time!"
+  lucky-solo-only: "&cLucky mode is solo-only."
+  rejoin-not-available: "&cNo rejoin session is available right now."
+  cooldown: "&cYou can't use your taunt for another &7{timeleft}"
+  chestpercent: "&c[percentage] must be a number between 1 and 100!"
+  position: "&c[position] must be a number between 0 and 35!"
+  chesttype: "&c[chesttype] must be either \"basic\", \"basiccenter\", \"normal\",
+    \"normalcenter\", \"op\", \"opcenter\", or \"crate\""
+  chestmethod: "&c[method] must be either \"hand\" or \"inv\""
+  schematicsInUse: "&cMap commands are disabled when using schematics!"
+  nospawn: "&cThe SkyWars lobby spawn has to be set before you can do this! Set it
+    using &o/sw setspawn"
+  nopermission: "&cYou don't have the permission to vote!"
+  using-paf-hook: "&cSkywars party commands are disabled when using PartyAndFriends support!"
+  wrong-usage: "&4Wrong usage: {usage}"
+  holograms-plugin-missing: "&cInstall and enable DecentHolograms to use leaderboard holograms."
+  joinmenu-not-found: "&cJoin selection menu was not found."
+  bungee-join-failed-admin: "&cSkyWars encountered an issue while joining this
+    bungeecord mode server.\\n&cSince you have sw.admin, you will not be kicked
+    to the lobby."
+  migrateusw-failed: "&cUltraSkyWars migration failed: {error}"
+  leave-not-in-game: "&cYou are not in a SkyWars match."
+  send-bungee-not-supported: "&cPlayer send is not supported in bungee mode."
+  send-no-selection: "&cNo player selected. Use &e/sw select (player)&c first, or
+    &e/sw send (player) (map)&c."
+  send-console-needs-player: "&cFrom console use &e/sw send (player) (map)&c."
+  send-target-offline: "&cThe selected player is no longer online."
+  send-player-not-found: "&cThat player is not online."
+  send-map-not-found: "&cNo arena found with that name."
+  send-cannot-join: "&cThat player could not be added to the arena (full, wrong
+    state, or not registered)."
+  send-stats-not-loaded: "&cThat player's SkyWars stats are still loading; try again in a moment."
+  send-already-in-arena: "&cThat player is already in that arena."
 game:
-  select-team-before-voting: '&c&lYou must select a team before voting!'
-  select-team-before-kit: '&c&lYou must select a team before choosing a kit!'
+  # Legacy fallback if root message-prefix is empty (older configs).
+  broadcast-prefix: "&b&lSkyWars &7▸ &r"
+  lobby-void-teleport: "&eYou fell into the void. Teleported to spawn."
+  select-team-before-voting: "&c&lYou must select a team before voting!"
+  select-team-before-kit: "&c&lYou must select a team before choosing a kit!"
+  chest-refill-hologram:
+    line-ready: "&a&lLoot available"
+    line-countdown: "&eRefill in &f&l{seconds}s"
+    announce-empty: "&7Chest emptied! Refill in &e{seconds}s&7."
+    announce-empty-no-refill: "&7This chest is empty."
+    announce-refilled: "&aChests restocked! &7Go contest mid again."
   vote-announcements:
-    chests: '&eSelected &a&l{type} &echest items'
-    time: '&eSelected &a&l{type} &etime'
-    weather: '&eSelected &a&l{type} &eweather'
-    modifier: '&eSelected &a&l{type} &emodifier'
-    health: '&eSelected &a&l{type}hp &ehealth'
-    multiplier: '&eSelected &a&l{type} &emultiplier'
-  pvp-timer-disabled-message: '&aPVP is now enabled!'
-  pvp-timer-disabled-title: '&a&lFIGHT!\n&7Good luck &b{player}&7!'
-  command-disabled-spec: '&cYou can''t do this when spectating!'
-  command-disabled: '&cYou can''t do this when playing a game!'
-  votekit: '&b{player} &7voted for the kit &b{kit}'
-  votechest: '&b{player} &7voted for &b{chest} &7chests ({votes} votes)'
-  votetime: '&b{player} &7voted for &b{time}&7 time ({votes} votes)'
-  votehealth: '&b{player} &7voted for &b{health}&7 health ({votes} votes)'
-  voteweather: '&b{player} &7voted for &b{weather}&7 weather ({votes} votes)'
-  votemodifier: '&b{player} &7voted for &b{mod}&7 modifier ({votes} votes)'
-  broadcast-win: '&a{player1} won a SkyWars Match on the map {map}'
-  won: '&aYou won a SkyWars game on the map {map}'
-  lost: '&cYou lost a SkyWars game on the map {map}'
-  left-the-game: '&c{player} left the game!'
-  waitstart-left-the-game: '&7[&c-&7] &b{player} &7({playercount}/{maxplayers})'
-  waitstart-joined-the-game: '&7[&a+&7] &b{player} &7({playercount}/{maxplayers})'
-  unlock-kit: ''
-  select-kit: '&7You selected the kit &b{kit}!'
-  vote-display: '&eVotes: {number}'
-  win-actionbar: '&d⚔ &eWin: &b+{xp} XP &d⚔'
-  kill-actionbar: '&d⚔ &eKill: &b+{xp} XP &d⚔'
+    chests: "&eChests: &a&l{type} &8- &evotes locked in!"
+    chests-lucky: "&eChests: &a&lLucky &8- &f{tier} &7tier &8· &7lucky blocks on!"
+    time: "&eTime: &a&l{type} &8- &eworld lighting set!"
+    weather: "&eWeather: &a&l{type} &8- &eatmosphere locked!"
+    modifier: "&eModifier: &a&l{type} &8- &erules updated!"
+    health: "&eHealth: &c&l{type}hp &8- &estarting hearts set!"
+    multiplier: "&eMultiplier: &a&l{type} &8- &exp curve applied!"
+  pvp-timer-disabled-message: "&a&lPVP ENABLED &8| &7Swords out — &efight for your life!"
+  pvp-timer-disabled-title: "&a&lFIGHT!\\n&7Good luck &b{player}&7!"
+  command-disabled-spec: "&cYou can't do this when spectating!"
+  command-disabled: "&cYou can't do this when playing a game!"
+  votekit: "&b{player} &ehas voted for kit &b{kit}&e!"
+  votechest: "&b{player} &ehas voted for &a&lchest &b{chest}&e. &8| &eVotes &a&l{votes}"
+  votetime: "&b{player} &ehas voted for &atime &b{time}&e. &8| &eVotes &a&l{votes}"
+  votehealth: "&b{player} &ehas voted for &a&lhealth &b{health}&e. &8| &eVotes &a&l{votes}"
+  voteweather: "&b{player} &ehas voted for &a&lweather &b{weather}&e. &8| &eVotes &a&l{votes}"
+  votemodifier: "&b{player} &ehas voted for &a&lmodifier &b{mod}&e. &8| &eVotes &a&l{votes}"
+  broadcast-win: "&a&lWINNER &8| &b{player1} &eclutched &f{map}&e! &7GG!"
+  won: "&a&lVICTORY &8| &7You won on &f{map}&7! &eQueue another?"
+  lost: "&c&lDEFEAT &8| &7Eliminated on &f{map}&7. &eRun it back with &a/sw join&7!"
+  left-the-game: "&b{player} &ehas left the game."
+  waitstart-left-the-game: "&b{player} &ehas left the game. &e(&b{playercount}&e/&b{maxplayers}&e)!"
+  waitstart-joined-the-game: "&b{player} &ehas joined the game. &e(&b{playercount}&e/&b{maxplayers}&e)! &8· &7{map}"
+  rejoined-the-game: "&b{player} &ehas rejoined! &e(&b{playercount}&e/&b{maxplayers}&e)!"
+  unlock-kit: ""
+  select-kit: "&aKit locked in: &b{kit}&a! &7Good luck."
+  vote-display: "&eVotes: {number}"
+  win-actionbar: "&8+ &3+{xp} &fXP &8| &6win bonus!"
+  kill-actionbar: "&8+ &3+{xp} &fXP &8| &ckill bonus!"
   death:
-    quit-while-tagged: '&6{player}&e tried to run away but he was killed by &6{killer}'
-    explosion: '&6{player}&e was blown to pieces'
-    drowning: '&6{player}&e swam with the fishes'
-    fire: '&6{player}&e was burnt to a crisp'
-    pvp: '&6{player}&e was killed by &6{killer}'
-    falling-block: '&6{player}&e was crushed by a falling block'
-    lava: '&6{player}&e took a bath in lava'
-    projectile: '&6{player}&e was shot by &6{killer}'
-    suffocation: '&6{player}&e had some trouble breathing'
-    void: '&6{player}&e died in the void'
-    general: '&6{player}&e died'
-    killer-section: '&e with help from &6{killer}'
+    quit-while-tagged: "&c{player} &7disconnected while fighting &c{killer}&7 — &ccounted as a kill!"
+    quit-killed-by-gods: "&c{player} &7rage-quit mid-fight and &ctook a lightning bolt&7!"
+    explosion: "&c{player} &7went out with a &cbang&7!"
+    drowning: "&c{player} &7forgot how to swim."
+    fire: "&c{player} &7played with fire and &clost&7."
+    pvp: "&c{player} &7was eliminated by &c{killer}&7!"
+    falling-block: "&c{player} &7was squashed by the map."
+    lava: "&c{player} &7took a lava bath. &8RIP"
+    projectile: "&c{player} &7caught a projectile from &c{killer}&7!"
+    suffocation: "&c{player} &7ran out of air."
+    void: "&c{player} &7fell into the void!"
+    general: "&c{player} &7was eliminated."
+    killer-section: "&7 (assist: &c{killer}&7)"
 signs:
-  offline: '&coffline'
-  joinable: '&ajoin'
-  playing: '&cin-game'
-  ending: '&crestarting'
-  line1: '&lSkyWars &r[{teamsize}]'
-  line2: '{matchstate}'
-  line3: 'Map: &n{mapname}'
-  line4: '{playercount}/{maxplayers}'
-  line1team: '&lSkyWars &r[{teamsize}]'
-  line2team: '{matchstate}'
-  line3team: 'Map: &n{mapname}'
-  line4team: '{playercount}/{maxplayers}'
-  added: '&aSuccessfully created a SkyWars sign!'
-  no-map: '&cThere is no map with that name!'
-  remove: '&cSuccessfully removed a SkyWars sign!'
-  addedleader: '&aSuccessfully created a SkyWars leaderboard sign!'
-  invalid-type: '&cThat is not a valid leaderboard type'
-  invalid-range: '&cThe entered position is outside of your leaderboard range. Check
-    your configuration.'
-  teamSize: '&7{teamsize} players per team'
-  teamState: '&7{teamcount} of {maxteams} teams'
+  offline: "&coffline"
+  joinable: "&ajoin"
+  playing: "&cin-game"
+  ending: "&crestarting"
+  line1: "&lSkyWars &r[{teamsize}]"
+  line2: "{matchstate}"
+  line3: "Map: &n{mapname}"
+  line4: "{playercount}/{maxplayers}"
+  line1team: "&lSkyWars &r[{teamsize}]"
+  line2team: "{matchstate}"
+  line3team: "Map: &n{mapname}"
+  line4team: "{playercount}/{maxplayers}"
+  added: "&aSuccessfully created a SkyWars sign!"
+  no-map: "&cThere is no map with that name!"
+  remove: "&cSuccessfully removed a SkyWars sign!"
+  addedleader: "&aSuccessfully created a SkyWars leaderboard sign!"
+  invalid-type: "&cThat is not a valid leaderboard type"
+  invalid-range: "&cThe entered position is outside of your leaderboard range.
+    Check your configuration."
+  teamSize: "&7{teamsize} players per team"
+  teamState: "&7{teamcount} of {maxteams} teams"
 spectate:
-  starting: '&7Teleporting you to the SkyWars match as a spectator...'
-  startmessage: '&7You''re a spectator now! Press E to access the menu.'
-  startmessage2: '&7Use &e/spawn&7 to leave the game.'
-  exititemname: '&cLeave the game'
-  exititemlore: '&7Click here to return to the lobby.'
-  playeritemlore: '&7Click to teleport to {player}'
-  stayinarena: '&cLet''s say within the arena, would ya!'
+  starting: "&eSpectator cam &8» &7warping you to the match..."
+  startmessage: "&7You are spectating! &8| &ePress E &7for the menu &8· &7track players live."
+  startmessage2: "&7Return hub anytime: &e/spawn &8— &7no ELO lost from leaving spec!"
+  tip-map: "&7Map intel refreshes on the scoreboard &8» &7watch rotations!"
+  tip-players: "&eRight-click player heads &8· &7teleport cam between fights!"
+  exititemname: "&cLeave the game"
+  exititemlore: "&7Click here to return to the lobby."
+  playeritemlore: "&7Click to teleport to {player}"
+  stayinarena: "&cLet's say within the arena, would ya!"
 menu:
+  arena-setup-title: "&8Arena Setup: {map}"
+  joinsolo-mode-menu-title: "&8Solo Queue Mode"
+  joinsolo-mode-normal-lore1: "&7Classic solo SkyWars"
+  joinsolo-mode-normal-lore2: "&aClick to open arenas"
+  joinsolo-mode-lucky-lore1: "&7Solo Lucky mode"
+  joinsolo-mode-lucky-lore2: "&eChests are replaced by LuckyBlocks"
+  joinsolo-mode-lucky-lore3: "&aClick to open lucky arenas"
+  jointeam-mode-menu-title: "&8Team Queue Mode"
+  jointeam-mode-duos-lore1: "&7Teams of 2 players"
+  jointeam-mode-duos-lore2: "&aClick to browse duo arenas"
+  jointeam-mode-squads-lore1: "&7Teams of 3-4 players"
+  jointeam-mode-squads-lore2: "&aClick to browse squad arenas"
+  jointeam-mode-lucky-lore1: "&7Lucky Block team mode"
+  jointeam-mode-lucky-lore2: "&eChests replaced by LuckyBlocks"
   team_select_menu:
-    item_title: '&eTeam {team} &7- {playercount}/{teamsize}'
+    item_title: "&eTeam {team} &7- {playercount}/{teamsize}"
     lore:
       general-lore: []
-      player-list-lore-line: '&7- &a{playername}'
+      player-list-lore-line: "&7- &a{playername}"
   join_menu:
     item_title:
-      waiting-start: '&b{arena} &7[&f{teamsize}&7]'
-      playing: '&b{arena} &7[&f{teamsize}&7]'
-      ending: '&b{arena} &7[&f{teamsize}&7]'
+      waiting-start: "&b{arena} &7[&f{teamsize}&7]"
+      playing: "&b{arena} &7[&f{teamsize}&7]"
+      ending: "&b{arena} &7[&f{teamsize}&7]"
     lore:
       waiting-start:
-      - '&bArena: &7{name}'
-      - '&bPlayers: &7{playercount}/{maxplayers}'
-      - ''
-      - '&aClick here to join this game'
+        - "&bArena: &7{name}"
+        - "&bPlayers: &7{playercount}/{maxplayers}"
+        - ""
+        - "&aClick here to join this game"
       playing:
-      - '&bArena: &7{name}'
-      - '&bAlive players: {aliveplayers}'
-      - ''
-      - '&cThis game is currently playing'
+        - "&bArena: &7{name}"
+        - "&bAlive players: {aliveplayers}"
+        - ""
+        - "&cThis game is currently playing"
       ending:
-      - '&bArena: &7{name}'
-      - ''
-      - '&cThis game has ended and will now restart'
-  usetaunt-menu-title: '&8Taunt Menu'
-  usetaunt-settaunt: '&7Click here to set your taunt.'
-  purchase-taunt: '&aYou purchased the taunt &e{item} &afor &e${cost}'
-  usetaunt-playermsg: '&aYou selected the taunt &e{taunt}'
-  usecolor-menu-title: '&8Cages Menu'
-  options-menu-title: '&8SkyWars Options Menu'
-  usecolor-setcolor: '&7Click here to set your cage.'
-  purchase-glass: '&aYou purchased the cage &e{item} &afor &e${cost}'
-  usecolor-playermsg: '&aYou selected the cage &e{color}'
-  useeffect-menu-title: '&8Particle Effect Menu'
-  useeffect-seteffect: '&7Click here to set your particle effect.'
-  purchase-effect: '&aYou purchased the particle effect &e{item} &afor &e${cost}'
-  useeffect-playermsg: '&aYou selected the particle effect &e{effect}'
-  useprojeffect-menu-title: '&8Projectile Effect Menu'
-  useprojeffect-seteffect: '&7Click here to set your projecticle effect.'
-  purchase-projeffect: '&aYou purchased the projectile effect {item} &afor &e${cost}'
-  useprojeffect-playermsg: '&aYou selected the projectile effect &e{effect}'
-  usekill-menu-title: '&8Kill Sound Menu'
-  usekill-setsound: '&7Click to set your kill sound.'
-  purchase-killsound: '&aYou purchased the kill sound &e{item} &afor &e${cost}'
-  usekill-playermsg: '&aYou selected the kill sound &e{sound}'
-  usewin-menu-title: '&8Victory Sound Menu'
-  usewin-setsound: '&7Click to set your victory sound.'
-  purchase-winsound: '&aYou purchased the win sound &e{item} &afor &e${cost}'
-  usewin-playermsg: '&aYou selected the win sound {sound}'
-  no-use: '&cUnlocked at Level {level}'
-  cost: '&cCost to Unlock: ${cost}'
-  joingame-menu-title: '&8Join Game Menu'
-  joinloresingle1: '&7Left click to view the'
-  joinloresingle2: '&7solo player arenas.'
-  joinloreteam1: '&7Left click to view the'
-  joinloreteam2: '&7team arenas.'
-  joinsinglegame-menu-title: '&8Single SkyWars Games'
-  jointeamgame-menu-title: '&8Team SkyWars Games'
-  teamselection-menu-title: '&8Choose A Team'
-  teamspectate-menu-title: '&5Spectate Team SkyWars Games'
-  viewteams: '&7Right click to view the teams.'
-  spectategame-menu-title: '&8Spectate Single SkyWars Games'
-  spectatesinglegame-menu-title: '&8Spectate SkyWars Menu'
-  spectateteamgame-menu-title: '&8Spectate Team SkyWars Menu'
-  kit-section-menu: '&bKit menu'
-  kit-voting-menu: '&bKit voting'
-  chest-voting-menu: '&bChests'
-  time-voting-menu: '&bTime'
-  health-voting-menu: '&bHealth'
-  weather-voting-menu: '&bWeather'
-  modifier-voting-menu: '&bModifier'
-  insufficientfunds: '&cYou don''t have enough money to buy this!'
+        - "&bArena: &7{name}"
+        - ""
+        - "&cThis game has ended and will now restart"
+  usetaunt-menu-title: "&8Taunt Menu"
+  usetaunt-settaunt: "&7Click here to set your taunt."
+  purchase-taunt: "&aYou purchased the taunt &e{item} &afor &e${cost}"
+  usetaunt-playermsg: "&aYou selected the taunt &e{taunt}"
+  usecolor-menu-title: "&8Cages Menu"
+  options-menu-title: "&8SkyWars Options Menu"
+  prestige-title: "&8Prestige"
+  stats-menu-title: "&8Your SkyWars Stats"
+  stats-menu-profile-name: "&bProfile"
+  stats-menu-profile-lore:
+    - "&7Player: &e{player}"
+    - "&7Wins/Losses: &a{wins}&7/&c{losses}"
+    - "&7W/L Ratio: &e{winloss}"
+    - "&7Kills/Deaths: &a{kills}&7/&c{deaths}"
+    - "&7K/D Ratio: &e{killdeath}"
+    - "&7Level: &b{level}"
+    - "&7Total XP: &b{xp}"
+  stats-menu-economy-name: "&6Economy"
+  stats-menu-economy-lore:
+    - "&7Balance: &a${balance}"
+  stats-menu-soulwell-name: "&5Soul Well"
+  stats-menu-soulwell-lore:
+    - "&7Souls: &e{souls}"
+    - "&7Usages: &e{soulwell_usages}"
+    - "&7Legendaries: &6{soulwell_legendaries}"
+    - "&7Rares: &d{soulwell_rares}"
+    - "&7Souls gathered: &e{soulwell_souls_gathered}"
+    - "&7Souls purchased: &e{soulwell_souls_purchased}"
+  stats-menu-close-name: "&cClose"
+  stats-menu-close-lore:
+    - "&7Click to close"
+  soul-well-title: "&5Soul Well"
+  soul-well-spinning-title: "&5Soul Well &8· &7Spinning..."
+  soul-well-buy-title: "&5Buy souls"
+  usecolor-setcolor: "&7Click here to set your cage."
+  purchase-glass: "&aYou purchased the cage &e{item} &afor &e${cost}"
+  usecolor-playermsg: "&aYou selected the cage &e{color}"
+  useeffect-menu-title: "&8Particle Effect Menu"
+  useeffect-seteffect: "&7Click here to set your particle effect."
+  purchase-effect: "&aYou purchased the particle effect &e{item} &afor &e${cost}"
+  useeffect-playermsg: "&aYou selected the particle effect &e{effect}"
+  useprojeffect-menu-title: "&8Projectile Effect Menu"
+  useprojeffect-seteffect: "&7Click here to set your projecticle effect."
+  purchase-projeffect: "&aYou purchased the projectile effect {item} &afor &e${cost}"
+  useprojeffect-playermsg: "&aYou selected the projectile effect &e{effect}"
+  usekill-menu-title: "&8Kill Sound Menu"
+  usekill-setsound: "&7Click to set your kill sound."
+  purchase-killsound: "&aYou purchased the kill sound &e{item} &afor &e${cost}"
+  usekill-playermsg: "&aYou selected the kill sound &e{sound}"
+  usewin-menu-title: "&8Victory Sound Menu"
+  usewin-setsound: "&7Click to set your victory sound."
+  purchase-winsound: "&aYou purchased the win sound &e{item} &afor &e${cost}"
+  usewin-playermsg: "&aYou selected the win sound {sound}"
+  no-use: "&cUnlocked at Level {level}"
+  cost: "&cCost to Unlock: ${cost}"
+  joingame-menu-no-arenas: "&cNo arenas available"
+  joingame-menu-join-noname: "&aJoining arena"
+  joingame-menu-join: "&aJoining arena {arena}"
+  joingame-menu-title: "&8Join Game Menu"
+  joinloresingle1: "&7Left click to view the"
+  joinloresingle2: "&7solo player arenas."
+  joinloreteam1: "&7Left click to view the"
+  joinloreteam2: "&7team arenas."
+  joinsinglegame-menu-title: "&8Single SkyWars Games"
+  jointeamgame-menu-title: "&8Team SkyWars Games"
+  autojoin-solo-title: "&aAutojoin (Solo)"
+  autojoin-solo-lore1: "&7Join a random solo arena in queue"
+  autojoin-team-title: "&aAutojoin (Team)"
+  autojoin-team-lore1: "&7Join a random team arena in queue"
+  teamselection-menu-title: "&8Choose A Team"
+  teamselection-menu-alredy_in_team: "&cYou are already on that team"
+  teamselection-menu-join: "&eYou joined team {team}"
+  teamspectate-menu-title: "&5Spectate Team SkyWars Games"
+  viewteams: "&7Right click to view the teams."
+  spectategame-menu-title: "&8Spectate Single SkyWars Games"
+  spectatesinglegame-menu-title: "&8Spectate SkyWars Menu"
+  spectateteamgame-menu-title: "&8Spectate Team SkyWars Menu"
+  kit-section-menu: "&bKit menu"
+  kit-voting-menu: "&bKit voting"
+  chest-voting-menu: "&bChests"
+  time-voting-menu: "&bTime"
+  health-voting-menu: "&bHealth"
+  weather-voting-menu: "&bWeather"
+  modifier-voting-menu: "&bModifier"
+  insufficientfunds: "&cYou don't have enough money to buy this!"
 titles:
-  warmup-title: '&a{time}'
-  warmup-subtitle: '&aPrepare for SkyWars'
-  join-title: '&aWelcome to {map}'
-  join-subtitle: '&7Waiting for the game to start'
-  start-title: '&aSkyWars has started'
-  start-subtitle: '&bFight for your victory!'
-  endgame-title-won: '&a&lVICTORY'
-  endgame-subtitle-won: '&bYou won the game!'
+  warmup-title: "&a{time}"
+  warmup-subtitle: "&aPrepare for SkyWars"
+  join-title: "&aWelcome to {map}"
+  join-subtitle: "&7Waiting for the game to start"
+  start-title: "&aSkyWars has started"
+  start-subtitle: "&bFight for your victory!"
+  endgame-title-won: "&a&lVICTORY"
+  endgame-subtitle-won: "&bYou won the game!"
 items:
-  click-to-open: '&7Right click to open'
-  lclick-to-open: '&7Left click to open'
-  lclick-to-exit: '&7Left click to exit'
-  click-to-exit: '&7Right click to exit'
-  click-to-vote: '&7Click to vote'
-  no-perm: '&cPurchase a rank to unlock this!'
-  kit-vote-item: '&bKit Voting Menu'
-  kit-select-item: '&bSelect Kit'
-  voting-item: '&bVoting Menu'
-  team-select-item: '&bSelect Team'
-  exit-menu-item: '&cExit'
-  next-page-item: '&bNext'
-  prev-page-item: '&bPrevious'
-  exit-door-item: '&cLeave the game'
-  chest-item: '&bChests'
-  chest-random: '&cRandom'
-  chest-basic: '&bBasic'
-  chest-normal: '&bNormal'
-  chest-op: '&bOverpowered'
-  chest-scavenger: '&bScavenger'
-  health-item: '&bHealth'
-  health-random: '&cRandom'
-  health-five: '&c5 ❤'
-  health-ten: '&c10 ❤'
-  health-fifteen: '&c15 ❤'
-  health-twenty: '&c20 ❤'
-  time-item: '&bTime'
-  time-random: '&cRandom'
-  time-dawn: '&bDawn'
-  time-noon: '&bNoon'
-  time-dusk: '&bDusk'
-  time-midnight: '&bNight'
-  weather-item: '&bWeather'
-  weather-random: '&cRandom'
-  weather-sunny: '&bSunny'
-  weather-rain: '&bRainy'
-  weather-storm: '&bStormy'
-  weather-snow: '&bSnowy'
-  modifier-item: '&bModifiers'
-  modifier-random: '&cRandom'
-  modifier-speed: '&cSpeed'
-  modifier-jump: '&bJump'
-  modifier-strength: '&bStrength'
-  modifier-none: '&cNone'
-  joinmenu: '&aSkyWars Join Menu'
-  joinsingle: '&aSolo Player Arenas'
-  jointeam: '&aTeam Arenas'
-  spectatemenu: '&aSpectate Menu'
-  skywars-options: '&bSkyWars Options Menu'
-  particle-effect-sel: '&bParticle Effects'
-  projectile-effect-sel: '&bProjectile Particle Effects'
-  killsound-sel: '&bKill sounds'
-  winsound-sel: '&bWin sounds'
-  glass-sel: '&bCages'
-  taunt-sel: '&bTaunts'
+  click-to-open: "&7Right click to open"
+  lclick-to-open: "&7Left click to open"
+  lclick-to-exit: "&7Left click to exit"
+  click-to-exit: "&7Right click to exit"
+  click-to-play-again: "&7Right click to play again"
+  click-to-rejoin: "&7Right click to rejoin your last game"
+  click-to-vote: "&7Click to vote"
+  no-perm: "&cPurchase a rank to unlock this!"
+  kit-vote-item: "&bKit Voting Menu"
+  kit-select-item: "&bSelect Kit"
+  voting-item: "&bVoting Menu"
+  team-select-item: "&bSelect Team"
+  exit-menu-item: "&cExit"
+  next-page-item: "&bNext"
+  prev-page-item: "&bPrevious"
+  exit-door-item: "&cLeave the game"
+  play-again-item: "&aPlay Again"
+  chest-item: "&bChests"
+  chest-random: "&cRandom"
+  chest-basic: "&bBasic"
+  chest-normal: "&bNormal"
+  chest-op: "&bOverpowered"
+  health-item: "&bHealth"
+  health-random: "&cRandom"
+  health-five: "&c5 ❤"
+  health-ten: "&c10 ❤"
+  health-fifteen: "&c15 ❤"
+  health-twenty: "&c20 ❤"
+  time-item: "&bTime"
+  time-random: "&cRandom"
+  time-dawn: "&bDawn"
+  time-noon: "&bNoon"
+  time-dusk: "&bDusk"
+  time-midnight: "&bNight"
+  weather-item: "&bWeather"
+  weather-random: "&cRandom"
+  weather-sunny: "&bSunny"
+  weather-rain: "&bRainy"
+  weather-storm: "&bStormy"
+  weather-snow: "&bSnowy"
+  modifier-item: "&bModifiers"
+  modifier-random: "&cRandom"
+  modifier-speed: "&cSpeed"
+  modifier-jump: "&bJump"
+  modifier-strength: "&bStrength"
+  modifier-none: "&cNone"
+  joinmenu: "&aSkyWars Join Menu"
+  joinsingle: "&aSolo Player Arenas"
+  joinsolo-normal: "&aSolo Normal"
+  joinsolo-lucky: "&6Solo Lucky Mode"
+  jointeam-duos: "&aDuos"
+  jointeam-squads: "&bSquads"
+  jointeam-lucky: "&6Lucky Teams"
+  jointeam: "&aTeam Arenas"
+  spectatemenu: "&aSpectate Menu"
+  skywars-options: "&bSkyWars Options Menu"
+  stats-book-item: "&bYour SkyWars Stats"
+  back-to-lobby-item: "&aBack to Lobby"
+  rejoin-game-item: "&bRejoin Last Game"
+  particle-effect-sel: "&bParticle Effects"
+  projectile-effect-sel: "&bProjectile Particle Effects"
+  killsound-sel: "&bKill sounds"
+  winsound-sel: "&bWin sounds"
+  glass-sel: "&bCages"
+  taunt-sel: "&bTaunts"
+  soul-well-sel: "&5&lSoul Well"
+  soul-well-open-lore: "&7Spin for random rewards using souls"
+  prestige-sel: "&6&lPrestige"
+  prestige-open-lore: "&7Choose your level prefix cosmetic"
+  perks-sel: "&5&lPerks"
+  perks-open-lore: "&7View and upgrade game perks"
+  search-prompt: "&aType a map name to search &8(&7or 'cancel'&8)&a:"
+  search-cancelled: "&eSearch cancelled."
+  search-timeout: "&eSearch timed out. Run the command again to search."
+  search-no-results: "&cNo maps match '&7{query}&c'."
+  search-results: "&aFound &e{count} &amap(s) for '&e{query}&a'."
+  prestige-close-name: "&cClose"
+  prestige-close-lore:
+    - "&7Return to SkyWars"
+  prestige-prev-page-name: "&ePrevious page"
+  prestige-prev-page-lore:
+    - "&7Page &f{page} &8/ &f{max_page}"
+  prestige-next-page-name: "&eNext page"
+  prestige-next-page-lore:
+    - "&7Page &f{page} &8/ &f{max_page}"
+  prestige-nav-close-material: BARRIER
+  prestige-nav-prev-material: ARROW
+  prestige-nav-next-material: ARROW
+  soul-well-spin: "&dSoul Well &8x{rolls}"
+  soul-well-buy-souls: "&aBuy Souls"
+  soul-well-buy-tier: "&e{tier}"
+  soul-well-info: "&5&lYour souls"
+  soul-well-shop-info: "&d&lSoul Shop Info"
+  soul-well-upgrade-discount: "&bSoul Discount Upgrade"
+  soul-well-upgrade-frame: "&dGlass Frame Upgrade"
 timer:
-  game-timer: '&cSkyWars Sudden Death starts in &e{time}!'
-  wait-timer: '&7SkyWars is starting in: &e{time}'
+  game-timer: "&cSudden death in &e{time}&c! &8| &7last players standing."
+  wait-timer: "&eThe game starts in &c{time} &eseconds!"
+  wait-timer-variants:
+    - "&eThe game starts in &c{time} &eseconds!"
+    - "&eThe cages open in &c{time} &eseconds!"
+    - "&eStarting in &c{time} &eseconds!"
+    - "&eGet ready, &c{time} &eseconds remaining!"
+    - "&eMatch begins in &c{time} &eseconds!"
+    - "&eCountdown: &c{time} &eseconds."
+    - "&eFinal prep, &c{time} &eseconds left."
   minutes: minutes
   minute: minute
   seconds: seconds
   second: second
+soulwell:
+  disabled: "&cSoul Well is currently disabled in config."
+  not-in-lobby: "&cUse the Soul Well from the lobby (finish or leave your match first)."
+  must-use-at-well: "&cStand near the Soul Well block to spin."
+  holo-title: "&5&lSOUL WELL"
+  holo-line-use: "&7Right click the well block"
+  holo-line-souls: "&7Souls: &e%swr_souls%"
+  not-enough-souls: "&cYou need &e{cost} &csouls for this spin (you have &e{souls}&c)."
+  spin-lore: "&7Costs &e{souls} &7souls"
+  xezbeth-free-lore: "&aNext x1 spin: &ffree &7(Xezbeth Luck)"
+  you-have-souls: "&7Souls: &e{souls}"
+  buy-lore: "&7Buy more souls with SkyWars coins"
+  buy-tier-souls: "&7Soul bundle: &e+{souls} souls"
+  buy-tier-cost: "&7Price: &a${cost}"
+  shop-info-note: "&7Souls are spent on spins in the main Soul Well menu."
+  upgrade-discount-current: "&7Current: &bLv {level} &7(-{percent}% soul cost)"
+  upgrade-discount-next: "&7Next: &aLv {level} &7(-{percent}% soul cost)"
+  upgrade-frame-desc: "&7Unlock colorful spinning glass frames in Soul Well animation."
+  upgrade-maxed: "&aAlready maxed."
+  buy-disabled-no-economy: "&cEconomy is disabled. Enable economy + Vault
+    (EssentialsX recommended) to buy souls."
+  buy-disabled-no-vault: "&cEconomy is enabled, but no Vault economy provider is
+    hooked (install an economy plugin like EssentialsX)."
+  purchased-souls: "&8+ &b{souls} &fsouls &8| &a${cost} &7spent wisely!"
+  reward-coins: "&8+ &6{amount} &fcoins &8| &6Soul Well"
+  reward-xp: "&8+ &3{amount} &fXP &8| &bSoul Well"
+  reward-cage: "&8+ &dCage &f{name} &8| &dSoul Well"
+  reward-kit: "&8+ &aKit &r{kit} &8| &aSoul Well"
+  reward-perk: "&8+ &ePerk &f{name} &8| &eSoul Well"
+  reward-killsound: "&8+ &cKill sound &f{name} &8| &cSoul Well"
+  reward-winsound: "&8+ &dWin sound &f{name} &8| &dSoul Well"
+  reward-projectile: "&8+ &bTrail &f{name} &8| &bSoul Well"
+  reward-taunt: "&8+ &6Taunt &f{name} &8| &6Soul Well"
+  reward-gameperk: "&8+ &5Perk &e{perk} &5Lv &e{level} &8| &5Soul Well"
+  reward-command: "&8+ &cSpecial drop &8| &cSoul Well"
+  xezbeth-granted: "&dXezbeth Luck &8» &7next &ex1 &7spin is &aFREE&7!"
+  tier-warlock: "Warlock Bundle"
+  tier-necromancer: "Necromancer Bundle"
+  tier-death-angel: "Death Angel Bundle"
+perks:
+  disabled: "&cPerks are currently disabled."
+  maxed: "&6This perk is already at max level!"
+  economy-disabled: "&cPurchasing is disabled. Unlock perks via the Soul Well!"
+  purchased: "&aUnlocked &e{perk} &alevel &e{level} &afor &6{cost} coins!"
+levels:
+  prestige-disabled: "&cPrestige is disabled or not configured. Enable prestige in levels.yml."
+  prestige-locked: "&cYou have not unlocked this prestige yet."
+  prestige-updated: "&aEquipped prestige: &r{prestige}"
+  prestige-status-selected: "&a&lEquipped"
+  prestige-status-unlocked: "&aClick to equip"
+  prestige-status-locked: "&cLocked — see requirements"
 stats:
-  header: '&9>>>&3==&1==&3==&1==&3==&1==&3==&1==&3==&1==&9<<<'
-  name: '&9>> &cName: &6{player}'
-  win-loss: '&9>> &cWins/Losses: &6{wins}/{losses}'
-  kill-death: '&9>> &cKill/Death: &6{kills}/{deaths}'
-  xp: '&9>> &cXP: &6{xp}'
-  not-ready: '&cStill fetching player data...'
+  header: "&9)))&3==&1==&3==&1==&3==&1==&3==&1==&3==&1==&9((("
+  name: "&9)) &cName: &6{player}"
+  win-loss: "&9)) &cWins/Losses: &6{wins}/{losses}"
+  kill-death: "&9)) &cKill/Death: &6{kills}/{deaths}"
+  xp: "&9)) &cXP: &6{xp}"
+  not-ready: "&cStill fetching player data..."
 scoreboards:
   waitboard:
     lines:
-    - '&e&lSKYWARS'
-    - ''
-    - '&fMap: &a{mapname}'
-    - '&fPlayers: &a{players}/{maxplayers}'
-    - ''
-    - '&fStarting the countdown if'
-    - '&a{players_needed} &fmore players join'
-    - ''
-    - '&egcnt.net'
+      - "&b&lSKYWARS"
+      - ""
+      - "&6&lGame Info"
+      - " &eMap: &b{mapname}"
+      - " &ePlayers: &b{players}&7/&b{maxplayers}"
+      - ""
+      - "&7) &bWaiting..."
+      - ""
+      - "&eNeed: &b{players_needed}"
+      - ""
+      - "&7mc.gamster.org"
   waitboard-countdown:
     lines:
-    - '&e&lSKYWARS'
-    - ''
-    - '&fMap: &a{mapname}'
-    - '&fPlayers: &a{players}/{maxplayers}'
-    - ''
-    - '&fStarting in: &a{waitingtimer}'
-    - ''
-    - '&egcnt.net'
+      - "&b&lSKYWARS"
+      - ""
+      - "&6&lGame Info"
+      - " &eMap: &b{mapname}"
+      - " &ePlayers: &b{players}&7/&b{maxplayers}"
+      - ""
+      - "&7) &aStarting in: &b{waitingtimer}"
+      - ""
+      - "&7mc.gamster.org"
   playboard:
     lines:
-    - '&e&lSKYWARS'
-    - ''
-    - '&fNext event:'
-    - '&a{nextevent_name} {nextevent_time}'
-    - ''
-    - '&fPlayers left: &a{players}'
-    - ''
-    - '&fKills: &a{kills}'
-    - ''
-    - '&fMap: &a{mapname}'
-    - '&fTime: &a{time}'
-    - ''
-    - '&egcnt.net'
+      - "&b&lSKYWARS"
+      - ""
+      - "&6&lNext Event"
+      - " &7) &e{nextevent_name} &b{nextevent_time}"
+      - ""
+      - "&6&lGame Info"
+      - " &ePlayers left: &b{players}"
+      - " &eMap: &b{mapname}"
+      - ""
+      - "&6&lStats"
+      - " &eKills: &b{kills}"
+      - ""
+      - "&7mc.gamster.org"
   endboard:
     lines:
-    - '&e&lSKYWARS'
-    - ''
-    - '&7Map:'
-    - '&b{mapname}'
-    - ''
-    - '&7Winners:'
-    - '&a{winner1}'
-    - '&a{winner2}'
-    - '&a{winner3}'
-    - ''
-    - '&7Kills:'
-    - '&b{kills}'
-    - ''
-    - '&cRestarting in: &7{restarttime}'
-    - ''
-    - '&egcnt.net'
+      - "&b&lSKYWARS"
+      - ""
+      - "&6&lMap:"
+      - " &b{mapname}"
+      - ""
+      - "&6&lWinners:"
+      - " &b{winner1}"
+      - " &b{winner2}"
+      - " &b{winner3}"
+      - ""
+      - "&6&lStats:"
+      - " &bKills: &e{kills}"
+      - ""
+      - "&cRestarting in: &b{restarttime}"
+      - ""
+      - "&7mc.gamster.org"
   lobbyboard:
     lines:
-    - '&e&lSKYWARS'
-    - ''
-    - '&fWins: &a{wins}'
-    - '&fKills: &a{kills}'
-    - '&fXP: &a{xp}'
-    - ''
-    - '&egcnt.net'
+      - "&b&lSKYWARS"
+      - ""
+      - "&6Solo Stats"
+      - " &eKills: &b{kills}"
+      - " &eWins: &b{wins}"
+      - ""
+      - "&6Level"
+      - " &eCoins: &b{balance}"
+      - " &eYour level: &b{level}"
+      - " &e{level_progress_bar} &7{level_progress}%"
+      - ""
+      - "&7mc.gamster.org"
 leaderboard:
-  header: '&9>>>&3==&1==&3== &5Leaderboard &1==&3==&1==&9<<<'
-  header2: '&b#Rank &aName: &eWins/&4Losses &eKills/&4Deaths &eXP'
-  no-data: '&cNo players found'
-  player-data: '&b#{rank} &a{player}: &e{wins}/&4{losses} &e{kills}/&4{deaths} &e{xp}'
-  footer: '&9>>>&3==&1==&3==&1==&3==&1==&3==&1==&3==&1==&9<<<'
-  updating: '&cThe leaderboard is currently being updated. Try again later!'
-  invalidtype: '&cLeaderboard [stat] must be either: {validtypes}'
-  invalidformat: '&cHolographic leaderboard [format] must be either: {validtypes}'
+  header: "&9)))&3==&1==&3== &5Leaderboard &1==&3==&1==&9((("
+  header2: "&b#Rank &aName: &eWins/&4Losses &eKills/&4Deaths &eXP"
+  no-data: "&cNo players found"
+  player-data: "&b#{rank} &a{player}: &e{wins}/&4{losses} &e{kills}/&4{deaths} &e{xp}"
+  footer: "&9)))&3==&1==&3==&1==&3==&1==&3==&1==&3==&1==&9((("
+  updating: "&cThe leaderboard is currently being updated. Try again later!"
+  invalidtype: "&cLeaderboard [stat] must be either: {validtypes}"
+  invalidformat: "&cLeaderboard hologram [format] must be either: {validtypes}"
   signformats:
     wins:
-      line1: '&lSkyWars Wins'
-      line2: '&b{position}'
-      line3: '&a{name}'
-      line4: '{wins}'
+      line1: "&lSkyWars Wins"
+      line2: "&b{position}"
+      line3: "&a{name}"
+      line4: "{wins}"
     kills:
-      line1: '&lSkyWars Kills'
-      line2: '&b{position}'
-      line3: '&a{name}'
-      line4: '{kills}'
+      line1: "&lSkyWars Kills"
+      line2: "&b{position}"
+      line3: "&a{name}"
+      line4: "{kills}"
     xp:
-      line1: '&lSkyWars XP'
-      line2: '&b{position}'
-      line3: '&a{name}'
-      line4: '{xp}'
+      line1: "&lSkyWars XP"
+      line2: "&b{position}"
+      line3: "&a{name}"
+      line4: "{xp}"
     losses:
-      line1: '&lSkyWars Losses'
-      line2: '&b{position}'
-      line3: '&a{name}'
-      line4: '{losses}'
+      line1: "&lSkyWars Losses"
+      line2: "&b{position}"
+      line3: "&a{name}"
+      line4: "{losses}"
     deaths:
-      line1: '&lSkyWars Deaths'
-      line2: '&b{position}'
-      line3: '&a{name}'
-      line4: '{deaths}'
+      line1: "&lSkyWars Deaths"
+      line2: "&b{position}"
+      line3: "&a{name}"
+      line4: "{deaths}"
 helpList:
-  header: '&7-------------------[&aSkyWars&7]-------------------'
-  footer: '&7-----------------------------------------------------'
+  header: "&7-------------------[&aSkyWars&7]-------------------"
+  footer: "&7-----------------------------------------------------"
   sw:
-    header1: '&7----------------[&aAdmin Commands&7]----------------'
-    header2: '&7----------------[&aPlayer Commands&7]----------------'
-    updatetop: '&a/sw updatetop &e - &2Forces a leaderboard update'
-    chestadd: '&a/sw chestadd &e[chesttype] [method] [percentage] &e- &2Adds item(s)
-      in hand/inventory to the chesttype with the assigned percentage'
-    chestedit: '&a/sw chestedit &e[chesttype] [percentage] &e- &2Opens an editable
-      inventory for the items in the chestype with that percentage'
-    start: '&a/sw start &e- &2Force starts a skywars match'
-    stat: '&a/sw stat &e[playername] [stat] [set/add/remove] [value] &e- &2Set a players
-      stat value'
-    setspawn: '&a/sw setspawn &e- &2Sets the spawn at your current location'
-    reload: '&a/sw reload &e- &2Reloads SkyWars'
-    clearstats: '&a/sw clearstats &e[playername] &e- &2Clears a SkyWars players stats'
-    join: '&a/sw join &e- &2Join a SkyWars match'
-    quit: '&a/sw quit &e- &2Quits from the current game'
-    spectate: '&a/sw spectate &e[playername/mapname] &e- &2Spectates a match'
-    stats: '&a/sw stats &e[playername] &e- &2Shows a players stats'
-    top: '&a/sw top [stat] &e- &2Displays SkyWars leaderboard'
-    options: '&a/sw options &e- &2Opens options selection menu'
-    glass: '&a/sw glass &e- &2Opens glass selection menu'
-    winsound: '&a/sw winsound &e- &2Opens winsound selection menu'
-    killsound: '&a/sw killsound &e- &2Opens killsound selection menu'
-    taunt: '&a/sw taunt &e- &2Opens taunt selection menu'
-    projectile: '&a/sw projectile &e- &2Opens projectile selection menu'
-    particle: '&a/sw particle &e- &2Opens particle selection menu'
-    hologram: '&a/sw hologram &e[stat] [format] &e- &2Creates a leaderboard hologram
-      at your eye location'
-    holoremove: '&a/sw holoremove &e- &2Removes the closest hologram leaderboard'
-    lobby: '&a/sw lobby &e- &2Teleport to Skywars lobby'
+    header1: "&7----------------[&aAdmin Commands&7]----------------"
+    header2: "&7----------------[&aPlayer Commands&7]----------------"
+    updatetop: "&a/sw updatetop &e - &2Forces a leaderboard update"
+    chestadd: "&a/sw chestadd &e[chesttype] [method] [percentage] &e- &2Adds item(s)
+      in hand/inventory to the chesttype with the assigned percentage"
+    chestedit: "&a/sw chestedit &e[chesttype] [percentage] &e- &2Opens an editable
+      inventory for the items in the chestype with that percentage"
+    start: "&a/sw start &e- &2Force starts a skywars match"
+    stat: "&a/sw stat &e[playername] [stat] [set/add/remove] [value] &e- &2Set a
+      players stat value"
+    setspawn: "&a/sw setspawn &e- &2Sets the spawn at your current location"
+    reload: "&a/sw reload &e- &2Reloads SkyWars"
+    feather: "&a/sw feather &e- &2Feather status, player detection, async subscription and mod policy info"
+    lunar: "&a/sw lunar &e- &2Lunar status"
+    labymod: "&a/sw labymod &e- &2LabyMod bridge status"
+    clearstats: "&a/sw clearstats &e[playername] &e- &2Clears a SkyWars players stats"
+    migrateusw: "&a/sw migrateusw [overwrite] &e- &2Imports player stats from
+      UltraSkyWars MongoDB using config.yml migration settings"
+    eco: "&a/sw eco &e[give|take|set|get] [player] [amount] &e- &2Manage balances"
+    checkupdates: "&a/sw checkupdates &e- &2Check for plugin updates"
+    update: "&a/sw update &e- &2Download and apply the latest update"
+    join: "&a/sw join &e[arena] | &a/sw join solo|team &e[arena] &e- &2Join a match
+      or a specific arena"
+    joinmenu: "&a/sw joinmenu (solo/team) &e- &2Open map select menu"
+    quit: "&a/sw quit &e- &2Quits from the current game"
+    leave: "&a/leave &e- &2Leave the current match (same as /sw quit)"
+    select: "&a/sw select &e(player) &e- &2Select a player for &a/sw send (map)"
+    send: "&a/sw send &e(player) (map) &e| &a/sw send (map) &e- &2Send a player to a
+      waiting arena"
+    spectate: "&a/sw spectate &e[playername/mapname] &e- &2Spectates a match"
+    stats: "&a/sw stats &e[playername] &e- &2Shows a players stats"
+    top: "&a/sw top [stat] &e- &2Displays SkyWars leaderboard"
+    coins: "&a/sw coins &e[player] &e- &2Shows your (or target) balance"
+    options: "&a/sw options &e- &2Opens options selection menu"
+    prestige: "&a/sw prestige &e- &2Opens prestige cosmetic selection (&7levels.yml&e)"
+    perks: "&a/sw perks &e- &2Opens the perks menu"
+    glass: "&a/sw glass &e- &2Opens glass selection menu"
+    winsound: "&a/sw winsound &e- &2Opens winsound selection menu"
+    killsound: "&a/sw killsound &e- &2Opens killsound selection menu"
+    taunt: "&a/sw taunt &e- &2Opens taunt selection menu"
+    projectile: "&a/sw projectile &e- &2Opens projectile selection menu"
+    particle: "&a/sw particle &e- &2Opens particle selection menu"
+    hologram: "&a/sw hologram &e[stat] [format] &e- &2Creates a leaderboard hologram
+      at your eye location"
+    holoremove: "&a/sw holoremove &e- &2Removes the closest hologram leaderboard"
+    lobby: "&a/sw lobby &e- &2Teleport to Skywars lobby"
+    bypasslobbyslots: "&a/sw bypassLobbySlots &e- &2Toggle lobby slot/build bypass for yourself"
+    lobbywaterportal: "&a/sw lobbywaterportal &e- &2Manage lobby water auto-join portals"
+    lobbywaterportla: "&a/sw lobbywaterportal &e- &2Manage lobby water auto-join portals"
+    soulwell: "&a/sw soulwell &e(setwell|holo|info|clear) &e- &2Set Soul Well
+      block/hologram"
   swmap:
-    header1: '&7-----------------[&aMap Commands&7]-----------------'
-    create: '&a/swmap create &e[mapname] &e- &2Creates a map named &e[mapname]'
-    creator: '&a/swmap creator &e[mapname] [creator] &e- &2Sets the [creator] for
-      the map named [mapname]'
-    delete: '&a/swmap delete &e[mapname] &e- &2Deletes the map named &e[mapname]'
-    edit: '&a/swmap edit &e[mapname] &e- &2Opens a map named &e[mapname] &2for editing'
-    list: '&a/swmap list &e- &2Lists available maps'
-    minimum: '&a/swmap min &e[mapname] [min] &e- &2Sets the minimum number of players
-      for the map named [mapname]'
-    teamsize: '&a/swmap teamsize &e[mapname] [size] &e- &2Sets the team size for the
-      map names [mapname]'
-    name: '&a/swmap name &e[mapname] [name] &e- &2Sets the display name for the map
-      named [mapname]'
-    debug: '&a/swmap debug &e[mapname] &e- &2Get debug info about you and the target
-      arena.'
-    refresh: '&a/swmap refresh &e[mapname] &e- &2Reloads the maps data file.'
-    register: '&a/swmap register &e[mapname] &e- &2Registers a map named &e[mapname]'
-    unregister: '&a/swmap unregister &e[mapname] &e- &2Unregisters a map named &e[mapname]'
-    save: '&a/swmap save &e[mapname] &e- &2Saves a open map named &e[mapname]'
-    arenas: '&a/swmap arenas &e- &2Opens the Arenas GUI'
-    spawn: '&a/swmap spawn &e[type] &e- &2Sets a spawn point for a arena. Type can
-      be player, spec, or deathmatch'
-    chesttype: '&a/swmap chesttype &e[mapname] - &2Toggles between the type of chest
-      being placed (Normal or Center)'
-    checkchest: '&a/swmap checkchest &e[mapname] - &2Lets you know what type of chest
-      it is that you''re looking at'
-    legacyload: '&a/swmap legacyload &e[mapname] &e- &2Loads the chests and player
-      spawns of a map using the SWR Legacy Map Loader. Should only be used when pasting
-      schematics. Do not run more than once per map!!'
+    header1: "&7-----------------[&aMap Commands&7]-----------------"
+    create: "&a/swmap create &e[mapname] &e- &2Creates a map named &e[mapname]"
+    creator: "&a/swmap creator &e[mapname] [creator] &e- &2Sets the [creator] for
+      the map named [mapname]"
+    delete: "&a/swmap delete &e[mapname] &e- &2Deletes the map named &e[mapname]"
+    edit: "&a/swmap edit &e[mapname] &e- &2Opens a map named &e[mapname] &2for
+      editing"
+    list: "&a/swmap list &e- &2Lists available maps"
+    minimum: "&a/swmap min &e[mapname] [min] &e- &2Sets the minimum number of
+      players for the map named [mapname]"
+    teamsize: "&a/swmap teamsize &e[mapname] [size] &e- &2Sets the team size for the
+      map names [mapname]"
+    name: "&a/swmap name &e[mapname] [name] &e- &2Sets the display name for the map
+      named [mapname]"
+    debug: "&a/swmap debug &e[mapname] &e- &2Get debug info about you and the target
+      arena."
+    refresh: "&a/swmap refresh &e[mapname] &e- &2Reloads the maps data file."
+    register: "&a/swmap register &e[mapname] &e- &2Registers a map named &e[mapname]"
+    unregister: "&a/swmap unregister &e[mapname] &e- &2Unregisters a map named &e[mapname]"
+    save: "&a/swmap save &e[mapname] &e- &2Saves a open map named &e[mapname]"
+    leave: "&a/swmap leave &e- &2Leaves map editor mode (save and exit)"
+    arenas: "&a/swmap arenas &e- &2Opens the Arenas GUI"
+    spawn: "&a/swmap spawn &e[type] &e- &2Sets a spawn point for a arena. Type can
+      be player, spec, or deathmatch"
+    chesttype: "&a/swmap chesttype &e[mapname] - &2Toggles between the type of chest
+      being placed (Normal or Center)"
+    checkchest: "&a/swmap checkchest &e[mapname] - &2Lets you know what type of
+      chest it is that you're looking at"
+    legacyload: "&a/swmap legacyload &e[mapname] &e- &2Loads the chests and player
+      spawns of a map using the SWR Legacy Map Loader. Should only be used when
+      pasting schematics. Do not run more than once per map!!"
+    copyasduo: "&a/swmap copyasduo &e[mapname] [teamSize] &e- &2Copies a solo map as
+      a teams map (default team size: 2)"
   swkit:
-    header1: '&7-----------------[&aKit Commands&7]-----------------'
-    create: '&a/swkit create &e[kitname] &e- &2Create a kit using the items in your
-      inventory'
-    enable: '&a/swkit enable &e[kitname] &e- &2Toggles whether the kit is enabled
-      or disabled'
-    icon: '&a/swkit icon &e[kitname] &e- &2Sets the icon for the kit to the itemstack
-      in your hand'
-    lockicon: '&a/swkit lockicon &e[kitname] &e- &2Sets the locked icon for the kit
-      to the itemstack in your hand'
-    perm: '&a/swkit perm &e[kitname] &e- &2Toggles whether a permission is needed
-      to unlock the kit'
-    list: '&a/swkit list &e- &2Lists all kits'
-    load: '&a/swkit load &e[kitname] &e- &2Clears your inventory and loads the kit
-      into your inventory'
-    lore: '&a/swkit lore &e[kitname] [number] [lore] &e- &2Used to set up to 16 lines
-      of lore and locked lore. <number> can be between 1 and 16 or the string "locked"'
-    name: '&a/swkit name &e[kitname] [displayname] &e- &2Sets the display name for
-      the kit. Can include color codes'
-    position: '&a/swkit position &e[kitname] [position] &e- &2Sets the icon position
-      within the kit menu'
-    update: '&a/swkit update &e[kitname] &e- &2Updates the kit <kitname> with your
-      current inventory'
+    header1: "&7-----------------[&aKit Commands&7]-----------------"
+    create: "&a/swkit create &e[kitname] &e- &2Create a kit using the items in your
+      inventory"
+    enable: "&a/swkit enable &e[kitname] &e- &2Toggles whether the kit is enabled or
+      disabled"
+    icon: "&a/swkit icon &e[kitname] &e- &2Sets the icon for the kit to the
+      itemstack in your hand"
+    lockicon: "&a/swkit lockicon &e[kitname] &e- &2Sets the locked icon for the kit
+      to the itemstack in your hand"
+    perm: "&a/swkit perm &e[kitname] &e- &2Toggles whether a permission is needed to
+      unlock the kit"
+    list: "&a/swkit list &e- &2Lists all kits"
+    load: "&a/swkit load &e[kitname] &e- &2Clears your inventory and loads the kit
+      into your inventory"
+    lore: "&a/swkit lore &e[kitname] [number] [lore] &e- &2Used to set up to 16
+      lines of lore and locked lore. (number) can be between 1 and 16 or the
+      string \"locked\""
+    name: "&a/swkit name &e[kitname] [displayname] &e- &2Sets the display name for
+      the kit. Can include color codes"
+    position: "&a/swkit position &e[kitname] [position] &e- &2Sets the icon position
+      within the kit menu"
+    update: "&a/swkit update &e[kitname] &e- &2Updates the kit (kitname) with your
+      current inventory"
   swparty:
-    header1: '&7-----------------[&aParty Commands&7]-----------------'
-    accept: '&a/swparty accept &e- &2Accepts your current party invitation'
-    decline: '&a/swparty decline &e- &2Declines your current party invitation'
-    create: '&a/swparty create &e[partyname] &e- &2Creates a party named &e[partyname]'
-    disband: '&a/swparty disband &e- &2Disbands your current party'
-    invite: '&a/swparty invite &e[player] &e- &2Invites [player] to join your party'
-    leave: '&a/swparty leave &e- &2Leave your current party'
-    name: '&a/swparty name &e[partyname] &e- &2Renames your party to &e[partyname]'
-    info: '&a/swparty info &e- Displays your current parties info'
+    header1: "&7-----------------[&aParty Commands&7]-----------------"
+    accept: "&a/swparty accept &e- &2Accepts your current party invitation"
+    decline: "&a/swparty decline &e- &2Declines your current party invitation"
+    create: "&a/swparty create &e[partyname] &e- &2Creates a party named &e[partyname]"
+    disband: "&a/swparty disband &e- &2Disbands your current party"
+    invite: "&a/swparty invite &e[player] &e- &2Invites [player] to join your party"
+    leave: "&a/swparty leave &e- &2Leave your current party"
+    name: "&a/swparty name &e[partyname] &e- &2Renames your party to &e[partyname]"
+    info: "&a/swparty info &e- Displays your current parties info"
 bungee:
-  motd: '{matchstate}:{playercount}:{maxplayers}:{displayname}'
+  motd: "{matchstate}:{playercount}:{maxplayers}:{displayname}"
+debug:
+  random-vote-enabled: "&7Is random vote enabled? &f{enabled}"
+  arena-header: "&e-- Debug of arena: &f{map}"
+  arena-registered: "&7Registered: &f{registered}"
+  arena-status: "&7Status: &f{status}"
+  arena-players: "&7Players: &f{players}/{maxplayers}"
+  playable-arenas: "&7Playable arenas amount: &f{count}"
+  teams-header: "&e-- Debug of teams"
+  teamcards: "&7Teamcards: &f{count}"
+  teamcard-line: "&7#{position}: p={players}, s={spawns}"
+  spawn-teams: "&7Spawn teams: &f{count}"
+  spawn-team-line: "&7T-{team}: {loc}"
+  island-chests: "&7Island chests: &f{count}"
+  center-chests: "&7Center chests: &f{count}"
+  player-header: "&e-- Debug of player: &f{player}"
+  player-as-player: "&7Are you in-game as player? &f{in} {map}"
+  player-as-dead: "&7Are you in-game as dead? &f{in} {map}"
+  player-as-spec: "&7Are you in-game as spec? &f{in} {map}"

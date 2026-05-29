@@ -1,0 +1,37 @@
+#
+# Skill Configuration Options
+#
+# More information about Mythic skill features can be found here:
+# https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Skills/Skills
+#
+Configuration:
+  
+  # ================================================================================
+  # General Skill Options
+  # ================================================================================
+
+    # Nothing here yet!
+
+    # ================================================================================
+  # Targeter Options
+  # ================================================================================
+  Targeters:
+    
+    # Default values for Entity Target Filters
+    DefaultEntityFilters:
+      TargetSelf: false
+      TargetPlayers: true
+      TargetArmorStands: false
+      TargetMarkers: false
+      TargetCreativeMode: true
+      TargetSpectatorMode: true
+      TargetCitizensNPCs: false
+      TargetAnimals: true
+      TargetCreatures: true
+      TargetMonsters: true
+      TargetWaterMobs: true
+      TargetFlyingMobs: true
+      TargetSameFaction: true
+      TargetOwner: true
+      TargetNonMythic: true
+      TargetVillagers: true

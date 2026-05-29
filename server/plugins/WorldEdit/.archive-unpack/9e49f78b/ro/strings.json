@@ -1,0 +1,23 @@
+{
+    "worldedit.expand.description.vert": "Selectia a fost extinsa vertical pana la limita.",
+    "worldedit.expand.expanded": "Regiunea a fost extinsa {0} blocuri",
+    "worldedit.expand.expanded.vert": "Regiunea a fost extinsa {0} blocuri (de sus pana jos).",
+    "worldedit.biomeinfo.position": "Biome-uri la pozitia ta: {0}",
+    "worldedit.biomeinfo.selection": "Biome-uri in selectia ta: {0}",
+    "worldedit.brush.radius-too-large": "Raza maxima permisă a pensulei: {0}",
+    "worldedit.brush.apply.description": "Aplica pensula, aplica o functie pentru fiecare bloc",
+    "worldedit.brush.apply.radius": "Marimea pensulei",
+    "worldedit.brush.apply.shape": "Forma regiunii",
+    "worldedit.brush.apply.type": "Tip de pensula folosit",
+    "worldedit.brush.apply.item.warning": "Aceasta pensula simuleaza folosirea unui obiect. Efectele acesteia s-ar putea sa nu functioneze pe toate platformele, s-ar putea sa nu fie anulabila, si poate cauza interactii neobisnuite cu alte mod-uri/plugin-uri. Folositi pe propria raspundere.",
+    "worldedit.brush.paint.description": "Pensula de pictat, aplica o functie pe o suprafata",
+    "worldedit.brush.paint.size": "Marimea pensulei",
+    "worldedit.brush.paint.shape": "Forma regiunii",
+    "worldedit.brush.paint.density": "Densitatea pensulei",
+    "worldedit.brush.paint.type": "Tip de pensula folosit",
+    "worldedit.brush.paint.item.warning": "Aceasta pensula simuleaza folosirea unui obiect. Efectele acesteia s-ar putea sa nu functioneze pe toate platformele, s-ar putea sa nu fie anulabila, si poate cauza interactii neobisnuite cu alte mod-uri/plugin-uri. Folositi pe propria raspundere.",
+    "worldedit.brush.sphere.equip": "Pensula cu forma de sfera echipata ({0}).",
+    "worldedit.brush.smooth.filter": "filtru",
+    "worldedit.brush.snowsmooth.nofilter": "orice bloc",
+    "worldedit.brush.snowsmooth.filter": "filtru"
+}

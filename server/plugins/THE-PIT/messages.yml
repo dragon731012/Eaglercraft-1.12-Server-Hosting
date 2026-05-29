@@ -1,0 +1,53 @@
+#In this file you can edit plugin languague
+#Some messages arent here. they are in config.yml
+
+
+LevelUP: '&a%player% leveled up to level &e%level% &a!'
+PluginReloaded: '&eThe plugin config has been reloaded sucefully!'
+ForcedToLeave: '&eSomeone forced you to leave the thepit'
+KillStreakBroadcast: '&6%player% has a KillStreak of &c%killstreak% &6Kills!'
+KillStreakLostBroadcast: '&e%player% lost a KillStreak of &c%killstreak% &6Kills &eto %killer%!'
+MustBeInGame: '&cYou must on kitpvp to execute this command'
+ArrowHit-Message: '&b%player% &7is on &c%health%&7 health.'
+StreakDestroyed: '&cYour killstreak has been destroyed by &e%player%'
+CoinsDoubled: '&bYou receive %coins% Coins (2X)'
+SpawnSeted: '&aYou seted the THEPIT spawn'
+NoFundsShop: '&cYou do not have sufficient gold to buy that upgrade'
+ShopInventoryName: 'Item Shop'
+ShopPriceLore: '&ePrice: '
+
+#Status message when you click stats item
+Status: '&e&lYour Stats &b&l%player%'
+StatusKills: '&e&lKills: &b'
+StatusDeaths: '&e&lDeaths &b'
+StatusCoins: '&e&lCoins: &b'
+StatusKS: '&e&lKS: &b'
+StatusXP: '&e&lYour XP: &b'
+StatusLevel: '&e&lYour Level: '
+
+JoinSignLine1: '&c-=-=-=-'
+JoinSignLine2: '&bThePit'
+JoinSignLine3: '&2Join'
+JoinSignLine4: '&c-=-=-=-'
+
+LeaveSignLine1: '&c-=-=-=-'
+LeaveSignLine2: '&bThePit'
+LeaveSignLine3: '&2Leave'
+LeaveSignLine4: '&c-=-=-=-'
+
+#Items name
+StatusGuiInventory: '&eTHE-PIT Profile'
+StatusGuiMaterial: 'GLASS_PANE'
+StatusGlassMaterial: 'YELLOW_STAINED_GLASS_PANE'
+StatusGuiInformation: '&6Information'
+StatusGuiPlayerStats: '&eStats'
+StatusGuiBoosters: '&eBoosters'
+StatusGuiLevel: '&eLevel'
+StatusGuiYourStatsLore: '&7Click to show your stats!'
+StatusGuiYes: '&aYes'
+StatusGuiNo: '&cNo'
+StatusGuiFirstAcess: '&aFirst Acess:'
+BungeeModeEnabled: '&cYou cannot leave THEPIT because BungeeMode is enabled!'
+NeedToRespawn: '&eYou need to respawn first before leaving the THEPIT!'
+
+

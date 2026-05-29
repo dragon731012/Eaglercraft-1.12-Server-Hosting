@@ -1,0 +1,15 @@
+{
+    "worldedit.expand.description.vert": "Vertically expand the selection to world limits.",
+    "worldedit.expand.expanded": "Region expanded {0} blocks",
+    "worldedit.select.ellipsoid.message": "Ellipsoid selector: left click=centre, right click to extend",
+    "worldedit.select.sphere.message": "Sphere selector: left click=centre, right click to set radius",
+    "worldedit.select.cyl.message": "Cylindrical selector: Left click=centre, right click to extend",
+    "worldedit.center.changed": "Centre set. ({0} blocks changed)",
+    "worldedit.platform.no-file-dialog": "File dialogues are not supported in your environment.",
+    "worldedit.selection.ellipsoid.info.center": "Centre: {0}",
+    "worldedit.selection.ellipsoid.explain.primary": "Centre position set to {0}.",
+    "worldedit.selection.ellipsoid.explain.primary-area": "Centre position set to {0} ({1}).",
+    "worldedit.selection.cylinder.info.center": "Centre: {0}",
+    "worldedit.selection.cylinder.explain.secondary-missing": "You must select the centre point before setting the radius.",
+    "worldedit.sideeffect.neighbors": "Neighbours"
+}

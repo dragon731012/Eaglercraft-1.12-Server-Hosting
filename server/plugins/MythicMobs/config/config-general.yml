@@ -1,0 +1,86 @@
+#
+# General Configuration Options
+#
+# General config options for Mythic. Learn more on the wiki here:
+#
+# Manual - https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home
+# Discord - https://www.discord.gg/MythicCraft
+#
+Configuration:
+  Version: 5.6
+  
+  # ================================================================================
+  # General Options
+  # ================================================================================
+
+  General:
+    AllowMetrics: true
+    AnnounceOpReload: false
+    CheckForUpdates: true
+    DebugLevel: 0
+    DebugMode: false
+    DebugSpawners: false
+    ErrorLogging: true
+    
+    ThreadPoolSize: -1
+    UseVirtualThreads: false
+    
+    # Whether to cache and reuse identical mechanics
+    # Reduces memory usage, but source information in errors will become inaccurate
+    ShareComponents: false
+    
+    # Tries to match mobs by their display name and turn them into Mythic Mobs when
+    # spawned by a different plugin, for plugins that don't support Mythic
+    CompatibilityMode: false
+    LoadExampleConfigs: true
+    Language: en-us
+  
+  # ================================================================================
+  # Features - Set to false to totally disable a feature
+  # ================================================================================
+  Features:
+    PlayerFactions: true
+    RandomSpawning: true
+    Spawners: true
+  
+  # ================================================================================
+  # Commands - Options related to commands
+  # ================================================================================
+  Commands:
+    SendGiveItemFeedback: true
+  
+  # ================================================================================
+  # Clock - Options that affect the clock. Changing isn't recommended in general.
+  # All values are in ticks
+  # ================================================================================
+  Clock:
+    Main: 1
+    Saving: 300
+    Spawners: 2
+    RandomSpawning: 1
+    Scanner: 10
+    Cleanup: 600
+    Bars: 20
+  
+  # ================================================================================
+  # Built-in compatibility with other plugins
+  # ================================================================================
+  Compatibility:
+    ProtocolLib:
+      Enabled: true
+    Heroes:
+      Enabled: true
+      ShowXPMessage: true
+      XPMessageFormat: ''
+    McMMO:
+      Enabled: true
+      ShowXPMessage: true
+      XPMessageFormat: '&7You receive <drop.amount> experience for slaying <caster.name>'
+    SkillAPI:
+      Enabled: true
+      ShowXPMessage: true
+      XPMessageFormat: '&7You receive <drop.amount> experience for slaying <caster.name>'
+    Vault:
+      Enabled: true
+      ShowMoneyMessage: true
+      MoneyMessageFormat: '&7You receive <drop.amount> currency for slaying <caster.name>'

@@ -1,0 +1,166 @@
+xp-rewards:
+  per-minute: 10
+  per-teammate: 5
+  game-win: 100
+  per-kill: 10
+  vip1-multiplier: 2
+  vip2-multiplier: 3
+  vip3-multiplier: 4
+  vip4-multiplier: 5
+  vip5-multiplier: 10
+
+progress-bar:
+  symbol: ■
+  unlocked-color: '&b'
+  locked-color: '&7'
+  format: '&8 [{progress}&8]'
+  segments: 10
+
+levels:
+  '1':
+    name: '&7[{number}✩] '
+    rankup-cost: 1000
+  '2':
+    name: '&7[{number}✩] '
+    rankup-cost: 2000
+  '3':
+    name: '&7[{number}✩] '
+    rankup-cost: 3000
+  '4':
+    name: '&7[{number}✩] '
+    rankup-cost: 3500
+  5-10:
+    name: '&e[{number}✩] '
+    rankup-cost: 5000
+  11-20:
+    name: '&a[{number}✩] '
+    rankup-cost: 6000
+  21-30:
+    name: '&b[{number}✩] '
+    rankup-cost: 7000
+  31-40:
+    name: '&c[{number}✩] '
+    rankup-cost: 8000
+  41-50:
+    name: '&d[{number}✩] '
+    rankup-cost: 9000
+  51-60:
+    name: '&e[{number}✩] '
+    rankup-cost: 10000
+  61-70:
+    name: '&f[{number}✩] '
+    rankup-cost: 11000
+  71-80:
+    name: '&1[{number}✩] '
+    rankup-cost: 12000
+  81-90:
+    name: '&2[{number}✩] '
+    rankup-cost: 13000
+  91-100:
+    name: '&3[{number}✩] '
+    rankup-cost: 14000
+  others:
+    name: '&7[{number}✩] '
+    rankup-cost: 15000
+
+# Commands run once per crossed level when XP increases (Soul Well wins, kills, minute XP all use addXp).
+level-up-rewards:
+  enabled: true
+  levelRewards:
+    '5':
+    - 'sw stat <player> souls add 5'
+    '10':
+    - 'sw stat <player> souls add 10'
+    - 'eco give <player> 200'
+    '15':
+    - 'sw stat <player> souls add 10'
+    '20':
+    - 'sw stat <player> souls add 15'
+    - 'eco give <player> 500'
+    '25':
+    - 'sw stat <player> souls add 20'
+    - 'eco give <player> 750'
+    '30':
+    - 'sw stat <player> souls add 25'
+    - 'eco give <player> 1000'
+    '40':
+    - 'sw stat <player> souls add 30'
+    - 'eco give <player> 1500'
+    '50':
+    - 'sw stat <player> souls add 50'
+    - 'eco give <player> 2500'
+    '75':
+    - 'sw stat <player> souls add 75'
+    - 'eco give <player> 5000'
+    '100':
+    - 'sw stat <player> souls add 100'
+    - 'eco give <player> 10000'
+
+# Options menu slot: inventory index 0–26 (-1 disables the star button).
+prestige:
+  enabled: true
+  options-menu-slot: 24
+  menu-size: 36
+  icon1:
+    enabled: true
+    slot: 10
+    page: 1
+    name: '&7Default'
+    material: GOLD_NUGGET
+    prefix: '&7[{level}✫] '
+    requirements:
+      level: 1
+  icon2:
+    enabled: true
+    slot: 11
+    page: 1
+    name: '&eGold'
+    material: GOLD_INGOT
+    prefix: '&e[{level}✫] '
+    requirements:
+      level: 10
+  icon3:
+    enabled: true
+    slot: 12
+    page: 1
+    name: '&aEmerald'
+    material: EMERALD
+    prefix: '&a[{level}✫] '
+    requirements:
+      level: 25
+  icon4:
+    enabled: true
+    slot: 13
+    page: 1
+    name: '&bDiamond'
+    material: DIAMOND
+    prefix: '&b[{level}✫] '
+    requirements:
+      level: 50
+  icon5:
+    enabled: true
+    slot: 14
+    page: 1
+    name: '&dAmethyst'
+    material: NETHER_STAR
+    prefix: '&d[{level}✫] '
+    requirements:
+      level: 75
+  icon6:
+    enabled: true
+    slot: 15
+    page: 1
+    name: '&cRuby'
+    material: REDSTONE
+    prefix: '&c[{level}✫] '
+    requirements:
+      level: 100
+  icon7:
+    enabled: true
+    slot: 16
+    page: 1
+    name: '&6&lMythic'
+    material: DRAGON_EGG
+    prefix: '&6&l[{level}✫] '
+    requirements:
+      level: 150

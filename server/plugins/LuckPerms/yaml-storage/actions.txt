@@ -42,3 +42,9 @@
 {"timestamp":1779026147,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.spawn true"}
 {"timestamp":1779026152,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.warp true"}
 {"timestamp":1779026157,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"default"},"description":"permission set oneblock.user true"}
+{"timestamp":1779901807,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"owner"},"description":"create"}
+{"timestamp":1779901815,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"owner"},"description":"delete"}
+{"timestamp":1779901821,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"owner"},"description":"create"}
+{"timestamp":1779901829,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"GROUP","name":"owner"},"description":"meta setprefix 1 &c&lOWNER &f"}
+{"timestamp":1779901837,"source":{"uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"target":{"type":"USER","uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"description":"parent set owner"}
+{"timestamp":1779917370,"source":{"uniqueId":"00000000-0000-0000-0000-000000000000","name":"Console"},"target":{"type":"USER","uniqueId":"6f7c2000-8c8c-3e32-a19f-f89575d57255","name":"VOID"},"description":"permission set ajleaderboards.dontupdate.the-pit_player_kills false"}

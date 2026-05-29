@@ -9,7 +9,7 @@ listener_01:
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: null
   server_icon: VSTD_logo.jpg
-  
+  allow_voice: true
   server_name: "&bV•S•T•D"
   
   server_motd:

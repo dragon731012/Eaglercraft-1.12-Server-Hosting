@@ -1,0 +1,24 @@
+items:
+  # === GRUNDLAGEN ===
+  CHEST: { reward: 1.0, xp: 2 }
+  WORKBENCH: { reward: 1.0, xp: 2 }
+  FURNACE: { reward: 2.0, xp: 5 }
+  HOPPER: { reward: 15.0, xp: 30 }
+
+  # === WERKZEUGE & RÜSTUNG (DIAMANT/NETHERITE) ===
+  DIAMOND_PICKAXE: { reward: 50.0, xp: 100 }
+  DIAMOND_CHESTPLATE: { reward: 100.0, xp: 200 }
+  NETHERITE_PICKAXE: { reward: 500.0, xp: 1000 }
+  NETHERITE_CHESTPLATE: { reward: 1000.0, xp: 2000 }
+
+  # === HIGH-END ITEMS ===
+  ENCHANTING_TABLE: { reward: 100.0, xp: 250 }
+  BEACON: { reward: 5000.0, xp: 10000 }
+  CONDUIT: { reward: 2000.0, xp: 4000 }
+  ENDER_CHEST: { reward: 250.0, xp: 500 }
+
+  # === REDSTONE ===
+  PISTON: { reward: 10.0, xp: 20 }
+  STICKY_PISTON: { reward: 15.0, xp: 30 }
+  OBSERVER: { reward: 20.0, xp: 40 }
+  REPEATER: { reward: 5.0, xp: 10 }

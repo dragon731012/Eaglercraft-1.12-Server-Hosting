@@ -1,0 +1,12 @@
+{
+    "worldedit.expand.description.vert": "Vertically expand the selection to world limits.",
+    "worldedit.expand.expanded": "Region expanded {0} blocks",
+    "worldedit.expand.expanded.vert": "Region expanded {0} blocks (top-to-bottom).",
+    "worldedit.biomeinfo.lineofsight": "Biomes at line of sight point: {0}",
+    "worldedit.biomeinfo.position": "Biomes at your position: {0}",
+    "worldedit.brush.apply.type": "Type of brush to use",
+    "worldedit.brush.paint.type": "Type of brush to use",
+    "worldedit.brush.sphere.equip": "Sphere brush shape equipped ({0}).",
+    "worldedit.pyramid.created": "{0} blocks have been created.",
+    "worldedit.generate.created": "{0} blocks have been created."
+}

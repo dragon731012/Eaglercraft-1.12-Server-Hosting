@@ -1,0 +1,16 @@
+{
+    "worldedit.expand.expanded": "არე გაფართოვდა {0} ბლოკით",
+    "worldedit.expand.expanded.vert": "არე გაფართოვდა {0} ბლოკით (სამყაროს ფსკერიდან კენწერომდე).",
+    "worldedit.biomeinfo.lineofsight": "ბიომები ხედვაში: {0}",
+    "worldedit.brush.apply.radius": "ფუნჯის ზომა",
+    "worldedit.brush.apply.shape": "არეს ფორმა",
+    "worldedit.brush.apply.type": "სახმარი ფუნჯის ტიპი",
+    "worldedit.brush.paint.size": "ფუნჯის ზომა",
+    "worldedit.brush.paint.shape": "არეს ფორმა",
+    "worldedit.brush.paint.type": "სახმარი ფუნჯის ტიპი",
+    "worldedit.brush.smooth.nofilter": "ნებისმიერი ბლოკი",
+    "worldedit.brush.smooth.filter": "ფილტრი",
+    "worldedit.brush.snowsmooth.nofilter": "ნებისმიერი ბლოკი",
+    "worldedit.brush.snowsmooth.filter": "ფილტრი",
+    "worldedit.brush.operation.equip": "დაყენდეს ფუნჯი {0}-ზე."
+}

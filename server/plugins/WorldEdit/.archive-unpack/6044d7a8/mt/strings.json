@@ -1,0 +1,19 @@
+{
+    "worldedit.expand.description.vert": "Jespandu vertikalment l-għażla għal-limiti dinjija.",
+    "worldedit.expand.expanded": "Ir-reġjun espanda {0}-blokki",
+    "worldedit.expand.expanded.vert": "Ir-reġjun espanda {0}-blokki (minn fuq għal isfel).",
+    "worldedit.biomeinfo.lineofsight": "Bijomes fil-punt tal-vista: {0}",
+    "worldedit.biomeinfo.position": "Bijomes fil-pożizzjoni tiegħek: {0}",
+    "worldedit.biomeinfo.selection": "Bijomessi fl-għażla tiegħek: {0}",
+    "worldedit.brush.radius-too-large": "Raġġ massimu permess tal-pinzell: {0}",
+    "worldedit.brush.apply.description": "Applika x-xkupilja, applika funzjoni għal kull blokka",
+    "worldedit.brush.apply.radius": "Id-daqs tal-pinzell",
+    "worldedit.brush.apply.shape": "Il-forma tar-reġjun",
+    "worldedit.brush.apply.type": "Tip ta' pinzell li għandu jintuża",
+    "worldedit.brush.apply.item.warning": "Dan il-pinzell jissimula l-użu tal-oġġett. L-effetti tiegħu jistgħu ma jaħdmux fuq il-pjattaformi kollha, jistgħu ma jkunux jistgħu jiġu indaqs, u jistgħu jikkawżaw interazzjonijiet strambi ma' modi/plugins oħra. Uża għar- riskju tiegħek stess.",
+    "worldedit.brush.paint.description": "Pinzell taż-żebgħa, applika funzjoni għal wiċċ",
+    "worldedit.brush.paint.size": "Id-daqs tal-pinzell",
+    "worldedit.brush.paint.shape": "Il-forma tar-reġjun",
+    "worldedit.brush.paint.type": "Tip ta' pinzell li għandu jintuża",
+    "worldedit.brush.paint.item.warning": "Dan il-pinzell jissimula l-użu tal-oġġett. L-effetti tiegħu jistgħu ma jaħdmux fuq il-pjattaformi kollha, jistgħu ma jkunux jistgħu jiġu indaqs, u jistgħu jikkawżaw interazzjonijiet strambi ma' modi/plugins oħra. Uża għar- riskju tiegħek stess."
+}

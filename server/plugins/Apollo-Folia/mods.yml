@@ -1,0 +1,1581 @@
+# Lunar Client mod option overrides. https://lunarclient.dev/apollo/server-owners/config
+
+mod_setting:
+    # Set to 'true' to enable this module, otherwise set 'false'.
+    enable: true
+    replaymod:
+        enabled:
+        indicator:
+        auto-post-process:
+        show-server-ip:
+        auto-sync:
+        timeline-length:
+        ask-for-open-eye:
+        skip-post-render-gui:
+        skip-post-screenshot-gui:
+        path-preview:
+        lunar-u-i:
+        notifications:
+        record-singleplayer:
+        record-server:
+        auto-start-recording:
+        rename-dialog:
+        show-chat:
+    one-seven-visuals:
+        enabled:
+        # 1.7: Right-clicking while breaking blocks will stop the block break
+        use-item-while-digging:
+        # Provides better visual feedback when attacking while keeping vanilla behavior
+        always-swing:
+    fps:
+        enabled:
+        scale:
+        reverse-order:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    cps:
+        enabled:
+        scale:
+        right-click:
+        line-color:
+        show-c-p-s-text:
+        reverse-text:
+        ignore-cancelled-clicks:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    sba:
+        enabled:
+        hide-health-bar:
+        hide-food-bar:
+        hide-pet-health-bar:
+        skeleton-helmet-bars:
+        cooldown-prediction:
+        leg-monkey-lvl100:
+        compact-tab-list:
+        show-item-cooldowns:
+        use-lunar-cooldowns:
+        hide-true-defense:
+        special-zealot-alert:
+        zealot-counter-explosive-bow-support:
+        zealot-color-boolean:
+        zealot-color:
+        lock-slots:
+        stop-dropping-selling-rare-items:
+        avoid-blinking-night-vision:
+        make-backpack-inventories-colored:
+        fishing-sound-indicator:
+        change-bar-color-for-potions:
+        color-ender-chest-in-end:
+        end-ender-chest-color:
+        outbid-alert-sound:
+        outbid-alert-sound-in-other-games:
+        hide-other-player-presents:
+        # Requires Fast Render to be OFF.
+        entity-glow:
+        dropped-items-glow:
+        dropped-items-glow-on-island:
+        hide-sven-pup-nametags:
+        hide-players-in-lobby:
+        hide-spawn-point-players:
+        hide-bones:
+        bigger-fishing-wake:
+        stop-rat-sounds:
+        stop-only-rat-squeak:
+        fishing-particle-overlay:
+        fishing-particle-overlay-color:
+        dungeon-teammates-glow:
+        critical-health-dungeon-teammate-warning:
+        show-dungeon-teammate-name-overlay:
+        show-healing-circle-wall:
+        healing-circle-opacity:
+        stop-bonzo-staff-sounds:
+        show-salvage-essences-counter:
+        reset-salvaged-essences-after-leaving-menu:
+        change-dungeon-map-zoom-with-keyboard:
+        hide-enchant-description:
+        enable-message-when-breaking-park:
+        show-backpack-preview:
+        show-backpack-holding-shift:
+        backpack-preview-ah:
+        cake-bag-preview:
+        backpack-opening-sound:
+        fancy-warp-menu:
+        warp-advanced-mode:
+        disable-enderman-teleportion-effect:
+        hide-grey-enchants:
+        show-item-anvil-uses:
+        replace-roman-numerals-with-numbers:
+        dont-replace-roman-numerals-in-item-name:
+        show-enchantments-reforges:
+        show-broken-fragments:
+        show-base-stat-boost-percentage:
+        base-stat-boost-color-by-rarity:
+        show-item-dungeon-floor:
+        show-rarity-upgraded:
+        show-stacking-enchant-progress:
+        # Shows the kills for swords that give stats reflecting the enemies killed with said sword (ex. Fels Sword)
+        show-sword-kills:
+        enchantment-lore-parsing:
+        highlight-special-enchantments:
+        show-experimentation-table-tooltips:
+        developer-mode:
+        show-sky-block-item-i-d:
+        dont-reset-cursor-inventory:
+        show-personal-compactor-preview:
+        reforge-filter:
+        show-ender-chest-preview:
+        disable-empty-glass-panes:
+        disable-teleport-pad-messages:
+        disable-magical-soup-messages:
+        disable-mort-messages:
+        disable-boss-messages:
+        disable-spirit-sceptre-messages:
+        player-symbols-in-chat:
+        show-profile-type:
+        show-nether-faction:
+        trevor-the-trapper-features:
+        trevor-highlight-tracked-entity:
+        trevor-show-quest-cooldown:
+    toggle-sneak:
+        enabled:
+        toggle-sprint:
+        sprint-keybind-override:
+        toggle-sneak:
+        sneak-keybind-override:
+        toggle-sneak-container:
+        double-tap:
+        fly-boost:
+        fly-boost-amount:
+    zoom:
+        enabled:
+        # Quickly pressing and releasing the key will toggle zoom
+        toggle-key-zoom:
+        # When zoomed in the camera movement will move smoothly (cinematic camera)
+        smooth-camera:
+        # Add a transition when zooming in and out.
+        smooth-zoom:
+        # Adjust the zoom depth using Mouse Scroll Wheel
+        variable-zoom:
+        zoom-scroll-speed:
+        # Change the initial zoom depth.
+        zoom-divisor:
+        # Change the camera sensitivity when zoomed in.
+        camera-sensitivity:
+    hypixel-mod:
+        enabled:
+        remove-guild-on-tab:
+        remove-guild-motd:
+        short-channel-names:
+        auto-friend:
+        auto-tip:
+        auto-g-g:
+        anti-g-g:
+        auto-who:
+        level-head:
+        hypixel-autocomplete:
+        level-color:
+        level-head-number-color:
+        level-above:
+        use-bedwars-levels-format:
+        hide-private-messages:
+        hide-team-chat:
+        hide-party-chat:
+        hide-guild-chat:
+        hide-shout:
+        hide-spectator-chat:
+        remove-lobby-statuses:
+        hide-join-messages:
+        hide-leave-messages:
+        hide-soul-well-announcements:
+        hide-mystery-box-announcements:
+    hypixel-bedwars:
+        enabled:
+        # Recolor the beds in-game according to the team's color
+        colored-beds:
+        # Recolor the beds in bedwars practice mode
+        enable-practice-color:
+        # Replaces normal hearts with hardcore hearts once your bed is lost
+        bw-hardcore-hearts:
+        bw-hide-food-bar:
+        bw-hide-armor-bar:
+        custom-trap-alert:
+        mute-alert-sound:
+        alert-primary-color:
+        alert-sub-color:
+    quickplay:
+        enabled:
+    armorstatus:
+        enabled:
+        scale:
+        move-armor-individually:
+        hide-unbreakable-durability:
+        item-name:
+        item-count:
+        show-while-typing:
+        # Adds a shadow to text
+        text-shadow:
+        damage-overlay:
+        item-damage:
+        armor-damage:
+        max-damage:
+        static-damage-colors:
+        name-text-color:
+        highest-color:
+        high-color:
+        medium-color:
+        medium-low-color:
+        low-color:
+        lowest-color:
+    keystrokes:
+        enabled:
+        scale:
+        key-strokes-clicks:
+        left-c-p-s:
+        right-c-p-s:
+        use-arrows:
+        key-strokes-movement:
+        key-strokes-spacebar:
+        # Adds a shadow to text
+        text-shadow:
+        border:
+        inner-border:
+        animate:
+        duration:
+        animate-color:
+        animation-start-color:
+        animation-center-color:
+        animation-end-color:
+        border-thickness:
+        box-size:
+        border-color:
+        text-color:
+        text-pressed-color:
+        background-color:
+        background-pressed-color:
+        key-fade-delay:
+        spacebar-thickness:
+    coordinates:
+        enabled:
+        scale:
+        # Adds a shadow to text
+        text-shadow:
+        show-while-typing:
+        background:
+        border:
+        border-thickness:
+        decimal-coordinates:
+        move-children-individually:
+        background-color:
+        border-color:
+    day-counter:
+        enabled:
+        scale:
+        # If enabled, this will show the day of the world. If disabled, it will display your playtime in that world.
+        use-world-type:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    crosshair:
+        enabled:
+        crosshair-thickness:
+        crosshair-size:
+        crosshair-gap:
+        crosshair-dot:
+        crosshair-outline:
+        outline-thickness:
+        outline-color:
+        custom-scale:
+        color:
+        friendly-color:
+        enemy-color:
+    potion-effects:
+        enabled:
+        scale:
+        show-in-inventory:
+        show-while-typing:
+        effect-name:
+        # Adds a shadow to text
+        text-shadow:
+        background:
+        minimal-mode:
+        minimal-mode-horizontal:
+        border:
+        border-thickness:
+        formatted-durations:
+        uppercase-potion-names:
+        reversed-text:
+        hide-modern-icons:
+        potion-blink:
+        blink-duration:
+        background-color:
+        border-color:
+        color-name-based-on-effect:
+        text-color:
+        duration-color:
+        exclude-perm:
+        exclude-absorption:
+        exclude-blindness:
+        exclude-fire-res:
+        exclude-haste:
+        exclude-health-boost:
+        exclude-hunger:
+        exclude-instant-damage:
+        exclude-instant-health:
+        exclude-invis:
+        exclude-jump-boost:
+        exclude-mining-fatigue:
+        exclude-nausea:
+        exclude-night-vision:
+        exclude-poison:
+        exclude-regen:
+        exclude-resistance:
+        exclude-saturation:
+        exclude-slowness:
+        exclude-speed:
+        exclude-strength:
+        exclude-water-breathing:
+        exclude-weakness:
+        exclude-wither:
+    direction-hud:
+        enabled:
+        scale:
+        width:
+        # Adds a shadow to text
+        text-shadow:
+        # Show the cardinal directions in BOLD.
+        bold-directions:
+        background:
+        border:
+        border-thickness:
+        # Choose whether to show the Direction HUD when TAB is open.
+        show-with-tab:
+        show-marker:
+        show-marker-value:
+        show-waypoints:
+        show-teammates:
+        # Show markers from the Markers Mod.
+        show-external-markers:
+        background-color:
+        border-color:
+        marker-color:
+        direction-color:
+        use-legacy-style:
+    waypoints:
+        enabled:
+        # Allows you to click coordinates in chat and create a new waypoint from them
+        add-waypoints-from-chat:
+        # Ask for confirmation before deleting a waypoint through the UI
+        confirm-delete:
+        # Automatically create a waypoint when you die
+        death-waypoint:
+        # Limit the amount of waypoints that can be created, removing the oldest one when going over the limit
+        limit-death-waypoints:
+        # Maximum amount of Death Waypoints you will see at one time
+        max-death-waypoints:
+        # Enables beams for waypoints in the world
+        waypoint-beams:
+        # Adds a box around the waypoint label in the world
+        box-border:
+        # Adds a shadow to text
+        text-shadow:
+        # Increase the size of the labels box
+        box-padding:
+        # Show simpler text icons above each waypoint
+        show-icons:
+        # Scale the box containing the waypoints name in the world
+        label-scale:
+        # Scale the box containing the waypoints icon in the world
+        icon-scale:
+        # Show an outline around the block the waypoint is positioned on
+        highlight-waypoint-block:
+        # The width of the outline around the block being highlighted
+        highlight-waypoint-block-line-width:
+        # Show the distance of a waypoint in the world
+        waypoint-show-distance:
+        # Waypoints will only be displayed when your camera is facing towards their general direction
+        only-show-when-looking-near:
+        # Adds a waypoint if coordinates are clicked in chat.
+        add-from-chat:
+    hit-color:
+        enabled:
+        hit-armor-color:
+        should-color-armor:
+    scoreboard:
+        enabled:
+        scale:
+        numbers:
+        hide-scoreboard:
+        # Adds a shadow to text
+        text-shadow:
+        border-thickness:
+        border:
+        background-color:
+        header-color:
+        border-color:
+    titles:
+        enabled:
+        scale:
+        show-in-hud-editor:
+        title-color:
+        subtitle-color:
+        use-minecraft-g-u-i-scale:
+        # Keep the title centered around the center of the mod on-screen
+        keep-title-centered:
+        # Show title of height limit display
+        show-title:
+        show-subtitle:
+    item-counter:
+        enabled:
+        scale:
+        child-scale:
+        # Grouped mode takes the existing item counters and groups them together into a single box
+        item-counter-grouped:
+        background:
+        border:
+        background-color:
+        border-color:
+        border-thickness:
+    ping:
+        enabled:
+        # Faster updates may impact performance
+        update-interval-sec:
+        # How many updates to average together (one update happens per the 'update interval' setting)
+        average-samples:
+        ping-spike-detection:
+        medium-spike-threshold:
+        medium-spike-color:
+        large-spike-threshold:
+        large-spike-color:
+        ping-show-ms:
+        show-ping-prefix:
+        ping-prefix-color:
+        dynamic-ping-color:
+        ping-number-color:
+        low-ping-number-color:
+        medium-ping-number-color:
+        high-ping-number-color:
+        extreme-ping-number-color:
+        enable-ping-nametag:
+        ping-above:
+        scale:
+        text-shadow:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        background-width:
+        background-height:
+        brackets:
+        border:
+        border-thickness:
+        text-color:
+        background-color:
+        border-color:
+    motion-blur:
+        enabled:
+        value:
+        old-blur:
+    pack-organizer:
+        enabled:
+        show-incompatible:
+    chat:
+        enabled:
+        # Choose whether or not you want to increase the message history in chat
+        unlimited-chat:
+        modern-chat-length-hypixel:
+        long-chat-singleplayer:
+        # Choose whether or not you want to stack multiple of the same messages in chat
+        stack-messages:
+        # Choose whether or not you want to stack multiple of the same messages in chat within a timeframe
+        stack-messages-time-based:
+        time-based-stack-messages-timeframe:
+        chat-stack-ignore-blank:
+        chat-stack-ignore-break:
+        # Moves the chat up 12 pixels so it doesn't block health bar
+        chat-height:
+        # Show text shadow on chat lines
+        chat-shadow:
+        disable-chat:
+        # Prevents your chat history from being cleared when disconnecting from or switching between servers.
+        no-close-my-chat:
+        chat-ping-sound:
+        # Requires the ping message to exactly contain your name.For example, if your name is Notch, this will ping on Notch but not Notch123.
+        chat-ping-exact-match:
+        # Copies the hovered chat message when holding the keybind and clicking.
+        copy-chat:
+        # Allows you to simply right click a chat message to copy it, no keybind
+        copy-chat-right-click:
+        # Displays a preview of an image when hovering over it.If a single message has more than one image, press CTRL to cycle through them.
+        hover-image-preview:
+        # The minimum size for an image to be displayed, as a percentage of your screen.
+        min-image-size:
+        # The maximum size for an image to be displayed, as a percentage of your screen.
+        max-image-size:
+        # When your max image size is set to e.g. 50%, when you press shift, the image will expand to 100%
+        fullscreen-image:
+        smooth-chat:
+        smooth-chat-speed:
+        chat-name-bold:
+        chat-name-italic:
+        chat-name-underline:
+        chat-name-strikethrough:
+        chat-name-obfuscated:
+        chat-background-opacity:
+        input-field-opacity:
+        # ENABLED: Completely hides filtered messages DISABLED: Replaces filtered words with asterisks
+        stop-profane-messages:
+        chat-timestamps:
+        # Makes the timestamp italics
+        timestamp-italics:
+        # Makes the timestamp bold
+        timestamp-bold:
+        # Use a 12-hour clock, or a 24-hour clock if disabled
+        twelve-hour-clock:
+        show-am-pm:
+        show-seconds:
+        # Adds square brackets around the timestamp
+        show-brackets:
+    tab:
+        enabled:
+        # Quickly pressing and releasing the key will toggle tab
+        toggle-key-tab:
+        disable-header:
+        display-player-head:
+        disable-footer:
+        # Hide Hypixel NPC on tab
+        hide-n-p-c:
+        show-lunar-icons-on-right:
+        header-color:
+        footer-color:
+        background-color:
+        ping-row:
+        rows-color:
+        highlight-own-name:
+        name-color:
+        name-shadow:
+        move-self-to-top:
+        hide-ping:
+        hide-ping-if-over500:
+        display-ping-as-number:
+        ping-number-shadow:
+        dynamic-ping-color:
+        low-ping-number-color:
+        medium-ping-number-color:
+        high-ping-number-color:
+        extreme-ping-number-color:
+        ping-number-color:
+        # An option to toggle LC logos in player list tab overlay.
+        tab-logo:
+    nametag:
+        enabled:
+        nametag-shadow:
+        # An option to see your own nametag in third person
+        nametag:
+        # Determines if we should send the message when nametags are toggled.
+        toggle-nametags:
+        hide-nametags-in-f1:
+        nametag-background-opacity:
+        replace-own-nametag-color:
+        own-nametag-color:
+        # An option to toggle LC logos in nametags
+        nametag-logo:
+    shulker-preview:
+        enabled:
+        always-preview:
+        colored-shulker-preview:
+    scrollable-tooltips:
+        enabled:
+        # When a tooltip is sufficiently long, overflow off the bottom/right of the screen instead of the top/left.
+        start-at-top:
+        vertical-keybind:
+        tooltip-scale:
+        # Let the user scroll whenever they want, regardless of whether or not a tooltip is sufficiently large.
+        tooltip-free-scroll:
+        # Instead of moving the tooltip vertically, hide lines when scrolling.
+        line-shift-mode:
+        text-shadow:
+        wrap-text:
+    particle-changer:
+        enabled:
+        always-enchant-strikes:
+        # Hide particles which are emitted in first person (e.g. potion effects)
+        hide-first-person-particles:
+        hide-block-break-particles:
+        # Simple toggle for clean game rendering. This may cause issues with certain server mechanics being more challenging to see!
+        hide-all-particles:
+        scale:
+        particle-multiplier:
+        hide-particle:
+        overlay-color:
+        color:
+        show-blood-particles:
+        blood-multiplier:
+        player-blood-particles:
+        entity-blood-particles:
+        play-blood-sound:
+        affect-enchanted-weapons:
+    nick-hider:
+        enabled:
+        hide-name:
+        hide-real-name:
+        hide-others-names:
+        custom-suffix:
+        hide-lobby-i-d:
+        hide-own-skin:
+        use-real-skin:
+        hide-others-skin:
+    cooldowns:
+        enabled:
+        scale:
+        cooldown-circle-start-color:
+        cooldown-circle-end-color:
+        cooldown-edge-color:
+        text-color:
+    worldedit-cui:
+        enabled:
+        position-one-color:
+        position-two-color:
+        outline-color:
+    clock:
+        enabled:
+        scale:
+        military-time:
+        show-am-pm:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    stopwatch:
+        enabled:
+        scale:
+        reset-every-start:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    playtime:
+        enabled:
+        scale:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    memory:
+        enabled:
+        scale:
+        color-based-on-usage:
+        low-mem-color:
+        med-mem-color:
+        high-mem-color:
+        text-color:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+    combo:
+        enabled:
+        scale:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    reach-display:
+        enabled:
+        scale:
+        reverse-order:
+        hide-zero:
+        highlight-attackable-players:
+        highlight-color:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    time-changer:
+        enabled:
+        time-changer-time:
+        horizon-y-level:
+        use-real-time:
+        time-passage:
+        speed:
+    server-address:
+        enabled:
+        scale:
+        server-icon:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    saturation:
+        enabled:
+        show-saturation-overlay:
+        show-appleskin-tooltip:
+        show-held-item-hunger:
+        show-held-item-saturation:
+    color-saturation:
+        enabled:
+        color-saturation-hue:
+        color-saturation-saturation:
+        color-saturation-brightness:
+        color-saturation-contrast:
+        grayscale:
+    item-physics:
+        enabled:
+        rotation-speed:
+    tnt-countdown:
+        enabled:
+        # Offset the default tnt delay in ticks. 1 second is 20 ticks
+        adjust-fuse-time:
+        background:
+        # Adds a shadow to text
+        text-shadow:
+        # Should the color stay the same the entire time.
+        static-countdown-color:
+        color:
+        prefix-color:
+    item-tracker:
+        enabled:
+        scale:
+        # Adds a shadow to text
+        text-shadow:
+        skyblock-only:
+        # How long the text should stay on screen (seconds)
+        popup-duration-sec:
+    shiny-pots:
+        enabled:
+        colored-potions:
+        render-glint-behind-potion:
+        render-entire-slot:
+    3d-skins:
+        enabled:
+        render-distance-lod:
+        show-others:
+        enable-hat:
+        enable-jacket:
+        enable-left-sleeve:
+        enable-right-sleeve:
+        enable-left-pants:
+        enable-right-pants:
+        base-voxel-size:
+        body-voxel-width-size:
+        head-voxel-size:
+        first-person-voxel-size:
+        enable-skulls:
+        enable-skulls-items:
+        skull-voxel-size:
+    glint-colorizer:
+        enabled:
+        show-glint:
+        # Use a custom blending algorithm which supports darker colours
+        use-lunar-equation:
+        # Recolor the glints of items
+        override-item-glint:
+        item-glint-lunar-color:
+        item-glint-vanilla-color:
+        # Recolor the glints of worn armor
+        override-armor-glint:
+        armor-glint-lunar:
+        armor-glint-vanilla:
+        glint-color:
+    momentum:
+        enabled:
+        scale:
+        # If enabled then Y velocity is not used in the final speed.
+        use-ground-speed:
+        # If this is disabled then instant velocity is used
+        use-average-velocity:
+        # Determines how many times a second velocity is calculated. Lower values will show a smoother velocity
+        averaging-period:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    block-outline:
+        enabled:
+        block-outline:
+        block-outline-width:
+        # Primary block outline color
+        block-outline-color:
+        # Secondary block outline color
+        block-outline-color-end:
+        # If the transparency should also blend between both outline colors
+        block-outline-interpolate-alpha:
+        # If the exact block bounding box should be used, this comes at a slight performance cost
+        block-outline-accurate:
+        # If the outline colors should travel through the block
+        block-outline-traversal:
+        block-outline-traversal-speed:
+        block-overlay:
+        # Primary block overlay color
+        block-overlay-color:
+        # Secondary block overlay color
+        block-overlay-color-end:
+        # If the transparency should also blend between both overlay colors
+        block-overlay-interpolate-alpha:
+        # If the exact block bounding box should be used, this comes at a slight performance cost
+        block-overlay-accurate:
+        # If the overlay colors should travel through the block
+        block-overlay-traversal:
+        block-overlay-traversal-speed:
+        # If only a single side of the block should have outlines
+        block-outline-side:
+        # If using hide foliage, should outlines still show on foliage
+        block-outline-show-hidden-foliage:
+        # If blocks that connect together should share an outline
+        block-outline-multi-block:
+        # If outlines should be visible in spectator mode
+        show-in-spectator:
+    screenshot:
+        enabled:
+        copy-automatically:
+        upload-option:
+        tweet-option:
+        copy-option:
+        # A screenshot file saved with world details enabled has metadata that contains your player coordinates, the biome, and more.
+        world-details:
+    fov:
+        enabled:
+        # Turning this on will prevent your FOV from ever being changed by movement, flying, effects, bow, etc.
+        static-f-o-v:
+        default-fov:
+        # Smooth transition for the custom dynamic fov values. This does not affect the vanilla FOVs, only custom FOV values.
+        smooth-fov:
+        dynamic-bow:
+        aiming-modifier:
+        aiming-min:
+        aiming-max:
+        dynamic-effects:
+        speed-f-o-v:
+        speed-two-f-o-v:
+        slowness-f-o-v:
+        movement-modifier:
+        movement-min:
+        movement-max:
+        dynamic-sprint:
+        sprinting-f-o-v:
+        sprint-modifier:
+        sprint-min:
+        sprint-max:
+        dynamic-flying:
+        flying-fov:
+        flying-modifier:
+        flying-min:
+        flying-max:
+    fog:
+        enabled:
+        water-fog-density:
+        render-distance-fog-density:
+        atmospheric-fog-density:
+        dimension-fog-density:
+        render-distance-fog-color-toggle:
+        render-distance-fog-color:
+        atmospheric-fog-color-toggle:
+        atmospheric-fog-color:
+        dimension-fog-color-toggle:
+        dimension-fog-color:
+    auto-text-hotkey:
+        enabled:
+        # Displays a notification when an input is blocked by the server
+        notify-on-blocked-input:
+    auto-text-actions:
+        enabled:
+    mumble-link:
+        enabled:
+    totem-counter:
+        enabled:
+        show-for-self:
+        show-tab-list:
+        flip:
+        count-color:
+        show-nametag:
+        show-prefix:
+        separate-nametag:
+        render-first:
+        prefix-color:
+    2d-items:
+        enabled:
+    bossbar:
+        enabled:
+        scale:
+        render-bar:
+        render-boss-text:
+        custom-boss-bar:
+        bar-color:
+        use-minecraft-g-u-i-scale:
+    freelook:
+        enabled:
+        invert-pitch:
+        invert-yaw:
+        # Quickly pressing and releasing the key will toggle freelook
+        toggle-key-freelook:
+        # When zoomed in the camera movement will move smoothly (cinematic camera)
+        smooth-camera:
+    pvp-info:
+        enabled:
+        reset-on-world-change:
+    markers:
+        enabled:
+        ding-volume-self:
+        ding-volume-others:
+        # Hit the middle mouse button while hovering over your marker to delete it.
+        middle-click-remove:
+        chat-notify:
+        lunar-notify:
+        # Try to detect your current team, and see and broadcast markers from and to members of your team.
+        team-members:
+        # Classic team detection which uses Minecraft's scoreboard teams.
+        scoreboard-teams:
+        # On supported servers, use our Apollo plugin for team detection.
+        apollo-teams:
+        color-teams:
+        # See and broadcast markers from and to members of your Hypixel party.
+        hypixel-party:
+        # See and broadcast markers from and to people on your Lunar friends list.
+        lunar-friends:
+        scale:
+        visible-duration:
+        animate-marker:
+        compact-mode:
+        # Adds a shadow to text
+        text-shadow:
+        background:
+        background-color:
+        marker-color:
+        danger-marker-color:
+        info-marker-color:
+        interest-marker-color:
+    snaplook:
+        enabled:
+        # When zoomed in the camera movement will move smoothly (cinematic camera)
+        smooth-camera:
+        # This feature uses press and hold by default. Useful if you want to bypass a certain camera orientation.
+        snaplook-toggle-mode:
+    team-view:
+        enabled:
+        # On supported servers, use our Apollo plugin for team detection.
+        apollo-teams:
+        # If you are in a lobby, or in a game where your party members can be shown without giving you an unfair advantage (e.g. Skyblock), show them. Otherwise, if you're in a team game, show your teammate(s).
+        teamview-hypixel:
+        hypixel-team-color:
+        hypixel-party-color:
+    pack-display:
+        enabled:
+        scale:
+        pack-icon:
+        pack-description:
+        pack-extension:
+        move-title-down:
+        # Adds a shadow to text
+        text-shadow:
+        brackets:
+        bracket-color:
+        background:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+        description-replacement-color:
+        keep-bold:
+        keep-italic:
+        keep-underline:
+        keep-strikethrough:
+        keep-obfuscated:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+    menu-blur:
+        enabled:
+        blur-strength:
+        blur-lunar-toggle:
+        blur-lunar-background:
+        blur-inventory-toggle:
+        blur-inventory-background:
+        blur-pause-toggle:
+        blur-pause-background:
+    minimap:
+        enabled:
+        scale:
+        map-width:
+        map-height:
+        map-zoom:
+        rotate-with-player:
+        # With this enabled, the info text is scaled down to the width of the minimap
+        fit-text-to-width:
+        border:
+        border-color:
+        border-thickness:
+        compass:
+        compass-color:
+        compass-shadow:
+        player-marker-color:
+        player-marker-size:
+        entity-marker-opacity:
+        entity-marker-size:
+        entity-marker-shadow:
+        show-coordinates:
+        show-biome:
+        preset-biome-color:
+        show-clock:
+        show-am-pm:
+        military-time:
+        show-distant-waypoints:
+    hitbox:
+        enabled:
+        max-distance-toggle:
+        # Maximum distance away from the entity to show hitboxes at
+        max-distance:
+        hitbox-player-show:
+        hitbox-player-line-width:
+        hitbox-player-line-color:
+        hitbox-player-look-vector:
+        hitbox-item-show:
+        hitbox-item-line-width:
+        hitbox-item-line-color:
+        hitbox-item-look-vector:
+        hitbox-exp-orb-show:
+        hitbox-exp-orb-line-width:
+        hitbox-exp-orb-line-color:
+        hitbox-exp-orb-look-vector:
+        hitbox-item-frame-show:
+        hitbox-item-frame-line-width:
+        hitbox-item-frame-line-color:
+        hitbox-item-frame-look-vector:
+        hitbox-firework-show:
+        hitbox-firework-line-width:
+        hitbox-firework-line-color:
+        hitbox-firework-look-vector:
+        hitbox-wither-skull-show:
+        hitbox-wither-skull-line-width:
+        hitbox-wither-skull-line-color:
+        hitbox-wither-skull-look-vector:
+        hitbox-snowball-show:
+        hitbox-snowball-line-width:
+        hitbox-snowball-line-color:
+        hitbox-snowball-look-vector:
+        hitbox-fireball-show:
+        hitbox-fireball-line-width:
+        hitbox-fireball-line-color:
+        hitbox-fireball-look-vector:
+        hitbox-arrow-show:
+        hitbox-arrow-line-width:
+        hitbox-arrow-line-color:
+        hitbox-arrow-look-vector:
+        hitbox-projectile-show:
+        hitbox-projectile-line-width:
+        hitbox-projectile-line-color:
+        hitbox-projectile-look-vector:
+        hitbox-monster-show:
+        hitbox-monster-line-width:
+        hitbox-monster-line-color:
+        hitbox-monster-look-vector:
+        hitbox-passive-show:
+        hitbox-passive-line-width:
+        hitbox-passive-line-color:
+        hitbox-passive-look-vector:
+        hitbox-other-show:
+        hitbox-other-line-width:
+        hitbox-other-line-color:
+        hitbox-other-look-vector:
+        hitbox-mob-line-width:
+        hitbox-mob-line-color:
+        hitbox-mob-look-vector:
+        hitbox-mob-show:
+    lighting:
+        enabled:
+        full-bright:
+        brightness-boost:
+    weather-changer:
+        enabled:
+        rain-strength:
+        # Augment the rain/snow color
+        rain-color:
+        thunder-storm:
+        play-thunder-sound:
+        lightning-freq:
+        lightning-radius-x-z:
+        lightning-offset-y:
+    chunk-borders:
+        enabled:
+        grid:
+        grid-size:
+        grid-line-thickness:
+        grid-color:
+        inner-corners:
+        inner-corner-thickness:
+        inner-chunk-corner-color:
+        outer-corners:
+        outer-corner-thickness:
+        outer-chunk-corner-color:
+    sound-changer:
+        enabled:
+    waila:
+        enabled:
+        scale:
+        always-show:
+        show-entities:
+        show-cosmetics:
+        show-sprays:
+        show-companions:
+        # Adds a shadow to text
+        text-shadow:
+        background:
+        border:
+        border-thickness:
+        show-block-coords:
+        block-coords-color:
+        show-correct-tool:
+        correct-tool-color:
+        show-break-time:
+        break-time-color:
+        show-light-level:
+        light-level-color:
+        text-color:
+        background-color:
+        border-color:
+        vertical-spacing:
+        horizontal-spacing:
+    neu:
+        enabled:
+    hurt-cam:
+        enabled:
+        disable-hurt-cam:
+        hurt-shaking-intensity:
+        old-camera-tilt:
+    tier-tagger:
+        enabled:
+        mc-tiers-format:
+        suffix:
+        separate-nametag:
+        show-gm-icons:
+        show-region:
+        show-retired:
+        color-h-t1:
+        color-l-t1:
+        color-h-t2:
+        color-l-t2:
+        color-h-t3:
+        color-l-t3:
+        color-h-t4:
+        color-l-t4:
+        color-h-t5:
+        color-l-t5:
+    damage-tint:
+        enabled:
+        vignette-color:
+        # Intensity of the tint.
+        vignette-intensity:
+        # Show the tint when you have less than this amount of health as a percentage.
+        show-vignette-below:
+        # Plays a heartbeat, becoming faster the lower your health.
+        heartbeat-audio:
+        heartbeat-audio-volume:
+    mob-size:
+        enabled:
+        # Only change player sizes when playing Hypixel SkyBlock
+        player-size-skyblock-only:
+        # The size of your player
+        player-size:
+        # The size of other players
+        other-player-size:
+        # If the size of NPCs should be changed
+        change-npc-size:
+    skyblock:
+        enabled:
+        skyblock-alert-scale:
+        # Automatically copies rare drops and pet drops to the clipboard.
+        auto-copy-rare-drops:
+        # Replaces left clicks in menus with a middle click. Hold control to override.
+        sky-block-middle-click-items:
+        # Shows the creation date of the item in the lore.
+        sky-block-creation-date:
+        # Shows the item's SkyBlock ID in the lore.
+        sky-block-item-id:
+        # Adds tab completion to the /warp command.
+        skyblock-autocomplete-warps:
+        # Hides ex-coop members in the collection menu.
+        skyblock-hide-ex-coops:
+        skyblock-hide-magic-soup-messages:
+        # Hides other players near important NPCs.
+        skyblock-hide-players-near-n-p-cs:
+        skyblock-hide-others-gifts:
+        # Hides spambots that send malicious websites in chat.
+        skyblock-adblock:
+        # Fixes being unable to use the "Pick Block" keybind on items when it is bound to a mouse button.
+        middle-click-armor-fix:
+        skyblock-hide-hunger:
+        skyblock-hide-armor:
+        skyblock-hide-hearts:
+        skyblock-hide-absorb:
+        # Hides the hud previews in the edit hud layout menu if you're not currently on SkyBlock.
+        only-movers-on-skyblock:
+        skyblock-subject-color:
+        skyblock-separator-color:
+        skyblock-value-color:
+        # Provides QOL for the Diana mayor that helps the user quickly locate burrows.
+        griffin-burrow-estimates:
+        burrow-estimate-color:
+        burrow-estimate-line:
+        burrow-estimate-beam:
+        burrow-estimates-prioritize-player-waypoints:
+        burrow-warp-to-nearest-alert:
+        burrow-mob-color:
+        burrow-treasure-color:
+        burrow-start-color:
+        burrow-unknown-color:
+        burrow-beam:
+        highlight-glowing-mushrooms:
+        sky-block-wishing-compass:
+        sky-block-finished-commissions:
+        sky-block-metal-detector:
+        sky-block-metal-detector-line:
+        # Fixes your fishing bobber sinking in lava.
+        fix-lava-bobber:
+        # Changes the texture of lava to water in the Crimson Isles and Kuudra.
+        replace-lava-with-water-crimson:
+        # Changes the texture of lava to water everywhere in SkyBlock.
+        replace-lava-with-water-everywhere:
+        # Hides players and fishing rods near your bobber while you are fishing.
+        skyblock-fishing-hide-players:
+        # Shows which hotspot the Hotspot Radar item is pointing to.
+        skyblock-fishing-hotspot-locator:
+        # Provides a chat message on boss kill that tells you how long it took to kill!
+        slayer-boss-timer:
+        slayer-mini-boss-alert:
+        # Used in Stillgore of the Rift, this feature tells you where to go to refresh the duration of inactive Effigies.
+        inactive-effigy-waypoints:
+        # Highlights a boss when it can be 1 tapped using steak stake.
+        vampire-steak-display:
+        # Highlights blood ichors present during T5 Bloodfiends
+        vampire-ichor-display:
+        # Shows the positions where you can trap the gray blazes.
+        gravity-well-waypoints:
+        show-kuudra-health:
+        highlight-end-nodes:
+        # Makes Giant HP more visible by showing their HP at their feet.
+        show-giant-h-p-at-feet:
+        # Makes Professor's Guardians HP more visible.
+        show-professor-guardian-h-p:
+        skyblock-dungeon-quality:
+        skyblock-secrets-collected:
+        skyblock-hide-non-starred:
+        # Shows how long it takes to do each terminal stage in chat (and also Simon Says)!
+        skyblock-terminal-split-timers:
+        enable-dungeon-routes:
+        default-secret-routes-enabled:
+        secret-routes-names-at-start:
+        secret-routes-name-color:
+        secret-routes-disable-help-text:
+        secret-routes-allow-pearling:
+        secret-routes-disable-superboom:
+        secret-routes-disable-block:
+        secret-routes-disable-lever:
+        secret-routes-disable-etherwarp:
+        secret-routes-disable-secret:
+        secret-routes-disable-misc:
+        secret-routes-disable-pearls:
+        # Provides a general line thickness option that applies to most features with box/line rendering.
+        skyblock-line-thickness:
+        hide-midas-staff:
+        hide-falling-blocks:
+        skyblock-use-tick-timers:
+        # Routes menu clicks to /sbmenu command in order to prevent sticky item.
+        sb-menu-click-to-command:
+        custom-chime-volume-enabled:
+        custom-chime-volume:
+        skyblock-bow-reequip:
+        skyblock-hide-random-bossbars:
+        # Changes crop hitboxes with their 1.12+ variant. Only enabled on Hypixel or singleplayer.
+        taller-crops:
+        dungeon-secrets-collected:
+    item-customizer:
+        enabled:
+    horse-stats:
+        enabled:
+        text-color:
+        speed-color:
+        jump-color:
+        health-color:
+    overlay-mod:
+        enabled:
+        # When View Bobbing is enabled, only bob your hand (requires View Bobbing to be enabled).
+        minimal-view-bobbing:
+        fire-height:
+        shield-height:
+        pumpkin-overlay:
+        spyglass-overlay:
+        frost-overlay:
+        # Hides grass and double grass blocks
+        hide-foliage:
+        # Render shadows for entities
+        entity-shadow:
+        # Choose whether or not to hide arrows that are stuck in the ground
+        ground-arrows:
+        # Choose whether or not to hide arrows that are stuck in players
+        stuck-arrows:
+        hide-skulls:
+        clear-glass:
+        clear-glass-transparency:
+        clear-colored-glass:
+        clear-glass-outline:
+        clear-glass-outline-thickness:
+        clear-glass-outline-transparency:
+        ore-outlines:
+        # Use a heuristic to calculate the ore outline color from the actual ore texture, to make it match better. Turning this option off will use predefined vanilla ore outline colors.
+        smart-outline-colors:
+        # Apply some noise to the ore outlines to make them appear shiny
+        shiny-ore-outlines:
+        ore-outline-thickness:
+        diamond-ore-outline:
+        gold-ore-outline:
+        iron-ore-outline:
+        lapis-ore-outline:
+        redstone-ore-outline:
+        emerald-ore-outline:
+        coal-ore-outline:
+        nether-quartz-ore-outline:
+        barrier-outlines:
+        barrier-outline-thickness:
+        barrier-outline-color:
+        # Make strings/tripwires more visible by changing their color
+        colored-string:
+        # Fill in the transparent spots on the string texture
+        bold-string:
+        string-color:
+        override-xp-orb-color:
+        xp-orb-color:
+        custom-fishing-line:
+        fishing-line-thickness:
+        fishing-line-color:
+        # Improve visibility when riding a horse
+        headless-horses:
+        disable-death-animation:
+        disable-damage-overlay:
+        # Disable the rendering of the fire overlay when a mob or player is on fire.
+        disable-fire-overlay:
+        hide-helmet:
+        # Does not work on elytra.
+        hide-chest:
+        hide-leggings:
+        hide-boots:
+        # Disabling this allows you to hide armor slots for all entities.
+        self-only:
+        totem-scale:
+        held-item-scale:
+    rewind:
+        enabled:
+    audio-subtitles:
+        enabled:
+        scale:
+        # Adds a shadow to text
+        text-shadow:
+        background:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        text-color:
+    shields:
+        enabled:
+        enable-shield-colors:
+        shield-active-color:
+        shield-inactive-color:
+        animate-color-transition:
+        # Always play a sound whenever a player's shield goes inactive.
+        shield-inactive-sound:
+        # Always play a sound whenever a player's shield is damaged by any source.
+        shield-use-sound:
+        # Ignore the 5 tick deactivation period when a shield is hit with any item other than the axe.
+        ignore5-ticks:
+        # Fix the bug where shields don't show as blocking sometimes, even though the player is blocking.
+        better-blocking:
+    kill-sounds:
+        enabled:
+    inventory-mod:
+        enabled:
+        # Useful for navigating inventory menus on servers.
+        dont-reset-cursor:
+        reset-cursor-timeout:
+    f3-display:
+        enabled:
+        enter-animation-duration:
+        exit-animation-duration:
+        # Hides the hud previews in the edit hud layout menu if you don't have F3 toggled.
+        only-movers-in-f3:
+        # Adds a shadow to text
+        text-shadow:
+        background:
+        background-color:
+        label-color:
+        value-color:
+    radio:
+        enabled:
+        scale:
+        volume:
+        mute-radio:
+        show-cover-art:
+        show-progress:
+        song-scroll-animation:
+        show-when-nothing-playing:
+        bold-arist-name:
+        bold-song-name:
+        show-duration:
+        show-play-button:
+        background:
+        # If this is disabled the background will change size with the text.
+        static-background-width:
+        # If this is disabled the background will change size with the text.
+        static-background-height:
+        background-width:
+        background-height:
+        border:
+        border-thickness:
+        border-color:
+        background-color:
+        song-name-text-color:
+        artist-name-text-color:
+        radio-progress-bar-color:
+    uhc-overlay:
+        enabled:
+        gold-ingot-scale:
+        gold-nugget-scale:
+        gold-ore-scale:
+        gold-apple-scale:
+        skull-scale:

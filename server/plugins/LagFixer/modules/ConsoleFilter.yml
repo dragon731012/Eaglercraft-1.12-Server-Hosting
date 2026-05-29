@@ -1,0 +1,22 @@
+ConsoleFilter:
+  enabled: false
+  worlds: []
+  values:
+    logs_limit: 10 # Maximum logs saved in "/logs" directory. Use -1 to disable.
+    filter:
+      enabled: false
+      save_filtered: true
+      error_filtering: false
+      patterns:
+      - ^<(([A-Za-z0-9_]{3,16}))> (.{0,})
+      - ^/([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\:([0-9]{1,5}) lost
+        connection
+      - Reached end of stream for /([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})$
+      - '([A-Za-z0-9_]{3,16}) issued server command: /(.{0,})'
+      - Read timed out
+      - ^.*logged in with entity id ([0-9]{0,}) at.*$
+      - '([A-Za-z0-9_]{3,16}) lost connection: Disconnected'
+      - ^(§e)([A-Za-z0-9_]{3,16}) left the game.
+      - Connection reset
+      - 'CONSOLE: Forcing save\.\..*'
+      - 'CONSOLE: Save complete\..*'

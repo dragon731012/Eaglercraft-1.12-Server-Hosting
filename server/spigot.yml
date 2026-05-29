@@ -1,24 +1,26 @@
-# This is the main configuration file for Spigot.
+# This is the Spigot configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-# For a reference for any variable inside this file, check out the Spigot wiki at
-# http://www.spigotmc.org/wiki/spigot-configuration/
-# 
-# If you need help with the configuration or have any questions related to Spigot,
-# join us at the IRC or drop by our forums and leave a post.
-# 
-# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
-# Forums: http://www.spigotmc.org/
+#
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
+#
+# File Reference: https://docs.papermc.io/paper/reference/spigot-configuration/
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
 
-config-version: 11
+config-version: 12
 settings:
+  log-villager-deaths: true
+  log-named-deaths: true
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  bungeecord: false
+  bungeecord: true
   late-bind: false
   player-shuffle: 0
-  filter-creative-items: true
+  filter-creative-items: false
   user-cache-size: 1000
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
@@ -29,6 +31,8 @@ settings:
   restart-script: ./start.sh
   netty-threads: 4
   attribute:
+    maxAbsorption:
+      max: 2048.0
     maxHealth:
       max: 2048.0
     movementSpeed:
@@ -36,6 +40,7 @@ settings:
     attackDamage:
       max: 2048.0
 commands:
+  send-namespaced: true
   tab-complete: 0
   log: false
   spam-exclusions:
@@ -46,13 +51,14 @@ commands:
   - summon
   - testforblock
   - tellraw
+  enable-spam-exclusions: false
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: idk what is cmd is plz do /help to see all cmds...
   server-full: The server is full plz try LATER.!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting PLZ STANDBY...
+  restart: Reopening Gatway...
 advancements:
   disable-saving: false
   disabled:
@@ -62,15 +68,84 @@ stats:
   forced-stats: {}
 world-settings:
   default:
+    below-zero-generation-in-existing-chunks: true
+    hopper-can-load-chunks: false
+    seed-desert: 14357617
+    seed-igloo: 14357618
+    seed-jungle: 14357619
+    seed-swamp: 14357620
+    seed-shipwreck: 165745295
+    seed-ocean: 14357621
+    seed-outpost: 165745296
+    seed-endcity: 10387313
+    seed-nether: 30084232
+    seed-mansion: 10387319
+    seed-fossil: 14357921
+    seed-portal: 34222645
+    seed-ancientcity: 20083232
+    seed-trailruins: 83469867
+    seed-trialchambers: 94251327
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
+    seed-stronghold: default
+    trident-despawn-rate: 1200
+    end-portal-sound-radius: 0
+    unload-frozen-chunks: false
+    thunder-chance: 100000
+    view-distance: default
+    simulation-distance: default
     verbose: false
-    mob-spawn-range: 5
+    growth:
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      torchflower-modifier: 100
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
+      glowberry-modifier: 100
+      pitcherplant-modifier: 100
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
     entity-activation-range:
+      raiders: 64
+      villagers: 32
+      flying-monsters: 32
+      wake-up-inactive:
+        animals-max-per-tick: 4
+        animals-every: 1200
+        animals-for: 100
+        monsters-max-per-tick: 8
+        monsters-every: 400
+        monsters-for: 100
+        villagers-max-per-tick: 4
+        villagers-every: 600
+        villagers-for: 100
+        flying-monsters-max-per-tick: 8
+        flying-monsters-every: 200
+        flying-monsters-for: 100
+      villagers-work-immunity-after: 100
+      villagers-work-immunity-for: 20
+      villagers-active-for-panic: true
+      ignore-spectators: false
       animals: 32
       monsters: 48
       misc: 16
       water: 16
       tick-inactive-villagers: false
     entity-tracking-range:
+      display: 128
       players: 48
       animals: 48
       monsters: 48
@@ -101,26 +176,19 @@ world-settings:
       entity: 50
     squid-spawn-range:
       min: 45.0
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
-      vine-modifier: 100
-      cocoa-modifier: 100
+    mob-spawn-range: 5
     item-despawn-rate: 10000
     merge-radius:
       item: 1.5
       exp: 5
-    view-distance: 5
     arrow-despawn-rate: 1200
-    enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
+    enable-zombie-pigmen-portal-spawns: true
     hanging-tick-frequency: 100
-    nerf-spawner-mobs: false
     zombie-aggressive-towards-villager: true
+    nerf-spawner-mobs: false
     max-entity-collisions: -1
+  worldeditregentempworld:
+    verbose: false
+players:
+  disable-saving: false

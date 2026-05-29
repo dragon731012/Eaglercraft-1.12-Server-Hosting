@@ -1,10 +1,18 @@
+#########################################
+#   ____   _   _  _____  _      ____    #
+#  |  _ \ | | | || ____|| |    / ___|   #
+#  | | | || | | ||  _|  | |    \___ \   #
+#  | |_| || |_| || |___ | |___  ___) |  #
+#  |____/  \___/ |_____||_____||____/   #
+#                                       #
+#########################################
 # DO NOT EDIT THIS VALUE!
-config-version: 12
+config-version: 16
 
 # If set to 'true', a notification and a download link will be printed on both console and in-game when a new update is available.
 # default: true
 check-for-updates: true
-
+stay-up-to-date: true
 
 # NOTE: The following options will only activate if the message '[Duels] Hooked into <plugin name>!' is displayed on console.
 # If the plugin in the following list is enabled on your server but Duels fails to hook into them,
@@ -27,6 +35,14 @@ supported-plugins:
     # default: true
     prevent-tag-in-duel: true
   CombatLogX:
+    # If set to 'true', players will not be able to duel while combat tagged.
+    # default: true
+    prevent-duel-if-tagged: true
+
+    # If set to 'true', players will not be combat tagged while in duel.
+    # default: true
+    prevent-tag-in-duel: true
+  DeluxeCombat:
     # If set to 'true', players will not be able to duel while combat tagged.
     # default: true
     prevent-duel-if-tagged: true
@@ -61,7 +77,7 @@ supported-plugins:
       enabled: false
 
       # List of regions to allow dueling.
-      regions: [spawn, lobby]
+      regions: [ spawn, lobby ]
   MyPet:
     # If set to 'true', player's pet will despawn when entering a duel.
     # default: false
@@ -176,8 +192,9 @@ duel:
 
       # Available placeholders:
       # %player% - Name of the player entering the match
+      # {delay:x} - Used to give x ms of delay before running any command
       commands:
-      - 'broadcast %player% is entering a duel!'
+        - 'broadcast %player% is entering a duel!'
 
     end-commands:
       # If set to 'true', the commands listed below will run at the end of a match.
@@ -191,9 +208,13 @@ duel:
       # Available placeholders:
       # %winner% - Name of the winner of the match
       # %loser% - Name of the loser of the match
+      # {delay:x} - Used to give x ms of delay before running any command
       commands:
-      - 'give %winner% diamond 1'
-      - 'give %loser% dirt 1'
+        - 'give %winner% diamond 1'
+        - 'give %loser% dirt 1'
+        - 'give %winner% diamond 1{delay:10}'
+        - 'give %loser% dirt 1{delay:50}'
+        - 'say Congratulations %winner%!{delay:100}'
 
   projectile-hit-message:
     # If set to 'true', a message from lang.yml will be sent to the shooter of the projectile.
@@ -201,7 +222,7 @@ duel:
     enabled: true
 
     # Projectile types to display the message.
-    types: [ARROW, TIPPED_ARROW, SPECTRAL_ARROW, TRIDENT]
+    types: [ ARROW, TIPPED_ARROW, SPECTRAL_ARROW, TRIDENT ]
 
   # If set to 'true', players in duel will not be able to open any kind of inventories except their own.
   # default: true
@@ -235,6 +256,15 @@ duel:
   blacklisted-worlds:
     - 'world_name_here'
 
+  # If set to 'true', death messages will be sent to players in match & spectators of the arena.
+  # default: true
+  send-death-messages: true
+
+  # Duel cooldown in seconds after a player finishes a duel.
+  # Set to 0 to disable duel cooldown.
+  # default: 0
+  cooldown: 0
+
   # If set to 'true', players will be teleported to the location where they were before the duel instead of duel lobby.
   # default: false
   teleport-to-last-location: false
@@ -258,6 +288,7 @@ duel:
   # If set to 'true', players in duel will not be able to drop items.
   # default: false
   prevent-item-drop: false
+  clear-items-after-duel: true
 
   # If set to 'true', players in duel will not be able to pickup items on the ground.
   # default: false
@@ -297,79 +328,96 @@ duel:
   # List of commands to block while in a duel.
   # NOTE: Only active if 'block-all-commands' is disabled!
   blacklisted-commands:
-  - 'heal'
-  - 'eheal'
-  - 'essentials:heal'
-  - 'essentials:eheal'
-  - 'kit'
-  - 'ekit'
-  - 'kits'
-  - 'ekits'
-  - 'essentials:kit'
-  - 'essentials:ekit'
-  - 'essentials:kits'
-  - 'essentials:ekits'
-  - 'enderchest'
-  - 'echest'
-  - 'eechest'
-  - 'eenderchest'
-  - 'endersee'
-  - 'eendersee'
-  - 'ec'
-  - 'eec'
-  - 'essentials:enderchest'
-  - 'essentials:echest'
-  - 'essentials:eechest'
-  - 'essentials:eenderchest'
-  - 'essentials:endersee'
-  - 'essentials:eendersee'
-  - 'essentials:ec'
-  - 'essentials:eec'
-  - 'tpaccept'
-  - 'etpaccept'
-  - 'tpyes'
-  - 'etpyes'
-  - 'essentials:tpaccept'
-  - 'essentials:etpaccept'
-  - 'essentials:tpyes'
-  - 'essentials:etpyes'
-  - 'tpahere'
-  - 'etpahere'
-  - 'essentials:tpahere'
-  - 'essentials:etpahere'
-  - 'back'
-  - 'eback'
-  - 'return'
-  - 'ereturn'
-  - 'essentials:back'
-  - 'essentials:eback'
-  - 'essentials:return'
-  - 'essentials:ereturn'
-  - 'sethome'
-  - 'esethome'
-  - 'createhome'
-  - 'ecreatehome'
-  - 'essentials:sethome'
-  - 'essentials:esethome'
-  - 'essentials:createhome'
-  - 'essentials:ecreatehome'
-  - 'spawn'
-  - 'espawn'
-  - 'essentials:spawn'
-  - 'essentials:espawn'
-  - 'vault'
-  - 'chest'
-  - 'pv'
-  - 'playervaults'
-  - 'playervaults:vault'
-  - 'playervaults:chest'
-  - 'playervaults:pv'
-  - 'playervaults:playervaults'
+    - 'heal'
+    - 'eheal'
+    - 'essentials:heal'
+    - 'essentials:eheal'
+    - 'kit'
+    - 'ekit'
+    - 'kits'
+    - 'ekits'
+    - 'essentials:kit'
+    - 'essentials:ekit'
+    - 'essentials:kits'
+    - 'essentials:ekits'
+    - 'enderchest'
+    - 'echest'
+    - 'eechest'
+    - 'eenderchest'
+    - 'endersee'
+    - 'eendersee'
+    - 'ec'
+    - 'eec'
+    - 'essentials:enderchest'
+    - 'essentials:echest'
+    - 'essentials:eechest'
+    - 'essentials:eenderchest'
+    - 'essentials:endersee'
+    - 'essentials:eendersee'
+    - 'essentials:ec'
+    - 'essentials:eec'
+    - 'tpaccept'
+    - 'etpaccept'
+    - 'tpyes'
+    - 'etpyes'
+    - 'essentials:tpaccept'
+    - 'essentials:etpaccept'
+    - 'essentials:tpyes'
+    - 'essentials:etpyes'
+    - 'tpahere'
+    - 'etpahere'
+    - 'essentials:tpahere'
+    - 'essentials:etpahere'
+    - 'back'
+    - 'eback'
+    - 'return'
+    - 'ereturn'
+    - 'essentials:back'
+    - 'essentials:eback'
+    - 'essentials:return'
+    - 'essentials:ereturn'
+    - 'sethome'
+    - 'esethome'
+    - 'createhome'
+    - 'ecreatehome'
+    - 'essentials:sethome'
+    - 'essentials:esethome'
+    - 'essentials:createhome'
+    - 'essentials:ecreatehome'
+    - 'spawn'
+    - 'espawn'
+    - 'essentials:spawn'
+    - 'essentials:espawn'
+    - 'vault'
+    - 'chest'
+    - 'pv'
+    - 'playervaults'
+    - 'playervaults:vault'
+    - 'playervaults:chest'
+    - 'playervaults:pv'
+    - 'playervaults:playervaults'
+
+party:
+  # Party invite expiration, in seconds.
+  # default: 30
+  invite-expiration: 30
+
+  # If the party owner is offline for the time (in minutes) specified below, the party will be automatically disbanded. Set to -1 to disable.
+  # default: 10
+  auto-disband-after: 10
+
+  # The max size a party can have.
+  # default: 10
+  max-size: 10
+
+  # If set to 'true', only parties that are equally sized may duel each other.
+  # default: true
+  same-size-only: true
 
 
 queue:
   # List of commands to block while in a queue.
-  blacklisted-commands: []
+  blacklisted-commands: [ ]
 
 
 rating:
@@ -381,6 +429,10 @@ rating:
   # Source: https://metinmediamath.wordpress.com/2013/11/27/how-to-calculate-the-elo-rating-including-example/
   # default: 32
   k-factor: 32
+
+  # Max possible rating difference when matching players in queue
+  # default: 400
+  max-difference: 400
 
   # The default rating for all kits.
   # default: 1400
@@ -426,28 +478,6 @@ countdown:
   # default: true
   enabled: true
 
-  # Available placeholders:
-  # %opponent% - Name of the opponent of the match
-  # %opponent_rating% - Rating of the opponent
-  # %kit% - Name of the kit used in this match. If players are using their own inventory, it will display 'none'
-  # %arena% - Name of the arena used for this match.
-  messages:
-    - '&7Starting in &f5 &7seconds!'
-    - '&7Starting in &f4 &7seconds!'
-    - '&7Starting in &f3 &7seconds!'
-    - '&7Starting in &f2 &7seconds!'
-    - '&7Starting in &f1 &7second!'
-    - '&7Now in a match against &f%opponent%&7(&a%opponent_rating%&7) with kit &3%kit% &7in arena &e%arena%&7.'
-
-  # Titles to display along with the countdown. Must have the same size as the countdown list size.
-  titles:
-    - '&f&l5'
-    - '&f&l4'
-    - '&e&l3'
-    - '&6&l2'
-    - '&c&l1'
-    - '&a&lGO!'
-
   prevent:
     # If set to 'true', movements will be cancelled while the countdown is ongoing.
     # default: true
@@ -464,6 +494,51 @@ countdown:
     # If set to 'true', block interaction will be cancelled while the countdown is ongoing.
     # default: true
     interact: true
+
+  duel:
+    # Available placeholders:
+    # %opponent% - Name of the opponent of the match
+    # %opponent_rating% - Rating of the opponent
+    # %kit% - Name of the kit used in this match. If players are using their own inventory, it will display 'none'
+    # %arena% - Name of the arena used for this match.
+    messages:
+      - '&7Starting in &f5 &7seconds!'
+      - '&7Starting in &f4 &7seconds!'
+      - '&7Starting in &f3 &7seconds!'
+      - '&7Starting in &f2 &7seconds!'
+      - '&7Starting in &f1 &7second!'
+      - '&7Now in a match against &f%opponent%&7(&a%opponent_rating%&7) with kit &3%kit% &7in arena &e%arena%&7.'
+
+    # Titles to display along with the countdown. Must have the same size as the countdown list size.
+    titles:
+      - '&f&l5'
+      - '&f&l4'
+      - '&e&l3'
+      - '&6&l2'
+      - '&c&l1'
+      - '&a&lGO!'
+
+  party-duel:
+    # Available placeholders:
+    # %opponents% - Player names of the opposing party of the match
+    # %kit% - Name of the kit used in this match. If players are using their own inventory, it will display 'none'
+    # %arena% - Name of the arena used for this match.
+    messages:
+      - '&7Starting in &f5 &7seconds!'
+      - '&7Starting in &f4 &7seconds!'
+      - '&7Starting in &f3 &7seconds!'
+      - '&7Starting in &f2 &7seconds!'
+      - '&7Starting in &f1 &7second!'
+      - '&7Now in a match against &f%opponents% &7with kit &3%kit% &7in arena &e%arena%&7.'
+
+    # Titles to display along with the countdown. Must have the same size as the countdown list size.
+    titles:
+      - '&f&l5'
+      - '&f&l4'
+      - '&e&l3'
+      - '&6&l2'
+      - '&c&l1'
+      - '&a&lGO!'
 
 stats:
   # If set to 'true', kit ratings of a player will be displayed when the command '/duel stats' is executed.
@@ -505,6 +580,60 @@ top:
 
 
 guis:
+  # Main gui opens up when player uses "/duel <playername>"
+  settings:
+    # Item used to fill empty spaces in the settings GUI.
+    space-filler-item:
+      type: WHITE_STAINED_GLASS_PANE
+      data: 0
+
+    # Send Request button configuration
+    send-button:
+      item:
+        type: LIME_STAINED_GLASS_PANE
+        data: 0
+      # Slots where the send button appears (left side of GUI)
+      slots: [0, 1, 2, 9, 10, 11, 18, 19, 20]
+      glowing-slots: [10]
+
+    # Cancel button configuration
+    cancel-button:
+      item:
+        type: RED_STAINED_GLASS_PANE
+        data: 0
+      # Slots where the cancel button appears (right side of GUI)
+      slots: [6, 7, 8, 15, 16, 17, 24, 25, 26]
+      glowing-slots: [16]
+
+    # Kit Selector button item
+    kit-selector-button:
+      item:
+        type: DIAMOND_SWORD
+        data: 0
+
+    # Arena Selector button item
+    arena-selector-button:
+      item:
+        type: GRASS_BLOCK
+        data: 0
+
+    # Own Inventory button item
+    own-inventory-button:
+      item:
+        type: CHEST
+        data: 0
+
+    # Item Betting button item
+    item-betting-button:
+      item:
+        type: GOLD_INGOT
+        data: 0
+
+    # Request Details button item
+    details-button:
+      item:
+        type: OAK_SIGN
+        data: 0
   kit-selector:
     # Amount of rows to display in one page of the kit selector GUI.
     # NOTE: Must be between 1 - 5!
@@ -513,7 +642,7 @@ guis:
 
     # Item used to fill empty spaces in the kit selector GUI.
     space-filler-item:
-      type: STAINED_GLASS_PANE
+      type: WHITE_STAINED_GLASS_PANE
       data: 0
   arena-selector:
     # Amount of rows to display in one page of the arena selector GUI.
@@ -523,12 +652,7 @@ guis:
 
     # Item used to fill empty spaces in the arena selector GUI.
     space-filler-item:
-      type: STAINED_GLASS_PANE
-      data: 0
-  settings:
-    # Item used to fill empty spaces in the settings GUI.
-    space-filler-item:
-      type: STAINED_GLASS_PANE
+      type: WHITE_STAINED_GLASS_PANE
       data: 0
   queues:
     # Amount of rows to display in one page of the queues GUI.
@@ -538,7 +662,7 @@ guis:
 
     # Item used to fill empty spaces in the queues GUI.
     space-filler-item:
-      type: STAINED_GLASS_PANE
+      type: WHITE_STAINED_GLASS_PANE
       data: 0
 
     # If set to 'true', the type of the queue's displayed item will be its kit's displayed item type.
@@ -572,33 +696,64 @@ sounds:
     pitch: 0.95
     volume: 1.0
     trigger-messages:
-    - '&7Starting in &f5 &7seconds!'
-    - '&7Starting in &f4 &7seconds!'
-    - '&7Starting in &f3 &7seconds!'
-    - '&7Starting in &f2 &7seconds!'
-    - '&7Starting in &f1 &7second!'
+      - '&7Starting in &f5 &7seconds!'
+      - '&7Starting in &f4 &7seconds!'
+      - '&7Starting in &f3 &7seconds!'
+      - '&7Starting in &f2 &7seconds!'
+      - '&7Starting in &f1 &7second!'
   # Remove this sound if your server version is 1.8!
   countdown-ongoing-sound-1-9:
     type: BLOCK_NOTE_PLING
     pitch: 0.95
     volume: 1.0
     trigger-messages:
-    - '&7Starting in &f5 &7seconds!'
-    - '&7Starting in &f4 &7seconds!'
-    - '&7Starting in &f3 &7seconds!'
-    - '&7Starting in &f2 &7seconds!'
-    - '&7Starting in &f1 &7second!'
+      - '&7Starting in &f5 &7seconds!'
+      - '&7Starting in &f4 &7seconds!'
+      - '&7Starting in &f3 &7seconds!'
+      - '&7Starting in &f2 &7seconds!'
+      - '&7Starting in &f1 &7second!'
   # Remove this sound if your server version is above 1.8!
   countdown-end-sound-1-8:
     type: NOTE_PIANO
     pitch: 1.9
     volume: 1.0
     trigger-messages:
-    - '&7Now in a match against &f%opponent%&7(&a%opponent_rating%&7) with kit &3%kit% &7in arena &e%arena%&7.'
+      - '&7Now in a match against &f%opponent%&7(&a%opponent_rating%&7) with kit &3%kit% &7in arena &e%arena%&7.'
   # Remove this sound if your server version is 1.8!
   countdown-end-sound-1-9:
     type: BLOCK_NOTE_PLING
     pitch: 1.9
     volume: 1.0
     trigger-messages:
-    - '&7Now in a match against &f%opponent%&7(&a%opponent_rating%&7) with kit &3%kit% &7in arena &e%arena%&7.'
+      - '&7Now in a match against &f%opponent%&7(&a%opponent_rating%&7) with kit &3%kit% &7in arena &e%arena%&7.'
+
+
+# Firework configuration settings
+firework:
+  # Available color options:
+  # AQUA, BLACK, BLUE, FUCHSIA, GRAY, GREEN, LIME, MAROON, NAVY, OLIVE, ORANGE, PURPLE, RED, SILVER, TEAL, WHITE, YELLOW
+  color: AQUA
+
+  # Available type options:
+  # BALL, BALL_LARGE, BURST, CREEPER, STAR
+  type: BALL_LARGE
+
+disable-enderpearl-in-endgame: true
+disable-movement-in-endgame: false
+
+# PLACEHOLDERS CONFIG
+# Displayed when player's userdata is not loaded to the memory.
+user-not-found: 'User not found'
+# Displayed when player is not in a duel.
+not-in-match: 'none'
+# Match duration format.
+duration-format: 'mm:ss'
+# Displayed if players are using their own inventory in the duel.
+no-kit: 'none'
+# Displayed when player's opponent in duel is killed.
+no-opponent: 'No opponent'
+
+# If set to 'true', MiniMessage formatting will be used instead of legacy color codes.
+# MiniMessage supports modern formatting like <red>text</red>, <bold>text</bold>, gradients, etc.
+# default: false
+use-minimessages: false

@@ -1,0 +1,15 @@
+blocks:
+  WHEAT: { reward: 2.0, xp: 4 }
+  CARROTS: { reward: 1.5, xp: 3 }
+  POTATOES: { reward: 1.5, xp: 3 }
+  BEETROOTS: { reward: 2.0, xp: 4 }
+  SUGAR_CANE: { reward: 1.0, xp: 2 }
+  BAMBOO: { reward: 0.5, xp: 1 }
+  PUMPKIN: { reward: 3.0, xp: 6 }
+  MELON: { reward: 0.5, xp: 1 }
+  CACTUS: { reward: 2.0, xp: 4 }
+  COCOA: { reward: 2.5, xp: 5 }
+  NETHER_WART: { reward: 4.0, xp: 8 }
+  SWEET_BERRY_BUSH: { reward: 1.0, xp: 2 }
+  CHORUS_FLOWER: { reward: 10.0, xp: 20 }
+  CHORUS_PLANT: { reward: 5.0, xp: 10 }

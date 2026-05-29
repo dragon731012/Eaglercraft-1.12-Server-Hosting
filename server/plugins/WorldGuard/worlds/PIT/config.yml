@@ -9,4 +9,5 @@
 # Remove the {} and add your own entries.
 #
 
-{}
+regions:
+    titles-always-use-default-times: true

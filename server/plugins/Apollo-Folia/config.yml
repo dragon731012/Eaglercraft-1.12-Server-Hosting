@@ -1,0 +1,193 @@
+# General and module specific settings. https://lunarclient.dev/apollo/server-owners/config
+
+mcstats:
+    # Set to 'true' to send your server cpu and ram usage to MCStats, otherwise 'false'.
+    performance: true
+    # Set to 'true' to send players user metadata to MCStats, otherwise 'false'.
+    user-metadata: true
+    # Set to 'true' to send your minecraft server statistics to MCStats, otherwise 'false'.
+    server-statistics: true
+    # Set to 'true' to send your server software information to MCStats, otherwise 'false'.
+    software-information: true
+    # Set to 'true' to send statistics to MCStats, otherwise 'false'.
+    send-stats: true
+    # Your server's installation id used for stats.
+    installation-id: 1d16ff40-d157-47ae-beb9-a3523da27aa7
+    # Set to 'true' to send your server player count to MCStats, otherwise 'false'.
+    counts: true
+    # Set to 'true' to send your server hardware information to MCStats, otherwise 'false'.
+    hardware-information: true
+# Set to 'true' to send opped players available update message, otherwise 'false'.
+send-updater-message: true
+modules:
+    auto_text_hotkey:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+        # Set to 'true' to block certain text inputs, otherwise 'false'.
+        block-text-inputs: false
+        # A list of text inputs that are blocked and cannot be used by the user.
+        blocked-text-inputs:
+        - /sellall
+        - /msg
+        - /pay
+        # Set to 'true' to block chat message text inputs, otherwise 'false'.
+        block-chat-message-text-inputs: false
+    beam:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    border:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    chat:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    cosmetic:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    colored_fire:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    combat:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+        # Set to 'true' to remove the miss penalty on all versions 1.8 and above, otherwise 'false'.
+        disable-miss-penalty: false
+    cooldown:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    entity:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    glow:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    hologram:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    limb:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    nametag:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    nick_hider:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    notification:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    packet_enrichment:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: false
+        player-attack:
+            # Set to 'true' to have the client send an additional player attack packet to the server, otherwise 'false'.
+            send-packet: false
+            # If 'true', Apollo fires the player attack event on the main thread. Disable this and handle the packet yourself if you require asynchronous or off-thread processing.
+            fire-apollo-event: false
+        player-chat-open:
+            # Set to 'true' to have the client send an additional player chat open packet to the server, otherwise 'false'.
+            send-packet: false
+            # If 'true', Apollo fires the player chat open event on the main thread. Disable this and handle the packet yourself if you require asynchronous or off-thread processing.
+            fire-apollo-event: false
+        player-chat-close:
+            # Set to 'true' to have the client send an additional player chat close packet to the server, otherwise 'false'.
+            send-packet: false
+            # If 'true', Apollo fires the player chat close event on the main thread. Disable this and handle the packet yourself if you require asynchronous or off-thread processing.
+            fire-apollo-event: false
+        player-use-item:
+            # Set to 'true' to have the client send an additional player use item packet to the server, otherwise 'false'.
+            send-packet: false
+            # If 'true', Apollo fires the player use item event on the main thread. Disable this and handle the packet yourself if you require asynchronous or off-thread processing.
+            fire-apollo-event: false
+        player-use-item-bucket:
+            # Set to 'true' to have the client send an additional player use item bucket packet to the server, otherwise 'false'.
+            send-packet: false
+            # If 'true', Apollo fires the player use item bucket event on the main thread. Disable this and handle the packet yourself if you require asynchronous or off-thread processing.
+            fire-apollo-event: false
+    pay_now:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    rich_presence:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    server_link:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    server_rule:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+        # Set to 'true' to enable leaving game warning, otherwise 'false'.
+        competitive-game: false
+        # A list of commands that will trigger the competitive popup.
+        competitive-commands:
+        - /server
+        - /servers
+        - /hub
+        # Set to 'true' to disable shaders, otherwise 'false'.
+        disable-shaders: false
+        # Set to 'true' to disable chunk reloading, otherwise 'false'.
+        disable-chunk-reloading: false
+        # Set to 'true' to disable broadcasting, otherwise 'false'.
+        disable-broadcasting: false
+        # Set to 'true' to enable anti portal traps, otherwise 'false'.
+        anti-portal-traps: true
+        # Set to 'true' to override brightness, otherwise 'false'.
+        override-brightness: false
+        # Set the brightness amount.
+        brightness: 50
+        # Set to 'true' to override nametag render distance, otherwise 'false'.
+        override-nametag-render-distance: false
+        # Set the nametag render distance amount.
+        nametag-render-distance: 64
+        # Set to 'true' to override max chat length, otherwise 'false'.
+        override-max-chat-length: false
+        # Set the nametag render distance amount.
+        max-chat-length: 256
+        # Set to 'true' to enable the crystal optimizer, otherwise 'false'.
+        crystal-optimizer: false
+    staff_mod:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    stopwatch:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    team:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    tebex:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    title:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+        # Set to 'true' to clear the shown title when changing servers, otherwise 'false'.
+        clear-title-on-server-switch: false
+    tnt_countdown:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+        # Set the amount of ticks before the TNT explodes.
+        tnt-ticks: 80
+        # Whether to override custom TNT explosion ticks.
+        override-custom-ticks: false
+    transfer:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    vignette:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+    waypoint:
+        # Set to 'true' to enable this module, otherwise set 'false'.
+        enable: true
+        # Sets the default waypoints to send to the player.
+        default-waypoints:
+        -   name: Spawn
+            location:
+                world: world
+                x: 0
+                y: 100
+                z: 0
+            color: '#FF0000'
+            prevent-removal: false
+            hidden: false
+        # Set to 'true' to let servers handle waypoints, otherwise 'false'.
+        server-handles-waypoints: false

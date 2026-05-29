@@ -1,0 +1,16 @@
+{
+    "worldedit.expand.description.vert": "Vertikale vastigi la elektaĵon al mondaj limoj.",
+    "worldedit.expand.expanded": "Regiono vastigitas je {0} blokoj",
+    "worldedit.expand.expanded.vert": "Regiono vastigitas je {0} blokoj (de supro al malsupro).",
+    "worldedit.biomeinfo.lineofsight": "Biomoj en linio de vido: {0}",
+    "worldedit.biomeinfo.position": "Biomoj ĉe via pozicio: {0}",
+    "worldedit.biomeinfo.selection": "Biomoj en via elektaĵo: {0}",
+    "worldedit.brush.radius-too-large": "Plejgranda ebla penika radiuso: {0}",
+    "worldedit.brush.apply.description": "Apliki penikon, apliki funkcion al ĉiu bloko",
+    "worldedit.brush.apply.radius": "La grandeco de la peniko",
+    "worldedit.brush.apply.shape": "La formo de la regiono",
+    "worldedit.brush.apply.type": "Tipo de peniko por uzi",
+    "worldedit.brush.paint.size": "La grandeco de la peniko",
+    "worldedit.brush.paint.shape": "La formo de la regiono",
+    "worldedit.brush.paint.type": "Tipo de peniko por uzi"
+}

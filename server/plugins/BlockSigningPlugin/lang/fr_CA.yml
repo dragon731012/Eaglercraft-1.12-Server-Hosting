@@ -1,0 +1,38 @@
+msg:
+  duplicate_removed: 'Objet dupliqué supprimé : {hash}'
+  cross_duplicate_removed: 'Dupliqué inter-inventaires supprimé : {hash}'
+broadcast:
+  cross_duplicate_removed: '&c[Anti-Dupe] {player} a été pris en train de dupliquer! (Joueur : {player},
+    Hash : {hash}, Heure : {time})'
+  duplicate_removed: '&c[Anti-Dupe] {player} a été pris en train de dupliquer! (Joueur : {player},
+    Hash : {hash}, Heure : {time})'
+cmd:
+  recovery:
+    usage: 'Utilisation : /antidupe recovery give <player>'
+    given: Le dernier objet récupéré a été donné à {player}.
+    none: Aucune entrée de récupération trouvée pour ce joueur.
+  customitem:
+    added: 'Nom d''objet personnalisé protégé ajouté : {name}'
+    list: 'Noms d''objets personnalisés protégés : {names}'
+    removed: 'Nom d''objet personnalisé protégé supprimé : {name}'
+prefix: '&c[Anti-Dupe]&r '
+title:
+  no_duping: '&4 PAS DE DUPLICATION! '
+discord:
+  offence_detected:
+    title: Infraction Anti-Dupe détectée
+    description: '{player} a déclenché la détection Anti-Dupe.'
+  removed_duplicates:
+    title: Anti-Dupe a supprimé des objets dupliqués
+    description: Les doublons ont été supprimés et sauvegardés.
+  ban:
+    title: Bannissement Anti-Dupe
+    description: '{player} a été banni par Anti-Dupe.'
+  field:
+    player: Joueur
+    uuid: UUID
+    world: Monde
+    location: Emplacement
+    action: Action
+    reason: Raison
+    items: Objets

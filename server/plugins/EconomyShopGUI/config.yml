@@ -83,7 +83,7 @@ update-checking: true
 #----------------------------------------------DebugMode------------------------------------------------
 
 # Set this value to false to disable debug mode and do not send debug messages to the console.
-debug: true
+debug: false
 
 # When this option is true, nms will be used for item loading and opening shops
 use-nms: true

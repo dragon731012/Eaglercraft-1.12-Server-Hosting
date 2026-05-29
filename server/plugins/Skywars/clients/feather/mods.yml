@@ -1,0 +1,45 @@
+# MythicSkywars — Feather mod policy
+# Docs: https://docs.feathermc.com/
+#
+# Slugs must match Feather mod identifiers (examples below are valid slugs).
+# Policy order when applied:
+#   1) unblock
+#   2) block
+#   3) disable
+#   4) enable
+# This allows explicit overrides in one file.
+
+enabled: false
+
+# If true, we first fetch all currently blocked mods for the player and unblock them,
+# then re-apply policy from this file (similar to your old plugin reset behavior).
+reset-blocked-mods-before-apply: true
+
+whitelist-mode:
+  # If true, policy is treated as "allow only these mods"; all other known common Feather mods are blocked.
+  enabled: false
+  # Keep this list small; this is the explicit allow-list when whitelist mode is enabled.
+  allowed:
+    - teamtracker
+    - coordinates
+    - ping
+
+policy:
+  # Blocked mods cannot be re-enabled by the player until unblocked.
+  block:
+    - motionBlur
+
+  # Useful if you previously blocked something and want to force allow now.
+  unblock: []
+
+  # Disables mods (player may re-enable unless also blocked).
+  disable:
+    - voice
+
+  # Force-enable utility mods you want available.
+  enable:
+    - teamtracker
+
+# Example common slugs (case-sensitive):
+#   perspective, zoom, motionBlur, teamtracker, coordinates, ping, scoreboard,
+#   cps, tps, waypoints, voice, keystrokes, itemCounter, potionEffects

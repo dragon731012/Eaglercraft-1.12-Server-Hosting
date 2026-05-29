@@ -1,0 +1,75 @@
+#
+# Spawner Configuration Options
+#
+# More information about Mythic spawning features can be found here:
+#
+# Random Spawning -> https://git.lumine.io/mythiccraft/MythicMobs/-/wikis/Random-Spawns
+# Spawners -> https://git.lumine.io/mythiccraft/MythicMobs/-/wikis/Spawners
+#
+Configuration:
+  
+  # ================================================================================
+  # Spawners
+  # ================================================================================
+
+  Spawners:
+    
+    # Enable this if you want to create & edit spawner files manually instead of using commands
+    DisableCommandSaving: false
+  
+  # ================================================================================
+  # Random Spawning
+  # ================================================================================
+  RandomSpawning:
+    
+    # Generator used for ADD method. Can be NONE, CLUSTER, or LEGACY
+    Generator: NONE
+    
+    # Area around players where mobs will try to spawn
+    SpawnRadiusPerPlayer: 64
+    SpawnRadiusPerPlayerMin: 16
+    SpawnRadiusPerPlayerY: 32
+    
+    # Distance at which players will be considered a group
+    PlayerClusterDistance: 24
+    
+    # Allows Mythic mobs to spawn this far over the vanilla cap
+    LimitMultiplier: 1.2
+    
+    # if true, vanilla mobs will not count towards the limit
+    IgnoreVanillaMobs: false
+    
+    # if true, only mythic mobs spawned via generation will count towards the limit
+    IgnoreUnnaturalMobs: false
+    
+    # Server mob cap. Set to -1 to follow the server limit, or 0 for no limit
+    SpawningLimit: -1
+    
+    # Default local mob cap for spawners. Set to -1 to follow the server limit.
+    LocalSpawningLimit: -1
+    
+    # Local mob cap will be multiplied by this much per additional player
+    LocalGroupMultiplier: 1.33
+    
+    # Whether Action: REPLACE spawners obey the spigot mob cap
+    ReplaceObeysCap: false
+    
+    # When true, a spawner's Cooldown is shared across all players/groups, so the
+    # first successful spawn locks out all other players until the cooldown elapses.
+    # When false, each player tracks the spawner's cooldown independently.
+    SharedCooldown: true
+    
+    # Maximum milliseconds per tick spent on spawning
+    MaxGenerationTime: 20
+    
+    # Maximum number of times per group per tick a spawn point will be searched for
+    MaxGenerationAttempts: 10
+    GenerateSpawnPoints: false
+    PointsPerSecond:
+      Land: 5
+      Air: 0
+      Sea: 2
+      Lava: 0
+      Ground: 0
+    DespawnLazyRandomMobs: true
+    DisableVanillaSpawns: false

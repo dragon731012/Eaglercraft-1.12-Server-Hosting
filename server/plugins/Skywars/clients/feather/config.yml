@@ -1,0 +1,37 @@
+# MythicSkywars — Feather Client integration
+# -----------------------------------------------------------------------------
+# Docs: https://docs.feathermc.com/
+#
+# This bridge currently tracks Feather users by subscribing to PlayerHelloEvent
+# from the Feather Server API (when installed). The integration is optional and
+# safe to keep enabled even on servers where Feather API is absent.
+# -----------------------------------------------------------------------------
+
+enabled: true
+
+player-tracking:
+  # Track players detected from Feather PlayerHelloEvent.
+  enabled: true
+  # If true, logs each hello with platform + mod count.
+  log-hello-events: false
+
+combat:
+  # Controls FeatherPlayer#bypassMissPenalty(...)
+  bypass-miss-penalty: false
+  # If true, bypass is granted by permission instead of global toggle:
+  #   sw.feather.combat.bypassmisspenalty
+  permission-based-bypass: false
+
+discord-rich-presence:
+  enabled: true
+  # Any public image URL supported by Discord embeds.
+  image-url: ""
+  image-text: "MythicSkywars"
+  lobby:
+    state: "In Lobby"
+    details: "Waiting for a match"
+  in-game:
+    state: "Playing {map}"
+    details: "{alive}/{max_players} players alive"
+    include-party-size: true
+    include-match-start-timestamp: true

@@ -1,0 +1,21 @@
+# Example Lunar Client mod overrides → copy into plugins/Apollo/mods.yml
+# https://lunarclient.dev/apollo/server-owners/config
+#
+# Complements MythicSkywars-driven Apollo modules (team, cooldown, notifications,
+# waypoints, glow, titles, rich presence). Tune per-mod keys from:
+# https://lunarclient.dev/apollo/developers/mods (each mod’s page lists YAML keys).
+#
+# mod_setting:
+#   enable: true
+#   cooldowns:
+#     enabled: true
+#   waypoints:
+#     enabled: true
+#   nametag:
+#     enabled: true
+#   scoreboard:
+#     enabled: true
+#   tab:
+#     enabled: true
+#   bossbar:
+#     enabled: true

@@ -21,7 +21,7 @@ header-footer:
         - "&2Ping: %ping%"
         - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
         - ""
-        - "&r&7Visit our webpage %animation:web%"
+        - "&r& Our Gateway vstd.xo.je %animation:web%"
         - "<#FFFFFF>&m                                                </#FFFF00>"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
@@ -34,6 +34,7 @@ scoreboard-teams:
   enabled: true
   enable-collision: true
   invisible-nametags: false
+  self-view: true
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
     - "GROUPS:owner,admin,mod,helper,builder,vip,default"
@@ -53,7 +54,7 @@ playerlist-objective:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
 belowname-objective:
-  enabled: false
+  enabled: true
   value: "%health%"
   fancy-value: "&c%health%"
   fancy-value-default: "NPC"
@@ -241,7 +242,7 @@ mysql:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Multi-server-support
 proxy-support:
-  enabled: true
+  enabled: false
   channel-name-suffix: "TAB"
   # Supported types: PLUGIN, REDIS, RABBITMQ
   type: PLUGIN

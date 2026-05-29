@@ -1,0 +1,27 @@
+RedstoneLimiter:
+  enabled: true
+  worlds: # Use '*' to enable for all worlds.
+    - '*'
+  values:
+    alerts: true
+    
+    # Maximum ticks per chunk per second.
+    ticks_limit:
+      redstone: 1100
+      # Total pushed blocks.
+      piston: 50
+    
+    # Should LagFixer break blocks upon detection?
+    break_block:
+      redstone: false
+      piston: false
+    
+    piston:
+      # Materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+      push_blacklist:
+      - SAND
+      - RED_SAND
+      - GRAVEL
+    
+    # Cooldown (in ms) for levers, buttons, redstone torches, etc.
+    click_cooldown: 1500

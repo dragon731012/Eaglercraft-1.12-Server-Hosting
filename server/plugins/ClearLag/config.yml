@@ -40,7 +40,7 @@ global-broadcasts:
 # -- 'follow-stack' Should Clearlag keep printing the stacktrace every time it changes (Can be very spammy)?
 # Help-> https://dev.bukkit.org/projects/clearlagg/pages/finding-the-cause-of-lag-spikes
 lag-spike-helper:
-  enabled: true
+  enabled: false
   min-elapsed-time: 500
   check-interval: 100
   follow-stack: true

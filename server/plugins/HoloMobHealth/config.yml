@@ -1,0 +1,191 @@
+Display:
+  # The text to display above the mob
+  # Placeholders:
+  # {Health_<DecimalFormat>}
+  # {MaxHealth_<DecimalFormat>}
+  # {PercentageHealth_<DecimalFormat>}
+  # .
+  # Example of DecimalFormat:
+  # {Health_0.0} = Health with 1 decimal point
+  # {MaxHealth_#,##0.00} = Health formatted with commas with 2 decimal points
+  # .
+  # For more info:
+  # https://docs.oracle.com/javase/7/docs/api/java/text/DecimalFormat.html
+  # .
+  # Supports custom mob names of supported plugins if enabled
+  # {Mob_Type}
+  # {Mob_Name}
+  # {Mob_Type_Or_Name}
+  # .
+  # These placeholders can be furthered configured
+  # {DynamicColor}
+  # {ScaledSymbols}
+  # .
+  # Javascript placeholders can also be used
+  # For example "VerticalStripedSymbols" will be {VerticalStripedSymbols}
+  # .
+  # Only one line is allowed (Unless you enabled ***EXPERIMENTAL*** multi-line)
+  Text:
+    - "&b{Mob_Type_Or_Name}: {DynamicColor}{Health_0.0}&f/{MaxHealth_0.0}"
+    - If Multiline is enabled, you will see this line
+  # Settings for the {DynamicColor} Placeholder
+  DynamicColorSettings:
+    # Color that represents more than 66.67% of health
+    HealthyColor: "&a"
+    # Color that represents between 33.33% and 66.67% of health
+    HalfColor: "&e"
+    # Color that represents below 33.33% of health
+    LowColor: "&c"
+  # Settings for the {ScaledSymbols} Placeholder
+  ScaledSymbolSettings:
+    # How many of these symbols are considered max health
+    Scale: 10
+    # If DynamicScale is set to true, entities with health lower than the Scale setting
+    # will use the amount of hearts it has rather than the Scale setting
+    DynamicScale: true
+    # Character used for hearts that represents remaining health
+    HealthyChar: "&c❤"
+    # Character used for hearts that represents remaining health
+    HalfChar: "&e❤"
+    # Character used for hearts that represents lost health
+    EmptyChar: "&7❤"
+Options:
+  # Number Rounding Mode
+  # Accepts UP, DOWN, CEILING, FLOOR, HALF_UP, HALF_EVEN, HALF_DOWN
+  NumberRounding: UP
+  # Health always visible when in range or only visible when the player is looking at the mob
+  AlwaysShow: true
+  # Whether named mobs should so had their name replaced to show health
+  # The name is not actually replaced on the server side, only client side
+  # Does not work well with AlwaysShow set to false
+  ApplyToNamed: true
+  # Do not use plugin in these worlds
+  DisabledWorlds:
+    - disabled_world
+  # Do not apply health to these mob types
+  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+  DisabledMobTypes: []
+  # Do not apply health to mob with these name
+  # The name has to be completely equal to this list including color codes
+  # Use "&" as color code
+  DisabledMobNamesAbsolute: []
+  # Do not apply health to mob with these name
+  # The name only has to contain these strings EXCLUDING color codes AND case
+  # Color codes are ignored
+  DisabledMobNamesContains:
+    - PhantomShield
+  # Settings for an alternate way of showing health
+  DynamicHealthDisplay:
+    # Whether HoloMobHealth should only apply health display when the mob is taking damage
+    Use: false
+    # How long should health be shown after the mob has been attack (in seconds)
+    Timeout: 3
+    # Should health be triggered only from attacks from players
+    OnlyPlayerTrigger: false
+    IdleDisplay:
+      # Whether to display an alternative format when a mob is not taking damage
+      Use: false
+      # Placeholders are the same as the main display
+      # Need to have the same number of lines as the main display
+      Text:
+        - "&b{Mob_Type_Or_Name}"
+        - If Multiline is enabled, you will see this line
+  # Settings for the range detection module
+  # Note that disabling it saves performance
+  # Restart to see changes
+  Range:
+    Use: false
+    Distance: 15
+    # Refresh rate of the detection of mobs within range in ticks
+    # 20 ticks = 1 second
+    UpdateRate: 20
+  # The default language
+  # List of languages: "https://loohpjames.com/minecraft/languages/"
+  # Doesn't do anything on Minecraft 1.13+
+  Language: en_us
+  # Enable EXPERIMENTAL multi-line mob name tag
+  # Note that it is a bit more performance heavy
+  # Y-Offset is measured in Steps, accept only integers, experiment with the numbers to find one that is suitable for you
+  # Name match is in Regex, be careful with special meta characters
+  # YOU MUST RESTART TO SEE CHANGES
+  MultiLine:
+    Enable: false
+    MasterYOffset: 0
+    Special:
+      - "Name:^Special Name:2"
+      - "Type:ENDERMITE:1"
+DamageIndicator:
+  # Whether the damage indicator module should be used
+  Enabled: true
+  # Should the damage indicator only be triggered by player actions
+  OnlyPlayerTriggered: false
+  # Visible range of the indicator
+  VisibleRange: 64
+  # When will the indicator disappear
+  # In ticks -> 20 ticks = 1 second
+  Timeout: 40
+  Damage:
+    # Should the damage indicator be enabled for health lost
+    Enabled: true
+    # Play the indicator animation
+    Animation: true
+    # Where should the number spawn
+    "Y-Offset": 0
+    # Minimum amount of health changed in order to trigger
+    Minimum: 0.5
+    # The text which will be displayed
+    # Placeholders are the same as the main display with these additional placeholders:
+    # {Indicator_<DecimalFormat>} <- to show the amount of health lost/gained
+    HoloText: "&c&l{Indicator_0.#}"
+  Regen:
+    # Should the damage indicator be enabled for health gains
+    Enabled: true
+    # Play the indicator animation
+    Animation: true
+    # Where should the number spawn
+    "Y-Offset": 0
+    # Minimum amount of health changed in order to trigger
+    Minimum: 0.5
+    # The text which will be displayed
+    # Placeholders are the same as the main display with these additional placeholders:
+    # {Indicator_<DecimalFormat>} <- to show the amount of health lost/gained
+    HoloText: "&a&l{Indicator_0.#}"
+Hooks:
+  Citizens:
+    # Whether HoloMobHealth should show health for citizens NPCs (applies to mobs only)
+    ShowNPCMobHealth: true
+  MythicMobs:
+    # Whether HoloMobHealth should show health for MythicMobs (applies to mobs only)
+    ShowMythicMobsHealth: true
+    # Whether to prioritize Mythic Mob custom names over Vanilla custom names
+    UseMythicMobCustomNamesFirst: true
+  Shopkeepers:
+    # Whether HoloMobHealth should show health for Shopkeepers (applies to mobs only)
+    ShowShopkeepersHealth: true
+  MyPet:
+    # Whether HoloMobHealth should show health for MyPet pets (applies to mobs only)
+    ShowMyPetHealth: true
+Messages:
+  ReloadPlugin: "&aHoloMobHealth has been reloaded!"
+  NoPermission: "&cYou do not have permission to use that command!"
+  PlayersOnly: "&cThis can only be ran as a player!"
+  PlayerNotFound: "&cThat player is not online!"
+  ToggleDisplayOn: "&aEnabled Mob Health Display!"
+  ToggleDisplayOff: "&cDisabled Mob Health Display!"
+CustomPlaceholderScript:
+  SilentClassNotFound: true
+  AdditionClasses:
+    MythicMobs: io.lumine.mythic.bukkit.MythicBukkit
+Database:
+  # Player data storage type, MYSQL or SQLITE
+  Type: SQLITE
+  MYSQL:
+    Host: localhost
+    Port: 3306
+    Database: HoloMobHealth
+    Username: mysql
+    Password: password
+Settings:
+  SendPacketsOnMainThread: false
+Updater:
+  Enable: true

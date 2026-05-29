@@ -1,0 +1,494 @@
+################################################################
+# Hard-coded stats
+################################################################
+
+ARMOR:
+  Enabled: true
+  Display: 'Armor'
+  Formatting:
+    Additive: '<white><value> Armor'
+    Multiply: '<white><value>% Armor'
+    Compound: '<white><value>x Armor'
+  PlayerBaseValue: 0
+
+ARMOR_TOUGHNESS:
+  Enabled: true
+  Display: 'Armor Toughness'
+  Formatting:
+    Additive: '<white><value> Armor Toughness'
+    Multiply: '<white><value>% Armor Toughness'
+    Compound: '<white><value>x Armor Toughness'
+  PlayerBaseValue: 0
+
+ATTACK_DAMAGE:
+  Enabled: true
+  AlwaysActive: false
+  Display: 'Damage'
+  Type: STATIC
+  Formatting:
+    Additive: '<white><value> Attack Damage'
+    Multiply: '<white><value>% Attack Damage'
+    Compound: '<white><value>x Attack Damage'
+  PlayerBaseValue: 0
+
+ATTACK_SPEED:
+  Enabled: true
+  Display: 'Attack Speed'
+  Type: STATIC
+  Formatting:
+    Additive: '<white><value> Attack Speed'
+    Multiply: '<white><value>% Attack Speed'
+    Compound: '<white><value>x Attack Speed'
+  PlayerBaseValue: 0
+  MinValue: -200
+
+BLOCK_BREAK_SPEED:
+  Enabled: true
+  Display: 'Block Break Speed'
+  Formatting:
+    Additive: '<white><value> Block Break Speed'
+    Multiply: '<white><value>% Block Break Speed'
+    Compound: '<white><value>x Block Break Speed'
+  PlayerBaseValue: 1.0
+
+BLOCK_INTERACTION_RANGE:
+  Enabled: true
+  Display: 'Block Interaction Range'
+  Formatting:
+    Additive: '<white><value> Block Interaction Range'
+    Multiply: '<white><value>% Block Interaction Range'
+    Compound: '<white><value>x Block Interaction Range'
+  PlayerBaseValue: 4.5
+
+BONUS_DAMAGE:
+  Enabled: false
+  Display: 'Bonus Damage'
+  Formatting:
+    Additive: '<white>+<value> Bonus Damage'
+    Multiply: '<white>+<value> Bonus Damage'
+    Compound: '<white>x<value> Bonus Damage'
+  PlayerBaseValue: 0
+
+BURNING_TIME:
+  Enabled: true
+  Display: 'Burning Time'
+  Formatting:
+    Additive: '<white><value> Burning Time'
+    Multiply: '<white><value>% Burning Time'
+    Compound: '<white><value>x Burning Time'
+  PlayerBaseValue: 1
+
+CRITICAL_STRIKE_CHANCE:
+  Enabled: false
+  Display: 'Critical Strike'
+  Formatting:
+    Additive: '<white>+<value> Critical Strike'
+    Multiply: '<white>+<value> Critical Strike'
+    Compound: '<white>x<value> Critical Strike'
+  PlayerBaseValue: 0
+  MinValue: 0
+  Skills:
+    - particles{p=crit;a=50;hS=1;y=1;s=1} @trigger
+
+CRITICAL_STRIKE_DAMAGE:
+  Enabled: false
+  Display: 'Critical Damage'
+  Formatting:
+    Additive: '<white>+<value> Critical Damage'
+    Multiply: '<white>+<value> Critical Damage'
+    Compound: '<white>x<value> Critical Damage'
+  PlayerBaseValue: 1
+
+CRITICAL_STRIKE_RESILIENCE:
+  Enabled: false
+  Display: 'Resilience'
+  Formatting:
+    Additive: '<white>+<value> Resilience'
+    Multiply: '<white>+<value> Resilience'
+    Compound: '<white>x<value> Resilience'
+  PlayerBaseValue: 0
+
+DAMAGE_REDUCTION:
+  Enabled: false
+  Display: 'Damage Reduction'
+  Formatting:
+    Additive: '<white>+<value> Damage Reduction'
+    Multiply: '<white>+<value> Damage Reduction'
+    Compound: '<white>x<value> Damage Reduction'
+  PlayerBaseValue: 0
+
+DEFENSE:
+  Enabled: false
+  Display: 'Defense'
+  Formatting:
+    Additive: '<white>+<value> Defense'
+    Multiply: '<white>+<value> Defense'
+    Compound: '<white>x<value> Defense'
+  PlayerBaseValue: 0
+
+DODGE_CHANCE:
+  Enabled: false
+  Display: 'Dodge'
+  Formatting:
+    Additive: '<white>+<value> Dodge Chance'
+    Multiply: '<white>+<value> Dodge Chance'
+    Compound: '<white>x<value> Dodge Chance'
+  PlayerBaseValue: 0
+  Skills: []
+
+DODGE_NEGATION:
+  Enabled: false
+  Display: 'Accuracy'
+  Formatting:
+    Additive: '<white>+<value> Accuracy'
+    Multiply: '<white>+<value> Accuracy'
+    Compound: '<white>x<value> Accuracy'
+  PlayerBaseValue: 0
+
+ENTITY_INTERACTION_RANGE:
+  Enabled: true
+  Display: 'Attack Reach'
+  Type: STATIC
+  Formatting:
+    Additive: '<white><value> Attack Reach'
+    Multiply: '<white><value>% Attack Reach'
+    Compound: '<white><value>x Attack Reach'
+  PlayerBaseValue: 3.0
+
+EXPLOSION_KNOCKBACK_RESISTANCE:
+    Enabled: false
+    Display: 'Explosion Knockback Resistance'
+    Formatting:
+        Additive: '<white>+<value> Explosion Knockback Resistance'
+        Multiply: '<white>+<value> Explosion Knockback Resistance'
+        Compound: '<white>x<value> Explosion Knockback Resistance'
+    PlayerBaseValue: 0
+
+FALL_DAMAGE_MULTIPLIER:
+  Enabled: true
+  Display: 'Fall Damage Multiplier'
+  Formatting:
+    Additive: '<white><value> Fall Damage Multiplier'
+    Multiply: '<white><value>% Fall Damage Multiplier'
+    Compound: '<white><value>x Fall Damage Multiplier'
+  PlayerBaseValue: 1
+
+FLYING_SPEED:
+  Enabled: true
+  Display: 'Flying Speed'
+  Formatting:
+    Additive: '<white><value> Flying Speed'
+    Multiply: '<white><value>% Flying Speed'
+    Compound: '<white><value>x Flying Speed'
+  PlayerBaseValue: 0.4
+
+FOLLOW_RANGE:
+  Enabled: true
+  Display: 'Follow Range'
+  Formatting:
+    Additive: '<white><value> Follow Range'
+    Multiply: '<white><value>% Follow Range'
+    Compound: '<white><value>x Follow Range'
+  PlayerBaseValue: 16.0
+
+GRAVITY:
+  Enabled: true
+  Display: 'Gravity'
+  Formatting:
+    Additive: '<white><value> Gravity'
+    Multiply: '<white><value>% Gravity'
+    Compound: '<white><value>x Gravity'
+  PlayerBaseValue: 0.08
+
+HEALTH:
+  Enabled: true
+  Display: 'Health'
+  Formatting:
+    Additive: '<white><value> Health'
+    Multiply: '<white><value>% Health'
+    Compound: '<white><value>x Health'
+  PlayerBaseValue: 0
+  MinValue: -19
+
+HEALTH_REGENERATION:
+  Enabled: false
+  Display: 'Health Regeneration'
+  Formatting:
+    Additive: '<white>+<value> Regeneration'
+    Multiply: '<white>+<value> Regeneration'
+    Compound: '<white>x<value> Regeneration'
+  PlayerBaseValue: 0
+  MaxValue: 1000000
+  MinValue: 0
+  Frequency: 60
+
+JUMP_STRENGTH:
+  Enabled: true
+  Type: STATIC
+  Display: 'Jump Strength'
+  Formatting:
+    Additive: '<white><value> Jump Strength'
+    Multiply: '<white><value>% Jump Strength'
+    Compound: '<white><value>x Jump Strength'
+  PlayerBaseValue: 0.42
+
+KNOCKBACK_RESISTANCE:
+  Enabled: true
+  Display: 'Knockback Resistance'
+  Formatting:
+    Additive: '<white><value> Knockback Resistance'
+    Multiply: '<white><value>% Knockback Resistance'
+    Compound: '<white><value>x Knockback Resistance'
+  PlayerBaseValue: 0
+
+LIFESTEAL_CHANCE:
+  Enabled: false
+  Display: 'Lifesteal Chance'
+  Formatting:
+    Additive: '<white>+<value> Lifesteal Chance'
+    Multiply: '<white>+<value> Lifesteal Chance'
+    Compound: '<white>x<value> Lifesteal Chance'
+  PlayerBaseValue: 0
+
+LIFESTEAL_POWER:
+  Enabled: true
+  Display: 'Lifesteal Power'
+  Formatting:
+    Additive: '<white>+<value> Lifesteal Power'
+    Multiply: '<white>+<value> Lifesteal Power'
+    Compound: '<white>x<value> Lifesteal Power'
+  PlayerBaseValue: 0.1
+
+LOOT_BIAS:
+  Enabled: true
+  Display: 'Loot Bias'
+  Formatting:
+    Additive: '<white>+<value> Loot Bias'
+    Multiply: '<white>+<value> Loot Bias'
+    Compound: '<white>x<value> Loot Bias'
+  PlayerBaseValue: 0.0
+
+MINING_EFFICIENCY:
+  Enabled: true
+  Display: 'Mining Efficiency'
+  Formatting:
+    Additive: '<white><value> Mining Efficiency'
+    Multiply: '<white><value>% Mining Efficiency'
+    Compound: '<white><value>x Mining Efficiency'
+  PlayerBaseValue: 0.0
+
+MOVEMENT_EFFICIENCY:
+  Enabled: true
+  Display: 'Movement Efficiency'
+  Formatting:
+    Additive: '<white><value> Movement Efficiency'
+    Multiply: '<white><value>% Movement Efficiency'
+    Compound: '<white><value>x Movement Efficiency'
+  PlayerBaseValue: 0
+
+MOVEMENT_SPEED:
+  Enabled: true
+  Display: 'Movement Speed'
+  Formatting:
+    Additive: '<white><value> Movement Speed'
+    Multiply: '<white><value>% Movement Speed'
+    Compound: '<white><value>x Movement Speed'
+  PlayerBaseValue: 0.2
+
+OXYGEN_BONUS:
+  Enabled: true
+  Display: 'Oxygen Bonus'
+  Formatting:
+    Additive: '<white><value> Oxygen Bonus'
+    Multiply: '<white><value>% Oxygen Bonus'
+    Compound: '<white><value>x Oxygen Bonus'
+  PlayerBaseValue: 0
+
+PARRY_CHANCE:
+  Enabled: false
+  Display: 'Parry Chance'
+  PlayerBaseValue: 0
+  Priority: 0
+  Formatting:
+    Additive: '<white>+<value> Parry Chance'
+    Multiply: '<white>+<value> Parry Chance'
+    Compound: '<white>x<value> Parry Chance'
+  FrontAngle: 180
+  UsableMaterials:
+    - WOODEN_SWORD
+    - STONE_SWORD
+    - GOLDEN_SWORD
+    - IRON_SWORD
+    - DIAMOND_SWORD
+    - NETHERITE_SWORD
+  Skills: []
+
+PARRY_COUNTERATTACK:
+  Enabled: false
+  Display: 'Parry Counterattack'
+  PlayerBaseValue: 1
+  Formatting:
+    Additive: '<white>+<value> Parry Counterattack'
+    Multiply: '<white>+<value> Parry Counterattack'
+    Compound: '<white>x<value> Parry Counterattack'
+
+PARRY_NEGATION:
+  Enabled: false
+  Display: 'Expertise'
+  Formatting:
+    Additive: '<white>+<value> Expertise'
+    Multiply: '<white>+<value> Expertise'
+    Compound: '<white>x<value> Expertise'
+  PlayerBaseValue: 0
+
+PARRY_POWER:
+  Enabled: false
+  Display: 'Parry Power'
+  PlayerBaseValue: 0.5
+  Formatting:
+    Additive: '<white>+<value> Parry Power'
+    Multiply: '<white>+<value> Parry Power'
+    Compound: '<white>x<value> Parry Power'
+
+SAFE_FALL_DISTANCE:
+  Enabled: true
+  Display: 'Safe Fall Distance'
+  Formatting:
+    Additive: '<white><value> Safe Fall Distance'
+    Multiply: '<white><value>% Safe Fall Distance'
+    Compound: '<white><value>x Safe Fall Distance'
+  PlayerBaseValue: 3
+
+SCALE:
+  Enabled: true
+  AlwaysActive: false
+  Display: 'Scale'
+  PlayerBaseValue: 1
+  Formatting:
+    Additive: '<white><value> Scale'
+    Multiply: '<white><value>% Scale'
+    Compound: '<white><value>x Scale'
+
+SNEAKING_SPEED:
+  Enabled: true
+  Display: 'Sneaking Speed'
+  Formatting:
+    Additive: '<white><value> Sneaking Speed'
+    Multiply: '<white><value>% Sneaking Speed'
+    Compound: '<white><value>x Sneaking Speed'
+  PlayerBaseValue: 0.3
+
+STEP_HEIGHT:
+  Enabled: true
+  Display: 'Step Height'
+  Formatting:
+    Additive: '<white><value> Step Height'
+    Multiply: '<white><value>% Step Height'
+    Compound: '<white><value>x Step Height'
+  PlayerBaseValue: 0.5
+
+WATER_MOVEMENT_EFFICIENCY:
+  Enabled: true
+  Display: 'Water Movement Efficiency'
+  Formatting:
+    Additive: '<white><value> Water Movement Efficiency'
+    Multiply: '<white><value>% Water Movement Efficiency'
+    Compound: '<white><value>x Water Movement Efficiency'
+  PlayerBaseValue: 0
+
+################################################################
+#
+# Example Custom Stats
+#
+################################################################
+
+ARMOR_GENERIC:
+  Enabled: false
+  Type: DAMAGE_MODIFIER
+  Triggers:
+    - DAMAGED
+  ExecutionPoint: PRE
+  Display: 'Generic Armor'
+  DamageFormula: 'd - v'
+  PlayerBaseValue: 0
+  Formatting:
+    Additive: '<white>+<value> Generic Armor'
+    Multiply: '<white>+<value> Generic Armor'
+    Compound: '<white>x<value> Generic Armor'
+
+ARMOR_BLUNT:
+  Enabled: false
+  Type: DAMAGE_MODIFIER
+  Triggers:
+    - DAMAGED
+  ExecutionPoint: PRE
+  Display: 'Blunt Armor'
+  DamageType: BLUNT
+  DamageFormula: 'd - v'
+  PlayerBaseValue: 0
+  Formatting:
+    Additive: '<white>+<value> Blunt Armor'
+    Multiply: '<white>+<value> Blunt Armor'
+    Compound: '<white>x<value> Blunt Armor'
+
+ARMOR_SHARP:
+  Enabled: false
+  Type: DAMAGE_MODIFIER
+  Triggers:
+    - DAMAGED
+  ExecutionPoint: PRE
+  Display: 'Sharp Armor'
+  DamageType: SHARP
+  DamageFormula: 'd - v'
+  PlayerBaseValue: 0
+  Formatting:
+    Additive: '<white>+<value> Sharp Armor'
+    Multiply: '<white>+<value> Sharp Armor'
+    Compound: '<white>x<value> Sharp Armor'
+
+DAMAGE_BLUNT:
+  Enabled: false
+  Type: DAMAGE_BONUS
+  Priority: 1
+  Triggers:
+    - ATTACK
+  ExecutionPoint: PRE
+  Display: 'Blunt Damage'
+  DamageType: BLUNT
+  PlayerBaseValue: 0
+  Formatting:
+    Additive: '<white>+<value> Blunt Damage'
+    Multiply: '<white>+<value> Blunt Damage'
+    Compound: '<white>x<value> Blunt Damage'
+
+DAMAGE_SHARP:
+  Enabled: false
+  Type: DAMAGE_BONUS
+  Priority: 2
+  Triggers:
+    - ATTACK
+  ExecutionPoint: PRE
+  Display: 'Sharp Damage'
+  DamageType: SHARP
+  PlayerBaseValue: 0
+  Formatting:
+    Additive: '<white>+<value> Sharp Damage'
+    Multiply: '<white>+<value> Sharp Damage'
+    Compound: '<white>x<value> Sharp Damage'
+
+FIRE_RESISTANCE:
+  Enabled: false
+  Display: 'Fire Resistance'
+  Formatting:
+    Additive: '<white>+<value> Fire Resistance'
+    Multiply: '<white>+<value> Fire Resistance'
+    Compound: '<white>x<value> Fire Resistance'
+  Type: DAMAGE_MODIFIER
+  Triggers:
+    - DAMAGED
+  Conditions:
+    - (damageCause FIRE || damageCause FIRE_TICK)
+  ExecutionPoint: PRE
+  DamageFormula: 'd * (1 - v)'
+  MaxValue: 1
+  MinValue: 0

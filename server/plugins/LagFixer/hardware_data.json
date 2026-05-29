@@ -1,0 +1,13 @@
+{
+  "cpuName": "AMD EPYC 9V74 80-Core Processor",
+  "cpuMicroarchitecture": "Zen 3",
+  "cpuVendorFreq": -1,
+  "logicalCores": 2,
+  "physicalCores": 1,
+  "totalMemory": 8330444800,
+  "pageSize": 4096,
+  "memoryType": "Unknown",
+  "diskCount": 4,
+  "partitionCount": 5,
+  "networkInterfaceCount": 2
+}

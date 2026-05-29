@@ -1,0 +1,38 @@
+msg:
+  duplicate_removed: 'Дубликат предмета удалён: {hash}'
+  cross_duplicate_removed: 'Межинвентарный дубликат удалён: {hash}'
+broadcast:
+  cross_duplicate_removed: '&c[Anti-Dupe] Игрок {player} был пойман на дюпе! (Игрок: {player},
+    Hash: {hash}, Время: {time})'
+  duplicate_removed: '&c[Anti-Dupe] Игрок {player} был пойман на дюпе! (Игрок: {player},
+    Hash: {hash}, Время: {time})'
+cmd:
+  recovery:
+    usage: 'Использование: /antidupe recovery give <player>'
+    given: Последний восстановленный предмет выдан игроку {player}.
+    none: Для этого игрока записи восстановления не найдены.
+  customitem:
+    added: 'Добавлено защищённое пользовательское имя предмета: {name}'
+    list: 'Защищённые пользовательские имена предметов: {names}'
+    removed: 'Удалено защищённое пользовательское имя предмета: {name}'
+prefix: '&c[Anti-Dupe]&r '
+title:
+  no_duping: '&4 ДЮП ЗАПРЕЩЁН! '
+discord:
+  offence_detected:
+    title: Обнаружено нарушение Anti-Dupe
+    description: '{player} вызвал срабатывание Anti-Dupe.'
+  removed_duplicates:
+    title: Anti-Dupe удалил дубликаты предметов
+    description: Дубликаты были удалены и сохранены.
+  ban:
+    title: Бан Anti-Dupe
+    description: '{player} был забанен Anti-Dupe.'
+  field:
+    player: Игрок
+    uuid: UUID
+    world: Мир
+    location: Местоположение
+    action: Действие
+    reason: Причина
+    items: Предметы

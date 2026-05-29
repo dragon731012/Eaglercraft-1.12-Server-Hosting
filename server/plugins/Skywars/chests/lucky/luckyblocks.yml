@@ -1,0 +1,120 @@
+# NTD-LuckyBlock integration (solo lucky mode). This file is the only place lucky block tiers and hand items are read from.
+# On disk: plugins/<plugin>/chests/lucky/luckyblocks.yml (a copy in the plugin folder root is moved here on first startup).
+# After upgrading the jar, missing keys here pick up defaults from the bundled copy (merged in memory on reload / match start).
+#
+# NTD appearance (not a SkyWars bug): NTD uses colored STAINED_GLASS as the visible block and item ("glass with lucky inside").
+# Chest spots become that glass block—players must break it; it is the real lucky block, not a plain decoration.
+# For visuals/drops behavior, see NTD's own config and wiki: https://github.com/danirod12/NTD-LuckyBlock/wiki/Developer-API
+luckyBlocks:
+  # When true, alive players get luckyblock.break.<color> attachments during lucky matches (NTD break-permissions).
+  grantBreakPermissionInMatch: true
+  replaceCenterChests: true
+  registerCustomDrops: false
+
+  # When NTD is present: extra drop hook that pulls random items from SkyWars chest loot YAMLs (chests/normal, basic, op tiers, …)
+  # with the same per-percent rolls as island/center chests.
+  # Twist: one weighted outcome among sus (unlucky effects) / bad (basic chest) / good (match chest tier) / ultra (OP chest + buffs).
+  # Set skywarsOnlyDrops: true to run this hook every break (100%). Then clear NTD factory drops for your colors so only these outcomes fire.
+  chestLootDrops:
+    enabled: true
+    skywarsOnlyDrops: false
+    # Each time NTD invokes this drop, chance (0-100) to add SkyWars loot (ignored when skywarsOnlyDrops is true → always 100).
+    triggerChancePercent: 55
+    # Legacy only: used when twistSusWeight + twistBadLootWeight + twistGoodLootWeight == 0.
+    # Then: chance (0-100) to use BASIC chest tables instead of the match tier (normal or OP).
+    unluckyChancePercent: 32
+    # Legacy item counts (also defaults for badLootItemsMin/Max if those keys are omitted).
+    itemsMin: 1
+    itemsMax: 3
+    # Weighted twist (relative, not percents). Example 20+30+38+12 = 100.
+    twistSusWeight: 20
+    twistBadLootWeight: 30
+    twistGoodLootWeight: 38
+    # Ultra: always opchest.yml / opcenterchest.yml style rolls (Vote OP), extra items + buff pool below.
+    twistUltraWeight: 12
+    ultraLootItemsMin: 3
+    ultraLootItemsMax: 7
+    ultraLootExtraPullPercent: 55
+    ultraMessage: '&6&lJackpot! &7Ultra OP chest loot and a combat buff!'
+    ultraBuffEffects:
+      enabled: true
+      pool:
+        - speed
+        - strength
+        - absorption
+        - regeneration
+        - resistance
+        - fire_resistance
+        - instant_health
+    # Bad twist: always BASIC chest tables (scrap tier).
+    badLootItemsMin: 1
+    badLootItemsMax: 3
+    # Good twist: normal or OP chest tier from match; often more items than bad.
+    goodLootItemsMin: 2
+    goodLootItemsMax: 6
+    # After a good twist, extra chance (0-100) for a small second pull (1–2 items same tier).
+    goodLootExtraPullPercent: 35
+    # Shown only on a *good* loot twist (empty = none). Sus twists use susMessage instead.
+    playerMessage: ''
+    # Shown when the sus twist wins (effects still run if susEffects.enabled).
+    susMessage: '&c&lSus! &7That block had other plans...'
+    susEffects:
+      enabled: true
+      # Spawns 1–3 silverfish near the player when pool rolls silverfish (can be chaotic in SkyWars).
+      allowSilverfish: false
+      # For tiny_damage / pinch_damage in pool: hearts removed (capped in code).
+      tinyDamageHearts: 1.0
+      pool:
+        - lightning_effect
+        - confusion
+        - slowness
+        - hunger
+        - weakness
+        - blindness
+        - levitation
+        - sound_boom
+        - tiny_damage
+
+  # Match-start lucky items: default is console "ntdluckyblock give <player> <color> <amount>" (real NTD items).
+  # Set useConsoleGiveCommands: false to use API item stacks instead (often look like plain glass).
+  handItems:
+    enabled: true
+    useConsoleGiveCommands: true
+    # Command label if your NTD build registers a different name (no leading slash).
+    consoleGiveCommandBase: ntdluckyblock
+    decorateDisplay: true
+    addHelpLore: true
+    # Optional; empty = built-in English lines. %type% = YELLOW, GRAY, etc.
+    helpLore: []
+    luckyType: ''
+    luckyAmount: 10
+    unluckyType: GRAY
+    unluckyAmount: 2
+    funExtraTypes:
+      - LIME
+      - PINK
+      - WHITE
+    funExtraAmountPerType: 2
+    matchStartCommands: []
+
+  luckyBlockBasic:
+    islandType: YELLOW
+    centerType: ORANGE
+    drops:
+      enabled: true
+      chancePercent: 100
+      commandRepeats: 2
+      messages:
+        - "&aLucky Mode! &7%player% broke a lucky block."
+      commands: []
+
+  luckyBlockOp:
+    islandType: RED
+    centerType: PURPLE
+    drops:
+      enabled: true
+      chancePercent: 100
+      commandRepeats: 2
+      messages:
+        - "&cLucky Mode OP drop! &7%player%"
+      commands: []

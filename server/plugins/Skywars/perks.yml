@@ -1,0 +1,448 @@
+# MythicSkywars Perks Configuration
+# Perks are passive abilities that activate during gameplay.
+# Players can unlock perks via the Soul Well or purchase them with coins.
+# Each perk can have multiple upgrade levels.
+#
+# Perk types:
+#   DAMAGE_REDUCTION - Reduces incoming damage by percent (fall, fire, projectile)
+#   KILL_EFFECT      - Grants a potion effect on kill (regen, strength, absorption)
+#   GAME_START       - Grants a potion effect when the game starts (speed, resistance)
+#   ARROW_RECOVERY   - Chance to recover arrows on hit
+#   BLAZING_ARROWS   - Chance to set arrows on fire
+#   NOURISHMENT      - Restores hunger on kill
+#   ENDER_MASTERY    - Reduces ender pearl damage
+#   MINING_EXPERTISE - Chance to get extra ores
+#   KNOWLEDGE        - Grants XP levels on kill
+#   ANNOYOMITE       - Chance to spawn silverfish on arrow hit
+
+enabled: true
+menuSize: 45
+menuTitle: '&5&lSkyWars Perks'
+options-menu-slot: 20
+
+messages:
+  unlocked: '&aUNLOCKED!'
+  upgrade: '&eClick to Upgrade!'
+  maxed: '&6MAX LEVEL'
+  not-owned: '&cFound it in a Soul Well!'
+  already-owned: '&aYou already have this!'
+  toggled-on: '&aEnabled'
+  toggled-off: '&cDisabled'
+  purchased: '&aUnlocked &e{perk} &alevel {level} for &6{cost} coins!'
+  insufficient-funds: '&cNot enough coins! Need &6{cost}&c.'
+  soulwell-unlock: '&dSoul Well: unlocked perk &e{perk} &dlevel {level}!'
+
+perks:
+  fallreduction:
+    name: '&aFall Reduction'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7Reduce fall damage by &e{percent}%&7.'
+    - ''
+    - '&7Rarity: &aCOMMON'
+    icon: DIAMOND_BOOTS
+    slot: 10
+    type: DAMAGE_REDUCTION
+    damageType: FALL
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 10
+        cost: 500
+      2:
+        percent: 20
+        cost: 750
+      3:
+        percent: 30
+        cost: 1000
+      4:
+        percent: 40
+        cost: 1500
+
+  firedamagereduction:
+    name: '&aFire Damage Reduction'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7Reduce fire damage by &e{percent}%&7.'
+    - ''
+    - '&7Rarity: &aCOMMON'
+    icon: FLINT_AND_STEEL
+    slot: 11
+    type: DAMAGE_REDUCTION
+    damageType: FIRE
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 10
+        cost: 500
+      2:
+        percent: 15
+        cost: 750
+      3:
+        percent: 20
+        cost: 1000
+      4:
+        percent: 30
+        cost: 1500
+
+  shotdamagereduction:
+    name: '&aShot Damage Reduction'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7Reduce projectile damage by &e{percent}%&7.'
+    - ''
+    - '&7Rarity: &aCOMMON'
+    icon: BOW
+    slot: 12
+    type: DAMAGE_REDUCTION
+    damageType: PROJECTILE
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 5
+        cost: 500
+      2:
+        percent: 10
+        cost: 750
+      3:
+        percent: 15
+        cost: 1000
+      4:
+        percent: 20
+        cost: 1500
+
+  annoyomite:
+    name: '&aAnno-o-Mite'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7{percent}% chance to spawn a silverfish'
+    - '&7when your arrow hits an enemy.'
+    - ''
+    - '&7Rarity: &9RARE'
+    icon: SNOWBALL
+    slot: 13
+    type: ANNOYOMITE
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 5
+        cost: 750
+      2:
+        percent: 10
+        cost: 1000
+      3:
+        percent: 15
+        cost: 1500
+      4:
+        percent: 20
+        cost: 2000
+
+  arrowrecovery:
+    name: '&aArrow Recovery'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7{percent}% chance to recover your arrow'
+    - '&7when hitting an enemy.'
+    - ''
+    - '&7Rarity: &5EPIC'
+    icon: ARROW
+    slot: 14
+    type: ARROW_RECOVERY
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 10
+        cost: 1000
+      2:
+        percent: 15
+        cost: 1500
+      3:
+        percent: 20
+        cost: 2000
+      4:
+        percent: 30
+        cost: 3000
+
+  blazingarrows:
+    name: '&aBlazing Arrows'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7{percent}% chance to shoot'
+    - '&7a flaming arrow.'
+    - ''
+    - '&7Rarity: &5EPIC'
+    icon: BLAZE_POWDER
+    slot: 15
+    type: BLAZING_ARROWS
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 3
+        cost: 1000
+      2:
+        percent: 5
+        cost: 1500
+      3:
+        percent: 8
+        cost: 2000
+      4:
+        percent: 12
+        cost: 3000
+
+  bulldozer:
+    name: '&aBulldozer'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7Gain Strength I for {duration}s on kill.'
+    - ''
+    - '&7Rarity: &6LEGENDARY'
+    icon: ANVIL
+    slot: 16
+    type: KILL_EFFECT
+    effect: INCREASE_DAMAGE
+    amplifier: 0
+    duration: 5
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 100
+        cost: 2000
+
+  endermastery:
+    name: '&aEnder Mastery'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7Reduce ender pearl damage by &e{percent}%&7.'
+    - ''
+    - '&7Rarity: &6LEGENDARY'
+    icon: ENDER_PEARL
+    slot: 19
+    type: ENDER_MASTERY
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 40
+        cost: 1500
+      2:
+        percent: 50
+        cost: 2000
+      3:
+        percent: 60
+        cost: 3000
+
+  juggernaut:
+    name: '&aJuggernaut'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7Gain Regeneration I for {duration}s on kill.'
+    - ''
+    - '&7Rarity: &6LEGENDARY'
+    icon: DIAMOND_HELMET
+    slot: 20
+    type: KILL_EFFECT
+    effect: REGENERATION
+    amplifier: 0
+    duration: 4
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 100
+        cost: 2000
+
+  knowledge:
+    name: '&aKnowledge'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7Gain 2 XP levels on kill.'
+    - ''
+    - '&7Rarity: &6LEGENDARY'
+    icon: EXPERIENCE_BOTTLE
+    slot: 21
+    type: KNOWLEDGE
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 100
+        cost: 2000
+
+  miningexpertise:
+    name: '&aMining Expertise'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7{percent}% chance to get 1 extra ore'
+    - '&7per block mined.'
+    - ''
+    - '&7Rarity: &6LEGENDARY'
+    icon: DIAMOND_PICKAXE
+    slot: 22
+    type: MINING_EXPERTISE
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 20
+        cost: 1500
+      2:
+        percent: 30
+        cost: 2000
+      3:
+        percent: 40
+        cost: 3000
+      4:
+        percent: 50
+        cost: 4000
+
+  speedboost:
+    name: '&aSpeed Boost'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7Gain Speed I for {duration}s when the game starts.'
+    - ''
+    - '&7Rarity: &aCOMMON'
+    icon: FEATHER
+    slot: 23
+    type: GAME_START
+    effect: SPEED
+    amplifier: 0
+    duration: 10
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 100
+        cost: 500
+      2:
+        percent: 100
+        cost: 750
+        duration: 15
+
+  resistanceboost:
+    name: '&aResistance Boost'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7Gain Resistance I for {duration}s when the game starts.'
+    - ''
+    - '&7Rarity: &9RARE'
+    icon: IRON_CHESTPLATE
+    slot: 24
+    type: GAME_START
+    effect: DAMAGE_RESISTANCE
+    amplifier: 0
+    duration: 10
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 100
+        cost: 1000
+
+  nourishment:
+    name: '&aNourishment'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7{percent}% chance to restore full hunger on kill.'
+    - ''
+    - '&7Rarity: &aCOMMON'
+    icon: BREAD
+    slot: 25
+    type: NOURISHMENT
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 25
+        cost: 500
+      2:
+        percent: 35
+        cost: 750
+      3:
+        percent: 50
+        cost: 1000
+      4:
+        percent: 75
+        cost: 1500
+
+  savior:
+    name: '&aSavior'
+    lore:
+    - '&8SkyWars Perk'
+    - ''
+    - '&7{percent}% chance to gain Absorption I'
+    - '&7for {duration}s on kill.'
+    - ''
+    - '&7Rarity: &aCOMMON'
+    icon: GOLDEN_APPLE
+    slot: 28
+    type: KILL_EFFECT
+    effect: ABSORPTION
+    amplifier: 0
+    duration: 4
+    disabled: false
+    gameTypes:
+    - SOLO
+    - TEAM
+    levels:
+      1:
+        percent: 25
+        cost: 500
+      2:
+        percent: 35
+        cost: 750
+      3:
+        percent: 50
+        cost: 1000
+      4:
+        percent: 75
+        cost: 1500

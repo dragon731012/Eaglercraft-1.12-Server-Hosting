@@ -1,0 +1,20 @@
+voice_stun_servers:
+- 'stun:stun.l.google.com:19302'
+- 'stun:stun1.l.google.com:19302'
+- 'stun:stun2.l.google.com:19302'
+- 'stun:stun3.l.google.com:19302'
+- 'stun:stun4.l.google.com:19302'
+- 'stun:openrelay.metered.ca:80'
+voice_turn_servers:
+  openrelay1:
+    url: 'turn:openrelay.metered.ca:80'
+    username: 'openrelayproject'
+    password: 'openrelayproject'
+  openrelay2:
+    url: 'turn:openrelay.metered.ca:443'
+    username: 'openrelayproject'
+    password: 'openrelayproject'
+  openrelay3:
+    url: 'turn:openrelay.metered.ca:443?transport=tcp'
+    username: 'openrelayproject'
+    password: 'openrelayproject'

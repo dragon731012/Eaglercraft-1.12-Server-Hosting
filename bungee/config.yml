@@ -12,7 +12,7 @@ listeners:
   - lobby
   bind_local_address: false
   host: 127.0.0.1:25577
-  max_players: 1
+  max_players: 100
   tab_size: 60
   force_default_server: true
 remote_ping_cache: -1
